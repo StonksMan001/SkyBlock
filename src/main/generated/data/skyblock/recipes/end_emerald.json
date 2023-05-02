@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "skyblock:end_emerald_ore"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "skyblock:end_emerald"
+  }
+}

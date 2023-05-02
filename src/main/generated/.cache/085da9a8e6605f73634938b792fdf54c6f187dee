@@ -1,0 +1,12 @@
+// 1.19.3	2023-04-28T12:48:54.8089822	SkyBlock/Model Definitions
+85fe5b705994cb49cb709f15d3aad3526b095714 assets\skyblock\models\item\end_emerald_block.json
+b402f0993abb3840a28c5b08aa2234ba8146f772 assets\skyblock\models\item\fyberite_ingot.json
+59ab743136e287418c4049e0e6ff235e598de96b assets\skyblock\blockstates\void_block.json
+51ab55e2ba52230892644d43f88268cbf540bbf9 assets\skyblock\models\block\void_block.json
+5866afb25fd0008dfb719379e6facf92ef835f1e assets\skyblock\models\block\end_emerald_block.json
+c2fd096c0ad43fb8512aef0d2f627a5eaa2d8bef assets\skyblock\models\item\end_emerald_ore.json
+ef036765a018306748a5f46dc0d6bb17ec8a97e5 assets\skyblock\blockstates\end_emerald_ore.json
+af77d16bf587ecae6af148dbe5aabd4db3684215 assets\skyblock\models\block\end_emerald_ore.json
+3c46fa3018ba541aa178a51a0c1b2356c4a215fe assets\skyblock\models\item\void_block.json
+8ba7b11794b0be5cb4d056b3cb5f962abfb952ec assets\skyblock\blockstates\end_emerald_block.json
+58a09aa6c8054e1e821a186b2a1d5e028a9261b0 assets\skyblock\models\item\end_emerald.json

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "skyblock",
+  "version": "${version}",
+
+  "name": "SkyBlock",
+  "description": "lol xd",
+  "authors": [
+    "Qbaesz13"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.me.skyblock.SkyBlock"
+    ],
+    "client": [
+      "net.me.skyblock.SkyBlockClient"
+    ],
+    "fabric-datagen": [
+      "net.me.skyblock.SkyBlockDataGenerator"
+    ]
+  },
+  "mixins": [
+    "skyblock.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "skyblock:block/suspicious_coarse_dirt"
+  }
+}

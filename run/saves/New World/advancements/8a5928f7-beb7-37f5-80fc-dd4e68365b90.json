@@ -1,0 +1,63 @@
+{
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2023-04-28 14:29:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2023-04-28 14:40:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "honey_bottle": "2023-04-28 14:38:46 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2023-04-28 14:39:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-04-28 14:38:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-04-28 14:40:19 +0200"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2023-04-28 14:29:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2023-04-28 14:29:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:wooded_badlands": "2023-04-28 14:29:59 +0200"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-04-28 14:31:35 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}

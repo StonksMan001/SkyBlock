@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2023-02-16 10:24:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2023-02-16 10:24:34 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3218
+}

@@ -1,0 +1,59 @@
+{
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2023-04-28 12:44:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2023-04-28 12:45:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2023-04-28 12:44:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2023-04-28 12:40:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2023-04-28 12:40:41 +0200"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2023-04-28 12:40:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2023-04-28 12:45:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2023-04-28 12:44:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:wooded_badlands": "2023-04-28 12:42:18 +0200",
+      "minecraft:badlands": "2023-04-28 12:41:05 +0200",
+      "minecraft:savanna": "2023-04-28 12:40:42 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3218
+}

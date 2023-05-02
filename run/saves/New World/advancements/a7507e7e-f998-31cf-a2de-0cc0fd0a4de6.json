@@ -1,0 +1,15 @@
+{
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2023-04-28 12:52:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:wooded_badlands": "2023-04-28 12:52:33 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3218
+}

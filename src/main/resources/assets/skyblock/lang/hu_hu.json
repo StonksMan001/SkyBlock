@@ -1,11 +1,13 @@
 {
   "item.skyblock.fyberite_ingot": "Fiberit rúd",
   "block.skyblock.void_block": "Űrblokk",
-  "block.skyblock.end_emerald_block": "Végsmaragdblokk",
-  "block.skyblock.end_emerald_ore": "Végsmaragdérc",
-  "item.skyblock.end_emerald": "Végsmaragd",
+  "block.skyblock.end_emerald_block": "Endsmaragdblokk",
+  "block.skyblock.end_emerald_ore": "Endsmaragdérc",
+  "item.skyblock.end_emerald": "Endsmaragd",
   "block.skyblock.ant_jam_block": "Hangyalekvárblokk",
   "block.skyblock.suspicious_coarse_dirt": "Gyanús terméketlen föld",
   "item.skyblock.ant_bottle": "Hangyásüveg",
-  "item.skyblock.bottle_of_ant_jam": "Hangyalekvár"
+  "item.skyblock.bottle_of_ant_jam": "Hangyalekvár",
+  "block.skyblock.end_grass": "Füves endkő",
+  "block.skyblock.bluishe_end_stone": "Bluishe lélekfüves endkő"
 }

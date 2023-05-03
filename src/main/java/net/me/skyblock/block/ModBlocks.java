@@ -24,6 +24,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);
     public static final Block END_GRASS = registerBlock("end_grass",
             new Block(FabricBlockSettings.copy(Blocks.END_STONE).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);
+    public static final Block BLUISHE_GRASS = registerBlock("bluishe_end_stone",
+            new Block(FabricBlockSettings.copy(Blocks.END_STONE).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);
     public static final Block ANT_JAM_BLOCK = registerBlock("ant_jam_block",
             new HoneyBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.1f).requiresTool()), ModItemGroup.FYBERITE);
     public static final Block SUSPICIOUS_COARSE_DIRT = registerBlock("suspicious_coarse_dirt",

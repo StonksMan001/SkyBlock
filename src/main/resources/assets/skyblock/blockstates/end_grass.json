@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/void_block" }
+    "": { "model": "skyblock:block/end_grass" }
   }
 }

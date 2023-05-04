@@ -29,16 +29,16 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);
     public static final Block ENDERITE_ORE = registerBlock("enderite_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);
-    public static final Block ENDERITE_BLOCK = registerBlock("end_emerald_block",
+    public static final Block ENDERITE_BLOCK = registerBlock("enderite_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);
     public static final Block END_GRASS = registerBlock("end_grass",
             new Block(FabricBlockSettings.copy(Blocks.END_STONE).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);
     public static final Block BLUISHE_GRASS = registerBlock("bluishe_end_stone",
             new Block(FabricBlockSettings.copy(Blocks.END_STONE).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);
     public static final Block ANT_JAM_BLOCK = registerBlock("ant_jam_block",
-            new HoneyBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.1f).requiresTool()), ModItemGroup.FYBERITE);
+            new HoneyBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.1f)), ModItemGroup.FYBERITE);
     public static final Block SUSPICIOUS_COARSE_DIRT = registerBlock("suspicious_coarse_dirt",
-            new SuspiciousCoarseDirt(FabricBlockSettings.copy(Blocks.COARSE_DIRT).strength(3.0f).requiresTool().luminance(state -> state.get(SuspiciousCoarseDirt.ANT) ? 0 : 0)), ModItemGroup.FYBERITE);
+            new SuspiciousCoarseDirt(FabricBlockSettings.copy(Blocks.COARSE_DIRT).strength(3.0f).luminance(state -> state.get(SuspiciousCoarseDirt.ANT) ? 0 : 0)), ModItemGroup.FYBERITE);
     public static final Block TRANSPARENT_BLOCK = registerBlock("transparent_block",
             new GlassBlock(FabricBlockSettings.copy(Blocks.BLACK_STAINED_GLASS).sounds(BlockSoundGroup.WART_BLOCK).strength(1.0f)), ModItemGroup.FYBERITE);
     public static final Block END_WART_BLOCK = registerBlock("end_wart_block",

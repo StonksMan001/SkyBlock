@@ -31,6 +31,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);
     public static final Block ENDERITE_BLOCK = registerBlock("enderite_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);
+    public static final Block ASTEROID_RESIDUES = registerBlock("asteroid_residues",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);
+    public static final Block SOLID_ROCK = registerBlock("solid_rock",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);
     public static final Block END_GRASS = registerBlock("end_grass",
             new Block(FabricBlockSettings.copy(Blocks.END_STONE).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);
     public static final Block BLUISHE_GRASS = registerBlock("bluishe_end_stone",

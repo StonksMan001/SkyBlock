@@ -14,5 +14,7 @@
   "block.skyblock.end_wart_block": "End Wart Block",
   "block.skyblock.blue_wart": "Bluishe Wart Block",
   "block.skyblock.enderite_block": "Enderite Block",
-  "block.skyblock.enderite_ore": "Enderite Ore"
+  "block.skyblock.enderite_ore": "Enderite Ore",
+  "block.skyblock.asteroid_residues": "Asteroid Residues",
+  "block.skyblock.solid_rock": "Melted End Stone"
 }

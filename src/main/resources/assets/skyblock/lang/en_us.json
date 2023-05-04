@@ -9,5 +9,8 @@
   "item.skyblock.ant_bottle": "Bottle of Ants",
   "item.skyblock.bottle_of_ant_jam": "Bottle of Ant Jam",
   "block.skyblock.end_grass": "End Grass",
-  "block.skyblock.bluishe_end_stone": "Bluishe Soul Grass"
+  "block.skyblock.bluishe_end_stone": "Bluishe Soul Grass",
+  "block.skyblock.transparent_block": "Ender Warped Block",
+  "block.skyblock.end_wart_block": "End Wart Block",
+  "block.skyblock.blue_wart": "Bluishe Wart Block"
 }

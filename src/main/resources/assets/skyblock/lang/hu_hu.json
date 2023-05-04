@@ -9,5 +9,8 @@
   "item.skyblock.ant_bottle": "Hangyásüveg",
   "item.skyblock.bottle_of_ant_jam": "Hangyalekvár",
   "block.skyblock.end_grass": "Füves endkő",
-  "block.skyblock.bluishe_end_stone": "Bluishe lélekfüves endkő"
+  "block.skyblock.bluishe_end_stone": "Bluishe lélekfüves endkő",
+  "block.skyblock.transparent_block": "Deformált endbibircsókblokk",
+  "block.skyblock.end_wart_block": "End bibircsókblokk",
+  "block.skyblock.blue_wart": "Bluishe bibircsókblokk"
 }

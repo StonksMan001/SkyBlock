@@ -1,37 +1,19 @@
 {
-  "betterend:recipes/decorations/gold_chandelier": {
-    "criteria": {
-      "has_682_gold_ingot": "2023-04-25 19:21:15 +0200"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/aeternium_block": {
     "criteria": {
       "has_597_aeternium_ingot": "2023-04-25 19:21:15 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/glow_item_frame": {
+  "bclib:recipes/decorations/tag_cauldron": {
     "criteria": {
-      "has_item_frame": "2023-04-25 19:21:15 +0200"
+      "has_tag_iron_ingots": "2023-05-04 10:29:07 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/tools/netherite_hoe_smithing": {
+  "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
-      "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/lightning_rod": {
-    "criteria": {
-      "has_copper_ingot": "2023-04-25 19:21:15 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/netherite_axe_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
     },
     "done": true
   },
@@ -53,21 +35,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/netherite_sword_smithing": {
+  "minecraft:recipes/combat/iron_sword": {
     "criteria": {
-      "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
-    },
-    "done": true
-  },
-  "betterend:recipes/tools/golden_hammer": {
-    "criteria": {
-      "has_688_gold_ingot": "2023-04-25 19:21:15 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget": {
-    "criteria": {
-      "has_gold_ingot": "2023-04-25 19:21:15 +0200"
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
     },
     "done": true
   },
@@ -77,9 +47,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/golden_axe": {
+  "betterend:recipes/decorations/iron_chandelier": {
     "criteria": {
-      "has_gold_ingot": "2023-04-25 19:21:15 +0200"
+      "has_680_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/decorations/tag_minecart": {
+    "criteria": {
+      "has_tag_iron_ingots": "2023-05-04 10:29:07 +0200"
     },
     "done": true
   },
@@ -89,21 +65,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/golden_leggings": {
+  "bclib:recipes/decorations/tag_compass": {
     "criteria": {
-      "has_gold_ingot": "2023-04-25 19:21:15 +0200"
+      "has_tag_iron_ingots": "2023-05-04 10:29:07 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/combat/netherite_helmet_smithing": {
+  "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
-      "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_helmet": {
-    "criteria": {
-      "has_gold_ingot": "2023-04-25 19:21:15 +0200"
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
     },
     "done": true
   },
@@ -113,15 +83,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+  "minecraft:recipes/transportation/minecart": {
     "criteria": {
-      "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_hopper": {
+  "betterend:recipes/decorations/iron_bulb_lantern": {
     "criteria": {
-      "has_tag_chest": "2023-04-25 19:21:15 +0200"
+      "has_628_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2023-05-04 10:29:07 +0200"
     },
     "done": true
   },
@@ -131,9 +107,21 @@
     },
     "done": false
   },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_redstone_block": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_honeycomb": "2023-05-04 10:29:07 +0200"
     },
     "done": true
   },
@@ -149,6 +137,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/decorations/tag_bucket": {
+    "criteria": {
+      "has_tag_iron_ingots": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_leggings_smithing": {
     "criteria": {
       "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
@@ -158,6 +158,12 @@
   "minecraft:recipes/building_blocks/netherite_block": {
     "criteria": {
       "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
     },
     "done": true
   },
@@ -185,9 +191,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/netherite_boots_smithing": {
+  "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
-      "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
     },
     "done": true
   },
@@ -197,9 +203,261 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_chestplate_smithing": {
     "criteria": {
       "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/decorations/tag_rail": {
+    "criteria": {
+      "has_tag_iron_ingots": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/decorations/tag_smith_table": {
+    "criteria": {
+      "has_tag_iron_ingots": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/tools/iron_hammer": {
+    "criteria": {
+      "has_686_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/gold_chandelier": {
+    "criteria": {
+      "has_682_gold_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/tools/golden_hammer": {
+    "criteria": {
+      "has_688_gold_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/decorations/tag_hopper": {
+    "criteria": {
+      "has_tag_chest": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/decorations/tag_shield": {
+    "criteria": {
+      "has_tag_iron_ingots": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2023-05-04 10:29:07 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/decorations/tag_piston": {
+    "criteria": {
+      "has_tag_iron_ingots": "2023-05-04 10:29:07 +0200"
     },
     "done": true
   },
@@ -215,9 +473,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+  "bclib:recipes/decorations/tag_stonecutter": {
     "criteria": {
-      "has_gold_ingot": "2023-04-25 19:21:15 +0200"
+      "has_tag_iron_ingots": "2023-05-04 10:29:07 +0200"
     },
     "done": true
   },
@@ -230,6 +488,12 @@
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2023-04-25 19:21:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-04 10:29:07 +0200"
     },
     "done": true
   },

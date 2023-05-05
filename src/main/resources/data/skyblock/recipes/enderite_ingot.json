@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:enderite_block"
+    }
+  ],
+  "result": {
+    "item": "skyblock:enderite_ingot",
+    "count": 9
+  }
+}

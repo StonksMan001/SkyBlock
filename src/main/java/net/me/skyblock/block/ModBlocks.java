@@ -64,6 +64,8 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_CRIMSON_STEM).strength(2.0f)), ModItemGroup.FYBERITE);
     public static final Block STRIPPED_END_HYPHAE = registerBlock("stripped_end_hyphae",
             new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_CRIMSON_HYPHAE).strength(2.0f)), ModItemGroup.FYBERITE);
+    public static final Block ENDLIGHT = registerBlock("endlight",
+            new Block(FabricBlockSettings.copy(Blocks.SHROOMLIGHT).strength(1.0f)), ModItemGroup.FYBERITE);
     public static final Block END_PLANKS = registerBlock("end_planks",
             new Block(FabricBlockSettings.copy(Blocks.CRIMSON_PLANKS).strength(2.0f)), ModItemGroup.FYBERITE);
     //END TREE

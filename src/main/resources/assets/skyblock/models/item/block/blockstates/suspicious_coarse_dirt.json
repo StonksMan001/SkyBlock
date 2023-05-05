@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "ant=true": { "model": "skyblock:block/suspicious_coarse_dirt" },
+    "ant=false": { "model": "skyblock:block/suspicious_coarse_dirt_empty" }
+  }
+}

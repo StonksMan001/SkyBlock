@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyblock:block/end_log_top",
+    "side": "skyblock:block/end_log_side"
+  }
+}

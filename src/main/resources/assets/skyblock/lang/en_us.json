@@ -18,5 +18,10 @@
   "block.skyblock.enderite_block": "Enderite Block",
   "block.skyblock.enderite_ore": "Enderite Ore",
   "block.skyblock.asteroid_residues": "Asteroid Residues",
-  "block.skyblock.solid_rock": "Melted End Stone"
+  "block.skyblock.solid_rock": "Melted End Stone",
+  "block.skyblock.end_stem": "End Log",
+  "block.skyblock.end_hyphae": "End Wood",
+  "block.skyblock.stripped_end_stem": "Stripped End Log",
+  "block.skyblock.stripped_end_hyphae": "Stripped End Wood",
+  "block.skyblock.end_planks": "End Planks"
 }

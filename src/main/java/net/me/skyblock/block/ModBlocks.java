@@ -57,18 +57,15 @@ public class ModBlocks {
     //END WARTS
     //END TREE
     public static final Block END_STEM = registerBlock("end_stem",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.CRIMSON_STEM).strength(4.0f)), ModItemGroup.FYBERITE);
+            new PillarBlock(FabricBlockSettings.copy(Blocks.CRIMSON_STEM).strength(2.0f)), ModItemGroup.FYBERITE);
     public static final Block END_HYPHAE = registerBlock("end_hyphae",
-            new Block(FabricBlockSettings.copy(Blocks.CRIMSON_HYPHAE).strength(4.0f)), ModItemGroup.FYBERITE);
+            new PillarBlock(FabricBlockSettings.copy(Blocks.CRIMSON_HYPHAE).strength(2.0f)), ModItemGroup.FYBERITE);
     public static final Block STRIPPED_END_STEM = registerBlock("stripped_end_stem",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_CRIMSON_STEM).strength(4.0f)), ModItemGroup.FYBERITE);
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_CRIMSON_STEM).strength(2.0f)), ModItemGroup.FYBERITE);
     public static final Block STRIPPED_END_HYPHAE = registerBlock("stripped_end_hyphae",
-            new Block(FabricBlockSettings.copy(Blocks.STRIPPED_CRIMSON_HYPHAE).strength(4.0f)), ModItemGroup.FYBERITE);
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_CRIMSON_HYPHAE).strength(2.0f)), ModItemGroup.FYBERITE);
     public static final Block END_PLANKS = registerBlock("end_planks",
-            new Block(FabricBlockSettings.copy(Blocks.CRIMSON_PLANKS).strength(4.0f)), ModItemGroup.FYBERITE);
-    public static final Block X = registerBlock("",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.CRIMSON_STEM).strength(4.0f)), ModItemGroup.FYBERITE);
-
+            new Block(FabricBlockSettings.copy(Blocks.CRIMSON_PLANKS).strength(2.0f)), ModItemGroup.FYBERITE);
     //END TREE
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

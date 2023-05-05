@@ -1,0 +1,111 @@
+{
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_stone_furnace": {
+    "criteria": {
+      "has_694_end_stone": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2023-05-05 13:12:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/infusion_pedestal": {
+    "criteria": {
+      "has_596_obsidian": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2023-05-05 13:27:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/sulphur_gunpowder": {
+    "criteria": {
+      "has_658_bone_meal": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2023-05-05 13:12:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-05-05 13:12:53 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3218
+}

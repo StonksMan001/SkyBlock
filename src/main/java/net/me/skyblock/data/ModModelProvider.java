@@ -18,6 +18,10 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VOID_BLOCK);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ENDMERALD_BLOCK);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ENDMERALD_ORE);
+
+        blockStateModelGenerator.registerLog(ModBlocks.END_STEM).log(ModBlocks.END_STEM).wood(ModBlocks.END_HYPHAE);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_END_STEM).log(ModBlocks.STRIPPED_END_STEM).wood(ModBlocks.STRIPPED_END_HYPHAE);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.END_PLANKS);
     }
 
     @Override

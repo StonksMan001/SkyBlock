@@ -18,5 +18,10 @@
   "block.skyblock.enderite_block": "Végérc blokk",
   "block.skyblock.enderite_ore": "Végérc",
   "block.skyblock.asteroid_residues": "Aszteroida maradványok",
-  "block.skyblock.solid_rock": "Olvadt endkő"
+  "block.skyblock.solid_rock": "Olvadt endkő",
+  "block.skyblock.end_stem": "Vég tönk",
+  "block.skyblock.end_hyphae": "Vég gombafonalak",
+  "block.skyblock.stripped_end_stem": "Kérgezett vég tönk",
+  "block.skyblock.stripped_end_hyphae": "Kérgezett vég gombafonalak",
+  "block.skyblock.end_planks": "Vég deszka"
 }

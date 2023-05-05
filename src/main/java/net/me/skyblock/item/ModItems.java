@@ -3,8 +3,10 @@ package net.me.skyblock.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.me.skyblock.SkyBlock;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.me.skyblock.item.custom.ModArmorMaterials;
+import net.me.skyblock.item.custom.ModAxeItem;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -16,8 +18,29 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item MELTE_RESIDUES = registerItem("melte_residues",
             new Item(new FabricItemSettings()));
+    //ENDERITE
     public static final Item ENDERITE_INGOT = registerItem("enderite_ingot",
             new Item(new FabricItemSettings()));
+    public static final Item ENDERITE_HELMET = registerItem("enderite_helmet",
+            new ArmorItem(ModArmorMaterials.ENDERITE, EquipmentSlot.HEAD, new FabricItemSettings()));
+    public static final Item ENDERITE_CHESTPLATE = registerItem("enderite_chestplate",
+            new ArmorItem(ModArmorMaterials.ENDERITE, EquipmentSlot.CHEST, new FabricItemSettings()));
+    public static final Item ENDERITE_LEGGINGS = registerItem("enderite_leggings",
+            new ArmorItem(ModArmorMaterials.ENDERITE, EquipmentSlot.LEGS, new FabricItemSettings()));
+    public static final Item ENDERITE_BOOTS = registerItem("enderite_boots",
+            new ArmorItem(ModArmorMaterials.ENDERITE, EquipmentSlot.FEET, new FabricItemSettings()));
+
+    public static final Item ENDERITE_SWORD = registerItem("enderite_sword",
+            new SwordItem(ModToolMaterials.ENDERITE, 2, -2.4f, new FabricItemSettings()));
+    public static final Item ENDERITE_AXE = registerItem("enderite_axe",
+            new ModAxeItem(ModToolMaterials.ENDERITE, 4, -3.0f, new FabricItemSettings()));
+    public static final Item ENDERITE_SHOVEL = registerItem("enderite_shovel",
+            new ShovelItem(ModToolMaterials.ENDERITE, 1, -3.0f, new FabricItemSettings()));
+    public static final Item ENDERITE_HOE = registerItem("enderite_hoe",
+            new HoeItem(ModToolMaterials.ENDERITE, -4, 1.5f, new FabricItemSettings()));
+    public static final Item ENDERITE_PICKAXE = registerItem("enderite_pickaxe",
+            new PickaxeItem(ModToolMaterials.ENDERITE, 0, -2.8f, new FabricItemSettings()));
+    //ENDERITE
     public static final Item ANT_BOTTLE = registerItem("ant_bottle",
             new Item(new FabricItemSettings()));
     public static final Item BOTTLE_OF_ANT_JAM = registerItem("bottle_of_ant_jam",
@@ -34,6 +57,15 @@ public class ModItems {
         addToItemGroup(ModItemGroup.FYBERITE, ANT_BOTTLE);
         addToItemGroup(ModItemGroup.FYBERITE, BOTTLE_OF_ANT_JAM);
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_INGOT);
+        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_HELMET);
+        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_CHESTPLATE);
+        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_LEGGINGS);
+        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_BOOTS);
+        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_SWORD);
+        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_AXE);
+        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_PICKAXE);
+        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_HOE);
+        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_SHOVEL);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {

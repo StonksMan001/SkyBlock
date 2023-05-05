@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "skyblock:void_block",
-    "skyblock:ant_jam_block"
+    "skyblock:transparent_block",
+    "skyblock:blue_wart",
+    "skyblock:end_wart_block"
   ]
 }

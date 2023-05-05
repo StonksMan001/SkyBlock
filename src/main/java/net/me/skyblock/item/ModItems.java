@@ -14,6 +14,10 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item ENDMERALD = registerItem("end_emerald",
             new Item(new FabricItemSettings()));
+    public static final Item MELTE_RESIDUES = registerItem("melte_residues",
+            new Item(new FabricItemSettings()));
+    public static final Item ENDERITE_INGOT = registerItem("enderite_ingot",
+            new Item(new FabricItemSettings()));
     public static final Item ANT_BOTTLE = registerItem("ant_bottle",
             new Item(new FabricItemSettings()));
     public static final Item BOTTLE_OF_ANT_JAM = registerItem("bottle_of_ant_jam",
@@ -29,6 +33,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.FYBERITE, ENDMERALD);
         addToItemGroup(ModItemGroup.FYBERITE, ANT_BOTTLE);
         addToItemGroup(ModItemGroup.FYBERITE, BOTTLE_OF_ANT_JAM);
+        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_INGOT);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {

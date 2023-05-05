@@ -3,6 +3,11 @@
   "values": [
     "skyblock:end_emerald_ore",
     "skyblock:end_emerald_block",
-    "skyblock:ant_jam_block"
+    "skyblock:asteroid_residues",
+    "skyblock:enderite_ore",
+    "skyblock:enderite_block",
+    "skyblock:bluishe_end_stone",
+    "skyblock:end_grass",
+    "skyblock:solid_rock"
   ]
 }

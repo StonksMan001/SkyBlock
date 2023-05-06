@@ -5,6 +5,7 @@
   "item.skyblock.end_emerald": "Endsmaragd",
   "item.skyblock.ant_bottle": "Hangyásüveg",
   "item.skyblock.bottle_of_ant_jam": "Hangyalekvár",
+  "item.skyblock.ender_stick": "Ender bot",
 
   "item.skyblock.enderite_helmet": "Végércsisak",
   "item.skyblock.enderite_chestplate": "Végérc mellvért",
@@ -18,6 +19,7 @@
   "item.skyblock.enderite_axe": "Végércfejsze",
 
   "block.skyblock.void_block": "Űrblokk",
+  "block.skyblock.unstable_obsidian": "Instabil obszidián",
   "block.skyblock.end_emerald_block": "Endsmaragdblokk",
   "block.skyblock.end_emerald_ore": "Endsmaragdérc",
   "block.skyblock.ant_jam_block": "Hangyalekvárblokk",

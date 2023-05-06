@@ -4,6 +4,7 @@
     "skyblock:void_block",
     "skyblock:transparent_block",
     "skyblock:blue_wart",
-    "skyblock:end_wart_block"
+    "skyblock:end_wart_block",
+    "skyblock:endlight"
   ]
 }

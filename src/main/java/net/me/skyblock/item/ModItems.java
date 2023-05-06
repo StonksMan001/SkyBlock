@@ -14,6 +14,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item FYBERITE = registerItem("fyberite_ingot",
             new Item(new FabricItemSettings()));
+    public static final Item ENDER_STICK = registerItem("ender_stick",
+            new Item(new FabricItemSettings()));
     public static final Item ENDMERALD = registerItem("end_emerald",
             new Item(new FabricItemSettings()));
     public static final Item MELTE_RESIDUES = registerItem("melte_residues",
@@ -52,7 +54,7 @@ public class ModItems {
     }
 
     public static void addItemsToItemGroup() {
-        addToItemGroup(ModItemGroup.FYBERITE, FYBERITE);
+        addToItemGroup(ModItemGroup.UNUSED, FYBERITE);
         addToItemGroup(ModItemGroup.FYBERITE, ENDMERALD);
         addToItemGroup(ModItemGroup.FYBERITE, ANT_BOTTLE);
         addToItemGroup(ModItemGroup.FYBERITE, BOTTLE_OF_ANT_JAM);
@@ -66,6 +68,8 @@ public class ModItems {
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_PICKAXE);
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_HOE);
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_SHOVEL);
+        addToItemGroup(ModItemGroup.FYBERITE, ENDER_STICK);
+        addToItemGroup(ModItemGroup.FYBERITE, MELTE_RESIDUES);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {

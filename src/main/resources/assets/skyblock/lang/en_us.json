@@ -5,6 +5,7 @@
   "item.skyblock.end_emerald": "End Emerald",
   "item.skyblock.ant_bottle": "Bottle of Ants",
   "item.skyblock.bottle_of_ant_jam": "Bottle of Ant Jam",
+  "item.skyblock.ender_stick": "Ender Stick",
 
   "item.skyblock.enderite_helmet": "Enderite Helmet",
   "item.skyblock.enderite_chestplate": "Enderite Chestplate",
@@ -18,6 +19,7 @@
   "item.skyblock.enderite_axe": "Enderite Axe",
 
   "block.skyblock.void_block": "Void Block",
+  "block.skyblock.unstable_obsidian": "Unstable Obsidian",
   "block.skyblock.end_emerald_block": "End Emerald Block",
   "block.skyblock.end_emerald_ore": "End Emerald Ore",
   "block.skyblock.ant_jam_block": "Block of Ant Jam",

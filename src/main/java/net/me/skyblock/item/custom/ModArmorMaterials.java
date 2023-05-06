@@ -14,7 +14,7 @@ import org.betterx.betterend.registry.EndItems;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    ENDERITE("enderite", 45, new int[]{6, 8, 10, 6}, 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.8f, 0.4f, () -> Ingredient.ofItems(ModItems.ENDERITE_INGOT));
+    ENDERITE("enderite", 45, new int[]{6, 8, 10, 6}, 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.6f, 0.25f, () -> Ingredient.ofItems(ModItems.ENDERITE_INGOT));
 
     private static final int[] BASE_DURABILITY;
     private final String name;

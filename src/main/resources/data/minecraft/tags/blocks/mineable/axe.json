@@ -1,5 +1,10 @@
 {
   "replace": false,
   "values": [
+    "skyblock:end_stem",
+    "skyblock:end_hyphae",
+    "skyblock:stripped_end_stem",
+    "skyblock:stripped_end_hyphae",
+    "skyblock:end_planks"
   ]
 }

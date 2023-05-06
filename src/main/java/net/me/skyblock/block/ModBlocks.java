@@ -22,7 +22,9 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block VOID_BLOCK = registerBlock("void_block",
-            new Block(FabricBlockSettings.of(Material.SCULK).strength(3.0f)), ModItemGroup.FYBERITE);
+            new Block(FabricBlockSettings.of(Material.SCULK).strength(3.0f)), ModItemGroup.UNUSED);
+    public static final Block UNSTABLE_OBSIDIAN = registerBlock("unstable_obsidian",
+            new Block(FabricBlockSettings.copy(Blocks.OBSIDIAN).strength(50.0f, 1200.0f)), ModItemGroup.ABYSS);
     //MATERIALS
     public static final Block ENDMERALD_ORE = registerBlock("end_emerald_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);

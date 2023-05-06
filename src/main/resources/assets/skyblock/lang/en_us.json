@@ -6,6 +6,7 @@
   "item.skyblock.ant_bottle": "Bottle of Ants",
   "item.skyblock.bottle_of_ant_jam": "Bottle of Ant Jam",
   "item.skyblock.ender_stick": "Ender Stick",
+  "item.skyblock.loran": "Loran",
 
   "item.skyblock.enderite_helmet": "Enderite Helmet",
   "item.skyblock.enderite_chestplate": "Enderite Chestplate",
@@ -33,10 +34,17 @@
   "block.skyblock.enderite_ore": "Enderite Ore",
   "block.skyblock.asteroid_residues": "Asteroid Residues",
   "block.skyblock.solid_rock": "Melted End Stone",
+
   "block.skyblock.end_stem": "End Log",
   "block.skyblock.end_hyphae": "End Wood",
   "block.skyblock.stripped_end_stem": "Stripped End Log",
   "block.skyblock.stripped_end_hyphae": "Stripped End Wood",
   "block.skyblock.end_planks": "End Planks",
-  "block.skyblock.endlight": "End Shroomlight"
+  "block.skyblock.endlight": "End Shroomlight",
+
+  "block.skyblock.azalea_log": "Azalea Log",
+  "block.skyblock.azalea_wood": "Azalea Wood",
+  "block.skyblock.stripped_azalea_log": "Stripped Azalea Log",
+  "block.skyblock.stripped_azalea_wood": "Stripped Azalea Wood",
+  "block.skyblock.azalea_planks": "Azalea Planks"
 }

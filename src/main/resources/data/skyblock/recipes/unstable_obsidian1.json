@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "X": {
+      "item": "skyblock:loran"
+    },
+    "Y": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "XYX",
+    "Y#Y",
+    "XYX"
+  ],
+  "result": {
+    "item": "skyblock:unstable_obsidian",
+    "count": 2
+  }
+}

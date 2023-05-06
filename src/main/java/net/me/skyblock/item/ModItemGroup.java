@@ -22,7 +22,7 @@ public class ModItemGroup {
                 .icon(() -> new ItemStack(ModItems.FYBERITE)).build();
         ABYSS = FabricItemGroup.builder(new Identifier(SkyBlock.MOD_ID, "classified"))
                 .displayName(Text.literal("Sky Block: Classified"))
-                .icon(() -> new ItemStack(ModBlocks.UNSTABLE_OBSIDIAN)).build();
+                .icon(() -> new ItemStack(ModItems.LORAN)).build();
 
     }
 }

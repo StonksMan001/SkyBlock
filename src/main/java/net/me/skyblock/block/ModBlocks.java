@@ -71,6 +71,18 @@ public class ModBlocks {
     public static final Block END_PLANKS = registerBlock("end_planks",
             new Block(FabricBlockSettings.copy(Blocks.CRIMSON_PLANKS).strength(2.0f)), ModItemGroup.FYBERITE);
     //END TREE
+    //AZALEA TREE
+    public static final Block AZALEA_LOG = registerBlock("azalea_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(2.0f)), ModItemGroup.FYBERITE);
+    public static final Block AZALEA_WOOD = registerBlock("azalea_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).strength(2.0f)), ModItemGroup.FYBERITE);
+    public static final Block STRIPPED_AZALEA_LOG = registerBlock("stripped_azalea_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).strength(2.0f)), ModItemGroup.FYBERITE);
+    public static final Block STRIPPED_AZALEA_WOOD = registerBlock("stripped_azalea_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(2.0f)), ModItemGroup.FYBERITE);
+    public static final Block AZALEA_PLANKS = registerBlock("azalea_planks",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f)), ModItemGroup.FYBERITE);
+    //AZALEA TREE
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registries.BLOCK, new Identifier(SkyBlock.MOD_ID, name), block);

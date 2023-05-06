@@ -6,6 +6,7 @@
   "item.skyblock.ant_bottle": "Hangyásüveg",
   "item.skyblock.bottle_of_ant_jam": "Hangyalekvár",
   "item.skyblock.ender_stick": "Ender bot",
+  "item.skyblock.loran": "Loran",
 
   "item.skyblock.enderite_helmet": "Végércsisak",
   "item.skyblock.enderite_chestplate": "Végérc mellvért",
@@ -33,10 +34,17 @@
   "block.skyblock.enderite_ore": "Végérc",
   "block.skyblock.asteroid_residues": "Aszteroida maradványok",
   "block.skyblock.solid_rock": "Olvadt endkő",
+
   "block.skyblock.end_stem": "Vég tönk",
   "block.skyblock.end_hyphae": "Vég gombafonalak",
   "block.skyblock.stripped_end_stem": "Kérgezett vég tönk",
   "block.skyblock.stripped_end_hyphae": "Kérgezett vég gombafonalak",
   "block.skyblock.end_planks": "Vég deszka",
-  "block.skyblock.endlight": "Vég fényspóra"
+  "block.skyblock.endlight": "Vég fényspóra",
+
+  "block.skyblock.azalea_log": "Azálearönk",
+  "block.skyblock.azalea_wood": "Azáleafablokk",
+  "block.skyblock.stripped_azalea_log": "Kérgezett azálearönk",
+  "block.skyblock.stripped_azalea_wood": "Kérgezett azáleafablokk",
+  "block.skyblock.azalea_planks": "Azáleadeszka"
 }

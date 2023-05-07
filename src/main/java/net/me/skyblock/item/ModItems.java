@@ -14,6 +14,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item FYBERITE = registerItem("fyberite_ingot",
             new Item(new FabricItemSettings()));
+    public static final Item ENDERITE_APPLE = registerItem("enderite_apple",
+            new Item(new FabricItemSettings().food(ModFoodComponents.ENDERITE_APPLE)));
     public static final Item LORAN = registerItem("loran",
             new Item(new FabricItemSettings()));
     public static final Item ENDER_STICK = registerItem("ender_stick",

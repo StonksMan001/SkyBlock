@@ -3,6 +3,7 @@ package net.me.skyblock.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.me.skyblock.SkyBlock;
+import net.me.skyblock.item.custom.EnchantedEnderiteAppleItem;
 import net.me.skyblock.item.custom.ModArmorMaterials;
 import net.me.skyblock.item.custom.ModAxeItem;
 import net.minecraft.entity.EquipmentSlot;
@@ -16,6 +17,8 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item ENDERITE_APPLE = registerItem("enderite_apple",
             new Item(new FabricItemSettings().food(ModFoodComponents.ENDERITE_APPLE)));
+    public static final Item ENCHANTED_ENDERITE_APPLE = registerItem("enchanted_enderite_apple",
+            new EnchantedEnderiteAppleItem(new FabricItemSettings().food(ModFoodComponents.ENCHANTED_ENDERITE_APPLE)));
     public static final Item LORAN = registerItem("loran",
             new Item(new FabricItemSettings()));
     public static final Item ENDER_STICK = registerItem("ender_stick",
@@ -74,6 +77,8 @@ public class ModItems {
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_SHOVEL);
         addToItemGroup(ModItemGroup.FYBERITE, ENDER_STICK);
         addToItemGroup(ModItemGroup.FYBERITE, MELTE_RESIDUES);
+        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_APPLE);
+        addToItemGroup(ModItemGroup.FYBERITE, ENCHANTED_ENDERITE_APPLE);
         addToItemGroup(ModItemGroup.ABYSS, LORAN);
     }
 

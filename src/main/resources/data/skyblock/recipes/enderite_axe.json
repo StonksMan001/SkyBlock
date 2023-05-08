@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "skyblock:ender_stick"
+    },
+    "X": {
+      "item": "skyblock:enderite_ingot"
+    }
+  },
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "result": {
+    "item": "skyblock:enderite_axe"
+  }
+}

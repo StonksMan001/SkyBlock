@@ -1,5 +1,5 @@
 version:3218
-autoJump:false
+autoJump:true
 operatorItemsTab:true
 autoSuggestions:true
 chatColors:true
@@ -41,7 +41,7 @@ renderClouds:"true"
 resourcePacks:["fabric"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:en_gb
+lang:hu_hu
 soundDevice:""
 chatVisibility:0
 chatOpacity:1.0
@@ -72,7 +72,7 @@ skipMultiplayerWarning:false
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:false
-hideBundleTutorial:true
+hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true

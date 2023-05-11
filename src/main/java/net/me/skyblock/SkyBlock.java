@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.me.skyblock.block.ModBlocks;
 import net.me.skyblock.item.ModItemGroup;
 import net.me.skyblock.item.ModItems;
-import net.me.skyblock.util.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,7 +17,6 @@ public class SkyBlock implements ModInitializer {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		ModRegistries.registerModStuffs();
 
 		StrippableBlockRegistry.register(ModBlocks.END_STEM, ModBlocks.STRIPPED_END_STEM);
 		StrippableBlockRegistry.register(ModBlocks.END_HYPHAE, ModBlocks.STRIPPED_END_HYPHAE);

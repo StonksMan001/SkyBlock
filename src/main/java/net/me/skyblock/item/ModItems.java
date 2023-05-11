@@ -3,7 +3,6 @@ package net.me.skyblock.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.me.skyblock.SkyBlock;
-import net.me.skyblock.item.custom.EnchantedEnderiteAppleItem;
 import net.me.skyblock.item.custom.ModArmorMaterials;
 import net.me.skyblock.item.custom.ModAxeItem;
 import net.minecraft.entity.EquipmentSlot;
@@ -17,8 +16,6 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item ENDERITE_APPLE = registerItem("enderite_apple",
             new Item(new FabricItemSettings().food(ModFoodComponents.ENDERITE_APPLE)));
-    public static final Item ENCHANTED_ENDERITE_APPLE = registerItem("enchanted_enderite_apple",
-            new EnchantedEnderiteAppleItem(new FabricItemSettings().food(ModFoodComponents.ENCHANTED_ENDERITE_APPLE)));
     public static final Item LORAN = registerItem("loran",
             new Item(new FabricItemSettings()));
     public static final Item ENDER_STICK = registerItem("ender_stick",
@@ -31,13 +28,13 @@ public class ModItems {
     public static final Item ENDERITE_INGOT = registerItem("enderite_ingot",
             new Item(new FabricItemSettings()));
     public static final Item ENDERITE_HELMET = registerItem("enderite_helmet",
-            new ArmorItem(ModArmorMaterials.ENDERITE, EquipmentSlot.HEAD, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item ENDERITE_CHESTPLATE = registerItem("enderite_chestplate",
-            new ArmorItem(ModArmorMaterials.ENDERITE, EquipmentSlot.CHEST, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item ENDERITE_LEGGINGS = registerItem("enderite_leggings",
-            new ArmorItem(ModArmorMaterials.ENDERITE, EquipmentSlot.LEGS, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item ENDERITE_BOOTS = registerItem("enderite_boots",
-            new ArmorItem(ModArmorMaterials.ENDERITE, EquipmentSlot.FEET, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item ENDERITE_SWORD = registerItem("enderite_sword",
             new SwordItem(ModToolMaterials.ENDERITE, 2, -2.4f, new FabricItemSettings()));
@@ -77,8 +74,6 @@ public class ModItems {
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_SHOVEL);
         addToItemGroup(ModItemGroup.FYBERITE, ENDER_STICK);
         addToItemGroup(ModItemGroup.FYBERITE, MELTE_RESIDUES);
-        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_APPLE);
-        addToItemGroup(ModItemGroup.FYBERITE, ENCHANTED_ENDERITE_APPLE);
         addToItemGroup(ModItemGroup.ABYSS, LORAN);
     }
 

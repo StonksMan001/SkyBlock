@@ -2,31 +2,40 @@ package net.me.skyblock.item.custom;
 
 import net.me.skyblock.item.ModItems;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.ItemConvertible;
-import net.minecraft.item.Items;
+import net.minecraft.item.*;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Lazy;
+import net.minecraft.util.StringIdentifiable;
+import net.minecraft.util.Util;
 import org.betterx.betterend.registry.EndItems;
 
+import java.util.EnumMap;
 import java.util.function.Supplier;
+//ENDERITE("enderite", 45, new int[]{6, 8, 10, 6}, 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.6f, 0.25f, () -> Ingredient.ofItems(ModItems.ENDERITE_INGOT));
+public enum ModArmorMaterials implements StringIdentifiable,
+ArmorMaterial
+{
+    ENDERITE("enderite", 45, Util.make(new EnumMap<ArmorItem.Type, Integer>(ArmorItem.Type.class), map -> {
+        map.put(ArmorItem.Type.BOOTS, 9);
+        map.put(ArmorItem.Type.LEGGINGS, 8);
+        map.put(ArmorItem.Type.CHESTPLATE, 10);
+        map.put(ArmorItem.Type.HELMET, 9);
+    }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0f, 0.1f, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
 
-public enum ModArmorMaterials implements ArmorMaterial {
-    ENDERITE("enderite", 45, new int[]{6, 8, 10, 6}, 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.6f, 0.25f, () -> Ingredient.ofItems(ModItems.ENDERITE_INGOT));
-
-    private static final int[] BASE_DURABILITY;
+    public static final StringIdentifiable.Codec<ArmorMaterials> CODEC;
+    private static final EnumMap<ArmorItem.Type, Integer> BASE_DURABILITY;
     private final String name;
     private final int durabilityMultiplier;
-    private final int[] protectionAmounts;
+    private final EnumMap<ArmorItem.Type, Integer> protectionAmounts;
     private final int enchantability;
     private final SoundEvent equipSound;
     private final float toughness;
     private final float knockbackResistance;
     private final Lazy<Ingredient> repairIngredientSupplier;
 
-    private ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
+    private ModArmorMaterials(String name, int durabilityMultiplier, EnumMap<ArmorItem.Type, Integer> protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;
@@ -38,13 +47,13 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }
 
     @Override
-    public int getDurability(EquipmentSlot slot) {
-        return BASE_DURABILITY[slot.getEntitySlotId()] * this.durabilityMultiplier;
+    public int getDurability(ArmorItem.Type type) {
+        return BASE_DURABILITY.get((Object)type) * this.durabilityMultiplier;
     }
 
     @Override
-    public int getProtectionAmount(EquipmentSlot slot) {
-        return this.protectionAmounts[slot.getEntitySlotId()];
+    public int getProtection(ArmorItem.Type type) {
+        return this.protectionAmounts.get((Object)type);
     }
 
     @Override
@@ -77,7 +86,22 @@ public enum ModArmorMaterials implements ArmorMaterial {
         return this.knockbackResistance;
     }
 
+    @Override
+    public String asString() {
+        return this.name;
+    }
+
     static {
-        BASE_DURABILITY = new int[]{13, 15, 16, 11};
+        CODEC = StringIdentifiable.createCodec(ArmorMaterials::values);
+        BASE_DURABILITY = Util.make(new EnumMap(ArmorItem.Type.class), map -> {
+            map.put(ArmorItem.Type.BOOTS, 13);
+            map.put(ArmorItem.Type.LEGGINGS, 15);
+            map.put(ArmorItem.Type.CHESTPLATE, 16);
+            map.put(ArmorItem.Type.HELMET, 11);
+        });
     }
 }
+
+
+
+

@@ -23,8 +23,34 @@ public class ModBlocks {
 
     public static final Block VOID_BLOCK = registerBlock("void_block",
             new Block(FabricBlockSettings.of(Material.SCULK).strength(3.0f)), ModItemGroup.UNUSED);
+
+
+
+    //ABYSS
     public static final Block UNSTABLE_OBSIDIAN = registerBlock("unstable_obsidian",
-            new Block(FabricBlockSettings.copy(Blocks.OBSIDIAN).strength(50.0f, 1200.0f)), ModItemGroup.ABYSS);
+            new Block(FabricBlockSettings.copy(Blocks.OBSIDIAN).strength(50.0f, 1200.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block ABYSS_DIRT = registerBlock("abyss_dirt",
+            new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.MUD).strength(0.5f)), ModItemGroup.ABYSS);
+    public static final Block BLARU_MOSS = registerBlock("blaru_moss",
+            new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.ROOTED_DIRT).strength(0.5f)), ModItemGroup.ABYSS);
+    public static final Block BLARU_GRASS = registerBlock("blaru_grass",
+            new Block(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.ROOTS)), ModItemGroup.ABYSS);
+    public static final Block VIGILANT_MOSS = registerBlock("vigilant_moss",
+            new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.ROOTED_DIRT).strength(0.5f)), ModItemGroup.ABYSS);
+    public static final Block ABYSS_STONE = registerBlock("abyss_stone",
+            new Block(FabricBlockSettings.copy(Blocks.STONE).strength(1.5f, 6.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block ABYSS_DIAMOND_ORE = registerBlock("abyss_diamond_ore",
+            new Block(FabricBlockSettings.copy(Blocks.DIAMOND_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block ABYSS_EMERALD_ORE = registerBlock("abyss_emerald_ore",
+            new Block(FabricBlockSettings.copy(Blocks.EMERALD_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block ABYSS_GOLD_ORE = registerBlock("abyss_gold_ore",
+            new Block(FabricBlockSettings.copy(Blocks.GOLD_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block ABYSS_IRON_ORE = registerBlock("abyss_iron_ore",
+            new Block(FabricBlockSettings.copy(Blocks.IRON_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
+    //ABYSS
+
+
+
     //MATERIALS
     public static final Block ENDMERALD_ORE = registerBlock("end_emerald_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.FYBERITE);
@@ -83,6 +109,14 @@ public class ModBlocks {
     public static final Block AZALEA_PLANKS = registerBlock("azalea_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f)), ModItemGroup.FYBERITE);
     //AZALEA TREE
+
+    //MCD
+    public static final Block MOSSIER_COBBLESTONE = registerBlock("mossier_cobblestone",
+            new Block(FabricBlockSettings.copy(Blocks.COBBLESTONE).strength(2.0F, 6.0F)), ModItemGroup.MCD);
+    //MCD
+    private static Block registerBlockWithoutItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, new Identifier(SkyBlock.MOD_ID, name), block);
+    }
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registries.BLOCK, new Identifier(SkyBlock.MOD_ID, name), block);

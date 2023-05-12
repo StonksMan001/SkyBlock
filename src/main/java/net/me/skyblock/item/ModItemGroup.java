@@ -12,6 +12,7 @@ public class ModItemGroup {
     public static ItemGroup FYBERITE;
     public static ItemGroup UNUSED;
     public static ItemGroup ABYSS;
+    public static ItemGroup MCD;
 
     public static void registerItemGroups() {
         FYBERITE = FabricItemGroup.builder(new Identifier(SkyBlock.MOD_ID, "features"))
@@ -23,6 +24,8 @@ public class ModItemGroup {
         ABYSS = FabricItemGroup.builder(new Identifier(SkyBlock.MOD_ID, "classified"))
                 .displayName(Text.literal("Sky Block: Classified"))
                 .icon(() -> new ItemStack(ModItems.LORAN)).build();
-
+        MCD = FabricItemGroup.builder(new Identifier(SkyBlock.MOD_ID, "mcd"))
+                .displayName(Text.literal("Sky Block: Minecraft Dungeons"))
+                .icon(() -> new ItemStack(ModBlocks.MOSSIER_COBBLESTONE)).build();
     }
 }

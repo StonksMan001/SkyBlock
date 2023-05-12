@@ -1,5 +1,4 @@
 {
-  "item.skyblock.fyberite_ingot": "Fyberite Ingot",
   "item.skyblock.enderite_ingot": "Enderite Ingot",
   "item.skyblock.melte_residues": "Melte Residues",
   "item.skyblock.end_emerald": "End Emerald",
@@ -8,6 +7,7 @@
   "item.skyblock.ender_stick": "Ender Stick",
   "item.skyblock.loran": "Loran",
   "item.skyblock.enderite_apple": "Enderite Apple",
+  "item.skyblock.enchanted_enderite_apple": "Enchanted Enderite Apple",
 
   "item.skyblock.enderite_helmet": "Enderite Helmet",
   "item.skyblock.enderite_chestplate": "Enderite Chestplate",
@@ -20,8 +20,20 @@
   "item.skyblock.enderite_pickaxe": "Enderite Pickaxe",
   "item.skyblock.enderite_axe": "Enderite Axe",
 
+  "item.skyblock.fyberite_ingot": "Fyberite Ingot",
   "block.skyblock.void_block": "Void Block",
+
   "block.skyblock.unstable_obsidian": "Unstable Obsidian",
+  "block.skyblock.abyss_dirt": "Abyss Dirt",
+  "block.skyblock.abyss_stone": "Abyss Stone",
+  "block.skyblock.abyss_diamond_ore": "Abyss Diamond Ore",
+  "block.skyblock.abyss_emerald_ore": "Abyss Emerald Ore",
+  "block.skyblock.abyss_gold_ore": "Abyss Gold Ore",
+  "block.skyblock.abyss_iron_ore": "Abyss Iron Ore",
+  "block.skyblock.blaru_moss": "Blaru Moss",
+  "block.skyblock.blaru_grass": "Blaru Grass",
+  "block.skyblock.vigilant_moss": "Vigilant Moss",
+
   "block.skyblock.end_emerald_block": "End Emerald Block",
   "block.skyblock.end_emerald_ore": "End Emerald Ore",
   "block.skyblock.ant_jam_block": "Block of Ant Jam",
@@ -47,5 +59,7 @@
   "block.skyblock.azalea_wood": "Azalea Wood",
   "block.skyblock.stripped_azalea_log": "Stripped Azalea Log",
   "block.skyblock.stripped_azalea_wood": "Stripped Azalea Wood",
-  "block.skyblock.azalea_planks": "Azalea Planks"
+  "block.skyblock.azalea_planks": "Azalea Planks",
+
+  "block.skyblock.mossier_cobblestone": "Mossier Cobblestone"
 }

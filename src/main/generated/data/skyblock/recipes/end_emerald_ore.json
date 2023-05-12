@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "skyblock:end_emerald_ore"
-  }
+  },
+  "show_notification": true
 }

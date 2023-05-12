@@ -1,5 +1,4 @@
 {
-  "item.skyblock.fyberite_ingot": "Fiberit rúd",
   "item.skyblock.enderite_ingot": "Végérc rúd",
   "item.skyblock.melte_residues": "Olvadék aszteroidamaradványok",
   "item.skyblock.end_emerald": "Endsmaragd",
@@ -8,6 +7,7 @@
   "item.skyblock.ender_stick": "Ender bot",
   "item.skyblock.loran": "Loran",
   "item.skyblock.enderite_apple": "Végércalma",
+  "item.skyblock.enchanted_enderite_apple": "Bűvös végércalma",
 
   "item.skyblock.enderite_helmet": "Végércsisak",
   "item.skyblock.enderite_chestplate": "Végérc mellvért",
@@ -20,8 +20,20 @@
   "item.skyblock.enderite_pickaxe": "Végérccsákány",
   "item.skyblock.enderite_axe": "Végércfejsze",
 
+  "item.skyblock.fyberite_ingot": "Fiberit rúd",
   "block.skyblock.void_block": "Űrblokk",
+
   "block.skyblock.unstable_obsidian": "Instabil obszidián",
+  "block.skyblock.abyss_dirt": "Végidő föld",
+  "block.skyblock.abyss_stone": "Végidő kő",
+  "block.skyblock.abyss_diamond_ore": "Gyémántérc végidőkőben",
+  "block.skyblock.abyss_emerald_ore": "Smaragdérc végidőkőben",
+  "block.skyblock.abyss_gold_ore": "Aranyérc végidőkőben",
+  "block.skyblock.abyss_iron_ore": "Vasérc végidőkőben",
+  "block.skyblock.blaru_moss": "Blaru moha",
+  "block.skyblock.blaru_grass": "Blarucsírák",
+  "block.skyblock.vigilant_moss": "Éber moha",
+
   "block.skyblock.end_emerald_block": "Endsmaragdblokk",
   "block.skyblock.end_emerald_ore": "Endsmaragdérc",
   "block.skyblock.ant_jam_block": "Hangyalekvárblokk",
@@ -47,5 +59,7 @@
   "block.skyblock.azalea_wood": "Azáleafablokk",
   "block.skyblock.stripped_azalea_log": "Kérgezett azálearönk",
   "block.skyblock.stripped_azalea_wood": "Kérgezett azáleafablokk",
-  "block.skyblock.azalea_planks": "Azáleadeszka"
+  "block.skyblock.azalea_planks": "Azáleadeszka",
+
+  "block.skyblock.mossier_cobblestone": "Elmohásodott zúzottkő"
 }

@@ -1,7 +1,7 @@
-// 1.19.3	2023-05-06T21:04:45.8594797	SkyBlock/Recipes
-dbb83a762040636641f16d4d8ab4ba3469b41655 data\skyblock\advancements\recipes\misc\end_emerald.json
+// 1.19.4	2023-05-12T13:53:51.9003611	SkyBlock/Recipes
 d0141cdbf9890b0d7c7845a0b3818e99e654ac0e data\skyblock\advancements\recipes\misc\end_emerald_from_smelting_end_emerald_block.json
-73371066a5d150b0c5ff37396025a11e40107d37 data\skyblock\recipes\end_emerald_ore.json
+dbb83a762040636641f16d4d8ab4ba3469b41655 data\skyblock\advancements\recipes\misc\end_emerald.json
+9bd830670fe81a1b57c750d4ed918785d47f1cb8 data\skyblock\recipes\end_emerald_ore.json
 d5e83fe7263b554ac6dab58a55dc50acb05f3c65 data\skyblock\recipes\end_emerald_from_smelting_end_emerald_block.json
 ccd8106108db348188910d3ab170d45b2ac15e17 data\skyblock\recipes\end_emerald.json
 c2f3aa3c53eef29303057fcbc8c29a40ae0b5a7d data\skyblock\advancements\recipes\misc\end_emerald_ore.json

@@ -47,6 +47,22 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.GOLD_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
     public static final Block ABYSS_IRON_ORE = registerBlock("abyss_iron_ore",
             new Block(FabricBlockSettings.copy(Blocks.IRON_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
+
+
+
+
+    public static final Block BLARU_LOG = registerBlock("blaru_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block BLARU_WOOD = registerBlock("blaru_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block STRIPPED_BLARU_LOG = registerBlock("stripped_blaru_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block STRIPPED_BLARU_WOOD = registerBlock("stripped_blaru_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block BLARU_LEAVES = registerBlock("blaru_leaves",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.ABYSS);
+    public static final Block BLARU_PLANKS = registerBlock("blaru_planks",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
     //ABYSS
 
 

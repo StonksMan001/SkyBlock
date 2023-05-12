@@ -33,6 +33,12 @@
   "block.skyblock.blaru_moss": "Blaru Moss",
   "block.skyblock.blaru_grass": "Blaru Grass",
   "block.skyblock.vigilant_moss": "Vigilant Moss",
+  "block.skyblock.blaru_log": "Blaru Log",
+  "block.skyblock.blaru_wood": "Blaru Wood",
+  "block.skyblock.stripped_blaru_log": "Stripped Blaru Log",
+  "block.skyblock.stripped_blaru_wood": "Stripped Blaru Wood",
+  "block.skyblock.blaru_planks": "Blaru Planks",
+  "block.skyblock.blaru_leaves": "Blaru Leaves",
 
   "block.skyblock.end_emerald_block": "End Emerald Block",
   "block.skyblock.end_emerald_ore": "End Emerald Ore",

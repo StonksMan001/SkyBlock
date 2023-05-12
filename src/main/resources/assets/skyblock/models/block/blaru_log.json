@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyblock:block/blaru_log_top",
+    "side": "skyblock:block/blaru_log"
+  }
+}

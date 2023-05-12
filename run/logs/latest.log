@@ -1,5 +1,5 @@
-[14:06:40] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
-[14:06:40] [main/INFO] (FabricLoader) Loading 48 mods:
+[14:55:27] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
+[14:55:27] [main/INFO] (FabricLoader) Loading 48 mods:
 	- bclib 2.3.1
 	- betterend 3.2.0
 	- fabric-api 0.80.0+1.19.4
@@ -48,11 +48,11 @@
 	- java 17
 	- minecraft 1.19.4
 	- skyblock 1.0
-[14:06:41] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/totha/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[14:06:41] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[14:06:41] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[14:06:41] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[14:06:42] [main/ERROR] (FabricLoader/Mixin) bclib.mixins.client.json:AnvilScreenMixin from mod bclib: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
+[14:55:28] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/totha/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[14:55:28] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[14:55:28] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[14:55:28] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[14:55:29] [main/ERROR] (FabricLoader/Mixin) bclib.mixins.client.json:AnvilScreenMixin from mod bclib: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
 org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
 	at org.spongepowered.asm.mixin.transformer.InterfaceInfo.renameMethod(InterfaceInfo.java:188) ~[sponge-mixin-0.12.4+mixin.0.8.5.jar:0.12.4+mixin.0.8.5]
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepareSoftImplements(MixinPreProcessorStandard.java:234) ~[sponge-mixin-0.12.4+mixin.0.8.5.jar:0.12.4+mixin.0.8.5]
@@ -77,9 +77,9 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: method
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[14:06:53] [Datafixer Bootstrap/INFO] (Minecraft) 180 Datafixer optimizations took 982 milliseconds
-[14:06:56] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:06:57] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[14:55:43] [Datafixer Bootstrap/INFO] (Minecraft) 180 Datafixer optimizations took 957 milliseconds
+[14:55:46] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:55:46] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-3.18.38.jar:?]
@@ -97,103 +97,107 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.18.38.jar:?]
 	... 9 more
-[14:06:57] [Render thread/INFO] (Minecraft) Setting user: Player172
-[14:06:57] [Render thread/INFO] (Logger) [bclib] Added Config bclib.generator to auto sync (file hash)
-[14:06:57] [Render thread/INFO] (Logger) [bclib] Added Config bclib.main to auto sync (content diff)
-[14:06:57] [Render thread/INFO] (Logger) [bclib] Added Config bclib.biomes to auto sync (file hash)
-[14:06:58] [Render thread/INFO] (skyblock) Registering ModBlocks for skyblock
-[14:06:58] [Render thread/INFO] (Logger) [bclib] Added Config betterend.entities to auto sync (file hash)
-[14:06:58] [Render thread/INFO] (Logger) [bclib] Added Config betterend.blocks to auto sync (file hash)
-[14:06:58] [Render thread/INFO] (Logger) [bclib] Added Config betterend.items to auto sync (file hash)
-[14:06:58] [Render thread/INFO] (Logger) [bclib] Added Config betterend.biomes to auto sync (file hash)
-[14:06:58] [Render thread/INFO] (Logger) [bclib] Added Config betterend.recipes to auto sync (file hash)
-[14:06:58] [Render thread/INFO] (Logger) [bclib] Added Config betterend.enchantments to auto sync (file hash)
-[14:07:08] [Thread-2/INFO] (Logger) [bclib] Received Version Info for minecraft=1.19.3, loader=fabric
-[14:07:08] [Thread-2/INFO] (Logger) [bclib]  - bclib:2.2.4
-[14:07:08] [Thread-2/INFO] (Logger) [bclib]  - betterend:3.1.2
-[14:07:08] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[14:07:09] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[14:07:11] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, Fabric Mods (Fabric Crash Report Info (v1), Fabric Item Group API (v1), Fabric Rendering (v1), Fabric API Base, Fabric Networking API (v1), Fabric Recipe API (v1), Fabric Content Registries (v0), Fabric Particles (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Mining Level API (v1), Fabric Game Test API (v1), BCLib, Fabric Loot API (v2), Fabric Item API (v1), Fabric Lifecycle Events (v1), Fabric Models (v0), SkyBlock, Fabric Rendering Fluids (v1), Fabric Rendering Data Attachment (v1), Fabric Renderer API (v1), Fabric Events Interaction (v0), Fabric Command API (v2), Fabric Dimensions API (v1), Fabric Resource Loader (v0), Fabric Transitive Access Wideners (v1), Fabric API, Fabric Client Tags, Fabric Renderer - Indigo, Fabric Transfer API (v1), Fabric Sound API (v1), Fabric Convention Tags, Fabric Screen Handler API (v1), Fabric Loader, Fabric Resource Conditions API (v1), Fabric API Lookup API (v1), Fabric Message API (v1), Fabric Data Generation API (v1), Fabric Entity Events (v1), Fabric Object Builder API (v1), Fabric Key Binding API (v1), Fabric Screen API (v1), Better End, Fabric Game Rule API (v1), Fabric Block API (v1), Fabric Registry Sync (v0))
-[14:07:12] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
-[14:07:12] [Worker-Main-1/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack fabric:betterend: betterend:textures/item/thermal fungus.png, ignoring
-[14:07:12] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[14:07:15] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:enchanted_enderite_apple#inventory' referenced from: skyblock:enchanted_enderite_apple#inventory: java.io.FileNotFoundException: skyblock:models/item/enchanted_enderite_apple.json
-[14:07:18] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brushing
-[14:07:18] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brush_sand_completed
-[14:07:18] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[14:07:18] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[14:07:18] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:music.overworld.cherry_grove
-[14:07:18] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Hangszórók (4 - USB PnP Audio Device)
-[14:07:18] [Render thread/INFO] (Minecraft) Sound engine started
-[14:07:18] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[14:07:18] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[14:07:18] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[14:07:18] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[14:07:18] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[14:07:19] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/chest.png-atlas
-[14:07:19] [Render thread/INFO] (Minecraft) Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[14:07:19] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[14:07:19] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[14:07:19] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[14:07:19] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[14:07:19] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[14:07:19] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[14:07:19] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
-[14:07:23] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
-[14:07:25] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
-[14:07:25] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
-[14:07:25] [Render thread/ERROR] (Logger) [worlds_together] No valid registry found!
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Running Pre Patchers on D:\SONY\MODS\SkyBlock-1.19.3\run\saves\New World (1)\.
-[14:07:25] [Render thread/INFO] (Logger) [DataFixerAPI] Everything up to date
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_aurora_cave
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_end_cave
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_smaragdant_cave
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:jade_cave
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_aurora_cave
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_smaragdant_cave
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:megalake_grove
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:neon_oasis
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:painted_mountains
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (5a0a1c75)
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[14:07:25] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[14:07:25] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[14:07:25] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (44809824)
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (380aec3a)
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[14:07:25] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[14:07:25] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[14:07:25] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (7c3d17a6)
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (282d416e)
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[14:07:25] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[14:07:25] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[14:07:25] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (47616e35)
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (78f69b60)
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[14:07:25] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[14:07:25] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[14:07:25] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (3f33fc1a)
-[14:07:25] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[14:07:26] [Render thread/WARN] (Logger) [bclib] No valid BCLBiome Registry available!
-[14:07:26] [Render thread/WARN] (Logger) [bclib] No valid Biome Registry available!
-[14:07:26] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
-[14:07:26] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (4a4ad6e0)
-[14:07:26] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[14:07:26] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (5234b31d)
-[14:07:26] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[14:07:26] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[14:07:26] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[14:07:26] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[14:07:26] [Worker-Main-3/ERROR] (Minecraft) Not a JSON object: null
-[14:07:26] [Worker-Main-3/ERROR] (Minecraft) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack Fabric Mods
+[14:55:46] [Render thread/INFO] (Minecraft) Setting user: Player26
+[14:55:47] [Render thread/INFO] (Logger) [bclib] Added Config betterend.entities to auto sync (file hash)
+[14:55:47] [Render thread/INFO] (Logger) [bclib] Added Config betterend.blocks to auto sync (file hash)
+[14:55:47] [Render thread/INFO] (Logger) [bclib] Added Config betterend.items to auto sync (file hash)
+[14:55:47] [Render thread/INFO] (Logger) [bclib] Added Config betterend.biomes to auto sync (file hash)
+[14:55:47] [Render thread/INFO] (Logger) [bclib] Added Config betterend.recipes to auto sync (file hash)
+[14:55:47] [Render thread/INFO] (Logger) [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[14:55:58] [Render thread/INFO] (Logger) [bclib] Added Config bclib.generator to auto sync (file hash)
+[14:55:58] [Render thread/INFO] (Logger) [bclib] Added Config bclib.main to auto sync (content diff)
+[14:55:59] [Render thread/INFO] (Logger) [bclib] Added Config bclib.biomes to auto sync (file hash)
+[14:55:59] [Render thread/INFO] (skyblock) Registering ModBlocks for skyblock
+[14:56:00] [Thread-2/INFO] (Logger) [bclib] Received Version Info for minecraft=1.19.3, loader=fabric
+[14:56:00] [Thread-2/INFO] (Logger) [bclib]  - bclib:2.2.4
+[14:56:00] [Thread-2/INFO] (Logger) [bclib]  - betterend:3.1.2
+[14:56:00] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[14:56:01] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[14:56:03] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, Fabric Mods (Fabric Models (v0), Fabric Message API (v1), Fabric Registry Sync (v0), Fabric Item Group API (v1), Better End, Fabric Lifecycle Events (v1), Fabric Rendering (v1), Fabric BlockRenderLayer Registration (v1), Fabric API Base, Fabric Key Binding API (v1), Fabric Loader, Fabric Transfer API (v1), Fabric Object Builder API (v1), BCLib, Fabric Renderer API (v1), Fabric Convention Tags, Fabric Sound API (v1), Fabric Game Rule API (v1), Fabric Recipe API (v1), Fabric Crash Report Info (v1), Fabric Loot API (v2), Fabric Networking API (v1), Fabric API, Fabric Mining Level API (v1), Fabric Biome API (v1), Fabric Client Tags, Fabric Data Generation API (v1), Fabric Screen Handler API (v1), Fabric Rendering Data Attachment (v1), Fabric Command API (v2), Fabric Item API (v1), SkyBlock, Fabric Content Registries (v0), Fabric Game Test API (v1), Fabric Particles (v1), Fabric Resource Loader (v0), Fabric Events Interaction (v0), Fabric Block API (v1), Fabric Resource Conditions API (v1), Fabric Renderer - Indigo, Fabric Dimensions API (v1), Fabric API Lookup API (v1), Fabric Screen API (v1), Fabric Entity Events (v1), Fabric Transitive Access Wideners (v1), Fabric Rendering Fluids (v1))
+[14:56:06] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
+[14:56:06] [Worker-Main-3/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack fabric:betterend: betterend:textures/item/thermal fungus.png, ignoring
+[14:56:07] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[14:56:12] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'skyblock:enchanted_enderite_apple#inventory' referenced from: skyblock:enchanted_enderite_apple#inventory: java.io.FileNotFoundException: skyblock:models/item/enchanted_enderite_apple.json
+[14:56:15] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:blaru_leaves#inventory:
+    minecraft:textures/atlas/blocks.png:skyblock:block/blaru_leaves
+[14:56:15] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:blaru_leaves#:
+    minecraft:textures/atlas/blocks.png:skyblock:block/blaru_leaves
+[14:56:15] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brushing
+[14:56:15] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brush_sand_completed
+[14:56:15] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[14:56:15] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[14:56:15] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:music.overworld.cherry_grove
+[14:56:16] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Hangszórók (4 - USB PnP Audio Device)
+[14:56:16] [Render thread/INFO] (Minecraft) Sound engine started
+[14:56:16] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[14:56:16] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[14:56:16] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[14:56:16] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[14:56:16] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[14:56:16] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/chest.png-atlas
+[14:56:16] [Render thread/INFO] (Minecraft) Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[14:56:16] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14:56:16] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[14:56:17] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[14:56:17] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[14:56:17] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14:56:17] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14:56:17] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
+[14:56:19] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
+[14:56:21] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
+[14:56:21] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
+[14:56:21] [Render thread/ERROR] (Logger) [worlds_together] No valid registry found!
+[14:56:21] [Render thread/INFO] (Logger) [bclib] Running Pre Patchers on D:\SONY\MODS\SkyBlock-1.19.3\run\saves\New World (1)\.
+[14:56:21] [Render thread/INFO] (Logger) [DataFixerAPI] Everything up to date
+[14:56:21] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_aurora_cave
+[14:56:21] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_end_cave
+[14:56:21] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_smaragdant_cave
+[14:56:21] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:jade_cave
+[14:56:21] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_aurora_cave
+[14:56:21] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_smaragdant_cave
+[14:56:21] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:megalake_grove
+[14:56:21] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:neon_oasis
+[14:56:21] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:painted_mountains
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (546ebad0)
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[14:56:22] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[14:56:22] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[14:56:22] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (79697c7e)
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (4311f166)
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[14:56:22] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[14:56:22] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[14:56:22] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (42defb58)
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (22b99311)
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[14:56:22] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[14:56:22] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[14:56:22] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (70cf3539)
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (b4867bc)
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[14:56:22] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[14:56:22] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[14:56:22] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (282d416e)
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[14:56:22] [Render thread/WARN] (Logger) [bclib] No valid BCLBiome Registry available!
+[14:56:22] [Render thread/WARN] (Logger) [bclib] No valid Biome Registry available!
+[14:56:22] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (c38f6e0)
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (1881de70)
+[14:56:22] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[14:56:22] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[14:56:22] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[14:56:22] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[14:56:23] [Worker-Main-2/ERROR] (Minecraft) Not a JSON object: null
+[14:56:23] [Worker-Main-2/ERROR] (Minecraft) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack Fabric Mods
 java.lang.RuntimeException: Not a JSON object: null
 	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.6.jar:?]
 	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.6.jar:?]
@@ -208,122 +212,118 @@ java.lang.RuntimeException: Not a JSON object: null
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14:07:26] [Render thread/INFO] (Logger) [bclib] Disabling Recipe: bclib:test_star
-[14:07:26] [Render thread/INFO] (Minecraft) Loaded 10 recipes
-[14:07:27] [Render thread/INFO] (Minecraft) Loaded 1959 advancements
-[14:07:28] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (7fa8436a)
-[14:07:28] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (29f9a15e)
-[14:07:28] [Render thread/INFO] (Logger) [bclib] Enforcing Correct Generator for minecraft:the_end.
-[14:07:28] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (29f9a15e)
-[14:07:28] [Render thread/INFO] (Logger) [bclib] Enforcing Correct Generator for minecraft:the_nether.
-[14:07:28] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (7fa8436a)
-[14:07:28] [Render thread/INFO] (Logger) [worlds_together] Loading originally configured Dimensions in World.
-[14:07:29] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 88 new biomes in 2.618 ms
-[14:07:29] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.4
-[14:07:29] [Server thread/INFO] (Minecraft) Generating keypair
-[14:07:29] [Server thread/INFO] (Logger) [bclib] 
+[14:56:23] [Render thread/INFO] (Logger) [bclib] Disabling Recipe: bclib:test_star
+[14:56:23] [Render thread/INFO] (Minecraft) Loaded 10 recipes
+[14:56:24] [Render thread/INFO] (Minecraft) Loaded 1959 advancements
+[14:56:26] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (1005ae3)
+[14:56:26] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (265f3dce)
+[14:56:26] [Render thread/INFO] (Logger) [bclib] Enforcing Correct Generator for minecraft:the_end.
+[14:56:26] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (265f3dce)
+[14:56:26] [Render thread/INFO] (Logger) [bclib] Enforcing Correct Generator for minecraft:the_nether.
+[14:56:26] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (1005ae3)
+[14:56:26] [Render thread/INFO] (Logger) [worlds_together] Loading originally configured Dimensions in World.
+[14:56:26] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 88 new biomes in 4.369 ms
+[14:56:26] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.4
+[14:56:26] [Server thread/INFO] (Minecraft) Generating keypair
+[14:56:26] [Server thread/INFO] (Logger) [bclib] 
 Apply Modifications for minecraft:the_end
-    BCLib - The End  BiomeSource (29f9a15e)
+    BCLib - The End  BiomeSource (265f3dce)
         biomes     = 24
         namespaces = betterend, minecraft
         seed       = 0
         height     = 128
         deciders   = 1
         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
-[14:07:29] [Server thread/INFO] (Logger) [bclib] 
+[14:56:26] [Server thread/INFO] (Logger) [bclib] 
+Apply Modifications for minecraft:overworld
+    FixedBiomeSource (509d051e)
+        biomes     = 1
+        namespaces = minecraft
+[14:56:26] [Server thread/INFO] (Logger) [bclib] 
 Apply Modifications for minecraft:the_nether
-    BCLib - Nether BiomeSource (7fa8436a)
+    BCLib - Nether BiomeSource (1005ae3)
         biomes     = 5
         namespaces = minecraft
         seed       = 0
         height     = 128
         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
-[14:07:29] [Server thread/INFO] (Logger) [bclib] 
-Apply Modifications for minecraft:overworld
-    FixedBiomeSource (1210ac28)
-        biomes     = 1
-        namespaces = minecraft
-[14:07:29] [Server thread/INFO] (Logger) [bclib] World Dimensions: 
+[14:56:26] [Server thread/INFO] (Logger) [bclib] World Dimensions: 
  - minecraft:the_end: 
-     BCLib - Chunk Generator (769b036) 
-     BCLib - The End  BiomeSource (29f9a15e)
+     BCLib - Chunk Generator (4544a6f4) 
+     BCLib - The End  BiomeSource (265f3dce)
          biomes     = 24
          namespaces = betterend, minecraft
          seed       = 0
          height     = 128
          deciders   = 1
          config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+ - minecraft:overworld: 
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@6027c1c2 
+     FixedBiomeSource (509d051e)
+         biomes     = 1
+         namespaces = minecraft
  - minecraft:the_nether: 
-     BCLib - Chunk Generator (b97b983) 
-     BCLib - Nether BiomeSource (7fa8436a)
+     BCLib - Chunk Generator (30592731) 
+     BCLib - Nether BiomeSource (1005ae3)
          biomes     = 5
          namespaces = minecraft
          seed       = 0
          height     = 128
          config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
- - minecraft:overworld: 
-     net.minecraft.world.gen.chunk.FlatChunkGenerator@7572ac6f 
-     FixedBiomeSource (1210ac28)
-         biomes     = 1
-         namespaces = minecraft
-[14:07:29] [Server thread/INFO] (Logger) [bclib] Merged 19 additional Surface Rules for 
-BCLib - The End  BiomeSource (29f9a15e)
+[14:56:26] [Server thread/INFO] (Logger) [bclib] Merged 19 additional Surface Rules for 
+BCLib - The End  BiomeSource (265f3dce)
     biomes     = 24
     namespaces = betterend, minecraft
     seed       = 0
     height     = 128
     deciders   = 1
     config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 20
-[14:07:29] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[14:07:35] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[14:07:35] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[14:07:35] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[14:07:35] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[14:07:35] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[14:07:35] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[14:07:35] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[14:07:35] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[14:07:35] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[14:07:35] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[14:07:35] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[14:07:35] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[14:07:35] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[14:07:36] [Render thread/INFO] (Minecraft) Time elapsed: 6966 ms
-[14:07:36] [Server thread/INFO] (Minecraft) Changing view distance to 2, from 10
-[14:07:36] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
-[14:07:38] [Server thread/INFO] (Minecraft) Player172[local:E:26f4a3c3] logged in with entity id 51 at (4.648133709819307, -55.0, -4.703770319597562)
-[14:07:39] [Server thread/INFO] (Minecraft) Player172 csatlakozott a játékhoz
-[14:07:39] [Server thread/INFO] (Minecraft) Player172 megtette a(z) [K?korszaki] el?relépést
-[14:07:39] [Render thread/INFO] (Logger) [bclib] Sending hello to server.
-[14:07:39] [Server thread/INFO] (Logger) [bclib] Received Hello from Client. (server=2.3.1, client=2.3.1)
-[14:07:39] [Server thread/INFO] (Logger) [bclib] Auto-Sync is disabled for Singleplayer worlds.
-[14:07:39] [Render thread/INFO] (Minecraft) [System] [CHAT] Player172 megtette a(z) [K?korszaki] el?relépést
-[14:07:39] [Render thread/INFO] (Minecraft) Loaded 61 advancements
-[14:07:40] [Render thread/INFO] (Minecraft) Loaded 69 advancements
-[14:07:50] [Render thread/INFO] (Minecraft) Loaded 70 advancements
-[14:08:25] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:08:26] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[14:08:26] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[14:08:26] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[14:08:49] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:08:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[14:08:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[14:08:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[14:09:22] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:09:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[14:09:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[14:09:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[14:13:50] [Render thread/INFO] (Minecraft) Stopping!
-[14:13:50] [Server thread/INFO] (Minecraft) Player172 lost connection: Megszakadt a kapcsolat
-[14:13:50] [Server thread/INFO] (Minecraft) Player172 elhagyta a játékot
-[14:13:50] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[14:13:50] [Server thread/INFO] (Minecraft) Stopping server
-[14:13:50] [Server thread/INFO] (Minecraft) Saving players
-[14:13:50] [Server thread/INFO] (Minecraft) Saving worlds
-[14:13:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[14:13:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[14:13:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[14:13:53] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[14:13:53] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:13:53] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:13:53] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[14:56:27] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[14:56:31] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[14:56:31] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[14:56:31] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[14:56:31] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[14:56:31] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[14:56:31] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[14:56:31] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[14:56:31] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[14:56:31] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[14:56:32] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[14:56:32] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[14:56:33] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 56%
+[14:56:34] [Render thread/INFO] (Minecraft) Time elapsed: 6916 ms
+[14:56:34] [Server thread/INFO] (Minecraft) Changing view distance to 2, from 10
+[14:56:34] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
+[14:56:37] [Server thread/INFO] (Minecraft) Player26[local:E:704e14aa] logged in with entity id 51 at (12.719783238512937, -56.74329962475259, 6.4241793080290215)
+[14:56:37] [Server thread/INFO] (Minecraft) Player26 csatlakozott a játékhoz
+[14:56:37] [Server thread/INFO] (Minecraft) Player26 megtette a(z) [K?korszaki] el?relépést
+[14:56:37] [Render thread/INFO] (Logger) [bclib] Sending hello to server.
+[14:56:37] [Server thread/INFO] (Logger) [bclib] Received Hello from Client. (server=2.3.1, client=2.3.1)
+[14:56:37] [Server thread/INFO] (Logger) [bclib] Auto-Sync is disabled for Singleplayer worlds.
+[14:56:38] [Render thread/INFO] (Minecraft) [System] [CHAT] Player26 megtette a(z) [K?korszaki] el?relépést
+[14:56:38] [Render thread/INFO] (Minecraft) Loaded 35 advancements
+[14:56:39] [Render thread/INFO] (Minecraft) Loaded 43 advancements
+[14:56:39] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[14:56:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14:56:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14:56:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14:56:58] [Render thread/INFO] (Minecraft) Loaded 45 advancements
+[14:58:32] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[14:58:32] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14:58:32] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14:58:32] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14:58:40] [Server thread/INFO] (Minecraft) Player26 lost connection: Megszakadt a kapcsolat
+[14:58:40] [Server thread/INFO] (Minecraft) Player26 elhagyta a játékot
+[14:58:40] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[14:58:40] [Server thread/INFO] (Minecraft) Stopping server
+[14:58:40] [Server thread/INFO] (Minecraft) Saving players
+[14:58:40] [Server thread/INFO] (Minecraft) Saving worlds
+[14:58:41] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14:58:44] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14:58:44] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14:58:44] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[14:58:44] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:58:44] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:58:44] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[14:58:45] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
+[14:58:47] [Render thread/INFO] (Minecraft) Stopping!

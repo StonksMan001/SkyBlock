@@ -4,19 +4,17 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.me.skyblock.SkyBlock;
+import net.me.skyblock.block.custom.AbyssVegetation;
+import net.me.skyblock.block.custom.BlueVigilantGrass;
 import net.me.skyblock.block.custom.SuspiciousCoarseDirt;
 import net.me.skyblock.item.ModItemGroup;
-import net.me.skyblock.sound.ModSounds;
 import net.minecraft.block.*;
-import net.minecraft.client.sound.Sound;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.server.command.PlaySoundCommand;
 import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
@@ -28,13 +26,21 @@ public class ModBlocks {
 
     //ABYSS
     public static final Block UNSTABLE_OBSIDIAN = registerBlock("unstable_obsidian",
-            new Block(FabricBlockSettings.copy(Blocks.OBSIDIAN).strength(50.0f, 1200.0f).requiresTool()), ModItemGroup.ABYSS);
+            new Block(FabricBlockSettings.copy(Blocks.OBSIDIAN).strength(50.0f, 1200.0f).requiresTool().luminance(state -> 10)), ModItemGroup.ABYSS);
     public static final Block ABYSS_DIRT = registerBlock("abyss_dirt",
             new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.MUD).strength(0.5f)), ModItemGroup.ABYSS);
     public static final Block BLARU_MOSS = registerBlock("blaru_moss",
             new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.ROOTED_DIRT).strength(0.5f)), ModItemGroup.ABYSS);
     public static final Block BLARU_GRASS = registerBlock("blaru_grass",
-            new Block(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.ROOTS)), ModItemGroup.ABYSS);
+            new AbyssVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.NETHER_SPROUTS)), ModItemGroup.ABYSS);
+    public static final Block EXOLIUS_MAXIMUS = registerBlock("exolius_maximus",
+            new AbyssVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.ROOTS).luminance(state -> 5)), ModItemGroup.ABYSS);
+    public static final Block YOUNG_EXOLIUS_MAXIMUS = registerBlock("young_exolius_maximus",
+            new AbyssVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.ROOTS).luminance(state -> 5)), ModItemGroup.ABYSS);
+    public static final Block VIGILANT_GRASS = registerBlock("vigilant_grass",
+            new AbyssVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.ROOTS)), ModItemGroup.ABYSS);
+    public static final Block BLUE_VIGILANT_GRASS = registerBlock("blue_vigilant_grass",
+            new BlueVigilantGrass(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.ROOTS).luminance(state -> state.get(BlueVigilantGrass.LIT) ? 10 : 6)), ModItemGroup.ABYSS);
     public static final Block VIGILANT_MOSS = registerBlock("vigilant_moss",
             new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.ROOTED_DIRT).strength(0.5f)), ModItemGroup.ABYSS);
     public static final Block ABYSS_STONE = registerBlock("abyss_stone",
@@ -52,17 +58,17 @@ public class ModBlocks {
 
 
     public static final Block BLARU_LOG = registerBlock("blaru_log",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(2.0f)), ModItemGroup.ABYSS);
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_STEM).strength(2.0f)), ModItemGroup.ABYSS);
     public static final Block BLARU_WOOD = registerBlock("blaru_wood",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).strength(2.0f)), ModItemGroup.ABYSS);
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_HYPHAE).strength(2.0f)), ModItemGroup.ABYSS);
     public static final Block STRIPPED_BLARU_LOG = registerBlock("stripped_blaru_log",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).strength(2.0f)), ModItemGroup.ABYSS);
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_STEM).strength(2.0f)), ModItemGroup.ABYSS);
     public static final Block STRIPPED_BLARU_WOOD = registerBlock("stripped_blaru_wood",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(2.0f)), ModItemGroup.ABYSS);
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_HYPHAE).strength(2.0f)), ModItemGroup.ABYSS);
     public static final Block BLARU_LEAVES = registerBlock("blaru_leaves",
             new Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.ABYSS);
     public static final Block BLARU_PLANKS = registerBlock("blaru_planks",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
     //ABYSS
 
 

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "skyblock:block/blue_vigilant_grass" },
+    "lit=false": { "model": "skyblock:block/blue_vigilant_grass" }
+  }
+}

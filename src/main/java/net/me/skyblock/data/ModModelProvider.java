@@ -28,6 +28,14 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_BLARU_LOG).log(ModBlocks.STRIPPED_BLARU_LOG).wood(ModBlocks.STRIPPED_BLARU_WOOD);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLARU_PLANKS);
 
+        blockStateModelGenerator.registerLog(ModBlocks.BOG_SHROOM_LOG).log(ModBlocks.BOG_SHROOM_LOG).wood(ModBlocks.BOG_SHROOM_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_BOG_SHROOM_LOG).log(ModBlocks.STRIPPED_BOG_SHROOM_LOG).wood(ModBlocks.STRIPPED_BOG_SHROOM_WOOD);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BOG_SHROOM_PLANKS);
+
+        blockStateModelGenerator.registerLog(ModBlocks.ABYSS_JUNGLE_LOG).log(ModBlocks.ABYSS_JUNGLE_LOG).wood(ModBlocks.ABYSS_JUNGLE_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_ABYSS_JUNGLE_LOG).log(ModBlocks.STRIPPED_ABYSS_JUNGLE_LOG).wood(ModBlocks.STRIPPED_ABYSS_JUNGLE_WOOD);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ABYSS_JUNGLE_PLANKS);
+
         blockStateModelGenerator.registerLog(ModBlocks.AZALEA_LOG).log(ModBlocks.AZALEA_LOG).wood(ModBlocks.AZALEA_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_AZALEA_LOG).log(ModBlocks.STRIPPED_AZALEA_LOG).wood(ModBlocks.STRIPPED_AZALEA_WOOD);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.AZALEA_PLANKS);

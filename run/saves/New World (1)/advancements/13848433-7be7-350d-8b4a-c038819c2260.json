@@ -11,21 +11,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2023-05-07 22:01:26 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2023-05-07 22:00:29 +0200"
-    },
-    "done": true
-  },
-  "betterend:root": {
-    "criteria": {
-      "welcome": "2023-05-07 22:00:31 +0200"
     },
     "done": true
   },
@@ -35,45 +23,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stripped_oak_wood": {
-    "criteria": {
-      "has_log": "2023-05-07 22:04:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "golden_apple": "2023-05-07 22:03:15 +0200"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2023-05-07 22:05:19 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_coal_block": "2023-05-07 22:00:29 +0200"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/sulphur_gunpowder": {
-    "criteria": {
-      "has_658_bone_meal": "2023-05-07 22:05:19 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2023-05-07 22:00:31 +0200"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/bone_block": {
-    "criteria": {
-      "has_bone_meal": "2023-05-07 22:05:19 +0200"
     },
     "done": true
   },
@@ -83,5 +35,371 @@
     },
     "done": true
   },
-  "DataVersion": 3218
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2023-05-07 22:00:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-05-07 22:00:31 +0200"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-05-07 22:01:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "golden_apple": "2023-05-07 22:03:15 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2023-05-07 22:04:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2023-05-07 22:05:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2023-05-07 22:05:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-05-13 10:24:15 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_pedestal": {
+    "criteria": {
+      "has_virid_jadestone_slab": "2023-05-13 10:45:23 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_pillar": {
+    "criteria": {
+      "has_virid_jadestone_slab": "2023-05-13 10:45:23 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_red": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_magenta": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_light_blue": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_white": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_cyan": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_blue": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_pink": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_lime": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_orange": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_green": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_black": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_purple": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_brown": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_light_gray": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_gray": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_yellow": {
+    "criteria": {
+      "has_terminite_bulb_lantern": "2023-05-13 10:53:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2023-05-13 10:56:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2023-05-13 11:09:28 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/tools/tag_compass": {
+    "criteria": {
+      "has_redstone": "2023-05-13 11:13:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2023-05-13 11:13:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2023-05-13 11:13:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2023-05-13 11:13:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2023-05-13 11:13:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2023-05-13 11:13:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2023-05-13 11:13:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2023-05-13 11:13:31 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/redstone/tag_piston": {
+    "criteria": {
+      "has_redstone": "2023-05-13 11:13:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2023-05-13 11:13:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2023-05-13 11:19:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2023-05-13 11:19:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/golden_hammer": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/gold_chandelier": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 11:25:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2023-05-13 11:25:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2023-05-13 11:25:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2023-05-13 11:25:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2023-05-13 11:25:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2023-05-13 11:25:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2023-05-13 11:25:42 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3337
 }

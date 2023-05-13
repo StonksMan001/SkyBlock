@@ -1,5 +1,6 @@
 package net.me.skyblock.block.custom;
 
+import net.me.skyblock.block.ModBlocks;
 import net.me.skyblock.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -45,6 +46,10 @@ public class BlueVigilantGrass extends PlantBlock {
         }
 
         return super.onUse(state, world, pos, player2, hand, hit);
+    }
+    @Override
+    protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
+        return floor.isOf(ModBlocks.BLARU_MOSS) || floor.isOf(ModBlocks.VIGILANT_MOSS) || super.canPlantOnTop(floor, world, pos);
     }
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {

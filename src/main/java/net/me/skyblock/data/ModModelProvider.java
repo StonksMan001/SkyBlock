@@ -16,6 +16,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VOID_BLOCK);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.INFUSED_MAGMA);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ENDMERALD_BLOCK);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ENDMERALD_ORE);
         blockStateModelGenerator.registerTintableCross(ModBlocks.BLARU_GRASS, BlockStateModelGenerator.TintType.NOT_TINTED);

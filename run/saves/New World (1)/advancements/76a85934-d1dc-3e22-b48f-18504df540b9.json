@@ -1,7 +1,37 @@
 {
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-05-06 19:31:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2023-05-06 19:31:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2023-05-06 19:31:05 +0200"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2023-05-06 19:31:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-05-06 19:31:06 +0200"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "has_planks": "2023-05-06 19:32:07 +0200"
+      "unlock_right_away": "2023-05-13 13:22:49 +0200"
     },
     "done": true
   },
@@ -29,18 +59,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2023-05-06 19:31:05 +0200"
-    },
-    "done": true
-  },
-  "betterend:root": {
-    "criteria": {
-      "welcome": "2023-05-06 19:31:06 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/crimson_stairs": {
     "criteria": {
       "has_planks": "2023-05-06 19:32:07 +0200"
@@ -65,30 +83,6 @@
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_shield": {
-    "criteria": {
-      "has_tag_planks": "2023-05-06 19:32:07 +0200"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_piston": {
-    "criteria": {
-      "has_tag_planks": "2023-05-06 19:32:07 +0200"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_smith_table": {
-    "criteria": {
-      "has_tag_planks": "2023-05-06 19:32:07 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_coal_block": "2023-05-06 19:31:05 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2023-05-06 19:32:07 +0200"
@@ -107,17 +101,137 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
-      "minecraft:plains": "2023-05-06 19:31:06 +0200"
-    },
-    "done": false
-  },
-  "minecraft:nether/netherite_armor": {
-    "criteria": {
-      "netherite_armor": "2023-05-06 19:31:05 +0200"
+      "has_gold_block": "2023-05-13 13:22:48 +0200"
     },
     "done": true
   },
-  "DataVersion": 3218
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_pedestal": {
+    "criteria": {
+      "has_virid_jadestone_slab": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/golden_hammer": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "betterend:all_elytras": {
+    "criteria": {
+      "armored": "2023-05-13 13:27:52 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_pillar": {
+    "criteria": {
+      "has_virid_jadestone_slab": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/gold_chandelier": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 13:22:48 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3337
 }

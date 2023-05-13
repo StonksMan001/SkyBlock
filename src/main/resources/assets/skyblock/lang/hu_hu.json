@@ -24,8 +24,12 @@
   "block.skyblock.void_block": "Űrblokk",
 
   "block.skyblock.unstable_obsidian": "Instabil obszidián",
+  "block.skyblock.purple_shroomlight": "Lila fényspóra",
+  "block.skyblock.dark_blue_shroomlight": "Sötétkék fényspóra",
+  "block.skyblock.blue_shroomlight": "Kék fényspóra",
   "block.skyblock.abyss_dirt": "Végidő föld",
   "block.skyblock.abyss_stone": "Végidő kő",
+  "block.skyblock.infused_magma": "Fúzionált magmablokk",
   "block.skyblock.abyss_diamond_ore": "Gyémántérc végidőkőben",
   "block.skyblock.abyss_emerald_ore": "Smaragdérc végidőkőben",
   "block.skyblock.abyss_gold_ore": "Aranyérc végidőkőben",

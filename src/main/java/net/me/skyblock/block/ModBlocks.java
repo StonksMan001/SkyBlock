@@ -16,6 +16,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.BlockView;
 
 public class ModBlocks {
 
@@ -32,7 +34,7 @@ public class ModBlocks {
     public static final Block BLARU_MOSS = registerBlock("blaru_moss",
             new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.ROOTED_DIRT).strength(0.5f)), ModItemGroup.ABYSS);
     public static final Block GLOWING_BLARU_MOSS = registerBlock("glowing_blaru_moss",
-            new CarpetBlock(FabricBlockSettings.copy(Blocks.MOSS_CARPET).sounds(BlockSoundGroup.MOSS_CARPET).luminance(state -> 10)), ModItemGroup.ABYSS);
+            new CarpetBlock(FabricBlockSettings.copy(Blocks.MOSS_CARPET).sounds(BlockSoundGroup.MOSS_CARPET).luminance(state -> 6)), ModItemGroup.ABYSS);
     public static final Block BLARU_GRASS = registerBlock("blaru_grass",
             new AbyssVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.NETHER_SPROUTS)), ModItemGroup.ABYSS);
     public static final Block ABYSS_SPORES = registerBlock("abyss_spores",
@@ -40,15 +42,17 @@ public class ModBlocks {
     public static final Block VIGILANT_VERSA = registerBlock("vigilant_versa",
             new AbyssVegetation(FabricBlockSettings.copy(Blocks.WARPED_ROOTS).sounds(BlockSoundGroup.ROOTS).luminance(state -> 7)), ModItemGroup.ABYSS);
     public static final Block EXOLIUS_MAXIMUS = registerBlock("exolius_maximus",
-            new AbyssVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.ROOTS).luminance(state -> 5)), ModItemGroup.ABYSS);
+            new AbyssVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.ROOTS).luminance(state -> 3)), ModItemGroup.ABYSS);
     public static final Block YOUNG_EXOLIUS_MAXIMUS = registerBlock("young_exolius_maximus",
-            new AbyssVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.ROOTS).luminance(state -> 5)), ModItemGroup.ABYSS);
+            new AbyssVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.ROOTS).luminance(state -> 3)), ModItemGroup.ABYSS);
     public static final Block VIGILANT_GRASS = registerBlock("vigilant_grass",
             new AbyssVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.NETHER_SPROUTS)), ModItemGroup.ABYSS);
     public static final Block BLUE_VIGILANT_GRASS = registerBlock("blue_vigilant_grass",
             new BlueVigilantGrass(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.ROOTS).luminance(state -> state.get(BlueVigilantGrass.LIT) ? 10 : 6)), ModItemGroup.ABYSS);
     public static final Block VIGILANT_MOSS = registerBlock("vigilant_moss",
             new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.ROOTED_DIRT).strength(0.5f)), ModItemGroup.ABYSS);
+    public static final Block INFUSED_MAGMA = registerBlock("infused_magma",
+            new MagmaBlock(FabricBlockSettings.copy(Blocks.MAGMA_BLOCK).strength(0.5f).luminance(state -> 3).requiresTool().emissiveLighting(ModBlocks::always)), ModItemGroup.ABYSS);
     public static final Block ABYSS_STONE = registerBlock("abyss_stone",
             new Block(FabricBlockSettings.copy(Blocks.STONE).strength(1.5f, 6.0f).requiresTool()), ModItemGroup.ABYSS);
     public static final Block ABYSS_DIAMOND_ORE = registerBlock("abyss_diamond_ore",
@@ -59,6 +63,13 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.GOLD_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
     public static final Block ABYSS_IRON_ORE = registerBlock("abyss_iron_ore",
             new Block(FabricBlockSettings.copy(Blocks.IRON_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block PURPLE_SHROOMLIGHT = registerBlock("purple_shroomlight",
+            new Block(FabricBlockSettings.copy(Blocks.SHROOMLIGHT).strength(1.0f)), ModItemGroup.ABYSS);
+    public static final Block DARK_BLUE_SHROOMLIGHT = registerBlock("dark_blue_shroomlight",
+            new Block(FabricBlockSettings.copy(Blocks.SHROOMLIGHT).strength(1.0f)), ModItemGroup.ABYSS);
+    public static final Block BLUE_SHROOMLIGHT = registerBlock("blue_shroomlight",
+            new Block(FabricBlockSettings.copy(Blocks.SHROOMLIGHT).strength(1.0f)), ModItemGroup.ABYSS);
+
 
 
 
@@ -179,6 +190,12 @@ public class ModBlocks {
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registries.BLOCK, new Identifier(SkyBlock.MOD_ID, name), block);
+    }
+    private static boolean always(BlockState state, BlockView world, BlockPos pos) {
+        return true;
+    }
+    private static boolean never(BlockState state, BlockView world, BlockPos pos) {
+        return false;
     }
 
     private static Item registerBlockItem(String name, Block block, ItemGroup group) {

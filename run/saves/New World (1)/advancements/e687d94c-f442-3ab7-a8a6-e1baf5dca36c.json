@@ -47,12 +47,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2023-02-17 20:52:47 +0100"
-    },
-    "done": false
-  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2023-02-17 20:52:44 +0100"
@@ -317,5 +311,77 @@
     },
     "done": true
   },
-  "DataVersion": 3218
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-02-17 20:52:47 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-05-13 14:33:30 +0200"
+    },
+    "done": true
+  },
+  "betterend:all_elytras": {
+    "criteria": {
+      "armored": "2023-05-13 14:33:30 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2023-05-13 14:33:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2023-05-13 14:33:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-05-13 14:33:31 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_pedestal": {
+    "criteria": {
+      "has_virid_jadestone_slab": "2023-05-13 14:33:31 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/golden_hammer": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 14:33:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2023-05-13 14:33:31 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_pillar": {
+    "criteria": {
+      "has_virid_jadestone_slab": "2023-05-13 14:33:31 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/gold_chandelier": {
+    "criteria": {
+      "has_gold_ingot": "2023-05-13 14:33:31 +0200"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2023-05-13 14:33:33 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3337
 }

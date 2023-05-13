@@ -42,6 +42,7 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation files('libraries/bclib-2.3.1.jar')
+	modImplementation files('libraries/continuity-3.0.0-beta.2+1.19.3 (1).jar')
 	modImplementation files('libraries/better-end-3.2.0.jar')
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"

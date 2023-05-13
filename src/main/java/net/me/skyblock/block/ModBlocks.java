@@ -31,6 +31,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.MUD).strength(0.5f)), ModItemGroup.ABYSS);
     public static final Block BLARU_MOSS = registerBlock("blaru_moss",
             new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.ROOTED_DIRT).strength(0.5f)), ModItemGroup.ABYSS);
+    public static final Block GLOWING_BLARU_MOSS = registerBlock("glowing_blaru_moss",
+            new CarpetBlock(FabricBlockSettings.copy(Blocks.MOSS_CARPET).sounds(BlockSoundGroup.MOSS_CARPET).luminance(state -> 10)), ModItemGroup.ABYSS);
     public static final Block BLARU_GRASS = registerBlock("blaru_grass",
             new AbyssVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.NETHER_SPROUTS)), ModItemGroup.ABYSS);
     public static final Block ABYSS_SPORES = registerBlock("abyss_spores",

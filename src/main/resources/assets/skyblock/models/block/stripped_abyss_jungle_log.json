@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyblock:block/stripped_abyss_jungle_log_top",
+    "side": "skyblock:block/stripped_abyss_jungle_log"
+  }
+}

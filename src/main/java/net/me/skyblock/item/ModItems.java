@@ -6,6 +6,7 @@ import net.me.skyblock.SkyBlock;
 import net.me.skyblock.block.ModBlocks;
 import net.me.skyblock.item.custom.ModArmorMaterials;
 import net.me.skyblock.item.custom.ModAxeItem;
+import net.me.skyblock.sound.ModSounds;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -15,6 +16,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item FYBERITE = registerItem("fyberite_ingot",
             new Item(new FabricItemSettings()));
+    public static final Item MUSIC_DISC_WITHERSTORM = registerItem("music_disc_wither_storm_theme",
+            new MusicDiscItem(6, ModSounds.WITHERSTORM_THEME, new  FabricItemSettings().maxCount(1),188));
     public static final Item ENDERITE_APPLE = registerItem("enderite_apple",
             new Item(new FabricItemSettings().food(ModFoodComponents.ENDERITE_APPLE)));
     public static final Item ENCHANTED_ENDERITE_APPLE = registerItem("enchanted_enderite_apple",
@@ -62,6 +65,7 @@ public class ModItems {
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroup.UNUSED, FYBERITE);
+        addToItemGroup(ModItemGroup.UNUSED, MUSIC_DISC_WITHERSTORM);
         addToItemGroup(ModItemGroup.FYBERITE, ENDMERALD);
         addToItemGroup(ModItemGroup.FYBERITE, ANT_BOTTLE);
         addToItemGroup(ModItemGroup.FYBERITE, BOTTLE_OF_ANT_JAM);

@@ -1,0 +1,10 @@
+{
+  "wither_storm_theme": {
+    "sounds": [
+      {
+        "name": "skyblock:wither_storm_boss_theme",
+        "stream": true
+      }
+    ]
+  }
+}

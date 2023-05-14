@@ -21,6 +21,10 @@
   "item.skyblock.enderite_axe": "Enderite Axe",
 
   "item.skyblock.fyberite_ingot": "Fyberite Ingot",
+  "item.skyblock.disc_fragment_wither_storm_theme": "Disc Fragment",
+  "item.skyblock.disc_fragment_wither_storm_theme.desc": "Music Disc - Wither Storm Theme",
+  "item.skyblock.music_disc_wither_storm_theme": "Music Disc",
+  "item.skyblock.music_disc_wither_storm_theme.desc": "Antimo & Welles - Wither Storm Theme",
   "block.skyblock.void_block": "Void Block",
 
   "block.skyblock.unstable_obsidian": "Unstable Obsidian",
@@ -43,6 +47,7 @@
   "block.skyblock.glowing_blaru_moss": "Glowing Blaru Moss",
   "block.skyblock.blaru_grass": "Blaru Grass",
   "block.skyblock.abyss_spores": "Abyss Spores",
+  "block.skyblock.tesla_flower": "Tesla Flower",
   "block.skyblock.exolius_maximus": "Exolius Maximus",
   "block.skyblock.young_exolius_maximus": "Young Exolius Maximus",
   "block.skyblock.vigilant_moss": "Vigilant Moss",

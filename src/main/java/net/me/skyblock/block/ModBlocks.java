@@ -31,6 +31,16 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.OBSIDIAN).strength(50.0f, 1200.0f).requiresTool().luminance(state -> 10)), ModItemGroup.ABYSS);
     public static final Block ABYSS_DIRT = registerBlock("abyss_dirt",
             new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.MUD).strength(0.5f)), ModItemGroup.ABYSS);
+    public static final Block ROMA_MUD = registerBlock("roma_mud",
+            new Block(FabricBlockSettings.copy(Blocks.MUD).sounds(BlockSoundGroup.MUD).strength(0.5f)), ModItemGroup.ABYSS);
+    public static final Block ROMA_MUD_CURSED = registerBlock("roma_mud_2",
+            new Block(FabricBlockSettings.copy(Blocks.MUD).sounds(BlockSoundGroup.MUD).strength(0.5f)), ModItemGroup.ABYSS);
+    public static final Block ABYSS_GRAVEL = registerBlock("abyss_gravel",
+            new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.GRAVEL).strength(0.6f)), ModItemGroup.ABYSS);
+    public static final Block INFECTED_PEAT = registerBlock("infected_peat",
+            new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.MUD).strength(0.5f)), ModItemGroup.ABYSS);
+    public static final Block STONE_RACKLE = registerBlock("stone_rackle",
+            new Block(FabricBlockSettings.copy(Blocks.STONE).strength(1.5f, 6.0f).requiresTool()), ModItemGroup.ABYSS);
     public static final Block BLARU_MOSS = registerBlock("blaru_moss",
             new Block(FabricBlockSettings.copy(Blocks.DIRT).sounds(BlockSoundGroup.ROOTED_DIRT).strength(0.5f)), ModItemGroup.ABYSS);
     public static final Block GLOWING_BLARU_MOSS = registerBlock("glowing_blaru_moss",
@@ -38,6 +48,8 @@ public class ModBlocks {
     public static final Block BLARU_GRASS = registerBlock("blaru_grass",
             new AbyssVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.NETHER_SPROUTS)), ModItemGroup.ABYSS);
     public static final Block ABYSS_SPORES = registerBlock("abyss_spores",
+            new AbyssVegetation(FabricBlockSettings.copy(Blocks.WARPED_ROOTS).sounds(BlockSoundGroup.ROOTS)), ModItemGroup.ABYSS);
+    public static final Block TESLA_FLOWER = registerBlock("tesla_flower",
             new AbyssVegetation(FabricBlockSettings.copy(Blocks.WARPED_ROOTS).sounds(BlockSoundGroup.ROOTS)), ModItemGroup.ABYSS);
     public static final Block VIGILANT_VERSA = registerBlock("vigilant_versa",
             new AbyssVegetation(FabricBlockSettings.copy(Blocks.WARPED_ROOTS).sounds(BlockSoundGroup.ROOTS).luminance(state -> 7)), ModItemGroup.ABYSS);

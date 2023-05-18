@@ -6,6 +6,7 @@ import net.me.skyblock.block.ModBlocks;
 import net.me.skyblock.item.ModItemGroup;
 import net.me.skyblock.item.ModItems;
 import net.me.skyblock.painting.ModPaintings;
+import net.me.skyblock.world.biome.ModBiomeKeys;
 import net.me.skyblock.world.dimension.ModDimensions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

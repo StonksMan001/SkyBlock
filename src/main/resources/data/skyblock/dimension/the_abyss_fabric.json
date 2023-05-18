@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:overworld",
+  "type": "skyblock:the_abyss_fabric",
   "generator": {
     "type": "minecraft:flat",
     "settings": {

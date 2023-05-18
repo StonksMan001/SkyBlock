@@ -67,6 +67,8 @@ public class ModBlocks {
             new MagmaBlock(FabricBlockSettings.copy(Blocks.MAGMA_BLOCK).strength(0.5f).luminance(state -> 3).requiresTool().emissiveLighting(ModBlocks::always)), ModItemGroup.ABYSS);
     public static final Block ABYSS_STONE = registerBlock("abyss_stone",
             new Block(FabricBlockSettings.copy(Blocks.STONE).strength(1.5f, 6.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block ABYSS_STONE_OG = registerBlock("abyss_stone_og",
+            new Block(FabricBlockSettings.copy(Blocks.STONE).strength(1.5f, 6.0f).requiresTool()), ModItemGroup.ABYSS);
     public static final Block ABYSS_DIAMOND_ORE = registerBlock("abyss_diamond_ore",
             new Block(FabricBlockSettings.copy(Blocks.DIAMOND_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
     public static final Block ABYSS_EMERALD_ORE = registerBlock("abyss_emerald_ore",
@@ -74,6 +76,22 @@ public class ModBlocks {
     public static final Block ABYSS_GOLD_ORE = registerBlock("abyss_gold_ore",
             new Block(FabricBlockSettings.copy(Blocks.GOLD_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
     public static final Block ABYSS_IRON_ORE = registerBlock("abyss_iron_ore",
+            new Block(FabricBlockSettings.copy(Blocks.IRON_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block ABYSS_IGNISITHE_ORE = registerBlock("abyss_ignisithe_ore",
+            new Block(FabricBlockSettings.copy(Blocks.IRON_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block ABYSS_ABERYTHE_ORE = registerBlock("abyss_aberythe_ore",
+            new Block(FabricBlockSettings.copy(Blocks.IRON_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block ABYSS_ABORANYS_ORE = registerBlock("abyss_aboranys_ore",
+            new Block(FabricBlockSettings.copy(Blocks.IRON_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block ABYSS_FUSION_ORE = registerBlock("abyss_fusion_ore",
+            new Block(FabricBlockSettings.copy(Blocks.IRON_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block ABYSS_GARNITE_ORE = registerBlock("abyss_garnite_ore",
+            new Block(FabricBlockSettings.copy(Blocks.IRON_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block ABYSS_GLACERYTHE_ORE = registerBlock("abyss_glacerythe_ore",
+            new Block(FabricBlockSettings.copy(Blocks.IRON_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block ABYSS_INCORYTHE_ORE = registerBlock("abyss_incorythe_ore",
+            new Block(FabricBlockSettings.copy(Blocks.IRON_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
+    public static final Block ABYSS_LORAN_ORE = registerBlock("abyss_loran_ore",
             new Block(FabricBlockSettings.copy(Blocks.IRON_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
     public static final Block PURPLE_SHROOMLIGHT = registerBlock("purple_shroomlight",
             new Block(FabricBlockSettings.copy(Blocks.SHROOMLIGHT).strength(1.0f)), ModItemGroup.ABYSS);
@@ -154,6 +172,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.END_STONE).strength(3.0f).requiresTool()), ModItemGroup.FYBERITE);
     //END VEGETATION
     public static final Block ANT_JAM_BLOCK = registerBlock("ant_jam_block",
+            new HoneyBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.01f)), ModItemGroup.FYBERITE);
+    public static final Block SWEET_BERRY_JAM_BLOCK = registerBlock("sweet_berry_jam_block",
             new HoneyBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.01f)), ModItemGroup.FYBERITE);
     public static final Block SUSPICIOUS_COARSE_DIRT = registerBlock("suspicious_coarse_dirt",
             new SuspiciousCoarseDirt(FabricBlockSettings.copy(Blocks.COARSE_DIRT).strength(0.5f).luminance(state -> state.get(SuspiciousCoarseDirt.ANT) ? 0 : 0)), ModItemGroup.FYBERITE);

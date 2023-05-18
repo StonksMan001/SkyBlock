@@ -56,7 +56,7 @@ public class ModItems {
     public static final Item ANT_BOTTLE = registerItem("ant_bottle",
             new Item(new FabricItemSettings()));
     public static final Item BOTTLE_OF_ANT_JAM = registerItem("bottle_of_ant_jam",
-            new Item(new FabricItemSettings()));
+            new Item(new FabricItemSettings().recipeRemainder(Items.GLASS_BOTTLE)));
 
 
     private static Item registerItem(String name, Item item) {

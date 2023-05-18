@@ -22,6 +22,16 @@ public class ModItems {
             new Item(new FabricItemSettings().food(ModFoodComponents.ENDERITE_APPLE)));
     public static final Item ENCHANTED_ENDERITE_APPLE = registerItem("enchanted_enderite_apple",
             new EnchantedEnderiteAppleItem(new FabricItemSettings().food(ModFoodComponents.ENCHANTED_ENDERITE_APPLE)));
+    public static final Item SUGAR_POPPY_MIXTURE = registerItem("sugar_poppy_mixture",
+            new Item(new FabricItemSettings()));
+    public static final Item STEAM_DUMPLING_FRESH = registerItem("steam_dumpling_raw",
+            new Item(new FabricItemSettings()));
+    public static final Item STEAM_DUMPLING = registerItem("steam_dumpling",
+            new Item(new FabricItemSettings().food(ModFoodComponents.STEAM_DUMPLING)));
+    public static final Item STEAM_DUMPLING_WITH_MOLTEN_BUTTER = registerItem("steam_dumpling_with_molten_butter",
+            new Item(new FabricItemSettings().food(ModFoodComponents.STEAM_DUMPLING_WITH_MOLTEN_BUTTER)));
+    public static final Item STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE = registerItem("steam_dumpling_with_molten_butter_and_sugar_poppy_mixture",
+            new Item(new FabricItemSettings().food(ModFoodComponents.STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE)));
     public static final Item LORAN = registerItem("loran",
             new Loran(new FabricItemSettings()));
     public static final Item ENDER_STICK = registerItem("ender_stick",
@@ -69,6 +79,11 @@ public class ModItems {
         addToItemGroup(ModItemGroup.FYBERITE, ENDMERALD);
         addToItemGroup(ModItemGroup.FYBERITE, ANT_BOTTLE);
         addToItemGroup(ModItemGroup.FYBERITE, BOTTLE_OF_ANT_JAM);
+        addToItemGroup(ModItemGroup.FYBERITE, SUGAR_POPPY_MIXTURE);
+        addToItemGroup(ModItemGroup.FYBERITE, STEAM_DUMPLING_FRESH);
+        addToItemGroup(ModItemGroup.FYBERITE, STEAM_DUMPLING);
+        addToItemGroup(ModItemGroup.FYBERITE, STEAM_DUMPLING_WITH_MOLTEN_BUTTER);
+        addToItemGroup(ModItemGroup.FYBERITE, STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE);
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_APPLE);
         addToItemGroup(ModItemGroup.FYBERITE, ENCHANTED_ENDERITE_APPLE);
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_INGOT);

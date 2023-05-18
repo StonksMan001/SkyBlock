@@ -26,4 +26,7 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 3200, 0), 1.0f)
             .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 4400, 4), 1.0f)
             .alwaysEdible().build();
+    public static final FoodComponent STEAM_DUMPLING = new FoodComponent.Builder().hunger(5).saturationModifier(1.1f).build();
+    public static final FoodComponent STEAM_DUMPLING_WITH_MOLTEN_BUTTER = new FoodComponent.Builder().hunger(7).saturationModifier(1.4f).build();
+    public static final FoodComponent STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE = new FoodComponent.Builder().hunger(9).saturationModifier(1.9f).build();
 }

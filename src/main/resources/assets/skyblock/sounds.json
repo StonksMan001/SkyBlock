@@ -6,5 +6,269 @@
         "stream": true
       }
     ]
+  },
+  "abyss_amcience": {
+    "sounds": [
+      {
+        "name": "skyblock:abyss_amcience",
+        "stream": true
+      }
+    ]
+  },
+  "abyss_resonator_ambience": {
+    "sounds": [
+      {
+        "name": "skyblock:abyss_resonator_ambience",
+        "stream": true
+      }
+    ]
+  },
+  "ambient_jumpscare_effect": {
+    "sounds": [
+      {
+        "name": "skyblock:ambient_jumpscare_effect",
+        "stream": true
+      }
+    ]
+  },
+  "ambientmusic": {
+    "sounds": [
+      {
+        "name": "skyblock:ambientmusic",
+        "stream": true
+      }
+    ]
+  },
+  "corrupted_valley": {
+    "sounds": [
+      {
+        "name": "skyblock:corrupted_valley",
+        "stream": true
+      }
+    ]
+  },
+  "dream_event_1": {
+    "sounds": [
+      {
+        "name": "skyblock:dream_event_1",
+        "stream": true
+      }
+    ]
+  },
+  "dream_event_2": {
+    "sounds": [
+      {
+        "name": "skyblock:dream_event_2",
+        "stream": true
+      }
+    ]
+  },
+  "end_game": {
+    "sounds": [
+      {
+        "name": "skyblock:end_game",
+        "stream": true
+      }
+    ]
+  },
+  "fear_event_1": {
+    "sounds": [
+      {
+        "name": "skyblock:fear_event_1",
+        "stream": true
+      }
+    ]
+  },
+  "fear_event_2": {
+    "sounds": [
+      {
+        "name": "skyblock:fear_event_2",
+        "stream": true
+      }
+    ]
+  },
+  "frost_world": {
+    "sounds": [
+      {
+        "name": "skyblock:frost_world",
+        "stream": true
+      }
+    ]
+  },
+  "jason_johnson_-_the_cyanidex_theme": {
+    "sounds": [
+      {
+        "name": "skyblock:jason_johnson_-_the_cyanidex_theme",
+        "stream": true
+      }
+    ]
+  },
+  "jj_first_dream": {
+    "sounds": [
+      {
+        "name": "skyblock:jj_first_dream",
+        "stream": true
+      }
+    ]
+  },
+  "randomfx_1": {
+    "sounds": [
+      {
+        "name": "skyblock:randomfx_1",
+        "stream": true
+      }
+    ]
+  },
+  "randomfx_2": {
+    "sounds": [
+      {
+        "name": "skyblock:randomfx_2",
+        "stream": true
+      }
+    ]
+  },
+  "randomfx_3": {
+    "sounds": [
+      {
+        "name": "skyblock:randomfx_3",
+        "stream": true
+      }
+    ]
+  },
+  "randomfx_4": {
+    "sounds": [
+      {
+        "name": "skyblock:randomfx_4",
+        "stream": true
+      }
+    ]
+  },
+  "randomfx_5": {
+    "sounds": [
+      {
+        "name": "skyblock:randomfx_5",
+        "stream": true
+      }
+    ]
+  },
+  "randomfx_6": {
+    "sounds": [
+      {
+        "name": "skyblock:randomfx_6",
+        "stream": true
+      }
+    ]
+  },
+  "randomfx_7": {
+    "sounds": [
+      {
+        "name": "skyblock:randomfx_7",
+        "stream": true
+      }
+    ]
+  },
+  "randomfx_8": {
+    "sounds": [
+      {
+        "name": "skyblock:randomfx_8",
+        "stream": true
+      }
+    ]
+  },
+  "randomfx_9": {
+    "sounds": [
+      {
+        "name": "skyblock:randomfx_9",
+        "stream": true
+      }
+    ]
+  },
+  "randomfx_10": {
+    "sounds": [
+      {
+        "name": "skyblock:randomfx_10",
+        "stream": true
+      }
+    ]
+  },
+  "randomfx_11": {
+    "sounds": [
+      {
+        "name": "skyblock:randomfx_11",
+        "stream": true
+      }
+    ]
+  },
+  "ruma_ambience": {
+    "sounds": [
+      {
+        "name": "skyblock:ruma_ambience",
+        "stream": true
+      }
+    ]
+  },
+  "ruma_music": {
+    "sounds": [
+      {
+        "name": "skyblock:ruma_music",
+        "stream": true
+      }
+    ]
+  },
+  "ruma_music_2": {
+    "sounds": [
+      {
+        "name": "skyblock:ruma_music_2",
+        "stream": true
+      }
+    ]
+  },
+  "slime_forest": {
+    "sounds": [
+      {
+        "name": "skyblock:slime_forest",
+        "stream": true
+      }
+    ]
+  },
+  "the_abyss_-_a_new_era": {
+    "sounds": [
+      {
+        "name": "skyblock:the_abyss_-_a_new_era",
+        "stream": true
+      }
+    ]
+  },
+  "the_abyss_-_faded_reality": {
+    "sounds": [
+      {
+        "name": "skyblock:the_abyss_-_faded_reality",
+        "stream": true
+      }
+    ]
+  },
+  "the_abyss_-_frosted": {
+    "sounds": [
+      {
+        "name": "skyblock:the_abyss_-_frosted",
+        "stream": true
+      }
+    ]
+  },
+  "the_abyss_-_journeys": {
+    "sounds": [
+      {
+        "name": "skyblock:the_abyss_-_journeys",
+        "stream": true
+      }
+    ]
+  },
+  "the_abyss_-_lost_in_dessert": {
+    "sounds": [
+      {
+        "name": "skyblock:the_abyss_-_lost_in_dessert",
+        "stream": true
+      }
+    ]
   }
 }

@@ -134,6 +134,34 @@ public class ModBlocks {
             new LeavesBlock(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
 
 
+    public static final Block FROZEN_LOG = registerBlock("frozen_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_STEM).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block FROZEN_WOOD = registerBlock("frozen_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_HYPHAE).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block STRIPPED_FROZEN_LOG = registerBlock("stripped_frozen_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_STEM).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block STRIPPED_FROZEN_WOOD = registerBlock("stripped_frozen_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_HYPHAE).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block FROZEN_LEAVES = registerBlock("frozen_leaves",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.ABYSS);
+    public static final Block FROZEN_PLANKS = registerBlock("frozen_planks",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
+
+
+    public static final Block SLIMED_LOG = registerBlock("slimed_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_STEM).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block SLIMED_WOOD = registerBlock("slimed_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_HYPHAE).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block STRIPPED_SLIMED_LOG = registerBlock("stripped_slimed_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_STEM).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block STRIPPED_SLIMED_WOOD = registerBlock("stripped_slimed_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_HYPHAE).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block ABYSS_SLIME_BLOCK = registerBlock("abyss_slime_block",
+            new Block(FabricBlockSettings.copy(Blocks.SLIME_BLOCK).strength(0.01f)), ModItemGroup.ABYSS);
+    public static final Block SLIMED_PLANKS = registerBlock("slimed_planks",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
+
+
 
     public static final Block BOG_SHROOM_LOG = registerBlock("bog_shroom_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_STEM).strength(2.0f)), ModItemGroup.ABYSS);
@@ -146,6 +174,22 @@ public class ModBlocks {
     public static final Block BOG_SHROOM_LEAVES = registerBlock("bog_shroom_leaves",
             new Block(FabricBlockSettings.copy(Blocks.BRAIN_CORAL_BLOCK).luminance(state -> 10)), ModItemGroup.ABYSS);
     public static final Block BOG_SHROOM_PLANKS = registerBlock("bog_shroom_planks",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
+
+
+
+
+    public static final Block SAL_SHROOM_LOG = registerBlock("sal_shroom_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_STEM).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block SAL_SHROOM_WOOD = registerBlock("sal_shroom_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_HYPHAE).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block STRIPPED_SAL_SHROOM_LOG = registerBlock("stripped_sal_shroom_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_STEM).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block STRIPPED_SAL_SHROOM_WOOD = registerBlock("stripped_sal_shroom_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_HYPHAE).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block SAL_SHROOM_LEAVES = registerBlock("sal_shroom_leaves",
+            new Block(FabricBlockSettings.copy(Blocks.BUBBLE_CORAL_BLOCK).luminance(state -> 10)), ModItemGroup.ABYSS);
+    public static final Block SAL_SHROOM_PLANKS = registerBlock("sal_shroom_planks",
             new LeavesBlock(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
     //ABYSS
 

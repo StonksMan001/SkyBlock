@@ -80,10 +80,10 @@ public class ModItems {
         addToItemGroup(ModItemGroup.FYBERITE, ANT_BOTTLE);
         addToItemGroup(ModItemGroup.FYBERITE, BOTTLE_OF_ANT_JAM);
         addToItemGroup(ModItemGroup.FYBERITE, SUGAR_POPPY_MIXTURE);
-        addToItemGroup(ModItemGroup.FYBERITE, STEAM_DUMPLING_FRESH);
-        addToItemGroup(ModItemGroup.FYBERITE, STEAM_DUMPLING);
-        addToItemGroup(ModItemGroup.FYBERITE, STEAM_DUMPLING_WITH_MOLTEN_BUTTER);
-        addToItemGroup(ModItemGroup.FYBERITE, STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE);
+        addToItemGroup(ModItemGroup.UNUSED, STEAM_DUMPLING_FRESH);
+        addToItemGroup(ModItemGroup.UNUSED, STEAM_DUMPLING);
+        addToItemGroup(ModItemGroup.UNUSED, STEAM_DUMPLING_WITH_MOLTEN_BUTTER);
+        addToItemGroup(ModItemGroup.UNUSED, STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE);
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_APPLE);
         addToItemGroup(ModItemGroup.FYBERITE, ENCHANTED_ENDERITE_APPLE);
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_INGOT);

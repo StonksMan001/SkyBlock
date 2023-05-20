@@ -3,7 +3,7 @@
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "minecraft:warped_forest",
+      "biome": "minecraft:the_void",
       "lakes": false,
       "features": false,
       "layers": [

@@ -6,7 +6,6 @@ import net.me.skyblock.block.ModBlocks;
 import net.me.skyblock.item.ModItemGroup;
 import net.me.skyblock.item.ModItems;
 import net.me.skyblock.painting.ModPaintings;
-import net.me.skyblock.world.biome.ModBiomeKeys;
 import net.me.skyblock.world.dimension.ModDimensions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,8 +28,12 @@ public class SkyBlock implements ModInitializer {
 		StrippableBlockRegistry.register(ModBlocks.AZALEA_WOOD, ModBlocks.STRIPPED_AZALEA_WOOD);
 		StrippableBlockRegistry.register(ModBlocks.BLARU_LOG, ModBlocks.STRIPPED_BLARU_LOG);
 		StrippableBlockRegistry.register(ModBlocks.BLARU_WOOD, ModBlocks.STRIPPED_BLARU_WOOD);
+		StrippableBlockRegistry.register(ModBlocks.SLIMED_LOG, ModBlocks.STRIPPED_SLIMED_LOG);
+		StrippableBlockRegistry.register(ModBlocks.SLIMED_WOOD, ModBlocks.STRIPPED_SLIMED_WOOD);
 		StrippableBlockRegistry.register(ModBlocks.BOG_SHROOM_LOG, ModBlocks.STRIPPED_BOG_SHROOM_LOG);
 		StrippableBlockRegistry.register(ModBlocks.BOG_SHROOM_WOOD, ModBlocks.STRIPPED_BOG_SHROOM_WOOD);
+		StrippableBlockRegistry.register(ModBlocks.SAL_SHROOM_LOG, ModBlocks.STRIPPED_SAL_SHROOM_LOG);
+		StrippableBlockRegistry.register(ModBlocks.SAL_SHROOM_WOOD, ModBlocks.STRIPPED_SAL_SHROOM_WOOD);
 		StrippableBlockRegistry.register(ModBlocks.ABYSS_JUNGLE_LOG, ModBlocks.STRIPPED_ABYSS_JUNGLE_LOG);
 		StrippableBlockRegistry.register(ModBlocks.ABYSS_JUNGLE_WOOD, ModBlocks.STRIPPED_ABYSS_JUNGLE_WOOD);
 

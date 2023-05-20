@@ -29,9 +29,21 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_BLARU_LOG).log(ModBlocks.STRIPPED_BLARU_LOG).wood(ModBlocks.STRIPPED_BLARU_WOOD);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLARU_PLANKS);
 
+        blockStateModelGenerator.registerLog(ModBlocks.FROZEN_LOG).log(ModBlocks.FROZEN_LOG).wood(ModBlocks.FROZEN_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_FROZEN_LOG).log(ModBlocks.STRIPPED_FROZEN_LOG).wood(ModBlocks.STRIPPED_FROZEN_WOOD);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FROZEN_PLANKS);
+
+        blockStateModelGenerator.registerLog(ModBlocks.SLIMED_LOG).log(ModBlocks.SLIMED_LOG).wood(ModBlocks.SLIMED_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_SLIMED_LOG).log(ModBlocks.STRIPPED_SLIMED_LOG).wood(ModBlocks.STRIPPED_SLIMED_WOOD);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SLIMED_PLANKS);
+
         blockStateModelGenerator.registerLog(ModBlocks.BOG_SHROOM_LOG).log(ModBlocks.BOG_SHROOM_LOG).wood(ModBlocks.BOG_SHROOM_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_BOG_SHROOM_LOG).log(ModBlocks.STRIPPED_BOG_SHROOM_LOG).wood(ModBlocks.STRIPPED_BOG_SHROOM_WOOD);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BOG_SHROOM_PLANKS);
+
+        blockStateModelGenerator.registerLog(ModBlocks.SAL_SHROOM_LOG).log(ModBlocks.SAL_SHROOM_LOG).wood(ModBlocks.SAL_SHROOM_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_SAL_SHROOM_LOG).log(ModBlocks.STRIPPED_SAL_SHROOM_LOG).wood(ModBlocks.STRIPPED_SAL_SHROOM_WOOD);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SAL_SHROOM_PLANKS);
 
         blockStateModelGenerator.registerLog(ModBlocks.ABYSS_JUNGLE_LOG).log(ModBlocks.ABYSS_JUNGLE_LOG).wood(ModBlocks.ABYSS_JUNGLE_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_ABYSS_JUNGLE_LOG).log(ModBlocks.STRIPPED_ABYSS_JUNGLE_LOG).wood(ModBlocks.STRIPPED_ABYSS_JUNGLE_WOOD);

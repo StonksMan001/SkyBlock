@@ -1,22 +1,4 @@
 {
-  "betterend:recipes/decorations/gold_chandelier": {
-    "criteria": {
-      "has_682_gold_ingot": "2023-04-25 19:56:51 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/honey_bottle": {
-    "criteria": {
-      "has_honey_block": "2023-04-25 20:00:02 +0200"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/aeternium_block": {
-    "criteria": {
-      "has_597_aeternium_ingot": "2023-04-25 19:56:51 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
       "has_item_frame": "2023-04-25 19:56:51 +0200"
@@ -41,33 +23,15 @@
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_shulker_box": {
-    "criteria": {
-      "has_tag_chest": "2023-04-25 19:56:51 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/golden_pickaxe": {
     "criteria": {
       "has_gold_ingot": "2023-04-25 19:56:51 +0200"
     },
     "done": true
   },
-  "betterend:recipes/decorations/netherite_hammer": {
-    "criteria": {
-      "has_1_netherite_ingot": "2023-04-25 19:56:51 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/netherite_sword_smithing": {
     "criteria": {
       "has_netherite_ingot": "2023-04-25 19:56:51 +0200"
-    },
-    "done": true
-  },
-  "betterend:recipes/tools/golden_hammer": {
-    "criteria": {
-      "has_688_gold_ingot": "2023-04-25 19:56:51 +0200"
     },
     "done": true
   },
@@ -125,18 +89,6 @@
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_hopper": {
-    "criteria": {
-      "has_tag_chest": "2023-04-25 19:56:51 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2023-04-25 19:56:52 +0200"
-    },
-    "done": false
-  },
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_redstone_block": "2023-04-25 19:56:51 +0200"
@@ -179,21 +131,9 @@
     },
     "done": true
   },
-  "betterend:recipes/decorations/amber_gem_block": {
-    "criteria": {
-      "has_626_amber_block": "2023-04-25 20:00:54 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2023-04-25 19:56:51 +0200"
-    },
-    "done": true
-  },
-  "betterend:root": {
-    "criteria": {
-      "welcome": "2023-04-25 19:56:52 +0200"
     },
     "done": true
   },
@@ -203,27 +143,9 @@
     },
     "done": true
   },
-  "betterend:recipes/decorations/terminite_anvil_updrade": {
-    "criteria": {
-      "has_1_aeternium_ingot": "2023-04-25 19:56:51 +0200"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/respawn_obelisk": {
-    "criteria": {
-      "has_669_amber_block": "2023-04-25 20:00:54 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/netherite_chestplate_smithing": {
     "criteria": {
       "has_netherite_ingot": "2023-04-25 19:56:51 +0200"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/armored_elytra": {
-    "criteria": {
-      "has_1_aeternium_ingot": "2023-04-25 19:56:51 +0200"
     },
     "done": true
   },
@@ -251,5 +173,101 @@
     },
     "done": true
   },
-  "DataVersion": 3218
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-04-25 19:56:52 +0200"
+    },
+    "done": false
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2023-04-25 19:56:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2023-04-25 20:00:02 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/tools/tag_compass": {
+    "criteria": {
+      "has_redstone": "2023-05-20 13:49:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2023-05-20 13:49:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2023-05-20 13:49:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-05-20 13:49:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2023-05-20 13:49:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2023-05-20 13:49:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2023-05-20 13:49:27 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_axe_nugget_smelting": {
+    "criteria": {
+      "has_item.betterend.thallasium_axe": "2023-05-20 13:50:37 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_axe_nugget_blasting": {
+    "criteria": {
+      "has_item.betterend.thallasium_axe": "2023-05-20 13:50:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2023-05-20 13:49:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2023-05-20 13:49:27 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/redstone/tag_piston": {
+    "criteria": {
+      "has_redstone": "2023-05-20 13:49:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2023-05-20 13:49:27 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3337
 }

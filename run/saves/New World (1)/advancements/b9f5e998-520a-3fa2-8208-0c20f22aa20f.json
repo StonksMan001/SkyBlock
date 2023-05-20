@@ -1,0 +1,45 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-05-20 17:18:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-05-20 17:18:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2023-05-20 17:18:09 +0200"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2023-05-20 17:18:11 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_axe_nugget_smelting": {
+    "criteria": {
+      "has_item.betterend.thallasium_axe": "2023-05-20 17:18:09 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_axe_nugget_blasting": {
+    "criteria": {
+      "has_item.betterend.thallasium_axe": "2023-05-20 17:18:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-05-20 17:18:11 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3337
+}

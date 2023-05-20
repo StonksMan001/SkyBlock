@@ -5,6 +5,48 @@
     "skyblock:end_hyphae",
     "skyblock:stripped_end_stem",
     "skyblock:stripped_end_hyphae",
-    "skyblock:end_planks"
+    "skyblock:end_planks",
+
+    "skyblock:azalea_log",
+    "skyblock:azalea_wood",
+    "skyblock:stripped_azalea_log",
+    "skyblock:stripped_azalea_wood",
+    "skyblock:azalea_planks",
+
+    "skyblock:abyss_jungle_log",
+    "skyblock:abyss_jungle_wood",
+    "skyblock:stripped_abyss_jungle_log",
+    "skyblock:stripped_abyss_jungle_wood",
+    "skyblock:abyss_jungle_planks",
+
+    "skyblock:blaru_log",
+    "skyblock:blaru_wood",
+    "skyblock:stripped_blaru_log",
+    "skyblock:stripped_blaru_wood",
+    "skyblock:blaru_planks",
+
+    "skyblock:frozen_log",
+    "skyblock:frozen_wood",
+    "skyblock:stripped_frozen_log",
+    "skyblock:stripped_frozen_wood",
+    "skyblock:frozen_planks",
+
+    "skyblock:slimed_log",
+    "skyblock:slimed_wood",
+    "skyblock:stripped_slimed_log",
+    "skyblock:stripped_slimed_wood",
+    "skyblock:slimed_planks",
+
+    "skyblock:bog_shroom_log",
+    "skyblock:bog_shroom_wood",
+    "skyblock:stripped_bog_shroom_log",
+    "skyblock:stripped_bog_shroom_wood",
+    "skyblock:bog_shroom_planks",
+
+    "skyblock:sal_shroom_log",
+    "skyblock:sal_shroom_wood",
+    "skyblock:stripped_sal_shroom_log",
+    "skyblock:stripped_sal_shroom_wood",
+    "skyblock:sal_shroom_planks"
   ]
 }

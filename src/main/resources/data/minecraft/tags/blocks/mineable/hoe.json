@@ -5,6 +5,14 @@
     "skyblock:transparent_block",
     "skyblock:blue_wart",
     "skyblock:end_wart_block",
-    "skyblock:endlight"
+    "skyblock:endlight",
+    "skyblock:purple_shroomlight",
+    "skyblock:blue_shroomlight",
+    "skyblock:dark_blue_shroomlight",
+    "skyblock:abyss_jungle_leaves",
+    "skyblock:blaru_leaves",
+    "skyblock:frozen_leaves",
+    "skyblock:bog_shroom_leaves",
+    "skyblock:sal_shroom_leaves"
   ]
 }

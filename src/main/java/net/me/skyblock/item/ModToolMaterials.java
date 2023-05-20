@@ -13,7 +13,8 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
-    ENDERITE(MiningLevels.NETHERITE, 2236, 11.0f, 6.0f, 19, () -> Ingredient.ofItems(ModItems.ENDERITE_INGOT));
+    ENDERITE(MiningLevels.NETHERITE, 2236, 11.0f, 6.0f, 19, () -> Ingredient.ofItems(ModItems.ENDERITE_INGOT)),
+    ABERYTHE(MiningLevels.NETHERITE, 2100, 10.0f, 4.7f, 16, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));;
 
     private final int miningLevel;
     private final int itemDurability;

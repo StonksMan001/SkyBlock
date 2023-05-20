@@ -63,6 +63,29 @@ public class ModItems {
     public static final Item ENDERITE_PICKAXE = registerItem("enderite_pickaxe",
             new PickaxeItem(ModToolMaterials.ENDERITE, 0, -2.8f, new FabricItemSettings()));
     //ENDERITE
+    //ABERYTHE
+    public static final Item ABERYTHE_GEM = registerItem("aberythe_gem",
+            new Item(new FabricItemSettings()));
+    public static final Item ABERYTHE_HELMET = registerItem("aberythe_helmet",
+            new ArmorItem(ModArmorMaterials.ABERYTHE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item ABERYTHE_CHESTPLATE = registerItem("aberythe_chestplate",
+            new ArmorItem(ModArmorMaterials.ABERYTHE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item ABERYTHE_LEGGINGS = registerItem("aberythe_leggings",
+            new ArmorItem(ModArmorMaterials.ABERYTHE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item ABERYTHE_BOOTS = registerItem("aberythe_boots",
+            new ArmorItem(ModArmorMaterials.ABERYTHE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item ABERYTHE_SWORD = registerItem("aberythe_sword",
+            new SwordItem(ModToolMaterials.ENDERITE, 2, -2.4f, new FabricItemSettings()));
+    public static final Item ABERYTHE_AXE = registerItem("aberythe_axe",
+            new ModAxeItem(ModToolMaterials.ENDERITE, 4, -3.0f, new FabricItemSettings()));
+    public static final Item ABERYTHE_SHOVEL = registerItem("aberythe_shovel",
+            new ShovelItem(ModToolMaterials.ENDERITE, 1, -3.0f, new FabricItemSettings()));
+    public static final Item ABERYTHE_HOE = registerItem("aberythe_hoe",
+            new HoeItem(ModToolMaterials.ENDERITE, -4, 0.2f, new FabricItemSettings()));
+    public static final Item ABERYTHE_PICKAXE = registerItem("aberythe_pickaxe",
+            new PickaxeItem(ModToolMaterials.ENDERITE, 0, -2.8f, new FabricItemSettings()));
+    //ABERYTHE
     public static final Item ANT_BOTTLE = registerItem("ant_bottle",
             new Item(new FabricItemSettings()));
     public static final Item BOTTLE_OF_ANT_JAM = registerItem("bottle_of_ant_jam",
@@ -79,13 +102,14 @@ public class ModItems {
         addToItemGroup(ModItemGroup.FYBERITE, ENDMERALD);
         addToItemGroup(ModItemGroup.FYBERITE, ANT_BOTTLE);
         addToItemGroup(ModItemGroup.FYBERITE, BOTTLE_OF_ANT_JAM);
-        addToItemGroup(ModItemGroup.FYBERITE, SUGAR_POPPY_MIXTURE);
+        addToItemGroup(ModItemGroup.UNUSED, SUGAR_POPPY_MIXTURE);
         addToItemGroup(ModItemGroup.UNUSED, STEAM_DUMPLING_FRESH);
         addToItemGroup(ModItemGroup.UNUSED, STEAM_DUMPLING);
         addToItemGroup(ModItemGroup.UNUSED, STEAM_DUMPLING_WITH_MOLTEN_BUTTER);
         addToItemGroup(ModItemGroup.UNUSED, STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE);
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_APPLE);
         addToItemGroup(ModItemGroup.FYBERITE, ENCHANTED_ENDERITE_APPLE);
+
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_INGOT);
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_HELMET);
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_CHESTPLATE);
@@ -96,6 +120,18 @@ public class ModItems {
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_PICKAXE);
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_HOE);
         addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_SHOVEL);
+
+        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_GEM);
+        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_HELMET);
+        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_CHESTPLATE);
+        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_LEGGINGS);
+        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_BOOTS);
+        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_SWORD);
+        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_AXE);
+        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_PICKAXE);
+        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_HOE);
+        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_SHOVEL);
+
         addToItemGroup(ModItemGroup.FYBERITE, ENDER_STICK);
         addToItemGroup(ModItemGroup.FYBERITE, MELTE_RESIDUES);
         addToItemGroup(ModItemGroup.ABYSS, LORAN);

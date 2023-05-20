@@ -3,6 +3,14 @@
   "values": [
     "skyblock:suspicious_coarse_dirt",
     "skyblock:bluishe_end_stone",
-    "skyblock:end_grass"
+    "skyblock:end_grass",
+    "skyblock:abyss_dirt",
+    "skyblock:roma_mud",
+    "skyblock:roma_mud_2",
+    "skyblock:abyss_gravel",
+    "skyblock:infected_peat",
+    "skyblock:blaru_moss",
+    "skyblock:vigilant_moss"
+
   ]
 }

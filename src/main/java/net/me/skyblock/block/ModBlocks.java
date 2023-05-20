@@ -218,7 +218,7 @@ public class ModBlocks {
     public static final Block ANT_JAM_BLOCK = registerBlock("ant_jam_block",
             new HoneyBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.01f)), ModItemGroup.FYBERITE);
     public static final Block SWEET_BERRY_JAM_BLOCK = registerBlock("sweet_berry_jam_block",
-            new HoneyBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.01f)), ModItemGroup.FYBERITE);
+            new HoneyBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.01f)), ModItemGroup.UNUSED);
     public static final Block SUSPICIOUS_COARSE_DIRT = registerBlock("suspicious_coarse_dirt",
             new SuspiciousCoarseDirt(FabricBlockSettings.copy(Blocks.COARSE_DIRT).strength(0.5f).luminance(state -> state.get(SuspiciousCoarseDirt.ANT) ? 0 : 0)), ModItemGroup.FYBERITE);
     //END WARTS

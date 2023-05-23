@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "skyblock:loran"
+    }
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    " X "
+  ],
+  "result": {
+    "item": "skyblock:abyss_portal_activator"
+  },
+  "show_notification": true
+}

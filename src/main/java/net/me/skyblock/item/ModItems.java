@@ -34,6 +34,8 @@ public class ModItems {
             new Item(new FabricItemSettings().food(ModFoodComponents.STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE)));
     public static final Item LORAN = registerItem("loran",
             new Loran(new FabricItemSettings()));
+    public static final Item ABYSS_PORTAL_ACTIVATOR = registerItem("abyss_portal_activator",
+            new Item(new FabricItemSettings()));
     public static final Item ENDER_STICK = registerItem("ender_stick",
             new Item(new FabricItemSettings()));
     public static final Item ENDMERALD = registerItem("end_emerald",
@@ -135,6 +137,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.FYBERITE, ENDER_STICK);
         addToItemGroup(ModItemGroup.FYBERITE, MELTE_RESIDUES);
         addToItemGroup(ModItemGroup.ABYSS, LORAN);
+        addToItemGroup(ModItemGroup.ABYSS, ABYSS_PORTAL_ACTIVATOR);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {

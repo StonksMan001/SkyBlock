@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyblock:block/stripped_bluishe_stem_top",
+    "side": "skyblock:block/stripped_bluishe_stem"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "skyblock:blaru_moss"
+    },
+    {
+      "item": "skyblock:abyss_dirt"
+    },
+    {
+      "item": "skyblock:bone_meal"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "skyblock:blaru_moss"
+  }
+}

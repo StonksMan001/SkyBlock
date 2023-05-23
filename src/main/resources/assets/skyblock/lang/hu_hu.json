@@ -5,7 +5,8 @@
   "item.skyblock.ant_bottle": "Hangyásüveg",
   "item.skyblock.bottle_of_ant_jam": "Hangyalekvár",
   "item.skyblock.ender_stick": "Ender bot",
-  "item.skyblock.loran": "Loran",
+  "item.skyblock.loran": "Lorán",
+  "item.skyblock.abyss_portal_activator": "Kulcs az elfeledett világba",
   "item.skyblock.enderite_apple": "Végércalma",
   "item.skyblock.enchanted_enderite_apple": "Bűvös végércalma",
 
@@ -63,7 +64,7 @@
   "block.skyblock.abyss_glacerythe_ore": "Glacerit végidőkőben",
   "block.skyblock.abyss_ignisithe_ore": "Igniszit végidőkőben",
   "block.skyblock.abyss_incorythe_ore": "Inkorit végidőkőben",
-  "block.skyblock.abyss_loran_ore": "Loran végidőkőben",
+  "block.skyblock.abyss_loran_ore": "Lorán végidőkőben",
   "block.skyblock.blaru_moss": "Blaru moha",
   "block.skyblock.glowing_blaru_moss": "Fénylő Blaru Moha",
   "block.skyblock.blaru_grass": "Blarucsírák",
@@ -133,6 +134,14 @@
   "block.skyblock.stripped_end_hyphae": "Kérgezett vég gombafonalak",
   "block.skyblock.end_planks": "Vég deszka",
   "block.skyblock.endlight": "Vég fényspóra",
+
+  "block.skyblock.bluishe_stem": "Bluishe tönk",
+  "block.skyblock.bluishe_hyphae": "Bluishe gombafonalak",
+  "block.skyblock.bluishe_light_stem": "Fénylő bluishe tönk",
+  "block.skyblock.bluishe_light_hyphae": "Fénylő bluishe gombafonalak",
+  "block.skyblock.stripped_bluishe_stem": "Kérgezett bluishe tönk",
+  "block.skyblock.stripped_bluishe_hyphae": "Kérgezett bluishe gombafonalak",
+  "block.skyblock.bluishe_planks": "Bluishe deszka",
 
   "block.skyblock.azalea_log": "Azálearönk",
   "block.skyblock.azalea_wood": "Azáleafablokk",

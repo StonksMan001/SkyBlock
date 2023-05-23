@@ -25,6 +25,11 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_END_STEM).log(ModBlocks.STRIPPED_END_STEM).wood(ModBlocks.STRIPPED_END_HYPHAE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.END_PLANKS);
 
+        blockStateModelGenerator.registerLog(ModBlocks.BLUISHE_STEM).log(ModBlocks.BLUISHE_STEM).wood(ModBlocks.BLUISHE_HYPHAE);
+        blockStateModelGenerator.registerLog(ModBlocks.BLUISHE_LIGHT_STEM).log(ModBlocks.BLUISHE_LIGHT_STEM).wood(ModBlocks.BLUISHE_LIGHT_HYPHAE);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_BLUISHE_STEM).log(ModBlocks.STRIPPED_BLUISHE_STEM).wood(ModBlocks.STRIPPED_BLUISHE_HYPHAE);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLUISHE_PLANKS);
+
         blockStateModelGenerator.registerLog(ModBlocks.BLARU_LOG).log(ModBlocks.BLARU_LOG).wood(ModBlocks.BLARU_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_BLARU_LOG).log(ModBlocks.STRIPPED_BLARU_LOG).wood(ModBlocks.STRIPPED_BLARU_WOOD);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLARU_PLANKS);

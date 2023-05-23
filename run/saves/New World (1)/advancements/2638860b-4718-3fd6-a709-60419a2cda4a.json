@@ -1,13 +1,31 @@
 {
-  "minecraft:recipes/decorations/iron_bars": {
+  "minecraft:recipes/transportation/minecart": {
     "criteria": {
-      "has_iron_ingot": "2023-02-20 11:29:14 +0100"
+      "has_iron_ingot": "2023-02-20 11:29:13 +0100"
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_cauldron": {
+  "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
-      "has_tag_iron_ingots": "2023-05-04 11:54:22 +0200"
+      "has_iron_ingot": "2023-02-20 11:29:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-20 11:29:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2023-02-20 11:29:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-20 11:29:14 +0100"
     },
     "done": true
   },
@@ -29,27 +47,9 @@
     },
     "done": true
   },
-  "betterend:recipes/decorations/iron_chandelier": {
-    "criteria": {
-      "has_680_iron_ingot": "2023-05-04 11:54:22 +0200"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_minecart": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-05-04 11:54:22 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2023-02-20 11:29:14 +0100"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_compass": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-05-04 11:54:22 +0200"
     },
     "done": true
   },
@@ -59,45 +59,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/minecart": {
-    "criteria": {
-      "has_iron_ingot": "2023-02-20 11:29:13 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/netherite_shovel_smithing": {
     "criteria": {
       "has_netherite_ingot": "2023-02-20 11:29:14 +0100"
     },
     "done": true
   },
-  "betterend:recipes/decorations/iron_bulb_lantern": {
-    "criteria": {
-      "has_628_iron_ingot": "2023-05-04 11:54:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/honey_block": {
-    "criteria": {
-      "has_honey_bottle": "2023-05-04 11:54:22 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2023-02-20 11:29:14 +0100"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2023-02-20 11:29:15 +0100"
-    },
-    "done": false
-  },
-  "minecraft:recipes/decorations/candle": {
-    "criteria": {
-      "has_honeycomb": "2023-05-04 11:54:22 +0200"
     },
     "done": true
   },
@@ -119,21 +89,9 @@
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_bucket": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-05-04 11:54:22 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/netherite_leggings_smithing": {
     "criteria": {
       "has_netherite_ingot": "2023-02-20 11:29:14 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_nugget": {
-    "criteria": {
-      "has_iron_ingot": "2023-02-20 11:29:13 +0100"
     },
     "done": true
   },
@@ -149,27 +107,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2023-02-20 11:29:36 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2023-02-20 11:29:14 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/iron_block": {
-    "criteria": {
-      "has_iron_ingot": "2023-02-20 11:29:13 +0100"
-    },
-    "done": true
-  },
-  "betterend:root": {
-    "criteria": {
-      "welcome": "2023-05-04 11:54:24 +0200"
     },
     "done": true
   },
@@ -197,27 +137,9 @@
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_rail": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-05-04 11:54:22 +0200"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_smith_table": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-05-04 11:54:22 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2023-02-20 11:29:14 +0100"
-    },
-    "done": true
-  },
-  "betterend:recipes/tools/iron_hammer": {
-    "criteria": {
-      "has_686_iron_ingot": "2023-05-04 11:54:22 +0200"
     },
     "done": true
   },
@@ -227,27 +149,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/sugar_from_honey_bottle": {
-    "criteria": {
-      "has_honey_bottle": "2023-05-04 11:54:22 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/beehive": {
-    "criteria": {
-      "has_honeycomb": "2023-05-04 11:54:22 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2023-02-20 11:29:14 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/honey_bottle": {
-    "criteria": {
-      "has_honey_block": "2023-05-04 11:54:22 +0200"
     },
     "done": true
   },
@@ -263,12 +167,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/honeycomb_block": {
-    "criteria": {
-      "has_honeycomb": "2023-05-04 11:54:22 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2023-02-20 11:29:14 +0100"
@@ -278,12 +176,6 @@
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2023-02-20 11:29:14 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/emerald_block": {
-    "criteria": {
-      "has_emerald": "2023-05-04 11:54:22 +0200"
     },
     "done": true
   },
@@ -359,12 +251,6 @@
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_hopper": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-05-04 11:54:22 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2023-02-20 11:29:14 +0100"
@@ -389,12 +275,6 @@
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_shield": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-05-04 11:54:22 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2023-02-20 11:29:14 +0100"
@@ -407,27 +287,9 @@
     },
     "done": true
   },
-  "minecraft:story/smelt_iron": {
-    "criteria": {
-      "iron": "2023-02-20 11:29:13 +0100"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_piston": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-05-04 11:54:22 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/lodestone": {
     "criteria": {
       "has_netherite_ingot": "2023-02-20 11:29:14 +0100"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_stonecutter": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-05-04 11:54:22 +0200"
     },
     "done": true
   },
@@ -449,5 +311,449 @@
     },
     "done": true
   },
-  "DataVersion": 3218
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-02-20 11:29:15 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-02-20 11:29:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2023-05-04 11:54:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_honeycomb": "2023-05-04 11:54:22 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/decorations/tag_smith_table": {
+    "criteria": {
+      "has_tag_minecraft_planks": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2023-05-04 11:54:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2023-05-04 11:54:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2023-05-04 11:54:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2023-05-04 11:54:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2023-05-04 11:54:22 +0200"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2023-05-04 11:54:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/leather_wrapped_stick": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_sign": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_fence": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_ladder": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_ladder": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_sign": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_fence": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-05-23 15:27:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/tenanea_fence": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/helix_tree_gate": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/umbrella_tree_gate": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_sign": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/transportation/tag_rail": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_fence": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/combat/tag_shield": {
+    "criteria": {
+      "has_tag_minecraft_planks": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_perl_to_block": {
+    "criteria": {
+      "has_ender_pearl": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_fence": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_hammer": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/end_lotus_gate": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_sign": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/lacugrove_gate": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/tenanea_gate": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_fence": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_sign": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_ladder": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_fence": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/pythadendron_gate": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_axe_nugget_smelting": {
+    "criteria": {
+      "has_item.betterend.thallasium_axe": "2023-05-23 15:29:51 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_fence": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_ladder": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_sign": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_ladder": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_ladder": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/jellyshroom_gate": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/golden_hammer": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_axe_nugget_blasting": {
+    "criteria": {
+      "has_item.betterend.thallasium_axe": "2023-05-23 15:29:51 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_ladder": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_eye_amber": {
+    "criteria": {
+      "has_ender_pearl": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/lucernia_gate": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/diamond_hammer": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_fence": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_sign": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/dragon_tree_gate": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_pearl_to_dust": {
+    "criteria": {
+      "has_item.minecraft.ender_pearl": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_sign": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_ladder": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/tenanea_ladder": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/tenanea_sign": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "bclib:recipes/redstone/tag_piston": {
+    "criteria": {
+      "has_tag_minecraft_planks": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_fence": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_ladder": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_sign": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/mossy_glowshroom_gate": {
+    "criteria": {
+      "has_stick": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/infusion_pedestal": {
+    "criteria": {
+      "has_ender_pearl": "2023-05-23 15:26:58 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3337
 }

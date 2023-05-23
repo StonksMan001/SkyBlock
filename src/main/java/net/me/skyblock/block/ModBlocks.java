@@ -157,7 +157,7 @@ public class ModBlocks {
     public static final Block STRIPPED_SLIMED_WOOD = registerBlock("stripped_slimed_wood",
             new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_HYPHAE).strength(2.0f)), ModItemGroup.ABYSS);
     public static final Block ABYSS_SLIME_BLOCK = registerBlock("abyss_slime_block",
-            new Block(FabricBlockSettings.copy(Blocks.SLIME_BLOCK).strength(0.01f)), ModItemGroup.ABYSS);
+            new SlimeBlock(FabricBlockSettings.copy(Blocks.SLIME_BLOCK).strength(0.01f)), ModItemGroup.ABYSS);
     public static final Block SLIMED_PLANKS = registerBlock("slimed_planks",
             new LeavesBlock(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
 
@@ -218,7 +218,7 @@ public class ModBlocks {
     public static final Block ANT_JAM_BLOCK = registerBlock("ant_jam_block",
             new HoneyBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.01f)), ModItemGroup.FYBERITE);
     public static final Block SWEET_BERRY_JAM_BLOCK = registerBlock("sweet_berry_jam_block",
-            new HoneyBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.01f)), ModItemGroup.UNUSED);
+            new SlimeBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.01f)), ModItemGroup.UNUSED);
     public static final Block SUSPICIOUS_COARSE_DIRT = registerBlock("suspicious_coarse_dirt",
             new SuspiciousCoarseDirt(FabricBlockSettings.copy(Blocks.COARSE_DIRT).strength(0.5f).luminance(state -> state.get(SuspiciousCoarseDirt.ANT) ? 0 : 0)), ModItemGroup.FYBERITE);
     //END WARTS
@@ -243,6 +243,22 @@ public class ModBlocks {
     public static final Block END_PLANKS = registerBlock("end_planks",
             new Block(FabricBlockSettings.copy(Blocks.CRIMSON_PLANKS).strength(2.0f)), ModItemGroup.FYBERITE);
     //END TREE
+    //BLUISHE TREE
+    public static final Block BLUISHE_STEM = registerBlock("bluishe_stem",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_STEM).strength(2.0f)), ModItemGroup.FYBERITE);
+    public static final Block BLUISHE_HYPHAE = registerBlock("bluishe_hyphae",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_HYPHAE).strength(2.0f)), ModItemGroup.FYBERITE);
+    public static final Block BLUISHE_LIGHT_STEM = registerBlock("bluishe_light_stem",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_STEM).strength(2.0f)), ModItemGroup.FYBERITE);
+    public static final Block BLUISHE_LIGHT_HYPHAE = registerBlock("bluishe_light_hyphae",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_HYPHAE).strength(2.0f)), ModItemGroup.FYBERITE);
+    public static final Block STRIPPED_BLUISHE_STEM = registerBlock("stripped_bluishe_stem",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_STEM).strength(2.0f)), ModItemGroup.FYBERITE);
+    public static final Block STRIPPED_BLUISHE_HYPHAE = registerBlock("stripped_bluishe_hyphae",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_HYPHAE).strength(2.0f)), ModItemGroup.FYBERITE);
+    public static final Block BLUISHE_PLANKS = registerBlock("bluishe_planks",
+            new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.FYBERITE);
+    //BLUISHE TREE
     //AZALEA TREE
     public static final Block AZALEA_LOG = registerBlock("azalea_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(2.0f)), ModItemGroup.FYBERITE);

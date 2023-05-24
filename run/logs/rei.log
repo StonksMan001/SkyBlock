@@ -1,0 +1,71 @@
+[19:21:53] [Render thread/INFO] ========================================
+[19:21:53] [Render thread/INFO] Minecraft: 1.19.4
+[19:21:53] [Render thread/INFO] Side: client
+[19:21:53] [Render thread/INFO] Development: true
+[19:21:53] [Render thread/INFO] Version: 11.0.593
+[19:21:53] [Render thread/INFO] Loader:
+[19:21:53] [Render thread/INFO] - Fabric: 0.14.19
+[19:21:53] [Render thread/INFO] - Fabric API: 0.80.0+1.19.4
+[19:21:53] [Render thread/INFO] Dependencies:
+[19:21:53] [Render thread/INFO] - Cloth Config: 10.0.96
+[19:21:53] [Render thread/INFO] - Architectury: 8.1.80
+[19:21:53] [Render thread/INFO] Mixin: 0.8.5
+[19:21:53] [Render thread/INFO] OS: Windows 10 10.0 (amd64)
+[19:21:53] [Render thread/INFO] Java: 17.0.6 (Eclipse Adoptium)
+[19:21:53] [Render thread/INFO] ========================================
+[19:21:53] [Render thread/INFO] Mods:
+[19:21:53] [Render thread/INFO] - architectury: 8.1.80
+[19:21:53] [Render thread/INFO] - bclib: 2.3.1
+[19:21:53] [Render thread/INFO] - betterend: 3.2.0
+[19:21:53] [Render thread/INFO] - cloth-config: 10.0.96
+[19:21:53] [Render thread/INFO] - cloth-config: 10.0.96
+[19:21:53] [Render thread/INFO] - continuity: 3.0.0-beta.2+1.19.3
+[19:21:53] [Render thread/INFO] - fabric-api: 0.80.0+1.19.4
+[19:21:53] [Render thread/INFO] - fabric-api: 0.80.0+1.19.4
+[19:21:53] [Render thread/INFO] - fabric-api-base: 0.4.25+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-api-lookup-api-v1: 1.6.26+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-biome-api-v1: 13.0.8+348a9c64f4
+[19:21:53] [Render thread/INFO] - fabric-block-api-v1: 1.0.7+e022e5d1f4
+[19:21:53] [Render thread/INFO] - fabric-blockrenderlayer-v1: 1.1.35+c2e6f674f4
+[19:21:53] [Render thread/INFO] - fabric-client-tags-api-v1: 1.0.16+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-command-api-v2: 2.2.7+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-content-registries-v0: 3.5.10+ae0966baf4
+[19:21:53] [Render thread/INFO] - fabric-convention-tags-v1: 1.4.2+9a7c5daaf4
+[19:21:53] [Render thread/INFO] - fabric-crash-report-info-v1: 0.2.16+aeb40ebef4
+[19:21:53] [Render thread/INFO] - fabric-data-generation-api-v1: 11.4.1+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-dimensions-v1: 2.1.46+7f87f8faf4
+[19:21:53] [Render thread/INFO] - fabric-entity-events-v1: 1.5.14+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-events-interaction-v0: 0.5.0+76ba65ebf4
+[19:21:53] [Render thread/INFO] - fabric-game-rule-api-v1: 1.0.34+a1ccd7bff4
+[19:21:53] [Render thread/INFO] - fabric-gametest-api-v1: 1.2.5+ae0966baf4
+[19:21:53] [Render thread/INFO] - fabric-item-api-v1: 2.1.18+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-item-group-api-v1: 3.0.6+043f9acff4
+[19:21:53] [Render thread/INFO] - fabric-key-binding-api-v1: 1.0.34+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-lifecycle-events-v1: 2.2.16+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-loot-api-v2: 1.1.28+75e98211f4
+[19:21:53] [Render thread/INFO] - fabric-message-api-v1: 5.1.2+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-mining-level-api-v1: 2.1.40+49abcf7ef4
+[19:21:53] [Render thread/INFO] - fabric-models-v0: 0.3.31+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-networking-api-v1: 1.3.2+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-object-builder-api-v1: 7.0.4+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-particles-v1: 1.0.24+f1e4495bf4
+[19:21:53] [Render thread/INFO] - fabric-recipe-api-v1: 1.0.9+a1ccd7bff4
+[19:21:53] [Render thread/INFO] - fabric-registry-sync-v0: 2.2.1+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-renderer-api-v1: 2.2.6+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-renderer-indigo: 1.1.2+81e8c576f4
+[19:21:53] [Render thread/INFO] - fabric-rendering-data-attachment-v1: 0.3.29+afca2f3ef4
+[19:21:53] [Render thread/INFO] - fabric-rendering-fluids-v1: 3.0.22+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-rendering-v1: 2.1.2+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-resource-conditions-api-v1: 2.3.2+e6c7d4eef4
+[19:21:53] [Render thread/INFO] - fabric-resource-loader-v0: 0.11.3+1e1fb126f4
+[19:21:53] [Render thread/INFO] - fabric-screen-api-v1: 1.0.46+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-screen-handler-api-v1: 1.3.21+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-sound-api-v1: 1.0.10+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-transfer-api-v1: 3.1.2+504944c8f4
+[19:21:53] [Render thread/INFO] - fabric-transitive-access-wideners-v1: 3.0.4+504944c8f4
+[19:21:53] [Render thread/INFO] - fabricloader: 0.14.19
+[19:21:53] [Render thread/INFO] - java: 17
+[19:21:53] [Render thread/INFO] - minecraft: 1.19.4
+[19:21:53] [Render thread/INFO] - roughlyenoughitems: 11.0.593
+[19:21:53] [Render thread/INFO] - skyblock: 1.0
+[19:21:53] [Render thread/INFO] ========================================

@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2023-05-05 18:20:33 +0200"
+    },
+    "done": true
+  },
   "betterend:root": {
     "criteria": {
       "welcome": "2023-05-05 18:20:35 +0200"
@@ -23,11 +29,17 @@
     },
     "done": false
   },
-  "minecraft:nether/netherite_armor": {
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "netherite_armor": "2023-05-05 18:20:33 +0200"
+      "unlock_right_away": "2023-05-24 18:14:26 +0200"
     },
     "done": true
   },
-  "DataVersion": 3218
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-05-24 18:15:54 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3337
 }

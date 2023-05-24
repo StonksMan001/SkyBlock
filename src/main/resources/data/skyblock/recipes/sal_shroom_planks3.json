@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "skyblock:sal_shroom_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "skyblock:sal_shroom_planks"
+  }
+}

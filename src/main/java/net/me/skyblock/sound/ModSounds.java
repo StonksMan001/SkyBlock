@@ -40,6 +40,26 @@ public class ModSounds {
     public static SoundEvent THE_ABYSS_FROSTED = registerSoundEvent("the_abyss_-_frosted");
     public static SoundEvent THE_ABYSS_JOURNEYS = registerSoundEvent("the_abyss_-_journeys");
     public static SoundEvent THE_ABYSS_LOST_IN_DESSERT = registerSoundEvent("the_abyss_-_lost_in_dessert");
+    public static SoundEvent BROKEN_RADIO = registerSoundEvent("broken_radio");
+    public static SoundEvent WISP_ATTRACT_1 = registerSoundEvent("wisp_attract_1");
+    public static SoundEvent WISP_ATTRACT_2 = registerSoundEvent("wisp_attract_2");
+    public static SoundEvent WISP_ATTRACT_3 = registerSoundEvent("wisp_attract_3");
+    public static SoundEvent WISP_ATTRACT_4 = registerSoundEvent("wisp_attract_4");
+    public static SoundEvent WISP_MOTION_1 = registerSoundEvent("wisp_motion_1");
+    public static SoundEvent WISP_MOTION_2 = registerSoundEvent("wisp_motion_2");
+    public static SoundEvent WISP_MOTION_3 = registerSoundEvent("wisp_motion_3");
+    public static SoundEvent WANDERLUST = registerSoundEvent("wanderlust");
+    public static SoundEvent SKOGSSTUGA = registerSoundEvent("skogsstuga");
+    public static SoundEvent INTERTILE = registerSoundEvent("intertile");
+    public static SoundEvent HALLAND = registerSoundEvent("halland");
+    public static SoundEvent FINNBACKA = registerSoundEvent("finnbacka");
+    public static SoundEvent DALARNA = registerSoundEvent("dalarna");
+    public static SoundEvent CRYPT = registerSoundEvent("crypt");
+    public static SoundEvent CREEPER_WOODS = registerSoundEvent("creeper_woods");
+    public static SoundEvent CARAVAN = registerSoundEvent("caravan");
+    public static SoundEvent BROKEN_HEARTH_OF_ENDER = registerSoundEvent("broken_hearth_of_ender");
+    public static SoundEvent OBSIDIAN_CAVERN = registerSoundEvent("obsidian_cavern");
+    public static SoundEvent TO_THE_BEGINNING = registerSoundEvent("to_the_beginning");
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(SkyBlock.MOD_ID, name);

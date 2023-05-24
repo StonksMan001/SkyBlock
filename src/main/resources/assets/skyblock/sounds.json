@@ -270,5 +270,165 @@
         "stream": true
       }
     ]
+  },
+  "broken_radio": {
+    "sounds": [
+      {
+        "name": "skyblock:broken_radio",
+        "stream": true
+      }
+    ]
+  },
+  "wisp_attract_1": {
+    "sounds": [
+      {
+        "name": "skyblock:wisp_attract_1",
+        "stream": true
+      }
+    ]
+  },
+  "wisp_attract_2": {
+    "sounds": [
+      {
+        "name": "skyblock:wisp_attract_2",
+        "stream": true
+      }
+    ]
+  },
+  "wisp_attract_3": {
+    "sounds": [
+      {
+        "name": "skyblock:wisp_attract_3",
+        "stream": true
+      }
+    ]
+  },
+  "wisp_attract_4": {
+    "sounds": [
+      {
+        "name": "skyblock:wisp_attract_4",
+        "stream": true
+      }
+    ]
+  },
+  "wisp_motion_1": {
+    "sounds": [
+      {
+        "name": "skyblock:wisp_motion_1",
+        "stream": true
+      }
+    ]
+  },
+  "wisp_motion_2": {
+    "sounds": [
+      {
+        "name": "skyblock:wisp_motion_2",
+        "stream": true
+      }
+    ]
+  },
+  "wisp_motion_3": {
+    "sounds": [
+      {
+        "name": "skyblock:wisp_motion_3",
+        "stream": true
+      }
+    ]
+  },
+  "wanderlust": {
+    "sounds": [
+      {
+        "name": "skyblock:wanderlust",
+        "stream": true
+      }
+    ]
+  },
+  "skogsstuga": {
+    "sounds": [
+      {
+        "name": "skyblock:skogsstuga",
+        "stream": true
+      }
+    ]
+  },
+  "intertile": {
+    "sounds": [
+      {
+        "name": "skyblock:intertile",
+        "stream": true
+      }
+    ]
+  },
+  "halland": {
+    "sounds": [
+      {
+        "name": "skyblock:halland",
+        "stream": true
+      }
+    ]
+  },
+  "finnbacka": {
+    "sounds": [
+      {
+        "name": "skyblock:finnbacka",
+        "stream": true
+      }
+    ]
+  },
+  "dalarna": {
+    "sounds": [
+      {
+        "name": "skyblock:dalarna",
+        "stream": true
+      }
+    ]
+  },
+  "crypt": {
+    "sounds": [
+      {
+        "name": "skyblock:crypt",
+        "stream": true
+      }
+    ]
+  },
+  "creeper_woods": {
+    "sounds": [
+      {
+        "name": "skyblock:creeper_woods",
+        "stream": true
+      }
+    ]
+  },
+  "caravan": {
+    "sounds": [
+      {
+        "name": "skyblock:caravan",
+        "stream": true
+      }
+    ]
+  },
+  "broken_hearth_of_ender": {
+    "sounds": [
+      {
+        "name": "skyblock:broken_hearth_of_ender",
+        "stream": true
+      }
+    ]
+  },
+  "obsidian_cavern": {
+    "sounds": [
+      {
+        "name": "skyblock:obsidian_cavern",
+        "stream": true
+      }
+    ]
+  },
+  "to_the_beginning": {
+    "sounds": [
+      {
+        "name": "skyblock:to_the_beginning",
+        "stream": true
+      }
+    ]
   }
 }

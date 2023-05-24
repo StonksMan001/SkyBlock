@@ -216,7 +216,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.END_STONE).strength(3.0f).requiresTool()), ModItemGroup.FYBERITE);
     //END VEGETATION
     public static final Block ANT_JAM_BLOCK = registerBlock("ant_jam_block",
-            new HoneyBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.01f)), ModItemGroup.FYBERITE);
+            new SlimeBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.01f)), ModItemGroup.FYBERITE);
     public static final Block SWEET_BERRY_JAM_BLOCK = registerBlock("sweet_berry_jam_block",
             new SlimeBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.01f)), ModItemGroup.UNUSED);
     public static final Block SUSPICIOUS_COARSE_DIRT = registerBlock("suspicious_coarse_dirt",

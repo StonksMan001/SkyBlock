@@ -115,7 +115,7 @@ public class ModBlocks {
     public static final Block ABYSS_JUNGLE_LEAVES = registerBlock("abyss_jungle_leaves",
             new Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.ABYSS);
     public static final Block ABYSS_JUNGLE_PLANKS = registerBlock("abyss_jungle_planks",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
+            new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
 
 
 
@@ -131,7 +131,7 @@ public class ModBlocks {
     public static final Block BLARU_LEAVES = registerBlock("blaru_leaves",
             new Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.ABYSS);
     public static final Block BLARU_PLANKS = registerBlock("blaru_planks",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
+            new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
 
 
     public static final Block FROZEN_LOG = registerBlock("frozen_log",
@@ -145,7 +145,7 @@ public class ModBlocks {
     public static final Block FROZEN_LEAVES = registerBlock("frozen_leaves",
             new Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.ABYSS);
     public static final Block FROZEN_PLANKS = registerBlock("frozen_planks",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
+            new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
 
 
     public static final Block SLIMED_LOG = registerBlock("slimed_log",
@@ -159,7 +159,22 @@ public class ModBlocks {
     public static final Block ABYSS_SLIME_BLOCK = registerBlock("abyss_slime_block",
             new SlimeBlock(FabricBlockSettings.copy(Blocks.SLIME_BLOCK).strength(0.01f)), ModItemGroup.ABYSS);
     public static final Block SLIMED_PLANKS = registerBlock("slimed_planks",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
+            new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
+
+
+
+    public static final Block VIGILANT_LOG = registerBlock("vigilant_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_STEM).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block VIGILANT_WOOD = registerBlock("vigilant_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_HYPHAE).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block STRIPPED_VIGILANT_LOG = registerBlock("stripped_vigilant_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_STEM).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block STRIPPED_VIGILANT_WOOD = registerBlock("stripped_vigilant_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_HYPHAE).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block VIGILANT_LEAVES = registerBlock("vigilant_leaves",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.BUBBLE_CORAL_BLOCK).strength(1.0f)), ModItemGroup.ABYSS);
+    public static final Block VIGILANT_PLANKS = registerBlock("vigilant_planks",
+            new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
 
 
 
@@ -174,7 +189,7 @@ public class ModBlocks {
     public static final Block BOG_SHROOM_LEAVES = registerBlock("bog_shroom_leaves",
             new Block(FabricBlockSettings.copy(Blocks.BRAIN_CORAL_BLOCK).luminance(state -> 10)), ModItemGroup.ABYSS);
     public static final Block BOG_SHROOM_PLANKS = registerBlock("bog_shroom_planks",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
+            new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
 
 
 
@@ -190,7 +205,7 @@ public class ModBlocks {
     public static final Block SAL_SHROOM_LEAVES = registerBlock("sal_shroom_leaves",
             new Block(FabricBlockSettings.copy(Blocks.BUBBLE_CORAL_BLOCK).luminance(state -> 10)), ModItemGroup.ABYSS);
     public static final Block SAL_SHROOM_PLANKS = registerBlock("sal_shroom_planks",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
+            new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
     //ABYSS
 
 
@@ -276,6 +291,12 @@ public class ModBlocks {
     public static final Block MOSSIER_COBBLESTONE = registerBlock("mossier_cobblestone",
             new Block(FabricBlockSettings.copy(Blocks.COBBLESTONE).strength(2.0F, 6.0F)), ModItemGroup.MCD);
     //MCD
+    //PEARFECTION
+    public static final Block CALLERY_LEAVES = registerBlock("callery_leaves",
+            new Block(FabricBlockSettings.copy(Blocks.AZALEA_LEAVES)), ModItemGroup.PEARFECTION);
+    public static final Block FLOWERING_CALLERY_LEAVES = registerBlock("flowering_callery_leaves",
+            new Block(FabricBlockSettings.copy(Blocks.FLOWERING_AZALEA_LEAVES)), ModItemGroup.PEARFECTION);
+    //PEARFECTION
     private static Block registerBlockWithoutItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(SkyBlock.MOD_ID, name), block);
     }

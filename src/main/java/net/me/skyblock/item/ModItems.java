@@ -12,12 +12,15 @@ import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class ModItems {
     public static final Item FYBERITE = registerItem("fyberite_ingot",
             new Item(new FabricItemSettings()));
     public static final Item MUSIC_DISC_WITHERSTORM = registerItem("music_disc_wither_storm_theme",
-            new MusicDiscItem(6, ModSounds.WITHERSTORM_THEME, new  FabricItemSettings().maxCount(1),188));
+            new MusicDiscItem(6, ModSounds.WITHERSTORM_THEME, new  FabricItemSettings().maxCount(1).rarity(Rarity.RARE),188));
+    public static final Item DISC_FRAGMENT_WITHERSTORM = registerItem("disc_fragment_wither_storm_theme",
+            new DiscFragmentItem(new FabricItemSettings()));
     public static final Item ENDERITE_APPLE = registerItem("enderite_apple",
             new Item(new FabricItemSettings().food(ModFoodComponents.ENDERITE_APPLE)));
     public static final Item ENCHANTED_ENDERITE_APPLE = registerItem("enchanted_enderite_apple",
@@ -100,7 +103,8 @@ public class ModItems {
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroup.UNUSED, FYBERITE);
-        addToItemGroup(ModItemGroup.UNUSED, MUSIC_DISC_WITHERSTORM);
+        addToItemGroup(ModItemGroup.FYBERITE, MUSIC_DISC_WITHERSTORM);
+        addToItemGroup(ModItemGroup.FYBERITE, DISC_FRAGMENT_WITHERSTORM);
         addToItemGroup(ModItemGroup.FYBERITE, ENDMERALD);
         addToItemGroup(ModItemGroup.FYBERITE, ANT_BOTTLE);
         addToItemGroup(ModItemGroup.FYBERITE, BOTTLE_OF_ANT_JAM);

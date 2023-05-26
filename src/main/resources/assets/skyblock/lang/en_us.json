@@ -82,6 +82,12 @@
   "block.skyblock.stripped_blaru_wood": "Stripped Blaru Wood",
   "block.skyblock.blaru_planks": "Blaru Planks",
   "block.skyblock.blaru_leaves": "Blaru Leaves",
+  "block.skyblock.vigilant_log": "Vigilant Log",
+  "block.skyblock.vigilant_wood": "Vigilant Wood",
+  "block.skyblock.stripped_vigilant_log": "Stripped Vigilant Log",
+  "block.skyblock.stripped_vigilant_wood": "Stripped Vigilant Wood",
+  "block.skyblock.vigilant_planks": "Vigilant Planks",
+  "block.skyblock.vigilant_leaves": "Vigilant Leaves",
   "block.skyblock.frozen_log": "Frozen Log",
   "block.skyblock.frozen_wood": "Frozen Wood",
   "block.skyblock.stripped_frozen_log": "Stripped Frozen Log",
@@ -112,6 +118,10 @@
   "block.skyblock.stripped_abyss_jungle_wood": "Stripped Abyss Jungle Wood",
   "block.skyblock.abyss_jungle_planks": "Abyss Jungle Planks",
   "block.skyblock.abyss_jungle_leaves": "Abyss Jungle Leaves",
+  "block.skyblock.abysculk_log": "Abysculk Log",
+  "block.skyblock.abysculk_wood": "Abysculk Wood",
+  "block.skyblock.abysculk_planks": "Abysculk Planks",
+
 
   "block.skyblock.end_emerald_block": "End Emerald Block",
   "block.skyblock.end_emerald_ore": "End Emerald Ore",
@@ -144,5 +154,10 @@
   "block.skyblock.mossier_cobblestone": "Mossier Cobblestone",
 
   "block.skyblock.callery_leaves": "Callery Leaves",
-  "block.skyblock.flowering_callery_leaves": "Flowering Callery Leaves"
+  "block.skyblock.flowering_callery_leaves": "Flowering Callery Leaves",
+  "block.skyblock.callery_log": "Callery Log",
+  "block.skyblock.callery_wood": "Callery Wood",
+  "block.skyblock.stripped_callery_log": "Stripped Callery Log",
+  "block.skyblock.stripped_callery_wood": "Stripped Callery Wood",
+  "block.skyblock.callery_planks": "Callery Planks"
 }

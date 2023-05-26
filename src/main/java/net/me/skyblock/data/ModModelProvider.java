@@ -65,6 +65,10 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.AZALEA_LOG).log(ModBlocks.AZALEA_LOG).wood(ModBlocks.AZALEA_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_AZALEA_LOG).log(ModBlocks.STRIPPED_AZALEA_LOG).wood(ModBlocks.STRIPPED_AZALEA_WOOD);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.AZALEA_PLANKS);
+
+        blockStateModelGenerator.registerLog(ModBlocks.CALLERY_LOG).log(ModBlocks.CALLERY_LOG).wood(ModBlocks.CALLERY_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_CALLERY_LOG).log(ModBlocks.STRIPPED_CALLERY_LOG).wood(ModBlocks.STRIPPED_CALLERY_WOOD);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CALLERY_PLANKS);
     }
 
     @Override

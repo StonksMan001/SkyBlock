@@ -308,6 +308,16 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.AZALEA_LEAVES)), ModItemGroup.PEARFECTION);
     public static final Block FLOWERING_CALLERY_LEAVES = registerBlock("flowering_callery_leaves",
             new Block(FabricBlockSettings.copy(Blocks.FLOWERING_AZALEA_LEAVES)), ModItemGroup.PEARFECTION);
+    public static final Block CALLERY_LOG = registerBlock("callery_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(2.0f)), ModItemGroup.PEARFECTION);
+    public static final Block CALLERY_WOOD = registerBlock("callery_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).strength(2.0f)), ModItemGroup.PEARFECTION);
+    public static final Block STRIPPED_CALLERY_LOG = registerBlock("stripped_callery_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).strength(2.0f)), ModItemGroup.PEARFECTION);
+    public static final Block STRIPPED_CALLERY_WOOD = registerBlock("stripped_callery_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(2.0f)), ModItemGroup.PEARFECTION);
+    public static final Block CALLERY_PLANKS = registerBlock("callery_planks",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f)), ModItemGroup.PEARFECTION);
     //PEARFECTION
     private static Block registerBlockWithoutItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(SkyBlock.MOD_ID, name), block);

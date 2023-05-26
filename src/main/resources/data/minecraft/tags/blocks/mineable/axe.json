@@ -13,6 +13,12 @@
     "skyblock:stripped_azalea_wood",
     "skyblock:azalea_planks",
 
+    "skyblock:callery_log",
+    "skyblock:callery_wood",
+    "skyblock:stripped_callery_log",
+    "skyblock:stripped_callery_wood",
+    "skyblock:callery_planks",
+
     "skyblock:abyss_jungle_log",
     "skyblock:abyss_jungle_wood",
     "skyblock:stripped_abyss_jungle_log",
@@ -24,6 +30,12 @@
     "skyblock:stripped_blaru_log",
     "skyblock:stripped_blaru_wood",
     "skyblock:blaru_planks",
+
+    "skyblock:vigilant_log",
+    "skyblock:vigilant_wood",
+    "skyblock:stripped_vigilant_log",
+    "skyblock:stripped_vigilant_wood",
+    "skyblock:vigilant_planks",
 
     "skyblock:frozen_log",
     "skyblock:frozen_wood",
@@ -47,6 +59,10 @@
     "skyblock:sal_shroom_wood",
     "skyblock:stripped_sal_shroom_log",
     "skyblock:stripped_sal_shroom_wood",
-    "skyblock:sal_shroom_planks"
+    "skyblock:sal_shroom_planks",
+
+    "skyblock:abysculk_log",
+    "skyblock:abysculk_wood",
+    "skyblock:abysculk_planks"
   ]
 }

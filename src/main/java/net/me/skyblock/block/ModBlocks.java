@@ -177,6 +177,18 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
 
 
+    public static final Block ABYSCULK_LOG = registerBlock("abysculk_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_STEM).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block ABYSCULK_WOOD = registerBlock("abysculk_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_HYPHAE).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block STRIPPED_ABYSCULK_LOG = registerBlock("stripped_abysculk_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_STEM).strength(2.0f)), ModItemGroup.UNUSED);
+    public static final Block STRIPPED_ABYSCULK_WOOD = registerBlock("stripped_abysculk_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_HYPHAE).strength(2.0f)), ModItemGroup.UNUSED);
+    public static final Block ABYSCULK_PLANKS = registerBlock("abysculk_planks",
+            new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
+
+
 
     public static final Block BOG_SHROOM_LOG = registerBlock("bog_shroom_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.WARPED_STEM).strength(2.0f)), ModItemGroup.ABYSS);

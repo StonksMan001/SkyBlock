@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "skyblock:block/stripped_vigilant_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "skyblock:block/stripped_vigilant_wood"
+    },
+    "axis=z": {
+      "model": "skyblock:block/stripped_vigilant_wood",
+      "x": 90
+    }
+  }
+}

@@ -33,6 +33,8 @@ public class SkyBlock implements ModInitializer {
 		StrippableBlockRegistry.register(ModBlocks.BLARU_LOG, ModBlocks.STRIPPED_BLARU_LOG);
 		StrippableBlockRegistry.register(ModBlocks.BLARU_WOOD, ModBlocks.STRIPPED_BLARU_WOOD);
 		StrippableBlockRegistry.register(ModBlocks.FROZEN_LOG, ModBlocks.STRIPPED_FROZEN_LOG);
+		StrippableBlockRegistry.register(ModBlocks.VIGILANT_LOG, ModBlocks.STRIPPED_VIGILANT_LOG);
+		StrippableBlockRegistry.register(ModBlocks.VIGILANT_WOOD, ModBlocks.STRIPPED_VIGILANT_WOOD);
 		StrippableBlockRegistry.register(ModBlocks.FROZEN_WOOD, ModBlocks.STRIPPED_FROZEN_WOOD);
 		StrippableBlockRegistry.register(ModBlocks.SLIMED_LOG, ModBlocks.STRIPPED_SLIMED_LOG);
 		StrippableBlockRegistry.register(ModBlocks.SLIMED_WOOD, ModBlocks.STRIPPED_SLIMED_WOOD);

@@ -42,6 +42,14 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_SLIMED_LOG).log(ModBlocks.STRIPPED_SLIMED_LOG).wood(ModBlocks.STRIPPED_SLIMED_WOOD);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SLIMED_PLANKS);
 
+        blockStateModelGenerator.registerLog(ModBlocks.VIGILANT_LOG).log(ModBlocks.VIGILANT_LOG).wood(ModBlocks.VIGILANT_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_VIGILANT_LOG).log(ModBlocks.STRIPPED_VIGILANT_LOG).wood(ModBlocks.STRIPPED_VIGILANT_WOOD);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VIGILANT_PLANKS);
+
+        blockStateModelGenerator.registerLog(ModBlocks.ABYSCULK_LOG).log(ModBlocks.ABYSCULK_LOG).wood(ModBlocks.ABYSCULK_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_ABYSCULK_LOG).log(ModBlocks.STRIPPED_ABYSCULK_LOG).wood(ModBlocks.STRIPPED_ABYSCULK_WOOD);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ABYSCULK_PLANKS);
+
         blockStateModelGenerator.registerLog(ModBlocks.BOG_SHROOM_LOG).log(ModBlocks.BOG_SHROOM_LOG).wood(ModBlocks.BOG_SHROOM_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_BOG_SHROOM_LOG).log(ModBlocks.STRIPPED_BOG_SHROOM_LOG).wood(ModBlocks.STRIPPED_BOG_SHROOM_WOOD);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BOG_SHROOM_PLANKS);

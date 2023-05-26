@@ -25,7 +25,7 @@ public class ModItemGroup {
         ABYSS = FabricItemGroup.builder(new Identifier(SkyBlock.MOD_ID, "classified"))
                 .displayName(Text.literal("The Abyss Chapter II: Feature (Y3Z0N)"))
                 .icon(() -> new ItemStack(ModItems.LORAN)).build();
-        PEARFECTION = FabricItemGroup.builder(new Identifier(SkyBlock.MOD_ID, "classified"))
+        PEARFECTION = FabricItemGroup.builder(new Identifier(SkyBlock.MOD_ID, "pearfection"))
                 .displayName(Text.literal("Pearfection: Feature (DigitalPear_11)"))
                 .icon(() -> new ItemStack(ModBlocks.FLOWERING_CALLERY_LEAVES)).build();
         MCD = FabricItemGroup.builder(new Identifier(SkyBlock.MOD_ID, "mcd"))

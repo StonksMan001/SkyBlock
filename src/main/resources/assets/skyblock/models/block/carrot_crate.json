@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "top": "skyblock:block/carrot_crate_top",
+        "bottom": "skyblock:block/carrot_crate_bottom",
+        "side": "skyblock:block/carrot_crate"
+    }
+}

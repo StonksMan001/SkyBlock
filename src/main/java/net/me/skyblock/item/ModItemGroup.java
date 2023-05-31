@@ -5,6 +5,7 @@ import net.me.skyblock.SkyBlock;
 import net.me.skyblock.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -13,6 +14,7 @@ public class ModItemGroup {
     public static ItemGroup MCD;
     public static ItemGroup UNUSED;
     public static ItemGroup ABYSS;
+    public static ItemGroup QUARK;
     public static ItemGroup PEARFECTION;
 
     public static void registerItemGroups() {
@@ -31,5 +33,8 @@ public class ModItemGroup {
         MCD = FabricItemGroup.builder(new Identifier(SkyBlock.MOD_ID, "mcd"))
                 .displayName(Text.literal("Sky Block: Minecraft Dungeons (ilosemypotato)"))
                 .icon(() -> new ItemStack(ModBlocks.MOSSIER_COBBLESTONE)).build();
+        QUARK = FabricItemGroup.builder(new Identifier(SkyBlock.MOD_ID, "quark"))
+                .displayName(Text.literal("Quark: Features (Vazkii)"))
+                .icon(() -> new ItemStack(Items.BARRIER)).build();
     }
 }

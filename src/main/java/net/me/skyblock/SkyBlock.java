@@ -3,6 +3,11 @@ package net.me.skyblock;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.me.skyblock.block.ModBlocks;
+import net.me.skyblock.client.render.ModRenderLayer;
+import net.me.skyblock.client.render.ModRenderPhase;
+import net.me.skyblock.client.render.item.ModItemRenderContext;
+import net.me.skyblock.client.render.item.ModItemRenderer;
+import net.me.skyblock.item.ModItem;
 import net.me.skyblock.item.ModItemGroup;
 import net.me.skyblock.item.ModItems;
 import net.me.skyblock.painting.ModPaintings;
@@ -21,6 +26,12 @@ public class SkyBlock implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModDimensions.register();
 		ModPaintings.registerPaintings();
+		ModRenderLayer.register();
+		ModRenderPhase.register();
+		ModItemRenderer.register();
+		ModItemRenderContext.register();
+		ModItem.register();
+		ModItem.register();
 
 		StrippableBlockRegistry.register(ModBlocks.END_STEM, ModBlocks.STRIPPED_END_STEM);
 		StrippableBlockRegistry.register(ModBlocks.END_HYPHAE, ModBlocks.STRIPPED_END_HYPHAE);

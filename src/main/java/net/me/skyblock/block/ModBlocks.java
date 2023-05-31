@@ -319,6 +319,30 @@ public class ModBlocks {
     public static final Block CALLERY_PLANKS = registerBlock("callery_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f)), ModItemGroup.PEARFECTION);
     //PEARFECTION
+    //QUARK
+    public static final Block APPLE_CRATE = registerBlock("apple_crate",
+            new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WOOD).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block BEETROOT_CRATE = registerBlock("beetroot_crate",
+            new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WOOD).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block CARROT_CRATE = registerBlock("carrot_crate",
+            new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WOOD).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block POTATO_CRATE = registerBlock("potato_crate",
+            new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WOOD).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block GOLDEN_APPLE_CRATE = registerBlock("golden_apple_crate",
+            new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WOOD).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block GOLDEN_CARROT_CRATE = registerBlock("golden_carrot_crate",
+            new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WOOD).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block SWEET_BERRY_SACK = registerBlock("sweet_berry_sack",
+            new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WART_BLOCK).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block GLOW_BERRY_SACK = registerBlock("glow_berry_sack",
+            new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WART_BLOCK).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block COCOA_BEANS_SACK = registerBlock("cocoa_beans_sack",
+            new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WART_BLOCK).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block GUNPOWDER_SACK = registerBlock("gunpowder_sack",
+            new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WART_BLOCK).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block NETHER_WART_SACK = registerBlock("nether_wart_sack",
+            new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WART_BLOCK).strength(1.0f)), ModItemGroup.QUARK);
+    //QUARK
     private static Block registerBlockWithoutItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(SkyBlock.MOD_ID, name), block);
     }

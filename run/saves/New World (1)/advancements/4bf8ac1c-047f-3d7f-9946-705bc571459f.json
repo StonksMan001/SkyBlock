@@ -29,18 +29,6 @@
     },
     "done": true
   },
-  "betterend:root": {
-    "criteria": {
-      "welcome": "2023-05-26 20:24:16 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2023-05-26 20:24:16 +0200"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
       "has_planks": "2023-05-26 20:24:14 +0200"
@@ -52,6 +40,18 @@
       "has_tag_minecraft_planks": "2023-05-26 20:24:14 +0200"
     },
     "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2023-05-26 20:24:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-05-26 20:24:16 +0200"
+    },
+    "done": false
   },
   "DataVersion": 3337
 }

@@ -7,6 +7,8 @@ import net.me.skyblock.block.ModBlocks;
 import net.me.skyblock.item.custom.ModArmorMaterials;
 import net.me.skyblock.item.custom.ModAxeItem;
 import net.me.skyblock.sound.ModSounds;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -151,5 +153,14 @@ public class ModItems {
         SkyBlock.LOGGER.debug("Registering Mod Items for " + SkyBlock.MOD_ID);
 
         addItemsToItemGroup();
+    }
+    protected static Item register(Block block, Item item) {
+        return ModItems.register(Registries.BLOCK.getId(block), item);
+    }
+    private static Item register(Identifier id, Item item) {
+        if (item instanceof BlockItem) {
+            ((BlockItem)item).appendBlocks(Item.BLOCK_ITEMS, item);
+        }
+        return Registry.register(Registries.ITEM, id, item);
     }
 }

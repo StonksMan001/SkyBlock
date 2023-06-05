@@ -1,0 +1,111 @@
+{
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/blossom_berry_jelly_potion": {
+    "criteria": {
+      "has_gelatine": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/shadow_berry_jelly": {
+    "criteria": {
+      "has_gelatine": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-06-05 14:36:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/shadow_berry_jelly_potion": {
+    "criteria": {
+      "has_gelatine": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sweet_berry_jelly": {
+    "criteria": {
+      "has_gelatine": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2023-06-05 14:36:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sweet_berry_jelly_potion": {
+    "criteria": {
+      "has_gelatine": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/blossom_berry_jelly": {
+    "criteria": {
+      "has_gelatine": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2023-06-05 14:35:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-06-05 14:36:01 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3337
+}

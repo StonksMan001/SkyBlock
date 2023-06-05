@@ -17,7 +17,10 @@ import net.me.skyblock.painting.ModPaintings;
 import net.me.skyblock.world.dimension.ModDimensions;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.RenderLayers;
+import net.minecraft.client.render.entity.model.EntityModelLayer;
 import net.minecraft.registry.Registries;
+import net.minecraft.util.Identifier;
+import org.betterx.betterend.BetterEnd;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,6 +28,7 @@ public class SkyBlock implements ModInitializer {
 	public static final String MOD_ID = "skyblock";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
+	public static final EntityModelLayer WISP_MODEL = registerMain("wisp");
 	@Override
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
@@ -66,5 +70,9 @@ public class SkyBlock implements ModInitializer {
 
 
 		FabricDefaultAttributeRegistry.register(ModEntities.WISP, WispEntity.setAttributes());
+
+	}
+	private static EntityModelLayer registerMain(String id) {
+		return new EntityModelLayer(BetterEnd.makeID(id), "main");
 	}
 }

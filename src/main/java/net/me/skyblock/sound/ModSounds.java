@@ -3,7 +3,9 @@ package net.me.skyblock.sound;
 import net.me.skyblock.SkyBlock;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 
 public class ModSounds {
@@ -41,13 +43,8 @@ public class ModSounds {
     public static SoundEvent THE_ABYSS_JOURNEYS = registerSoundEvent("the_abyss_-_journeys");
     public static SoundEvent THE_ABYSS_LOST_IN_DESSERT = registerSoundEvent("the_abyss_-_lost_in_dessert");
     public static SoundEvent BROKEN_RADIO = registerSoundEvent("broken_radio");
-    public static SoundEvent WISP_ATTRACT_1 = registerSoundEvent("wisp_attract_1");
-    public static SoundEvent WISP_ATTRACT_2 = registerSoundEvent("wisp_attract_2");
-    public static SoundEvent WISP_ATTRACT_3 = registerSoundEvent("wisp_attract_3");
-    public static SoundEvent WISP_ATTRACT_4 = registerSoundEvent("wisp_attract_4");
-    public static SoundEvent WISP_MOTION_1 = registerSoundEvent("wisp_motion_1");
-    public static SoundEvent WISP_MOTION_2 = registerSoundEvent("wisp_motion_2");
-    public static SoundEvent WISP_MOTION_3 = registerSoundEvent("wisp_motion_3");
+    public static SoundEvent WISP_ATTRACT = registerSoundEvent("wisp_attract");
+    public static SoundEvent WISP_MOTION = registerSoundEvent("wisp_motion");
     public static SoundEvent WANDERLUST = registerSoundEvent("wanderlust");
     public static SoundEvent SKOGSSTUGA = registerSoundEvent("skogsstuga");
     public static SoundEvent INTERTILE = registerSoundEvent("intertile");

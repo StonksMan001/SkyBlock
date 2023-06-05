@@ -279,56 +279,36 @@
       }
     ]
   },
-  "wisp_attract_1": {
+  "wisp_attract": {
     "sounds": [
       {
         "name": "skyblock:wisp_attract_1",
         "stream": true
-      }
-    ]
-  },
-  "wisp_attract_2": {
-    "sounds": [
+      },
       {
         "name": "skyblock:wisp_attract_2",
         "stream": true
-      }
-    ]
-  },
-  "wisp_attract_3": {
-    "sounds": [
+      },
       {
         "name": "skyblock:wisp_attract_3",
         "stream": true
-      }
-    ]
-  },
-  "wisp_attract_4": {
-    "sounds": [
+      },
       {
         "name": "skyblock:wisp_attract_4",
         "stream": true
       }
     ]
   },
-  "wisp_motion_1": {
+  "wisp_motion": {
     "sounds": [
       {
         "name": "skyblock:wisp_motion_1",
         "stream": true
-      }
-    ]
-  },
-  "wisp_motion_2": {
-    "sounds": [
+      },
       {
         "name": "skyblock:wisp_motion_2",
         "stream": true
-      }
-    ]
-  },
-  "wisp_motion_3": {
-    "sounds": [
+      },
       {
         "name": "skyblock:wisp_motion_3",
         "stream": true

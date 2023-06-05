@@ -29,7 +29,7 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 damageTiltStrength:1.0
-highContrast:false
+highContrast:true
 gamma:0.0
 renderDistance:12
 simulationDistance:5
@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric"]
+resourcePacks:["vanilla","fabric","high_contrast"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:hu_hu

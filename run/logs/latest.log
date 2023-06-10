@@ -401,3 +401,198 @@ BCLib - The End  BiomeSource (79bb055e)
 [22:40:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
 [22:40:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
 [22:40:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[22:40:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:40:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:40:12] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[22:40:12] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (the_abyss_fabric): All chunks are saved
+[22:40:12] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (unknown): All chunks are saved
+[22:40:12] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:40:12] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:40:12] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[22:40:13] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (1aa075e9)
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (14558254)
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Running Pre Patchers on D:\SONY\MODS\SkyBlock-1.19.3\run\saves\New World (1)\.
+[22:41:30] [Render thread/INFO] (Logger) [DataFixerAPI] Everything up to date
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_aurora_cave
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_end_cave
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_smaragdant_cave
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:jade_cave
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_aurora_cave
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_smaragdant_cave
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:megalake_grove
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:neon_oasis
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:painted_mountains
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (5b800fed)
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (31b11a78)
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (76d7ada2)
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (7cc59f35)
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (42c82a05)
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (7c620b6f)
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (39f0f80b)
+[22:41:30] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (14894041)
+[22:41:31] [Render thread/WARN] (Logger) [bclib] No valid BCLBiome Registry available!
+[22:41:31] [Render thread/WARN] (Logger) [bclib] No valid Biome Registry available!
+[22:41:31] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
+[22:41:31] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (71ef0890)
+[22:41:31] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (27a9d59)
+[22:41:31] [Worker-Main-9/ERROR] (Minecraft) Not a JSON object: null
+[22:41:31] [Worker-Main-9/ERROR] (Minecraft) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack Fabric Mods
+java.lang.RuntimeException: Not a JSON object: null
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.6.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.6.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.6.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.loadTags(TagGroupLoader.java:56) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.load(TagGroupLoader.java:163) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at net.minecraft.registry.tag.TagManagerLoader.method_33181(TagManagerLoader.java:65) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[22:41:31] [Worker-Main-3/ERROR] (Minecraft) Couldn't read tag list minecraft:trim_materials from minecraft:tags/items/trim_materials.json in data pack Fabric Mods
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 6 column 2 path $.values[3]
+	at com.google.gson.internal.Streams.parse(Streams.java:61) ~[gson-2.10.jar:?]
+	at com.google.gson.JsonParser.parseReader(JsonParser.java:102) ~[gson-2.10.jar:?]
+	at com.google.gson.JsonParser.parseReader(JsonParser.java:70) ~[gson-2.10.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.loadTags(TagGroupLoader.java:54) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.load(TagGroupLoader.java:163) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at net.minecraft.registry.tag.TagManagerLoader.method_33181(TagManagerLoader.java:65) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 6 column 2 path $.values[3]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:485) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.Streams.parse(Streams.java:49) ~[gson-2.10.jar:?]
+	... 12 more
+[22:41:31] [Render thread/INFO] (Logger) [bclib] Disabling Recipe: bclib:test_star
+[22:41:31] [Render thread/INFO] (Minecraft) Loaded 10 recipes
+[22:41:31] [Render thread/INFO] (Minecraft) Loaded 1959 advancements
+[22:41:32] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (34b2fe5b)
+[22:41:32] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (206d8d8d)
+[22:41:32] [Render thread/INFO] (Logger) [bclib] Enforcing Correct Generator for minecraft:the_nether.
+[22:41:32] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (34b2fe5b)
+[22:41:32] [Render thread/INFO] (Logger) [bclib] Enforcing Correct Generator for minecraft:the_end.
+[22:41:32] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (206d8d8d)
+[22:41:32] [Render thread/INFO] (Logger) [worlds_together] Loading originally configured Dimensions in World.
+[22:41:32] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 88 new biomes in 274.0 ?s
+[22:41:33] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.4
+[22:41:33] [Server thread/INFO] (Minecraft) Generating keypair
+[22:41:33] [Server thread/INFO] (Logger) [bclib] 
+Apply Modifications for skyblock:the_abyss_fabric
+    FixedBiomeSource (3f5371f0)
+        biomes     = 1
+        namespaces = minecraft
+[22:41:33] [Server thread/INFO] (Logger) [bclib] 
+Apply Modifications for skyblock:unknown
+    FixedBiomeSource (7e6e7bcb)
+        biomes     = 1
+        namespaces = minecraft
+[22:41:33] [Server thread/INFO] (Logger) [bclib] 
+Apply Modifications for minecraft:the_nether
+    BCLib - Nether BiomeSource (34b2fe5b)
+        biomes     = 5
+        namespaces = minecraft
+        seed       = 0
+        height     = 128
+        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[22:41:33] [Server thread/INFO] (Logger) [bclib] 
+Apply Modifications for minecraft:the_end
+    BCLib - The End  BiomeSource (206d8d8d)
+        biomes     = 24
+        namespaces = minecraft, betterend
+        seed       = 0
+        height     = 128
+        deciders   = 1
+        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[22:41:33] [Server thread/INFO] (Logger) [bclib] 
+Apply Modifications for minecraft:overworld
+    FixedBiomeSource (1e418484)
+        biomes     = 1
+        namespaces = minecraft
+[22:41:33] [Server thread/INFO] (Logger) [bclib] World Dimensions: 
+ - skyblock:the_abyss_fabric: 
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@3b6cf2c2 
+     FixedBiomeSource (3f5371f0)
+         biomes     = 1
+         namespaces = minecraft
+ - skyblock:unknown: 
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@6b2224bd 
+     FixedBiomeSource (7e6e7bcb)
+         biomes     = 1
+         namespaces = minecraft
+ - minecraft:the_nether: 
+     BCLib - Chunk Generator (4f5a04d8) 
+     BCLib - Nether BiomeSource (34b2fe5b)
+         biomes     = 5
+         namespaces = minecraft
+         seed       = 0
+         height     = 128
+         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+ - minecraft:the_end: 
+     BCLib - Chunk Generator (13fc0513) 
+     BCLib - The End  BiomeSource (206d8d8d)
+         biomes     = 24
+         namespaces = minecraft, betterend
+         seed       = 0
+         height     = 128
+         deciders   = 1
+         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+ - minecraft:overworld: 
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@643c5c3d 
+     FixedBiomeSource (1e418484)
+         biomes     = 1
+         namespaces = minecraft
+[22:41:33] [Server thread/INFO] (Logger) [bclib] Merged 19 additional Surface Rules for 
+BCLib - The End  BiomeSource (206d8d8d)
+    biomes     = 24
+    namespaces = minecraft, betterend
+    seed       = 0
+    height     = 128
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 20
+[22:41:33] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[22:41:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:41:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:41:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:41:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:41:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:41:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:41:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:41:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 23%
+[22:41:37] [Server thread/INFO] (Minecraft) Changing view distance to 18, from 10
+[22:41:37] [Server thread/INFO] (Minecraft) Changing simulation distance to 14, from 0
+[22:41:38] [Render thread/INFO] (Minecraft) Preparing spawn area: 92%
+[22:41:38] [Render thread/INFO] (Minecraft) Preparing spawn area: 92%
+[22:41:38] [Render thread/INFO] (Minecraft) Preparing spawn area: 92%
+[22:41:38] [Render thread/INFO] (Minecraft) Preparing spawn area: 92%
+[22:41:38] [Render thread/INFO] (Minecraft) Time elapsed: 5895 ms
+[22:41:39] [Server thread/INFO] (Minecraft) Player818[local:E:5b151fe0] logged in with entity id 207 at (2.1218389614403916, 288.9174955324026, -3.801023576197397)
+[22:41:39] [Server thread/WARN] (Logger) [bclib] Server changed!
+[22:41:39] [Server thread/INFO] (Minecraft) Player818 joined the game
+[22:41:39] [Render thread/INFO] (Logger) [bclib] Sending hello to server.
+[22:41:39] [Render thread/INFO] (Minecraft) Loaded 55 advancements
+[22:41:40] [Server thread/INFO] (Logger) [bclib] Received Hello from Client. (server=2.3.1, client=2.3.1)
+[22:41:40] [Server thread/INFO] (Logger) [bclib] Auto-Sync is disabled for Singleplayer worlds.
+[22:41:40] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:41:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:41:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[22:41:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[22:41:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:41:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:41:46] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:41:46] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:41:46] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[22:41:46] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[22:41:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:41:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end

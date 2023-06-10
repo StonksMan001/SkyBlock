@@ -3262,3 +3262,827 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [22:40:07] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
 [22:40:07] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
 [22:40:07] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[22:40:12] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:40:12] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Starting registry save
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:command_argument_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:item
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_entity_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:custom_stat
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/foliage_placer_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:stat_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/material_rule
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:attribute
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:position_source_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:height_provider_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/density_function_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:fluid
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_condition_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_pool_element
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:activity
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_serializer
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:frog_variant
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:banner_pattern
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:instrument
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:decorated_pot_patterns
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature_size_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:point_of_interest_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Preserving previously modded registry: minecraft:mob_effect
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Saving registry: minecraft:mob_effect
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_pool_entry_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_state_provider_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/chunk_generator
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:float_provider_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:chunk_status
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:enchantment
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_function_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_processor
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_score_provider_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/tree_decorator_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:schedule
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/material_condition
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:entity_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_profession
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:potion
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:int_provider_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:cat_variant
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:pos_rule_test
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_placement
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_nbt_provider_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: worlds_together:worldgen/betterx/biome_codec
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:menu
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/trunk_placer_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/placement_modifier_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/carver
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_number_provider_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_piece
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sound_event
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:particle_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:game_event
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/biome_source
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/root_placer_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:painting_variant
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_predicate_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sensor_type
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:rule_test
+[22:40:12] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:memory_module_type
+[22:40:12] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[22:40:12] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (the_abyss_fabric): All chunks are saved
+[22:40:12] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (unknown): All chunks are saved
+[22:40:12] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:40:12] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:40:12] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage: All dimensions are saved
+[22:40:13] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (1aa075e9)
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (1aa075e9)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 0
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> Map Update
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (1aa075e9)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 0
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> new height = 128
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (1aa075e9)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> Map Update
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (14558254)
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (14558254)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 0
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> Map Update
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (14558254)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 0
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> new height = 128
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Running Pre Patchers on D:\SONY\MODS\SkyBlock-1.19.3\run\saves\New World (1)\.
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [DataFixerAPI] Everything up to date
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Did not manage biome betterend:empty_aurora_cave
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Did not manage biome betterend:empty_end_cave
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Did not manage biome betterend:empty_smaragdant_cave
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Did not manage biome betterend:jade_cave
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Did not manage biome betterend:lush_aurora_cave
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Did not manage biome betterend:lush_smaragdant_cave
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Did not manage biome betterend:megalake_grove
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Did not manage biome betterend:neon_oasis
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Did not manage biome betterend:painted_mountains
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (5b800fed)
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (5b800fed)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 0
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> Map Update
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (5b800fed)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 0
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> new height = 128
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (31b11a78)
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (31b11a78)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 0
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=true, biomeSize=256, biomeSizeVertical=128}
+    --> Map Update
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (31b11a78)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 0
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=true, biomeSize=256, biomeSizeVertical=128}
+    --> new height = 256
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (31b11a78)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 256
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=true, biomeSize=256, biomeSizeVertical=128}
+    --> Map Update
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (76d7ada2)
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (76d7ada2)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 0
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=512, centerBiomesSize=256, landBiomesSize=1024, barrensBiomesSize=512}
+    --> Map Update
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (76d7ada2)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 0
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=512, centerBiomesSize=256, landBiomesSize=1024, barrensBiomesSize=512}
+    --> new height = 128
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (7cc59f35)
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (7cc59f35)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 0
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=1024, biomeSizeVertical=172}
+    --> Map Update
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (7cc59f35)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 0
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=1024, biomeSizeVertical=172}
+    --> new height = 128
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (7cc59f35)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=1024, biomeSizeVertical=172}
+    --> Map Update
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (42c82a05)
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (42c82a05)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 0
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=square, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> Map Update
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (42c82a05)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 0
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=square, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> new height = 128
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (7c620b6f)
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (7c620b6f)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 0
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=square, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> Map Update
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (7c620b6f)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 0
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=square, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> new height = 128
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (7c620b6f)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=square, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> Map Update
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (39f0f80b)
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (39f0f80b)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 0
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> Map Update
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (39f0f80b)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 0
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> new height = 128
+[22:41:30] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (14894041)
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (14894041)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 0
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> Map Update
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (14894041)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 0
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> new height = 128
+[22:41:30] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (14894041)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> Map Update
+[22:41:31] [Render thread/WARN] (org.betterx.worlds.together.util.Logger) [bclib] No valid BCLBiome Registry available!
+[22:41:31] [Render thread/WARN] (org.betterx.worlds.together.util.Logger) [bclib] No valid Biome Registry available!
+[22:41:31] [Render thread/DEBUG] (FabricRegistrySync) Reading registry data from D:\SONY\MODS\SkyBlock-1.19.3\run\saves\New World (1)\data\fabricRegistry.dat
+[22:41:31] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
+[22:41:31] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (71ef0890)
+[22:41:31] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (71ef0890)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = -1724501481613006087
+    height     = 0
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> Map Update
+[22:41:31] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (71ef0890)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = -1724501481613006087
+    height     = 0
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> new height = 128
+[22:41:31] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (71ef0890)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = -1724501481613006087
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> Map Update
+[22:41:31] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (27a9d59)
+[22:41:31] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (27a9d59)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = -1724501481613006087
+    height     = 0
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> Map Update
+[22:41:31] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (27a9d59)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = -1724501481613006087
+    height     = 0
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> new height = 128
+[22:41:31] [Worker-Main-9/ERROR] (net.minecraft.registry.tag.TagGroupLoader) Not a JSON object: null
+[22:41:31] [Worker-Main-9/ERROR] (net.minecraft.registry.tag.TagGroupLoader) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack Fabric Mods
+java.lang.RuntimeException: Not a JSON object: null
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.6.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.6.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.6.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.loadTags(TagGroupLoader.java:56) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.load(TagGroupLoader.java:163) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at net.minecraft.registry.tag.TagManagerLoader.method_33181(TagManagerLoader.java:65) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[22:41:31] [Worker-Main-3/ERROR] (net.minecraft.registry.tag.TagGroupLoader) Couldn't read tag list minecraft:trim_materials from minecraft:tags/items/trim_materials.json in data pack Fabric Mods
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 6 column 2 path $.values[3]
+	at com.google.gson.internal.Streams.parse(Streams.java:61) ~[gson-2.10.jar:?]
+	at com.google.gson.JsonParser.parseReader(JsonParser.java:102) ~[gson-2.10.jar:?]
+	at com.google.gson.JsonParser.parseReader(JsonParser.java:70) ~[gson-2.10.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.loadTags(TagGroupLoader.java:54) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.load(TagGroupLoader.java:163) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at net.minecraft.registry.tag.TagManagerLoader.method_33181(TagManagerLoader.java:65) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 6 column 2 path $.values[3]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:485) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.Streams.parse(Streams.java:49) ~[gson-2.10.jar:?]
+	... 12 more
+[22:41:31] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Disabling Recipe: bclib:test_star
+[22:41:31] [Render thread/INFO] (net.minecraft.recipe.RecipeManager) Loaded 10 recipes
+[22:41:31] [Render thread/INFO] (net.minecraft.advancement.AdvancementManager) Loaded 1959 advancements
+[22:41:32] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (34b2fe5b)
+[22:41:32] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (34b2fe5b)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 0
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> Map Update
+[22:41:32] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (34b2fe5b)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 0
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> new height = 128
+[22:41:32] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (34b2fe5b)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> Map Update
+[22:41:32] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (206d8d8d)
+[22:41:32] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (206d8d8d)
+    biomes     = 24
+    namespaces = minecraft, betterend
+    seed       = 0
+    height     = 0
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> Map Update
+[22:41:32] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (206d8d8d)
+    biomes     = 24
+    namespaces = minecraft, betterend
+    seed       = 0
+    height     = 0
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> new height = 128
+[22:41:32] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Enforcing Correct Generator for minecraft:the_nether.
+[22:41:32] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (34b2fe5b)
+[22:41:32] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (34b2fe5b)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> Map Update
+[22:41:32] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Enforcing Correct Generator for minecraft:the_end.
+[22:41:32] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (206d8d8d)
+[22:41:32] [Render thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (206d8d8d)
+    biomes     = 24
+    namespaces = minecraft, betterend
+    seed       = 0
+    height     = 128
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> Map Update
+[22:41:32] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [worlds_together] Loading originally configured Dimensions in World.
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Starting registry save
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:command_argument_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:item
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_entity_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:custom_stat
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/foliage_placer_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:stat_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/material_rule
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:attribute
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:position_source_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:height_provider_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/density_function_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:fluid
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_condition_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_pool_element
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:activity
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_serializer
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:frog_variant
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:banner_pattern
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:instrument
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:decorated_pot_patterns
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature_size_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:point_of_interest_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Preserving previously modded registry: minecraft:mob_effect
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Saving registry: minecraft:mob_effect
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_pool_entry_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_state_provider_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/chunk_generator
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:float_provider_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:chunk_status
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:enchantment
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_function_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_processor
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_score_provider_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/tree_decorator_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:schedule
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/material_condition
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:entity_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_profession
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:potion
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:int_provider_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:cat_variant
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:pos_rule_test
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_placement
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_nbt_provider_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: worlds_together:worldgen/betterx/biome_codec
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:menu
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/trunk_placer_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/placement_modifier_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/carver
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_number_provider_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_piece
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sound_event
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:particle_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:game_event
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/biome_source
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/root_placer_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:painting_variant
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_predicate_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sensor_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:rule_test
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:memory_module_type
+[22:41:32] [Render thread/DEBUG] (FabricRegistrySync) Saving registry data to D:\SONY\MODS\SkyBlock-1.19.3\run\saves\New World (1)\data\fabricRegistry.dat
+[22:41:32] [Render thread/INFO] (net.fabricmc.fabric.impl.biome.modification.BiomeModificationImpl) Applied 0 biome modifications to 0 of 88 new biomes in 274.0 ?s
+[22:41:33] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Starting integrated minecraft server version 1.19.4
+[22:41:33] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Generating keypair
+[22:41:33] [Server thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] 
+Apply Modifications for skyblock:the_abyss_fabric
+    FixedBiomeSource (3f5371f0)
+        biomes     = 1
+        namespaces = minecraft
+[22:41:33] [Server thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] 
+Apply Modifications for skyblock:unknown
+    FixedBiomeSource (7e6e7bcb)
+        biomes     = 1
+        namespaces = minecraft
+[22:41:33] [Server thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] 
+Apply Modifications for minecraft:the_nether
+    BCLib - Nether BiomeSource (34b2fe5b)
+        biomes     = 5
+        namespaces = minecraft
+        seed       = 0
+        height     = 128
+        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[22:41:33] [Server thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] 
+Apply Modifications for minecraft:the_end
+    BCLib - The End  BiomeSource (206d8d8d)
+        biomes     = 24
+        namespaces = minecraft, betterend
+        seed       = 0
+        height     = 128
+        deciders   = 1
+        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[22:41:33] [Server thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] 
+Apply Modifications for minecraft:overworld
+    FixedBiomeSource (1e418484)
+        biomes     = 1
+        namespaces = minecraft
+[22:41:33] [Server thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] World Dimensions: 
+ - skyblock:the_abyss_fabric: 
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@3b6cf2c2 
+     FixedBiomeSource (3f5371f0)
+         biomes     = 1
+         namespaces = minecraft
+ - skyblock:unknown: 
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@6b2224bd 
+     FixedBiomeSource (7e6e7bcb)
+         biomes     = 1
+         namespaces = minecraft
+ - minecraft:the_nether: 
+     BCLib - Chunk Generator (4f5a04d8) 
+     BCLib - Nether BiomeSource (34b2fe5b)
+         biomes     = 5
+         namespaces = minecraft
+         seed       = 0
+         height     = 128
+         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+ - minecraft:the_end: 
+     BCLib - Chunk Generator (13fc0513) 
+     BCLib - The End  BiomeSource (206d8d8d)
+         biomes     = 24
+         namespaces = minecraft, betterend
+         seed       = 0
+         height     = 128
+         deciders   = 1
+         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+ - minecraft:overworld: 
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@643c5c3d 
+     FixedBiomeSource (1e418484)
+         biomes     = 1
+         namespaces = minecraft
+[22:41:33] [Server thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Merged 19 additional Surface Rules for 
+BCLib - The End  BiomeSource (206d8d8d)
+    biomes     = 24
+    namespaces = minecraft, betterend
+    seed       = 0
+    height     = 128
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 20
+[22:41:33] [Server thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (34b2fe5b)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> new seed = -1724501481613006087
+[22:41:33] [Server thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - Nether BiomeSource (34b2fe5b)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = -1724501481613006087
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> Map Update
+[22:41:33] [Server thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (206d8d8d)
+    biomes     = 24
+    namespaces = minecraft, betterend
+    seed       = 0
+    height     = 128
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> new seed = -1724501481613006087
+[22:41:33] [Server thread/DEBUG] (org.betterx.worlds.together.util.Logger) [bclib] 
+BCLib - The End  BiomeSource (206d8d8d)
+    biomes     = 24
+    namespaces = minecraft, betterend
+    seed       = -1724501481613006087
+    height     = 128
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> Map Update
+[22:41:33] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Preparing start region for dimension minecraft:overworld
+[22:41:36] [Render thread/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[22:41:36] [Render thread/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[22:41:36] [Render thread/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[22:41:36] [Render thread/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[22:41:36] [Render thread/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[22:41:36] [Render thread/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[22:41:36] [Render thread/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[22:41:36] [Render thread/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 23%
+[22:41:37] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Changing view distance to 18, from 10
+[22:41:37] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Changing simulation distance to 14, from 0
+[22:41:38] [Render thread/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 92%
+[22:41:38] [Render thread/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 92%
+[22:41:38] [Render thread/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 92%
+[22:41:38] [Render thread/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 92%
+[22:41:38] [Render thread/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Time elapsed: 5895 ms
+[22:41:39] [Netty Local Client IO #1/DEBUG] (ClientLoginNetworkAddon for Client) Handling inbound login response with id 0 and channel with name fabric:custom_ingredient_sync
+[22:41:39] [Netty Server IO #3/DEBUG] (ServerLoginNetworkAddon for local:E:5b151fe0) Handling inbound login query with id 0
+[22:41:39] [Netty Local Client IO #1/DEBUG] (ClientLoginNetworkAddon for Client) Handling inbound login response with id 1 and channel with name fabric-networking-api-v1:early_registration
+[22:41:39] [Netty Local Client IO #1/DEBUG] (fabric-networking-api-v1) Received accepted channels from the server
+[22:41:39] [Netty Local Client IO #1/DEBUG] (fabric-networking-api-v1) Sent accepted channels to the server
+[22:41:39] [Netty Server IO #3/DEBUG] (ServerLoginNetworkAddon for local:E:5b151fe0) Handling inbound login query with id 1
+[22:41:39] [Netty Server IO #3/DEBUG] (fabric-networking-api-v1) Received accepted channels from the client for "com.mojang.authlib.GameProfile@1ae17b3d[id=84e9e4f6-df8d-3fc9-b2c7-0eb3b9531d39,name=Player818,properties={},legacy=false] (local:E:5b151fe0)"
+[22:41:39] [Server thread/DEBUG] (fabric-networking-api-v1) Sent accepted channels to the client for "com.mojang.authlib.GameProfile@1ae17b3d[id=84e9e4f6-df8d-3fc9-b2c7-0eb3b9531d39,name=Player818,properties={},legacy=false] (local:E:5b151fe0)"
+[22:41:39] [Server thread/INFO] (net.minecraft.server.PlayerManager) Player818[local:E:5b151fe0] logged in with entity id 207 at (2.1218389614403916, 288.9174955324026, -3.801023576197397)
+[22:41:39] [Server thread/WARN] (org.betterx.worlds.together.util.Logger) [bclib] Server changed!
+[22:41:39] [Netty Local Client IO #1/DEBUG] (ClientPlayNetworkAddon for Player818) Handling inbound packet from channel with name "minecraft:register"
+[22:41:39] [Netty Local Client IO #1/DEBUG] (ClientPlayNetworkAddon for Player818) Handling inbound packet from channel with name "minecraft:brand"
+[22:41:39] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Player818 joined the game
+[22:41:39] [Render thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Sending hello to server.
+[22:41:39] [Netty Server IO #3/DEBUG] (ServerPlayNetworkAddon for Player818) Handling inbound packet from channel with name "minecraft:brand"
+[22:41:39] [Netty Server IO #3/DEBUG] (ServerPlayNetworkAddon for Player818) Handling inbound packet from channel with name "bclib:hello_server"
+[22:41:39] [Render thread/DEBUG] (ClientPlayNetworkAddon for Player818) Handling inbound packet from channel with name "minecraft:brand"
+[22:41:39] [Netty Server IO #3/DEBUG] (ServerPlayNetworkAddon for Player818) Handling inbound packet from channel with name "minecraft:register"
+[22:41:39] [Render thread/INFO] (net.minecraft.advancement.AdvancementManager) Loaded 55 advancements
+[22:41:40] [Server thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Received Hello from Client. (server=2.3.1, client=2.3.1)
+[22:41:40] [Server thread/INFO] (org.betterx.worlds.together.util.Logger) [bclib] Auto-Sync is disabled for Singleplayer worlds.
+[22:41:40] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Saving and pausing game...
+[22:41:40] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:41:40] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[22:41:40] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[22:41:40] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:41:40] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Starting registry save
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:command_argument_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:item
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_entity_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:custom_stat
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/foliage_placer_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:stat_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/material_rule
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:attribute
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:position_source_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:height_provider_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/density_function_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:fluid
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_condition_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_pool_element
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:activity
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_serializer
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:frog_variant
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:banner_pattern
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:instrument
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:decorated_pot_patterns
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature_size_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:point_of_interest_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Preserving previously modded registry: minecraft:mob_effect
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Saving registry: minecraft:mob_effect
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_pool_entry_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_state_provider_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/chunk_generator
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:float_provider_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:chunk_status
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:enchantment
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_function_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_processor
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_score_provider_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/tree_decorator_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:schedule
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/material_condition
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:entity_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_profession
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:potion
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:int_provider_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:cat_variant
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:pos_rule_test
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_placement
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_nbt_provider_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: worlds_together:worldgen/betterx/biome_codec
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:menu
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/trunk_placer_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/placement_modifier_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/carver
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_number_provider_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_piece
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sound_event
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:particle_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:game_event
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/biome_source
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/root_placer_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:painting_variant
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_predicate_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sensor_type
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:rule_test
+[22:41:40] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:memory_module_type
+[22:41:46] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Saving and pausing game...
+[22:41:46] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:41:46] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[22:41:46] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[22:41:47] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:41:47] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Starting registry save
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:command_argument_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:item
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_entity_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:custom_stat
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/foliage_placer_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:stat_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/material_rule
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:attribute
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:position_source_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:height_provider_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/density_function_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:fluid
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_condition_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_pool_element
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:activity
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_serializer
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:frog_variant
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:banner_pattern
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:instrument
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:decorated_pot_patterns
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature_size_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:point_of_interest_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Preserving previously modded registry: minecraft:mob_effect
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Saving registry: minecraft:mob_effect
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_pool_entry_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/block_state_provider_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/chunk_generator
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:float_provider_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:chunk_status
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:enchantment
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_function_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_processor
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_score_provider_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/tree_decorator_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:schedule
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/material_condition
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:entity_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_profession
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:potion
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:recipe_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:int_provider_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/feature
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:cat_variant
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:pos_rule_test
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_placement
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_nbt_provider_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: worlds_together:worldgen/betterx/biome_codec
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:menu
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/trunk_placer_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/placement_modifier_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/carver
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:loot_number_provider_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/structure_piece
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sound_event
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:particle_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:game_event
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/biome_source
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:worldgen/root_placer_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:villager_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:painting_variant
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block_predicate_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:block
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:sensor_type
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:rule_test
+[22:41:47] [Server thread/DEBUG] (FabricRegistrySync) Not saving registry: minecraft:memory_module_type

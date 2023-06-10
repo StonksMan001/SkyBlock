@@ -1,5 +1,5 @@
-[20:43:50] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
-[20:43:50] [main/INFO] (FabricLoader) Loading 50 mods:
+[22:38:52] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
+[22:38:52] [main/INFO] (FabricLoader) Loading 50 mods:
 	- bclib 2.3.1
 	- betterend 3.2.0
 	- continuity 3.0.0-beta.2+1.19.3
@@ -50,11 +50,11 @@
 	- java 17
 	- minecraft 1.19.4
 	- skyblock 1.0
-[20:43:51] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/totha/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[20:43:51] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[20:43:51] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[20:43:51] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[20:43:53] [main/ERROR] (FabricLoader/Mixin) bclib.mixins.client.json:AnvilScreenMixin from mod bclib: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
+[22:38:53] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/totha/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[22:38:53] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[22:38:53] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[22:38:53] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[22:38:54] [main/ERROR] (FabricLoader/Mixin) bclib.mixins.client.json:AnvilScreenMixin from mod bclib: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
 org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
 	at org.spongepowered.asm.mixin.transformer.InterfaceInfo.renameMethod(InterfaceInfo.java:188) ~[sponge-mixin-0.12.4+mixin.0.8.5.jar:0.12.4+mixin.0.8.5]
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepareSoftImplements(MixinPreProcessorStandard.java:234) ~[sponge-mixin-0.12.4+mixin.0.8.5.jar:0.12.4+mixin.0.8.5]
@@ -79,9 +79,9 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: method
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[20:44:11] [Datafixer Bootstrap/INFO] (Minecraft) 180 Datafixer optimizations took 1237 milliseconds
-[20:44:17] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:44:17] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[22:39:04] [Datafixer Bootstrap/INFO] (Minecraft) 180 Datafixer optimizations took 282 milliseconds
+[22:39:07] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:39:08] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-3.18.38.jar:?]
@@ -99,148 +99,164 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.18.38.jar:?]
 	... 9 more
-[20:44:18] [Render thread/INFO] (Minecraft) Setting user: Player823
-[20:44:18] [Render thread/INFO] (skyblock) Registering ModBlocks for skyblock
-[20:44:19] [Render thread/INFO] (Logger) [bclib] Added Config betterend.entities to auto sync (file hash)
-[20:44:19] [Render thread/INFO] (Logger) [bclib] Added Config betterend.blocks to auto sync (file hash)
-[20:44:19] [Render thread/INFO] (Logger) [bclib] Added Config betterend.items to auto sync (file hash)
-[20:44:19] [Render thread/INFO] (Logger) [bclib] Added Config betterend.biomes to auto sync (file hash)
-[20:44:19] [Render thread/INFO] (Logger) [bclib] Added Config betterend.recipes to auto sync (file hash)
-[20:44:19] [Render thread/INFO] (Logger) [bclib] Added Config betterend.enchantments to auto sync (file hash)
-[20:44:38] [Render thread/INFO] (Logger) [bclib] Added Config bclib.generator to auto sync (file hash)
-[20:44:38] [Render thread/INFO] (Logger) [bclib] Added Config bclib.main to auto sync (content diff)
-[20:44:38] [Render thread/INFO] (Logger) [bclib] Added Config bclib.biomes to auto sync (file hash)
-[20:44:39] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[20:44:40] [Thread-2/INFO] (Logger) [bclib] Received Version Info for minecraft=1.19.4, loader=fabric
-[20:44:40] [Thread-2/INFO] (Logger) [bclib]  - bclib:2.3.2 (update available)
-[20:44:40] [Thread-2/INFO] (Logger) [bclib]  - betterend:3.2.1 (update available)
-[20:44:40] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[20:44:43] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, Fabric Mods (Fabric Mining Level API (v1), SkyBlock, Fabric Message API (v1), Fabric Screen API (v1), Fabric Convention Tags, Fabric Rendering Data Attachment (v1), Fabric Resource Loader (v0), Fabric Screen Handler API (v1), Fabric Entity Events (v1), Fabric Particles (v1), Geckolib, Fabric Sound API (v1), Fabric Game Rule API (v1), Fabric Events Interaction (v0), Fabric Block API (v1), Fabric Game Test API (v1), Fabric Item Group API (v1), Fabric Content Registries (v0), Fabric API Base, Fabric Renderer API (v1), Fabric API, Fabric Command API (v2), Fabric Key Binding API (v1), Fabric Renderer - Indigo, Fabric Registry Sync (v0), Fabric Loader, Fabric Networking API (v1), Fabric Lifecycle Events (v1), Fabric BlockRenderLayer Registration (v1), Fabric Transfer API (v1), Fabric Loot API (v2), Fabric API Lookup API (v1), Continuity, Better End, Fabric Object Builder API (v1), BCLib, Fabric Crash Report Info (v1), Fabric Models (v0), Fabric Dimensions API (v1), Fabric Biome API (v1), Fabric Transitive Access Wideners (v1), Fabric Rendering (v1), Fabric Rendering Fluids (v1), Fabric Item API (v1), Fabric Client Tags, Fabric Resource Conditions API (v1), Fabric Recipe API (v1), Fabric Data Generation API (v1)), high_contrast ()
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 11 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 12 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 5 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 6 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 7 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 3 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 8 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 9 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 7 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 2 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 3 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'Fabric Mods'
-[20:44:44] [Worker-Main-2/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'Fabric Mods'
-[20:44:45] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
-[20:44:45] [Worker-Main-3/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack fabric:betterend: betterend:textures/item/thermal fungus.png, ignoring
-[20:44:47] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[20:44:53] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'skyblock:steam_dumpling_raw#inventory' referenced from: skyblock:steam_dumpling_raw#inventory: java.io.FileNotFoundException: skyblock:models/item/steam_dumpling_raw.json
-[20:44:57] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#axis=z:
+[22:39:08] [Render thread/INFO] (Minecraft) Setting user: Player818
+[22:39:09] [Render thread/INFO] (skyblock) Registering ModBlocks for skyblock
+[22:39:09] [Render thread/INFO] (Logger) [bclib] Added Config bclib.generator to auto sync (file hash)
+[22:39:09] [Render thread/INFO] (Logger) [bclib] Added Config bclib.main to auto sync (content diff)
+[22:39:09] [Render thread/INFO] (Logger) [bclib] Added Config bclib.biomes to auto sync (file hash)
+[22:39:09] [Render thread/INFO] (Logger) [bclib] Added Config betterend.entities to auto sync (file hash)
+[22:39:09] [Render thread/INFO] (Logger) [bclib] Added Config betterend.blocks to auto sync (file hash)
+[22:39:09] [Render thread/INFO] (Logger) [bclib] Added Config betterend.items to auto sync (file hash)
+[22:39:09] [Render thread/INFO] (Logger) [bclib] Added Config betterend.biomes to auto sync (file hash)
+[22:39:09] [Render thread/INFO] (Logger) [bclib] Added Config betterend.recipes to auto sync (file hash)
+[22:39:09] [Render thread/INFO] (Logger) [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[22:39:22] [Thread-2/INFO] (Logger) [bclib] Received Version Info for minecraft=1.19.4, loader=fabric
+[22:39:22] [Thread-2/INFO] (Logger) [bclib]  - bclib:2.3.2 (update available)
+[22:39:22] [Thread-2/INFO] (Logger) [bclib]  - betterend:3.2.1 (update available)
+[22:39:23] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[22:39:23] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[22:39:25] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, Fabric Mods (Fabric Rendering Data Attachment (v1), Fabric Item Group API (v1), Fabric Client Tags, Fabric Loader, Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Data Generation API (v1), Fabric Block API (v1), Fabric Game Test API (v1), Fabric Rendering Fluids (v1), Fabric BlockRenderLayer Registration (v1), Fabric Command API (v2), Fabric Screen Handler API (v1), Fabric Item API (v1), Fabric Crash Report Info (v1), Fabric API Lookup API (v1), Fabric Recipe API (v1), Fabric Message API (v1), SkyBlock, BCLib, Fabric Convention Tags, Fabric Content Registries (v0), Fabric Screen API (v1), Fabric Resource Conditions API (v1), Geckolib, Fabric Transfer API (v1), Fabric Biome API (v1), Fabric API, Better End, Continuity, Fabric Entity Events (v1), Fabric Mining Level API (v1), Fabric API Base, Fabric Models (v0), Fabric Dimensions API (v1), Fabric Lifecycle Events (v1), Fabric Renderer API (v1), Fabric Game Rule API (v1), Fabric Networking API (v1), Fabric Rendering (v1), Fabric Events Interaction (v0), Fabric Key Binding API (v1), Fabric Renderer - Indigo, Fabric Registry Sync (v0), Fabric Sound API (v1), Fabric Loot API (v2), Fabric Resource Loader (v0), Fabric Transitive Access Wideners (v1)), high_contrast ()
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 11 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 12 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 5 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 6 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 7 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 3 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 8 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 9 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 7 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 2 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 3 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'Fabric Mods'
+[22:39:25] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'Fabric Mods'
+[22:39:26] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
+[22:39:26] [Worker-Main-1/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack fabric:betterend: betterend:textures/item/thermal fungus.png, ignoring
+[22:39:26] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[22:39:30] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'skyblock:steam_dumpling_raw#inventory' referenced from: skyblock:steam_dumpling_raw#inventory: java.io.FileNotFoundException: skyblock:models/item/steam_dumpling_raw.json
+[22:39:32] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#axis=z:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[20:44:57] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#axis=y:
+[22:39:32] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#axis=y:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[20:44:57] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#axis=z:
+[22:39:32] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#axis=z:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[20:44:57] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#inventory:
+[22:39:32] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#inventory:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[20:44:57] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#axis=y:
+[22:39:32] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#axis=y:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[20:44:57] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#axis=x:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[20:44:57] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#axis=x:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[20:44:57] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#inventory:
+[22:39:32] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#axis=x:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[20:44:57] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brushing
-[20:44:57] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brush_sand_completed
-[20:44:57] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[20:44:57] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[20:44:57] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:music.overworld.cherry_grove
-[20:44:57] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Hangszórók (3 - USB PnP Audio Device)
-[20:44:57] [Render thread/INFO] (Minecraft) Sound engine started
-[20:44:57] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[20:44:58] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[20:44:58] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[20:44:59] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[20:44:59] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[20:44:59] [Render thread/INFO] (Minecraft) Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[20:44:59] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/chest.png-atlas
-[20:44:59] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[20:44:59] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[20:45:00] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[20:45:00] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[20:45:00] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[20:45:00] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[20:49:13] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
-[20:49:16] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
-[20:49:16] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
-[20:49:16] [Render thread/ERROR] (Logger) [worlds_together] No valid registry found!
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Running Pre Patchers on D:\SONY\MODS\SkyBlock-1.19.3\run\saves\New World (1)\.
-[20:49:16] [Render thread/INFO] (Logger) [DataFixerAPI] Everything up to date
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_aurora_cave
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_end_cave
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_smaragdant_cave
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:jade_cave
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_aurora_cave
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_smaragdant_cave
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:megalake_grove
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:neon_oasis
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:painted_mountains
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (7af1786)
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[20:49:16] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[20:49:16] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[20:49:16] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (48519bd2)
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (4d66aaa8)
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[20:49:16] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[20:49:16] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[20:49:16] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (66c51198)
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (45feb65e)
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[20:49:16] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[20:49:16] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[20:49:16] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (2f372ec4)
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (11ae9187)
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[20:49:16] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[20:49:16] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[20:49:16] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (273baa4e)
-[20:49:16] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[20:49:17] [Render thread/WARN] (Logger) [bclib] No valid BCLBiome Registry available!
-[20:49:17] [Render thread/WARN] (Logger) [bclib] No valid Biome Registry available!
-[20:49:17] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
-[20:49:17] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (cdc8bb5)
-[20:49:17] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[20:49:17] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (4a6c56a5)
-[20:49:17] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[20:49:17] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[20:49:17] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[20:49:17] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[20:49:18] [Worker-Main-5/ERROR] (Minecraft) Couldn't read tag list minecraft:trim_materials from minecraft:tags/items/trim_materials.json in data pack Fabric Mods
+[22:39:32] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#axis=x:
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
+[22:39:32] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#inventory:
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
+[22:39:32] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brushing
+[22:39:32] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brush_sand_completed
+[22:39:32] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[22:39:32] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22:39:32] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:music.overworld.cherry_grove
+[22:39:32] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Hangszórók (3 - USB PnP Audio Device)
+[22:39:32] [Render thread/INFO] (Minecraft) Sound engine started
+[22:39:32] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[22:39:33] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[22:39:33] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22:39:33] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22:39:33] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22:39:33] [Render thread/INFO] (Minecraft) Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22:39:33] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/chest.png-atlas
+[22:39:33] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22:39:33] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22:39:33] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[22:39:33] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[22:39:33] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22:39:33] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22:39:38] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
+[22:39:43] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
+[22:39:43] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
+[22:39:43] [Render thread/ERROR] (Logger) [worlds_together] No valid registry found!
+[22:39:43] [Render thread/INFO] (Logger) [bclib] Running Pre Patchers on D:\SONY\MODS\SkyBlock-1.19.3\run\saves\New World (1)\.
+[22:39:43] [Render thread/INFO] (Logger) [DataFixerAPI] Everything up to date
+[22:39:43] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_aurora_cave
+[22:39:43] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_end_cave
+[22:39:43] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_smaragdant_cave
+[22:39:43] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:jade_cave
+[22:39:43] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_aurora_cave
+[22:39:43] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_smaragdant_cave
+[22:39:43] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:megalake_grove
+[22:39:43] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:neon_oasis
+[22:39:43] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:painted_mountains
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (2f462cc5)
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[22:39:44] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[22:39:44] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[22:39:44] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (63f711ea)
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (7f16533)
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[22:39:44] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[22:39:44] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[22:39:44] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (685b8239)
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (742093c9)
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[22:39:44] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[22:39:44] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[22:39:44] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (7f018fd5)
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (2f372ec4)
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[22:39:44] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[22:39:44] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[22:39:44] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (6039694d)
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[22:39:44] [Render thread/WARN] (Logger) [bclib] No valid BCLBiome Registry available!
+[22:39:44] [Render thread/WARN] (Logger) [bclib] No valid Biome Registry available!
+[22:39:44] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (78b92255)
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (313e93ed)
+[22:39:44] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[22:39:44] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[22:39:44] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[22:39:44] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[22:39:45] [Worker-Main-1/ERROR] (Minecraft) Not a JSON object: null
+[22:39:45] [Worker-Main-1/ERROR] (Minecraft) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack Fabric Mods
+java.lang.RuntimeException: Not a JSON object: null
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.6.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.6.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.6.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.loadTags(TagGroupLoader.java:56) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.load(TagGroupLoader.java:163) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at net.minecraft.registry.tag.TagManagerLoader.method_33181(TagManagerLoader.java:65) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[22:39:45] [Worker-Main-3/ERROR] (Minecraft) Couldn't read tag list minecraft:trim_materials from minecraft:tags/items/trim_materials.json in data pack Fabric Mods
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 6 column 2 path $.values[3]
 	at com.google.gson.internal.Streams.parse(Streams.java:61) ~[gson-2.10.jar:?]
 	at com.google.gson.JsonParser.parseReader(JsonParser.java:102) ~[gson-2.10.jar:?]
@@ -263,624 +279,125 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
 	at com.google.gson.internal.Streams.parse(Streams.java:49) ~[gson-2.10.jar:?]
 	... 12 more
-[20:49:18] [Worker-Main-7/ERROR] (Minecraft) Not a JSON object: null
-[20:49:18] [Worker-Main-7/ERROR] (Minecraft) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack Fabric Mods
-java.lang.RuntimeException: Not a JSON object: null
-	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.6.jar:?]
-	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.6.jar:?]
-	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.6.jar:?]
-	at net.minecraft.registry.tag.TagGroupLoader.loadTags(TagGroupLoader.java:56) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
-	at net.minecraft.registry.tag.TagGroupLoader.load(TagGroupLoader.java:163) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
-	at net.minecraft.registry.tag.TagManagerLoader.method_33181(TagManagerLoader.java:65) ~[minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[20:49:18] [Render thread/INFO] (Logger) [bclib] Disabling Recipe: bclib:test_star
-[20:49:18] [Render thread/INFO] (Minecraft) Loaded 10 recipes
-[20:49:19] [Render thread/INFO] (Minecraft) Loaded 1959 advancements
-[20:49:21] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (2d15c1be)
-[20:49:21] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (4e1a512f)
-[20:49:21] [Render thread/INFO] (Logger) [bclib] Enforcing Correct Generator for minecraft:the_end.
-[20:49:21] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (4e1a512f)
-[20:49:21] [Render thread/INFO] (Logger) [bclib] Enforcing Correct Generator for minecraft:the_nether.
-[20:49:21] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (2d15c1be)
-[20:49:21] [Render thread/INFO] (Logger) [worlds_together] Loading originally configured Dimensions in World.
-[20:49:21] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 88 new biomes in 3.530 ms
-[20:49:21] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.4
-[20:49:21] [Server thread/INFO] (Minecraft) Generating keypair
-[20:49:21] [Server thread/INFO] (Logger) [bclib] 
+[22:39:45] [Render thread/INFO] (Logger) [bclib] Disabling Recipe: bclib:test_star
+[22:39:45] [Render thread/INFO] (Minecraft) Loaded 10 recipes
+[22:39:45] [Render thread/INFO] (Minecraft) Loaded 1959 advancements
+[22:39:47] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (1f62890a)
+[22:39:47] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (79bb055e)
+[22:39:47] [Render thread/INFO] (Logger) [bclib] Enforcing Correct Generator for minecraft:the_nether.
+[22:39:47] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (1f62890a)
+[22:39:47] [Render thread/INFO] (Logger) [bclib] Enforcing Correct Generator for minecraft:the_end.
+[22:39:47] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (79bb055e)
+[22:39:47] [Render thread/INFO] (Logger) [worlds_together] Loading originally configured Dimensions in World.
+[22:39:47] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 88 new biomes in 2.354 ms
+[22:39:47] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.4
+[22:39:47] [Server thread/INFO] (Minecraft) Generating keypair
+[22:39:47] [Server thread/INFO] (Logger) [bclib] 
 Apply Modifications for skyblock:the_abyss_fabric
-    FixedBiomeSource (14cc36e7)
+    FixedBiomeSource (40b58090)
         biomes     = 1
         namespaces = minecraft
-[20:49:21] [Server thread/INFO] (Logger) [bclib] 
-Apply Modifications for minecraft:the_end
-    BCLib - The End  BiomeSource (4e1a512f)
-        biomes     = 24
-        namespaces = minecraft, betterend
-        seed       = 0
-        height     = 128
-        deciders   = 1
-        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
-[20:49:21] [Server thread/INFO] (Logger) [bclib] 
+[22:39:47] [Server thread/INFO] (Logger) [bclib] 
+Apply Modifications for skyblock:unknown
+    FixedBiomeSource (77fa0852)
+        biomes     = 1
+        namespaces = minecraft
+[22:39:47] [Server thread/INFO] (Logger) [bclib] 
 Apply Modifications for minecraft:the_nether
-    BCLib - Nether BiomeSource (2d15c1be)
+    BCLib - Nether BiomeSource (1f62890a)
         biomes     = 5
         namespaces = minecraft
         seed       = 0
         height     = 128
         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
-[20:49:21] [Server thread/INFO] (Logger) [bclib] 
+[22:39:47] [Server thread/INFO] (Logger) [bclib] 
+Apply Modifications for minecraft:the_end
+    BCLib - The End  BiomeSource (79bb055e)
+        biomes     = 24
+        namespaces = betterend, minecraft
+        seed       = 0
+        height     = 128
+        deciders   = 1
+        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[22:39:47] [Server thread/INFO] (Logger) [bclib] 
 Apply Modifications for minecraft:overworld
-    FixedBiomeSource (48a08b0f)
+    FixedBiomeSource (2fc19a8e)
         biomes     = 1
         namespaces = minecraft
-[20:49:21] [Server thread/INFO] (Logger) [bclib] 
-Apply Modifications for skyblock:unknown
-    FixedBiomeSource (57cbc5d8)
-        biomes     = 1
-        namespaces = minecraft
-[20:49:21] [Server thread/INFO] (Logger) [bclib] World Dimensions: 
+[22:39:47] [Server thread/INFO] (Logger) [bclib] World Dimensions: 
  - skyblock:the_abyss_fabric: 
-     net.minecraft.world.gen.chunk.FlatChunkGenerator@376bdfa5 
-     FixedBiomeSource (14cc36e7)
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@4afe7188 
+     FixedBiomeSource (40b58090)
          biomes     = 1
          namespaces = minecraft
- - minecraft:the_end: 
-     BCLib - Chunk Generator (1bd4a2e0) 
-     BCLib - The End  BiomeSource (4e1a512f)
-         biomes     = 24
-         namespaces = minecraft, betterend
-         seed       = 0
-         height     = 128
-         deciders   = 1
-         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+ - skyblock:unknown: 
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@427d278f 
+     FixedBiomeSource (77fa0852)
+         biomes     = 1
+         namespaces = minecraft
  - minecraft:the_nether: 
-     BCLib - Chunk Generator (129fafc) 
-     BCLib - Nether BiomeSource (2d15c1be)
+     BCLib - Chunk Generator (2530c7fc) 
+     BCLib - Nether BiomeSource (1f62890a)
          biomes     = 5
          namespaces = minecraft
          seed       = 0
          height     = 128
          config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+ - minecraft:the_end: 
+     BCLib - Chunk Generator (8c23f46) 
+     BCLib - The End  BiomeSource (79bb055e)
+         biomes     = 24
+         namespaces = betterend, minecraft
+         seed       = 0
+         height     = 128
+         deciders   = 1
+         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
  - minecraft:overworld: 
-     net.minecraft.world.gen.chunk.FlatChunkGenerator@6936b9bc 
-     FixedBiomeSource (48a08b0f)
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@2bcd1d23 
+     FixedBiomeSource (2fc19a8e)
          biomes     = 1
          namespaces = minecraft
- - skyblock:unknown: 
-     net.minecraft.world.gen.chunk.FlatChunkGenerator@197b3bc7 
-     FixedBiomeSource (57cbc5d8)
-         biomes     = 1
-         namespaces = minecraft
-[20:49:21] [Server thread/INFO] (Logger) [bclib] Merged 19 additional Surface Rules for 
-BCLib - The End  BiomeSource (4e1a512f)
+[22:39:47] [Server thread/INFO] (Logger) [bclib] Merged 19 additional Surface Rules for 
+BCLib - The End  BiomeSource (79bb055e)
     biomes     = 24
-    namespaces = minecraft, betterend
+    namespaces = betterend, minecraft
     seed       = 0
     height     = 128
     deciders   = 1
     config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 20
-[20:49:22] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[20:49:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[20:49:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[20:49:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[20:49:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[20:49:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[20:49:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[20:49:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[20:49:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[20:49:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[20:49:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[20:49:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[20:49:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[20:49:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 19%
-[20:49:29] [Render thread/INFO] (Minecraft) Time elapsed: 7246 ms
-[20:49:29] [Server thread/INFO] (Minecraft) Changing view distance to 18, from 10
-[20:49:29] [Server thread/INFO] (Minecraft) Changing simulation distance to 14, from 0
-[20:49:32] [Server thread/INFO] (Minecraft) Player823[local:E:831e318b] logged in with entity id 67 at (11.699999988079071, 288.9709764672429, -3.63884631731891)
-[20:49:33] [Server thread/INFO] (Minecraft) Player823 joined the game
-[20:49:33] [Render thread/INFO] (Logger) [bclib] Sending hello to server.
-[20:49:34] [Render thread/INFO] (Minecraft) Loaded 16 advancements
-[20:49:35] [Server thread/INFO] (Logger) [bclib] Received Hello from Client. (server=2.3.1, client=2.3.1)
-[20:49:35] [Server thread/INFO] (Logger) [bclib] Auto-Sync is disabled for Singleplayer worlds.
-[20:49:35] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2312ms or 46 ticks behind
-[20:49:36] [Render thread/INFO] (Minecraft) Loaded 24 advancements
-[20:49:37] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[20:49:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:49:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[20:49:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:49:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:49:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[20:49:48] [Render thread/INFO] (Minecraft) Loaded 27 advancements
-[20:50:04] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Spectator Mode]
-[20:50:04] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Spectator Mode
-[20:50:18] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Creative Mode]
-[20:50:18] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
-[20:50:58] [Render thread/INFO] (Minecraft) Loaded 33 advancements
-[20:51:05] [Render thread/INFO] (Minecraft) Loaded 38 advancements
-[20:51:13] [Server thread/INFO] (Minecraft) Player823 has made the advancement [Stone Age]
-[20:51:13] [Render thread/INFO] (Minecraft) [System] [CHAT] Player823 has made the advancement [Stone Age]
-[20:51:13] [Render thread/INFO] (Minecraft) Loaded 57 advancements
-[20:51:22] [Render thread/INFO] (Minecraft) Loaded 67 advancements
-[20:51:54] [Render thread/INFO] (Minecraft) Loaded 84 advancements
-[20:52:29] [Render thread/INFO] (Minecraft) Loaded 93 advancements
-[20:52:35] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[20:52:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:52:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[20:52:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:52:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:52:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[20:56:50] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[20:56:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:56:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[20:56:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:56:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:56:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[20:57:12] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[20:57:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:57:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[20:57:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:57:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:57:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[20:58:27] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[20:58:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:58:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[20:58:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:58:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:58:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[20:59:06] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[20:59:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:59:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[20:59:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:59:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:59:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[20:59:17] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[20:59:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:59:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[20:59:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:59:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:59:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[20:59:42] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[20:59:42] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:59:42] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[20:59:42] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:59:42] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:59:42] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[20:59:51] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[20:59:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:59:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[20:59:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:59:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:59:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:00:13] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:00:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:00:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:00:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:00:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:00:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:01:29] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:01:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:01:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:01:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:01:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:01:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:02:23] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:02:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:02:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:02:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:02:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:02:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:03:05] [Render thread/INFO] (Minecraft) Loaded 94 advancements
-[21:03:18] [Server thread/INFO] (Minecraft) [Player823: Removed every effect from Player823]
-[21:03:18] [Render thread/INFO] (Minecraft) [System] [CHAT] Removed every effect from Player823
-[21:04:37] [Render thread/INFO] (Minecraft) Loaded 101 advancements
-[21:05:29] [Render thread/INFO] (Minecraft) Loaded 102 advancements
-[21:06:05] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:06:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:06:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:06:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:06:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:06:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:07:39] [Server thread/INFO] (Minecraft) [Player823: Played sound skyblock:creeper_woods to Player823]
-[21:07:39] [Render thread/INFO] (Minecraft) [System] [CHAT] Played sound skyblock:creeper_woods to Player823
-[21:08:25] [Server thread/INFO] (Minecraft) [Player823: Applied effect Night Vision to Player823]
-[21:08:25] [Render thread/INFO] (Minecraft) [System] [CHAT] Applied effect Night Vision to Player823
-[21:09:24] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:09:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:09:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:09:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:09:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:09:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:13:11] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:13:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:13:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:13:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:13:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:13:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:14:34] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:14:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:14:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:14:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:14:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:14:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:15:30] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:15:30] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:15:30] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:15:30] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:15:30] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:15:30] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:16:14] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:16:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:16:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:16:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:16:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:16:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:17:48] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:17:48] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:17:48] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:17:48] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:17:48] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:17:48] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:17:56] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:17:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:17:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:17:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:17:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:17:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:18:03] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Spectator Mode]
-[21:18:03] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Spectator Mode
-[21:18:15] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Creative Mode]
-[21:18:15] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
-[21:21:31] [Server thread/INFO] (Minecraft) [Player823: Removed every effect from Player823]
-[21:21:31] [Render thread/INFO] (Minecraft) [System] [CHAT] Removed every effect from Player823
-[21:22:25] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Spectator Mode]
-[21:22:25] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Spectator Mode
-[21:23:02] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Creative Mode]
-[21:23:02] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
-[21:23:13] [Server thread/INFO] (Minecraft) [Player823: Applied effect Night Vision to Player823]
-[21:23:13] [Render thread/INFO] (Minecraft) [System] [CHAT] Applied effect Night Vision to Player823
-[21:23:16] [Server thread/INFO] (Minecraft) [Player823: Played sound skyblock:creeper_woods to Player823]
-[21:23:16] [Render thread/INFO] (Minecraft) [System] [CHAT] Played sound skyblock:creeper_woods to Player823
-[21:23:38] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:23:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:23:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:23:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:23:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:23:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:23:59] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Spectator Mode]
-[21:23:59] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Spectator Mode
-[21:24:10] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Creative Mode]
-[21:24:10] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
-[21:25:16] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:25:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:25:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:25:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:25:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:25:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:25:33] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:25:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:25:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:25:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:25:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:25:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:27:41] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:27:41] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:27:41] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:27:41] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:27:41] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:27:41] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:30:45] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:30:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:30:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:30:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:30:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:30:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:32:01] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:32:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:32:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:32:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:32:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:32:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:32:35] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:32:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:32:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:32:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:32:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:32:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:33:03] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:33:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:33:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:33:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:33:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:33:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:33:17] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:33:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:33:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:33:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:33:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:33:17] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:33:51] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:33:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:33:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:33:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:33:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:33:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:35:05] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:35:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:35:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:35:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:35:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:35:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:35:13] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:35:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:35:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:35:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:35:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:35:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:35:19] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:35:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:35:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:35:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:35:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:35:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:35:50] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
-[21:35:50] [Render thread/INFO] (Minecraft) [System] [CHAT] ... 1 287 -16<--[HERE]
-[21:36:00] [Server thread/INFO] (Minecraft) [Player823: Successfully filled 99 block(s)]
-[21:36:00] [Render thread/INFO] (Minecraft) [System] [CHAT] Successfully filled 99 block(s)
-[21:36:04] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:36:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:36:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:36:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:36:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:36:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:36:20] [Render thread/INFO] (Minecraft) Loaded 103 advancements
-[21:36:29] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:36:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:36:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:36:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:36:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:36:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:36:56] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:36:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:36:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:36:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:36:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:36:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:37:10] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
-[21:37:10] [Render thread/INFO] (Minecraft) [System] [CHAT] ...l 1 291 -8<--[HERE]
-[21:37:21] [Server thread/INFO] (Minecraft) [Player823: Successfully filled 99 block(s)]
-[21:37:21] [Render thread/INFO] (Minecraft) [System] [CHAT] Successfully filled 99 block(s)
-[21:37:25] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:37:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:37:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:37:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:37:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:37:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:38:23] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:38:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:38:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:38:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:38:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:38:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:41:37] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:41:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:41:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:41:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:41:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:41:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:45:52] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:45:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:45:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:45:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:45:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:45:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:45:59] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
-[21:45:59] [Render thread/INFO] (Minecraft) [System] [CHAT] ... 1 292 -16<--[HERE]
-[21:46:10] [Server thread/INFO] (Minecraft) [Player823: Successfully filled 99 block(s)]
-[21:46:10] [Render thread/INFO] (Minecraft) [System] [CHAT] Successfully filled 99 block(s)
-[21:46:21] [Server thread/INFO] (Minecraft) [Player823: Successfully filled 99 block(s)]
-[21:46:21] [Render thread/INFO] (Minecraft) [System] [CHAT] Successfully filled 99 block(s)
-[21:47:37] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:47:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:47:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:47:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:47:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:47:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:49:53] [Server thread/INFO] (Minecraft) [Player823: Removed every effect from Player823]
-[21:49:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Removed every effect from Player823
-[21:51:15] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Spectator Mode]
-[21:51:15] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Spectator Mode
-[21:51:53] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Creative Mode]
-[21:51:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
-[21:51:59] [Server thread/INFO] (Minecraft) [Player823: Applied effect Night Vision to Player823]
-[21:51:59] [Render thread/INFO] (Minecraft) [System] [CHAT] Applied effect Night Vision to Player823
-[21:52:05] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Spectator Mode]
-[21:52:05] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Spectator Mode
-[21:52:27] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Creative Mode]
-[21:52:27] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
-[21:52:27] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:52:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:52:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:52:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:52:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:52:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:52:47] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:52:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:52:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:52:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:52:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:52:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:56:12] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:56:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:56:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:56:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:56:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:56:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:57:19] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Spectator Mode]
-[21:57:19] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Spectator Mode
-[21:57:24] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Creative Mode]
-[21:57:24] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
-[21:58:11] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:58:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:58:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[21:58:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:58:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:58:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[21:58:37] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
-[21:58:37] [Render thread/INFO] (Minecraft) [System] [CHAT] ...-11 291 -8<--[HERE]
-[21:58:42] [Server thread/INFO] (Minecraft) [Player823: Successfully filled 49 block(s)]
-[21:58:42] [Render thread/INFO] (Minecraft) [System] [CHAT] Successfully filled 49 block(s)
-[21:59:11] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
-[21:59:11] [Render thread/INFO] (Minecraft) [System] [CHAT] ...-17 292 -2<--[HERE]
-[21:59:22] [Server thread/INFO] (Minecraft) [Player823: Successfully filled 49 block(s)]
-[21:59:22] [Render thread/INFO] (Minecraft) [System] [CHAT] Successfully filled 49 block(s)
-[21:59:33] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
-[21:59:33] [Render thread/INFO] (Minecraft) [System] [CHAT] ...-11 287 -8<--[HERE]
-[21:59:41] [Server thread/INFO] (Minecraft) [Player823: Successfully filled 49 block(s)]
-[21:59:41] [Render thread/INFO] (Minecraft) [System] [CHAT] Successfully filled 49 block(s)
-[21:59:53] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Spectator Mode]
-[21:59:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Spectator Mode
-[21:59:58] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Creative Mode]
-[21:59:58] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
-[22:02:36] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:02:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:02:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:02:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:02:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:02:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:03:24] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:03:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:03:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:03:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:03:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:03:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:03:35] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
-[22:03:35] [Render thread/INFO] (Minecraft) [System] [CHAT] ... -9 291 -4<--[HERE]
-[22:03:44] [Server thread/INFO] (Minecraft) [Player823: Successfully filled 27 block(s)]
-[22:03:44] [Render thread/INFO] (Minecraft) [System] [CHAT] Successfully filled 27 block(s)
-[22:04:40] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:07:59] [Render thread/INFO] (Minecraft) Loaded 118 advancements
-[22:10:36] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:10:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:10:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:10:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:10:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:10:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:13:10] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:13:10] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:13:10] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:13:10] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:13:10] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:13:10] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:19:26] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
-[22:19:26] [Render thread/INFO] (Minecraft) [System] [CHAT] ...11 292 -12<--[HERE]
-[22:19:35] [Server thread/INFO] (Minecraft) [Player823: Successfully filled 35 block(s)]
-[22:19:35] [Render thread/INFO] (Minecraft) [System] [CHAT] Successfully filled 35 block(s)
-[22:20:52] [Render thread/INFO] (Minecraft) Loaded 122 advancements
-[22:23:51] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:23:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:23:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:23:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:23:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:23:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:25:14] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:25:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:25:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:25:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:25:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:25:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:26:38] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:26:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:26:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:26:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:26:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:26:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:29:02] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:29:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:29:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:29:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:29:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:29:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:29:50] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:29:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:29:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:29:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:29:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:29:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:30:38] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:30:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:30:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:30:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:30:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:30:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:32:02] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Spectator Mode]
-[22:32:02] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Spectator Mode
-[22:32:08] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Creative Mode]
-[22:32:08] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
-[22:32:20] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:32:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:32:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:32:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:32:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:32:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:32:40] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:32:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:32:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:32:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:32:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:32:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:33:04] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:33:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:33:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:33:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:33:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:33:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:33:45] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Spectator Mode]
-[22:33:45] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Spectator Mode
-[22:33:49] [Server thread/INFO] (Minecraft) [Player823: Removed every effect from Player823]
-[22:33:49] [Render thread/INFO] (Minecraft) [System] [CHAT] Removed every effect from Player823
-[22:34:01] [Server thread/INFO] (Minecraft) [Player823: Summoned new entity.skyblock.wisp]
-[22:34:01] [Render thread/INFO] (Minecraft) [System] [CHAT] Summoned new entity.skyblock.wisp
-[22:34:42] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:34:42] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:34:42] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:34:42] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:34:42] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:34:42] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:36:49] [Server thread/INFO] (Minecraft) [Player823: Set own game mode to Creative Mode]
-[22:36:49] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
-[22:36:56] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:36:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:36:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:36:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:36:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:36:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:36:57] [Server thread/INFO] (Minecraft) Player823 lost connection: Disconnected
-[22:36:57] [Server thread/INFO] (Minecraft) Player823 left the game
-[22:36:57] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[22:36:57] [Server thread/INFO] (Minecraft) Stopping server
-[22:36:57] [Server thread/INFO] (Minecraft) Saving players
-[22:36:57] [Server thread/INFO] (Minecraft) Saving worlds
-[22:36:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:36:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[22:36:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:36:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:36:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[22:37:00] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[22:37:00] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (the_abyss_fabric): All chunks are saved
-[22:37:00] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:37:00] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:37:00] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (unknown): All chunks are saved
-[22:37:00] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[22:37:01] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
-[22:37:03] [Render thread/INFO] (Minecraft) Stopping!
+[22:39:47] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[22:39:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:39:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:39:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:39:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:39:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:39:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:39:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:39:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:39:52] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:39:52] [Render thread/INFO] (Minecraft) Preparing spawn area: 29%
+[22:39:52] [Render thread/INFO] (Minecraft) Time elapsed: 5007 ms
+[22:39:53] [Server thread/INFO] (Minecraft) Changing view distance to 18, from 10
+[22:39:53] [Server thread/INFO] (Minecraft) Changing simulation distance to 14, from 0
+[22:39:54] [Server thread/WARN] (Minecraft) Ignored advancement 'betterend:recipes/decorations/end_stone_smelter' in progress file D:\SONY\MODS\SkyBlock-1.19.3\run\saves\New World (1)\advancements\84e9e4f6-df8d-3fc9-b2c7-0eb3b9531d39.json - it doesn't exist anymore?
+[22:39:54] [Server thread/INFO] (Minecraft) Player818[local:E:5d571c26] logged in with entity id 67 at (-12.858674795763058, 288.9174955324026, -12.270926819045897)
+[22:39:54] [Server thread/INFO] (Minecraft) Player818 joined the game
+[22:39:55] [Render thread/INFO] (Logger) [bclib] Sending hello to server.
+[22:39:55] [Server thread/INFO] (Logger) [bclib] Received Hello from Client. (server=2.3.1, client=2.3.1)
+[22:39:55] [Server thread/INFO] (Logger) [bclib] Auto-Sync is disabled for Singleplayer worlds.
+[22:39:55] [Render thread/INFO] (Minecraft) Loaded 55 advancements
+[22:40:05] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:40:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:40:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[22:40:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[22:40:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:40:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:40:06] [Server thread/INFO] (Minecraft) Player818 lost connection: Disconnected
+[22:40:06] [Server thread/INFO] (Minecraft) Player818 left the game
+[22:40:06] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[22:40:06] [Server thread/INFO] (Minecraft) Stopping server
+[22:40:06] [Server thread/INFO] (Minecraft) Saving players
+[22:40:06] [Server thread/INFO] (Minecraft) Saving worlds
+[22:40:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:40:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[22:40:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown

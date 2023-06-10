@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/abyss_jungle_slab"
+    },
+    "type=double": {
+      "model": "skyblock:block/abyss_jungle_planks"
+    },
+    "type=top": {
+      "model": "skyblock:block/abyss_jungle_slab_top"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "asset_name": "fyberite",
+  "description": {
+    "color": "#11A036",
+    "translate": "trim_material.skyblock.fyberite"
+  },
+  "ingredient": "skyblock:fyberite_ingot",
+  "item_model_index": 0.7
+}

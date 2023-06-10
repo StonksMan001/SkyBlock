@@ -7,6 +7,7 @@ import net.me.skyblock.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import software.bernie.shadowed.eliotlash.mclib.math.functions.classic.Mod;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -69,6 +70,11 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.CALLERY_LOG).log(ModBlocks.CALLERY_LOG).wood(ModBlocks.CALLERY_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_CALLERY_LOG).log(ModBlocks.STRIPPED_CALLERY_LOG).wood(ModBlocks.STRIPPED_CALLERY_WOOD);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CALLERY_PLANKS);
+
+        blockStateModelGenerator.registerLog(ModBlocks.STICK_BLOCK).log(ModBlocks.STICK_BLOCK);
+        blockStateModelGenerator.registerLog(ModBlocks.SUGAR_CANE_BLOCK).log(ModBlocks.SUGAR_CANE_BLOCK);
+        blockStateModelGenerator.registerLog(ModBlocks.CACTUS_BLOCK).log(ModBlocks.CACTUS_BLOCK);
+        blockStateModelGenerator.registerLog(ModBlocks.CHORUS_FRUIT_BLOCK).log(ModBlocks.CHORUS_FRUIT_BLOCK);
     }
 
     @Override

@@ -1,0 +1,12 @@
+{
+  "asset_name": "enderite",
+  "description": {
+    "color": "#6EECD2",
+    "translate": "trim_material.skyblock.enderite"
+  },
+  "ingredient": "skyblock:enderite_ingot",
+  "item_model_index": 0.8,
+  "override_armor_materials": {
+    "diamond": "enderite_darker"
+  }
+}

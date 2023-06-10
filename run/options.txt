@@ -1,5 +1,5 @@
 version:3337
-autoJump:true
+autoJump:false
 operatorItemsTab:true
 autoSuggestions:true
 chatColors:true
@@ -31,8 +31,8 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:true
 gamma:0.0
-renderDistance:12
-simulationDistance:5
+renderDistance:18
+simulationDistance:14
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
@@ -45,7 +45,7 @@ renderClouds:"true"
 resourcePacks:["vanilla","fabric","high_contrast"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:hu_hu
+lang:en_gb
 soundDevice:""
 chatVisibility:0
 chatOpacity:1.0
@@ -123,7 +123,7 @@ soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
-soundCategory_hostile:1.0
+soundCategory_hostile:0.10211267605633803
 soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0

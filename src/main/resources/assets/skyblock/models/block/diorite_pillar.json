@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyblock:block/diorite_pillar_top",
+    "side": "skyblock:block/diorite_pillar"
+  }
+}

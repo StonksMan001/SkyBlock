@@ -4,9 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.me.skyblock.SkyBlock;
-import net.me.skyblock.block.custom.AbyssVegetation;
-import net.me.skyblock.block.custom.BlueVigilantGrass;
-import net.me.skyblock.block.custom.SuspiciousCoarseDirt;
+import net.me.skyblock.block.custom.*;
 import net.me.skyblock.item.ModItemGroup;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -68,7 +66,7 @@ public class ModBlocks {
     public static final Block ABYSS_STONE = registerBlock("abyss_stone",
             new Block(FabricBlockSettings.copy(Blocks.STONE).strength(1.5f, 6.0f).requiresTool()), ModItemGroup.ABYSS);
     public static final Block ABYSS_STONE_OG = registerBlock("abyss_stone_og",
-            new Block(FabricBlockSettings.copy(Blocks.STONE).strength(1.5f, 6.0f).requiresTool()), ModItemGroup.ABYSS);
+            new Block(FabricBlockSettings.copy(Blocks.STONE).strength(1.5f, 6.0f).requiresTool()), ModItemGroup.UNUSED);
     public static final Block ABYSS_DIAMOND_ORE = registerBlock("abyss_diamond_ore",
             new Block(FabricBlockSettings.copy(Blocks.DIAMOND_ORE).strength(3.0f, 3.0f).requiresTool()), ModItemGroup.ABYSS);
     public static final Block ABYSS_EMERALD_ORE = registerBlock("abyss_emerald_ore",
@@ -116,6 +114,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.ABYSS);
     public static final Block ABYSS_JUNGLE_PLANKS = registerBlock("abyss_jungle_planks",
             new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block ABYSS_JUNGLE_STAIRS = registerBlock("abyss_jungle_stairs",
+            new ModStairsBlock(ModBlocks.ABYSS_JUNGLE_PLANKS.getDefaultState(), FabricBlockSettings.copy(Blocks.WARPED_STAIRS).strength(2.0f)), ModItemGroup.ABYSS);
+    public static final Block ABYSS_JUNGLE_SLAB = registerBlock("abyss_jungle_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.WARPED_SLAB).strength(2.0f)), ModItemGroup.ABYSS);
 
 
 
@@ -302,6 +304,10 @@ public class ModBlocks {
     //MCD
     public static final Block MOSSIER_COBBLESTONE = registerBlock("mossier_cobblestone",
             new Block(FabricBlockSettings.copy(Blocks.COBBLESTONE).strength(2.0F, 6.0F)), ModItemGroup.MCD);
+    public static final Block MOSSIER_OAK_PLANKS = registerBlock("mossier_oak_planks",
+            new MossyOakPlanks(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f, 3.0f)), ModItemGroup.MCD);
+    public static final Block MOSSIER_SPRUCE_PLANKS = registerBlock("mossier_spruce_planks",
+            new Block(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS).strength(2.0f, 3.0f)), ModItemGroup.MCD);
     //MCD
     //PEARFECTION
     public static final Block CALLERY_LEAVES = registerBlock("callery_leaves",
@@ -342,6 +348,20 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WART_BLOCK).strength(1.0f)), ModItemGroup.QUARK);
     public static final Block NETHER_WART_SACK = registerBlock("nether_wart_sack",
             new Block(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WART_BLOCK).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block STICK_BLOCK = registerBlock("stick_block",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.BAMBOO_WOOD).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block SUGAR_CANE_BLOCK = registerBlock("sugar_cane_block",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.BAMBOO_WOOD).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block CACTUS_BLOCK = registerBlock("cactus_block",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WOOL).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block CHORUS_FRUIT_BLOCK = registerBlock("chorus_fruit_block",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WOOD).strength(1.0f)), ModItemGroup.QUARK);
+    public static final Block ANDESITE_PILLAR = registerBlock("andesite_pillar",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.ANDESITE).sounds(BlockSoundGroup.STONE).strength(1.5f, 6.0f)), ModItemGroup.QUARK);
+    public static final Block DIORITE_PILLAR = registerBlock("diorite_pillar",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.DIORITE).sounds(BlockSoundGroup.STONE).strength(1.5f, 6.0f)), ModItemGroup.QUARK);
+    public static final Block GRANITE_PILLAR = registerBlock("granite_pillar",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.GRANITE).sounds(BlockSoundGroup.STONE).strength(1.5f, 6.0f)), ModItemGroup.QUARK);
     //QUARK
     private static Block registerBlockWithoutItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(SkyBlock.MOD_ID, name), block);

@@ -35,6 +35,7 @@ public class SkyBlockClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TESLA_FLOWER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CALLERY_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLOWERING_CALLERY_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CAVE_ROOTS, RenderLayer.getCutout());
 
         EntityRendererRegistry.register(ModEntities.WISP, WispRenderer::new);
     }

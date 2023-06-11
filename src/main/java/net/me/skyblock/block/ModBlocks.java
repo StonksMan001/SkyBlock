@@ -362,6 +362,8 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copy(Blocks.DIORITE).sounds(BlockSoundGroup.STONE).strength(1.5f, 6.0f)), ModItemGroup.QUARK);
     public static final Block GRANITE_PILLAR = registerBlock("granite_pillar",
             new PillarBlock(FabricBlockSettings.copy(Blocks.GRANITE).sounds(BlockSoundGroup.STONE).strength(1.5f, 6.0f)), ModItemGroup.QUARK);
+    public static final Block CAVE_ROOTS = registerBlock("cave_roots",
+            new VineBlock(FabricBlockSettings.of(Material.REPLACEABLE_PLANT).noCollision().ticksRandomly().strength(0.2f).sounds(BlockSoundGroup.VINE)), ModItemGroup.QUARK);
     //QUARK
     private static Block registerBlockWithoutItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(SkyBlock.MOD_ID, name), block);

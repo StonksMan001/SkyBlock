@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.me.skyblock.block.ModBlocks;
 import net.me.skyblock.client.render.ModRenderLayer;
 import net.me.skyblock.client.render.ModRenderPhase;
-import net.me.skyblock.client.render.item.ModItemRenderContext;
 import net.me.skyblock.client.render.item.ModItemRenderer;
 import net.me.skyblock.entity.ModEntities;
 import net.me.skyblock.entity.custom.WispEntity;
@@ -15,11 +14,7 @@ import net.me.skyblock.item.ModItemGroup;
 import net.me.skyblock.item.ModItems;
 import net.me.skyblock.painting.ModPaintings;
 import net.me.skyblock.world.dimension.ModDimensions;
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.RenderLayers;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
-import net.minecraft.registry.Registries;
-import net.minecraft.util.Identifier;
 import org.betterx.betterend.BetterEnd;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -39,7 +34,6 @@ public class SkyBlock implements ModInitializer {
 		ModRenderLayer.register();
 		ModRenderPhase.register();
 		ModItemRenderer.register();
-		ModItemRenderContext.register();
 		ModItem.register();
 		ModItem.register();
 

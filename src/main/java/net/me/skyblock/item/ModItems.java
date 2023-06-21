@@ -6,6 +6,7 @@ import net.me.skyblock.SkyBlock;
 import net.me.skyblock.block.ModBlocks;
 import net.me.skyblock.item.custom.ModArmorMaterials;
 import net.me.skyblock.item.custom.ModAxeItem;
+import net.me.skyblock.item.custom.ModBowItem;
 import net.me.skyblock.sound.ModSounds;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -97,62 +98,17 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item BOTTLE_OF_ANT_JAM = registerItem("bottle_of_ant_jam",
             new Item(new FabricItemSettings().recipeRemainder(Items.GLASS_BOTTLE)));
+    //MCD
+    public static final Item TWIN_BOW = registerItem("twin_bow",
+            new BowItem(new FabricItemSettings().maxDamage(384)));
+    //MCD
 
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(SkyBlock.MOD_ID, name), item);
     }
-
-    public static void addItemsToItemGroup() {
-        addToItemGroup(ModItemGroup.UNUSED, FYBERITE);
-        addToItemGroup(ModItemGroup.FYBERITE, MUSIC_DISC_WITHERSTORM);
-        addToItemGroup(ModItemGroup.FYBERITE, DISC_FRAGMENT_WITHERSTORM);
-        addToItemGroup(ModItemGroup.FYBERITE, ENDMERALD);
-        addToItemGroup(ModItemGroup.FYBERITE, ANT_BOTTLE);
-        addToItemGroup(ModItemGroup.FYBERITE, BOTTLE_OF_ANT_JAM);
-        addToItemGroup(ModItemGroup.UNUSED, SUGAR_POPPY_MIXTURE);
-        addToItemGroup(ModItemGroup.UNUSED, STEAM_DUMPLING_FRESH);
-        addToItemGroup(ModItemGroup.UNUSED, STEAM_DUMPLING);
-        addToItemGroup(ModItemGroup.UNUSED, STEAM_DUMPLING_WITH_MOLTEN_BUTTER);
-        addToItemGroup(ModItemGroup.UNUSED, STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE);
-        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_APPLE);
-        addToItemGroup(ModItemGroup.FYBERITE, ENCHANTED_ENDERITE_APPLE);
-
-        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_INGOT);
-        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_HELMET);
-        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_CHESTPLATE);
-        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_LEGGINGS);
-        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_BOOTS);
-        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_SWORD);
-        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_AXE);
-        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_PICKAXE);
-        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_HOE);
-        addToItemGroup(ModItemGroup.FYBERITE, ENDERITE_SHOVEL);
-
-        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_GEM);
-        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_HELMET);
-        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_CHESTPLATE);
-        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_LEGGINGS);
-        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_BOOTS);
-        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_SWORD);
-        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_AXE);
-        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_PICKAXE);
-        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_HOE);
-        addToItemGroup(ModItemGroup.ABYSS, ABERYTHE_SHOVEL);
-
-        addToItemGroup(ModItemGroup.FYBERITE, ENDER_STICK);
-        addToItemGroup(ModItemGroup.FYBERITE, MELTE_RESIDUES);
-        addToItemGroup(ModItemGroup.ABYSS, LORAN);
-        addToItemGroup(ModItemGroup.ABYSS, ABYSS_PORTAL_ACTIVATOR);
-    }
-
-    private static void addToItemGroup(ItemGroup group, Item item) {
-        ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
-    }
     public static void registerModItems () {
         SkyBlock.LOGGER.debug("Registering Mod Items for " + SkyBlock.MOD_ID);
-
-        addItemsToItemGroup();
     }
     protected static Item register(Block block, Item item) {
         return ModItems.register(Registries.BLOCK.getId(block), item);

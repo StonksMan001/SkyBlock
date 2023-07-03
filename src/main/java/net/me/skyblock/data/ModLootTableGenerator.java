@@ -6,6 +6,7 @@ import net.me.skyblock.block.ModBlocks;
 import net.me.skyblock.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import software.bernie.shadowed.eliotlash.mclib.math.functions.classic.Mod;
 
 public class ModLootTableGenerator extends FabricBlockLootTableProvider {
     public ModLootTableGenerator(FabricDataOutput dataOutput) {
@@ -42,5 +43,36 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STICK_BLOCK);
         addDrop(ModBlocks.CACTUS_BLOCK);
         addDrop(ModBlocks.CHORUS_FRUIT_BLOCK);
+
+        addDrop(ModBlocks.END_STAIRS);
+        addDrop(ModBlocks.END_SLAB);
+        addDrop(ModBlocks.BLUISHE_STAIRS);
+        addDrop(ModBlocks.BLUISHE_SLAB);
+        addDrop(ModBlocks.AZALEA_STAIRS);
+        addDrop(ModBlocks.AZALEA_SLAB);
+        addDrop(ModBlocks.ABYSS_JUNGLE_STAIRS);
+        addDrop(ModBlocks.ABYSS_JUNGLE_SLAB);
+        addDrop(ModBlocks.BLARU_STAIRS);
+        addDrop(ModBlocks.BLARU_SLAB);
+        addDrop(ModBlocks.FROZEN_STAIRS);
+        addDrop(ModBlocks.FROZEN_SLAB);
+        addDrop(ModBlocks.SLIMED_STAIRS);
+        addDrop(ModBlocks.SLIMED_SLAB);
+        addDrop(ModBlocks.VIGILANT_STAIRS);
+        addDrop(ModBlocks.VIGILANT_SLAB);
+        addDrop(ModBlocks.ABYSCULK_STAIRS);
+        addDrop(ModBlocks.ABYSCULK_SLAB);
+        addDrop(ModBlocks.BOG_SHROOM_STAIRS);
+        addDrop(ModBlocks.BOG_SHROOM_SLAB);
+        addDrop(ModBlocks.SAL_SHROOM_STAIRS);
+        addDrop(ModBlocks.SAL_SHROOM_SLAB);
+        addDrop(ModBlocks.CALLERY_STAIRS);
+        addDrop(ModBlocks.CALLERY_SLAB);
+        addDrop(ModBlocks.ANDESITE_PILLAR);
+        addDrop(ModBlocks.GRANITE_PILLAR);
+        addDrop(ModBlocks.DIORITE_PILLAR);
+
+        oreDrops(ModBlocks.MOSSIER_OAK_PLANKS, Blocks.OAK_PLANKS.asItem());
+        oreDrops(ModBlocks.MOSSIER_SPRUCE_PLANKS, Blocks.SPRUCE_PLANKS.asItem());
     }
 }

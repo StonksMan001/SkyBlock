@@ -77,19 +77,7 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/virid_jadestone_pedestal": {
-    "criteria": {
-      "has_virid_jadestone_slab": "2023-05-13 12:50:16 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
-    "criteria": {
-      "has_gold_ingot": "2023-05-13 12:50:16 +0200"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/golden_hammer": {
     "criteria": {
       "has_gold_ingot": "2023-05-13 12:50:16 +0200"
     },
@@ -113,19 +101,7 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/virid_jadestone_pillar": {
-    "criteria": {
-      "has_virid_jadestone_slab": "2023-05-13 12:50:16 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/golden_hoe": {
-    "criteria": {
-      "has_gold_ingot": "2023-05-13 12:50:16 +0200"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/gold_chandelier": {
     "criteria": {
       "has_gold_ingot": "2023-05-13 12:50:16 +0200"
     },
@@ -134,12 +110,6 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2023-05-13 12:50:16 +0200"
-    },
-    "done": true
-  },
-  "betterend:root": {
-    "criteria": {
-      "welcome": "2023-05-13 12:50:18 +0200"
     },
     "done": true
   },
@@ -287,12 +257,6 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/granite_pedestal": {
-    "criteria": {
-      "has_polished_granite_slab": "2023-06-21 11:31:49 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2023-06-21 11:31:49 +0200"
@@ -317,17 +281,29 @@
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_stonecutter": {
-    "criteria": {
-      "has_stone": "2023-06-21 11:31:49 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2023-06-21 11:31:49 +0200"
     },
     "done": true
   },
-  "DataVersion": 3337
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2023-07-03 18:57:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2023-07-03 18:56:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2023-07-03 18:56:31 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
 }

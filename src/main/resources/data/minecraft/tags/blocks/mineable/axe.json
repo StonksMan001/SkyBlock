@@ -88,6 +88,31 @@
     "skyblock:stick_block",
     "skyblock:sugar_cane_block",
     "skyblock:cactus_block",
-    "skyblock:chorus_fruit_block"
+    "skyblock:chorus_fruit_block",
+
+    "skyblock:end_stairs",
+    "skyblock:end_slab",
+    "skyblock:bluishe_stairs",
+    "skyblock:bluishe_slab",
+    "skyblock:azalea_stairs",
+    "skyblock:azalea_slab",
+    "skyblock:abyss_jungle_stairs",
+    "skyblock:abyss_jungle_slab",
+    "skyblock:blaru_stairs",
+    "skyblock:blaru_slab",
+    "skyblock:frozen_stairs",
+    "skyblock:frozen_slab",
+    "skyblock:slimed_stairs",
+    "skyblock:slimed_slab",
+    "skyblock:vigilant_stairs",
+    "skyblock:vigilant_slab",
+    "skyblock:abysculk_stairs",
+    "skyblock:abysculk_slab",
+    "skyblock:bog_shroom_stairs",
+    "skyblock:bog_shroom_slab",
+    "skyblock:sal_shroom_stairs",
+    "skyblock:sal_shroom_slab",
+    "skyblock:callery_stairs",
+    "skyblock:callery_slab"
   ]
 }

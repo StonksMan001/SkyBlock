@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/petrified_oak_slab"
+    },
+    "type=double": {
+      "model": "skyblock:block/petrified_oak_planks"
+    },
+    "type=top": {
+      "model": "skyblock:block/petrified_oak_slab_top"
+    }
+  }
+}

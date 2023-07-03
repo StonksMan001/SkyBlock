@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "skyblock:block/sal_shroom_planks",
+    "side": "skyblock:block/sal_shroom_planks",
+    "top": "skyblock:block/sal_shroom_planks"
+  }
+}

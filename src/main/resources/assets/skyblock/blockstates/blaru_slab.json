@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/blaru_slab"
+    },
+    "type=double": {
+      "model": "skyblock:block/blaru_planks"
+    },
+    "type=top": {
+      "model": "skyblock:block/blaru_slab_top"
+    }
+  }
+}

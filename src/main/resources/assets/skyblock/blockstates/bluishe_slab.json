@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/bluishe_slab"
+    },
+    "type=double": {
+      "model": "skyblock:block/bluishe_planks"
+    },
+    "type=top": {
+      "model": "skyblock:block/bluishe_slab_top"
+    }
+  }
+}

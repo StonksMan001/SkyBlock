@@ -1,4 +1,4 @@
-version:3337
+version:3465
 autoJump:false
 operatorItemsTab:true
 autoSuggestions:true
@@ -27,12 +27,12 @@ screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
-glintStrength:0.75
+glintStrength:1.0
 damageTiltStrength:1.0
 highContrast:true
 gamma:0.0
-renderDistance:18
-simulationDistance:14
+renderDistance:2
+simulationDistance:5
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
@@ -45,7 +45,7 @@ renderClouds:"true"
 resourcePacks:["vanilla","fabric","high_contrast"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:en_gb
+lang:hu_hu
 soundDevice:""
 chatVisibility:0
 chatOpacity:1.0

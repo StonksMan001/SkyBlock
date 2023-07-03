@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 
 public class ModPaintings {
     public static final PaintingVariant WITHERSTORM = registerPainting("witherstorm", new PaintingVariant(64,64));
+    public static final PaintingVariant BENI = registerPainting("beni", new PaintingVariant(64,64));
 
     private static PaintingVariant registerPainting(String name, PaintingVariant paintingVariant) {
         return Registry.register(Registries.PAINTING_VARIANT, new Identifier(SkyBlock.MOD_ID, name), paintingVariant);

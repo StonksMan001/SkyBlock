@@ -102,6 +102,8 @@ public class ModItems {
     public static final Item TWIN_BOW = registerItem("twin_bow",
             new BowItem(new FabricItemSettings().maxDamage(384)));
     //MCD
+    public static final Item LIGHTNING_SWORD = registerItem("lightning_sword",
+            new SwordItem(ModToolMaterials.BENIKARD, 2, -0.5f, new FabricItemSettings()));
 
 
     private static Item registerItem(String name, Item item) {

@@ -4,9 +4,6 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.me.skyblock.block.ModBlocks;
-import net.me.skyblock.client.render.ModRenderLayer;
-import net.me.skyblock.client.render.ModRenderPhase;
-import net.me.skyblock.client.render.item.ModItemRenderer;
 import net.me.skyblock.entity.ModEntities;
 import net.me.skyblock.entity.custom.WispEntity;
 import net.me.skyblock.item.ModItem;
@@ -15,15 +12,12 @@ import net.me.skyblock.item.ModItems;
 import net.me.skyblock.painting.ModPaintings;
 import net.me.skyblock.world.dimension.ModDimensions;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
-import org.betterx.betterend.BetterEnd;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class SkyBlock implements ModInitializer {
 	public static final String MOD_ID = "skyblock";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-
-	public static final EntityModelLayer WISP_MODEL = registerMain("wisp");
 	@Override
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
@@ -31,9 +25,6 @@ public class SkyBlock implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModDimensions.register();
 		ModPaintings.registerPaintings();
-		ModRenderLayer.register();
-		ModRenderPhase.register();
-		ModItemRenderer.register();
 		ModItem.register();
 		ModItem.register();
 
@@ -65,8 +56,5 @@ public class SkyBlock implements ModInitializer {
 
 		FabricDefaultAttributeRegistry.register(ModEntities.WISP, WispEntity.setAttributes());
 
-	}
-	private static EntityModelLayer registerMain(String id) {
-		return new EntityModelLayer(BetterEnd.makeID(id), "main");
 	}
 }

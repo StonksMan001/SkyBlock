@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "skyblock:block/bluishe_planks",
+    "side": "skyblock:block/bluishe_planks",
+    "top": "skyblock:block/bluishe_planks"
+  }
+}

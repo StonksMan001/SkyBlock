@@ -134,6 +134,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)));
     public static final Block BLARU_PLANKS = registerBlock("blaru_planks",
             new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)));
+    public static final Block BLARU_STAIRS = registerBlock("blaru_stairs",
+            new ModStairsBlock(ModBlocks.BLARU_PLANKS.getDefaultState(), FabricBlockSettings.copy(Blocks.WARPED_STAIRS).strength(2.0f)));
+    public static final Block BLARU_SLAB = registerBlock("blaru_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.WARPED_SLAB).strength(2.0f)));
 
 
     public static final Block FROZEN_LOG = registerBlock("frozen_log",
@@ -148,6 +152,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)));
     public static final Block FROZEN_PLANKS = registerBlock("frozen_planks",
             new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)));
+    public static final Block FROZEN_STAIRS = registerBlock("frozen_stairs",
+            new ModStairsBlock(ModBlocks.FROZEN_PLANKS.getDefaultState(), FabricBlockSettings.copy(Blocks.WARPED_STAIRS).strength(2.0f)));
+    public static final Block FROZEN_SLAB = registerBlock("frozen_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.WARPED_SLAB).strength(2.0f)));
 
 
     public static final Block SLIMED_LOG = registerBlock("slimed_log",
@@ -162,6 +170,10 @@ public class ModBlocks {
             new SlimeBlock(FabricBlockSettings.copy(Blocks.SLIME_BLOCK).strength(0.01f)));
     public static final Block SLIMED_PLANKS = registerBlock("slimed_planks",
             new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)));
+    public static final Block SLIMED_STAIRS = registerBlock("slimed_stairs",
+            new ModStairsBlock(ModBlocks.SLIMED_PLANKS.getDefaultState(), FabricBlockSettings.copy(Blocks.WARPED_STAIRS).strength(2.0f)));
+    public static final Block SLIMED_SLAB = registerBlock("slimed_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.WARPED_SLAB).strength(2.0f)));
 
 
 
@@ -177,6 +189,10 @@ public class ModBlocks {
             new LeavesBlock(FabricBlockSettings.copy(Blocks.BUBBLE_CORAL_BLOCK).strength(1.0f)));
     public static final Block VIGILANT_PLANKS = registerBlock("vigilant_planks",
             new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)));
+    public static final Block VIGILANT_STAIRS = registerBlock("vigilant_stairs",
+            new ModStairsBlock(ModBlocks.VIGILANT_PLANKS.getDefaultState(), FabricBlockSettings.copy(Blocks.WARPED_STAIRS).strength(2.0f)));
+    public static final Block VIGILANT_SLAB = registerBlock("vigilant_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.WARPED_SLAB).strength(2.0f)));
 
 
     public static final Block ABYSCULK_LOG = registerBlock("abysculk_log",
@@ -189,6 +205,10 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_HYPHAE).strength(2.0f)));
     public static final Block ABYSCULK_PLANKS = registerBlock("abysculk_planks",
             new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)));
+    public static final Block ABYSCULK_STAIRS = registerBlock("abysculk_stairs",
+            new ModStairsBlock(ModBlocks.ABYSCULK_PLANKS.getDefaultState(), FabricBlockSettings.copy(Blocks.WARPED_STAIRS).strength(2.0f)));
+    public static final Block ABYSCULK_SLAB = registerBlock("abysculk_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.WARPED_SLAB).strength(2.0f)));
 
 
 
@@ -204,6 +224,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.BRAIN_CORAL_BLOCK).luminance(state -> 10)));
     public static final Block BOG_SHROOM_PLANKS = registerBlock("bog_shroom_planks",
             new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)));
+    public static final Block BOG_SHROOM_STAIRS = registerBlock("bog_shroom_stairs",
+            new ModStairsBlock(ModBlocks.BOG_SHROOM_PLANKS.getDefaultState(), FabricBlockSettings.copy(Blocks.WARPED_STAIRS).strength(2.0f)));
+    public static final Block BOG_SHROOM_SLAB = registerBlock("bog_shroom_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.WARPED_SLAB).strength(2.0f)));
 
 
 
@@ -220,6 +244,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.BUBBLE_CORAL_BLOCK).luminance(state -> 10)));
     public static final Block SAL_SHROOM_PLANKS = registerBlock("sal_shroom_planks",
             new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)));
+    public static final Block SAL_SHROOM_STAIRS = registerBlock("sal_shroom_stairs",
+            new ModStairsBlock(ModBlocks.SAL_SHROOM_PLANKS.getDefaultState(), FabricBlockSettings.copy(Blocks.WARPED_STAIRS).strength(2.0f)));
+    public static final Block SAL_SHROOM_SLAB = registerBlock("sal_shroom_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.WARPED_SLAB).strength(2.0f)));
     //ABYSS
 
 
@@ -271,6 +299,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.SHROOMLIGHT).strength(1.0f)));
     public static final Block END_PLANKS = registerBlock("end_planks",
             new Block(FabricBlockSettings.copy(Blocks.CRIMSON_PLANKS).strength(2.0f)));
+    public static final Block END_STAIRS = registerBlock("end_stairs",
+            new ModStairsBlock(ModBlocks.END_PLANKS.getDefaultState(), FabricBlockSettings.copy(Blocks.WARPED_STAIRS).strength(2.0f)));
+    public static final Block END_SLAB = registerBlock("end_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.WARPED_SLAB).strength(2.0f)));
     //END TREE
     //BLUISHE TREE
     public static final Block BLUISHE_STEM = registerBlock("bluishe_stem",
@@ -287,6 +319,10 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_WARPED_HYPHAE).strength(2.0f)));
     public static final Block BLUISHE_PLANKS = registerBlock("bluishe_planks",
             new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS).strength(2.0f)));
+    public static final Block BLUISHE_STAIRS = registerBlock("bluishe_stairs",
+            new ModStairsBlock(ModBlocks.BLUISHE_PLANKS.getDefaultState(), FabricBlockSettings.copy(Blocks.WARPED_STAIRS).strength(2.0f)));
+    public static final Block BLUISHE_SLAB = registerBlock("bluishe_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.WARPED_SLAB).strength(2.0f)));
     //BLUISHE TREE
     //AZALEA TREE
     public static final Block AZALEA_LOG = registerBlock("azalea_log",
@@ -299,6 +335,10 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(2.0f)));
     public static final Block AZALEA_PLANKS = registerBlock("azalea_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f)));
+    public static final Block AZALEA_STAIRS = registerBlock("azalea_stairs",
+            new ModStairsBlock(ModBlocks.AZALEA_PLANKS.getDefaultState(), FabricBlockSettings.copy(Blocks.OAK_STAIRS).strength(2.0f)));
+    public static final Block AZALEA_SLAB = registerBlock("azalea_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.OAK_SLAB).strength(2.0f)));
     //AZALEA TREE
 
     //MCD
@@ -324,6 +364,10 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(2.0f)));
     public static final Block CALLERY_PLANKS = registerBlock("callery_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f)));
+    public static final Block CALLERY_STAIRS = registerBlock("callery_stairs",
+            new ModStairsBlock(ModBlocks.CALLERY_PLANKS.getDefaultState(), FabricBlockSettings.copy(Blocks.OAK_STAIRS).strength(2.0f)));
+    public static final Block CALLERY_SLAB = registerBlock("callery_slab",
+            new SlabBlock(FabricBlockSettings.copy(Blocks.OAK_SLAB).strength(2.0f)));
     //PEARFECTION
     //QUARK
     public static final Block APPLE_CRATE = registerBlock("apple_crate",

@@ -4,6 +4,7 @@
 package net.me.skyblock.item;
 
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 public class Loran
 extends ModItem {
@@ -12,7 +13,7 @@ extends ModItem {
     }
 
     @Override
-    public boolean hasRedGlint(ModItemStack stack) {
+    public boolean hasGlint(ItemStack stack) {
         return true;
     }
 }

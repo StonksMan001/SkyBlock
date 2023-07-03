@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "skyblock:block/slimed_planks",
+    "side": "skyblock:block/slimed_planks",
+    "top": "skyblock:block/slimed_planks"
+  }
+}

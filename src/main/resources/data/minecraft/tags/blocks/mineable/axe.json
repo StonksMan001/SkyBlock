@@ -1,11 +1,22 @@
 {
   "replace": false,
   "values": [
+    "skyblock:mossier_oak_planks",
+    "skyblock:mossier_spruce_planks",
+
     "skyblock:end_stem",
     "skyblock:end_hyphae",
     "skyblock:stripped_end_stem",
     "skyblock:stripped_end_hyphae",
     "skyblock:end_planks",
+
+    "skyblock:bluishe_stem",
+    "skyblock:bluishe_hyphae",
+    "skyblock:bluishe_light_stem",
+    "skyblock:bluishe_light_hyphae",
+    "skyblock:stripped_bluishe_stem",
+    "skyblock:stripped_bluishe_hyphae",
+    "skyblock:bluishe_planks",
 
     "skyblock:azalea_log",
     "skyblock:azalea_wood",
@@ -24,6 +35,8 @@
     "skyblock:stripped_abyss_jungle_log",
     "skyblock:stripped_abyss_jungle_wood",
     "skyblock:abyss_jungle_planks",
+    "skyblock:abyss_jungle_stairs",
+    "skyblock:abyss_jungle_slab",
 
     "skyblock:blaru_log",
     "skyblock:blaru_wood",
@@ -63,6 +76,18 @@
 
     "skyblock:abysculk_log",
     "skyblock:abysculk_wood",
-    "skyblock:abysculk_planks"
+    "skyblock:abysculk_planks",
+
+    "skyblock:apple_crate",
+    "skyblock:beetroot_crate",
+    "skyblock:carrot_crate",
+    "skyblock:potato_crate",
+    "skyblock:golden_apple_crate",
+    "skyblock:golden_carrot_crate",
+
+    "skyblock:stick_block",
+    "skyblock:sugar_cane_block",
+    "skyblock:cactus_block",
+    "skyblock:chorus_fruit_block"
   ]
 }

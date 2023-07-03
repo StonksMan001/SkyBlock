@@ -5,17 +5,29 @@
     },
     "done": true
   },
-  "betterend:root": {
-    "criteria": {
-      "welcome": "2023-05-14 16:21:33 +0200"
-    },
-    "done": true
-  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:plains": "2023-05-14 16:21:33 +0200"
     },
     "done": false
   },
-  "DataVersion": 3337
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-07-02 09:44:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2023-07-02 09:16:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2023-07-02 09:16:29 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
 }

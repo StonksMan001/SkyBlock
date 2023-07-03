@@ -7,13 +7,13 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Lazy;
-import org.betterx.betterend.registry.EndItems;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
     ENDERITE(MiningLevels.NETHERITE, 2236, 11.0f, 6.0f, 19, () -> Ingredient.ofItems(ModItems.ENDERITE_INGOT)),
+    BENIKARD(MiningLevels.NETHERITE, 2236, 11.0f, -0.5f, 15, () -> Ingredient.ofItems(Items.WATER_BUCKET)),
     ABERYTHE(MiningLevels.NETHERITE, 2100, 10.0f, 4.7f, 16, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));;
 
     private final int miningLevel;

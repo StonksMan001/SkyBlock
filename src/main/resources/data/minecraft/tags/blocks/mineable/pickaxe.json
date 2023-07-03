@@ -26,6 +26,10 @@
     "skyblock:abyss_glacerythe_ore",
     "skyblock:abyss_incorythe_ore",
     "skyblock:abyss_loran_ore",
-    "skyblock:mossier_cobblestone"
+    "skyblock:mossier_cobblestone",
+
+    "skyblock:andesite_pillar",
+    "skyblock:diorite_pillar",
+    "skyblock:granite_pillar"
   ]
 }

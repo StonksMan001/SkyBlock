@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.impl.client.rendering.EntityRendererRegistryImpl;
 import net.me.skyblock.block.ModBlocks;
-import net.me.skyblock.client.render.ModRenderLayer;
 import net.me.skyblock.entity.ModEntities;
 import net.me.skyblock.entity.client.WispRenderer;
 import net.minecraft.client.MinecraftClient;

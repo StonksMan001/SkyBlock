@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/callery_slab"
+    },
+    "type=double": {
+      "model": "skyblock:block/callery_planks"
+    },
+    "type=top": {
+      "model": "skyblock:block/callery_slab_top"
+    }
+  }
+}

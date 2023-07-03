@@ -9,7 +9,6 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Lazy;
 import net.minecraft.util.StringIdentifiable;
 import net.minecraft.util.Util;
-import org.betterx.betterend.registry.EndItems;
 
 import java.util.EnumMap;
 import java.util.function.Supplier;

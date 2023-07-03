@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "skyblock:block/callery_planks",
+    "side": "skyblock:block/callery_planks",
+    "top": "skyblock:block/callery_planks"
+  }
+}

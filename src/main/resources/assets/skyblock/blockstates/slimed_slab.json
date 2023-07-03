@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/slimed_slab"
+    },
+    "type=double": {
+      "model": "skyblock:block/slimed_planks"
+    },
+    "type=top": {
+      "model": "skyblock:block/slimed_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/sal_shroom_slab"
+    },
+    "type=double": {
+      "model": "skyblock:block/sal_shroom_planks"
+    },
+    "type=top": {
+      "model": "skyblock:block/sal_shroom_slab_top"
+    }
+  }
+}

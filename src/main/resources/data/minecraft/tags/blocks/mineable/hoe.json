@@ -16,6 +16,12 @@
     "skyblock:sal_shroom_leaves",
     "skyblock:callery_leaves",
     "skyblock:flowering_callery_leaves",
-    "skyblock:vigilant_leaves"
+    "skyblock:vigilant_leaves",
+
+    "skyblock:sweet_berry_sack",
+    "skyblock:glow_berry_sack",
+    "skyblock:cocoa_beans_sack",
+    "skyblock:gunpowder_sack",
+    "skyblock:nether_wart_sack"
   ]
 }

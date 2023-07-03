@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "skyblock:block/cactus_block_top",
+    "side": "skyblock:block/cactus_block"
+  }
+}

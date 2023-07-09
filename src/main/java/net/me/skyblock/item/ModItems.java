@@ -107,6 +107,20 @@ public class ModItems {
     public static final Item LIGHTNING_SWORD = registerItem("lightning_sword",
             new SwordItem(ModToolMaterials.BENIKARD, 2, -0.5f, new FabricItemSettings()));
 
+    //RAPIERS
+    public static final Item DIAMOND_RAPIER = registerItem("diamond_rapier",
+            new SwordItem(ToolMaterials.DIAMOND, 2, 3.4028235E38f, new FabricItemSettings()));
+    public static final Item GOLDEN_RAPIER = registerItem("golden_rapier",
+            new SwordItem(ToolMaterials.GOLD, 2, 3.4028235E38f, new FabricItemSettings()));
+    public static final Item IRON_RAPIER = registerItem("iron_rapier",
+            new SwordItem(ToolMaterials.IRON, 2, 3.4028235E38f, new FabricItemSettings()));
+    public static final Item NETHERITE_RAPIER = registerItem("netherite_rapier",
+            new SwordItem(ToolMaterials.NETHERITE, 2, 3.4028235E38f, new FabricItemSettings()));
+    public static final Item STONE_RAPIER = registerItem("stone_rapier",
+            new SwordItem(ToolMaterials.STONE, 2, 3.4028235E38f, new FabricItemSettings()));
+    public static final Item WOODEN_RAPIER = registerItem("wooden_rapier",
+            new SwordItem(ToolMaterials.WOOD, 2, 3.4028235E38f, new FabricItemSettings()));
+    //RAPIERS
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(SkyBlock.MOD_ID, name), item);

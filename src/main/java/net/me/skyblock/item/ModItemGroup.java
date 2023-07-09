@@ -74,6 +74,12 @@ public class ModItemGroup {
                 entries.add(ModItems.LONGBOW);
                 entries.add(ModItems.TWIN_BOW);
                 entries.add(ModItems.AUTO_CROSSBOW);
+                entries.add(ModItems.WOODEN_RAPIER);
+                entries.add(ModItems.STONE_RAPIER);
+                entries.add(ModItems.IRON_RAPIER);
+                entries.add(ModItems.GOLDEN_RAPIER);
+                entries.add(ModItems.DIAMOND_RAPIER);
+                entries.add(ModItems.NETHERITE_RAPIER);
                 entries.add(ModBlocks.MOSSIER_COBBLESTONE);
                 entries.add(ModBlocks.MOSSIER_OAK_PLANKS);
                 entries.add(ModBlocks.MOSSIER_SPRUCE_PLANKS);

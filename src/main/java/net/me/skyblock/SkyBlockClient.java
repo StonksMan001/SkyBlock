@@ -7,6 +7,7 @@ import net.fabricmc.fabric.impl.client.rendering.EntityRendererRegistryImpl;
 import net.me.skyblock.block.ModBlocks;
 import net.me.skyblock.entity.ModEntities;
 import net.me.skyblock.entity.client.WispRenderer;
+import net.me.skyblock.util.ModModelPredicateProvider;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.texture.TextureManager;
@@ -37,5 +38,6 @@ public class SkyBlockClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CAVE_ROOTS, RenderLayer.getCutout());
 
         EntityRendererRegistry.register(ModEntities.WISP, WispRenderer::new);
+        ModModelPredicateProvider.registerModModels();
     }
 }

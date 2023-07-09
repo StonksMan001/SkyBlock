@@ -1,9 +1,8 @@
-package net.me.skyblock.item;
+package net.me.skyblock.item.not_important_rn;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemStack;
 import net.me.skyblock.SkyBlock;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;

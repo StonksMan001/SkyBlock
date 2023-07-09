@@ -3,7 +3,7 @@
  */
 package net.me.skyblock.item;
 
-import net.minecraft.item.Item;
+import net.me.skyblock.item.not_important_rn.ModItem;
 import net.minecraft.item.ItemStack;
 
 public class Loran

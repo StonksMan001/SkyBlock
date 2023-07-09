@@ -1,7 +1,7 @@
 /*
  * Decompiled with CFR 0.2.0 (FabricMC d28b102d).
  */
-package net.me.skyblock.item.custom;
+package net.me.skyblock.item.custom_bow_and_crossbow;
 
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
@@ -19,13 +19,13 @@ import net.minecraft.world.World;
 
 import java.util.function.Predicate;
 
-public class ModBowItem
+public class TwinBowItem
 extends RangedWeaponItem
 implements Vanishable {
     public static final int TICKS_PER_SECOND = 20;
     public static final int RANGE = 15;
 
-    public ModBowItem(Settings settings) {
+    public TwinBowItem(Settings settings) {
         super(settings);
     }
 
@@ -46,7 +46,7 @@ implements Vanishable {
         if (itemStack.isEmpty()) {
             itemStack = new ItemStack(Items.ARROW);
         }
-        if ((double)(f = ModBowItem.getPullProgress(i = this.getMaxUseTime(stack) - remainingUseTicks)) < 0.1) {
+        if ((double)(f = TwinBowItem.getPullProgress(i = this.getMaxUseTime(stack) - remainingUseTicks)) < 0.1) {
             return;
         }
         boolean bl3 = bl2 = bl && itemStack.isOf(Items.ARROW);

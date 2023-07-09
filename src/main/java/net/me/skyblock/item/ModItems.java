@@ -1,16 +1,12 @@
 package net.me.skyblock.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.me.skyblock.SkyBlock;
-import net.me.skyblock.block.ModBlocks;
 import net.me.skyblock.item.custom.ModArmorMaterials;
 import net.me.skyblock.item.custom.ModAxeItem;
-import net.me.skyblock.item.custom.ModBowItem;
+import net.me.skyblock.item.custom_bow_and_crossbow.ShortBowItem;
 import net.me.skyblock.sound.ModSounds;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -99,8 +95,14 @@ public class ModItems {
     public static final Item BOTTLE_OF_ANT_JAM = registerItem("bottle_of_ant_jam",
             new Item(new FabricItemSettings().recipeRemainder(Items.GLASS_BOTTLE)));
     //MCD
+    public static final Item SHORTBOW = registerItem("shortbow",
+            new ShortBowItem(new FabricItemSettings().maxDamage(384)));
+    public static final Item LONGBOW = registerItem("longbow",
+            new ShortBowItem(new FabricItemSettings().maxDamage(384)));
     public static final Item TWIN_BOW = registerItem("twin_bow",
             new BowItem(new FabricItemSettings().maxDamage(384)));
+    public static final Item AUTO_CROSSBOW = registerItem("auto_crossbow",
+            new CrossbowItem(new FabricItemSettings().maxDamage(384)));
     //MCD
     public static final Item LIGHTNING_SWORD = registerItem("lightning_sword",
             new SwordItem(ModToolMaterials.BENIKARD, 2, -0.5f, new FabricItemSettings()));

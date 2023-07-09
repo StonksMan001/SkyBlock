@@ -29,12 +29,6 @@
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_cauldron": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-04-28 12:02:55 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2023-04-28 12:02:55 +0200"
@@ -50,24 +44,6 @@
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2023-04-28 12:02:55 +0200"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/iron_chandelier": {
-    "criteria": {
-      "has_680_iron_ingot": "2023-04-28 12:02:55 +0200"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_minecart": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-04-28 12:02:55 +0200"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_compass": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-04-28 12:02:55 +0200"
     },
     "done": true
   },
@@ -107,29 +83,11 @@
     },
     "done": true
   },
-  "betterend:recipes/decorations/iron_bulb_lantern": {
-    "criteria": {
-      "has_628_iron_ingot": "2023-04-28 12:02:55 +0200"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_hopper": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-04-28 12:02:55 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2023-04-28 12:02:55 +0200"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2023-04-28 12:02:57 +0200"
-    },
-    "done": false
   },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
@@ -155,12 +113,6 @@
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_bucket": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-04-28 12:02:55 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2023-04-28 12:02:55 +0200"
@@ -182,18 +134,6 @@
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_iron_ingot": "2023-04-28 12:02:55 +0200"
-    },
-    "done": true
-  },
-  "betterend:root": {
-    "criteria": {
-      "welcome": "2023-04-28 12:02:57 +0200"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_shield": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-04-28 12:02:55 +0200"
     },
     "done": true
   },
@@ -233,39 +173,9 @@
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_piston": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-04-28 12:02:55 +0200"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_smith_table": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-04-28 12:02:55 +0200"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_rail": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-04-28 12:02:55 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2023-04-28 12:02:55 +0200"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_stonecutter": {
-    "criteria": {
-      "has_tag_iron_ingots": "2023-04-28 12:02:55 +0200"
-    },
-    "done": true
-  },
-  "betterend:recipes/tools/iron_hammer": {
-    "criteria": {
-      "has_686_iron_ingot": "2023-04-28 12:02:55 +0200"
     },
     "done": true
   },
@@ -275,5 +185,149 @@
     },
     "done": true
   },
-  "DataVersion": 3218
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-04-28 12:02:57 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2023-07-09 10:04:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_wool": {
+    "criteria": {
+      "has_needed_dye": "2023-07-09 09:50:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2023-07-09 09:50:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2023-07-09 09:49:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_purple_dye": "2023-07-09 09:50:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-07-09 09:50:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_black_dye": "2023-07-09 09:50:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_candle": {
+    "criteria": {
+      "has_purple_dye": "2023-07-09 09:50:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2023-07-09 09:41:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-07-09 09:41:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2023-07-09 09:41:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_purple_dye": "2023-07-09 09:50:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2023-07-09 09:49:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2023-07-09 09:50:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2023-07-09 09:41:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2023-07-09 09:50:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2023-07-09 09:49:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2023-07-09 09:49:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2023-07-09 09:50:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-07-09 09:50:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2023-07-09 09:50:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_bed": {
+    "criteria": {
+      "has_needed_dye": "2023-07-09 09:50:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2023-07-09 09:41:25 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
 }

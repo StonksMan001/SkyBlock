@@ -70,7 +70,10 @@ public class ModItemGroup {
             }).build());
     public static ItemGroup MCD = Registry.register(Registries.ITEM_GROUP, new Identifier(SkyBlock.MOD_ID,"minecraft_dungeons"),
             FabricItemGroup.builder().displayName(Text.literal("Sky Block: Minecraft Dungeons (ilosemypotato)")).icon(() -> new ItemStack(ModItems.TWIN_BOW)).entries((displayContext, entries) -> {
+                entries.add(ModItems.SHORTBOW);
+                entries.add(ModItems.LONGBOW);
                 entries.add(ModItems.TWIN_BOW);
+                entries.add(ModItems.AUTO_CROSSBOW);
                 entries.add(ModBlocks.MOSSIER_COBBLESTONE);
                 entries.add(ModBlocks.MOSSIER_OAK_PLANKS);
                 entries.add(ModBlocks.MOSSIER_SPRUCE_PLANKS);

@@ -6,12 +6,11 @@ import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.me.skyblock.block.ModBlocks;
 import net.me.skyblock.entity.ModEntities;
 import net.me.skyblock.entity.custom.WispEntity;
-import net.me.skyblock.item.ModItem;
+import net.me.skyblock.item.not_important_rn.ModItem;
 import net.me.skyblock.item.ModItemGroup;
 import net.me.skyblock.item.ModItems;
 import net.me.skyblock.painting.ModPaintings;
 import net.me.skyblock.world.dimension.ModDimensions;
-import net.minecraft.client.render.entity.model.EntityModelLayer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

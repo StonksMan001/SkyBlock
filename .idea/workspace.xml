@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c61a3f88-07d8-4143-b43a-2c5200888c4d" name="Changes" comment="12 Új Feature (teljes changelog nemsokára discordon)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c61a3f88-07d8-4143-b43a-2c5200888c4d" name="Changes" comment="Publisher: version-1.0.0 [1.20.1]">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2023-07-03-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-03-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2023-07-03-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-03-2.log.gz" afterDir="false" />
@@ -13,7 +18,7 @@
       <change beforePath="$PROJECT_DIR$/run/logs/2023-07-03-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-03-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2023-07-03-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-03-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2023-07-03-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-03-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-03-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-03-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-03-7.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -21,8 +26,15 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/advancements/09444461-95e8-3d4c-b4c8-61c0297ca18f.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/09444461-95e8-3d4c-b4c8-61c0297ca18f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/advancements/de6c7baa-0bd3-34f4-81e0-2a85bbae7554.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/de6c7baa-0bd3-34f4-81e0-2a85bbae7554.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/advancements/24a251d3-c89c-39ba-8cae-1f7d4c0691c9.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/24a251d3-c89c-39ba-8cae-1f7d4c0691c9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/advancements/4805b7f8-997e-33ab-826d-ca981b97526b.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/4805b7f8-997e-33ab-826d-ca981b97526b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/advancements/4e1f5e28-f05f-3acf-ac65-db01d9d51f95.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/4e1f5e28-f05f-3acf-ac65-db01d9d51f95.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/advancements/79f8754e-14dd-38b7-8860-09cab9cfb920.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/79f8754e-14dd-38b7-8860-09cab9cfb920.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/advancements/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/advancements/b52d0c01-e908-3f05-9150-dcf0319ded3d.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/b52d0c01-e908-3f05-9150-dcf0319ded3d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/advancements/bd11acc2-8e1a-348b-89a6-a309159aa437.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/bd11acc2-8e1a-348b-89a6-a309159aa437.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/advancements/c262fde9-3bcd-3326-9294-f86ce09da0bb.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/c262fde9-3bcd-3326-9294-f86ce09da0bb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/advancements/ffc47c7c-81a1-3d8c-86bb-c720fcbf7d8f.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/ffc47c7c-81a1-3d8c-86bb-c720fcbf7d8f.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/data/random_sequences.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/skyblock/the_abyss_fabric/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/skyblock/the_abyss_fabric/data/raids.dat" afterDir="false" />
@@ -33,25 +45,52 @@
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/09444461-95e8-3d4c-b4c8-61c0297ca18f.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/09444461-95e8-3d4c-b4c8-61c0297ca18f.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/09444461-95e8-3d4c-b4c8-61c0297ca18f.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/09444461-95e8-3d4c-b4c8-61c0297ca18f.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/de6c7baa-0bd3-34f4-81e0-2a85bbae7554.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/de6c7baa-0bd3-34f4-81e0-2a85bbae7554.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/de6c7baa-0bd3-34f4-81e0-2a85bbae7554.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/de6c7baa-0bd3-34f4-81e0-2a85bbae7554.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/24a251d3-c89c-39ba-8cae-1f7d4c0691c9.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/24a251d3-c89c-39ba-8cae-1f7d4c0691c9.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/24a251d3-c89c-39ba-8cae-1f7d4c0691c9.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/24a251d3-c89c-39ba-8cae-1f7d4c0691c9.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/4805b7f8-997e-33ab-826d-ca981b97526b.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/4805b7f8-997e-33ab-826d-ca981b97526b.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/4805b7f8-997e-33ab-826d-ca981b97526b.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/4805b7f8-997e-33ab-826d-ca981b97526b.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/4e1f5e28-f05f-3acf-ac65-db01d9d51f95.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/4e1f5e28-f05f-3acf-ac65-db01d9d51f95.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/4e1f5e28-f05f-3acf-ac65-db01d9d51f95.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/4e1f5e28-f05f-3acf-ac65-db01d9d51f95.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/79f8754e-14dd-38b7-8860-09cab9cfb920.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/79f8754e-14dd-38b7-8860-09cab9cfb920.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/79f8754e-14dd-38b7-8860-09cab9cfb920.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/79f8754e-14dd-38b7-8860-09cab9cfb920.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/b52d0c01-e908-3f05-9150-dcf0319ded3d.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/b52d0c01-e908-3f05-9150-dcf0319ded3d.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/b52d0c01-e908-3f05-9150-dcf0319ded3d.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/b52d0c01-e908-3f05-9150-dcf0319ded3d.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/bd11acc2-8e1a-348b-89a6-a309159aa437.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/bd11acc2-8e1a-348b-89a6-a309159aa437.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/bd11acc2-8e1a-348b-89a6-a309159aa437.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/bd11acc2-8e1a-348b-89a6-a309159aa437.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/c262fde9-3bcd-3326-9294-f86ce09da0bb.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/c262fde9-3bcd-3326-9294-f86ce09da0bb.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/c262fde9-3bcd-3326-9294-f86ce09da0bb.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/c262fde9-3bcd-3326-9294-f86ce09da0bb.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/ffc47c7c-81a1-3d8c-86bb-c720fcbf7d8f.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/ffc47c7c-81a1-3d8c-86bb-c720fcbf7d8f.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/ffc47c7c-81a1-3d8c-86bb-c720fcbf7d8f.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/ffc47c7c-81a1-3d8c-86bb-c720fcbf7d8f.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/09444461-95e8-3d4c-b4c8-61c0297ca18f.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/09444461-95e8-3d4c-b4c8-61c0297ca18f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/de6c7baa-0bd3-34f4-81e0-2a85bbae7554.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/de6c7baa-0bd3-34f4-81e0-2a85bbae7554.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/24a251d3-c89c-39ba-8cae-1f7d4c0691c9.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/24a251d3-c89c-39ba-8cae-1f7d4c0691c9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/4805b7f8-997e-33ab-826d-ca981b97526b.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/4805b7f8-997e-33ab-826d-ca981b97526b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/4e1f5e28-f05f-3acf-ac65-db01d9d51f95.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/4e1f5e28-f05f-3acf-ac65-db01d9d51f95.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/79f8754e-14dd-38b7-8860-09cab9cfb920.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/79f8754e-14dd-38b7-8860-09cab9cfb920.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/b52d0c01-e908-3f05-9150-dcf0319ded3d.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/b52d0c01-e908-3f05-9150-dcf0319ded3d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/bd11acc2-8e1a-348b-89a6-a309159aa437.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/bd11acc2-8e1a-348b-89a6-a309159aa437.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/c262fde9-3bcd-3326-9294-f86ce09da0bb.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/c262fde9-3bcd-3326-9294-f86ce09da0bb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/stats/ffc47c7c-81a1-3d8c-86bb-c720fcbf7d8f.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/ffc47c7c-81a1-3d8c-86bb-c720fcbf7d8f.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/085da9a8e6605f73634938b792fdf54c6f187dee" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/085da9a8e6605f73634938b792fdf54c6f187dee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/2ceff76a8b39fea3c68a031e819308e334bf4a0a" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/2ceff76a8b39fea3c68a031e819308e334bf4a0a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/8fcbe40fc1f6c719cebcb468bc495b9541aea49e" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/8fcbe40fc1f6c719cebcb468bc495b9541aea49e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/data/ModLootTableGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/data/ModLootTableGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/axe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/trimmable_armor.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/trimmable_armor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/mossier_oak_planks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/mossier_spruce_planks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlockClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlockClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/item/Loran.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/item/Loran.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/item/ModItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/item/not_important_rn/ModItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/item/ModItemGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/item/ModItemGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/item/ModItemStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/item/not_important_rn/ModItemStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/item/custom/ModBowItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/item/custom_bow_and_crossbow/ShortBowItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/util/ModModelPredicateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/util/ModModelPredicateProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/twin_bow.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/twin_bow_pulling_0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/twin_bow_pulling_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/twin_bow_pulling_2.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,26 +168,26 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/SONY/MODS/SkyBlock-1.19.3/src/main/resources/data/minecraft/tags/items&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/SONY/MODS/SkyBlock-1.19.3/src/main/resources/assets/skyblock/textures/block/outer_leaves",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="net.me.skyblock.entity.client" />
       <recent name="net.me.skyblock.item" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SONY\MODS\SkyBlock-1.19.3\src\main\resources\data\minecraft\tags\items" />
-      <recent name="D:\SONY\MODS\SkyBlock-1.19.3\src\main\resources\data\skyblock\recipes" />
-      <recent name="D:\SONY\MODS\SkyBlock-1.19.3\src\main\resources\asset, data-bakery" />
-      <recent name="D:\SONY\MODS\SkyBlock-1.19.3\src\main\resources\data\skyblock\loot_tables\blocks" />
-      <recent name="D:\SONY\MODS\SkyBlock-1.19.3\src\main\resources\assets\minecraft\models\item" />
+      <recent name="D:\SONY\MODS\SkyBlock-1.19.3\src\main\resources\assets\skyblock\textures\block\outer_leaves" />
+      <recent name="D:\SONY\MODS\SkyBlock-1.19.3\src\main\resources\assets\minecraft\models\block" />
+      <recent name="D:\SONY\MODS\SkyBlock-1.19.3\src\main\resources\assets\skyblock\models\item" />
+      <recent name="D:\SONY\MODS\SkyBlock-1.19.3\src\main\resources\assets\skyblock\textures\item" />
+      <recent name="D:\SONY\MODS\SkyBlock-1.19.3\FINAL RELEASES" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SONY\MODS\SkyBlock-1.19.3\src\main\resources" />
@@ -158,14 +197,15 @@
       <recent name="D:\SONY\MODS\SkyBlock-1.19.3\src\main\resources\assets\skyblock\textures\block" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="net.me.skyblock.mixin" />
       <recent name="net.me.skyblock.item" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.me.skyblock.item.custom_bow_and_crossbow" />
+      <recent name="net.me.skyblock.item.custom_bow" />
       <recent name="net.me.skyblock.item.custom" />
       <recent name="net.me.skyblock.block.custom" />
       <recent name="net.me.skyblock.item.trim" />
-      <recent name="net.me.skyblock.world.biome" />
-      <recent name="net.me.skyblock.item" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.SkyBlock-master [runClient]">
@@ -545,11 +585,17 @@
       <option name="project" value="LOCAL" />
       <updated>1688394138539</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Publisher: version-1.0.0 [1.20.1]">
+      <created>1688413643894</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1688413643894</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed bug: &quot;Üvegpalack eltűnik Hangyalakvárblokk készítése során&quot;" />
     <MESSAGE value="Added: gőzgobóc (peti kérte)" />
     <MESSAGE value="Added: Classified" />
     <MESSAGE value="Changes: Improved loot tables" />
@@ -574,7 +620,8 @@
     <MESSAGE value="Added: Cave Roots (Quark Feature)" />
     <MESSAGE value="Support for 1.20.1&#10;FONTOS: A MOD MÉG NEM MŰKÖDIK EZEN A VERZIÓN" />
     <MESSAGE value="12 Új Feature (teljes changelog nemsokára discordon)" />
-    <option name="LAST_COMMIT_MESSAGE" value="12 Új Feature (teljes changelog nemsokára discordon)" />
+    <MESSAGE value="Publisher: version-1.0.0 [1.20.1]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Publisher: version-1.0.0 [1.20.1]" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

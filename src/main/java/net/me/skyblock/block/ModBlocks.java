@@ -271,6 +271,19 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.END_STONE).sounds(BlockSoundGroup.GRASS).strength(2.0f).requiresTool()));
     public static final Block BLUISHE_GRASS = registerBlock("bluishe_end_stone",
             new Block(FabricBlockSettings.copy(Blocks.END_STONE).strength(3.0f).requiresTool()));
+
+    public static final Block END_GRASS_VEGETATION = registerBlock("ender_grass",
+            new EndVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.GRASS)));
+    public static final Block END_MUSHROOM = registerBlock("end_fungus",
+            new EndVegetation(FabricBlockSettings.copy(Blocks.CRIMSON_FUNGUS).sounds(BlockSoundGroup.FUNGUS)));
+    public static final Block BLUISHE_BUSH = registerBlock("bluishe_bush",
+            new EndVegetation(FabricBlockSettings.copy(Blocks.WARPED_FUNGUS).sounds(BlockSoundGroup.GRASS)));
+    public static final Block BLUISHE_MUSHROOM = registerBlock("bluishe_fungus",
+            new EndVegetation(FabricBlockSettings.copy(Blocks.WARPED_FUNGUS).sounds(BlockSoundGroup.FUNGUS)));
+    public static final Block END_BUSH = registerBlock("end_bush",
+            new EndVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.GRASS)));
+    public static final Block END_FLOWER = registerBlock("end_flower",
+            new EndVegetation(FabricBlockSettings.copy(Blocks.NETHER_SPROUTS).sounds(BlockSoundGroup.SPORE_BLOSSOM)));
     //END VEGETATION
     public static final Block ANT_JAM_BLOCK = registerBlock("ant_jam_block",
             new SlimeBlock(FabricBlockSettings.copy(Blocks.HONEY_BLOCK).strength(0.01f)));

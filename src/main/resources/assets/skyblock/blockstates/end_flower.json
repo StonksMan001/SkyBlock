@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "skyblock:block/end_flower"
+      },
+      {
+        "model": "skyblock:block/end_flower",
+        "y": 90
+      },
+      {
+        "model": "skyblock:block/end_flower",
+        "y": 180
+      },
+      {
+        "model": "skyblock:block/end_flower",
+        "y": 270
+      }
+    ]
+  }
+}

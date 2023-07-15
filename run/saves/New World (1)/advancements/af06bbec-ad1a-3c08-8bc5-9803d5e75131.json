@@ -1,21 +1,15 @@
 {
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:warped_forest": "2023-05-18 13:18:54 +0200"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "unlock_right_away": "2023-05-18 13:18:51 +0200"
     },
     "done": true
   },
-  "betterend:root": {
+  "minecraft:nether/explore_nether": {
     "criteria": {
-      "welcome": "2023-05-18 13:18:54 +0200"
+      "minecraft:warped_forest": "2023-05-18 13:18:54 +0200"
     },
-    "done": true
+    "done": false
   },
   "minecraft:nether/find_fortress": {
     "criteria": {
@@ -23,5 +17,29 @@
     },
     "done": true
   },
-  "DataVersion": 3337
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-07-11 14:22:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-07-11 14:22:22 +0200"
+    },
+    "done": false
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2023-07-11 14:22:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2023-07-11 14:22:20 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
 }

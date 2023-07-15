@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "skyblock:block/end_bush"
+      },
+      {
+        "model": "skyblock:block/end_bush",
+        "y": 90
+      },
+      {
+        "model": "skyblock:block/end_bush",
+        "y": 180
+      },
+      {
+        "model": "skyblock:block/end_bush",
+        "y": 270
+      }
+    ]
+  }
+}

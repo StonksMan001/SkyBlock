@@ -13,7 +13,7 @@ extends ModItem {
     }
 
     @Override
-    public boolean hasGlint(ItemStack stack) {
+    public boolean hasRedGlint(ItemStack stack) {
         return true;
     }
 }

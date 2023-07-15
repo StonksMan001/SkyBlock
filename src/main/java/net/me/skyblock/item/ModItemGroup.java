@@ -67,6 +67,12 @@ public class ModItemGroup {
                 entries.add(ModBlocks.AZALEA_PLANKS);
                 entries.add(ModBlocks.AZALEA_STAIRS);
                 entries.add(ModBlocks.AZALEA_SLAB);
+                entries.add(ModBlocks.END_GRASS_VEGETATION);
+                entries.add(ModBlocks.END_MUSHROOM);
+                entries.add(ModBlocks.BLUISHE_BUSH);
+                entries.add(ModBlocks.BLUISHE_MUSHROOM);
+                entries.add(ModBlocks.END_BUSH);
+                entries.add(ModBlocks.END_FLOWER);
             }).build());
     public static ItemGroup MCD = Registry.register(Registries.ITEM_GROUP, new Identifier(SkyBlock.MOD_ID,"minecraft_dungeons"),
             FabricItemGroup.builder().displayName(Text.literal("Sky Block: Minecraft Dungeons (ilosemypotato)")).icon(() -> new ItemStack(ModItems.TWIN_BOW)).entries((displayContext, entries) -> {

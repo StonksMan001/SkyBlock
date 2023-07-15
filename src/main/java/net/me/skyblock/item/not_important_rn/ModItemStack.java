@@ -8,6 +8,8 @@ import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.Set;
+
 public class ModItemStack implements FabricItemStack {
 
     private boolean empty;

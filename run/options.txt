@@ -28,7 +28,7 @@ fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:1.0
-damageTiltStrength:1.0
+damageTiltStrength:0.0
 highContrast:true
 gamma:0.0
 renderDistance:2
@@ -45,7 +45,7 @@ renderClouds:"true"
 resourcePacks:["vanilla","fabric","high_contrast"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:hu_hu
+lang:en_us
 soundDevice:""
 chatVisibility:0
 chatOpacity:1.0
@@ -54,7 +54,7 @@ textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
 advancedItemTooltips:true
-pauseOnLostFocus:true
+pauseOnLostFocus:false
 overrideWidth:0
 overrideHeight:0
 chatHeightFocused:1.0

@@ -4,9 +4,11 @@
   "package": "net.me.skyblock.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ItemRendererMixin"
   ],
   "client": [
-    "ExampleMixin"
+    "ExampleMixin",
+    "ItemRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,6 +1,5 @@
-[15:35:21] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
-[15:35:22] [main/INFO] (FabricLoader) Loading 48 mods:
-	- continuity 3.0.0-beta.2+1.20
+[22:31:44] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
+[22:31:45] [main/INFO] (FabricLoader) Loading 47 mods:
 	- fabric-api 0.84.0+1.20.1
 	- fabric-api-base 0.4.29+b04edc7a77
 	- fabric-api-lookup-api-v1 1.6.34+4d8536c977
@@ -48,12 +47,13 @@
 	- java 17
 	- minecraft 1.20.1
 	- skyblock 1.0
-[15:35:22] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/totha/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[15:35:23] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[15:35:23] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[15:35:23] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[15:35:54] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:35:54] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[22:31:46] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/totha/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[22:31:46] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[22:31:46] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[22:31:46] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[22:32:11] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 1752 milliseconds
+[22:32:15] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:32:16] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
@@ -71,74 +71,60 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
 	... 9 more
-[15:35:54] [Render thread/INFO] (Minecraft) Setting user: Player698
-[15:35:55] [Render thread/INFO] (skyblock) Registering ModBlocks for skyblock
-[15:35:56] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[15:35:56] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 9327 milliseconds
-[15:35:57] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[15:35:59] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-particles-v1, fabric-message-api-v1, fabric-lifecycle-events-v1, fabric-renderer-api-v1, fabric-screen-api-v1, fabric-registry-sync-v0, fabric-rendering-v1, fabric-screen-handler-api-v1, fabric-command-api-v2, fabric-item-group-api-v1, fabric-api-lookup-api-v1, fabric-loot-api-v2, fabric-resource-conditions-api-v1, geckolib, fabric-item-api-v1, fabric-client-tags-api-v1, fabricloader, fabric-sound-api-v1, skyblock, fabric-key-binding-api-v1, fabric-biome-api-v1, fabric-block-api-v1, continuity, fabric-transitive-access-wideners-v1, fabric-dimensions-v1, fabric-rendering-fluids-v1, fabric-blockrenderlayer-v1, fabric-models-v0, fabric-recipe-api-v1, fabric-data-generation-api-v1, fabric-api-base, fabric-crash-report-info-v1, fabric-game-rule-api-v1, fabric-rendering-data-attachment-v1, fabric-transfer-api-v1, fabric-networking-api-v1, fabric-gametest-api-v1, fabric-events-interaction-v0, fabric-object-builder-api-v1, fabric-mining-level-api-v1, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-entity-events-v1, fabric-api, fabric-resource-loader-v0, fabric-renderer-indigo), high_contrast ()
-[15:36:00] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
-[15:36:00] [Worker-Main-3/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[15:36:00] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[15:36:05] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'skyblock:longbow#inventory' referenced from: skyblock:longbow#inventory: java.io.FileNotFoundException: skyblock:models/item/longbow.json
-[15:36:05] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'skyblock:steam_dumpling_raw#inventory' referenced from: skyblock:steam_dumpling_raw#inventory: java.io.FileNotFoundException: skyblock:models/item/steam_dumpling_raw.json
-[15:36:07] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#axis=z:
+[22:32:16] [Render thread/INFO] (Minecraft) Setting user: Player772
+[22:32:16] [Render thread/INFO] (skyblock) Registering ModBlocks for skyblock
+[22:32:17] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[22:32:18] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[22:32:21] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-client-tags-api-v1, fabric-item-api-v1, fabric-rendering-data-attachment-v1, fabric-data-generation-api-v1, fabric-api, fabric-dimensions-v1, fabric-recipe-api-v1, fabric-transfer-api-v1, fabric-item-group-api-v1, fabric-api-base, skyblock, fabric-object-builder-api-v1, fabric-events-interaction-v0, fabric-renderer-indigo, fabric-message-api-v1, fabric-screen-api-v1, fabric-renderer-api-v1, fabric-mining-level-api-v1, fabric-loot-api-v2, fabric-blockrenderlayer-v1, fabric-command-api-v2, fabricloader, fabric-block-api-v1, fabric-registry-sync-v0, fabric-api-lookup-api-v1, fabric-particles-v1, fabric-gametest-api-v1, fabric-resource-conditions-api-v1, fabric-lifecycle-events-v1, fabric-models-v0, fabric-rendering-v1, fabric-transitive-access-wideners-v1, fabric-content-registries-v0, fabric-rendering-fluids-v1, fabric-key-binding-api-v1, fabric-screen-handler-api-v1, fabric-convention-tags-v1, geckolib, fabric-game-rule-api-v1, fabric-biome-api-v1, fabric-entity-events-v1, fabric-crash-report-info-v1, fabric-resource-loader-v0, fabric-sound-api-v1, fabric-networking-api-v1), high_contrast ()
+[22:32:21] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
+[22:32:21] [Worker-Main-1/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[22:32:22] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[22:32:26] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:end_bush#inventory' referenced from: skyblock:end_bush#inventory: java.io.FileNotFoundException: skyblock:models/item/end_bush.json
+[22:32:26] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:longbow#inventory' referenced from: skyblock:longbow#inventory: java.io.FileNotFoundException: skyblock:models/item/longbow.json
+[22:32:26] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:end_flower#inventory' referenced from: skyblock:end_flower#inventory: java.io.FileNotFoundException: skyblock:models/item/end_flower.json
+[22:32:26] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:bluishe_bush#inventory' referenced from: skyblock:bluishe_bush#inventory: java.io.FileNotFoundException: skyblock:models/item/bluishe_bush.json
+[22:32:26] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:steam_dumpling_raw#inventory' referenced from: skyblock:steam_dumpling_raw#inventory: java.io.FileNotFoundException: skyblock:models/item/steam_dumpling_raw.json
+[22:32:28] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#axis=z:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[15:36:07] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#axis=y:
+[22:32:28] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#axis=y:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[15:36:07] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#axis=z:
+[22:32:28] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#axis=z:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[15:36:07] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#inventory:
+[22:32:28] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#inventory:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[15:36:07] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#axis=y:
+[22:32:28] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#axis=y:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[15:36:07] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#axis=x:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[15:36:07] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#axis=x:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[15:36:07] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#inventory:
+[22:32:28] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#axis=x:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[15:36:07] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[15:36:07] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[15:36:07] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Hangszórók (3 - USB PnP Audio Device)
-[15:36:07] [Render thread/INFO] (Minecraft) Sound engine started
-[15:36:07] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[15:36:08] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[15:36:08] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[15:36:08] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[15:36:08] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[15:36:08] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[15:36:08] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[15:36:08] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[15:36:08] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[15:36:09] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[15:36:09] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[15:36:09] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[15:36:09] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[15:36:09] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
-[15:39:42] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
-[15:39:44] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
-[15:39:45] [Worker-Main-6/ERROR] (Minecraft) Not a JSON object: null
-[15:39:45] [Worker-Main-6/ERROR] (Minecraft) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack fabric
-java.lang.RuntimeException: Not a JSON object: null
-	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
-	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
-	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar:?]
-	at net.minecraft.registry.tag.TagGroupLoader.loadTags(TagGroupLoader.java:53) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
-	at net.minecraft.registry.tag.TagGroupLoader.load(TagGroupLoader.java:128) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
-	at net.minecraft.registry.tag.TagManagerLoader.method_33181(TagManagerLoader.java:65) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[15:39:45] [Worker-Main-5/ERROR] (Minecraft) Couldn't read tag list minecraft:trim_materials from minecraft:tags/items/trim_materials.json in data pack fabric
+[22:32:28] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_wood#axis=x:
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
+[22:32:28] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:stripped_abysculk_log#inventory:
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
+[22:32:28] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[22:32:28] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22:32:28] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Hangszórók (3 - USB PnP Audio Device)
+[22:32:28] [Render thread/INFO] (Minecraft) Sound engine started
+[22:32:28] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[22:32:29] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[22:32:29] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22:32:29] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22:32:29] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22:32:29] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22:32:29] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22:32:29] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22:32:29] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22:32:30] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[22:32:30] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[22:32:30] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22:32:30] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22:32:30] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
+[22:32:32] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
+[22:32:35] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
+[22:32:36] [Worker-Main-1/ERROR] (Minecraft) Couldn't read tag list minecraft:trim_materials from minecraft:tags/items/trim_materials.json in data pack fabric
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 6 column 2 path $.values[3]
 	at com.google.gson.internal.Streams.parse(Streams.java:61) ~[gson-2.10.jar:?]
 	at com.google.gson.JsonParser.parseReader(JsonParser.java:102) ~[gson-2.10.jar:?]
@@ -161,7 +147,23 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
 	at com.google.gson.internal.Streams.parse(Streams.java:49) ~[gson-2.10.jar:?]
 	... 12 more
-[15:39:45] [Worker-Main-5/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/frozen_leaves
+[22:32:36] [Worker-Main-3/ERROR] (Minecraft) Not a JSON object: null
+[22:32:36] [Worker-Main-3/ERROR] (Minecraft) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack fabric
+java.lang.RuntimeException: Not a JSON object: null
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.loadTags(TagGroupLoader.java:53) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.load(TagGroupLoader.java:128) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.registry.tag.TagManagerLoader.method_33181(TagManagerLoader.java:65) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[22:32:36] [Worker-Main-2/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/frozen_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
@@ -228,7 +230,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[15:39:45] [Worker-Main-5/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/blaru_leaves
+[22:32:36] [Worker-Main-2/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/blaru_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
@@ -295,7 +297,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[15:39:45] [Worker-Main-5/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/abyss_jungle_leaves
+[22:32:36] [Worker-Main-2/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/abyss_jungle_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
@@ -362,7 +364,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[15:39:46] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:diorite_pillar2
+[22:32:36] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:diorite_pillar2
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:diorite_block'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -401,7 +403,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:diorite_block'
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:219) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
@@ -410,7 +412,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:diorite_block'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:39:46] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:granite_pillar2
+[22:32:36] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:granite_pillar2
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:granite_block'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -449,7 +451,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:granite_block'
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:219) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
@@ -458,7 +460,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:granite_block'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:39:46] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:andesite_pillar2
+[22:32:36] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:andesite_pillar2
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:andesite_block'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -497,7 +499,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:andesite_block'
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:219) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:212) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
@@ -506,26 +508,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:andesite_block'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:39:46] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[15:39:46] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
-[15:39:48] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
-[15:39:48] [Worker-Main-5/ERROR] (Minecraft) Not a JSON object: null
-[15:39:48] [Worker-Main-5/ERROR] (Minecraft) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack fabric
-java.lang.RuntimeException: Not a JSON object: null
-	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
-	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
-	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar:?]
-	at net.minecraft.registry.tag.TagGroupLoader.loadTags(TagGroupLoader.java:53) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
-	at net.minecraft.registry.tag.TagGroupLoader.load(TagGroupLoader.java:128) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
-	at net.minecraft.registry.tag.TagManagerLoader.method_33181(TagManagerLoader.java:65) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[15:39:48] [Worker-Main-7/ERROR] (Minecraft) Couldn't read tag list minecraft:trim_materials from minecraft:tags/items/trim_materials.json in data pack fabric
+[22:32:36] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[22:32:36] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[22:32:39] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
+[22:32:39] [Worker-Main-3/ERROR] (Minecraft) Couldn't read tag list minecraft:trim_materials from minecraft:tags/items/trim_materials.json in data pack fabric
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 6 column 2 path $.values[3]
 	at com.google.gson.internal.Streams.parse(Streams.java:61) ~[gson-2.10.jar:?]
 	at com.google.gson.JsonParser.parseReader(JsonParser.java:102) ~[gson-2.10.jar:?]
@@ -548,7 +534,23 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
 	at com.google.gson.internal.Streams.parse(Streams.java:49) ~[gson-2.10.jar:?]
 	... 12 more
-[15:39:48] [Worker-Main-6/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/frozen_leaves
+[22:32:39] [Worker-Main-2/ERROR] (Minecraft) Not a JSON object: null
+[22:32:39] [Worker-Main-2/ERROR] (Minecraft) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack fabric
+java.lang.RuntimeException: Not a JSON object: null
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.loadTags(TagGroupLoader.java:53) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.load(TagGroupLoader.java:128) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.registry.tag.TagManagerLoader.method_33181(TagManagerLoader.java:65) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[22:32:39] [Worker-Main-1/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/frozen_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
@@ -615,7 +617,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[15:39:48] [Worker-Main-6/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/blaru_leaves
+[22:32:39] [Worker-Main-1/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/blaru_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
@@ -682,7 +684,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[15:39:48] [Worker-Main-6/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/abyss_jungle_leaves
+[22:32:39] [Worker-Main-1/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/abyss_jungle_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
@@ -749,7 +751,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[15:39:49] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:diorite_pillar2
+[22:32:39] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:diorite_pillar2
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:diorite_block'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -787,16 +789,18 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:diorite_block'
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:219) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:39:49] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:granite_pillar2
+[22:32:39] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:granite_pillar2
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:granite_block'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -834,16 +838,18 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:granite_block'
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:219) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:39:49] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:andesite_pillar2
+[22:32:39] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:andesite_pillar2
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:andesite_block'
 	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -881,6 +887,356 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:andesite_block'
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:219) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[22:32:39] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[22:32:39] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[22:32:42] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 2.423 ms
+[22:32:42] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[22:32:42] [Server thread/INFO] (Minecraft) Generating keypair
+[22:32:42] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[22:32:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:32:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:32:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:32:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:32:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:32:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:32:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:32:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:32:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:32:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:32:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:32:48] [Render thread/INFO] (Minecraft) Preparing spawn area: 13%
+[22:32:48] [Render thread/INFO] (Minecraft) Preparing spawn area: 69%
+[22:32:49] [Render thread/INFO] (Minecraft) Time elapsed: 6915 ms
+[22:32:50] [Server thread/INFO] (Minecraft) Changing view distance to 2, from 10
+[22:32:50] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
+[22:32:53] [Server thread/INFO] (Minecraft) Player772[local:E:898d2d40] logged in with entity id 67 at (-53.42048381873943, -58.54248242327327, -20.45206842638682)
+[22:32:53] [Server thread/INFO] (Minecraft) Player772 joined the game
+[22:32:54] [Render thread/INFO] (Minecraft) Loaded 5 advancements
+[22:33:12] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:33:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:33:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[22:33:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[22:33:14] [Server thread/INFO] (Minecraft) [Player772: Set own game mode to Creative Mode]
+[22:33:14] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
+[22:33:25] [Render thread/INFO] (Minecraft) Loaded 7 advancements
+[22:33:26] [Render thread/INFO] (Minecraft) Loaded 9 advancements
+[22:33:28] [Render thread/INFO] (Minecraft) Loaded 11 advancements
+[22:33:33] [Server thread/INFO] (Minecraft) Player772 has made the advancement [Stone Age]
+[22:33:33] [Render thread/INFO] (Minecraft) [System] [CHAT] Player772 has made the advancement [Stone Age]
+[22:33:33] [Render thread/INFO] (Minecraft) Loaded 29 advancements
+[22:33:36] [Render thread/INFO] (Minecraft) Loaded 33 advancements
+[22:34:06] [Server thread/INFO] (Minecraft) [Player772: Set own game mode to Survival Mode]
+[22:34:06] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Survival Mode
+[22:34:09] [Render thread/INFO] (Minecraft) Loaded 35 advancements
+[22:34:11] [Server thread/INFO] (Minecraft) Player772 has made the advancement [Diamonds!]
+[22:34:11] [Render thread/INFO] (Minecraft) [System] [CHAT] Player772 has made the advancement [Diamonds!]
+[22:34:11] [Render thread/INFO] (Minecraft) Loaded 50 advancements
+[22:34:14] [Render thread/INFO] (Minecraft) Loaded 53 advancements
+[22:34:46] [Server thread/INFO] (Minecraft) [Player772: Set own game mode to Creative Mode]
+[22:34:46] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
+[22:34:54] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:34:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:34:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[22:34:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[22:35:43] [Server thread/INFO] (Minecraft) Player772 lost connection: Disconnected
+[22:35:43] [Server thread/INFO] (Minecraft) Player772 left the game
+[22:35:43] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[22:35:43] [Server thread/INFO] (Minecraft) Stopping server
+[22:35:43] [Server thread/INFO] (Minecraft) Saving players
+[22:35:43] [Server thread/INFO] (Minecraft) Saving worlds
+[22:35:44] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:35:44] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[22:35:44] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[22:35:44] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[22:35:44] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (unknown): All chunks are saved
+[22:35:44] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (the_abyss_fabric): All chunks are saved
+[22:35:44] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[22:35:44] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
+[22:35:48] [Worker-Main-3/ERROR] (Minecraft) Couldn't read tag list minecraft:trim_materials from minecraft:tags/items/trim_materials.json in data pack fabric
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 6 column 2 path $.values[3]
+	at com.google.gson.internal.Streams.parse(Streams.java:61) ~[gson-2.10.jar:?]
+	at com.google.gson.JsonParser.parseReader(JsonParser.java:102) ~[gson-2.10.jar:?]
+	at com.google.gson.JsonParser.parseReader(JsonParser.java:70) ~[gson-2.10.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.loadTags(TagGroupLoader.java:51) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.load(TagGroupLoader.java:128) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.registry.tag.TagManagerLoader.method_33181(TagManagerLoader.java:65) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 6 column 2 path $.values[3]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:485) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.Streams.parse(Streams.java:49) ~[gson-2.10.jar:?]
+	... 12 more
+[22:35:48] [Worker-Main-2/ERROR] (Minecraft) Not a JSON object: null
+[22:35:48] [Worker-Main-2/ERROR] (Minecraft) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack fabric
+java.lang.RuntimeException: Not a JSON object: null
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.loadTags(TagGroupLoader.java:53) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.registry.tag.TagGroupLoader.load(TagGroupLoader.java:128) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.registry.tag.TagManagerLoader.method_33181(TagManagerLoader.java:65) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[22:35:48] [Worker-Main-3/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/frozen_leaves
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:481) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:85) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:471) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:61) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:53) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:86) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:471) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:173) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:481) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:246) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.loot.LootDataType.method_51205(LootDataType.java:64) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootDataType.parse(LootDataType.java:48) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootManager.method_51195(LootManager.java:55) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.loot.LootManager.method_51189(LootManager.java:55) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[22:35:48] [Worker-Main-3/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/blaru_leaves
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:481) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:85) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:471) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:61) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:53) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:86) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:471) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:173) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:481) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:246) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.loot.LootDataType.method_51205(LootDataType.java:64) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootDataType.parse(LootDataType.java:48) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootManager.method_51195(LootManager.java:55) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.loot.LootManager.method_51189(LootManager.java:55) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[22:35:48] [Worker-Main-3/ERROR] (Minecraft) Couldn't parse element loot_tables:skyblock:blocks/abyss_jungle_leaves
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:99) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:481) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:85) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:471) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:61) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.CombinedEntry$1.fromJson(CombinedEntry.java:53) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:86) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:471) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:173) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:481) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:246) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.loot.LootDataType.method_51205(LootDataType.java:64) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootDataType.parse(LootDataType.java:48) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.loot.LootManager.method_51195(LootManager.java:55) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.loot.LootManager.method_51189(LootManager.java:55) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[22:35:48] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:diorite_pillar2
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:diorite_block'
+	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.Ingredient.entryFromJson(Ingredient.java:160) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.Ingredient.fromJson(Ingredient.java:143) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.CuttingRecipe$Serializer.read(CuttingRecipe.java:91) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.CuttingRecipe$Serializer.read(CuttingRecipe.java:72) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:135) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:56) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:35) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:139) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.CreateWorldScreen.create(CreateWorldScreen.java:352) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.SelectWorldScreen.method_19944(SelectWorldScreen.java:60) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.widget.ButtonWidget.onPress(ButtonWidget.java:94) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.widget.PressableWidget.onClick(PressableWidget.java:56) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.widget.ClickableWidget.mouseClicked(ClickableWidget.java:189) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:38) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:98) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:409) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:98) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:102) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
 	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
@@ -890,89 +1246,143 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:andesite_block'
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[15:39:49] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[15:39:49] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
-[15:39:50] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 2.571 ms
-[15:39:50] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
-[15:39:50] [Server thread/INFO] (Minecraft) Generating keypair
-[15:39:50] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[15:39:54] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[15:39:54] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[15:39:54] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[15:39:54] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[15:39:54] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[15:39:54] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[15:39:54] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[15:39:54] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[15:39:55] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[15:39:55] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[15:39:56] [Render thread/INFO] (Minecraft) Time elapsed: 5432 ms
-[15:39:56] [Server thread/INFO] (Minecraft) Changing view distance to 2, from 10
-[15:39:56] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
-[15:39:58] [Server thread/INFO] (Minecraft) Player698[local:E:4649dc20] logged in with entity id 71 at (34.588705065539706, -62.0, -32.69999998807907)
-[15:39:58] [Server thread/INFO] (Minecraft) Player698 csatlakozott a játékhoz
-[15:39:58] [Server thread/INFO] (Minecraft) Player698 teljesítette a(z) [Boríts be törmelékkel] kihívást
-[15:39:58] [Render thread/INFO] (Minecraft) [System] [CHAT] Player698 teljesítette a(z) [Boríts be törmelékkel] kihívást
-[15:39:58] [Render thread/INFO] (Minecraft) Loaded 6 advancements
-[15:41:22] [Render thread/INFO] (Minecraft) Loaded 8 advancements
-[15:41:23] [Render thread/INFO] (Minecraft) Loaded 10 advancements
-[15:41:44] [Server thread/INFO] (Minecraft) [Player698: Saját játékmód átállítva Túlél? módra]
-[15:41:44] [Render thread/INFO] (Minecraft) [System] [CHAT] Saját játékmód átállítva Túlél? módra
-[15:41:47] [Server thread/INFO] (Minecraft) [Player698: Saját játékmód átállítva Kaland módra]
-[15:41:47] [Render thread/INFO] (Minecraft) [System] [CHAT] Saját játékmód átállítva Kaland módra
-[15:41:50] [Render thread/INFO] (Minecraft) Loaded 27 advancements
-[15:41:59] [Server thread/INFO] (Minecraft) Player698 megtette a(z) [Szörnyvadász] el?relépést
-[15:41:59] [Render thread/INFO] (Minecraft) [System] [CHAT] Player698 megtette a(z) [Szörnyvadász] el?relépést
-[15:41:59] [Render thread/INFO] (Minecraft) Loaded 58 advancements
-[15:43:56] [Server thread/INFO] (Minecraft) Player698 egy Zombi áldozata lett
-[15:43:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Player698 egy Zombi áldozata lett
-[15:45:01] [Server thread/INFO] (Minecraft) Player698 egy Zombi áldozata lett
-[15:45:01] [Render thread/INFO] (Minecraft) [System] [CHAT] Player698 egy Zombi áldozata lett
-[15:45:41] [Server thread/INFO] (Minecraft) Player698 egy Zombi áldozata lett
-[15:45:41] [Render thread/INFO] (Minecraft) [System] [CHAT] Player698 egy Zombi áldozata lett
-[15:46:13] [Server thread/INFO] (Minecraft) Player698 egy Zombi áldozata lett
-[15:46:13] [Render thread/INFO] (Minecraft) [System] [CHAT] Player698 egy Zombi áldozata lett
-[15:49:10] [Server thread/INFO] (Minecraft) Player698 egy Zombi áldozata lett
-[15:49:10] [Render thread/INFO] (Minecraft) [System] [CHAT] Player698 egy Zombi áldozata lett
-[15:49:55] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[15:49:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15:49:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[15:49:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[15:53:35] [Server thread/INFO] (Minecraft) Player698 egy Zombi áldozata lett
-[15:53:35] [Render thread/INFO] (Minecraft) [System] [CHAT] Player698 egy Zombi áldozata lett
-[15:54:12] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[15:54:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15:54:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[15:54:12] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[16:21:52] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[16:21:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16:21:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[16:21:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[16:22:18] [Render thread/INFO] (Minecraft) [System] [CHAT] A célpont nem tud sérülni a megadott sebzéstípustól
-[16:22:21] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[16:22:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16:22:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[16:22:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[16:22:44] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[16:22:44] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16:22:44] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[16:22:44] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[16:23:56] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[16:23:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16:23:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[16:23:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[16:23:56] [Server thread/INFO] (Minecraft) Player698 lost connection: Megszakadt a kapcsolat
-[16:23:56] [Server thread/INFO] (Minecraft) Player698 elhagyta a játékot
-[16:23:56] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[16:23:56] [Server thread/INFO] (Minecraft) Stopping server
-[16:23:56] [Server thread/INFO] (Minecraft) Saving players
-[16:23:56] [Server thread/INFO] (Minecraft) Saving worlds
-[16:23:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16:23:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[16:23:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[16:23:57] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[16:23:57] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (unknown): All chunks are saved
-[16:23:57] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (the_abyss_fabric): All chunks are saved
-[16:23:57] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[16:23:57] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
-[16:23:59] [Render thread/INFO] (Minecraft) Stopping!
+[22:35:48] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:granite_pillar2
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:granite_block'
+	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.Ingredient.entryFromJson(Ingredient.java:160) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.Ingredient.fromJson(Ingredient.java:143) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.CuttingRecipe$Serializer.read(CuttingRecipe.java:91) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.CuttingRecipe$Serializer.read(CuttingRecipe.java:72) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:135) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:56) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:35) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:139) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.CreateWorldScreen.create(CreateWorldScreen.java:352) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.SelectWorldScreen.method_19944(SelectWorldScreen.java:60) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.widget.ButtonWidget.onPress(ButtonWidget.java:94) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.widget.PressableWidget.onClick(PressableWidget.java:56) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.widget.ClickableWidget.mouseClicked(ClickableWidget.java:189) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:38) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:98) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:409) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:98) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:102) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[22:35:48] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:andesite_pillar2
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:andesite_block'
+	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.Ingredient.entryFromJson(Ingredient.java:160) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.Ingredient.fromJson(Ingredient.java:143) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.CuttingRecipe$Serializer.read(CuttingRecipe.java:91) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.CuttingRecipe$Serializer.read(CuttingRecipe.java:72) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:135) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:56) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:35) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:139) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.CreateWorldScreen.create(CreateWorldScreen.java:352) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.SelectWorldScreen.method_19944(SelectWorldScreen.java:60) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.widget.ButtonWidget.onPress(ButtonWidget.java:94) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.widget.PressableWidget.onClick(PressableWidget.java:56) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.widget.ClickableWidget.mouseClicked(ClickableWidget.java:189) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:38) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:98) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:409) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:98) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:102) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1244) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[22:35:48] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[22:35:48] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[22:36:19] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 240.1 ?s
+[22:36:19] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[22:36:19] [Server thread/INFO] (Minecraft) Generating keypair
+[22:36:19] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[22:36:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:36:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:36:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 3%
+[22:36:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 25%
+[22:36:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 69%
+[22:36:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 77%
+[22:36:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 87%
+[22:36:22] [Server thread/INFO] (Minecraft) Changing view distance to 2, from 10
+[22:36:22] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
+[22:36:23] [Render thread/INFO] (Minecraft) Time elapsed: 3357 ms
+[22:36:23] [Server thread/INFO] (Minecraft) Player772[local:E:cc005b08] logged in with entity id 140 at (-9.5, -60.0, 9.5)
+[22:36:23] [Server thread/INFO] (Minecraft) Player772 joined the game
+[22:36:23] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[22:37:23] [Render thread/INFO] (Minecraft) [System] [CHAT] Invalid structure name ''
+[22:37:28] [Render thread/INFO] (Minecraft) [System] [CHAT] Structure saved as 'minecraft:lol'
+[22:37:34] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:37:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:37:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:37:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:37:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[22:37:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[22:38:10] [Render thread/INFO] (Minecraft) [System] [CHAT] Structure 'minecraft:base_floor' position prepared
+[22:38:12] [Render thread/INFO] (Minecraft) [System] [CHAT] Structure loaded from 'minecraft:base_floor'
+[22:44:13] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:44:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:44:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:44:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:44:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[22:44:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[22:44:14] [Server thread/INFO] (Minecraft) Player772 lost connection: Disconnected
+[22:44:14] [Server thread/INFO] (Minecraft) Player772 left the game
+[22:44:14] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[22:44:14] [Server thread/INFO] (Minecraft) Stopping server
+[22:44:14] [Server thread/INFO] (Minecraft) Saving players
+[22:44:14] [Server thread/INFO] (Minecraft) Saving worlds
+[22:44:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:44:46] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:44:46] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:44:46] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[22:44:46] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[22:44:46] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World (3)): All chunks are saved
+[22:44:46] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:44:46] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:44:46] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (unknown): All chunks are saved
+[22:44:46] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (the_abyss_fabric): All chunks are saved
+[22:44:46] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[22:44:46] [Render thread/INFO] (skyblock) This line is printed by an example mod mixin!
+[22:44:46] [Render thread/INFO] (Minecraft) Stopping!

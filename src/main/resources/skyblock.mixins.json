@@ -1,14 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.me.skyblock.mixin",
+  "package": "net.me.skyblock.api.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ItemRendererMixin"
   ],
   "client": [
-    "ExampleMixin",
-    "ItemRendererMixin"
+    "ChorusPlantBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1

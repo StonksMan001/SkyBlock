@@ -2,14 +2,14 @@ package net.me.skyblock;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
-import net.me.skyblock.block.ModBlocks;
+import net.me.skyblock.blocks_and_items.ModBlocks;
 import net.me.skyblock.entity.ModEntities;
-import net.me.skyblock.entity.custom.WispEntity;
-import net.me.skyblock.item.not_important_rn.ModItem;
-import net.me.skyblock.item.ModItemGroup;
-import net.me.skyblock.item.ModItems;
-import net.me.skyblock.painting.ModPaintings;
+import net.me.skyblock.entity.mobs.mcd.WispEntity;
+import net.me.skyblock.blocks_and_items.ModCreativeInventoryGroups;
+import net.me.skyblock.blocks_and_items.ModItems;
+import net.me.skyblock.entity.non_mobs.ModPaintings;
 import net.me.skyblock.world.dimension.ModDimensions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,13 +19,11 @@ public class SkyBlock implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	@Override
 	public void onInitialize() {
-		ModItemGroup.registerItemGroups();
+		ModCreativeInventoryGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModDimensions.register();
 		ModPaintings.registerPaintings();
-		ModItem.register();
-		ModItem.register();
 
 		StrippableBlockRegistry.register(ModBlocks.END_STEM, ModBlocks.STRIPPED_END_STEM);
 		StrippableBlockRegistry.register(ModBlocks.END_HYPHAE, ModBlocks.STRIPPED_END_HYPHAE);
@@ -55,5 +53,6 @@ public class SkyBlock implements ModInitializer {
 
 		FabricDefaultAttributeRegistry.register(ModEntities.WISP, WispEntity.setAttributes());
 
+		FuelRegistry.INSTANCE.add(ModItems.MELTE_RESIDUES, 30000);
 	}
 }

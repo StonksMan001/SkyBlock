@@ -233,12 +233,6 @@
     },
     "done": true
   },
-  "betterend:root": {
-    "criteria": {
-      "welcome": "2023-06-10 20:02:12 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/mud_brick_stairs": {
     "criteria": {
       "has_mud_bricks": "2023-06-10 20:02:10 +0200"
@@ -263,5 +257,17 @@
     },
     "done": true
   },
-  "DataVersion": 3337
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2023-07-16 15:04:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2023-07-16 15:04:04 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
 }

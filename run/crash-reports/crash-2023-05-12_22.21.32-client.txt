@@ -22,7 +22,7 @@ Caused by: java.lang.ExceptionInInitializerError
 	... 8 more
 Caused by: java.lang.IllegalArgumentException: Cannot get property BooleanProperty{name=lit, clazz=class java.lang.Boolean, values=[true, false]} as it does not exist in Block{minecraft:air}
 	at net.minecraft.state.State.get(State.java:98)
-	at net.me.skyblock.block.ModBlocks.lambda$static$0(ModBlocks.java:42)
+	at net.me.skyblock.blocks_and_items.ModBlocks.lambda$static$0(ModBlocks.java:42)
 	at net.minecraft.block.AbstractBlock$AbstractBlockState.<init>(AbstractBlock.java:1129)
 	at net.minecraft.block.BlockState.<init>(BlockState.java:24)
 	at net.minecraft.state.StateManager.method_28484(StateManager.java:59)
@@ -31,7 +31,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot get property BooleanProper
 	at net.minecraft.state.StateManager.<init>(StateManager.java:57)
 	at net.minecraft.state.StateManager$Builder.build(StateManager.java:95)
 	at net.minecraft.block.Block.<init>(Block.java:282)
-	at net.me.skyblock.block.ModBlocks.<clinit>(ModBlocks.java:42)
+	at net.me.skyblock.blocks_and_items.ModBlocks.<clinit>(ModBlocks.java:42)
 	... 10 more
 
 

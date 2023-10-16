@@ -1,21 +1,9 @@
 {
-  "betterend:recipes/decorations/thallasium_ingot_furnace_ore": {
-    "criteria": {
-      "has_0_thallasium_ore": "2023-05-05 15:35:05 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_pickaxe": "2023-05-05 15:35:05 +0200"
     },
     "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "cooked_beef": "2023-05-05 15:41:57 +0200"
-    },
-    "done": false
   },
   "minecraft:story/iron_tools": {
     "criteria": {
@@ -29,6 +17,37 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-05-05 15:35:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2023-05-05 15:35:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2023-05-05 15:35:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2023-09-26 19:39:23 +0200",
+      "minecraft:plains": "2023-05-05 15:35:07 +0200"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2023-05-05 15:41:57 +0200"
+    },
+    "done": false
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2023-05-05 15:41:57 +0200"
@@ -41,35 +60,137 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chest": {
+  "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
-      "has_lots_of_items": "2023-05-05 15:35:05 +0200"
+      "in_water": "2023-09-26 19:38:50 +0200"
     },
     "done": true
   },
-  "betterend:root": {
+  "minecraft:recipes/building_blocks/purpur_slab": {
     "criteria": {
-      "welcome": "2023-05-05 15:35:07 +0200"
+      "has_purpur_block": "2023-09-26 19:35:17 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "has_iron_pickaxe": "2023-05-05 15:35:05 +0200"
+      "has_bone_meal": "2023-09-26 19:35:17 +0200"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "minecraft:plains": "2023-05-05 15:35:07 +0200"
+      "unlock_right_away": "2023-09-26 19:35:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2023-09-26 19:35:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2023-09-26 19:35:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2023-09-26 19:38:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-09-26 19:38:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2023-09-26 19:38:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-09-26 19:37:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie_villager": "2023-09-26 19:37:51 +0200"
     },
     "done": false
   },
-  "minecraft:nether/netherite_armor": {
+  "minecraft:adventure/kill_a_mob": {
     "criteria": {
-      "netherite_armor": "2023-05-05 15:35:05 +0200"
+      "minecraft:zombie_villager": "2023-09-26 19:37:51 +0200"
     },
     "done": true
   },
-  "DataVersion": 3218
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2023-09-26 19:38:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2023-09-26 19:35:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-09-26 19:38:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-09-26 19:38:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-09-26 19:38:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-09-26 19:38:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2023-09-26 19:35:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-09-26 19:38:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2023-09-26 19:35:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2023-09-26 19:35:17 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
 }

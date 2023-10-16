@@ -27,8 +27,8 @@ Caused by: java.lang.RuntimeException: Attempted to register object glass_bottle
 	at net.minecraft.registry.SimpleRegistry.add(SimpleRegistry.java:181)
 	at net.minecraft.registry.Registry.register(Registry.java:317)
 	at net.minecraft.registry.Registry.register(Registry.java:308)
-	at net.me.skyblock.item.ModItems.registerItem(ModItems.java:63)
-	at net.me.skyblock.item.ModItems.<clinit>(ModItems.java:56)
+	at net.me.skyblock.blocks_and_items.ModItems.registerItem(ModItems.java:63)
+	at net.me.skyblock.blocks_and_items.ModItems.<clinit>(ModItems.java:56)
 	... 10 more
 
 

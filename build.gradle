@@ -47,19 +47,15 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	//modImplementation files('libraries/continuity-3.0.0-beta.2+1.20.jar')
+	modImplementation files('libraries/continuity-3.0.0-beta.2+1.20.jar')
+	modImplementation files('libraries/entity_texture_features_fabric_1.20-4.4.4.jar')
 	//modImplementation files('libraries/tag_fixer.jar')
 	modImplementation 'software.bernie.geckolib:geckolib-fabric-1.20:4.2'
 
 	//implementation 'com.github.quiqueck:WunderLib:1.1.3'
 	//implementation 'com.github.quiqueck:BetterEnd:4.0.7'
 	//implementation 'com.github.quiqueck:BetterNether:9.0.7'
-	//implementation 'com.github.quiqueck:BCLib:3.0.10'
-	/*if (local_bclib){
-		modImplementation project(":BCLib")
-	} else {
-		modImplementation "com.github.quiqueck:BCLib:${project.bclib_version}"
-	}*/
+	//implementation 'com.github.quiqueck:BCLib:3.0.13'
 
 	//modImplementation files('libraries/badpackets-fabric-0.4.1.jar')
 	//modImplementation files('libraries/bclib-3.0.10.jar')

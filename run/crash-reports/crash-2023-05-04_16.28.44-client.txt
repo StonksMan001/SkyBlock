@@ -28,9 +28,9 @@ Caused by: java.lang.RuntimeException: Attempted to register ID ResourceKey[mine
 	at net.minecraft.registry.SimpleRegistry.add(SimpleRegistry.java:186)
 	at net.minecraft.registry.Registry.register(Registry.java:118)
 	at net.minecraft.registry.Registry.register(Registry.java:114)
-	at net.me.skyblock.block.ModBlocks.registerBlockItem(ModBlocks.java:54)
-	at net.me.skyblock.block.ModBlocks.registerBlock(ModBlocks.java:49)
-	at net.me.skyblock.block.ModBlocks.<clinit>(ModBlocks.java:32)
+	at net.me.skyblock.blocks_and_items.ModBlocks.registerBlockItem(ModBlocks.java:54)
+	at net.me.skyblock.blocks_and_items.ModBlocks.registerBlock(ModBlocks.java:49)
+	at net.me.skyblock.blocks_and_items.ModBlocks.<clinit>(ModBlocks.java:32)
 	... 11 more
 
 

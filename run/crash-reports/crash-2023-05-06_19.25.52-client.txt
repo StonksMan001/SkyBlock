@@ -20,7 +20,7 @@ java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to err
 Caused by: java.lang.IllegalStateException: Duplicate item group: skyblock:fyberite
 	at net.fabricmc.fabric.impl.itemgroup.ItemGroupHelper.appendItemGroup(ItemGroupHelper.java:39)
 	at net.fabricmc.fabric.impl.itemgroup.FabricItemGroupBuilderImpl.build(FabricItemGroupBuilderImpl.java:38)
-	at net.me.skyblock.item.ModItemGroup.registerItemGroups(ModItemGroup.java:21)
+	at net.me.skyblock.blocks_and_items.ModCreativeInventoryGroups.registerItemGroups(ModItemGroup.java:21)
 	at net.me.skyblock.SkyBlock.onInitialize(SkyBlock.java:17)
 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
 	... 9 more

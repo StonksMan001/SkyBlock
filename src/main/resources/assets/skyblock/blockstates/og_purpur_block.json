@@ -1,0 +1,33 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "skyblock:block/og_purpur_block1"
+      },
+      {
+        "model": "skyblock:block/og_purpur_block1"
+      },
+      {
+        "model": "skyblock:block/og_purpur_block1"
+      },
+      {
+        "model": "skyblock:block/og_purpur_block1"
+      },
+      {
+        "model": "skyblock:block/og_purpur_block1"
+      },
+      {
+        "model": "skyblock:block/og_purpur_block1"
+      },
+      {
+        "model": "skyblock:block/og_purpur_block2"
+      },
+      {
+        "model": "skyblock:block/og_purpur_block2"
+      },
+      {
+        "model": "skyblock:block/og_purpur_block3"
+      }
+      ]
+  }
+}

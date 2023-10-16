@@ -1,0 +1,66 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "skyblock:block/barren_grass_block3"
+      },
+      {
+        "model": "skyblock:block/barren_grass_block3",
+        "y": 90
+      },
+      {
+        "model": "skyblock:block/barren_grass_block3",
+        "y": 180
+      },
+      {
+        "model": "skyblock:block/barren_grass_block3",
+        "y": 270
+      },
+      {
+        "model": "skyblock:block/barren_grass_block1"
+      },
+      {
+        "model": "skyblock:block/barren_grass_block1",
+        "y": 90
+      },
+      {
+        "model": "skyblock:block/barren_grass_block1",
+        "y": 180
+      },
+      {
+        "model": "skyblock:block/barren_grass_block1",
+        "y": 270
+      },
+      {
+        "model": "skyblock:block/barren_grass_block2"
+      },
+      {
+        "model": "skyblock:block/barren_grass_block2",
+        "y": 90
+      },
+      {
+        "model": "skyblock:block/barren_grass_block2",
+        "y": 180
+      },
+      {
+        "model": "skyblock:block/barren_grass_block2",
+        "y": 270
+      },
+      {
+        "model": "skyblock:block/barren_grass_block4"
+      },
+      {
+        "model": "skyblock:block/barren_grass_block4",
+        "y": 90
+      },
+      {
+        "model": "skyblock:block/barren_grass_block4",
+        "y": 180
+      },
+      {
+        "model": "skyblock:block/barren_grass_block4",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -2,9 +2,9 @@ package net.me.skyblock;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.me.skyblock.data.ModLootTableGenerator;
-import net.me.skyblock.data.ModModelProvider;
-import net.me.skyblock.data.ModRecipeGenerator;
+import net.me.skyblock.api.datagen.ModLootTableGenerator;
+import net.me.skyblock.api.datagen.ModModelProvider;
+import net.me.skyblock.api.datagen.ModRecipeGenerator;
 
 public class SkyBlockDataGenerator implements DataGeneratorEntrypoint {
 

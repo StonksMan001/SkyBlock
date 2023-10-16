@@ -3,14 +3,11 @@ package net.me.skyblock;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
-import net.fabricmc.fabric.impl.client.rendering.EntityRendererRegistryImpl;
-import net.me.skyblock.block.ModBlocks;
+import net.me.skyblock.blocks_and_items.ModBlocks;
 import net.me.skyblock.entity.ModEntities;
-import net.me.skyblock.entity.client.WispRenderer;
-import net.me.skyblock.util.ModModelPredicateProvider;
-import net.minecraft.client.MinecraftClient;
+import net.me.skyblock.entity.mobs.mcd.rendering.WispRenderer;
+import net.me.skyblock.api.ModModelPredicateProvider;
 import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.texture.TextureManager;
 
 public class SkyBlockClient implements ClientModInitializer {
 

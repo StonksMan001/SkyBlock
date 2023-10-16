@@ -1,0 +1,33 @@
+{
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2023-07-18 14:26:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-07-18 14:23:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2023-07-18 14:25:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-07-18 14:23:14 +0200"
+    },
+    "done": false
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2023-07-18 14:25:20 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

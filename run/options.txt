@@ -29,9 +29,9 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:1.0
 damageTiltStrength:0.0
-highContrast:true
+highContrast:false
 gamma:0.0
-renderDistance:2
+renderDistance:8
 simulationDistance:5
 entityDistanceScaling:1.0
 guiScale:2
@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","high_contrast"]
+resourcePacks:["vanilla","fabric"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -72,7 +72,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
@@ -118,7 +118,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-soundCategory_master:0.5132450331125827
+soundCategory_master:0.5033112582781457
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

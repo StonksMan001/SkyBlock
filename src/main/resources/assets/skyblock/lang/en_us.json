@@ -228,5 +228,19 @@
   "painting.skyblock.witherstorm.title": "The Wither Storm",
   "painting.skyblock.witherstorm.author": "Mojang & Telltale Games",
   "painting.skyblock.beni.title": "Beni Jelképe",
-  "painting.skyblock.beni.author": "Dalmi Benedek"
+  "painting.skyblock.beni.author": "Dalmi Benedek",
+
+  "item.skyblock.artifact_iron_hide_amulet_common": "Iron Hide Amulet",
+  "item.skyblock.artifact_iron_hide_amulet_rare": "Iron Hide Amulet",
+  "item.skyblock.artifact_iron_hide_amulet_custom": "Iron Hide Amulet",
+  "tooltip.skyblock.artifact_iron_hide_amulet.tooltip1": "The Iron Hide Amulet is both ancient",
+  "tooltip.skyblock.artifact_iron_hide_amulet.tooltip2": "and timeless. Sand mysteriously and endlessly",
+  "tooltip.skyblock.artifact_iron_hide_amulet.tooltip3": "slips through the cracks in the iron",
+
+  "tooltip.skyblock.rarity.common": "Rarity: §r[§8§lCommon§r]",
+  "tooltip.skyblock.rarity.rare": "Rarity: §r[§a§lRare§r]",
+  "tooltip.skyblock.rarity.unique": "Rarity: §r[§6§lUnique§r]",
+  "tooltip.skyblock.rarity_info_extended.custom": "§r[§5§lCustom§r]",
+  "tooltip.skyblock.rarity_info_extended.gilded": "§r[§e§lGILDED§r]",
+  "tooltip.skyblock.rarity_info_extended.gifted": "§r[§a§lGifted§r]"
 }

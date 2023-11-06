@@ -2,11 +2,14 @@ package net.me.skyblock;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.me.skyblock.blocks_and_items.ModBlocks;
 import net.me.skyblock.entity.ModEntities;
 import net.me.skyblock.entity.mobs.mcd.rendering.WispRenderer;
 import net.me.skyblock.api.ModModelPredicateProvider;
+import net.me.skyblock.particle.ModParticles;
+import net.me.skyblock.particle.halloween.NodeTracker;
 import net.minecraft.client.render.RenderLayer;
 
 public class SkyBlockClient implements ClientModInitializer {
@@ -42,5 +45,7 @@ public class SkyBlockClient implements ClientModInitializer {
 
         EntityRendererRegistry.register(ModEntities.WISP, WispRenderer::new);
         ModModelPredicateProvider.registerModModels();
+
+        ParticleFactoryRegistry.getInstance().register(ModParticles.HALLOWEEN__NODE_TRACKER, NodeTracker.Factory::new);
     }
 }

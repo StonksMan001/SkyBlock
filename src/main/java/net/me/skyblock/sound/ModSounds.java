@@ -57,6 +57,9 @@ public class ModSounds {
     public static SoundEvent BROKEN_HEARTH_OF_ENDER = registerSoundEvent("broken_hearth_of_ender");
     public static SoundEvent OBSIDIAN_CAVERN = registerSoundEvent("obsidian_cavern");
     public static SoundEvent TO_THE_BEGINNING = registerSoundEvent("to_the_beginning");
+    public static SoundEvent H__DESPAIR = registerSoundEvent("h__despair");
+    public static SoundEvent H__ABANDONED_VALLEY = registerSoundEvent("h__abandoned_valley");
+    public static SoundEvent H__BREACH_OF_WORLDS = registerSoundEvent("h__breach_of_worlds");
     public static SoundEvent ARTIFACT_IRON_HIDE_AMULET_USED = registerSoundEvent("artifact_iron_hide_amulet_used");
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(SkyBlock.MOD_ID, name);

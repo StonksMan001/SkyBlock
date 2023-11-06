@@ -408,8 +408,8 @@ public class ModBlocks {
             new VineBlock(FabricBlockSettings.copyOf(Blocks.VINE).noCollision().ticksRandomly().strength(0.2f).sounds(BlockSoundGroup.VINE)));
     //QUARK
     //HALLOWEEN 2023
-    public static final Block HALLOWEEN__NODE = registerBlock("h__node",
-            new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
+    public static final Block H__NODE = registerBlock("h__node",
+            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
     //HALLOWEEN 2023
 
     private static Block registerBlockWithoutItem(String name, Block block) {
@@ -433,6 +433,6 @@ public class ModBlocks {
         return false;
     }
     public static void registerModBlocks() {
-        SkyBlock.LOGGER.info("Registering ModBlocks for " + SkyBlock.MOD_ID);
+        SkyBlock.LOGGER.info("Registering Blocks for " + SkyBlock.MOD_ID);
     }
 }

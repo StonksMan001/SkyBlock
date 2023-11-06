@@ -11,9 +11,12 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
-    ENDERITE(MiningLevels.NETHERITE, 2236, 11.0f, 6.0f, 19, () -> Ingredient.ofItems(ModItems.ENDERITE_INGOT)),
-    BENIKARD(MiningLevels.NETHERITE, 2236, 11.0f, -0.5f, 15, () -> Ingredient.ofItems(Items.WATER_BUCKET)),
-    ABERYTHE(MiningLevels.NETHERITE, 2100, 10.0f, 4.7f, 16, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));;
+    ENDERITE(MiningLevels.NETHERITE, 2236, 11.0f, -1f, 19, () -> Ingredient.ofItems(ModItems.ENDERITE_INGOT)),
+    BENIKARD(MiningLevels.NETHERITE, 2236, 0f, -1f, 15, () -> Ingredient.ofItems(Items.WATER_BUCKET)),
+    ABERYTHE(MiningLevels.NETHERITE, 2100, 10.0f, -1f, 16, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    H__ANOMALITE(MiningLevels.NETHERITE, 200, 11.0f, -1f, 1, () -> Ingredient.ofItems(ModItems.H__ANOMALITE_FRAGMENT)),
+    H__ANOMALITE_EXOPLASMIC(MiningLevels.NETHERITE, 2000, 11.0f, -1f, 1, () -> Ingredient.ofItems(ModItems.H__ANOMALITE_FRAGMENT)),
+    H__ANOMALITE_ENDOPLASMIC(MiningLevels.NETHERITE, 1000, 15.0f, -1f, 1, () -> Ingredient.ofItems(ModItems.H__ANOMALITE_FRAGMENT));
 
     private final int miningLevel;
     private final int itemDurability;

@@ -411,6 +411,30 @@
       }
     ]
   },
+  "h__despair": {
+    "sounds": [
+      {
+        "name": "skyblock:h__despair",
+        "stream": true
+      }
+    ]
+  },
+  "h__abandoned_valley": {
+    "sounds": [
+      {
+        "name": "skyblock:h__abandoned_valley",
+        "stream": true
+      }
+    ]
+  },
+  "h__breach_of_worlds": {
+    "sounds": [
+      {
+        "name": "skyblock:h__breach_of_worlds",
+        "stream": true
+      }
+    ]
+  },
   "artifact_iron_hide_amulet_used": {
     "sounds": [
       {

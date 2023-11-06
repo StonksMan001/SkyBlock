@@ -71,6 +71,19 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.BLUISHE_MUSHROOM);
                 entries.add(ModBlocks.END_BUSH);
                 entries.add(ModBlocks.END_FLOWER);
+                entries.add(ModBlocks.H__NODE);
+                entries.add(ModItems.H__NODE_CORE);
+                entries.add(ModItems.H__PEARL_OF_DARKNESS);
+                entries.add(ModItems.H__PLASMA_1);
+                entries.add(ModItems.H__PLASMA_2);
+                entries.add(ModItems.H__ANOMALITE_FRAGMENT);
+                entries.add(ModItems.H__ANOMALITE_HANDLE);
+                entries.add(ModItems.H__ANOMALITE_SWORD);
+                entries.add(ModItems.H__ANOMALITE_SWORD1);
+                entries.add(ModItems.H__ANOMALITE_SWORD2);
+                entries.add(ModItems.H__ANOMALITE_PICKAXE);
+                entries.add(ModItems.H__ANOMALITE_PICKAXE1);
+                entries.add(ModItems.H__ANOMALITE_PICKAXE2);
             }).build());
     public static ItemGroup MCD = Registry.register(Registries.ITEM_GROUP, new Identifier(SkyBlock.MOD_ID,"minecraft_dungeons"),
             FabricItemGroup.builder().displayName(Text.literal("Sky Block: Minecraft Dungeons (ilosemypotato)")).icon(() -> new ItemStack(ModItems.TWIN_BOW)).entries((displayContext, entries) -> {

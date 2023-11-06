@@ -39,8 +39,22 @@
   "item.skyblock.aberythe_hoe": "Aberythe Hoe",
   "item.skyblock.aberythe_pickaxe": "Aberythe Pickaxe",
   "item.skyblock.aberythe_axe": "Aberythe Axe",
-
   "item.skyblock.aberythe_gem": "Aberythe Gem",
+
+  "item.skyblock.h__plasma_1": "Exoplasma",
+  "item.skyblock.h__plasma_2": "Endoplasma",
+  "item.skyblock.h__anomalite_fragment": "Anomalite Fragment",
+  "item.skyblock.h__anomalite_handle": "Anomalite Handle",
+  "item.skyblock.h__anomalite_sword": "Anomalite Sword",
+  "item.skyblock.h__anomalite_sword1": "Anomalite Sword",
+  "item.skyblock.h__anomalite_sword2": "Anomalite Sword",
+  "item.skyblock.h__anomalite_pickaxe": "Anomalite Pickaxe",
+  "item.skyblock.h__anomalite_pickaxe1": "Anomalite Pickaxe",
+  "item.skyblock.h__anomalite_pickaxe2": "Anomalite Pickaxe",
+  "item.skyblock.h__pearl_of_darkness": "Pearl of Darkness",
+  "item.skyblock.h__node_core": "Node Core",
+  "block.skyblock.h__node": "Node",
+
   "block.skyblock.unstable_obsidian": "Unstable Obsidian",
   "block.skyblock.purple_shroomlight": "Purple Shroomlight",
   "block.skyblock.dark_blue_shroomlight": "Dark Blue Shroomlight",
@@ -242,5 +256,7 @@
   "tooltip.skyblock.rarity.unique": "Rarity: §r[§6§lUnique§r]",
   "tooltip.skyblock.rarity_info_extended.custom": "§r[§5§lCustom§r]",
   "tooltip.skyblock.rarity_info_extended.gilded": "§r[§e§lGILDED§r]",
-  "tooltip.skyblock.rarity_info_extended.gifted": "§r[§a§lGifted§r]"
+  "tooltip.skyblock.rarity_info_extended.gifted": "§r[§a§lGifted§r]",
+
+  "enchantment.skyblock.primitiveness_curse": "Primitiveness Curse"
 }

@@ -5,11 +5,13 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.me.skyblock.blocks_and_items.ModBlocks;
+import net.me.skyblock.enchantments.ModEnchantments;
 import net.me.skyblock.entity.ModEntities;
 import net.me.skyblock.entity.mobs.mcd.WispEntity;
 import net.me.skyblock.blocks_and_items.ModCreativeInventoryGroups;
 import net.me.skyblock.blocks_and_items.ModItems;
 import net.me.skyblock.entity.non_mobs.ModPaintings;
+import net.me.skyblock.particle.ModParticles;
 import net.me.skyblock.world.dimension.ModDimensions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,8 +24,10 @@ public class SkyBlock implements ModInitializer {
 		ModCreativeInventoryGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModEnchantments.registerModEnchantments();
 		ModDimensions.register();
 		ModPaintings.registerPaintings();
+		ModParticles.registerParticles();
 
 		StrippableBlockRegistry.register(ModBlocks.END_STEM, ModBlocks.STRIPPED_END_STEM);
 		StrippableBlockRegistry.register(ModBlocks.END_HYPHAE, ModBlocks.STRIPPED_END_HYPHAE);

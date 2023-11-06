@@ -45,7 +45,7 @@ renderClouds:"true"
 resourcePacks:["vanilla","fabric"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:en_us
+lang:hu_hu
 soundDevice:""
 chatVisibility:0
 chatOpacity:1.0
@@ -126,7 +126,7 @@ soundCategory_block:1.0
 soundCategory_hostile:0.10211267605633803
 soundCategory_neutral:1.0
 soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_ambient:0.1056338028169014
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true

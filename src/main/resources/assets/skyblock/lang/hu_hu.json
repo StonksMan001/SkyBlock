@@ -39,8 +39,22 @@
   "item.skyblock.aberythe_hoe": "Aberitkapa",
   "item.skyblock.aberythe_pickaxe": "Aberitcsákány",
   "item.skyblock.aberythe_axe": "Aberitfejsze",
-
   "item.skyblock.aberythe_gem": "Aberitkristály",
+
+  "item.skyblock.h__plasma_1": "Exoplazma",
+  "item.skyblock.h__plasma_2": "Endoplazma",
+  "item.skyblock.h__anomalite_fragment": "Anomálium töredék",
+  "item.skyblock.h__anomalite_handle": "Anomálium markolat",
+  "item.skyblock.h__anomalite_sword": "Anomáliumkard",
+  "item.skyblock.h__anomalite_sword1": "Anomáliumkard",
+  "item.skyblock.h__anomalite_sword2": "Anomáliumkard",
+  "item.skyblock.h__anomalite_pickaxe": "Anomáliumcsákány",
+  "item.skyblock.h__anomalite_pickaxe1": "Anomáliumcsákány",
+  "item.skyblock.h__anomalite_pickaxe2": "Anomáliumcsákány",
+  "item.skyblock.h__pearl_of_darkness": "A Sötétség Gyöngye",
+  "item.skyblock.h__node_core": "Csomópont-mag",
+  "block.skyblock.h__node": "Csomópont",
+
   "block.skyblock.unstable_obsidian": "Instabil obszidián",
   "block.skyblock.purple_shroomlight": "Lila fényspóra",
   "block.skyblock.dark_blue_shroomlight": "Sötétkék fényspóra",
@@ -228,5 +242,21 @@
   "painting.skyblock.witherstorm.title": "The Wither Storm",
   "painting.skyblock.witherstorm.author": "Mojang & Telltale Games",
   "painting.skyblock.beni.title": "Beni Jelképe",
-  "painting.skyblock.beni.author": "Dalmi Benedek"
+  "painting.skyblock.beni.author": "Dalmi Benedek",
+
+  "item.skyblock.artifact_iron_hide_amulet_common": "Vasba foglalt amulett",
+  "item.skyblock.artifact_iron_hide_amulet_rare": "Vasba foglalt amulett",
+  "item.skyblock.artifact_iron_hide_amulet_custom": "Vasba foglalt amulett",
+  "tooltip.skyblock.artifact_iron_hide_amulet.tooltip1": "A Vasba foglalt amulett egy ősrégi",
+  "tooltip.skyblock.artifact_iron_hide_amulet.tooltip2": "tárgy. A benne lévő repedésekből",
+  "tooltip.skyblock.artifact_iron_hide_amulet.tooltip3": "a homok időnként kipereg",
+
+  "tooltip.skyblock.rarity.common": "Gyakoriság: §r[§8§lGyakori§r]",
+  "tooltip.skyblock.rarity.rare": "Gyakoriság: §r[§a§lRitka§r]",
+  "tooltip.skyblock.rarity.unique": "Gyakoriság: §r[§6§lKülönleges§r]",
+  "tooltip.skyblock.rarity_info_extended.custom": "§r[§5§lEgyedi§r]",
+  "tooltip.skyblock.rarity_info_extended.gilded": "§r[§e§lARANYOZOTT§r]",
+  "tooltip.skyblock.rarity_info_extended.gifted": "§r[§a§lAjándék§r]",
+
+  "enchantment.skyblock.primitiveness_curse": "Primitivitás átka"
 }

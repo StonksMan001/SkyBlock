@@ -84,6 +84,10 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModItems.H__ANOMALITE_PICKAXE);
                 entries.add(ModItems.H__ANOMALITE_PICKAXE1);
                 entries.add(ModItems.H__ANOMALITE_PICKAXE2);
+                entries.add(ModItems.H__ANOMALITE_HELMET);
+                entries.add(ModItems.H__ANOMALITE_CHESTPLATE);
+                entries.add(ModItems.H__ANOMALITE_LEGGINGS);
+                entries.add(ModItems.H__ANOMALITE_BOOTS);
             }).build());
     public static ItemGroup MCD = Registry.register(Registries.ITEM_GROUP, new Identifier(SkyBlock.MOD_ID,"minecraft_dungeons"),
             FabricItemGroup.builder().displayName(Text.literal("Sky Block: Minecraft Dungeons (ilosemypotato)")).icon(() -> new ItemStack(ModItems.TWIN_BOW)).entries((displayContext, entries) -> {

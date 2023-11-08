@@ -1,4 +1,4 @@
-package net.me.skyblock.blocks_and_items.items.util;
+package net.me.skyblock.blocks_and_items.items.util.basic;
 
 import net.fabricmc.yarn.constants.MiningLevels;
 import net.me.skyblock.blocks_and_items.ModItems;

@@ -59,12 +59,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2023-06-29 15:40:01 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2023-06-29 15:40:00 +0200"
@@ -101,12 +95,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2023-06-29 15:40:02 +0200"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
     "criteria": {
       "has_polished_andesite": "2023-06-29 15:40:00 +0200"
@@ -130,6 +118,18 @@
       "netherite_armor": "2023-06-29 15:40:00 +0200"
     },
     "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-06-29 15:40:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-06-29 15:40:02 +0200"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }

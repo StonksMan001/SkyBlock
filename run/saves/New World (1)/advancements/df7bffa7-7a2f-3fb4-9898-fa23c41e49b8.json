@@ -53,21 +53,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/golden_shovel": {
     "criteria": {
       "has_gold_ingot": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/orange_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
     },
     "done": true
   },
@@ -86,18 +74,6 @@
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
     },
     "done": true
   },
@@ -131,12 +107,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2023-05-14 12:59:31 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2023-05-14 12:59:30 +0200"
@@ -155,24 +125,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2023-05-14 12:59:30 +0200"
@@ -188,18 +140,6 @@
   "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/red_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/virid_jadestone_pedestal": {
-    "criteria": {
-      "has_virid_jadestone_slab": "2023-05-14 12:59:30 +0200"
     },
     "done": true
   },
@@ -227,12 +167,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brown_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2023-05-14 12:59:30 +0200"
@@ -248,24 +182,6 @@
   "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
-  "betterend:root": {
-    "criteria": {
-      "welcome": "2023-05-14 12:59:32 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/purple_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
     },
     "done": true
   },
@@ -299,30 +215,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/green_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/golden_hammer": {
-    "criteria": {
-      "has_gold_ingot": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
-  "betterend:all_elytras": {
-    "criteria": {
-      "armored": "2023-05-14 12:59:30 +0200"
-    },
-    "done": false
-  },
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2023-05-14 12:59:30 +0200"
@@ -353,33 +245,15 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2023-05-14 12:59:32 +0200"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/flower_pot": {
     "criteria": {
       "has_brick": "2023-05-14 12:59:30 +0200"
     },
     "done": true
   },
-  "betterend:recipes/misc/virid_jadestone_pillar": {
-    "criteria": {
-      "has_virid_jadestone_slab": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
     },
     "done": true
   },
@@ -401,23 +275,23 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/gold_chandelier": {
-    "criteria": {
-      "has_gold_ingot": "2023-05-14 12:59:30 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2023-05-14 12:59:30 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "has_bed": "2023-05-14 12:59:30 +0200"
+      "unlock_right_away": "2023-05-14 12:59:31 +0200"
     },
     "done": true
   },
-  "DataVersion": 3337
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-05-14 12:59:32 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
 }

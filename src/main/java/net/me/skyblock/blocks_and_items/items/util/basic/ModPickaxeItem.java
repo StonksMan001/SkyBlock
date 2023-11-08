@@ -1,4 +1,4 @@
-package net.me.skyblock.blocks_and_items.items.util;
+package net.me.skyblock.blocks_and_items.items.util.basic;
 
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;

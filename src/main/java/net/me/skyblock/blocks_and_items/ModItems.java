@@ -4,13 +4,15 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.me.skyblock.SkyBlock;
 import net.me.skyblock.blocks_and_items.items.end.EnchantedEnderiteAppleItem;
 import net.me.skyblock.blocks_and_items.items.abyss.Loran;
-import net.me.skyblock.blocks_and_items.items.util.ModFoodComponents;
-import net.me.skyblock.blocks_and_items.items.util.ModToolMaterials;
+import net.me.skyblock.blocks_and_items.items.util.AnomaliteArmorItem;
+import net.me.skyblock.blocks_and_items.items.util.basic.ModFoodComponents;
+import net.me.skyblock.blocks_and_items.items.util.basic.ModToolMaterials;
 import net.me.skyblock.blocks_and_items.items.mcd.mcd_artifact.IronSkinItem_Common;
-import net.me.skyblock.blocks_and_items.items.util.ModArmorMaterials;
-import net.me.skyblock.blocks_and_items.items.util.ModAxeItem;
+import net.me.skyblock.blocks_and_items.items.util.basic.ModArmorMaterials;
+import net.me.skyblock.blocks_and_items.items.util.basic.ModAxeItem;
 import net.me.skyblock.blocks_and_items.items.mcd.mcd_artifact.IronSkinItem_Rare;
 import net.me.skyblock.blocks_and_items.items.mcd.mcd_ranged.ShortBowItem;
+import net.me.skyblock.blocks_and_items.items.util.custom_unenchantable.UnenchantableArmorItem;
 import net.me.skyblock.blocks_and_items.items.util.custom_unenchantable.UnenchantablePickaxeItem;
 import net.me.skyblock.blocks_and_items.items.util.custom_unenchantable.UnenchantableSwordItem;
 import net.me.skyblock.sound.ModSounds;
@@ -153,7 +155,14 @@ public class ModItems {
             new UnenchantablePickaxeItem(ModToolMaterials.H__ANOMALITE_EXOPLASMIC, 10, 1.2f -4f, new FabricItemSettings()));
     public static final Item H__ANOMALITE_PICKAXE2 = registerItem("h__anomalite_pickaxe2",
             new UnenchantablePickaxeItem(ModToolMaterials.H__ANOMALITE_ENDOPLASMIC, 15, 1.2f -4f, new FabricItemSettings()));
-
+    public static final Item H__ANOMALITE_HELMET = registerItem("h__anomalite_helmet",
+            new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item H__ANOMALITE_CHESTPLATE = registerItem("h__anomalite_chestplate",
+            new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item H__ANOMALITE_LEGGINGS = registerItem("h__anomalite_leggings",
+            new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item H__ANOMALITE_BOOTS = registerItem("h__anomalite_boots",
+            new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
     //HALLOWEEN 2023
 
     private static Item registerItem(String name, Item item) {

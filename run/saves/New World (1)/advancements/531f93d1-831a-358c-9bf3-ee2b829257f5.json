@@ -89,12 +89,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2023-02-28 17:19:28 +0100"
-    },
-    "done": false
-  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2023-02-28 17:19:26 +0100"
@@ -173,5 +167,18 @@
     },
     "done": true
   },
-  "DataVersion": 3218
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2023-11-21 16:13:38 +0100",
+      "minecraft:plains": "2023-02-28 17:19:28 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-11-21 16:01:57 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
 }

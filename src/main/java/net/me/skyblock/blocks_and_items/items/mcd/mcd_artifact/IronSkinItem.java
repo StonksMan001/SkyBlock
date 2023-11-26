@@ -1,12 +1,13 @@
 package net.me.skyblock.blocks_and_items.items.mcd.mcd_artifact;
 
+import net.me.skyblock.blocks_and_items.items.mcd.McdArtifactItem;
 import net.me.skyblock.sound.ModSounds;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NbtString;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Style;
 import net.minecraft.text.Text;
@@ -19,8 +20,8 @@ import org.jetbrains.annotations.Nullable;
 import java.util.Iterator;
 import java.util.List;
 
-public class IronSkinItem_Rare extends Item {
-    public IronSkinItem_Rare(Settings settings) {
+public class IronSkinItem extends McdArtifactItem {
+    public IronSkinItem(Settings settings) {
         super(settings);
     }
 

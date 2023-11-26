@@ -28,10 +28,10 @@ ArmorMaterial
         map.put(ArmorItem.Type.HELMET, 4);
     }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.2f, 0.2f, () -> Ingredient.ofItems(ModItems.ABERYTHE_GEM)),
     H__ANOMALITE("h__anomalite", 45, Util.make(new EnumMap<ArmorItem.Type, Integer>(ArmorItem.Type.class), map -> {
-        map.put(ArmorItem.Type.BOOTS, 11);
-        map.put(ArmorItem.Type.LEGGINGS, 9);
-        map.put(ArmorItem.Type.CHESTPLATE, 13);
-        map.put(ArmorItem.Type.HELMET, 11);
+        map.put(ArmorItem.Type.BOOTS, 3);
+        map.put(ArmorItem.Type.LEGGINGS, 6);
+        map.put(ArmorItem.Type.CHESTPLATE, 8);
+        map.put(ArmorItem.Type.HELMET, 3);
     }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.3f, 0.25f, () -> Ingredient.ofItems(ModItems.H__ANOMALITE_FRAGMENT));
     public static final StringIdentifiable.Codec<ArmorMaterials> CODEC;
     private static final EnumMap<ArmorItem.Type, Integer> BASE_DURABILITY;

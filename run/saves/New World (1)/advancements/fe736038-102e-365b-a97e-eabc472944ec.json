@@ -1,10 +1,4 @@
 {
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_coal": "2023-04-26 11:31:52 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
       "has_furnace": "2023-04-26 11:31:26 +0200"
@@ -14,12 +8,6 @@
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_pickaxe": "2023-04-26 11:31:26 +0200"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/end_stone_smelter": {
-    "criteria": {
-      "has_tag_furnaces": "2023-04-26 11:31:26 +0200"
     },
     "done": true
   },
@@ -35,27 +23,9 @@
     },
     "done": true
   },
-  "betterend:recipes/decorations/amber_gem_block": {
-    "criteria": {
-      "has_626_amber_block": "2023-04-26 11:31:26 +0200"
-    },
-    "done": true
-  },
-  "betterend:root": {
-    "criteria": {
-      "welcome": "2023-04-26 11:31:28 +0200"
-    },
-    "done": true
-  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2023-04-26 11:31:26 +0200"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/respawn_obelisk": {
-    "criteria": {
-      "has_669_amber_block": "2023-04-26 11:31:26 +0200"
     },
     "done": true
   },
@@ -77,12 +47,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/coal_block": {
-    "criteria": {
-      "has_coal": "2023-04-26 11:31:52 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_pickaxe": "2023-04-26 11:31:26 +0200"
@@ -95,5 +59,89 @@
     },
     "done": false
   },
-  "DataVersion": 3218
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2023-04-26 11:31:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2023-04-26 11:31:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2023-11-10 14:11:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2023-11-10 14:11:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2023-11-10 14:11:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2023-11-10 14:11:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2023-11-10 14:11:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-11-10 14:11:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2023-11-10 14:11:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2023-11-10 14:11:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2023-11-10 14:11:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2023-11-10 14:11:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2023-11-10 14:11:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2023-11-10 14:11:15 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
 }

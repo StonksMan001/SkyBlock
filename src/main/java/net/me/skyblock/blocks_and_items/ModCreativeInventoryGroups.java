@@ -2,16 +2,34 @@ package net.me.skyblock.blocks_and_items;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.me.skyblock.SkyBlock;
+import net.me.skyblock.blocks_and_items.items.util.NullItem;
+import net.me.skyblock.blocks_and_items.items.util.TileBlankItem;
+import net.minecraft.item.FireworkRocketItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModCreativeInventoryGroups {
-    public static ItemGroup FYBERITE = Registry.register(Registries.ITEM_GROUP, new Identifier(SkyBlock.MOD_ID, "citrine"),
-            FabricItemGroup.builder().displayName(Text.literal("Sky Block: Feature (Qbaesz13, SoryYPMod)")).icon(() -> new ItemStack(ModItems.ENDERITE_SWORD)).entries((displayContext, entries) -> {
+    public static ItemGroup SKYBLOCK = Registry.register(Registries.ITEM_GROUP, new Identifier(SkyBlock.MOD_ID, "citrine"),
+            FabricItemGroup.builder().displayName(Text.literal("SkyBlock-Multimod")).icon(() -> new ItemStack(ModItems.Z__LOGO1)).entries((displayContext, entries) -> {
+                entries.add(ModItems.Z__TILE_SKYBLOCK_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                entries.add(ModItems.Z__TILE_SKYBLOCK_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                entries.add(ModItems.Z__TILE_SKYBLOCK_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                entries.add(ModItems.Z__TILE_SKYBLOCK_4, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                entries.add(ModItems.Z__TILE_SKYBLOCK_5, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                entries.add(ModItems.Z__TILE_SKYBLOCK_6, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                entries.add(ModItems.Z__TILE_SKYBLOCK_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                entries.add(ModItems.Z__TILE_SKYBLOCK_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                entries.add(ModItems.Z__TILE_SKYBLOCK_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                entries.add(ModItems.BOTTLE_OF_ANT_JAM);
+                entries.add(ModBlocks.ANT_JAM_BLOCK);
+                entries.add(ModBlocks.SUSPICIOUS_COARSE_DIRT);
+                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 0, 6);
+                ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 0, 9);
                 entries.add(ModItems.ENDERITE_INGOT);
                 entries.add(ModItems.ENDERITE_APPLE);
                 entries.add(ModItems.ENCHANTED_ENDERITE_APPLE);
@@ -27,7 +45,6 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModItems.ENDERITE_SHOVEL);
                 entries.add(ModItems.ENDERITE_HOE);
                 entries.add(ModItems.ENDERITE_PICKAXE);
-                entries.add(ModItems.BOTTLE_OF_ANT_JAM);
                 entries.add(ModBlocks.ENDMERALD_ORE);
                 entries.add(ModBlocks.ENDMERALD_BLOCK);
                 entries.add(ModBlocks.ENDERITE_ORE);
@@ -36,8 +53,6 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.SOLID_ROCK);
                 entries.add(ModBlocks.END_GRASS);
                 entries.add(ModBlocks.BLUISHE_GRASS);
-                entries.add(ModBlocks.ANT_JAM_BLOCK);
-                entries.add(ModBlocks.SUSPICIOUS_COARSE_DIRT);
                 entries.add(ModBlocks.TRANSPARENT_BLOCK);
                 entries.add(ModBlocks.END_WART_BLOCK);
                 entries.add(ModBlocks.BLUE_WART);
@@ -71,6 +86,8 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.BLUISHE_MUSHROOM);
                 entries.add(ModBlocks.END_BUSH);
                 entries.add(ModBlocks.END_FLOWER);
+                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 6, 7);
+                ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 9, 9);
                 entries.add(ModBlocks.H__NODE);
                 entries.add(ModItems.H__NODE_CORE);
                 entries.add(ModItems.H__PEARL_OF_DARKNESS);
@@ -88,11 +105,13 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModItems.H__ANOMALITE_CHESTPLATE);
                 entries.add(ModItems.H__ANOMALITE_LEGGINGS);
                 entries.add(ModItems.H__ANOMALITE_BOOTS);
+                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 13, 1);
+                ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 18, 9);
             }).build());
     public static ItemGroup MCD = Registry.register(Registries.ITEM_GROUP, new Identifier(SkyBlock.MOD_ID,"minecraft_dungeons"),
-            FabricItemGroup.builder().displayName(Text.literal("Sky Block: Minecraft Dungeons (ilosemypotato)")).icon(() -> new ItemStack(ModItems.TWIN_BOW)).entries((displayContext, entries) -> {
+            FabricItemGroup.builder().displayName(Text.literal("Sky Block: Minecraft Dungeons (ilosemypotato)")).icon(() -> new ItemStack(ModItems.Z__LOGO2)).entries((displayContext, entries) -> {
                 entries.add(ModItems.SHORTBOW);
-                entries.add(ModItems.LONGBOW);
+                //entries.add(ModItems.LONGBOW);
                 entries.add(ModItems.TWIN_BOW);
                 entries.add(ModItems.AUTO_CROSSBOW);
                 entries.add(ModItems.WOODEN_RAPIER);
@@ -106,11 +125,10 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.MOSSIER_SPRUCE_PLANKS);
                 entries.add(ModBlocks.BARREN_GRASS_BLOCK);
                 entries.add(ModBlocks.OG_PURPUR_BLOCK);
-                entries.add(ModItems.ARTIFACT_IRON_HIDE_AMULET_COMMON);
-                entries.add(ModItems.ARTIFACT_IRON_HIDE_AMULET_RARE);
+                entries.add(ModItems.MCD__ARTIFACT_IRON_HIDE_AMULET);
             }).build());
     public static ItemGroup UNUSED = Registry.register(Registries.ITEM_GROUP, new Identifier(SkyBlock.MOD_ID,"unused"),
-            FabricItemGroup.builder().displayName(Text.literal("Sky Block: Unused (Qbaesz13)")).icon(() -> new ItemStack(ModItems.FYBERITE)).entries((displayContext, entries) -> {
+            FabricItemGroup.builder().displayName(Text.literal("Sky Block: Unused (Qbaesz13)")).icon(() -> new ItemStack(ModItems.Z__LOGO5)).entries((displayContext, entries) -> {
                 entries.add(ModItems.MUSIC_DISC_WITHERSTORM);
                 entries.add(ModItems.DISC_FRAGMENT_WITHERSTORM);
                 entries.add(ModItems.FYBERITE);
@@ -121,13 +139,13 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModItems.STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE);
                 entries.add(ModBlocks.VOID_BLOCK);
                 entries.add(ModBlocks.ABYSS_STONE_OG);
-                entries.add(ModBlocks.STRIPPED_ABYSCULK_LOG);
-                entries.add(ModBlocks.STRIPPED_ABYSCULK_WOOD);
+                //entries.add(ModBlocks.STRIPPED_ABYSCULK_LOG);
+                //entries.add(ModBlocks.STRIPPED_ABYSCULK_WOOD);
                 entries.add(ModBlocks.SWEET_BERRY_JAM_BLOCK);
                 entries.add(ModItems.LIGHTNING_SWORD);
             }).build());
     public static ItemGroup ABYSS = Registry.register(Registries.ITEM_GROUP, new Identifier(SkyBlock.MOD_ID,"classified"),
-            FabricItemGroup.builder().displayName(Text.literal("The Abyss Chapter II: Feature (Y3Z0N)")).icon(() -> new ItemStack(ModItems.LORAN)).entries((displayContext, entries) -> {
+            FabricItemGroup.builder().displayName(Text.literal("The Abyss Chapter II: Feature (Y3Z0N)")).icon(() -> new ItemStack(ModItems.Z__LOGO3)).entries((displayContext, entries) -> {
                 entries.add(ModItems.ABERYTHE_GEM);
                 entries.add(ModItems.ABERYTHE_HELMET);
                 entries.add(ModItems.ABERYTHE_CHESTPLATE);
@@ -238,7 +256,7 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.ABYSCULK_SLAB);
             }).build());
     public static ItemGroup QUARK = Registry.register(Registries.ITEM_GROUP, new Identifier(SkyBlock.MOD_ID,"quark"),
-            FabricItemGroup.builder().displayName(Text.literal("Quark: Features (Vazkii)")).icon(() -> new ItemStack(ModBlocks.APPLE_CRATE)).entries((displayContext, entries) -> {
+            FabricItemGroup.builder().displayName(Text.literal("Quark: Features (Vazkii)")).icon(() -> new ItemStack(ModItems.Z__LOGO4)).entries((displayContext, entries) -> {
                 entries.add(ModBlocks.APPLE_CRATE);
                 entries.add(ModBlocks.BEETROOT_CRATE);
                 entries.add(ModBlocks.CARROT_CRATE);
@@ -260,7 +278,7 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.CAVE_ROOTS);
             }).build());
     public static ItemGroup PEARFECTION = Registry.register(Registries.ITEM_GROUP, new Identifier(SkyBlock.MOD_ID,"pearfection"),
-            FabricItemGroup.builder().displayName(Text.literal("Pearfection: Feature (DigitalPear_11)")).icon(() -> new ItemStack(ModBlocks.FLOWERING_CALLERY_LEAVES)).entries((displayContext, entries) -> {
+            FabricItemGroup.builder().displayName(Text.literal("Pearfection: Feature (DigitalPear_11)")).icon(() -> new ItemStack(ModItems.Z__LOGO6)).entries((displayContext, entries) -> {
                 entries.add(ModBlocks.CALLERY_LOG);
                 entries.add(ModBlocks.CALLERY_WOOD);
                 entries.add(ModBlocks.STRIPPED_CALLERY_LOG);
@@ -273,4 +291,24 @@ public class ModCreativeInventoryGroups {
             }).build());
 
     public static void registerItemGroups() {}
+    private static void addSpaces(ItemGroup.Entries entries, ItemGroup.StackVisibility visibility, int used_spaces, int spaces) {
+        for (byte b : NullItem.VALUES) {
+            if (spaces != 0) {
+                ItemStack itemStack = new ItemStack(ModItems.Z__NULL);
+                NullItem.setSpaces(itemStack, (byte) (used_spaces + b));
+                spaces = spaces-1;
+            entries.add(itemStack, visibility);
+            }
+        }
+    }
+    private static void addTiles(ItemGroup.Entries entries, ItemGroup.StackVisibility visibility, int used_tiles, int tiles) {
+        for (byte b : NullItem.VALUES) {
+            if (tiles != 0) {
+                ItemStack itemStack = new ItemStack(ModItems.Z__TILE_BLANK);
+                TileBlankItem.setTiles(itemStack, (byte) (used_tiles + b));
+                tiles = tiles-1;
+                entries.add(itemStack, visibility);
+            }
+        }
+    }
 }

@@ -4,9 +4,12 @@
   "package": "net.me.skyblock.api.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ChorusPlantBlockMixin",
+    "ItemGroupsMixin"
   ],
   "client": [
-    "ChorusPlantBlockMixin"
+    "ChorusPlantBlockMixin",
+    "ItemGroupsMixin"
   ],
   "injectors": {
     "defaultRequire": 1

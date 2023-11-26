@@ -5,18 +5,20 @@ import net.me.skyblock.SkyBlock;
 import net.me.skyblock.blocks_and_items.items.end.EnchantedEnderiteAppleItem;
 import net.me.skyblock.blocks_and_items.items.abyss.Loran;
 import net.me.skyblock.blocks_and_items.items.util.AnomaliteArmorItem;
+import net.me.skyblock.blocks_and_items.items.util.NullItem;
+import net.me.skyblock.blocks_and_items.items.util.TileBlankItem;
 import net.me.skyblock.blocks_and_items.items.util.basic.ModFoodComponents;
 import net.me.skyblock.blocks_and_items.items.util.basic.ModToolMaterials;
 import net.me.skyblock.blocks_and_items.items.mcd.mcd_artifact.IronSkinItem_Common;
 import net.me.skyblock.blocks_and_items.items.util.basic.ModArmorMaterials;
 import net.me.skyblock.blocks_and_items.items.util.basic.ModAxeItem;
-import net.me.skyblock.blocks_and_items.items.mcd.mcd_artifact.IronSkinItem_Rare;
+import net.me.skyblock.blocks_and_items.items.mcd.mcd_artifact.IronSkinItem;
 import net.me.skyblock.blocks_and_items.items.mcd.mcd_ranged.ShortBowItem;
-import net.me.skyblock.blocks_and_items.items.util.custom_unenchantable.UnenchantableArmorItem;
 import net.me.skyblock.blocks_and_items.items.util.custom_unenchantable.UnenchantablePickaxeItem;
 import net.me.skyblock.blocks_and_items.items.util.custom_unenchantable.UnenchantableSwordItem;
 import net.me.skyblock.sound.ModSounds;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -111,10 +113,8 @@ public class ModItems {
             new BowItem(new FabricItemSettings().maxDamage(384)));
     public static final Item AUTO_CROSSBOW = registerItem("auto_crossbow",
             new CrossbowItem(new FabricItemSettings().maxDamage(384)));
-    public static final Item ARTIFACT_IRON_HIDE_AMULET_COMMON= registerItem("artifact_iron_hide_amulet_common",
+    public static final Item MCD__ARTIFACT_IRON_HIDE_AMULET= registerItem("mcd__artifact_iron_hide_amulet",
             new IronSkinItem_Common( new FabricItemSettings().maxCount(1).maxDamage(10)));
-    public static final Item ARTIFACT_IRON_HIDE_AMULET_RARE= registerItem("artifact_iron_hide_amulet_rare",
-            new IronSkinItem_Rare( new FabricItemSettings().maxCount(1).maxDamage(15)));
     public static final Item LIGHTNING_SWORD = registerItem("lightning_sword",
             new SwordItem(ModToolMaterials.BENIKARD, 3, 3.5f -4f, new FabricItemSettings()));
     public static final Item DIAMOND_RAPIER = registerItem("diamond_rapier",
@@ -144,17 +144,17 @@ public class ModItems {
     public static final Item H__PEARL_OF_DARKNESS = registerItem("h__pearl_of_darkness",
             new Item(new FabricItemSettings()));
     public static final Item H__ANOMALITE_SWORD = registerItem("h__anomalite_sword",
-            new UnenchantableSwordItem(ModToolMaterials.H__ANOMALITE, 16, 1.6f -4f, new FabricItemSettings()));
+            new UnenchantableSwordItem(ModToolMaterials.H__ANOMALITE, 8, 1.6f -4f, new FabricItemSettings()));
     public static final Item H__ANOMALITE_SWORD1 = registerItem("h__anomalite_sword1",
-            new UnenchantableSwordItem(ModToolMaterials.H__ANOMALITE_EXOPLASMIC, 16, 1.6f -4f, new FabricItemSettings()));
+            new UnenchantableSwordItem(ModToolMaterials.H__ANOMALITE, 8, 1.6f -4f, new FabricItemSettings()));
     public static final Item H__ANOMALITE_SWORD2 = registerItem("h__anomalite_sword2",
-            new UnenchantableSwordItem(ModToolMaterials.H__ANOMALITE_ENDOPLASMIC, 20, 1.6f -4f, new FabricItemSettings()));
+            new UnenchantableSwordItem(ModToolMaterials.H__ANOMALITE, 8, 1.6f -4f, new FabricItemSettings()));
     public static final Item H__ANOMALITE_PICKAXE = registerItem("h__anomalite_pickaxe",
-            new UnenchantablePickaxeItem(ModToolMaterials.H__ANOMALITE, 10, 1.2f -4f, new FabricItemSettings()));
+            new UnenchantablePickaxeItem(ModToolMaterials.H__ANOMALITE, 6, 1.2f -4f, new FabricItemSettings()));
     public static final Item H__ANOMALITE_PICKAXE1 = registerItem("h__anomalite_pickaxe1",
-            new UnenchantablePickaxeItem(ModToolMaterials.H__ANOMALITE_EXOPLASMIC, 10, 1.2f -4f, new FabricItemSettings()));
+            new UnenchantablePickaxeItem(ModToolMaterials.H__ANOMALITE, 6, 1.2f -4f, new FabricItemSettings()));
     public static final Item H__ANOMALITE_PICKAXE2 = registerItem("h__anomalite_pickaxe2",
-            new UnenchantablePickaxeItem(ModToolMaterials.H__ANOMALITE_ENDOPLASMIC, 15, 1.2f -4f, new FabricItemSettings()));
+            new UnenchantablePickaxeItem(ModToolMaterials.H__ANOMALITE, 6, 1.2f -4f, new FabricItemSettings()));
     public static final Item H__ANOMALITE_HELMET = registerItem("h__anomalite_helmet",
             new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item H__ANOMALITE_CHESTPLATE = registerItem("h__anomalite_chestplate",
@@ -164,6 +164,50 @@ public class ModItems {
     public static final Item H__ANOMALITE_BOOTS = registerItem("h__anomalite_boots",
             new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
     //HALLOWEEN 2023
+    //UNUSED
+    public static final Item Z__LOGO_V1 = registerItem("z__logo_v1",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__LOGO_V2 = registerItem("z__logo_v2",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__LOGO_V3 = registerItem("z__logo_v3",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__LOGO_V4 = registerItem("z__logo_v4",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__LOGO1 = registerItem("z__logo1",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__LOGO2 = registerItem("z__logo2",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__LOGO3 = registerItem("z__logo3",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__LOGO4 = registerItem("z__logo4",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__LOGO5 = registerItem("z__logo5",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__LOGO6 = registerItem("z__logo6",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_BLANK = registerItem("z__tile_blank",
+            new TileBlankItem(Blocks.AIR, new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK_1 = registerItem("z__tile_skyblock_1",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK_2 = registerItem("z__tile_skyblock_2",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK_3 = registerItem("z__tile_skyblock_3",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK_4 = registerItem("z__tile_skyblock_4",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK_5 = registerItem("z__tile_skyblock_5",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK_6 = registerItem("z__tile_skyblock_6",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK_7 = registerItem("z__tile_skyblock_7",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK_8 = registerItem("z__tile_skyblock_8",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK_9 = registerItem("z__tile_skyblock_9",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__NULL = registerItem("z__null",
+            new NullItem(Blocks.AIR, new FabricItemSettings()));
+    //UNUSED
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(SkyBlock.MOD_ID, name), item);

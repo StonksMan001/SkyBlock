@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
-    ENDERITE(MiningLevels.NETHERITE, 2236, 11.0f, -1f, 19, () -> Ingredient.ofItems(ModItems.ENDERITE_INGOT)),
+    ENDERITE(MiningLevels.NETHERITE, 2236, 11.0f, -1f, 19, () -> Ingredient.ofItems(ModItems.SP5__ENDERITE_INGOT)),
     BENIKARD(MiningLevels.NETHERITE, 2236, 0f, -1f, 15, () -> Ingredient.ofItems(Items.WATER_BUCKET)),
     ABERYTHE(MiningLevels.NETHERITE, 2100, 10.0f, -1f, 16, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
     H__ANOMALITE(MiningLevels.NETHERITE, 200, 11.0f, -1f, 1, () -> Ingredient.ofItems(ModItems.H__ANOMALITE_FRAGMENT)),

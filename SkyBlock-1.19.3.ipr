@@ -476,6 +476,24 @@
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/950831646d014c9162999019a3cb17d5fc01ac0d/jopt-simple-5.0.4-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.com.github.quiqueck:BCLib:3.0.13">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/com/github/quiqueck/BCLib/3.0.13/BCLib-3.0.13.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/com/github/quiqueck/BCLib/3.0.13/BCLib-3.0.13-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.com.github.quiqueck:WunderLib:1.1.5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/com/github/quiqueck/WunderLib/1.1.5/WunderLib-1.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/com/github/quiqueck/WunderLib/1.1.5/WunderLib-1.1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.curse.maven:continuity-531351:4580976">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/curse/maven/continuity-531351/4580976/continuity-531351-4580976.jar!/" />
@@ -492,6 +510,15 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-api-base/0.4.29+b04edc7a77/fabric-api-base-0.4.29+b04edc7a77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-api-base:0.4.30+7abfd51577">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-api-base/0.4.30+7abfd51577/fabric-api-base-0.4.30+7abfd51577.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-api-base/0.4.30+7abfd51577/fabric-api-base-0.4.30+7abfd51577-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-api-lookup-api-v1:1.6.34+4d8536c977">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-api-lookup-api-v1/1.6.34+4d8536c977/fabric-api-lookup-api-v1-1.6.34+4d8536c977.jar!/" />
@@ -501,6 +528,15 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-api-lookup-api-v1/1.6.34+4d8536c977/fabric-api-lookup-api-v1-1.6.34+4d8536c977-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-api-lookup-api-v1:1.6.35+4d8536c977">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-api-lookup-api-v1/1.6.35+4d8536c977/fabric-api-lookup-api-v1-1.6.35+4d8536c977.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-api-lookup-api-v1/1.6.35+4d8536c977/fabric-api-lookup-api-v1-1.6.35+4d8536c977-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-api:0.84.0+1.20.1">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-api/0.84.0+1.20.1/fabric-api-0.84.0+1.20.1.jar!/" />
@@ -508,6 +544,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-api/0.84.0+1.20.1/fabric-api-0.84.0+1.20.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-api:0.86.1+1.20.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-api/0.86.1+1.20.1/fabric-api-0.86.1+1.20.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-api/0.86.1+1.20.1/fabric-api-0.86.1+1.20.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-biome-api-v1:13.0.10+b3afc78b77">
@@ -537,6 +582,15 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1/1.1.39+b3afc78b77/fabric-blockrenderlayer-v1-1.1.39+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-blockrenderlayer-v1:1.1.40+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1/1.1.40+b3afc78b77/fabric-blockrenderlayer-v1-1.1.40+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1/1.1.40+b3afc78b77/fabric-blockrenderlayer-v1-1.1.40+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-client-tags-api-v1:1.0.20+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.0.20+b3afc78b77/fabric-client-tags-api-v1-1.0.20+b3afc78b77.jar!/" />
@@ -544,6 +598,24 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.0.20+b3afc78b77/fabric-client-tags-api-v1-1.0.20+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-client-tags-api-v1:1.1.1+97bb207577">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.1+97bb207577/fabric-client-tags-api-v1-1.1.1+97bb207577.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.1+97bb207577/fabric-client-tags-api-v1-1.1.1+97bb207577-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-command-api-v1:1.2.33+f71b366f77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-command-api-v1/1.2.33+f71b366f77/fabric-command-api-v1-1.2.33+f71b366f77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-command-api-v1/1.2.33+f71b366f77/fabric-command-api-v1-1.2.33+f71b366f77-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-command-api-v2:2.2.11+b3afc78b77">
@@ -555,6 +627,33 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-command-api-v2/2.2.11+b3afc78b77/fabric-command-api-v2-2.2.11+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-command-api-v2:2.2.12+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-command-api-v2/2.2.12+b3afc78b77/fabric-command-api-v2-2.2.12+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-command-api-v2/2.2.12+b3afc78b77/fabric-command-api-v2-2.2.12+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-commands-v0:0.2.50+df3654b377">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-commands-v0/0.2.50+df3654b377/fabric-commands-v0-0.2.50+df3654b377.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-commands-v0/0.2.50+df3654b377/fabric-commands-v0-0.2.50+df3654b377-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-containers-v0:0.1.62+df3654b377">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-containers-v0/0.1.62+df3654b377/fabric-containers-v0-0.1.62+df3654b377.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-containers-v0/0.1.62+df3654b377/fabric-containers-v0-0.1.62+df3654b377-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-content-registries-v0:4.0.7+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-content-registries-v0/4.0.7+b3afc78b77/fabric-content-registries-v0-4.0.7+b3afc78b77.jar!/" />
@@ -564,6 +663,15 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-content-registries-v0/4.0.7+b3afc78b77/fabric-content-registries-v0-4.0.7+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-content-registries-v0:4.0.9+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-content-registries-v0/4.0.9+b3afc78b77/fabric-content-registries-v0-4.0.9+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-content-registries-v0/4.0.9+b3afc78b77/fabric-content-registries-v0-4.0.9+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-convention-tags-v1:1.5.3+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-convention-tags-v1/1.5.3+b3afc78b77/fabric-convention-tags-v1-1.5.3+b3afc78b77.jar!/" />
@@ -571,6 +679,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-convention-tags-v1/1.5.3+b3afc78b77/fabric-convention-tags-v1-1.5.3+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-convention-tags-v1:1.5.4+a1a980da77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-convention-tags-v1/1.5.4+a1a980da77/fabric-convention-tags-v1-1.5.4+a1a980da77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-convention-tags-v1/1.5.4+a1a980da77/fabric-convention-tags-v1-1.5.4+a1a980da77-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-crash-report-info-v1:0.2.18+aeb40ebe77">
@@ -591,6 +708,15 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1/12.1.11+b3afc78b77/fabric-data-generation-api-v1-12.1.11+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-data-generation-api-v1:12.2.1+1e61dba177">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1/12.2.1+1e61dba177/fabric-data-generation-api-v1-12.2.1+1e61dba177.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1/12.2.1+1e61dba177/fabric-data-generation-api-v1-12.2.1+1e61dba177-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-dimensions-v1:2.1.51+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-dimensions-v1/2.1.51+b3afc78b77/fabric-dimensions-v1-2.1.51+b3afc78b77.jar!/" />
@@ -598,6 +724,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-dimensions-v1/2.1.51+b3afc78b77/fabric-dimensions-v1-2.1.51+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-dimensions-v1:2.1.52+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-dimensions-v1/2.1.52+b3afc78b77/fabric-dimensions-v1-2.1.52+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-dimensions-v1/2.1.52+b3afc78b77/fabric-dimensions-v1-2.1.52+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-entity-events-v1:1.5.21+b3afc78b77">
@@ -609,6 +744,15 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-entity-events-v1/1.5.21+b3afc78b77/fabric-entity-events-v1-1.5.21+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-entity-events-v1:1.5.22+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-entity-events-v1/1.5.22+b3afc78b77/fabric-entity-events-v1-1.5.22+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-entity-events-v1/1.5.22+b3afc78b77/fabric-entity-events-v1-1.5.22+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-events-interaction-v0:0.6.0+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0/0.6.0+b3afc78b77/fabric-events-interaction-v0-0.6.0+b3afc78b77.jar!/" />
@@ -616,6 +760,24 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0/0.6.0+b3afc78b77/fabric-events-interaction-v0-0.6.0+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-events-interaction-v0:0.6.1+e91849a877">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0/0.6.1+e91849a877/fabric-events-interaction-v0-0.6.1+e91849a877.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0/0.6.1+e91849a877/fabric-events-interaction-v0-0.6.1+e91849a877-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-events-lifecycle-v0:0.2.62+df3654b377">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-events-lifecycle-v0/0.2.62+df3654b377/fabric-events-lifecycle-v0-0.2.62+df3654b377.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-events-lifecycle-v0/0.2.62+df3654b377/fabric-events-lifecycle-v0-0.2.62+df3654b377-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-game-rule-api-v1:1.0.38+b04edc7a77">
@@ -636,6 +798,15 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1/1.2.10+b3afc78b77/fabric-gametest-api-v1-1.2.10+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-gametest-api-v1:1.2.12+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1/1.2.12+b3afc78b77/fabric-gametest-api-v1-1.2.12+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1/1.2.12+b3afc78b77/fabric-gametest-api-v1-1.2.12+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-item-api-v1:2.1.26+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-item-api-v1/2.1.26+b3afc78b77/fabric-item-api-v1-2.1.26+b3afc78b77.jar!/" />
@@ -643,6 +814,24 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-item-api-v1/2.1.26+b3afc78b77/fabric-item-api-v1-2.1.26+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-item-api-v1:2.1.27+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-item-api-v1/2.1.27+b3afc78b77/fabric-item-api-v1-2.1.27+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-item-api-v1/2.1.27+b3afc78b77/fabric-item-api-v1-2.1.27+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-item-group-api-v1:4.0.10+23d9108177">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-item-group-api-v1/4.0.10+23d9108177/fabric-item-group-api-v1-4.0.10+23d9108177.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-item-group-api-v1/4.0.10+23d9108177/fabric-item-group-api-v1-4.0.10+23d9108177-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-item-group-api-v1:4.0.7+b3afc78b77">
@@ -663,6 +852,15 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-key-binding-api-v1/1.0.36+fb8d95da77/fabric-key-binding-api-v1-1.0.36+fb8d95da77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-keybindings-v0:0.2.34+df3654b377">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-keybindings-v0/0.2.34+df3654b377/fabric-keybindings-v0-0.2.34+df3654b377.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-keybindings-v0/0.2.34+df3654b377/fabric-keybindings-v0-0.2.34+df3654b377-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-lifecycle-events-v1:2.2.20+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/2.2.20+b3afc78b77/fabric-lifecycle-events-v1-2.2.20+b3afc78b77.jar!/" />
@@ -670,6 +868,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/2.2.20+b3afc78b77/fabric-lifecycle-events-v1-2.2.20+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-lifecycle-events-v1:2.2.21+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/2.2.21+b3afc78b77/fabric-lifecycle-events-v1-2.2.21+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/2.2.21+b3afc78b77/fabric-lifecycle-events-v1-2.2.21+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-loot-api-v2:1.1.37+b3afc78b77">
@@ -681,6 +888,24 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-loot-api-v2/1.1.37+b3afc78b77/fabric-loot-api-v2-1.1.37+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-loot-api-v2:1.1.39+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-loot-api-v2/1.1.39+b3afc78b77/fabric-loot-api-v2-1.1.39+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-loot-api-v2/1.1.39+b3afc78b77/fabric-loot-api-v2-1.1.39+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-loot-tables-v1:1.1.43+9e7660c677">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-loot-tables-v1/1.1.43+9e7660c677/fabric-loot-tables-v1-1.1.43+9e7660c677.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-loot-tables-v1/1.1.43+9e7660c677/fabric-loot-tables-v1-1.1.43+9e7660c677-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-message-api-v1:5.1.6+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-message-api-v1/5.1.6+b3afc78b77/fabric-message-api-v1-5.1.6+b3afc78b77.jar!/" />
@@ -688,6 +913,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-message-api-v1/5.1.6+b3afc78b77/fabric-message-api-v1-5.1.6+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-message-api-v1:5.1.7+3265161977">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-message-api-v1/5.1.7+3265161977/fabric-message-api-v1-5.1.7+3265161977.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-message-api-v1/5.1.7+3265161977/fabric-message-api-v1-5.1.7+3265161977-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-mining-level-api-v1:2.1.47+b3afc78b77">
@@ -699,6 +933,24 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-mining-level-api-v1/2.1.47+b3afc78b77/fabric-mining-level-api-v1-2.1.47+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-mining-level-api-v1:2.1.49+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-mining-level-api-v1/2.1.49+b3afc78b77/fabric-mining-level-api-v1-2.1.49+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-mining-level-api-v1/2.1.49+b3afc78b77/fabric-mining-level-api-v1-2.1.49+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-model-loading-api-v1:1.0.2+709a987177">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-model-loading-api-v1/1.0.2+709a987177/fabric-model-loading-api-v1-1.0.2+709a987177.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-model-loading-api-v1/1.0.2+709a987177/fabric-model-loading-api-v1-1.0.2+709a987177-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-models-v0:0.3.35+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-models-v0/0.3.35+b3afc78b77/fabric-models-v0-0.3.35+b3afc78b77.jar!/" />
@@ -706,6 +958,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-models-v0/0.3.35+b3afc78b77/fabric-models-v0-0.3.35+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-models-v0:0.4.1+9386d8a777">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-models-v0/0.4.1+9386d8a777/fabric-models-v0-0.4.1+9386d8a777.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-models-v0/0.4.1+9386d8a777/fabric-models-v0-0.4.1+9386d8a777-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-networking-api-v1:1.3.8+b3afc78b77">
@@ -717,6 +978,24 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-networking-api-v1/1.3.8+b3afc78b77/fabric-networking-api-v1-1.3.8+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-networking-api-v1:1.3.9+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-networking-api-v1/1.3.9+b3afc78b77/fabric-networking-api-v1-1.3.9+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-networking-api-v1/1.3.9+b3afc78b77/fabric-networking-api-v1-1.3.9+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-networking-v0:0.3.49+df3654b377">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-networking-v0/0.3.49+df3654b377/fabric-networking-v0-0.3.49+df3654b377.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-networking-v0/0.3.49+df3654b377/fabric-networking-v0-0.3.49+df3654b377-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-object-builder-api-v1:11.0.6+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1/11.0.6+b3afc78b77/fabric-object-builder-api-v1-11.0.6+b3afc78b77.jar!/" />
@@ -724,6 +1003,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1/11.0.6+b3afc78b77/fabric-object-builder-api-v1-11.0.6+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-object-builder-api-v1:11.1.1+6beca84877">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1/11.1.1+6beca84877/fabric-object-builder-api-v1-11.1.1+6beca84877.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1/11.1.1+6beca84877/fabric-object-builder-api-v1-11.1.1+6beca84877-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-particles-v1:1.0.28+b3afc78b77">
@@ -735,6 +1023,15 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-particles-v1/1.0.28+b3afc78b77/fabric-particles-v1-1.0.28+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-particles-v1:1.1.1+201a23a077">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-particles-v1/1.1.1+201a23a077/fabric-particles-v1-1.1.1+201a23a077.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-particles-v1/1.1.1+201a23a077/fabric-particles-v1-1.1.1+201a23a077-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-recipe-api-v1:1.0.18+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1/1.0.18+b3afc78b77/fabric-recipe-api-v1-1.0.18+b3afc78b77.jar!/" />
@@ -742,6 +1039,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1/1.0.18+b3afc78b77/fabric-recipe-api-v1-1.0.18+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-recipe-api-v1:1.0.19+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1/1.0.19+b3afc78b77/fabric-recipe-api-v1-1.0.19+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1/1.0.19+b3afc78b77/fabric-recipe-api-v1-1.0.19+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-registry-sync-v0:2.2.6+b3afc78b77">
@@ -753,6 +1059,15 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0/2.2.6+b3afc78b77/fabric-registry-sync-v0-2.2.6+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-registry-sync-v0:2.3.1+4df89eb277">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0/2.3.1+4df89eb277/fabric-registry-sync-v0-2.3.1+4df89eb277.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0/2.3.1+4df89eb277/fabric-registry-sync-v0-2.3.1+4df89eb277-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-renderer-api-v1:3.1.0+c154966e77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1/3.1.0+c154966e77/fabric-renderer-api-v1-3.1.0+c154966e77.jar!/" />
@@ -760,6 +1075,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1/3.1.0+c154966e77/fabric-renderer-api-v1-3.1.0+c154966e77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-renderer-api-v1:3.1.1+9386d8a777">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1/3.1.1+9386d8a777/fabric-renderer-api-v1-3.1.1+9386d8a777.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1/3.1.1+9386d8a777/fabric-renderer-api-v1-3.1.1+9386d8a777-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-renderer-indigo:1.4.0+c154966e77">
@@ -771,6 +1095,24 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-renderer-indigo/1.4.0+c154966e77/fabric-renderer-indigo-1.4.0+c154966e77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-renderer-indigo:1.4.1+9172968c77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-renderer-indigo/1.4.1+9172968c77/fabric-renderer-indigo-1.4.1+9172968c77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-renderer-indigo/1.4.1+9172968c77/fabric-renderer-indigo-1.4.1+9172968c77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-renderer-registries-v1:3.2.45+df3654b377">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-renderer-registries-v1/3.2.45+df3654b377/fabric-renderer-registries-v1-3.2.45+df3654b377.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-renderer-registries-v1/3.2.45+df3654b377/fabric-renderer-registries-v1-3.2.45+df3654b377-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-rendering-data-attachment-v1:0.3.33+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1/0.3.33+b3afc78b77/fabric-rendering-data-attachment-v1-0.3.33+b3afc78b77.jar!/" />
@@ -778,6 +1120,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1/0.3.33+b3afc78b77/fabric-rendering-data-attachment-v1-0.3.33+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-rendering-data-attachment-v1:0.3.34+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1/0.3.34+b3afc78b77/fabric-rendering-data-attachment-v1-0.3.34+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1/0.3.34+b3afc78b77/fabric-rendering-data-attachment-v1-0.3.34+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-rendering-fluids-v1:3.0.26+b3afc78b77">
@@ -789,6 +1140,24 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1/3.0.26+b3afc78b77/fabric-rendering-fluids-v1-3.0.26+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-rendering-fluids-v1:3.0.27+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1/3.0.27+b3afc78b77/fabric-rendering-fluids-v1-3.0.27+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1/3.0.27+b3afc78b77/fabric-rendering-fluids-v1-3.0.27+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-rendering-v0:1.1.48+df3654b377">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-rendering-v0/1.1.48+df3654b377/fabric-rendering-v0-1.1.48+df3654b377.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-rendering-v0/1.1.48+df3654b377/fabric-rendering-v0-1.1.48+df3654b377-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-rendering-v1:3.0.6+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-rendering-v1/3.0.6+b3afc78b77/fabric-rendering-v1-3.0.6+b3afc78b77.jar!/" />
@@ -796,6 +1165,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-rendering-v1/3.0.6+b3afc78b77/fabric-rendering-v1-3.0.6+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-rendering-v1:3.0.7+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-rendering-v1/3.0.7+b3afc78b77/fabric-rendering-v1-3.0.7+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-rendering-v1/3.0.7+b3afc78b77/fabric-rendering-v1-3.0.7+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-resource-conditions-api-v1:2.3.5+ea08f9d877">
@@ -816,6 +1194,15 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0/0.11.7+f7923f6d77/fabric-resource-loader-v0-0.11.7+f7923f6d77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-resource-loader-v0:0.11.9+132c48c177">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0/0.11.9+132c48c177/fabric-resource-loader-v0-0.11.9+132c48c177.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0/0.11.9+132c48c177/fabric-resource-loader-v0-0.11.9+132c48c177-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-screen-api-v1:2.0.6+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-screen-api-v1/2.0.6+b3afc78b77/fabric-screen-api-v1-2.0.6+b3afc78b77.jar!/" />
@@ -825,6 +1212,15 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-screen-api-v1/2.0.6+b3afc78b77/fabric-screen-api-v1-2.0.6+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-screen-api-v1:2.0.7+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-screen-api-v1/2.0.7+b3afc78b77/fabric-screen-api-v1-2.0.7+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-screen-api-v1/2.0.7+b3afc78b77/fabric-screen-api-v1-2.0.7+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-screen-handler-api-v1:1.3.27+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1/1.3.27+b3afc78b77/fabric-screen-handler-api-v1-1.3.27+b3afc78b77.jar!/" />
@@ -832,6 +1228,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1/1.3.27+b3afc78b77/fabric-screen-handler-api-v1-1.3.27+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-screen-handler-api-v1:1.3.28+b3afc78b77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1/1.3.28+b3afc78b77/fabric-screen-handler-api-v1-1.3.28+b3afc78b77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1/1.3.28+b3afc78b77/fabric-screen-handler-api-v1-1.3.28+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-sound-api-v1:1.0.12+b3afc78b77">
@@ -852,6 +1257,15 @@
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1/3.2.2+b3afc78b77/fabric-transfer-api-v1-3.2.2+b3afc78b77-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-transfer-api-v1:3.3.0+cdf060b277">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1/3.3.0+cdf060b277/fabric-transfer-api-v1-3.3.0+cdf060b277.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1/3.3.0+cdf060b277/fabric-transfer-api-v1-3.3.0+cdf060b277-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-transitive-access-wideners-v1:4.2.0+b3afc78b77">
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1/4.2.0+b3afc78b77/fabric-transitive-access-wideners-v1-4.2.0+b3afc78b77.jar!/" />
@@ -859,6 +1273,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1/4.2.0+b3afc78b77/fabric-transitive-access-wideners-v1-4.2.0+b3afc78b77-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.net.fabricmc.fabric-api:fabric-transitive-access-wideners-v1:4.3.0+6c31357e77">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1/4.3.0+6c31357e77/fabric-transitive-access-wideners-v1-4.3.0+6c31357e77.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1/4.3.0+6c31357e77/fabric-transitive-access-wideners-v1-4.3.0+6c31357e77-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: net_fabricmc_yarn_1_20_1_1_20_1_build_3_v2.software.bernie.geckolib:geckolib-fabric-1.20:4.2">

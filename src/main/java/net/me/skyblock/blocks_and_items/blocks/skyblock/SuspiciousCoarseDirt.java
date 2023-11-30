@@ -39,9 +39,9 @@ public class SuspiciousCoarseDirt extends Block {
                 itemStack.decrement(1);
                 world.playSound(player2, player2.getX(), player2.getY(), player2.getZ(), SoundEvents.ITEM_BOTTLE_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 if (itemStack.isEmpty()) {
-                    player2.setStackInHand(hand, new ItemStack(ModItems.ANT_BOTTLE));
-                } else if (!player2.getInventory().insertStack(new ItemStack(ModItems.ANT_BOTTLE))) {
-                    player2.dropItem(new ItemStack(ModItems.ANT_BOTTLE), false);
+                    player2.setStackInHand(hand, new ItemStack(ModItems.SKYBLOCK__ANT_BOTTLE));
+                } else if (!player2.getInventory().insertStack(new ItemStack(ModItems.SKYBLOCK__ANT_BOTTLE))) {
+                    player2.dropItem(new ItemStack(ModItems.SKYBLOCK__ANT_BOTTLE), false);
                 }
                 bl = true;
                 world.emitGameEvent((Entity)player2, GameEvent.FLUID_PICKUP, pos);

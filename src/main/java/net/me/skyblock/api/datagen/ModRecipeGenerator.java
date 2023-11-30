@@ -18,24 +18,24 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-        offerSmelting(exporter, List.of(ModBlocks.ENDMERALD_BLOCK), RecipeCategory.MISC, ModItems.ENDMERALD,
+        offerSmelting(exporter, List.of(ModBlocks.SP5__ENDMERALD_BLOCK), RecipeCategory.MISC, ModItems.SP5__ENDMERALD,
                 0.7f, 300, "fyberite");
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.ENDMERALD, RecipeCategory.MISC, ModBlocks.ENDMERALD_ORE);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.SP5__ENDMERALD, RecipeCategory.MISC, ModBlocks.SP5__ENDMERALD_ORE);
 
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.APPLE, RecipeCategory.MISC, ModBlocks.APPLE_CRATE);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.BEETROOT, RecipeCategory.MISC, ModBlocks.BEETROOT_CRATE);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.CARROT, RecipeCategory.MISC, ModBlocks.CARROT_CRATE);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.POTATO, RecipeCategory.MISC, ModBlocks.POTATO_CRATE);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.GOLDEN_APPLE, RecipeCategory.MISC, ModBlocks.GOLDEN_APPLE_CRATE);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.GOLDEN_CARROT, RecipeCategory.MISC, ModBlocks.GOLDEN_CARROT_CRATE);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.SWEET_BERRIES, RecipeCategory.MISC, ModBlocks.SWEET_BERRY_SACK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.GLOW_BERRIES, RecipeCategory.MISC, ModBlocks.GLOW_BERRY_SACK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.COCOA_BEANS, RecipeCategory.MISC, ModBlocks.COCOA_BEANS_SACK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.GUNPOWDER, RecipeCategory.MISC, ModBlocks.GUNPOWDER_SACK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.NETHER_WART, RecipeCategory.MISC, ModBlocks.NETHER_WART_SACK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.STICK, RecipeCategory.MISC, ModBlocks.STICK_BLOCK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.SUGAR_CANE, RecipeCategory.MISC, ModBlocks.SUGAR_CANE_BLOCK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.CACTUS, RecipeCategory.MISC, ModBlocks.CACTUS_BLOCK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.CHORUS_FRUIT, RecipeCategory.MISC, ModBlocks.CHORUS_FRUIT_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.APPLE, RecipeCategory.MISC, ModBlocks.QUARK__APPLE_CRATE);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.BEETROOT, RecipeCategory.MISC, ModBlocks.QUARK__BEETROOT_CRATE);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.CARROT, RecipeCategory.MISC, ModBlocks.QUARK__CARROT_CRATE);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.POTATO, RecipeCategory.MISC, ModBlocks.QUARK__POTATO_CRATE);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.GOLDEN_APPLE, RecipeCategory.MISC, ModBlocks.QUARK__GOLDEN_APPLE_CRATE);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.GOLDEN_CARROT, RecipeCategory.MISC, ModBlocks.QUARK__GOLDEN_CARROT_CRATE);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.SWEET_BERRIES, RecipeCategory.MISC, ModBlocks.QUARK__SWEET_BERRY_SACK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.GLOW_BERRIES, RecipeCategory.MISC, ModBlocks.QUARK__GLOW_BERRY_SACK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.COCOA_BEANS, RecipeCategory.MISC, ModBlocks.QUARK__COCOA_BEANS_SACK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.GUNPOWDER, RecipeCategory.MISC, ModBlocks.QUARK__GUNPOWDER_SACK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.NETHER_WART, RecipeCategory.MISC, ModBlocks.QUARK__NETHER_WART_SACK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.STICK, RecipeCategory.MISC, ModBlocks.QUARK__STICK_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.SUGAR_CANE, RecipeCategory.MISC, ModBlocks.QUARK__SUGAR_CANE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.CACTUS, RecipeCategory.MISC, ModBlocks.QUARK__CACTUS_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.CHORUS_FRUIT, RecipeCategory.MISC, ModBlocks.QUARK__CHORUS_FRUIT_BLOCK);
     }
 }

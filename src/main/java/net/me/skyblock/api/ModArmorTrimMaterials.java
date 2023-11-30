@@ -16,14 +16,14 @@ import java.util.Map;
 
 public class ModArmorTrimMaterials {
     public static final RegistryKey<ArmorTrimMaterial> ENDERITE = ModArmorTrimMaterials.of("enderite");
-    public static final RegistryKey<ArmorTrimMaterial> FYBERITE = ModArmorTrimMaterials.of("enderite");
-    public static final RegistryKey<ArmorTrimMaterial> END_EMERALD = ModArmorTrimMaterials.of("enderite");
+    public static final RegistryKey<ArmorTrimMaterial> FYBERITE = ModArmorTrimMaterials.of("fyberite");
+    public static final RegistryKey<ArmorTrimMaterial> END_EMERALD = ModArmorTrimMaterials.of("end_emerald");
 
     public static void bootstrap(Registerable<ArmorTrimMaterial> registry) {
     }
     public static void oneTwentyBootstrap(Registerable<ArmorTrimMaterial> registry) {
-        ModArmorTrimMaterials.register(registry, ENDERITE, ModItems.ENDERITE_INGOT, Style.EMPTY.withColor(10116294), 1.0f);
-        ModArmorTrimMaterials.register(registry, FYBERITE, ModItems.FYBERITE, Style.EMPTY.withColor(10116294), 1.0f);
+        ModArmorTrimMaterials.register(registry, ENDERITE, ModItems.SP5__ENDERITE_INGOT, Style.EMPTY.withColor(10116294), 1.0f);
+        ModArmorTrimMaterials.register(registry, FYBERITE, ModItems.SKYBLOCK__FYBERITE, Style.EMPTY.withColor(10116294), 1.0f);
     }
     private static void register(Registerable<ArmorTrimMaterial> registry, RegistryKey<ArmorTrimMaterial> key, Item ingredient, Style style, float itemModelIndex) {
         ModArmorTrimMaterials.register(registry, key, ingredient, style, itemModelIndex, Map.of());

@@ -26,6 +26,6 @@ public class AbyssVegetation
 
     @Override
     protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
-        return floor.isOf(ModBlocks.BLARU_MOSS) || floor.isOf(ModBlocks.VIGILANT_MOSS);
+        return floor.isOf(ModBlocks.ABYSS__BLARU_MOSS) || floor.isOf(ModBlocks.ABYSS__VIGILANT_MOSS);
     }
 }

@@ -27,107 +27,107 @@ import net.minecraft.util.Rarity;
 
 public class ModItems {
     //SKYBLOCK MAIN-BLOCK
-    public static final Item FYBERITE = registerItem("fyberite_ingot",
+    public static final Item SKYBLOCK__FYBERITE = registerItem("skyblock__fyberite_ingot",
             new Item(new FabricItemSettings()));
-    public static final Item ANT_BOTTLE = registerItem("ant_bottle",
+    public static final Item SKYBLOCK__ANT_BOTTLE = registerItem("skyblock__ant_bottle",
             new Item(new FabricItemSettings()));
-    public static final Item BOTTLE_OF_ANT_JAM = registerItem("bottle_of_ant_jam",
+    public static final Item SKYBLOCK__BOTTLE_OF_ANT_JAM = registerItem("skyblock__bottle_of_ant_jam",
             new Item(new FabricItemSettings().recipeRemainder(Items.GLASS_BOTTLE)));
-    public static final Item MUSIC_DISC_WITHERSTORM = registerItem("music_disc_wither_storm_theme",
+    public static final Item WITHERSTORM__MUSIC_DISC_WITHERSTORM = registerItem("witherstorm__music_disc_wither_storm_theme",
             new MusicDiscItem(6, ModSounds.WITHERSTORM_THEME, new  FabricItemSettings().maxCount(1).rarity(Rarity.RARE),188));
-    public static final Item DISC_FRAGMENT_WITHERSTORM = registerItem("disc_fragment_wither_storm_theme",
+    public static final Item WITHERSTORM__DISC_FRAGMENT_WITHERSTORM = registerItem("witherstorm__disc_fragment_wither_storm_theme",
             new DiscFragmentItem(new FabricItemSettings()));
-    public static final Item ENDERITE_APPLE = registerItem("enderite_apple",
+    public static final Item SP5__ENDERITE_APPLE = registerItem("sp5__enderite_apple",
             new Item(new FabricItemSettings().food(ModFoodComponents.ENDERITE_APPLE)));
-    public static final Item ENCHANTED_ENDERITE_APPLE = registerItem("enchanted_enderite_apple",
+    public static final Item SP5__ENCHANTED_ENDERITE_APPLE = registerItem("sp5__enchanted_enderite_apple",
             new EnchantedEnderiteAppleItem(new FabricItemSettings().food(ModFoodComponents.ENCHANTED_ENDERITE_APPLE)));
-    public static final Item SUGAR_POPPY_MIXTURE = registerItem("sugar_poppy_mixture",
+    public static final Item SKYBLOCK__SUGAR_POPPY_MIXTURE = registerItem("skyblock__sugar_poppy_mixture",
             new Item(new FabricItemSettings()));
-    public static final Item STEAM_DUMPLING_FRESH = registerItem("steam_dumpling_raw",
+    public static final Item SKYBLOCK__STEAM_DUMPLING_FRESH = registerItem("skyblock__steam_dumpling_raw",
             new Item(new FabricItemSettings()));
-    public static final Item STEAM_DUMPLING = registerItem("steam_dumpling",
+    public static final Item SKYBLOCK__STEAM_DUMPLING = registerItem("skyblock__steam_dumpling",
             new Item(new FabricItemSettings().food(ModFoodComponents.STEAM_DUMPLING)));
-    public static final Item STEAM_DUMPLING_WITH_MOLTEN_BUTTER = registerItem("steam_dumpling_with_molten_butter",
+    public static final Item SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER = registerItem("skyblock__steam_dumpling_with_molten_butter",
             new Item(new FabricItemSettings().food(ModFoodComponents.STEAM_DUMPLING_WITH_MOLTEN_BUTTER)));
-    public static final Item STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE = registerItem("steam_dumpling_with_molten_butter_and_sugar_poppy_mixture",
+    public static final Item SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE = registerItem("skyblock__steam_dumpling_with_molten_butter_and_sugar_poppy_mixture",
             new Item(new FabricItemSettings().food(ModFoodComponents.STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE)));
-    public static final Item LORAN = registerItem("loran",
+    public static final Item ABYSS__LORAN = registerItem("abyss__loran",
             new Loran(new FabricItemSettings()));
-    public static final Item ABYSS_PORTAL_ACTIVATOR = registerItem("abyss_portal_activator",
+    public static final Item ABYSS__ABYSS_PORTAL_ACTIVATOR = registerItem("abyss__abyss_portal_activator",
             new Item(new FabricItemSettings()));
-    public static final Item ENDER_STICK = registerItem("ender_stick",
+    public static final Item SP5__ENDER_STICK = registerItem("sp5__ender_stick",
             new Item(new FabricItemSettings()));
-    public static final Item ENDMERALD = registerItem("end_emerald",
+    public static final Item SP5__ENDMERALD = registerItem("sp5__end_emerald",
             new Item(new FabricItemSettings()));
-    public static final Item MELTE_RESIDUES = registerItem("melte_residues",
+    public static final Item SP5__MELTE_RESIDUES = registerItem("sp5__melte_residues",
             new Item(new FabricItemSettings()));
-    public static final Item ENDERITE_INGOT = registerItem("enderite_ingot",
+    public static final Item SP5__ENDERITE_INGOT = registerItem("sp5__enderite_ingot",
             new Item(new FabricItemSettings()));
-    public static final Item ENDERITE_HELMET = registerItem("enderite_helmet",
+    public static final Item SP5__ENDERITE_HELMET = registerItem("sp5__enderite_helmet",
             new ArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item ENDERITE_CHESTPLATE = registerItem("enderite_chestplate",
+    public static final Item SP5__ENDERITE_CHESTPLATE = registerItem("sp5__enderite_chestplate",
             new ArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item ENDERITE_LEGGINGS = registerItem("enderite_leggings",
+    public static final Item SP5__ENDERITE_LEGGINGS = registerItem("sp5__enderite_leggings",
             new ArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
-    public static final Item ENDERITE_BOOTS = registerItem("enderite_boots",
+    public static final Item SP5__ENDERITE_BOOTS = registerItem("sp5__enderite_boots",
             new ArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
-    public static final Item ENDERITE_SWORD = registerItem("enderite_sword",
+    public static final Item SP5__ENDERITE_SWORD = registerItem("sp5__enderite_sword",
             new SwordItem(ModToolMaterials.ENDERITE, 9, 1.6f -4f, new FabricItemSettings()));
-    public static final Item ENDERITE_AXE = registerItem("enderite_axe",
+    public static final Item SP5__ENDERITE_AXE = registerItem("sp5__enderite_axe",
             new ModAxeItem(ModToolMaterials.ENDERITE, 11, 1f -4f, new FabricItemSettings()));
-    public static final Item ENDERITE_SHOVEL = registerItem("enderite_shovel",
+    public static final Item SP5__ENDERITE_SHOVEL = registerItem("sp5__enderite_shovel",
             new ShovelItem(ModToolMaterials.ENDERITE, 8, 1f -4f, new FabricItemSettings()));
-    public static final Item ENDERITE_HOE = registerItem("enderite_hoe",
+    public static final Item SP5__ENDERITE_HOE = registerItem("sp5__enderite_hoe",
             new HoeItem(ModToolMaterials.ENDERITE, 3, 5.5f -4f, new FabricItemSettings()));
-    public static final Item ENDERITE_PICKAXE = registerItem("enderite_pickaxe",
+    public static final Item SP5__ENDERITE_PICKAXE = registerItem("sp5__enderite_pickaxe",
             new PickaxeItem(ModToolMaterials.ENDERITE, 7, 1.2f -4f, new FabricItemSettings()));
     //SKYBLOCK MAIN-BLOCK
     //ABYSS
-    public static final Item ABERYTHE_GEM = registerItem("aberythe_gem",
+    public static final Item ABYSS__ABERYTHE_GEM = registerItem("abyss__aberythe_gem",
             new Item(new FabricItemSettings()));
-    public static final Item ABERYTHE_HELMET = registerItem("aberythe_helmet",
+    public static final Item ABYSS__ABERYTHE_HELMET = registerItem("abyss__aberythe_helmet",
             new ArmorItem(ModArmorMaterials.ABERYTHE, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item ABERYTHE_CHESTPLATE = registerItem("aberythe_chestplate",
+    public static final Item ABYSS__ABERYTHE_CHESTPLATE = registerItem("abyss__aberythe_chestplate",
             new ArmorItem(ModArmorMaterials.ABERYTHE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item ABERYTHE_LEGGINGS = registerItem("aberythe_leggings",
+    public static final Item ABYSS__ABERYTHE_LEGGINGS = registerItem("abyss__aberythe_leggings",
             new ArmorItem(ModArmorMaterials.ABERYTHE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
-    public static final Item ABERYTHE_BOOTS = registerItem("aberythe_boots",
+    public static final Item ABYSS__ABERYTHE_BOOTS = registerItem("abyss__aberythe_boots",
             new ArmorItem(ModArmorMaterials.ABERYTHE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
-    public static final Item ABERYTHE_SWORD = registerItem("aberythe_sword",
+    public static final Item ABYSS__ABERYTHE_SWORD = registerItem("abyss__aberythe_sword",
             new SwordItem(ModToolMaterials.ENDERITE, 1, 1.6f -4f, new FabricItemSettings()));
-    public static final Item ABERYTHE_AXE = registerItem("aberythe_axe",
+    public static final Item ABYSS__ABERYTHE_AXE = registerItem("abyss__aberythe_axe",
             new ModAxeItem(ModToolMaterials.ENDERITE, 1, 1f -4f, new FabricItemSettings()));
-    public static final Item ABERYTHE_SHOVEL = registerItem("aberythe_shovel",
+    public static final Item ABYSS__ABERYTHE_SHOVEL = registerItem("abyss__aberythe_shovel",
             new ShovelItem(ModToolMaterials.ENDERITE, 1, 1f -4f, new FabricItemSettings()));
-    public static final Item ABERYTHE_HOE = registerItem("aberythe_hoe",
+    public static final Item ABYSS__ABERYTHE_HOE = registerItem("abyss__aberythe_hoe",
             new HoeItem(ModToolMaterials.ENDERITE, 1, 5f -4f, new FabricItemSettings()));
-    public static final Item ABERYTHE_PICKAXE = registerItem("aberythe_pickaxe",
+    public static final Item ABYSS__ABERYTHE_PICKAXE = registerItem("abyss__aberythe_pickaxe",
             new PickaxeItem(ModToolMaterials.ENDERITE, 1, 1.2f -4f, new FabricItemSettings()));
     //ABYSS
     //MCD
-    public static final Item SHORTBOW = registerItem("shortbow",
+    public static final Item MCD__SHORTBOW = registerItem("mcd__shortbow",
             new ShortBowItem(new FabricItemSettings().maxDamage(384)));
-    public static final Item LONGBOW = registerItem("longbow",
+    public static final Item MCD__LONGBOW = registerItem("mcd__longbow",
             new ShortBowItem(new FabricItemSettings().maxDamage(384)));
-    public static final Item TWIN_BOW = registerItem("twin_bow",
+    public static final Item MCD__TWIN_BOW = registerItem("mcd__twin_bow",
             new BowItem(new FabricItemSettings().maxDamage(384)));
-    public static final Item AUTO_CROSSBOW = registerItem("auto_crossbow",
+    public static final Item MCD__AUTO_CROSSBOW = registerItem("mcd__auto_crossbow",
             new CrossbowItem(new FabricItemSettings().maxDamage(384)));
     public static final Item MCD__ARTIFACT_IRON_HIDE_AMULET= registerItem("mcd__artifact_iron_hide_amulet",
             new IronSkinItem_Common( new FabricItemSettings().maxCount(1).maxDamage(10)));
-    public static final Item LIGHTNING_SWORD = registerItem("lightning_sword",
+    public static final Item SKYBLOCK__LIGHTNING_SWORD = registerItem("skyblock__lightning_sword",
             new SwordItem(ModToolMaterials.BENIKARD, 3, 3.5f -4f, new FabricItemSettings()));
-    public static final Item DIAMOND_RAPIER = registerItem("diamond_rapier",
+    public static final Item MCD__DIAMOND_RAPIER = registerItem("mcd__diamond_rapier",
             new SwordItem(ToolMaterials.DIAMOND, 2, 3.4028235E38f, new FabricItemSettings()));
-    public static final Item GOLDEN_RAPIER = registerItem("golden_rapier",
+    public static final Item MCD__GOLDEN_RAPIER = registerItem("mcd__golden_rapier",
             new SwordItem(ToolMaterials.GOLD, 2, 3.4028235E38f, new FabricItemSettings()));
-    public static final Item IRON_RAPIER = registerItem("iron_rapier",
+    public static final Item MCD__IRON_RAPIER = registerItem("mcd__iron_rapier",
             new SwordItem(ToolMaterials.IRON, 2, 3.4028235E38f, new FabricItemSettings()));
-    public static final Item NETHERITE_RAPIER = registerItem("netherite_rapier",
+    public static final Item MCD__NETHERITE_RAPIER = registerItem("mcd__netherite_rapier",
             new SwordItem(ToolMaterials.NETHERITE, 2, 3.4028235E38f, new FabricItemSettings()));
-    public static final Item STONE_RAPIER = registerItem("stone_rapier",
+    public static final Item MCD__STONE_RAPIER = registerItem("mcd__stone_rapier",
             new SwordItem(ToolMaterials.STONE, 2, 3.4028235E38f, new FabricItemSettings()));
-    public static final Item WOODEN_RAPIER = registerItem("wooden_rapier",
+    public static final Item MCD__WOODEN_RAPIER = registerItem("mcd__wooden_rapier",
             new SwordItem(ToolMaterials.WOOD, 2, 3.4028235E38f, new FabricItemSettings()));
     //MCD
     //HALLOWEEN 2023

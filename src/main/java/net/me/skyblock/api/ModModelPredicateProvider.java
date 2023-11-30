@@ -10,9 +10,9 @@ import net.minecraft.util.Identifier;
 public class ModModelPredicateProvider {
     public static void registerModModels() {
 
-        registerBow(ModItems.SHORTBOW);
-        registerBow(ModItems.TWIN_BOW);
-        registerCrossbow(ModItems.AUTO_CROSSBOW);
+        registerBow(ModItems.MCD__SHORTBOW);
+        registerBow(ModItems.MCD__TWIN_BOW);
+        registerCrossbow(ModItems.MCD__AUTO_CROSSBOW);
     }
 
     private static void registerBow(Item bow) {

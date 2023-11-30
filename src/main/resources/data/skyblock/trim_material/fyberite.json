@@ -4,6 +4,6 @@
     "color": "#11A036",
     "translate": "trim_material.skyblock.fyberite"
   },
-  "ingredient": "skyblock:fyberite_ingot",
+  "ingredient": "skyblock:skyblock__fyberite_ingot",
   "item_model_index": 0.7
 }

@@ -8,7 +8,9 @@
     "preferModrinthForUpdates [default: true]": true,
     "forceBetterXPreset [default: true]": true,
     "suppressExperimentalDialogOnLoad [default: false]": true,
-    "iAmNotTheDonorType [default: false]": false
+    "iAmNotTheDonorType [default: false]": false,
+    "useModrinthForUpdates [default: false]": false,
+    "notTheDonorType [default: true]": true
   },
   "auto_sync": {
     "enabled [default: true]": true,

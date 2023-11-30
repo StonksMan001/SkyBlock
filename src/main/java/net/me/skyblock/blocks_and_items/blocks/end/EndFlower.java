@@ -25,6 +25,6 @@ public class EndFlower
 
     @Override
     protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
-        return floor.isOf(ModBlocks.END_GRASS) || floor.isOf(ModBlocks.BLUISHE_GRASS);
+        return floor.isOf(ModBlocks.SP5__END_GRASS) || floor.isOf(ModBlocks.SP5__BLUISHE_GRASS);
     }
 }

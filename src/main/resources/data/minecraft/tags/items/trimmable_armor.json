@@ -4,9 +4,14 @@
     "skyblock:enderite_chestplate",
     "skyblock:enderite_leggings",
     "skyblock:enderite_boots",
-    "skyblock:aberythe_helmet",
-    "skyblock:aberythe_chestplate",
-    "skyblock:aberythe_leggings",
-    "skyblock:aberythe_boots"
+
+    "skyblock:sp5__enderite_helmet",
+    "skyblock:sp5__enderite_chestplate",
+    "skyblock:sp5__enderite_leggings",
+    "skyblock:sp5__enderite_boots",
+    "skyblock:abyss__aberythe_helmet",
+    "skyblock:abyss__aberythe_chestplate",
+    "skyblock:abyss__aberythe_leggings",
+    "skyblock:abyss__aberythe_boots"
   ]
 }

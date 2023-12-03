@@ -5,6 +5,8 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.me.skyblock.api.datafixer.DataFixer;
+import net.me.skyblock.archived.ArchivedBlocks;
+import net.me.skyblock.archived.ArchivedItems;
 import net.me.skyblock.blocks_and_items.ModBlocks;
 import net.me.skyblock.enchantments.ModEnchantments;
 import net.me.skyblock.entity.ModEntities;
@@ -23,6 +25,11 @@ public class SkyBlock implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	@Override
 	public void onInitialize() {
+		// Should never touch
+		ArchivedItems.registerArchivedItems();
+		ArchivedBlocks.registerArchivedBlocks();
+		// Should never touch
+
 		DataFixer.register();
 
 		ModCreativeInventoryGroups.registerItemGroups();

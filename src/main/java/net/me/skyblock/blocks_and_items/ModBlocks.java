@@ -8,6 +8,7 @@ import net.me.skyblock.blocks_and_items.blocks.abyss.BlueVigilantGrass;
 import net.me.skyblock.blocks_and_items.blocks.end.EndFlower;
 import net.me.skyblock.blocks_and_items.blocks.end.EndVegetation;
 import net.me.skyblock.blocks_and_items.blocks.mcd.MossyOakPlanks;
+import net.me.skyblock.blocks_and_items.blocks.skyblock.DuckweedBlock;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.SuspiciousCoarseDirt;
 import net.me.skyblock.blocks_and_items.blocks.util.ModStairsBlock;
 import net.minecraft.block.*;
@@ -463,6 +464,12 @@ public class ModBlocks {
                     .strength(2.0f)));
     //ABYSS
     //SKYBLOCK MAIN-BLOCK
+    public static final Block SKYBLOCK__DUCKWEED = registerBlock("skyblock__duckweed",
+            new DuckweedBlock(FabricBlockSettings
+                    .copyOf(Blocks.LILY_PAD)
+                    .noCollision()
+                    .noBlockBreakParticles()
+                    .nonOpaque()));
     public static final Block MCD__VOID_BLOCK = registerBlock("mcd__void_block",
             new Block(FabricBlockSettings
                     .copy(Blocks.SCULK)

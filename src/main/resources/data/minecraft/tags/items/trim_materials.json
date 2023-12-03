@@ -1,6 +1,7 @@
 {
   "values": [
-    "skyblock:fyberite_ingot",
-    "skyblock:enderite_ingot",
-    "skyblock:end_emerald"
+    "skyblock:skyblock__fyberite_ingot",
+    "skyblock:sp5__enderite_ingot",
+    "skyblock:sp5__end_emerald"
+    ]
 }

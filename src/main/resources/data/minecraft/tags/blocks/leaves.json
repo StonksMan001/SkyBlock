@@ -1,10 +1,10 @@
 {
   "values": [
-    "skyblock:abyss_jungle_leaves",
-    "skyblock:blaru_leaves",
-    "skyblock:frozen_leaves",
-    "skyblock:vigilant_leaves",
-    "skyblock:callery_leaves",
-    "skyblock:flowering_callery_leaves"
+    "skyblock:abyss__abyss_jungle_leaves",
+    "skyblock:abyss__blaru_leaves",
+    "skyblock:abyss__frozen_leaves",
+    "skyblock:abyss__vigilant_leaves",
+    "skyblock:digpear__callery_leaves",
+    "skyblock:digpear__flowering_callery_leaves"
   ]
 }

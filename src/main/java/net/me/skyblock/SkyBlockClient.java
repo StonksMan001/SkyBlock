@@ -4,6 +4,7 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.me.skyblock.archived.ArchivedBlocks;
 import net.me.skyblock.blocks_and_items.ModBlocks;
 import net.me.skyblock.entity.ModEntities;
 import net.me.skyblock.entity.mobs.mcd.rendering.WispRenderer;
@@ -17,6 +18,15 @@ public class SkyBlockClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
+        // Should never touch
+        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedBlocks.ANT_JAM_BLOCK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedBlocks.SWEET_BERRY_JAM_BLOCK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedBlocks.TRANSPARENT_BLOCK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedBlocks.BLUE_WART, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedBlocks.CAVE_ROOTS, RenderLayer.getCutout());
+        // Should never touch
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__DUCKWEED, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__ANT_JAM_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__SWEET_BERRY_JAM_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SP5__TRANSPARENT_BLOCK, RenderLayer.getTranslucent());

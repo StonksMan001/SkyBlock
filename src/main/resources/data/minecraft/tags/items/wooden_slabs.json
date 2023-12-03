@@ -3,14 +3,18 @@
     "skyblock:end_slab",
     "skyblock:bluishe_slab",
     "skyblock:azalea_slab",
-    "skyblock:abyss_jungle_slab",
-    "skyblock:blaru_slab",
-    "skyblock:frozen_slab",
-    "skyblock:slimed_slab",
-    "skyblock:vigilant_slab",
-    "skyblock:abysculk_slab",
-    "skyblock:bog_shroom_slab",
-    "skyblock:sal_shroom_slab",
-    "skyblock:callery_slab"
+
+    "skyblock:sp5__end_slab",
+    "skyblock:sp5__bluishe_slab",
+    "skyblock:flogical__azalea_slab",
+    "skyblock:abyss__abyss_jungle_slab",
+    "skyblock:abyss__blaru_slab",
+    "skyblock:abyss__frozen_slab",
+    "skyblock:abyss__slimed_slab",
+    "skyblock:abyss__vigilant_slab",
+    "skyblock:abyss__abysculk_slab",
+    "skyblock:abyss__bog_shroom_slab",
+    "skyblock:abyss__sal_shroom_slab",
+    "skyblock:digpear__callery_slab"
   ]
 }

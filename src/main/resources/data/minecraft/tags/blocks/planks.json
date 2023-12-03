@@ -1,16 +1,20 @@
 {
   "values": [
     "skyblock:end_planks",
-    "skyblock:azalea_planks",
-    "skyblock:blaru_planks",
-    "skyblock:abyss_jungle_planks",
-    "skyblock:frozen_planks",
-    "skyblock:slimed_planks",
-    "skyblock:sal_shroom_planks",
-    "skyblock:bog_shroom_planks",
     "skyblock:bluishe_planks",
-    "skyblock:vigilant_planks",
-    "skyblock:callery_planks",
-    "skyblock:abysculk_planks"
+    "skyblock:azalea_planks",
+
+    "skyblock:sp5__end_planks",
+    "skyblock:flogical__azalea_planks",
+    "skyblock:abyss__blaru_planks",
+    "skyblock:abyss__abyss_jungle_planks",
+    "skyblock:abyss__frozen_planks",
+    "skyblock:abyss__slimed_planks",
+    "skyblock:abyss__sal_shroom_planks",
+    "skyblock:abyss__bog_shroom_planks",
+    "skyblock:sp5__bluishe_planks",
+    "skyblock:abyss__vigilant_planks",
+    "skyblock:digpear__callery_planks",
+    "skyblock:abyss__abysculk_planks"
   ]
 }

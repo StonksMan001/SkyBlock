@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "skyblock:h__anomalite_handle"
+    },
+    "X": {
+      "item": "skyblock:h__anomalite_fragment"
+    }
+  },
+  "pattern": [
+    " XX",
+    "XXX",
+    "#X "
+  ],
+  "result": {
+    "item": "skyblock:h__anomalite_sword"
+  },
+  "show_notification": true
+}

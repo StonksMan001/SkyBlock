@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:ant_jam_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "skyblock:skyblock__ant_jam_block"
+  }
+}

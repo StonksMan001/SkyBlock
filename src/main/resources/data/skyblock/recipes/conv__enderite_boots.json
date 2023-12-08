@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:enderite_boots"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "skyblock:sp5__enderite_boots"
+  }
+}

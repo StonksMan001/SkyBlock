@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:carrot_crate"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "skyblock:quark__carrot_crate"
+  }
+}

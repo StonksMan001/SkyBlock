@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:sp5__end_emerald_block"
+    }
+  ],
+  "result": {
+    "item": "skyblock:sp5__end_emerald",
+    "count": 9
+  }
+}

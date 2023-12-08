@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/end_slab"
+    },
+    "type=double": {
+      "model": "skyblock:block/end_planks"
+    },
+    "type=top": {
+      "model": "skyblock:block/end_slab_top"
+    }
+  }
+}

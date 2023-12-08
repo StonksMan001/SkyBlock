@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_chestplate"
+    },
+    "X": {
+      "item": "skyblock:h__anomalite_fragment"
+    }
+  },
+  "pattern": [
+    "X#X",
+    "XXX",
+    "XXX"
+  ],
+  "result": {
+    "item": "skyblock:h__anomalite_chestplate"
+  },
+  "show_notification": true
+}

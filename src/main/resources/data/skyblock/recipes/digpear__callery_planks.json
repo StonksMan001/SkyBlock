@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "skyblock:digpear__callery_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "skyblock:digpear__callery_planks"
+  }
+}

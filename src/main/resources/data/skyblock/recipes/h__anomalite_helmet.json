@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_helmet"
+    },
+    "X": {
+      "item": "skyblock:h__anomalite_fragment"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X#X"
+  ],
+  "result": {
+    "item": "skyblock:h__anomalite_helmet"
+  },
+  "show_notification": true
+}

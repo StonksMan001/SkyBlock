@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "skyblock:abyss__abysculk_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "skyblock:abyss__abysculk_planks"
+  }
+}

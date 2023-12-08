@@ -1,7 +1,7 @@
 {
   "item.skyblock.skyblock__lightning_sword": "Beni Villámkardja",
   "item.skyblock.sp5__enderite_ingot": "Végérc rúd",
-  "item.skyblock.sp5__melte_residues": "Olvadék aszteroidamaradványok",
+  "item.skyblock.sp5__melted_residues": "Olvadék aszteroidamaradványok",
   "item.skyblock.sp5__end_emerald": "Endsmaragd",
   "item.skyblock.skyblock__ant_bottle": "Hangyásüveg",
   "item.skyblock.skyblock__bottle_of_ant_jam": "Hangyalekvár",
@@ -23,10 +23,10 @@
   "item.skyblock.sp5__enderite_axe": "Végércfejsze",
 
   "item.skyblock.skyblock__fyberite_ingot": "Fiberit rúd",
-  "item.skyblock.witherstorm__disc_fragment_wither_storm_theme": "Hanglemez-szilánk",
-  "item.skyblock.witherstorm__disc_fragment_wither_storm_theme.desc": "Hanglemez - Wither Storm Theme",
-  "item.skyblock.witherstorm__music_disc_wither_storm_theme": "Hanglemez",
-  "item.skyblock.witherstorm__music_disc_wither_storm_theme.desc": "Antimo & Welles - Wither Storm Theme",
+  "item.skyblock.witherstorm__disc_fragment_witherstorm_theme": "Hanglemez-szilánk",
+  "item.skyblock.witherstorm__disc_fragment_witherstorm_theme.desc": "Hanglemez - Wither Storm Theme",
+  "item.skyblock.witherstorm__music_disc_witherstorm_theme": "Hanglemez",
+  "item.skyblock.witherstorm__music_disc_witherstorm_theme.desc": "Antimo & Welles - Wither Storm Theme",
   "block.skyblock.mcd__void_block": "Űrblokk",
   "item.skyblock.skyblock__sugar_poppy_mixture": "Cukor-mák keverék",
   "item.skyblock.skyblock__steam_dumpling": "Gőzgombóc",
@@ -242,7 +242,7 @@
   "block.skyblock.quark__golden_carrot_crate": "Aranyrépa-ládakeret",
   "block.skyblock.quark__sweet_berry_sack": "Édesbogyó zsák",
   "block.skyblock.quark__glow_berry_sack": "Fényszeder zsák",
-  "block.skyblock.quark__cocoa_beans_sack": "Kakaóbab zsák",
+  "block.skyblock.quark__cocoa_bean_sack": "Kakaóbab zsák",
   "block.skyblock.quark__gunpowder_sack": "Puskapor zsák",
   "block.skyblock.quark__nether_wart_sack": "Bibircsók zsák",
   "block.skyblock.quark__stick_block": "Botcsomag",
@@ -271,5 +271,7 @@
   "tooltip.skyblock.rarity_info_extended.gilded": "§r[§e§lARANYOZOTT§r]",
   "tooltip.skyblock.rarity_info_extended.gifted": "§r[§a§lAjándék§r]",
 
-  "enchantment.skyblock.primitiveness_curse": "Primitivitás átka"
+  "enchantment.skyblock.primitiveness_curse": "Primitivitás átka",
+
+  "block.skyblock.skyblock__duckweed": "Békalencse"
 }

@@ -36,7 +36,7 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.QUARK__GLOW_BERRY_SACK);
         addDrop(ModBlocks.QUARK__GUNPOWDER_SACK);
         addDrop(ModBlocks.QUARK__NETHER_WART_SACK);
-        addDrop(ModBlocks.QUARK__COCOA_BEANS_SACK);
+        addDrop(ModBlocks.QUARK__COCOA_BEAN_SACK);
         addDrop(ModBlocks.QUARK__SUGAR_CANE_BLOCK);
         addDrop(ModBlocks.QUARK__STICK_BLOCK);
         addDrop(ModBlocks.QUARK__CACTUS_BLOCK);

@@ -5,10 +5,12 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "ChorusPlantBlockMixin",
+    "ItemGroupIconSupplierAccessor",
     "ItemGroupsMixin"
   ],
   "client": [
     "ChorusPlantBlockMixin",
+    "ItemGroupIconSupplierAccessor",
     "ItemGroupsMixin"
   ],
   "injectors": {

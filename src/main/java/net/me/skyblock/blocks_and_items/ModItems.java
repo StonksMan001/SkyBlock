@@ -12,7 +12,6 @@ import net.me.skyblock.blocks_and_items.items.util.basic.ModToolMaterials;
 import net.me.skyblock.blocks_and_items.items.mcd.mcd_artifact.IronSkinItem_Common;
 import net.me.skyblock.blocks_and_items.items.util.basic.ModArmorMaterials;
 import net.me.skyblock.blocks_and_items.items.util.basic.ModAxeItem;
-import net.me.skyblock.blocks_and_items.items.mcd.mcd_artifact.IronSkinItem;
 import net.me.skyblock.blocks_and_items.items.mcd.mcd_ranged.ShortBowItem;
 import net.me.skyblock.blocks_and_items.items.util.custom_unenchantable.UnenchantablePickaxeItem;
 import net.me.skyblock.blocks_and_items.items.util.custom_unenchantable.UnenchantableSwordItem;
@@ -33,9 +32,9 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item SKYBLOCK__BOTTLE_OF_ANT_JAM = registerItem("skyblock__bottle_of_ant_jam",
             new Item(new FabricItemSettings().recipeRemainder(Items.GLASS_BOTTLE)));
-    public static final Item WITHERSTORM__MUSIC_DISC_WITHERSTORM = registerItem("witherstorm__music_disc_wither_storm_theme",
+    public static final Item WITHERSTORM__MUSIC_DISC_WITHERSTORM = registerItem("witherstorm__music_disc_witherstorm_theme",
             new MusicDiscItem(6, ModSounds.WITHERSTORM_THEME, new  FabricItemSettings().maxCount(1).rarity(Rarity.RARE),188));
-    public static final Item WITHERSTORM__DISC_FRAGMENT_WITHERSTORM = registerItem("witherstorm__disc_fragment_wither_storm_theme",
+    public static final Item WITHERSTORM__DISC_FRAGMENT_WITHERSTORM = registerItem("witherstorm__disc_fragment_witherstorm_theme",
             new DiscFragmentItem(new FabricItemSettings()));
     public static final Item SP5__ENDERITE_APPLE = registerItem("sp5__enderite_apple",
             new Item(new FabricItemSettings().food(ModFoodComponents.ENDERITE_APPLE)));
@@ -59,7 +58,7 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item SP5__ENDMERALD = registerItem("sp5__end_emerald",
             new Item(new FabricItemSettings()));
-    public static final Item SP5__MELTE_RESIDUES = registerItem("sp5__melte_residues",
+    public static final Item SP5__MELTED_RESIDUES = registerItem("sp5__melted_residues",
             new Item(new FabricItemSettings()));
     public static final Item SP5__ENDERITE_INGOT = registerItem("sp5__enderite_ingot",
             new Item(new FabricItemSettings()));
@@ -163,50 +162,13 @@ public class ModItems {
             new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item H__ANOMALITE_BOOTS = registerItem("h__anomalite_boots",
             new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item SKYBLOCK__DUCKWEED = registerBlockItem(
+            new PlaceableOnWaterItem(ModBlocks.SKYBLOCK__DUCKWEED, new Item.Settings()));
+
+
+
     //HALLOWEEN 2023
     //UNUSED
-    public static final Item Z__LOGO_V1 = registerItem("z__logo_v1",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__LOGO_V2 = registerItem("z__logo_v2",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__LOGO_V3 = registerItem("z__logo_v3",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__LOGO_V4 = registerItem("z__logo_v4",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__LOGO1 = registerItem("z__logo1",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__LOGO2 = registerItem("z__logo2",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__LOGO3 = registerItem("z__logo3",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__LOGO4 = registerItem("z__logo4",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__LOGO5 = registerItem("z__logo5",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__LOGO6 = registerItem("z__logo6",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__TILE_BLANK = registerItem("z__tile_blank",
-            new TileBlankItem(Blocks.AIR, new FabricItemSettings()));
-    public static final Item Z__TILE_SKYBLOCK_1 = registerItem("z__tile_skyblock_1",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__TILE_SKYBLOCK_2 = registerItem("z__tile_skyblock_2",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__TILE_SKYBLOCK_3 = registerItem("z__tile_skyblock_3",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__TILE_SKYBLOCK_4 = registerItem("z__tile_skyblock_4",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__TILE_SKYBLOCK_5 = registerItem("z__tile_skyblock_5",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__TILE_SKYBLOCK_6 = registerItem("z__tile_skyblock_6",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__TILE_SKYBLOCK_7 = registerItem("z__tile_skyblock_7",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__TILE_SKYBLOCK_8 = registerItem("z__tile_skyblock_8",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__TILE_SKYBLOCK_9 = registerItem("z__tile_skyblock_9",
-            new Item(new FabricItemSettings()));
-    public static final Item Z__NULL = registerItem("z__null",
-            new NullItem(Blocks.AIR, new FabricItemSettings()));
     //UNUSED
 
     private static Item registerItem(String name, Item item) {
@@ -215,8 +177,11 @@ public class ModItems {
     public static void registerModItems () {
         SkyBlock.LOGGER.debug("Registering Items for " + SkyBlock.MOD_ID);
     }
-    protected static Item register(Block block, Item item) {
+    protected static Item registerBlockAndItem(Block block, Item item) {
         return ModItems.register(Registries.BLOCK.getId(block), item);
+    }
+    public static Item registerBlockItem(BlockItem item) {
+        return Items.register(item.getBlock(), item);
     }
     private static Item register(Identifier id, Item item) {
         if (item instanceof BlockItem) {

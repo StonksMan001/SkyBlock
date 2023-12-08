@@ -30,7 +30,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.GOLDEN_CARROT, RecipeCategory.MISC, ModBlocks.QUARK__GOLDEN_CARROT_CRATE);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.SWEET_BERRIES, RecipeCategory.MISC, ModBlocks.QUARK__SWEET_BERRY_SACK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.GLOW_BERRIES, RecipeCategory.MISC, ModBlocks.QUARK__GLOW_BERRY_SACK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.COCOA_BEANS, RecipeCategory.MISC, ModBlocks.QUARK__COCOA_BEANS_SACK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.COCOA_BEANS, RecipeCategory.MISC, ModBlocks.QUARK__COCOA_BEAN_SACK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.GUNPOWDER, RecipeCategory.MISC, ModBlocks.QUARK__GUNPOWDER_SACK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.NETHER_WART, RecipeCategory.MISC, ModBlocks.QUARK__NETHER_WART_SACK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.STICK, RecipeCategory.MISC, ModBlocks.QUARK__STICK_BLOCK);

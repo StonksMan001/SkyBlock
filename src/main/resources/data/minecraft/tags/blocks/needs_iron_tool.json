@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "skyblocks:end_emerald_ore",
-    "skyblocks:end_emerald_block",
+    "skyblock:end_emerald_ore",
+    "skyblock:end_emerald_block",
 
     "skyblock:sp5__end_emerald_ore",
     "skyblock:sp5__end_emerald_block",

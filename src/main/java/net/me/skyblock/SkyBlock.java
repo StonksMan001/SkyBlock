@@ -8,6 +8,7 @@ import net.me.skyblock.api.datafixer.DataFixer;
 import net.me.skyblock.archived.ArchivedBlocks;
 import net.me.skyblock.archived.ArchivedItems;
 import net.me.skyblock.blocks_and_items.ModBlocks;
+import net.me.skyblock.blocks_and_items.items.util.GhostItems;
 import net.me.skyblock.enchantments.ModEnchantments;
 import net.me.skyblock.entity.ModEntities;
 import net.me.skyblock.entity.mobs.mcd.WispEntity;
@@ -16,7 +17,6 @@ import net.me.skyblock.blocks_and_items.ModItems;
 import net.me.skyblock.entity.non_mobs.ModPaintings;
 import net.me.skyblock.particle.ModParticles;
 import net.me.skyblock.world.dimension.ModDimensions;
-import org.betterx.bclib.api.v2.datafixer.DataFixerAPI;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -33,6 +33,7 @@ public class SkyBlock implements ModInitializer {
 		DataFixer.register();
 
 		ModCreativeInventoryGroups.registerItemGroups();
+		GhostItems.registerGhostItems();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModEnchantments.registerModEnchantments();
@@ -68,6 +69,6 @@ public class SkyBlock implements ModInitializer {
 
 		FabricDefaultAttributeRegistry.register(ModEntities.WISP, WispEntity.setAttributes());
 
-		FuelRegistry.INSTANCE.add(ModItems.SP5__MELTE_RESIDUES, 30000);
+		FuelRegistry.INSTANCE.add(ModItems.SP5__MELTED_RESIDUES, 30000);
 	}
 }

@@ -1,7 +1,7 @@
 {
   "item.skyblock.skyblock__lightning_sword": "Sword of Beni",
   "item.skyblock.sp5__enderite_ingot": "Enderite Ingot",
-  "item.skyblock.sp5__melte_residues": "Melte Residues",
+  "item.skyblock.sp5__melted_residues": "Melted Residues",
   "item.skyblock.sp5__end_emerald": "End Emerald",
   "item.skyblock.skyblock__ant_bottle": "Bottle of Ants",
   "item.skyblock.skyblock__bottle_of_ant_jam": "Bottle of Ant Jam",
@@ -23,10 +23,10 @@
   "item.skyblock.sp5__enderite_axe": "Enderite Axe",
 
   "item.skyblock.skyblock__fyberite_ingot": "Fyberite Ingot",
-  "item.skyblock.witherstorm__disc_fragment_wither_storm_theme": "Disc Fragment",
-  "item.skyblock.witherstorm__disc_fragment_wither_storm_theme.desc": "Music Disc - Wither Storm Theme",
-  "item.skyblock.witherstorm__music_disc_wither_storm_theme": "Music Disc",
-  "item.skyblock.witherstorm__music_disc_wither_storm_theme.desc": "Antimo & Welles - Wither Storm Theme",
+  "item.skyblock.witherstorm__disc_fragment_witherstorm_theme": "Disc Fragment",
+  "item.skyblock.witherstorm__disc_fragment_witherstorm_theme.desc": "Music Disc - Wither Storm Theme",
+  "item.skyblock.witherstorm__music_disc_witherstorm_theme": "Music Disc",
+  "item.skyblock.witherstorm__music_disc_witherstorm_theme.desc": "Antimo & Welles - Wither Storm Theme",
   "block.skyblock.mcd__void_block": "Void Block",
   "item.skyblock.skyblock__sugar_poppy_mixture": "Sugar-Poppy Mixture",
   "item.skyblock.skyblock__steam_dumpling": "Steam Dumpling",
@@ -242,7 +242,7 @@
   "block.skyblock.quark__golden_carrot_crate": "Golden Carrot Crate",
   "block.skyblock.quark__sweet_berry_sack": "Sweet Berry Sack",
   "block.skyblock.quark__glow_berry_sack": "Glow Berry Sack",
-  "block.skyblock.quark__cocoa_beans_sack": "Cocoa Bean Sack",
+  "block.skyblock.quark__cocoa_bean_sack": "Cocoa Bean Sack",
   "block.skyblock.quark__gunpowder_sack": "Gunpowder Sack",
   "block.skyblock.quark__nether_wart_sack": "Nether Wart Sack",
   "block.skyblock.quark__stick_block": "Stick Stack",
@@ -271,5 +271,7 @@
   "tooltip.skyblock.rarity_info_extended.gilded": "§r[§e§lGILDED§r]",
   "tooltip.skyblock.rarity_info_extended.gifted": "§r[§a§lGifted§r]",
 
-  "enchantment.skyblock.primitiveness_curse": "Primitiveness Curse"
+  "enchantment.skyblock.primitiveness_curse": "Primitiveness Curse",
+
+  "block.skyblock.skyblock__duckweed": "Duckweed"
 }

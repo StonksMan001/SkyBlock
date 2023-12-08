@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "skyblocks:solid_rock",
-    "skyblocks:end_grass",
-    "skyblocks:bluishe_end_stone",
+    "skyblock:solid_rock",
+    "skyblock:end_grass",
+    "skyblock:bluishe_end_stone",
 
     "skyblock:sp5__solid_rock",
     "skyblock:sp5__end_grass",

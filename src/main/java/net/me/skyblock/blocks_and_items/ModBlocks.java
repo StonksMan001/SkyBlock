@@ -464,7 +464,7 @@ public class ModBlocks {
                     .strength(2.0f)));
     //ABYSS
     //SKYBLOCK MAIN-BLOCK
-    public static final Block SKYBLOCK__DUCKWEED = registerBlock("skyblock__duckweed",
+    public static final Block SKYBLOCK__DUCKWEED = registerBlockWithoutItem("skyblock__duckweed",
             new DuckweedBlock(FabricBlockSettings
                     .copyOf(Blocks.LILY_PAD)
                     .noCollision()
@@ -776,7 +776,7 @@ public class ModBlocks {
                     .copy(Blocks.HAY_BLOCK)
                     .sounds(BlockSoundGroup.WART_BLOCK)
                     .strength(1.0f)));
-    public static final Block QUARK__COCOA_BEANS_SACK = registerBlock("quark__cocoa_beans_sack",
+    public static final Block QUARK__COCOA_BEAN_SACK = registerBlock("quark__cocoa_bean_sack",
             new Block(FabricBlockSettings
                     .copy(Blocks.HAY_BLOCK)
                     .sounds(BlockSoundGroup.WART_BLOCK)

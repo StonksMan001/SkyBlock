@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(ChorusPlantBlock.class)
-public class ChorusPlantBlockMixin extends Block {
+public abstract class ChorusPlantBlockMixin extends Block {
     public ChorusPlantBlockMixin(Settings settings) {
         super(settings);
     }

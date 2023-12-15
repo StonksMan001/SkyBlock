@@ -41,11 +41,11 @@ public  class ItemGroupsMixin {
 
     @Inject(method = "registerAndGetDefault(Lnet/minecraft/registry/Registry;)Lnet/minecraft/item/ItemGroup;", at=@At("RETURN"))
     private static void setCustomIconSupplier(Registry<ItemGroup> registry, CallbackInfoReturnable<ItemGroup> cir) {
-        ((ItemGroupIconSupplierAccessor)registry.get(BUILDING_BLOCKS)).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V1));
-        ((ItemGroupIconSupplierAccessor)registry.get(COLORED_BLOCKS)).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V2));
-        ((ItemGroupIconSupplierAccessor)registry.get(NATURAL)).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V3));
-        ((ItemGroupIconSupplierAccessor)registry.get(FUNCTIONAL)).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V4));
-        ((ItemGroupIconSupplierAccessor)registry.get(REDSTONE)).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V5));
+        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(BUILDING_BLOCKS))).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V1));
+        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(COLORED_BLOCKS))).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V2));
+        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(NATURAL))).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V3));
+        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(FUNCTIONAL))).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V4));
+        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(REDSTONE))).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V5));
 
         /*((ItemGroupIconSupplierAccessor)registry.get(HOTBAR)).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V6));
         ((ItemGroupIconSupplierAccessor)registry.get(SEARCH)).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V6));

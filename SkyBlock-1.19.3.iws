@@ -4,515 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c290cb4-2b4e-4e2c-9ff6-bb4bf733aa93" name="Changes" comment="v1.2.1 - Build 1.2.1 (Changelog dicordon)">
-      <change afterPath="$PROJECT_DIR$/FINAL RELEASES/skyblock-1.2.1-1.20.1(client).jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/datafixer/DataFixer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ItemGroupIconSupplierAccessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ItemGroupsMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/SkyCore_TitleScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/archived/ArchivedBlocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/archived/ArchivedItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/DuckweedBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/items/mcd/McdArtifactItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/items/util/AnomaliteArmorItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/items/util/GhostItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/items/util/NullItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/items/util/TileBlankItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/items/util/custom_unenchantable/UnenchantableArmorItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/items/util/custom_unenchantable/UnenchantablePickaxeItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/items/util/custom_unenchantable/UnenchantableSwordItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/enchantments/ModEnchantments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/enchantments/misc/PrimitivenessCurse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/particle/ModParticles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/particle/halloween/NodeTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/particle/util/MarkerBillboardParticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/models/block/azalea_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/models/block/flowering_azalea_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/sounds/music/game/dalarna.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/sounds/music/game/finnbacka.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/sounds/music/game/halland.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/sounds/music/game/intertile.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/sounds/music/game/wanderlust.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/block/cherry_leaves.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/block/cherry_sapling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/models/armor/h__anomalite_layer_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/models/armor/h__anomalite_layer_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/andesite_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/ant_jam_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/apple_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/asteroid_residues.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/azalea_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/azalea_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/azalea_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/azalea_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/azalea_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/beetroot_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/blue_wart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/bluishe_end_stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/bluishe_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/bluishe_light_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/bluishe_light_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/bluishe_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/bluishe_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/bluishe_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/bluishe_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/cactus_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/carrot_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/cave_roots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/chorus_fruit_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/diorite_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/end_emerald_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/end_emerald_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/end_grass.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/end_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/end_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/end_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/end_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/end_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/end_wart_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/enderite_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/enderite_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/endlight.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/glow_berry_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/golden_apple_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/golden_carrot_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/granite_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/gunpowder_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/h__node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/mossier_cobblestone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/mossier_oak_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/mossier_spruce_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/nether_wart_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/potato_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/quark__cocoa_bean_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__duckweed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/solid_rock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/stick_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/stripped_azalea_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/stripped_azalea_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/stripped_bluishe_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/stripped_bluishe_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/stripped_end_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/stripped_end_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/sugar_cane_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/suspicious_coarse_dirt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/sweet_berry_jam_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/sweet_berry_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/transparent_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/h__leaves1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/h__leaves2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/h__node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/h__planks_broken.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/h__planks_bugged.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/h__planks_empty.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/h__planks_rotten.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/h__planks_sinister.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__duckweed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/andesite_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/ant_bottle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/ant_jam_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/apple_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/asteroid_residues.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/azalea_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/azalea_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/azalea_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/azalea_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/azalea_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/beetroot_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/blue_wart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bluishe_end_stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bluishe_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bluishe_light_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bluishe_light_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bluishe_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bluishe_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bluishe_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bluishe_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bottle_of_ant_jam.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/cactus_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/carrot_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/cave_roots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/chorus_fruit_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/diorite_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/enchanted_enderite_apple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/end_emerald.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/end_emerald_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/end_emerald_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/end_grass.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/end_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/end_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/end_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/end_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/end_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/end_wart_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/ender_stick.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/enderite_apple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/enderite_axe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/enderite_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/enderite_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/enderite_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/enderite_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/enderite_hoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/enderite_ingot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/enderite_leggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/enderite_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/enderite_pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/enderite_shovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/enderite_sword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/endlight.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/glow_berry_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/golden_apple_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/golden_carrot_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/granite_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/gunpowder_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__anomalite_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__anomalite_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__anomalite_fragment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__anomalite_handle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__anomalite_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__anomalite_leggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__anomalite_pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__anomalite_pickaxe1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__anomalite_pickaxe2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__anomalite_sword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__anomalite_sword1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__anomalite_sword2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__node_core.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__pearl_of_darkness.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__plasma_1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/h__plasma_2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mossier_cobblestone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mossier_oak_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mossier_spruce_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/nether_wart_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/potato_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/quark__cocoa_bean_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__duckweed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/solid_rock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__melted_residues.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/stick_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/stripped_azalea_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/stripped_azalea_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/stripped_bluishe_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/stripped_bluishe_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/stripped_end_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/stripped_end_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sugar_cane_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/suspicious_coarse_dirt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sweet_berry_jam_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sweet_berry_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/transparent_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/witherstorm__disc_fragment_witherstorm_theme.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/witherstorm__music_disc_witherstorm_theme.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__logo1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__logo2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__logo3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__logo4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__logo5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__logo6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__logo_v1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__logo_v2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__logo_v3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__logo_v4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__logo_v5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__logo_v6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__null.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__tile_blank.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__tile_skyblock_1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__tile_skyblock_2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__tile_skyblock_3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__tile_skyblock_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__tile_skyblock_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__tile_skyblock_6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__tile_skyblock_7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__tile_skyblock_8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__tile_skyblock_9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/particles/h__node_tracker.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/h__abandoned_valley.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/h__breach_of_worlds.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/h__despair.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__leaves1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__leaves2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__leaves2_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__node_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__node_side.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__node_side_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__node_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__planks_broken.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__planks_bugged.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__planks_bugged.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__planks_bugged_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__planks_bugged_e.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__planks_empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__planks_rotten.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__planks_sinister.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__planks_sinister.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__planks_sinister_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/h__planks_sinister_e.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/outer_leaves/leaves_azalea_flowering_outer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/outer_leaves/leaves_azalea_outer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__duckweed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_boots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_chestplate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_fragment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_handle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_helmet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_leggings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_pickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_pickaxe_endoplasmic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_pickaxe_endoplasmic.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_pickaxe_endoplasmic_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_pickaxe_endoplasmic_e.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_pickaxe_exoplasmic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_pickaxe_exoplasmic.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_pickaxe_exoplasmic_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_pickaxe_exoplasmic_e.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_sword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_sword_endoplasmic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_sword_endoplasmic.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_sword_endoplasmic_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_sword_endoplasmic_e.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_sword_exoplasmic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_sword_exoplasmic.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_sword_exoplasmic_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__anomalite_sword_exoplasmic_e.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__dead_plasma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__endoplasma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__endoplasma_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__exoplasma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__exoplasma_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__node_core.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__node_core_dead.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__node_core_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/h__pearl_of_darkness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/skyblock__duckweed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__logo1.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__logo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__logo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__logo5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__logo6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__logo_v1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__logo_v2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__logo_v3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__logo_v4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__logo_v5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__logo_v6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__null.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__tile_blank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__tile_skyblock_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__tile_skyblock_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__tile_skyblock_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__tile_skyblock_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__tile_skyblock_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__tile_skyblock_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__tile_skyblock_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__tile_skyblock_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__tile_skyblock_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/particle/drip_fall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/particle/drip_hang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/particle/drip_land.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/particle/h__node_tracker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/ant_jam_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/apple_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/asteroid_residues.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/azalea_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/azalea_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/azalea_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/azalea_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/azalea_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/beetroot_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/blue_wart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/bluishe_end_stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/bluishe_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/bluishe_light_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/bluishe_light_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/bluishe_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/bluishe_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/bluishe_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/bluishe_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/cactus_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/carrot_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/chorus_fruit_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/cocoa_beans_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/diorite_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/end_emerald_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/end_emerald_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/end_grass.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/end_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/end_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/end_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/end_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/end_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/end_wart_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/enderite_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/enderite_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/endlight.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/glow_berry_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/golden_apple_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/golden_carrot_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/granite_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/gunpowder_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/h__node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/mossier_cobblestone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/mossier_oak_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/mossier_spruce_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/nether_wart_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/potato_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/quark__cocoa_bean_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__duckweed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/solid_rock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__bluishe_light_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__bluishe_light_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/stick_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/stripped_azalea_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/stripped_azalea_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/stripped_bluishe_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/stripped_bluishe_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/stripped_end_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/stripped_end_stem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sugar_cane_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/suspicious_coarse_dirt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sweet_berry_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/transparent_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abysculk_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abysculk_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abysculk_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abyss_jungle_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abyss_jungle_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abyss_jungle_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abyss_jungle_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__bog_shroom_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__bog_shroom_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__bog_shroom_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__sal_shroom_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__sal_shroom_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__sal_shroom_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__sal_shroom_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__slimed_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__strippped_abyss_jungle_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__strippped_blaru_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__strippped_bog_shroom_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__strippped_frozen_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__strippped_sal_shroom_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__strippped_slimed_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__strippped_vigilant_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__vigilant_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__vigilant_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__vigilant_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__vigilant_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__andesite_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__ant_bottle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__ant_jam_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__apple_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__asteroid_residues.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__azalea_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__azalea_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__azalea_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__azalea_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__beetroot_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__blue_wart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_end_stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bottle_of_ant_jam.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__cactus_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__carrot_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__cave_roots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__chorus_fruit_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__cocoa_beans_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__diorite_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__disc_fragment_wither_storm_theme.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enchanted_enderite_apple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_emerald.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_emerald_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_grass.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_wart_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__ender_stick.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_apple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_axe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_hoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_ingot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_leggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_shovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_sword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__endlight.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__glow_berry_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__golden_apple_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__golden_carrot_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__granite_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__gunpowder_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__melte_residues.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__mossier_cobblestone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__mossier_oak_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__mossier_spruce_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__music_disc_wither_storm_theme.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__nether_wart_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__potato_crate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__solid_rock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__stick_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__sugar_cane_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__suspicious_coarse_dirt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__sweet_berry_jam_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__sweet_berry_sack.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__transparent_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/digpear__callery_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/digpear__callery_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/digpear__callery_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/digpear__callery_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/digpear__strippped_callery_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/flogical__azalea_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/flogical__azalea_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/flogical__azalea_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/flogical__azalea_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/flogical__strippped_azalea_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_boots1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_boots2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_handle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_leggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_pickaxe1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_pickaxe2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_sword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_sword1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_sword2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__endoplasma.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/quark__andesite_pillar2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/quark__diorite_pillar2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/quark__granite_pillar2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__bluishe_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__bluishe_light_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_emerald.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__enderite_ingot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__strippped_bluishe_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__strippped_end_hyphae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/witherstorm__music_disc_wither_storm_theme.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/abyss__abysculk_logs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/abyss__abyss_jungle_logs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/abyss__blaru_logs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/abyss__bog_shroom_logs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/abyss__frozen_logs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/abyss__sal_shroom_logs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/abyss__slimed_logs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/abyss__vigilant_logs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/digpear__callery_logs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/flogical__azalea_logs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/sp5__bluishe_stems.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/sp5__end_stems.json" afterDir="false" />
+    <list default="true" id="4c290cb4-2b4e-4e2c-9ff6-bb4bf733aa93" name="Changes" comment="szia bende">
       <change beforePath="$PROJECT_DIR$/SkyBlock-1.19.3.iws" beforeDir="false" afterPath="$PROJECT_DIR$/SkyBlock-1.19.3.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/bclib/cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/bclib/cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
@@ -522,94 +16,10 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ItemGroupsMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ItemGroupsMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/quark__cocoa_beans_sack.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/cocoa_beans_sack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/quark__cocoa_beans_sack.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/cocoa_beans_sack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__melte_residues.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/melte_residues.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/witherstorm__disc_fragment_wither_storm_theme.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/disc_fragment_wither_storm_theme.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/witherstorm__music_disc_wither_storm_theme.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/music_disc_wither_storm_theme.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/quark__cocoa_beans_sack.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/andesite_pillar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abysculk_planks1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__bluishe_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abysculk_planks2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__frozen_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abysculk_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__frozen_stairs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abysculk_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_hyphae.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss_jungle_planks1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__blaru_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss_jungle_planks2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__bog_shroom_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss_jungle_planks3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__slimed_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss_jungle_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__bluishe_slab.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss_jungle_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__bluishe_stairs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss_jungle_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__frozen_wood.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/andesite_pillar2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/azalea_planks1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__azalea_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/azalea_planks2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__stripped_azalea_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/azalea_planks3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/azalea_planks4.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__stripped_azalea_wood.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/azalea_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_slab.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/azalea_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_stairs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/azalea_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__blaru_wood.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/blaru_planks1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/blaru_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__blaru_stairs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/blaru_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__slimed_wood.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/bluishe_hyphae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/bluishe_light_hyphae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/bluishe_planks1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/bluishe_planks2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__stripped_bluishe_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/bluishe_planks3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_hyphae.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/bluishe_planks4.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__stripped_bluishe_hyphae.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/bluishe_planks5.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_light_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/bluishe_planks6.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_light_hyphae.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/bluishe_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__slimed_slab.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/bluishe_stairs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/bog_shroom_planks1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/bog_shroom_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abysculk_slab.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/bog_shroom_stairs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/bog_shroom_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/callery_planks1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/callery_slab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/callery_stairs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/callery_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/diorite_pillar2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/end_emerald.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_emerald_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/end_emerald_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__melted_residues_smelting.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/end_hyphae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/end_planks1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/end_planks2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__stripped_end_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/end_planks3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_hyphae.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/end_planks4.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__stripped_end_hyphae.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/end_slab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/end_stairs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/enderite_ingot.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/enderite_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__enderite_ingot_smelting.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/frozen_planks1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/frozen_slab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/frozen_stairs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/frozen_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/granite_pillar2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/melte_residues_smelting.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_emerald_smelting.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/music_disc_wither_storm_theme.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sal_shroom_planks1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sal_shroom_slab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sal_shroom_stairs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sal_shroom_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/slimed_planks1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/slimed_slab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/slimed_stairs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/slimed_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/strippped_abyss_jungle_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/strippped_azalea_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/strippped_blaru_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/strippped_bluishe_hyphae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/strippped_bog_shroom_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/strippped_callery_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/strippped_end_hyphae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/strippped_frozen_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/strippped_sal_shroom_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/strippped_slimed_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/strippped_vigilant_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/vigilant_planks1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/vigilant_slab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/vigilant_stairs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/vigilant_wood.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/end_bush.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/end_bush.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -723,20 +133,20 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main/FINAL RELEASES"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SONY/MODS_2/SkyBlockMod_Main/src/main/resources/assets/skyblock/models/item&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\textures\item" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\minecraft\models\block" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\textures\block\outer_leaves" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\libraries" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\item" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\asset, data factory" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\textures\block" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\block" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\blockstates" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="net.me.skyblock.api.mixin" />
@@ -978,7 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702060361413</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="v1.2.1 - .jar file">
+      <created>1702067587376</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702067587376</updated>
+    </task>
+    <task id="LOCAL-00008" summary="szia bende">
+      <created>1702133845424</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702133845424</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -987,7 +411,9 @@
     <MESSAGE value="v1.2.0 - Összes string identifier meg lett változtatva BCLib DataFixAPI segítségével. Teljes changelog nemsokára dsicordon" />
     <MESSAGE value="v1.2.0 - &quot;assets&quot;, &quot;data&quot; refactors" />
     <MESSAGE value="v1.2.1 - Build 1.2.1 (Changelog dicordon)" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.2.1 - Build 1.2.1 (Changelog dicordon)" />
+    <MESSAGE value="v1.2.1 - .jar file" />
+    <MESSAGE value="szia bende" />
+    <option name="LAST_COMMIT_MESSAGE" value="szia bende" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>

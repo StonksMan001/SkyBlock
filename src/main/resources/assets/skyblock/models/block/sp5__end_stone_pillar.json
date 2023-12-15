@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyblock:block/sp5__end_stone_pillar_top",
+    "side": "skyblock:block/sp5__end_stone_pillar"
+  }
+}

@@ -4,113 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c290cb4-2b4e-4e2c-9ff6-bb4bf733aa93" name="Changes" comment="v1.3.0 - 2 item az Enderite Addonból átportolva: &#10;Enderite Chorus Fruit,&#10;Popped Enderite Chorus Fruit">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__chiseled_end_stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__chiseled_end_stone_cubic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__chiseled_end_stone_cubic_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__chiseled_end_stone_maze_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_purple_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_purple_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_purple_pillar_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_purple_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_purple_slab_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_purple_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_purple_stairs_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_pillar_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_tiles.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_tiles_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__ender_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__enderite_chorus_fruit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__popped_enderite_chorus_fruit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__purple_end_brick_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__purple_end_brick_pillar_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__purple_end_brick_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__purple_end_brick_slab_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__purple_end_brick_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__purple_end_brick_stairs_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__purple_end_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__small_end_stone_bricks_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__smooth_end_stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__warped_end_stone_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__warped_purple_end_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__enderite_chorus_fruit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__popped_enderite_chorus_fruit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/sp5__purple_end_stone_pillar_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__enderite_chorus_fruit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__enderite_chorus_fruit_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__popped_enderite_chorus_fruit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__popped_enderite_chorus_fruit_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__chiseled_end_stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__chiseled_end_stone_cubic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__chiseled_end_stone_maze.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__cracked_end_stone_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_purple_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_purple_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_purple_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_purple_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_stone_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_stone_tiles.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__ender_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__purple_end_brick_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__purple_end_brick_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__purple_end_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__small_end_stone_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__smooth_end_stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__warped_end_stone_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__warped_purple_end_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__chiseled_end_stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__chiseled_end_stone_cubic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__chiseled_end_stone_cubic_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__chiseled_end_stone_maze_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__end_purple_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__end_purple_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__end_purple_pillar_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__end_purple_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__end_purple_slab_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__end_purple_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__end_purple_stairs_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__end_stone_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__end_stone_pillar_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__end_stone_tiles.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__end_stone_tiles_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__ender_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__enderite_chorus_fruit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__popped_enderite_chorus_fruit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__purple_end_brick_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__purple_end_brick_pillar_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__purple_end_brick_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__purple_end_brick_slab_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__purple_end_brick_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__purple_end_brick_stairs_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__purple_end_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__small_end_stone_bricks_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__smooth_end_stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__warped_end_stone_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/sp5__end_decoration_blocks/sp5__warped_purple_end_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/quark__andesite_pillar_craftable_from.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/quark__diorite_pillar_craftable_from.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/items/quark__granite_pillar_craftable_from.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkyBlock-1.19.3.iws" beforeDir="false" afterPath="$PROJECT_DIR$/SkyBlock-1.19.3.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_pickaxe1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes_seasonal/halloween/h__anomalite_pickaxe1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_pickaxe2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes_seasonal/halloween/h__anomalite_pickaxe2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_sword1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes_seasonal/halloween/h__anomalite_sword1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_sword2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes_seasonal/halloween/h__anomalite_sword2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__endoplasma.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes_seasonal/halloween/h__endoplasma.json" afterDir="false" />
-    </list>
+    <list default="true" id="4c290cb4-2b4e-4e2c-9ff6-bb4bf733aa93" name="Changes" comment="v1.3.0 - 1 item és 1 blokk az Enderite Addonból átportolva:&#10;Bluishe Light Sheel&#10;Purple End Brick Pillar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -509,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702811448811</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="v1.3.0 - 1 item és 1 blokk az Enderite Addonból átportolva:&#10;Bluishe Light Sheel&#10;Purple End Brick Pillar">
+      <created>1702820604975</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820604975</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,7 +434,8 @@
     <MESSAGE value="szia bende" />
     <MESSAGE value="v1.3.0 - 18 blokk az Enderite Addonból átportolva, nagyrészt Endkő és Purpur alapú díszítőelemek" />
     <MESSAGE value="v1.3.0 - 2 item az Enderite Addonból átportolva: &#10;Enderite Chorus Fruit,&#10;Popped Enderite Chorus Fruit" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.3.0 - 2 item az Enderite Addonból átportolva: &#10;Enderite Chorus Fruit,&#10;Popped Enderite Chorus Fruit" />
+    <MESSAGE value="v1.3.0 - 1 item és 1 blokk az Enderite Addonból átportolva:&#10;Bluishe Light Sheel&#10;Purple End Brick Pillar" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.3.0 - 1 item és 1 blokk az Enderite Addonból átportolva:&#10;Bluishe Light Sheel&#10;Purple End Brick Pillar" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>

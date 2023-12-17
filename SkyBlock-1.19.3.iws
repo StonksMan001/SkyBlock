@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c290cb4-2b4e-4e2c-9ff6-bb4bf733aa93" name="Changes" comment="v1.3.0 - 1 item és 1 blokk az Enderite Addonból átportolva:&#10;Bluishe Light Sheel&#10;Purple End Brick Pillar" />
+    <list default="true" id="4c290cb4-2b4e-4e2c-9ff6-bb4bf733aa93" name="Changes" comment="v1.3.0 - asset, data és lang fájlok frissítve az új blokk és itemeknek,">
+      <change beforePath="$PROJECT_DIR$/SkyBlock-1.19.3.iws" beforeDir="false" afterPath="$PROJECT_DIR$/SkyBlock-1.19.3.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -410,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702820604975</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="v1.3.0 - EnderBlock egyedi viselkedést kapott&#10;Bluishe Light Stem és Bluishe Light Hyphae viselkedés meg lett változtatava">
+      <created>1702820775940</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702820775940</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,7 +448,9 @@
     <MESSAGE value="v1.3.0 - 18 blokk az Enderite Addonból átportolva, nagyrészt Endkő és Purpur alapú díszítőelemek" />
     <MESSAGE value="v1.3.0 - 2 item az Enderite Addonból átportolva: &#10;Enderite Chorus Fruit,&#10;Popped Enderite Chorus Fruit" />
     <MESSAGE value="v1.3.0 - 1 item és 1 blokk az Enderite Addonból átportolva:&#10;Bluishe Light Sheel&#10;Purple End Brick Pillar" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.3.0 - 1 item és 1 blokk az Enderite Addonból átportolva:&#10;Bluishe Light Sheel&#10;Purple End Brick Pillar" />
+    <MESSAGE value="v1.3.0 - EnderBlock egyedi viselkedést kapott&#10;Bluishe Light Stem és Bluishe Light Hyphae viselkedés meg lett változtatava" />
+    <MESSAGE value="v1.3.0 - asset, data és lang fájlok frissítve az új blokk és itemeknek," />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.3.0 - asset, data és lang fájlok frissítve az új blokk és itemeknek," />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>

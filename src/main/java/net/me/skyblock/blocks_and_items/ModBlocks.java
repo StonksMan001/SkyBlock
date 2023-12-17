@@ -580,58 +580,76 @@ public class ModBlocks {
                     .strength(0.5f)));
     public static final Block SP5__CRACKED_END_STONE_BRICKS = registerBlock("sp5__cracked_end_stone_bricks",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__WARPED_END_STONE_BRICKS = registerBlock("sp5__warped_end_stone_bricks",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__END_STONE_PILLAR = registerBlock("sp5__end_stone_pillar",
             new PillarBlock(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__END_STONE_TILES = registerBlock("sp5__end_stone_tiles",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__SMALL_END_STONE_BRICKS = registerBlock("sp5__small_end_stone_bricks",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__SMOOTH_END_STONE = registerBlock("sp5__smooth_end_stone",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__CHISELED_END_STONE = registerBlock("sp5__chiseled_end_stone",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__CHISELED_END_STONE_CUBIC = registerBlock("sp5__chiseled_end_stone_cubic",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__CHISELED_END_STONE_MAZE = registerBlock("sp5__chiseled_end_stone_maze",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__PURPLE_END_BRICKS = registerBlock("sp5__purple_end_bricks",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__WARPED_PURPLE_END_BRICKS = registerBlock("sp5__warped_purple_end_bricks",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__PURPLE_END_BRICK_STAIRS = registerBlock("sp5__purple_end_brick_stairs",
             new StairsBlock(ModBlocks.SP5__PURPLE_END_BRICKS.getDefaultState(), FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICK_STAIRS)));
+                    .copy(Blocks.END_STONE_BRICK_STAIRS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__PURPLE_END_BRICK_SLAB = registerBlock("sp5__purple_end_brick_slab",
             new SlabBlock(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICK_SLAB)));
+                    .copy(Blocks.END_STONE_BRICK_SLAB)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__END_PURPLE_BLOCK = registerBlock("sp5__end_purple_block",
             new Block(FabricBlockSettings
-                    .copy(Blocks.PURPUR_BLOCK)));
+                    .copy(Blocks.PURPUR_BLOCK)
+                    .strength(1.5f, 6.0f)));
     public static final Block SP5__END_PURPLE_PILLAR = registerBlock("sp5__end_purple_pillar",
             new PillarBlock(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(1.5f, 6.0f)));
     public static final Block SP5__ENDER_BLOCK = registerBlock("sp5__ender_block",
             new Block(FabricBlockSettings
-                    .copy(Blocks.PURPUR_BLOCK)));
+                    .copy(Blocks.PURPUR_BLOCK)
+                    .strength(1.5f, 6.0f)));
     public static final Block SP5__END_PURPLE_STAIRS = registerBlock("sp5__end_purple_stairs",
             new StairsBlock(ModBlocks.SP5__END_PURPLE_BLOCK.getDefaultState(), FabricBlockSettings
-                    .copy(Blocks.PURPUR_STAIRS)));
+                    .copy(Blocks.PURPUR_STAIRS)
+                    .strength(1.5f, 6.0f)));
     public static final Block SP5__END_PURPLE_SLAB = registerBlock("sp5__end_purple_slab",
             new SlabBlock(FabricBlockSettings
-                    .copy(Blocks.PURPUR_SLAB)));
+                    .copy(Blocks.PURPUR_SLAB)
+                    .strength(1.5f, 6.0f)));
     public static final Block SP5__END_STEM = registerBlock("sp5__end_stem",
             new PillarBlock(FabricBlockSettings
                     .copy(Blocks.CRIMSON_STEM)

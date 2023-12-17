@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c290cb4-2b4e-4e2c-9ff6-bb4bf733aa93" name="Changes" comment="szia bende">
+    <list default="true" id="4c290cb4-2b4e-4e2c-9ff6-bb4bf733aa93" name="Changes" comment="v1.3.0 - 18 blokk az Enderite Addonból átportolva, nagyrészt Endkő és Purpur alapú díszítőelemek">
+      <change beforePath="$PROJECT_DIR$/SkyBlock-1.19.3.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/SkyBlock-1.19.3.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SkyBlock-1.19.3.iws" beforeDir="false" afterPath="$PROJECT_DIR$/SkyBlock-1.19.3.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/bclib/cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/bclib/cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyBlockMod_Main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SkyBlockMod_Main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyBlockMod_Main.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SkyBlockMod_Main.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkyBlockMod_Main.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SkyBlockMod_Main.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/betterend/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/betterend/items.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
@@ -16,10 +20,97 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ItemGroupsMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ItemGroupsMixin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/end_bush.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/end_bush.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__andesite_pillar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__andesite_pillar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__ant_bottle.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__ant_bottle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__ant_jam_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__ant_jam_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__apple_crate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__apple_crate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__asteroid_residues.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__asteroid_residues.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__azalea_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__azalea_log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__azalea_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__azalea_planks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__azalea_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__azalea_slab.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__azalea_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__azalea_stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__azalea_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__azalea_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__beetroot_crate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__beetroot_crate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__blue_wart.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__blue_wart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_end_stone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__bluishe_end_stone.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_hyphae.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__bluishe_hyphae.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_light_hyphae.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__bluishe_light_hyphae.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_light_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__bluishe_light_stem.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__bluishe_planks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__bluishe_slab.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__bluishe_stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bluishe_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__bluishe_stem.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__bottle_of_ant_jam.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__bottle_of_ant_jam.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__cactus_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__cactus_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__carrot_crate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__carrot_crate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__cave_roots.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__cave_roots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__chorus_fruit_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__chorus_fruit_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__cocoa_beans_sack.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__cocoa_beans_sack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__diorite_pillar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__diorite_pillar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__disc_fragment_wither_storm_theme.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__disc_fragment_wither_storm_theme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enchanted_enderite_apple.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__enchanted_enderite_apple.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_emerald.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__end_emerald.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_emerald_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__end_emerald_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_emerald_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__end_emerald_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_grass.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__end_grass.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_hyphae.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__end_hyphae.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__end_planks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__end_slab.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__end_stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__end_stem.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__end_wart_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__end_wart_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__ender_stick.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__ender_stick.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_apple.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__enderite_apple.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__enderite_axe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__enderite_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__enderite_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__enderite_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__enderite_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__enderite_hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_ingot.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__enderite_ingot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__enderite_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__enderite_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__enderite_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__enderite_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__enderite_sword.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__enderite_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__endlight.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__endlight.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__glow_berry_sack.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__glow_berry_sack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__golden_apple_crate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__golden_apple_crate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__golden_carrot_crate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__golden_carrot_crate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__granite_pillar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__granite_pillar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__gunpowder_sack.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__gunpowder_sack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__melte_residues.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__melte_residues.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__mossier_cobblestone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__mossier_cobblestone.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__mossier_oak_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__mossier_oak_planks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__mossier_spruce_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__mossier_spruce_planks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__music_disc_wither_storm_theme.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__music_disc_wither_storm_theme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__nether_wart_sack.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__nether_wart_sack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__potato_crate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__potato_crate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__solid_rock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__solid_rock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__stick_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__stick_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__stripped_azalea_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__stripped_azalea_log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__stripped_azalea_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__stripped_azalea_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__stripped_bluishe_hyphae.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__stripped_bluishe_hyphae.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__stripped_bluishe_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__stripped_bluishe_stem.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__stripped_end_hyphae.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__stripped_end_hyphae.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__stripped_end_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__stripped_end_stem.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__sugar_cane_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__sugar_cane_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__suspicious_coarse_dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__suspicious_coarse_dirt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__sweet_berry_jam_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__sweet_berry_jam_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__sweet_berry_sack.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__sweet_berry_sack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__transparent_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/conv__convtype__crafting/conv__transparent_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_pickaxe1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_pickaxe2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_sword1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__anomalite_sword2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/h__endoplasma.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/quark__andesite_pillar2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/quark__andesite_pillar2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/quark__diorite_pillar2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/quark__diorite_pillar2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/quark__granite_pillar2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/quark__granite_pillar2.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,20 +224,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/SONY/MODS_2/SkyBlockMod_Main/src/main/resources/assets/skyblock/models/item&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main/src/main/resources/data/skyblock/recipes_seasonal/halloween"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\recipes_seasonal\halloween" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\textures\item" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\item" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\recipes" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\asset, data factory" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\textures\block" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\block" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\blockstates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\recipes\conv__convtype__crafting" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="net.me.skyblock.api.mixin" />
@@ -402,8 +496,26 @@
       <option name="project" value="LOCAL" />
       <updated>1702133845424</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="v1.3.0 - 18 blokk az Enderite Addonból átportolva, nagyrészt Endkő és Purpur alapú díszítőelemek">
+      <created>1702656322483</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702656322483</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version 1.1.3 - Datafix Prequel" />
@@ -413,7 +525,8 @@
     <MESSAGE value="v1.2.1 - Build 1.2.1 (Changelog dicordon)" />
     <MESSAGE value="v1.2.1 - .jar file" />
     <MESSAGE value="szia bende" />
-    <option name="LAST_COMMIT_MESSAGE" value="szia bende" />
+    <MESSAGE value="v1.3.0 - 18 blokk az Enderite Addonból átportolva, nagyrészt Endkő és Purpur alapú díszítőelemek" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.3.0 - 18 blokk az Enderite Addonból átportolva, nagyrészt Endkő és Purpur alapú díszítőelemek" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>

@@ -1,6 +1,8 @@
-[16:13:26] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
-[16:13:27] [main/INFO] (FabricLoader) Loading 60 mods:
+[12:02:50] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
+[12:02:51] [main/INFO] (FabricLoader) Loading 62 mods:
 	- bclib 3.0.13
+	- betterend 4.0.10
+	- betternether 9.0.9
 	- continuity 3.0.0-beta.2+1.20
 	- fabric-api 0.86.1+1.20.1
 	- fabric-api-base 0.4.30+7abfd51577
@@ -60,11 +62,11 @@
 	- minecraft 1.20.1
 	- skyblock 1.0
 	- wunderlib 1.1.5
-[16:13:28] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/totha/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[16:13:28] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[16:13:28] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[16:13:28] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[16:13:32] [main/ERROR] (FabricLoader/Mixin) bclib.mixins.client.json:AnvilScreenMixin from mod bclib: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
+[12:03:13] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/totha/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[12:03:14] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[12:03:15] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[12:03:15] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[12:03:23] [main/ERROR] (FabricLoader/Mixin) bclib.mixins.client.json:AnvilScreenMixin from mod bclib: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
 org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
 	at org.spongepowered.asm.mixin.transformer.InterfaceInfo.renameMethod(InterfaceInfo.java:188) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepareSoftImplements(MixinPreProcessorStandard.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
@@ -89,9 +91,18 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: method
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[16:13:50] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 720 milliseconds
-[16:13:58] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:13:59] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[12:03:48] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 3801 milliseconds
+[12:03:51] [main/INFO] (Logger) [bclib] Added Config betternether.main to auto sync (file hash)
+[12:03:51] [main/INFO] (Logger) [bclib] Added Config betternether.generator to auto sync (file hash)
+[12:03:51] [main/INFO] (Logger) [bclib] Added Config betternether.blocks to auto sync (file hash)
+[12:03:51] [main/INFO] (Logger) [bclib] Added Config betternether.items to auto sync (file hash)
+[12:03:51] [main/INFO] (Logger) [bclib] Added Config betternether.biomes to auto sync (file hash)
+[12:03:51] [main/INFO] (Logger) [bclib] Added Config betternether.mobs to auto sync (file hash)
+[12:03:51] [main/INFO] (Logger) [bclib] Added Config betternether.recipes to auto sync (file hash)
+[12:03:53] [main/WARN] (Logger) [bclib] Recipe betternether:bone_block_bone_button only takes in a single item and should be shapeless
+[12:03:53] [main/WARN] (Logger) [betternether] Generating Debug Helpers
+[12:03:54] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:03:55] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
@@ -109,104 +120,161 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
 	... 9 more
-[16:13:59] [Render thread/INFO] (Minecraft) Setting user: Player913
-[16:14:00] [Render thread/INFO] (Logger) [bclib] Added Config bclib.generator to auto sync (file hash)
-[16:14:00] [Render thread/INFO] (Logger) [bclib] Added Config bclib.main to auto sync (content diff)
-[16:14:00] [Render thread/INFO] (Logger) [bclib] Added Config bclib.biomes to auto sync (file hash)
-[16:14:02] [Render thread/INFO] (skyblock) Registering Archived Blocks for skyblock
-[16:14:02] [Render thread/INFO] (skyblock) Registering Blocks for skyblock
-[16:14:02] [Render thread/INFO] (Minecraft) [STDOUT]: Registering Enchantments for skyblock
-[16:14:04] [Thread-2/INFO] (Logger) [bclib] Received Version Info for minecraft=1.20.1, loader=fabric
-[16:14:04] [Thread-2/INFO] (Logger) [bclib]  - bclib:3.0.13
-[16:14:05] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[16:14:06] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[16:14:10] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-containers-v0, fabric-resource-conditions-api-v1, fabric-transfer-api-v1, fabric-model-loading-api-v1, fabric-events-interaction-v0, fabric-loot-tables-v1, fabric-networking-v0, fabric-networking-api-v1, fabric-rendering-v1, continuity, bclib, fabric-rendering-fluids-v1, fabricloader, fabric-client-tags-api-v1, fabric-api, fabric-command-api-v1, fabric-block-api-v1, fabric-loot-api-v2, fabric-item-api-v1, fabric-game-rule-api-v1, fabric-rendering-v0, fabric-data-generation-api-v1, fabric-gametest-api-v1, skyblock, fabric-object-builder-api-v1, fabric-commands-v0, fabric-key-binding-api-v1, fabric-mining-level-api-v1, fabric-renderer-api-v1, fabric-command-api-v2, fabric-entity-events-v1, fabric-item-group-api-v1, fabric-recipe-api-v1, fabric-models-v0, fabric-api-base, fabric-dimensions-v1, fabric-rendering-data-attachment-v1, fabric-convention-tags-v1, fabric-sound-api-v1, fabric-resource-loader-v0, fabric-keybindings-v0, fabric-renderer-indigo, fabric-biome-api-v1, fabric-crash-report-info-v1, fabric-screen-handler-api-v1, fabric-blockrenderlayer-v1, fabric-transitive-access-wideners-v1, fabric-renderer-registries-v1, fabric-api-lookup-api-v1, fabric-content-registries-v0, fabric-events-lifecycle-v0, fabric-registry-sync-v0, fabric-screen-api-v1, fabric-message-api-v1, fabric-particles-v1, fabric-lifecycle-events-v1, geckolib)
-[16:14:11] [Worker-Main-1/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[16:14:12] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[16:14:16] [Worker-Main-2/WARN] (Minecraft) Texture skyblock:item/z__logo5 with size 20x20 limits mip level from 4 to 2
-[16:14:16] [Worker-Main-2/WARN] (Minecraft) Texture skyblock:item/z__null with size 1x1 limits mip level from 2 to 0
-[16:14:16] [Worker-Main-2/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
-[16:14:17] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:item/shortbow' referenced from: skyblock:mcd__shortbow#inventory: java.io.FileNotFoundException: skyblock:models/item/shortbow.json
-[16:14:17] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:mcd__longbow#inventory' referenced from: skyblock:mcd__longbow#inventory: java.io.FileNotFoundException: skyblock:models/item/mcd__longbow.json
-[16:14:17] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:item/auto_crossbow' referenced from: skyblock:mcd__auto_crossbow#inventory: java.io.FileNotFoundException: skyblock:models/item/auto_crossbow.json
-[16:14:19] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=y:
+[12:03:55] [Render thread/INFO] (Minecraft) Setting user: Player283
+[12:03:55] [Render thread/INFO] (Logger) [betternether] =^..^=    BetterNether for 1.20    =^..^=
+[12:03:56] [Render thread/INFO] (Logger) [bclib] Added Config betterend.entities to auto sync (file hash)
+[12:03:56] [Render thread/INFO] (Logger) [bclib] Added Config betterend.blocks to auto sync (file hash)
+[12:03:56] [Render thread/INFO] (Logger) [bclib] Added Config betterend.items to auto sync (file hash)
+[12:03:56] [Render thread/INFO] (Logger) [bclib] Added Config betterend.biomes to auto sync (file hash)
+[12:03:56] [Render thread/INFO] (Logger) [bclib] Added Config betterend.recipes to auto sync (file hash)
+[12:03:56] [Render thread/INFO] (Logger) [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[12:04:18] [Render thread/WARN] (Logger) [betterend] Generating Debug Helpers
+[12:04:18] [Render thread/INFO] (Logger) [bclib] Added Config bclib.generator to auto sync (file hash)
+[12:04:18] [Render thread/INFO] (Logger) [bclib] Added Config bclib.main to auto sync (content diff)
+[12:04:18] [Render thread/INFO] (Logger) [bclib] Added Config bclib.biomes to auto sync (file hash)
+[12:04:18] [Render thread/INFO] (skyblock) Registering Archived Blocks for skyblock
+[12:04:18] [Render thread/INFO] (skyblock) Registering Blocks for skyblock
+[12:04:18] [Render thread/INFO] (Minecraft) [STDOUT]: Registering Enchantments for skyblock
+[12:04:19] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[12:04:20] [Thread-2/INFO] (Logger) [bclib] Received Version Info for minecraft=1.20.1, loader=fabric
+[12:04:20] [Thread-2/INFO] (Logger) [bclib]  - bclib:3.0.13
+[12:04:20] [Thread-2/INFO] (Logger) [bclib]  - betterend:4.0.10
+[12:04:20] [Thread-2/INFO] (Logger) [bclib]  - betternether:9.0.9
+[12:04:21] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[12:04:27] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-object-builder-api-v1, fabric-client-tags-api-v1, fabric-events-interaction-v0, fabric-gametest-api-v1, betternether, fabric-mining-level-api-v1, fabric-command-api-v1, fabric-containers-v0, fabric-rendering-v1, fabric-crash-report-info-v1, fabric-transfer-api-v1, fabric-dimensions-v1, fabric-recipe-api-v1, fabric-screen-handler-api-v1, fabric-content-registries-v0, fabric-particles-v1, fabric-item-api-v1, fabric-entity-events-v1, betterend, fabric-transitive-access-wideners-v1, fabric-item-group-api-v1, fabric-loot-api-v2, fabric-resource-loader-v0, fabric-renderer-indigo, fabric-key-binding-api-v1, fabric-keybindings-v0, fabricloader, fabric-resource-conditions-api-v1, fabric-networking-api-v1, bclib, fabric-commands-v0, fabric-sound-api-v1, fabric-networking-v0, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-loot-tables-v1, fabric-api, fabric-lifecycle-events-v1, fabric-convention-tags-v1, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-message-api-v1, geckolib, fabric-blockrenderlayer-v1, fabric-block-api-v1, fabric-screen-api-v1, fabric-data-generation-api-v1, continuity, skyblock, fabric-game-rule-api-v1, fabric-renderer-api-v1, fabric-events-lifecycle-v0, fabric-models-v0, fabric-api-base, fabric-registry-sync-v0, fabric-rendering-data-attachment-v1, fabric-renderer-registries-v1, fabric-model-loading-api-v1, fabric-command-api-v2)
+[12:04:28] [Worker-Main-2/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 11 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 12 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 5 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 6 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 7 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 3 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 8 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 9 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 7 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 2 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 3 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
+[12:04:28] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
+[12:04:32] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[12:04:36] [Worker-Main-1/WARN] (Minecraft) Texture skyblock:item/z__logo5 with size 20x20 limits mip level from 4 to 2
+[12:04:36] [Worker-Main-1/WARN] (Minecraft) Texture skyblock:item/z__null with size 1x1 limits mip level from 2 to 0
+[12:04:36] [Worker-Main-1/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
+[12:04:40] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:item/shortbow' referenced from: skyblock:mcd__shortbow#inventory: java.io.FileNotFoundException: skyblock:models/item/shortbow.json
+[12:04:40] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:mcd__longbow#inventory' referenced from: skyblock:mcd__longbow#inventory: java.io.FileNotFoundException: skyblock:models/item/mcd__longbow.json
+[12:04:40] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:item/auto_crossbow' referenced from: skyblock:mcd__auto_crossbow#inventory: java.io.FileNotFoundException: skyblock:models/item/auto_crossbow.json
+[12:04:47] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=y:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[16:14:19] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=z:
+[12:04:47] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=z:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[16:14:19] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#inventory:
+[12:04:47] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#inventory:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[16:14:19] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#inventory:
+[12:04:47] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#inventory:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[16:14:19] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=z:
+[12:04:47] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=z:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[16:14:19] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=x:
+[12:04:47] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=x:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[16:14:19] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=y:
+[12:04:47] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=y:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[16:14:19] [Worker-Main-2/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=x:
+[12:04:47] [Worker-Main-3/WARN] (Minecraft) Missing textures in model betterend:debug/biome_loot#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/oak_leaves
+[12:04:47] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=x:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[16:14:20] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[16:14:20] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[16:14:20] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Hangszórók (USB Audio Device)
-[16:14:20] [Render thread/INFO] (Minecraft) Sound engine started
-[16:14:20] [Render thread/INFO] (Minecraft) Created: 1024x1024x0 minecraft:textures/atlas/blocks.png-atlas
-[16:14:20] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[16:14:20] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[16:14:20] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[16:14:20] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[16:14:21] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[16:14:21] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[16:14:21] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[16:14:21] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[16:14:22] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[16:14:22] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[16:14:22] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[16:14:22] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[16:15:07] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
-[16:15:07] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
-[16:15:07] [Render thread/ERROR] (Logger) [worlds_together] No valid registry found!
-[16:15:07] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{bclib:3.0.11:12582923}
-[16:15:07] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{skyblock:1.2.0-1.20.1:4227072}
-[16:15:07] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{skyblock:1.2.1-1.20.1:4227073}
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Running Pre Patchers on D:\SONY\MODS_2\SkyBlockMod_Main\run\saves\New World (1) backup2\.
-[16:15:07] [Render thread/INFO] (Logger) [DataFixerAPI] Everything up to date
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (6d1d62b3)
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[16:15:07] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[16:15:07] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[16:15:07] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (5ecfc5be)
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (6549e2ac)
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[16:15:07] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[16:15:07] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[16:15:07] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (3e2deda7)
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (3e4586a7)
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[16:15:07] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[16:15:07] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[16:15:07] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (3940ac7)
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (6a0928fc)
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[16:15:07] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[16:15:07] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[16:15:07] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (79371a6b)
-[16:15:07] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[16:15:08] [Render thread/WARN] (Logger) [bclib] No valid BCLBiome Registry available!
-[16:15:08] [Render thread/WARN] (Logger) [bclib] No valid Biome Registry available!
-[16:15:08] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
-[16:15:09] [Worker-Main-2/ERROR] (Minecraft) Not a JSON object: null
-[16:15:09] [Worker-Main-2/ERROR] (Minecraft) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack fabric
+[12:04:49] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[12:04:49] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[12:04:49] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Hangszórók (USB Audio Device)
+[12:04:49] [Render thread/INFO] (Minecraft) Sound engine started
+[12:04:49] [Render thread/INFO] (Minecraft) Created: 2048x1024x0 minecraft:textures/atlas/blocks.png-atlas
+[12:04:49] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[12:04:49] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[12:04:49] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[12:04:49] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[12:04:49] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[12:04:49] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
+[12:04:49] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[12:04:49] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[12:04:50] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[12:04:50] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[12:04:50] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[12:04:50] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[12:05:34] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
+[12:05:34] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
+[12:05:34] [Render thread/ERROR] (Logger) [worlds_together] No valid registry found!
+[12:05:34] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{betternether:5.3.5:21020677}
+[12:05:34] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{betternether:8.2.2:33587202}
+[12:05:34] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{betternether:9.0.1:37748737}
+[12:05:34] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{bclib:3.0.11:12582923}
+[12:05:34] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{skyblock:1.2.0-1.20.1:4227072}
+[12:05:34] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{skyblock:1.2.1-1.20.1:4227073}
+[12:05:34] [Render thread/INFO] (Logger) [bclib] Running Pre Patchers on D:\SONY\MODS_2\SkyBlockMod_Main\run\saves\New World (1) backup2\.
+[12:05:34] [Render thread/INFO] (Logger) [DataFixerAPI] Everything up to date
+[12:05:34] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_aurora_cave
+[12:05:34] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_end_cave
+[12:05:34] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_smaragdant_cave
+[12:05:34] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:jade_cave
+[12:05:34] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_aurora_cave
+[12:05:34] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_smaragdant_cave
+[12:05:34] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:megalake_grove
+[12:05:34] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:neon_oasis
+[12:05:34] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:painted_mountains
+[12:05:34] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (74e1da1d)
+[12:05:34] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[12:05:35] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[12:05:35] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[12:05:35] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[12:05:35] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (76c089b6)
+[12:05:35] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[12:05:35] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (408271c7)
+[12:05:35] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[12:05:35] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[12:05:35] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[12:05:35] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[12:05:35] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (1073bab6)
+[12:05:35] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[12:05:35] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (7cb340a3)
+[12:05:35] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[12:05:35] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[12:05:35] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[12:05:35] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[12:05:35] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (5bb3fcca)
+[12:05:35] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[12:05:35] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (2a321c0b)
+[12:05:35] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[12:05:35] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[12:05:35] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[12:05:35] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[12:05:35] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (4280b1ac)
+[12:05:35] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[12:05:35] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:05:35] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:05:35] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:05:35] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:05:35] [Render thread/WARN] (Logger) [bclib] No valid BCLBiome Registry available!
+[12:05:35] [Render thread/WARN] (Logger) [bclib] No valid Biome Registry available!
+[12:05:35] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
+[12:05:35] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:05:35] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:05:36] [Worker-Main-1/ERROR] (Minecraft) Not a JSON object: null
+[12:05:36] [Worker-Main-1/ERROR] (Minecraft) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack fabric
 java.lang.RuntimeException: Not a JSON object: null
 	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
 	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
@@ -221,77 +289,282 @@ java.lang.RuntimeException: Not a JSON object: null
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[16:15:10] [Render thread/INFO] (Logger) [bclib] Disabling Recipe: bclib:test_star
-[16:15:10] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[16:15:11] [Render thread/INFO] (Minecraft) Loaded 1282 advancements
-[16:15:12] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (14c1b1c4)
-[16:15:12] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (3a75f9d1)
-[16:15:12] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 2.985 ms
-[16:15:12] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
-[16:15:12] [Server thread/INFO] (Minecraft) Generating keypair
-[16:15:12] [Server thread/INFO] (Logger) [bclib] 
-Apply Modifications for skyblock:unknown
-    FixedBiomeSource (278fba66)
-        biomes     = 1
-        namespaces = minecraft(1)
-[16:15:12] [Server thread/INFO] (Logger) [bclib] 
+[12:05:38] [Render thread/INFO] (Logger) [bclib] Disabling Recipe: bclib:test_star
+[12:05:38] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:sp5__end_decoration_blocks/sp5__purple_end_brick_pillar
+com.google.gson.JsonSyntaxException: Unknown item 'skyblock:sp5__purple_end_brick_pillar'
+	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:272) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.outputFromJson(ShapedRecipe.java:259) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:293) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:279) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:135) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:56) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:35) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:139) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:188) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:123) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:202) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.handler$zkp000$bclib$wt_callFixerOnLoad(IntegratedServerLoader.java:546) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:590) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:480) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:402) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:327) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:38) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:98) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:409) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:98) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:102) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:169) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:201) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:219) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:288) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1241) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[12:05:38] [Render thread/INFO] (Minecraft) Loaded 10 recipes
+[12:05:41] [Render thread/INFO] (Minecraft) Loaded 2796 advancements
+[12:05:47] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (fff9936)
+[12:05:47] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (3f690e3d)
+[12:05:48] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 111 new biomes in 8.354 ms
+[12:05:48] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:05:48] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[12:05:48] [Server thread/INFO] (Minecraft) Generating keypair
+[12:05:49] [Server thread/INFO] (Logger) [bclib] 
 Apply Modifications for skyblock:the_abyss_fabric
-    FixedBiomeSource (4b8151)
+    FixedBiomeSource (8768ea7)
         biomes     = 1
         namespaces = minecraft(1)
-[16:15:12] [Server thread/INFO] (Logger) [bclib] 
+[12:05:49] [Server thread/INFO] (Logger) [bclib] 
 Apply Modifications for minecraft:overworld
-    FixedBiomeSource (63e221ab)
+    FixedBiomeSource (22e9b70b)
         biomes     = 1
         namespaces = minecraft(1)
-[16:15:12] [Server thread/INFO] (Logger) [bclib] World Dimensions: 
- - skyblock:unknown: 
-     net.minecraft.world.gen.chunk.FlatChunkGenerator@4bfb5b97 
-     FixedBiomeSource (278fba66)
-         biomes     = 1
-         namespaces = minecraft(1)
+[12:05:49] [Server thread/INFO] (Logger) [bclib] 
+Apply Modifications for skyblock:unknown
+    FixedBiomeSource (4565d034)
+        biomes     = 1
+        namespaces = minecraft(1)
+[12:05:49] [Server thread/INFO] (Logger) [bclib] World Dimensions: 
  - skyblock:the_abyss_fabric: 
-     net.minecraft.world.gen.chunk.FlatChunkGenerator@30d752b0 
-     FixedBiomeSource (4b8151)
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@79b2775 
+     FixedBiomeSource (8768ea7)
          biomes     = 1
          namespaces = minecraft(1)
  - minecraft:overworld: 
-     net.minecraft.world.gen.chunk.FlatChunkGenerator@72d4e9a3 
-     FixedBiomeSource (63e221ab)
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@2a08c04a 
+     FixedBiomeSource (22e9b70b)
          biomes     = 1
          namespaces = minecraft(1)
-[16:15:13] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[16:15:19] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[16:15:19] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[16:15:19] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[16:15:19] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[16:15:19] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[16:15:19] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[16:15:19] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[16:15:19] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[16:15:19] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[16:15:19] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[16:15:19] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[16:15:19] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[16:15:19] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[16:15:19] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
-[16:15:20] [Render thread/INFO] (Minecraft) Time elapsed: 7155 ms
-[16:15:20] [Server thread/INFO] (Minecraft) Changing view distance to 8, from 10
-[16:15:20] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
-[16:15:22] [Server thread/WARN] (Minecraft) Invalid statistic in D:\SONY\MODS_2\SkyBlockMod_Main\run\saves\New World (1) backup2\stats\90ee7131-905c-3e5a-b4c0-60424db8bd36.json: Don't know what skyblock:blue_vigilant_grass is
-[16:15:22] [Server thread/WARN] (Minecraft) Invalid statistic in D:\SONY\MODS_2\SkyBlockMod_Main\run\saves\New World (1) backup2\stats\90ee7131-905c-3e5a-b4c0-60424db8bd36.json: Don't know what skyblock:vigilant_grass is
-[16:15:22] [Server thread/INFO] (Minecraft) Player913[local:E:2ffdeb3c] logged in with entity id 114 at (51.30000001192093, -59.5, 8.706841683858721)
-[16:15:23] [Server thread/INFO] (Minecraft) Player913 csatlakozott a játékhoz
-[16:15:23] [Render thread/INFO] (Logger) [bclib] Sending hello to server.
-[16:15:23] [Server thread/INFO] (Logger) [bclib] Received Hello from Client. (server=3.0.13, client=3.0.13)
-[16:15:23] [Server thread/INFO] (Logger) [bclib] Auto-Sync is disabled for Singleplayer worlds.
-[16:15:23] [Render thread/INFO] (Minecraft) Loaded 51 advancements
-[16:20:42] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2714ms or 54 ticks behind
-[16:21:30] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[16:21:30] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16:21:30] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[16:21:30] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[16:35:55] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[16:35:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16:35:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[16:35:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+ - skyblock:unknown: 
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@1b1be762 
+     FixedBiomeSource (4565d034)
+         biomes     = 1
+         namespaces = minecraft(1)
+[12:05:50] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[12:05:56] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[12:05:56] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[12:05:56] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[12:05:56] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[12:05:56] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[12:05:56] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[12:05:56] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[12:05:56] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[12:05:56] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[12:05:56] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[12:05:56] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[12:05:56] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[12:05:56] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[12:05:57] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 6%
+[12:05:57] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 72%
+[12:05:58] [Render thread/INFO] (Minecraft) Time elapsed: 7552 ms
+[12:05:58] [Server thread/INFO] (Minecraft) Changing view distance to 8, from 10
+[12:05:58] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_stairs removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__azalea_log removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_emerald removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_hyphae removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__azalea_slab removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__mossier_spruce_planks removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__stick_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__stripped_bluishe_hyphae removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__ant_bottle removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__beetroot_crate removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__andesite_pillar removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__cactus_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__golden_carrot_crate removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__cave_roots removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_pickaxe removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__stripped_azalea_wood removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_slab removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_boots removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__sweet_berry_jam_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_leggings removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__cocoa_beans_sack removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:h__endoplasma removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__azalea_wood removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_axe removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_apple removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__carrot_crate removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_end_stone removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__golden_apple_crate removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__sugar_cane_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_grass removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__solid_rock removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_emerald_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__mossier_oak_planks removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__potato_crate removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__sweet_berry_sack removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_helmet removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__melte_residues removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_shovel removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_stairs removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_sword removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__apple_crate removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_slab removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enchanted_enderite_apple removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__chorus_fruit_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__glow_berry_sack removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_hoe removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__transparent_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__gunpowder_sack removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_stem removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__stripped_end_stem removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_chestplate removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__music_disc_wither_storm_theme removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__stripped_bluishe_stem removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__azalea_stairs removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_ore removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_emerald_ore removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__stripped_azalea_log removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__blue_wart removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__ender_stick removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_planks removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bottle_of_ant_jam removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__diorite_pillar removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__stripped_end_hyphae removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__nether_wart_sack removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__granite_pillar removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_hyphae removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__endlight removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_light_stem removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__azalea_planks removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__suspicious_coarse_dirt removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_stem removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__disc_fragment_wither_storm_theme removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__ant_jam_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__mossier_cobblestone removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_light_hyphae removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_wart_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_stairs removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__azalea_log removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_emerald removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_hyphae removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__sugar_cane_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_grass removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__solid_rock removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__azalea_slab removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_emerald_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__mossier_oak_planks removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__potato_crate removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__sweet_berry_sack removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_helmet removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__mossier_spruce_planks removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__stick_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__melte_residues removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__stripped_bluishe_hyphae removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__ant_bottle removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__beetroot_crate removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_shovel removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_stairs removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_sword removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__apple_crate removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__andesite_pillar removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__cactus_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_slab removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__golden_carrot_crate removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enchanted_enderite_apple removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__chorus_fruit_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__glow_berry_sack removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__cave_roots removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_hoe removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_pickaxe removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__transparent_block removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__gunpowder_sack removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_stem removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__stripped_end_stem removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_chestplate removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__music_disc_wither_storm_theme removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__stripped_bluishe_stem removed now.
+[12:06:02] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__azalea_stairs removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_ore removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_emerald_ore removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__stripped_azalea_wood removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_slab removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_boots removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__stripped_azalea_log removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__sweet_berry_jam_block removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_leggings removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__cocoa_beans_sack removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__blue_wart removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__ender_stick removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_planks removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__azalea_wood removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bottle_of_ant_jam removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__diorite_pillar removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__stripped_end_hyphae removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_axe removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__nether_wart_sack removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_apple removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__granite_pillar removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_hyphae removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__endlight removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_light_stem removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__azalea_planks removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__suspicious_coarse_dirt removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_stem removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__carrot_crate removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__disc_fragment_wither_storm_theme removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__enderite_block removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__ant_jam_block removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__mossier_cobblestone removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_light_hyphae removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__bluishe_end_stone removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__end_wart_block removed now.
+[12:06:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:conv__golden_apple_crate removed now.
+[12:06:03] [Server thread/INFO] (Minecraft) Player283[local:E:530a853a] logged in with entity id 223 at (44.37525944303232, -56.381697985155775, 6.45539627065745)
+[12:06:03] [Server thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12:06:03] [Server thread/INFO] (Minecraft) Player283 csatlakozott a játékhoz
+[12:06:04] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[12:06:05] [Render thread/INFO] (Logger) [bclib] Sending hello to server.
+[12:06:05] [Server thread/INFO] (Logger) [bclib] Received Hello from Client. (server=3.0.13, client=3.0.13)
+[12:06:05] [Server thread/INFO] (Logger) [bclib] Auto-Sync is disabled for Singleplayer worlds.
+[12:06:07] [Render thread/INFO] (Minecraft) Loaded 10 advancements
+[12:06:08] [Render thread/INFO] (Minecraft) Loaded 27 advancements
+[12:06:34] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[12:06:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[12:06:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[12:06:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[12:07:21] [Render thread/INFO] (Minecraft) Loaded 38 advancements
+[12:07:30] [Render thread/INFO] (Minecraft) Loaded 51 advancements
+[12:10:06] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[12:10:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[12:10:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[12:10:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown

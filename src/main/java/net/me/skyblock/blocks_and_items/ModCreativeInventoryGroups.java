@@ -119,6 +119,8 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.SP5__ENDER_BLOCK);
                 entries.add(ModBlocks.SP5__END_PURPLE_STAIRS);
                 entries.add(ModBlocks.SP5__END_PURPLE_SLAB);
+                entries.add(ModItems.SP5__ENDERITE_CHORUS_FRUIT);
+                entries.add(ModItems.SP5__POPPED_ENDERITE_CHORUS_FRUIT);
                 ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 5, 5);
                 ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 9, 9);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_LOG);

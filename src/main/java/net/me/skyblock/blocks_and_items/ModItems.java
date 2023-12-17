@@ -62,6 +62,11 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item SP5__ENDERITE_INGOT = registerItem("sp5__enderite_ingot",
             new Item(new FabricItemSettings()));
+    public static final Item SP5__ENDERITE_CHORUS_FRUIT = registerItem("sp5__enderite_chorus_fruit",
+            new ChorusFruitItem(new FabricItemSettings().food(FoodComponents.CHORUS_FRUIT)));
+    public static final Item SP5__POPPED_ENDERITE_CHORUS_FRUIT = registerItem("sp5__popped_enderite_chorus_fruit",
+            new Item(new FabricItemSettings()));
+
     public static final Item SP5__ENDERITE_HELMET = registerItem("sp5__enderite_helmet",
             new ArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item SP5__ENDERITE_CHESTPLATE = registerItem("sp5__enderite_chestplate",

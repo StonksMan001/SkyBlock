@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "skyblock:sp5__chiseled_end_stone"
+        }
+      ]
+    }
+  ]
+}

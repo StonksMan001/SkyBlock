@@ -5,8 +5,10 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.me.skyblock.SkyBlock;
 import net.me.skyblock.blocks_and_items.blocks.abyss.AbyssVegetation;
 import net.me.skyblock.blocks_and_items.blocks.abyss.BlueVigilantGrass;
+import net.me.skyblock.blocks_and_items.blocks.end.BluisheLightStemBlock;
 import net.me.skyblock.blocks_and_items.blocks.end.EndFlower;
 import net.me.skyblock.blocks_and_items.blocks.end.EndVegetation;
+import net.me.skyblock.blocks_and_items.blocks.end.EnderBlock;
 import net.me.skyblock.blocks_and_items.blocks.mcd.MossyOakPlanks;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.DuckweedBlock;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.SuspiciousCoarseDirt;
@@ -618,6 +620,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings
                     .copy(Blocks.END_STONE_BRICKS)
                     .strength(3.0f, 9.0f)));
+    public static final Block SP5__PURPLE_END_BRICK_PILLAR = registerBlock("sp5__purple_end_brick_pillar",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(1.5f, 6.0f)));
     public static final Block SP5__WARPED_PURPLE_END_BRICKS = registerBlock("sp5__warped_purple_end_bricks",
             new Block(FabricBlockSettings
                     .copy(Blocks.END_STONE_BRICKS)
@@ -639,7 +645,7 @@ public class ModBlocks {
                     .copy(Blocks.END_STONE_BRICKS)
                     .strength(1.5f, 6.0f)));
     public static final Block SP5__ENDER_BLOCK = registerBlock("sp5__ender_block",
-            new Block(FabricBlockSettings
+            new EnderBlock(FabricBlockSettings
                     .copy(Blocks.PURPUR_BLOCK)
                     .strength(1.5f, 6.0f)));
     public static final Block SP5__END_PURPLE_STAIRS = registerBlock("sp5__end_purple_stairs",
@@ -693,11 +699,11 @@ public class ModBlocks {
                     .copy(Blocks.WARPED_HYPHAE)
                     .strength(2.0f)));
     public static final Block SP5__BLUISHE_LIGHT_STEM = registerBlock("sp5__bluishe_light_stem",
-            new PillarBlock(FabricBlockSettings
+            new BluisheLightStemBlock(FabricBlockSettings
                     .copy(Blocks.WARPED_STEM)
                     .strength(2.0f)));
     public static final Block SP5__BLUISHE_LIGHT_HYPHAE = registerBlock("sp5__bluishe_light_hyphae",
-            new PillarBlock(FabricBlockSettings
+            new BluisheLightStemBlock(FabricBlockSettings
                     .copy(Blocks.WARPED_HYPHAE)
                     .strength(2.0f)));
     public static final Block SP5__STRIPPED_BLUISHE_STEM = registerBlock("sp5__stripped_bluishe_stem",

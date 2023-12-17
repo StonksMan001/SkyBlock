@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "skyblock:sp5__popped_enderite_chorus_fruit"
+    },
+    {
+      "item": "minecraft:end_stone_bricks"
+    }
+  ],
+  "result": {
+    "item": "skyblock:sp5__purple_end_bricks"
+  },
+  "show_notification": false
+}

@@ -756,6 +756,14 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings
                     .copy(Blocks.OAK_SLAB)
                     .strength(2.0f)));
+    //SKYBLOCK - CARVED PLANKS
+    public static final Block SKYBLOCK__CARVED_OAK_PLANKS = registerBlock("skyblock__carved_oak_planks",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SKYBLOCK__CARVED_SPRUCE_PLANKS = registerBlock("skyblock__carved_spruce_planks",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SKYBLOCK__CARVED_DARK_OAK_PLANKS = registerBlock("skyblock__carved_dark_oak_planks",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.DARK_OAK_PLANKS)));
+    //SKYBLOCK - CARVED PLANKS
     //SKYBLOCK MAIN-BLOCK
     //MCD
     public static final Block MCD__MOSSIER_COBBLESTONE = registerBlock("mcd__mossier_cobblestone",
@@ -911,6 +919,30 @@ public class ModBlocks {
                     .ticksRandomly()
                     .strength(0.2f)
                     .sounds(BlockSoundGroup.VINE)));
+    //QUARK - VERTICAL PLANKS
+    public static final Block QUARK__VERTICAL_OAK_PLANKS = registerBlock("quark__vertical_oak_planks",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block QUARK__VERTICAL_SPRUCE_PLANKS = registerBlock("quark__vertical_spruce_planks",
+            new Block(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block QUARK__VERTICAL_BIRCH_PLANKS = registerBlock("quark__vertical_birch_planks",
+            new Block(FabricBlockSettings.copy(Blocks.BIRCH_PLANKS)));
+    public static final Block QUARK__VERTICAL_JUNGLE_PLANKS = registerBlock("quark__vertical_jungle_planks",
+            new Block(FabricBlockSettings.copy(Blocks.JUNGLE_PLANKS)));
+    public static final Block QUARK__VERTICAL_ACACIA_PLANKS = registerBlock("quark__vertical_acacia_planks",
+            new Block(FabricBlockSettings.copy(Blocks.ACACIA_PLANKS)));
+    public static final Block QUARK__VERTICAL_DARK_OAK_PLANKS = registerBlock("quark__vertical_dark_oak_planks",
+            new Block(FabricBlockSettings.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final Block QUARK__VERTICAL_MANGROVE_PLANKS = registerBlock("quark__vertical_mangrove_planks",
+            new Block(FabricBlockSettings.copy(Blocks.MANGROVE_PLANKS)));
+    public static final Block QUARK__VERTICAL_CHERRY_PLANKS = registerBlock("quark__vertical_cherry_planks",
+            new Block(FabricBlockSettings.copy(Blocks.CHERRY_PLANKS)));
+    public static final Block QUARK__VERTICAL_BAMBOO_PLANKS = registerBlock("quark__vertical_bamboo_planks",
+            new Block(FabricBlockSettings.copy(Blocks.BAMBOO_PLANKS)));
+    public static final Block QUARK__VERTICAL_CRIMSON_PLANKS = registerBlock("quark__vertical_crimson_planks",
+            new Block(FabricBlockSettings.copy(Blocks.CRIMSON_PLANKS)));
+    public static final Block QUARK__VERTICAL_WARPED_PLANKS = registerBlock("quark__vertical_warped_planks",
+            new Block(FabricBlockSettings.copy(Blocks.WARPED_PLANKS)));
+    //QUARK - VERTICAL PLANKS
     //QUARK
     //HALLOWEEN 2023
     public static final Block H__NODE = registerBlock("h__node",

@@ -6,12 +6,16 @@
   "mixins": [
     "ChorusPlantBlockMixin",
     "ItemGroupIconSupplierAccessor",
-    "ItemGroupsMixin"
+    "ItemGroupsMixin",
+    "WrittenBookItemMixin",
+    "BookEditScreenMixin"
   ],
   "client": [
     "ChorusPlantBlockMixin",
     "ItemGroupIconSupplierAccessor",
-    "ItemGroupsMixin"
+    "ItemGroupsMixin",
+    "WrittenBookItemMixin",
+    "BookEditScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

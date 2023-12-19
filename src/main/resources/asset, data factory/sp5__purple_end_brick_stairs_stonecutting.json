@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "skyblock:sp5__purple_end_bricks"
-  },
-  "result": "skyblock:sp5__purple_end_brick_stairs"
-}

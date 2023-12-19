@@ -23,7 +23,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import java.util.Objects;
 import java.util.function.Supplier;
 @Mixin(ItemGroups.class)
-public  class ItemGroupsMixin {
+public abstract class ItemGroupsMixin {
     @Shadow @Final public static RegistryKey<ItemGroup> BUILDING_BLOCKS;
     @Shadow @Final public static RegistryKey<ItemGroup> COLORED_BLOCKS;
     @Shadow @Final public static RegistryKey<ItemGroup> NATURAL;

@@ -27,12 +27,16 @@ public class ModCreativeInventoryGroups {
                 entries.add(GhostItems.Z__TILE_SKYBLOCK_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItems.Z__TILE_SKYBLOCK_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItems.Z__TILE_SKYBLOCK_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                entries.add(ModBlocks.SKYBLOCK__CARVED_OAK_PLANKS);
+                entries.add(ModBlocks.SKYBLOCK__CARVED_SPRUCE_PLANKS);
+                entries.add(ModBlocks.SKYBLOCK__CARVED_DARK_OAK_PLANKS);
+                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 0, 6);
                 entries.add(ModItems.SKYBLOCK__ANT_BOTTLE);
                 entries.add(ModItems.SKYBLOCK__BOTTLE_OF_ANT_JAM);
                 entries.add(ModBlocks.SKYBLOCK__ANT_JAM_BLOCK);
                 entries.add(ModBlocks.SKYBLOCK__SUSPICIOUS_COARSE_DIRT);
                 entries.add(ModItems.SKYBLOCK__DUCKWEED);
-                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 0, 4);
+                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 6, 4);
                 entries.add(ModBlocks.H__NODE);
                 entries.add(ModItems.H__NODE_CORE);
                 entries.add(ModItems.H__PEARL_OF_DARKNESS);
@@ -50,7 +54,7 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModItems.H__ANOMALITE_CHESTPLATE);
                 entries.add(ModItems.H__ANOMALITE_LEGGINGS);
                 entries.add(ModItems.H__ANOMALITE_BOOTS);
-                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 4, 1);
+                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 10, 1);
                 ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 0, 9);
                 entries.add(ModItems.SP5__ENDERITE_INGOT);
                 entries.add(ModItems.SP5__ENDERITE_APPLE);
@@ -123,7 +127,7 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModItems.SP5__ENDERITE_CHORUS_FRUIT);
                 entries.add(ModItems.SP5__POPPED_ENDERITE_CHORUS_FRUIT);
                 entries.add(ModItems.SP5__BLUISHE_LIGHT_SHEEL);
-                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 5, 1);
+                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 11, 1);
                 ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 9, 9);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_LOG);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_WOOD);
@@ -132,7 +136,7 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.FLOGICAL__AZALEA_PLANKS);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_STAIRS);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_SLAB);
-                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 6, 2);
+                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 12, 2);
                 ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 18, 9);
                 entries.add(ModBlocks.DIGPEAR__CALLERY_LOG);
                 entries.add(ModBlocks.DIGPEAR__CALLERY_WOOD);
@@ -392,6 +396,17 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.QUARK__DIORITE_PILLAR);
                 entries.add(ModBlocks.QUARK__GRANITE_PILLAR);
                 entries.add(ModBlocks.QUARK__CAVE_ROOTS);
+                entries.add(ModBlocks.QUARK__VERTICAL_OAK_PLANKS);
+                entries.add(ModBlocks.QUARK__VERTICAL_SPRUCE_PLANKS);
+                entries.add(ModBlocks.QUARK__VERTICAL_BIRCH_PLANKS);
+                entries.add(ModBlocks.QUARK__VERTICAL_JUNGLE_PLANKS);
+                entries.add(ModBlocks.QUARK__VERTICAL_ACACIA_PLANKS);
+                entries.add(ModBlocks.QUARK__VERTICAL_DARK_OAK_PLANKS);
+                entries.add(ModBlocks.QUARK__VERTICAL_MANGROVE_PLANKS);
+                entries.add(ModBlocks.QUARK__VERTICAL_CHERRY_PLANKS);
+                entries.add(ModBlocks.QUARK__VERTICAL_BAMBOO_PLANKS);
+                entries.add(ModBlocks.QUARK__VERTICAL_CRIMSON_PLANKS);
+                entries.add(ModBlocks.QUARK__VERTICAL_WARPED_PLANKS);
             }).build());
 
     public static void registerItemGroups() {}

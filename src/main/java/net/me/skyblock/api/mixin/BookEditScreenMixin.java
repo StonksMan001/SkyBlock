@@ -17,6 +17,7 @@ public abstract class BookEditScreenMixin {
     }
     @Shadow
     private String title;
+    @Final
     @Shadow
     @Mutable
     private final SelectionManager bookTitleSelectionManager = new SelectionManager(() -> this.title, title -> {

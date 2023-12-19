@@ -4,58 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/BookEditScreenMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/WrittenBookItemMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/font/default.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/lang/en_us.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/lang/hu_hu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkyBlock-1.19.3.iws" beforeDir="false" afterPath="$PROJECT_DIR$/SkyBlock-1.19.3.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/bclib/cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/bclib/cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/ModModelPredicateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/ModModelPredicateProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ItemGroupsMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ItemGroupsMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__chiseled_end_stone.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__chiseled_end_stone_cubic.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__chiseled_end_stone_cubic_stonecutting.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__chiseled_end_stone_maze_stonecutting.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_purple_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_purple_pillar.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_purple_pillar_stonecutting.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_purple_slab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_purple_slab_stonecutting.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_purple_stairs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_purple_stairs_stonecutting.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_pillar.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_pillar_stonecutting.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_tiles.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_tiles_stonecutting.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__ender_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__enderite_chorus_fruit.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__popped_enderite_chorus_fruit.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__purple_end_brick_pillar.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__purple_end_brick_pillar_stonecutting.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__purple_end_brick_slab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__purple_end_brick_slab_stonecutting.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__purple_end_brick_stairs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__purple_end_brick_stairs_stonecutting.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__purple_end_bricks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__small_end_stone_bricks_stonecutting.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__smooth_end_stone.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__warped_end_stone_bricks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__warped_purple_end_bricks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" afterDir="false" />
+    <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="v1.3.0 - 2 Új MixinClass: BookEditScreenMixin, WrittenBookItemMixin">
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/BookEditScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/BookEditScreenMixin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +127,18 @@
       <option name="presentableId" value="Default" />
       <updated>1702901014958</updated>
     </task>
+    <task id="LOCAL-00001" summary="v1.3.0 - 2 Új MixinClass: BookEditScreenMixin, WrittenBookItemMixin">
+      <created>1702988303707</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702988303707</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1.3.0 - 2 Új MixinClass: BookEditScreenMixin, WrittenBookItemMixin" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.3.0 - 2 Új MixinClass: BookEditScreenMixin, WrittenBookItemMixin" />
   </component>
 </project>

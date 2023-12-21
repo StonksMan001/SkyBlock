@@ -1,5 +1,6 @@
 package net.me.skyblock.blocks_and_items.blocks.abyss;
 
+import com.mojang.serialization.MapCodec;
 import net.me.skyblock.blocks_and_items.ModBlocks;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -12,13 +13,17 @@ import net.minecraft.world.BlockView;
 
 public class AbyssVegetation
         extends PlantBlock {
-    protected static final float field_31235 = 6.0f;
+    public static final MapCodec<AbyssVegetation> CODEC = createCodec(AbyssVegetation::new);
+    @Override
+    protected MapCodec<? extends PlantBlock> getCodec() {
+        return CODEC;
+    }
+
     protected static final VoxelShape SHAPE = Block.createCuboidShape(2.0, 0.0, 2.0, 14.0, 13.0, 14.0);
 
     public AbyssVegetation(AbstractBlock.Settings settings) {
         super(settings);
     }
-
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return SHAPE;

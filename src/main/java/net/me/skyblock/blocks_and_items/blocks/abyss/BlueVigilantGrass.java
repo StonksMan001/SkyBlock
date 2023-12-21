@@ -1,5 +1,6 @@
 package net.me.skyblock.blocks_and_items.blocks.abyss;
 
+import com.mojang.serialization.MapCodec;
 import net.me.skyblock.blocks_and_items.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -17,6 +18,11 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
 public class BlueVigilantGrass extends PlantBlock {
+    public static final MapCodec<BlueVigilantGrass> CODEC = createCodec(BlueVigilantGrass::new);
+    @Override
+    protected MapCodec<? extends PlantBlock> getCodec() {
+        return CODEC;
+    }
 
     public static final BooleanProperty LIT = BooleanProperty.of("lit");
 

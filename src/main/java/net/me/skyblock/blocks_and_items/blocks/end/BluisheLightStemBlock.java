@@ -1,9 +1,12 @@
 package net.me.skyblock.blocks_and_items.blocks.end;
 
+import com.mojang.serialization.MapCodec;
 import net.me.skyblock.blocks_and_items.ModItems;
+import net.me.skyblock.blocks_and_items.blocks.abyss.AbyssVegetation;
 import net.minecraft.block.BeehiveBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.PillarBlock;
+import net.minecraft.block.PlantBlock;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.tag.ItemTags;

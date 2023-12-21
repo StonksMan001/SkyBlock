@@ -78,17 +78,17 @@ public class ArchivedBlocks {
                     .copy(Blocks.COARSE_DIRT)
                     .strength(0.5f)));
     public static final Block TRANSPARENT_BLOCK = registerBlock("transparent_block",
-            new GlassBlock(FabricBlockSettings
+            new Block(FabricBlockSettings
                     .copy(Blocks.BLACK_STAINED_GLASS)
                     .sounds(BlockSoundGroup.WART_BLOCK)
                     .strength(0.5f)));
     public static final Block END_WART_BLOCK = registerBlock("end_wart_block",
-            new GlassBlock(FabricBlockSettings
+            new Block(FabricBlockSettings
                     .copy(Blocks.BLACK_STAINED_GLASS)
                     .sounds(BlockSoundGroup.WART_BLOCK)
                     .strength(1.0f)));
     public static final Block BLUE_WART = registerBlock("blue_wart",
-            new GlassBlock(FabricBlockSettings
+            new Block(FabricBlockSettings
                     .copy(Blocks.BLACK_STAINED_GLASS)
                     .sounds(BlockSoundGroup.MOSS_BLOCK)
                     .strength(0.5f)));

@@ -18,7 +18,7 @@ public class UnenchantableArmorItem extends ArmorItem {
     }
 
     @Override
-    public void onCraft(ItemStack stack, World world, PlayerEntity player) {
+    public void onCraft(ItemStack stack, World world) {
         stack.addEnchantment(ModEnchantments.PRIMITIVENESS_CURSE, 1);
     }
     @Override

@@ -4,12 +4,11 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.me.skyblock.blocks_and_items.ModBlocks;
 import net.me.skyblock.blocks_and_items.ModItems;
-import net.minecraft.data.server.recipe.RecipeJsonProvider;
+import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 
 import java.util.List;
-import java.util.function.Consumer;
 
 public class ModRecipeGenerator extends FabricRecipeProvider {
     public ModRecipeGenerator(FabricDataOutput output) {
@@ -17,7 +16,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
     }
 
     @Override
-    public void generate(Consumer<RecipeJsonProvider> exporter) {
+    public void generate(RecipeExporter exporter) {
         offerSmelting(exporter, List.of(ModBlocks.SP5__ENDMERALD_BLOCK), RecipeCategory.MISC, ModItems.SP5__ENDMERALD,
                 0.7f, 300, "fyberite");
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.SP5__ENDMERALD, RecipeCategory.MISC, ModBlocks.SP5__ENDMERALD_ORE);

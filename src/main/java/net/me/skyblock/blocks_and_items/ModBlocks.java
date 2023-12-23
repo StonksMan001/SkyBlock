@@ -566,17 +566,17 @@ public class ModBlocks {
                     .copy(Blocks.COARSE_DIRT)
                     .strength(0.5f)));
     public static final Block SP5__TRANSPARENT_BLOCK = registerBlock("sp5__transparent_block",
-            new Block(FabricBlockSettings
+            new TransparentBlock(FabricBlockSettings
                     .copy(Blocks.BLACK_STAINED_GLASS)
                     .sounds(BlockSoundGroup.WART_BLOCK)
                     .strength(0.5f)));
     public static final Block SP5__END_WART_BLOCK = registerBlock("sp5__end_wart_block",
-            new Block(FabricBlockSettings
+            new TransparentBlock(FabricBlockSettings
                     .copy(Blocks.BLACK_STAINED_GLASS)
                     .sounds(BlockSoundGroup.WART_BLOCK)
                     .strength(1.0f)));
     public static final Block SP5__BLUE_WART = registerBlock("sp5__blue_wart",
-            new Block(FabricBlockSettings
+            new TransparentBlock(FabricBlockSettings
                     .copy(Blocks.BLACK_STAINED_GLASS)
                     .sounds(BlockSoundGroup.MOSS_BLOCK)
                     .strength(0.5f)));

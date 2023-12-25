@@ -555,12 +555,10 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.SPORE_BLOSSOM)));
     public static final Block SKYBLOCK__ANT_JAM_BLOCK = registerBlock("skyblock__ant_jam_block",
             new SlimeBlock(FabricBlockSettings
-                    .copy(Blocks.HONEY_BLOCK)
-                    .strength(0.01f)));
+                    .copy(Blocks.HONEY_BLOCK)));
     public static final Block SKYBLOCK__SWEET_BERRY_JAM_BLOCK = registerBlock("skyblock__sweet_berry_jam_block",
             new SlimeBlock(FabricBlockSettings
-                    .copy(Blocks.HONEY_BLOCK)
-                    .strength(0.01f)));
+                    .copy(Blocks.HONEY_BLOCK)));
     public static final Block SKYBLOCK__SUSPICIOUS_COARSE_DIRT = registerBlock("skyblock__suspicious_coarse_dirt",
             new SuspiciousCoarseDirt(FabricBlockSettings
                     .copy(Blocks.COARSE_DIRT)

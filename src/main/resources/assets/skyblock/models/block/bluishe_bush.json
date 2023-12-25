@@ -1,6 +1,7 @@
 {
 	"textures": {
-		"0": "skyblock:block/bluishe_bush"
+		"0": "skyblock:block/bluishe_bush",
+		"particle": "skyblock:block/bluishe_bush"
 	},
 	"elements": [
 		{

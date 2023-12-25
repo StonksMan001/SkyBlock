@@ -86,6 +86,26 @@ public class ModItems {
             new HoeItem(ModToolMaterials.ENDERITE, 3, 5.5f -4f, new FabricItemSettings()));
     public static final Item SP5__ENDERITE_PICKAXE = registerItem("sp5__enderite_pickaxe",
             new PickaxeItem(ModToolMaterials.ENDERITE, 7, 1.2f -4f, new FabricItemSettings()));
+    public static final Item SP5__END_WOODEN_SWORD = registerItem("sp5__end_wooden_sword",
+            new SwordItem(ToolMaterials.STONE, 5, 1.6f -4f, new FabricItemSettings()));
+    public static final Item SP5__END_WOODEN_AXE = registerItem("sp5__end_wooden_axe",
+            new ModAxeItem(ToolMaterials.STONE, 9, 0.8f -4f, new FabricItemSettings()));
+    public static final Item SP5__END_WOODEN_SHOVEL = registerItem("sp5__end_wooden_shovel",
+            new ShovelItem(ToolMaterials.STONE, 8, 1f -4f, new FabricItemSettings()));
+    public static final Item SP5__END_WOODEN_HOE = registerItem("sp5__end_wooden_hoe",
+            new HoeItem(ToolMaterials.STONE, 3, 5.5f -4f, new FabricItemSettings()));
+    public static final Item SP5__END_WOODEN_PICKAXE = registerItem("sp5__end_wooden_pickaxe",
+            new PickaxeItem(ToolMaterials.STONE, 7, 1.2f -4f, new FabricItemSettings()));
+    public static final Item SP5__END_STONE_SWORD = registerItem("sp5__end_stone_sword",
+            new SwordItem(ToolMaterials.IRON, 9, 1.6f -4f, new FabricItemSettings()));
+    public static final Item SP5__END_STONE_AXE = registerItem("sp5__end_stone_axe",
+            new ModAxeItem(ToolMaterials.IRON, 11, 1f -4f, new FabricItemSettings()));
+    public static final Item SP5__END_STONE_SHOVEL = registerItem("sp5__end_stone_shovel",
+            new ShovelItem(ToolMaterials.IRON, 8, 1f -4f, new FabricItemSettings()));
+    public static final Item SP5__END_STONE_HOE = registerItem("sp5__end_stone_hoe",
+            new HoeItem(ToolMaterials.IRON, 3, 5.5f -4f, new FabricItemSettings()));
+    public static final Item SP5__END_STONE_PICKAXE = registerItem("sp5__end_stone_pickaxe",
+            new PickaxeItem(ToolMaterials.IRON, 7, 1.2f -4f, new FabricItemSettings()));
     //SKYBLOCK MAIN-BLOCK
     //ABYSS
     public static final Item ABYSS__ABERYTHE_GEM = registerItem("abyss__aberythe_gem",

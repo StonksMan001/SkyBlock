@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModEntities {
     public static final EntityType<WispEntity> WISP = Registry.register(
-            Registries.ENTITY_TYPE, new Identifier(SkyBlock.MOD_ID, "wisp"),
+            Registries.ENTITY_TYPE, new Identifier(SkyBlock.MOD_ID, "mcd__wisp"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, WispEntity::new)
                     .dimensions(EntityDimensions.fixed(0.35f, 0.6f)).build());
 

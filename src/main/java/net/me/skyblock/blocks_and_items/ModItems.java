@@ -86,36 +86,43 @@ public class ModItems {
             new HoeItem(ModToolMaterials.ENDERITE, 3, 5.5f -4f, new FabricItemSettings()));
     public static final Item SP5__ENDERITE_PICKAXE = registerItem("sp5__enderite_pickaxe",
             new PickaxeItem(ModToolMaterials.ENDERITE, 7, 1.2f -4f, new FabricItemSettings()));
+    /*
+    public static final Item STONE_SWORD = Items.register("stone_sword", (Item)new SwordItem(ToolMaterials.STONE, 3, -2.4f, new Item.Settings()));
+    public static final Item STONE_SHOVEL = Items.register("stone_shovel", (Item)new ShovelItem(ToolMaterials.STONE, 1.5f, -3.0f, new Item.Settings()));
+    public static final Item STONE_PICKAXE = Items.register("stone_pickaxe", (Item)new PickaxeItem(ToolMaterials.STONE, 1, -2.8f, new Item.Settings()));
+    public static final Item STONE_AXE = Items.register("stone_axe", (Item)new AxeItem(ToolMaterials.STONE, 7.0f, -3.2f, new Item.Settings()));
+    public static final Item STONE_HOE = Items.register("stone_hoe", (Item)new HoeItem(ToolMaterials.STONE, -1, -2.0f, new Item.Settings()));
+    */
     public static final Item SP5__END_WOODEN_SWORD = registerItem("sp5__end_wooden_sword",
-            new SwordItem(ToolMaterials.STONE, 5, 1.6f -4f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.STONE, 5-2, 1.6f -4f, new FabricItemSettings()));
     public static final Item SP5__END_WOODEN_AXE = registerItem("sp5__end_wooden_axe",
-            new ModAxeItem(ToolMaterials.STONE, 9, 0.8f -4f, new FabricItemSettings()));
+            new ModAxeItem(ToolMaterials.STONE, 9-2, 0.8f -4f, new FabricItemSettings()));
     public static final Item SP5__END_WOODEN_SHOVEL = registerItem("sp5__end_wooden_shovel",
-            new ShovelItem(ToolMaterials.STONE, 3.5f, 1f -4f, new FabricItemSettings()));
+            new ShovelItem(ToolMaterials.STONE, 3.5f-2, 1f -4f, new FabricItemSettings()));
     public static final Item SP5__END_WOODEN_HOE = registerItem("sp5__end_wooden_hoe",
-            new HoeItem(ToolMaterials.STONE, 1, 2f -4f, new FabricItemSettings()));
+            new HoeItem(ToolMaterials.STONE, 1-2, 2f -4f, new FabricItemSettings()));
     public static final Item SP5__END_WOODEN_PICKAXE = registerItem("sp5__end_wooden_pickaxe",
-            new PickaxeItem(ToolMaterials.STONE, 3, 1.2f -4f, new FabricItemSettings()));
+            new PickaxeItem(ToolMaterials.STONE, 3-2, 1.2f -4f, new FabricItemSettings()));
     public static final Item SP5__BLUISHE_SWORD = registerItem("sp5__bluishe_sword",
-            new SwordItem(ToolMaterials.STONE, 5, 1.6f -4f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.IRON, 6-3, 1.6f -4f, new FabricItemSettings()));
     public static final Item SP5__BLUISHE_AXE = registerItem("sp5__bluishe_axe",
-            new ModAxeItem(ToolMaterials.STONE, 9, 0.8f -4f, new FabricItemSettings()));
+            new ModAxeItem(ToolMaterials.IRON, 9-3, 0.9f -4f, new FabricItemSettings()));
     public static final Item SP5__BLUISHE_SHOVEL = registerItem("sp5__bluishe_shovel",
-            new ShovelItem(ToolMaterials.STONE, 3.5f, 1f -4f, new FabricItemSettings()));
+            new ShovelItem(ToolMaterials.IRON, 4.5f-3, 1f -4f, new FabricItemSettings()));
     public static final Item SP5__BLUISHE_HOE = registerItem("sp5__bluishe_hoe",
-            new HoeItem(ToolMaterials.STONE, 1, 2f -4f, new FabricItemSettings()));
+            new HoeItem(ToolMaterials.IRON, 1-3, 3f -4f, new FabricItemSettings()));
     public static final Item SP5__BLUISHE_PICKAXE = registerItem("sp5__bluishe_pickaxe",
-            new PickaxeItem(ToolMaterials.STONE, 3, 1.2f -4f, new FabricItemSettings()));
+            new PickaxeItem(ToolMaterials.IRON, 4-3, 1.2f -4f, new FabricItemSettings()));
     public static final Item SP5__END_STONE_SWORD = registerItem("sp5__end_stone_sword",
-            new SwordItem(ToolMaterials.IRON, 6, 1.6f -4f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.IRON, 6-3, 1.6f -4f, new FabricItemSettings()));
     public static final Item SP5__END_STONE_AXE = registerItem("sp5__end_stone_axe",
-            new ModAxeItem(ToolMaterials.IRON, 9, 0.9f -4f, new FabricItemSettings()));
+            new ModAxeItem(ToolMaterials.IRON, 9-3, 0.9f -4f, new FabricItemSettings()));
     public static final Item SP5__END_STONE_SHOVEL = registerItem("sp5__end_stone_shovel",
-            new ShovelItem(ToolMaterials.IRON, 4.5f, 1f -4f, new FabricItemSettings()));
+            new ShovelItem(ToolMaterials.IRON, 4.5f-3, 1f -4f, new FabricItemSettings()));
     public static final Item SP5__END_STONE_HOE = registerItem("sp5__end_stone_hoe",
-            new HoeItem(ToolMaterials.IRON, 1, 3f -4f, new FabricItemSettings()));
+            new HoeItem(ToolMaterials.IRON, 1-3, 3f -4f, new FabricItemSettings()));
     public static final Item SP5__END_STONE_PICKAXE = registerItem("sp5__end_stone_pickaxe",
-            new PickaxeItem(ToolMaterials.IRON, 4, 1.2f -4f, new FabricItemSettings()));
+            new PickaxeItem(ToolMaterials.IRON, 4-3, 1.2f -4f, new FabricItemSettings()));
     //SKYBLOCK MAIN-BLOCK
     //ABYSS
     public static final Item ABYSS__ABERYTHE_GEM = registerItem("abyss__aberythe_gem",

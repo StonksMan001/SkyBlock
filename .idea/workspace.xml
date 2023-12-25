@@ -4,56 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="v1.3.0 - .json file fixek">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__bluishe_axe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__bluishe_hoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__bluishe_pickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__bluishe_shovel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__bluishe_sword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_axe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_hoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_pickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_shovel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_sword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_axe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_hoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_pickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_shovel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_sword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__bluishe_axe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__bluishe_hoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__bluishe_pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__bluishe_shovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__bluishe_sword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__end_stone_axe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__end_stone_hoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__end_stone_pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__end_stone_shovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__end_stone_sword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__end_wooden_axe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__end_wooden_hoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__end_wooden_pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__end_wooden_shovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__end_wooden_sword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__bluishe_axe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__bluishe_hoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__bluishe_pickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__bluishe_shovel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__bluishe_sword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__end_stone_axe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__end_stone_hoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__end_stone_pickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__end_stone_shovel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__end_stone_sword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__end_wooden_axe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__end_wooden_hoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__end_wooden_pickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__end_wooden_shovel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__end_wooden_sword.png" afterDir="false" />
+    <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="v1.3.0 - Hiányzó model ID prefixumok kijavítva">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -227,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703502292041</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="v1.3.0 - 15 Item az Enderite Addonból átportolva:&#10;End Wood, Bluishe Wood és Endstone toolset. &#10;End és Bluishe wood a normál Stone tool-okkal megegyezik&#10;Endstone toolok az Iron toolokkal egyeznek">
+      <created>1703509988710</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703509988710</updated>
+    </task>
+    <task id="LOCAL-00009" summary="v1.3.0 - Hiányzó model ID prefixumok kijavítva">
+      <created>1703510237110</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703510237110</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -239,7 +209,9 @@
     <MESSAGE value="v1.3.0 - Common Item Tag Crying Obsidianoknak" />
     <MESSAGE value="v1.3.0 - Obsidian-Blue Obsidian átváltó recept" />
     <MESSAGE value="v1.3.0 - .json file fixek" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.3.0 - .json file fixek" />
+    <MESSAGE value="v1.3.0 - 15 Item az Enderite Addonból átportolva:&#10;End Wood, Bluishe Wood és Endstone toolset. &#10;End és Bluishe wood a normál Stone tool-okkal megegyezik&#10;Endstone toolok az Iron toolokkal egyeznek" />
+    <MESSAGE value="v1.3.0 - Hiányzó model ID prefixumok kijavítva" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.3.0 - Hiányzó model ID prefixumok kijavítva" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

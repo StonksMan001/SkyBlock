@@ -62,6 +62,7 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModItems.SP5__ENDER_STICK);
                 entries.add(ModItems.SP5__ENDMERALD);
                 entries.add(ModItems.SP5__MELTED_RESIDUES);
+
                 entries.add(ModItems.SP5__ENDERITE_HELMET);
                 entries.add(ModItems.SP5__ENDERITE_CHESTPLATE);
                 entries.add(ModItems.SP5__ENDERITE_LEGGINGS);
@@ -71,17 +72,23 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModItems.SP5__ENDERITE_SHOVEL);
                 entries.add(ModItems.SP5__ENDERITE_HOE);
                 entries.add(ModItems.SP5__ENDERITE_PICKAXE);
+
                 entries.add(ModBlocks.SP5__ENDMERALD_ORE);
                 entries.add(ModBlocks.SP5__ENDMERALD_BLOCK);
+
                 entries.add(ModBlocks.SP5__ENDERITE_ORE);
                 entries.add(ModBlocks.SP5__ENDERITE_BLOCK);
+
                 entries.add(ModBlocks.SP5__ASTEROID_RESIDUES);
                 entries.add(ModBlocks.SP5__SOLID_ROCK);
+
                 entries.add(ModBlocks.SP5__END_GRASS);
                 entries.add(ModBlocks.SP5__BLUISHE_GRASS);
+
                 entries.add(ModBlocks.SP5__TRANSPARENT_BLOCK);
                 entries.add(ModBlocks.SP5__END_WART_BLOCK);
                 entries.add(ModBlocks.SP5__BLUE_WART);
+
                 entries.add(ModBlocks.SP5__END_STEM);
                 entries.add(ModBlocks.SP5__END_HYPHAE);
                 entries.add(ModBlocks.SP5__STRIPPED_END_STEM);
@@ -90,6 +97,7 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.SP5__END_STAIRS);
                 entries.add(ModBlocks.SP5__END_SLAB);
                 entries.add(ModBlocks.SP5__ENDLIGHT);
+
                 entries.add(ModBlocks.SP5__BLUISHE_STEM);
                 entries.add(ModBlocks.SP5__BLUISHE_HYPHAE);
                 entries.add(ModBlocks.SP5__BLUISHE_LIGHT_STEM);
@@ -99,12 +107,14 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.SP5__BLUISHE_PLANKS);
                 entries.add(ModBlocks.SP5__BLUISHE_STAIRS);
                 entries.add(ModBlocks.SP5__BLUISHE_SLAB);
+
                 entries.add(ModBlocks.SP5__END_GRASS_VEGETATION);
                 entries.add(ModBlocks.SP5__END_MUSHROOM);
                 entries.add(ModBlocks.SP5__BLUISHE_BUSH);
                 entries.add(ModBlocks.SP5__BLUISHE_MUSHROOM);
                 entries.add(ModBlocks.SP5__END_BUSH);
                 entries.add(ModBlocks.SP5__END_FLOWER);
+
                 entries.add(ModBlocks.SP5__CRACKED_END_STONE_BRICKS);
                 entries.add(ModBlocks.SP5__WARPED_END_STONE_BRICKS);
                 entries.add(ModBlocks.SP5__END_STONE_PILLAR);
@@ -114,20 +124,42 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.SP5__CHISELED_END_STONE);
                 entries.add(ModBlocks.SP5__CHISELED_END_STONE_CUBIC);
                 entries.add(ModBlocks.SP5__CHISELED_END_STONE_MAZE);
+
                 entries.add(ModBlocks.SP5__PURPLE_END_BRICKS);
                 entries.add(ModBlocks.SP5__PURPLE_END_BRICK_PILLAR);
                 entries.add(ModBlocks.SP5__WARPED_PURPLE_END_BRICKS);
                 entries.add(ModBlocks.SP5__PURPLE_END_BRICK_STAIRS);
                 entries.add(ModBlocks.SP5__PURPLE_END_BRICK_SLAB);
+
                 entries.add(ModBlocks.SP5__END_PURPLE_BLOCK);
                 entries.add(ModBlocks.SP5__END_PURPLE_PILLAR);
                 entries.add(ModBlocks.SP5__ENDER_BLOCK);
                 entries.add(ModBlocks.SP5__END_PURPLE_STAIRS);
                 entries.add(ModBlocks.SP5__END_PURPLE_SLAB);
+
                 entries.add(ModItems.SP5__ENDERITE_CHORUS_FRUIT);
                 entries.add(ModItems.SP5__POPPED_ENDERITE_CHORUS_FRUIT);
+
                 entries.add(ModItems.SP5__BLUISHE_LIGHT_SHEEL);
-                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 11, 1);
+
+                entries.add(ModItems.SP5__END_WOODEN_SWORD);
+                entries.add(ModItems.SP5__END_WOODEN_AXE);
+                entries.add(ModItems.SP5__END_WOODEN_SHOVEL);
+                entries.add(ModItems.SP5__END_WOODEN_HOE);
+                entries.add(ModItems.SP5__END_WOODEN_PICKAXE);
+
+                entries.add(ModItems.SP5__END_STONE_SWORD);
+                entries.add(ModItems.SP5__END_STONE_AXE);
+                entries.add(ModItems.SP5__END_STONE_SHOVEL);
+                entries.add(ModItems.SP5__END_STONE_HOE);
+                entries.add(ModItems.SP5__END_STONE_PICKAXE);
+
+                entries.add(ModItems.SP5__BLUISHE_SWORD);
+                entries.add(ModItems.SP5__BLUISHE_AXE);
+                entries.add(ModItems.SP5__BLUISHE_SHOVEL);
+                entries.add(ModItems.SP5__BLUISHE_HOE);
+                entries.add(ModItems.SP5__BLUISHE_PICKAXE);
+                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 11, 5);
                 ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 9, 9);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_LOG);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_WOOD);
@@ -136,7 +168,7 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.FLOGICAL__AZALEA_PLANKS);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_STAIRS);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_SLAB);
-                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 12, 2);
+                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 16, 2);
                 ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 18, 9);
                 entries.add(ModBlocks.DIGPEAR__CALLERY_LOG);
                 entries.add(ModBlocks.DIGPEAR__CALLERY_WOOD);

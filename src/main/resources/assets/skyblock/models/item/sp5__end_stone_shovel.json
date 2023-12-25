@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "skyblock:item/end_stone_shovel"
+    "layer0": "skyblock:item/sp5__end_stone_shovel"
   }
 }

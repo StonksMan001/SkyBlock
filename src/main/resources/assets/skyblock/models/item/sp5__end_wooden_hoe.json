@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "skyblock:item/end_wooden_hoe"
+    "layer0": "skyblock:item/sp5__end_wooden_hoe"
   }
 }

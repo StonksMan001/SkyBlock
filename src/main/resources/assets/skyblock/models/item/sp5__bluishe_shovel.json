@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "skyblock:item/bluishe_shovel"
+    "layer0": "skyblock:item/sp5__bluishe_shovel"
   }
 }

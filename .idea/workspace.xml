@@ -4,13 +4,85 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="v1.3.0 - Hiányzó model ID prefixumok kijavítva">
+    <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="v1.3.0 - Bluishe toolset buff">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_axe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_hoe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_pickaxe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_shovel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_axe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_hoe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_pickaxe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_shovel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_sword.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__bluishe_axe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__bluishe_hoe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__bluishe_pickaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__bluishe_shovel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__bluishe_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_axe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_hoe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_pickaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_shovel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_stone_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_axe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_hoe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_pickaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_shovel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/sp5__end_wooden_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abysculk_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__abysculk_planks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abysculk_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__abysculk_slab.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abysculk_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__abysculk_stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abysculk_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__abysculk_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abyss_jungle_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__abyss_jungle_planks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abyss_jungle_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__abyss_jungle_slab.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abyss_jungle_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__abyss_jungle_stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abyss_jungle_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__abyss_jungle_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__abyss_portal_activator.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__abyss_portal_activator.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__blaru_moss.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__blaru_moss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__blaru_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__blaru_planks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__blaru_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__blaru_slab.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__blaru_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__blaru_stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__blaru_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__blaru_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__bog_shroom_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__bog_shroom_planks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__bog_shroom_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__bog_shroom_slab.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__bog_shroom_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__bog_shroom_stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__bog_shroom_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__bog_shroom_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__frozen_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__frozen_planks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__frozen_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__frozen_slab.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__frozen_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__frozen_stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__frozen_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__frozen_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__sal_shroom_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__sal_shroom_planks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__sal_shroom_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__sal_shroom_slab.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__sal_shroom_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__sal_shroom_stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__sal_shroom_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__sal_shroom_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__slimed_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__slimed_planks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__slimed_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__slimed_slab.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__slimed_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__slimed_stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__slimed_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__slimed_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__strippped_abyss_jungle_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__strippped_abyss_jungle_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__strippped_blaru_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__strippped_blaru_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__strippped_bog_shroom_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__strippped_bog_shroom_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__strippped_frozen_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__strippped_frozen_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__strippped_sal_shroom_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__strippped_sal_shroom_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__strippped_slimed_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__strippped_slimed_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__strippped_vigilant_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__strippped_vigilant_wood.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__unstable_obsidian1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__unstable_obsidian1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__unstable_obsidian2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__unstable_obsidian2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__vigilant_moss.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__vigilant_moss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__vigilant_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__vigilant_planks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__vigilant_slab.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__vigilant_slab.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__vigilant_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__vigilant_stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__vigilant_wood.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/abyss__common/abyss__vigilant_wood.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,16 +157,19 @@
     "JavaVariableFindUsagesOptions.isSearchForTextOccurrences": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main/src/main/resources/assets/skyblock/textures/item"
+    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main/src/main/resources/asset, data factory"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\textures\item" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\asset, data factory" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\textures\item" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\item" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\run\mods" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\loot_tables\blocks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\recipes\abyss__common" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.SkyBlockMod_Main [runClient]">
@@ -197,7 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703510237110</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="v1.3.0 - Emmisive textúrák a Bluishe itemekne">
+      <created>1703511201099</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703511201099</updated>
+    </task>
+    <task id="LOCAL-00011" summary="v1.3.0 - Bluishe toolset buff">
+      <created>1703511228605</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703511228605</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,7 +300,9 @@
     <MESSAGE value="v1.3.0 - .json file fixek" />
     <MESSAGE value="v1.3.0 - 15 Item az Enderite Addonból átportolva:&#10;End Wood, Bluishe Wood és Endstone toolset. &#10;End és Bluishe wood a normál Stone tool-okkal megegyezik&#10;Endstone toolok az Iron toolokkal egyeznek" />
     <MESSAGE value="v1.3.0 - Hiányzó model ID prefixumok kijavítva" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.3.0 - Hiányzó model ID prefixumok kijavítva" />
+    <MESSAGE value="v1.3.0 - Emmisive textúrák a Bluishe itemekne" />
+    <MESSAGE value="v1.3.0 - Bluishe toolset buff" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.3.0 - Bluishe toolset buff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "skyblock:block/sp5__bluishe_light_hyphae",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "skyblock:block/sp5__bluishe_light_hyphae"
+    },
+    "axis=z": {
+      "model": "skyblock:block/sp5__bluishe_light_hyphae",
+      "x": 90
+    }
+  }
+}

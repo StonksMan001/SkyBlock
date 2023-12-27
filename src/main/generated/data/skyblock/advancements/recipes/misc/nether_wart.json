@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_nether_wart_sack": {
+    "has_quark__nether_wart_sack": {
       "conditions": {
         "items": [
           {
             "items": [
-              "skyblock:nether_wart_sack"
+              "skyblock:quark__nether_wart_sack"
             ]
           }
         ]
@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_nether_wart_sack",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_quark__nether_wart_sack"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:nether_wart"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

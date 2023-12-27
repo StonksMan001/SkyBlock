@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sp5__end_emerald_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "skyblock:sp5__end_emerald_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sp5__end_emerald_from_smelting_sp5__end_emerald_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sp5__end_emerald_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sp5__end_emerald_from_smelting_sp5__end_emerald_block"
+    ]
+  }
+}

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_carrot_crate": {
+    "has_quark__carrot_crate": {
       "conditions": {
         "items": [
           {
             "items": [
-              "skyblock:carrot_crate"
+              "skyblock:quark__carrot_crate"
             ]
           }
         ]
@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_carrot_crate",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_quark__carrot_crate"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:carrot"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

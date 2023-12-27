@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_apple_crate": {
+    "has_quark__apple_crate": {
       "conditions": {
         "items": [
           {
             "items": [
-              "skyblock:apple_crate"
+              "skyblock:quark__apple_crate"
             ]
           }
         ]
@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_apple_crate",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_quark__apple_crate"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:apple"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

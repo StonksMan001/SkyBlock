@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_glow_berry_sack": {
+    "has_quark__glow_berry_sack": {
       "conditions": {
         "items": [
           {
             "items": [
-              "skyblock:glow_berry_sack"
+              "skyblock:quark__glow_berry_sack"
             ]
           }
         ]
@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_glow_berry_sack",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_quark__glow_berry_sack"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:glow_berries"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_gunpowder_sack": {
+    "has_quark__gunpowder_sack": {
       "conditions": {
         "items": [
           {
             "items": [
-              "skyblock:gunpowder_sack"
+              "skyblock:quark__gunpowder_sack"
             ]
           }
         ]
@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_gunpowder_sack",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_quark__gunpowder_sack"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:gunpowder"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

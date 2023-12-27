@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_stick_block": {
+    "has_quark__stick_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "skyblock:stick_block"
+              "skyblock:quark__stick_block"
             ]
           }
         ]
@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_stick_block",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_quark__stick_block"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:stick"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

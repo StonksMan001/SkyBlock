@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "skyblock:block/skyblock__frostslate_bricks",
+    "side": "skyblock:block/skyblock__frostslate_bricks",
+    "top": "skyblock:block/skyblock__frostslate_bricks"
+  }
+}

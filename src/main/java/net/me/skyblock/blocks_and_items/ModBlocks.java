@@ -13,7 +13,6 @@ import net.me.skyblock.blocks_and_items.blocks.mcd.MossyOakPlanks;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.DuckweedBlock;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.SuspiciousCoarseDirt;
 import net.me.skyblock.blocks_and_items.blocks.util.ModStairsBlock;
-import net.me.skyblock.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
@@ -948,6 +947,23 @@ public class ModBlocks {
             new Block(FabricBlockSettings
                     .copyOf(Blocks.OBSIDIAN)));
     //HALLOWEEN 2023
+    //CHRISTMAS 2023
+    public static final Block SKYBLOCK__SNOWY_SHORT_GRASS = registerBlock("skyblock__snowy_short_grass",
+            new ShortPlantBlock(FabricBlockSettings
+                    .copyOf(Blocks.SHORT_GRASS)));
+    public static final Block SKYBLOCK__FROSTSLATE = registerBlock("skyblock__frostslate",
+            new Block(FabricBlockSettings
+                    .copyOf(Blocks.OBSIDIAN)));
+    public static final Block SKYBLOCK__FROSTSLATE_BRICKS = registerBlock("skyblock__frostslate_bricks",
+            new Block(FabricBlockSettings
+                    .copyOf(Blocks.OBSIDIAN)));
+    public static final Block SKYBLOCK__FROSTSLATE_BRICK_STAIRS = registerBlock("skyblock__frostslate_brick_stairs",
+            new ModStairsBlock(ModBlocks.SKYBLOCK__FROSTSLATE_BRICKS.getDefaultState(), FabricBlockSettings
+                    .copyOf(Blocks.OBSIDIAN)));
+    public static final Block SKYBLOCK__FROSTSLATE_BRICK_SLAB = registerBlock("skyblock__frostslate_brick_slab",
+            new SlabBlock(FabricBlockSettings
+                    .copyOf(Blocks.OBSIDIAN)));
+    //CHRISTMAS 2023
 
     private static Block registerBlockWithoutItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(SkyBlock.MOD_ID, name), block);

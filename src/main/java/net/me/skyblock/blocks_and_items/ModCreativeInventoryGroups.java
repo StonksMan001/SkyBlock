@@ -36,6 +36,11 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.SKYBLOCK__ANT_JAM_BLOCK);
                 entries.add(ModBlocks.SKYBLOCK__SUSPICIOUS_COARSE_DIRT);
                 entries.add(ModItems.SKYBLOCK__DUCKWEED);
+                entries.add(ModBlocks.SKYBLOCK__SNOWY_SHORT_GRASS);
+                entries.add(ModBlocks.SKYBLOCK__FROSTSLATE);
+                entries.add(ModBlocks.SKYBLOCK__FROSTSLATE_BRICKS);
+                entries.add(ModBlocks.SKYBLOCK__FROSTSLATE_BRICK_STAIRS);
+                entries.add(ModBlocks.SKYBLOCK__FROSTSLATE_BRICK_SLAB);
                 ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 6, 4);
                 entries.add(ModBlocks.H__NODE);
                 entries.add(ModItems.H__NODE_CORE);

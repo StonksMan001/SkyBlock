@@ -27,6 +27,7 @@ public class SkyBlockClient implements ClientModInitializer {
         // Should never touch
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__DUCKWEED, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__SNOWY_SHORT_GRASS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__ANT_JAM_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__SWEET_BERRY_JAM_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SP5__TRANSPARENT_BLOCK, RenderLayer.getTranslucent());

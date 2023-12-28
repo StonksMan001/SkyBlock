@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "skyblock:block/skyblock__frostslate"
+      },
+      {
+        "model": "skyblock:block/skyblock__frostslate_mirrored"
+      },
+      {
+        "model": "skyblock:block/skyblock__frostslate",
+        "y": 180
+      },
+      {
+        "model": "skyblock:block/skyblock__frostslate_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}

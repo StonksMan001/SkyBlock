@@ -60,6 +60,12 @@
     "skyblock:abyss__abyss_loran_ore",
     "skyblock:mcd__mossier_cobblestone",
     "skyblock:h__node",
+    "skyblock:skyblock__frostslate",
+
+    "skyblock:skyblock__frostslate_bricks",
+    "skyblock:skyblock__frostslate_brick_slab",
+    "skyblock:skyblock__frostslate_brick_stairs",
+    
     "skyblock:quark__andesite_pillar",
     "skyblock:quark__diorite_pillar",
     "skyblock:quark__granite_pillar"

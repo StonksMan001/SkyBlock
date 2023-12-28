@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/tinted_cross",
+	"textures": {
+		"cross": "skyblock:block/skyblock__snowy_short_grass"
+	}
+}

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "skyblock:block/stick_block_top",
-    "side": "skyblock:block/stick_block"
-  }
-}

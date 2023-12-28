@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="v1.3.0 - Datagen frissítve">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__carved_dark_oak_planks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__carved_oak_planks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__carved_spruce_planks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate_brick_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate_brick_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate_pillar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__bluishe_bush.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__bluishe_fungus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_bush.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_flower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_fungus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__ender_grass.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_iron_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_iron_tool.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SkyBlockMod_Main" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SkyBlockMod_Main" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SkyBlockMod_Main" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="fabric" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2-sources.jar!/net/minecraft/block/Blocks.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2-sources.jar!/net/minecraft/client/gui/screen/ingame/BookEditScreen.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2-sources.jar!/net/minecraft/entity/player/PlayerEntity.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2-sources.jar!/net/minecraft/item/Items.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2-sources.jar!/net/minecraft/item/WritableBookItem.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2-sources.jar!/net/minecraft/item/WrittenBookItem.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZiNbwtYP2p4qIh3AelJi8Tgy7G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaVariableFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SONY/MODS_2/SkyBlockMod_Main/src/main/resources/assets/skyblock/models/block&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\block" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\textures\block" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\asset, data factory" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\item" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\blockstates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\recipes\abyss__common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.SkyBlockMod_Main [runClient]">
+    <configuration name="SkyBlockMod_Main [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SkyBlockMod_Main [runDatagen]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runDatagen" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SkyBlockMod_Main [runClient]" />
+        <item itemvalue="Gradle.SkyBlockMod_Main [runDatagen]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="" />
+      <created>1702901014958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702901014958</updated>
+    </task>
+    <task id="LOCAL-00001" summary="v1.3.0 - 2 Új MixinClass: BookEditScreenMixin, WrittenBookItemMixin">
+      <created>1702988303707</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702988303707</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v1.3.0 - &quot;written_book&quot; item title attribute mostmár 20 karakter max hosszal rendelkezik (előtte 15)">
+      <created>1702988452583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702988452583</updated>
+    </task>
+    <task id="LOCAL-00003" summary="v1.3.0 - 2 Új PredicateProviderRegistry">
+      <created>1703083860858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703083860858</updated>
+    </task>
+    <task id="LOCAL-00004" summary="v1.3.0 - Build for 1.20.4">
+      <created>1703167124319</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703167124319</updated>
+    </task>
+    <task id="LOCAL-00005" summary="v1.3.0 - Common Item Tag Crying Obsidianoknak">
+      <created>1703332538377</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703332538377</updated>
+    </task>
+    <task id="LOCAL-00006" summary="v1.3.0 - Obsidian-Blue Obsidian átváltó recept">
+      <created>1703333569465</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703333569465</updated>
+    </task>
+    <task id="LOCAL-00007" summary="v1.3.0 - .json file fixek">
+      <created>1703502292041</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703502292041</updated>
+    </task>
+    <task id="LOCAL-00008" summary="v1.3.0 - 15 Item az Enderite Addonból átportolva:&#10;End Wood, Bluishe Wood és Endstone toolset. &#10;End és Bluishe wood a normál Stone tool-okkal megegyezik&#10;Endstone toolok az Iron toolokkal egyeznek">
+      <created>1703509988710</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703509988710</updated>
+    </task>
+    <task id="LOCAL-00009" summary="v1.3.0 - Hiányzó model ID prefixumok kijavítva">
+      <created>1703510237110</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703510237110</updated>
+    </task>
+    <task id="LOCAL-00010" summary="v1.3.0 - Emmisive textúrák a Bluishe itemekne">
+      <created>1703511201099</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703511201099</updated>
+    </task>
+    <task id="LOCAL-00011" summary="v1.3.0 - Bluishe toolset buff">
+      <created>1703511228605</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703511228605</updated>
+    </task>
+    <task id="LOCAL-00012" summary="v1.3.0 - recipe .json fileok az új itemeknek">
+      <created>1703589691858</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703589691858</updated>
+    </task>
+    <task id="LOCAL-00013" summary="v1.3.0 - lang .json fájlok frissítve">
+      <created>1703607684464</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703607684464</updated>
+    </task>
+    <task id="LOCAL-00014" summary="v1.3.0 - Datagen frissítve">
+      <created>1703681192970</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703681192970</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1.3.0 - 2 Új MixinClass: BookEditScreenMixin, WrittenBookItemMixin" />
+    <MESSAGE value="v1.3.0 - &quot;written_book&quot; item title attribute mostmár 20 karakter max hosszal rendelkezik (előtte 15)" />
+    <MESSAGE value="v1.3.0 - 2 Új PredicateProviderRegistry" />
+    <MESSAGE value="v1.3.0 - Build for 1.20.4" />
+    <MESSAGE value="v1.3.0 - Common Item Tag Crying Obsidianokank" />
+    <MESSAGE value="v1.3.0 - Common Item Tag Crying Obsidianoknak" />
+    <MESSAGE value="v1.3.0 - Obsidian-Blue Obsidian átváltó recept" />
+    <MESSAGE value="v1.3.0 - .json file fixek" />
+    <MESSAGE value="v1.3.0 - 15 Item az Enderite Addonból átportolva:&#10;End Wood, Bluishe Wood és Endstone toolset. &#10;End és Bluishe wood a normál Stone tool-okkal megegyezik&#10;Endstone toolok az Iron toolokkal egyeznek" />
+    <MESSAGE value="v1.3.0 - Hiányzó model ID prefixumok kijavítva" />
+    <MESSAGE value="v1.3.0 - Emmisive textúrák a Bluishe itemekne" />
+    <MESSAGE value="v1.3.0 - Bluishe toolset buff" />
+    <MESSAGE value="v1.3.0 - recipe .json fileok az új itemeknek" />
+    <MESSAGE value="v1.3.0 - lang .json fájlok frissítve" />
+    <MESSAGE value="v1.3.0 - Datagen frissítve" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.3.0 - Datagen frissítve" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/build.gradle</url>
+          <line>75</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

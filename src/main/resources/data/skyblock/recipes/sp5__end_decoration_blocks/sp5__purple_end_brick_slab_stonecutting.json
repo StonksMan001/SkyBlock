@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "skyblock:sp5__purple_end_bricks"
+  },
+  "result": "skyblock:sp5__purple_end_brick_slab"
+}

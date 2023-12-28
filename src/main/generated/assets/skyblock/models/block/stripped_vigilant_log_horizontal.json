@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column_horizontal",
-  "textures": {
-    "end": "skyblock:block/stripped_vigilant_log_top",
-    "side": "skyblock:block/stripped_vigilant_log"
-  }
-}

@@ -1,0 +1,32 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/written_book"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "green": 1
+      },
+      "model": "item/knowledge_book"
+    },
+    {
+      "predicate": {
+        "contract": 1
+      },
+      "model": "item/book_models/contract"
+    },
+    {
+      "predicate": {
+        "note": 1
+      },
+      "model": "item/book_models/note"
+    },
+    {
+      "predicate": {
+        "laws": 1
+      },
+      "model": "item/book_models/laws"
+    }
+  ]
+}

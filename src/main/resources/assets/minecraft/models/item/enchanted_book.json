@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/enchanted_book"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "test": 1
+      },
+      "model": "item/knowledge_book"
+    }
+  ]
+}

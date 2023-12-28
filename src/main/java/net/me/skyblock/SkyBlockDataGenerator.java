@@ -2,9 +2,10 @@ package net.me.skyblock;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.me.skyblock.api.datagen.ModLootTableGenerator;
-import net.me.skyblock.api.datagen.ModModelProvider;
-import net.me.skyblock.api.datagen.ModRecipeGenerator;
+import net.me.skyblock.api.datagen.*;
+import net.me.skyblock.world.ModConfiguredFeatures;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 
 public class SkyBlockDataGenerator implements DataGeneratorEntrypoint {
 
@@ -12,8 +13,16 @@ public class SkyBlockDataGenerator implements DataGeneratorEntrypoint {
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
-        pack.addProvider(ModLootTableGenerator::new);
-        pack.addProvider(ModRecipeGenerator::new);
+        pack.addProvider(ModBlockTagProvider::new);
+        pack.addProvider(ModItemTagProvider::new);
+        pack.addProvider(ModLootTableProvider::new);
+        pack.addProvider(ModRecipeProvider::new);
         pack.addProvider(ModModelProvider::new);
+        pack.addProvider(ModWorldGenerator::new);
+    }
+
+    @Override
+    public void buildRegistry(RegistryBuilder registryBuilder) {
+        registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
     }
 }

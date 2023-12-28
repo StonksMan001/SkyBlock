@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_chorus_fruit_block": {
+    "has_quark__chorus_fruit_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "skyblock:chorus_fruit_block"
+              "skyblock:quark__chorus_fruit_block"
             ]
           }
         ]
@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_chorus_fruit_block",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_quark__chorus_fruit_block"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:chorus_fruit"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

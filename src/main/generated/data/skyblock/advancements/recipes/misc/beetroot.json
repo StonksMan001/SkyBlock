@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_beetroot_crate": {
+    "has_quark__beetroot_crate": {
       "conditions": {
         "items": [
           {
             "items": [
-              "skyblock:beetroot_crate"
+              "skyblock:quark__beetroot_crate"
             ]
           }
         ]
@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_beetroot_crate",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_quark__beetroot_crate"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:beetroot"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

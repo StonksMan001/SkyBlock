@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_potato_crate": {
+    "has_quark__potato_crate": {
       "conditions": {
         "items": [
           {
             "items": [
-              "skyblock:potato_crate"
+              "skyblock:quark__potato_crate"
             ]
           }
         ]
@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_potato_crate",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_quark__potato_crate"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:potato"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

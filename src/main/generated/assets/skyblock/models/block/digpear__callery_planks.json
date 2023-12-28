@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "skyblock:block/digpear__callery_planks"
+  }
+}

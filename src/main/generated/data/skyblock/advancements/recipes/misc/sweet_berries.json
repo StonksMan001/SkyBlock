@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sweet_berry_sack": {
+    "has_quark__sweet_berry_sack": {
       "conditions": {
         "items": [
           {
             "items": [
-              "skyblock:sweet_berry_sack"
+              "skyblock:quark__sweet_berry_sack"
             ]
           }
         ]
@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_sweet_berry_sack",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_quark__sweet_berry_sack"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:sweet_berries"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

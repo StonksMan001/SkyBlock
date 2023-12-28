@@ -5,8 +5,10 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.me.skyblock.SkyBlock;
 import net.me.skyblock.blocks_and_items.blocks.abyss.AbyssVegetation;
 import net.me.skyblock.blocks_and_items.blocks.abyss.BlueVigilantGrass;
+import net.me.skyblock.blocks_and_items.blocks.end.BluisheLightStemBlock;
 import net.me.skyblock.blocks_and_items.blocks.end.EndFlower;
 import net.me.skyblock.blocks_and_items.blocks.end.EndVegetation;
+import net.me.skyblock.blocks_and_items.blocks.end.EnderBlock;
 import net.me.skyblock.blocks_and_items.blocks.mcd.MossyOakPlanks;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.DuckweedBlock;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.SuspiciousCoarseDirt;
@@ -288,6 +290,13 @@ public class ModBlocks {
             new Block(FabricBlockSettings
                     .copy(Blocks.WARPED_PLANKS)
                     .strength(2.0f)));
+    public static final Block ABYSS__VERTICAL_FROZEN_PLANKS = registerBlock("abyss__vertical_frozen_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.WARPED_PLANKS)
+                    .strength(2.0f)));
+    public static final Block ABYSS__CARVED_FROZEN_PLANKS = registerBlock("abyss__carved_frozen_planks",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.WARPED_PLANKS)));
     public static final Block ABYSS__FROZEN_STAIRS = registerBlock("abyss__frozen_stairs",
             new ModStairsBlock(ModBlocks.ABYSS__FROZEN_PLANKS.getDefaultState(), FabricBlockSettings
                     .copy(Blocks.WARPED_STAIRS)
@@ -553,85 +562,105 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.SPORE_BLOSSOM)));
     public static final Block SKYBLOCK__ANT_JAM_BLOCK = registerBlock("skyblock__ant_jam_block",
             new SlimeBlock(FabricBlockSettings
-                    .copy(Blocks.HONEY_BLOCK)
-                    .strength(0.01f)));
+                    .copy(Blocks.HONEY_BLOCK)));
     public static final Block SKYBLOCK__SWEET_BERRY_JAM_BLOCK = registerBlock("skyblock__sweet_berry_jam_block",
             new SlimeBlock(FabricBlockSettings
-                    .copy(Blocks.HONEY_BLOCK)
-                    .strength(0.01f)));
+                    .copy(Blocks.HONEY_BLOCK)));
     public static final Block SKYBLOCK__SUSPICIOUS_COARSE_DIRT = registerBlock("skyblock__suspicious_coarse_dirt",
             new SuspiciousCoarseDirt(FabricBlockSettings
                     .copy(Blocks.COARSE_DIRT)
                     .strength(0.5f)));
     public static final Block SP5__TRANSPARENT_BLOCK = registerBlock("sp5__transparent_block",
-            new GlassBlock(FabricBlockSettings
+            new TransparentBlock(FabricBlockSettings
                     .copy(Blocks.BLACK_STAINED_GLASS)
                     .sounds(BlockSoundGroup.WART_BLOCK)
                     .strength(0.5f)));
     public static final Block SP5__END_WART_BLOCK = registerBlock("sp5__end_wart_block",
-            new GlassBlock(FabricBlockSettings
+            new TransparentBlock(FabricBlockSettings
                     .copy(Blocks.BLACK_STAINED_GLASS)
                     .sounds(BlockSoundGroup.WART_BLOCK)
                     .strength(1.0f)));
     public static final Block SP5__BLUE_WART = registerBlock("sp5__blue_wart",
-            new GlassBlock(FabricBlockSettings
+            new TransparentBlock(FabricBlockSettings
                     .copy(Blocks.BLACK_STAINED_GLASS)
                     .sounds(BlockSoundGroup.MOSS_BLOCK)
                     .strength(0.5f)));
     public static final Block SP5__CRACKED_END_STONE_BRICKS = registerBlock("sp5__cracked_end_stone_bricks",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__WARPED_END_STONE_BRICKS = registerBlock("sp5__warped_end_stone_bricks",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__END_STONE_PILLAR = registerBlock("sp5__end_stone_pillar",
             new PillarBlock(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__END_STONE_TILES = registerBlock("sp5__end_stone_tiles",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__SMALL_END_STONE_BRICKS = registerBlock("sp5__small_end_stone_bricks",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__SMOOTH_END_STONE = registerBlock("sp5__smooth_end_stone",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__CHISELED_END_STONE = registerBlock("sp5__chiseled_end_stone",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__CHISELED_END_STONE_CUBIC = registerBlock("sp5__chiseled_end_stone_cubic",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__CHISELED_END_STONE_MAZE = registerBlock("sp5__chiseled_end_stone_maze",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__PURPLE_END_BRICKS = registerBlock("sp5__purple_end_bricks",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
+    public static final Block SP5__PURPLE_END_BRICK_PILLAR = registerBlock("sp5__purple_end_brick_pillar",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(1.5f, 6.0f)));
     public static final Block SP5__WARPED_PURPLE_END_BRICKS = registerBlock("sp5__warped_purple_end_bricks",
             new Block(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__PURPLE_END_BRICK_STAIRS = registerBlock("sp5__purple_end_brick_stairs",
             new StairsBlock(ModBlocks.SP5__PURPLE_END_BRICKS.getDefaultState(), FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICK_STAIRS)));
+                    .copy(Blocks.END_STONE_BRICK_STAIRS)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__PURPLE_END_BRICK_SLAB = registerBlock("sp5__purple_end_brick_slab",
             new SlabBlock(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICK_SLAB)));
+                    .copy(Blocks.END_STONE_BRICK_SLAB)
+                    .strength(3.0f, 9.0f)));
     public static final Block SP5__END_PURPLE_BLOCK = registerBlock("sp5__end_purple_block",
             new Block(FabricBlockSettings
-                    .copy(Blocks.PURPUR_BLOCK)));
+                    .copy(Blocks.PURPUR_BLOCK)
+                    .strength(1.5f, 6.0f)));
     public static final Block SP5__END_PURPLE_PILLAR = registerBlock("sp5__end_purple_pillar",
             new PillarBlock(FabricBlockSettings
-                    .copy(Blocks.END_STONE_BRICKS)));
+                    .copy(Blocks.END_STONE_BRICKS)
+                    .strength(1.5f, 6.0f)));
     public static final Block SP5__ENDER_BLOCK = registerBlock("sp5__ender_block",
-            new Block(FabricBlockSettings
-                    .copy(Blocks.PURPUR_BLOCK)));
+            new EnderBlock(FabricBlockSettings
+                    .copy(Blocks.PURPUR_BLOCK)
+                    .strength(1.5f, 6.0f)));
     public static final Block SP5__END_PURPLE_STAIRS = registerBlock("sp5__end_purple_stairs",
             new StairsBlock(ModBlocks.SP5__END_PURPLE_BLOCK.getDefaultState(), FabricBlockSettings
-                    .copy(Blocks.PURPUR_STAIRS)));
+                    .copy(Blocks.PURPUR_STAIRS)
+                    .strength(1.5f, 6.0f)));
     public static final Block SP5__END_PURPLE_SLAB = registerBlock("sp5__end_purple_slab",
             new SlabBlock(FabricBlockSettings
-                    .copy(Blocks.PURPUR_SLAB)));
+                    .copy(Blocks.PURPUR_SLAB)
+                    .strength(1.5f, 6.0f)));
     public static final Block SP5__END_STEM = registerBlock("sp5__end_stem",
             new PillarBlock(FabricBlockSettings
                     .copy(Blocks.CRIMSON_STEM)
@@ -675,11 +704,11 @@ public class ModBlocks {
                     .copy(Blocks.WARPED_HYPHAE)
                     .strength(2.0f)));
     public static final Block SP5__BLUISHE_LIGHT_STEM = registerBlock("sp5__bluishe_light_stem",
-            new PillarBlock(FabricBlockSettings
+            new BluisheLightStemBlock(FabricBlockSettings
                     .copy(Blocks.WARPED_STEM)
                     .strength(2.0f)));
     public static final Block SP5__BLUISHE_LIGHT_HYPHAE = registerBlock("sp5__bluishe_light_hyphae",
-            new PillarBlock(FabricBlockSettings
+            new BluisheLightStemBlock(FabricBlockSettings
                     .copy(Blocks.WARPED_HYPHAE)
                     .strength(2.0f)));
     public static final Block SP5__STRIPPED_BLUISHE_STEM = registerBlock("sp5__stripped_bluishe_stem",
@@ -732,6 +761,17 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings
                     .copy(Blocks.OAK_SLAB)
                     .strength(2.0f)));
+    //SKYBLOCK - CARVED PLANKS
+    public static final Block SKYBLOCK__CARVED_OAK_PLANKS = registerBlock("skyblock__carved_oak_planks",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.OAK_PLANKS)));
+    public static final Block SKYBLOCK__CARVED_SPRUCE_PLANKS = registerBlock("skyblock__carved_spruce_planks",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SKYBLOCK__CARVED_DARK_OAK_PLANKS = registerBlock("skyblock__carved_dark_oak_planks",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.DARK_OAK_PLANKS)));
+    //SKYBLOCK - CARVED PLANKS
     //SKYBLOCK MAIN-BLOCK
     //MCD
     public static final Block MCD__MOSSIER_COBBLESTONE = registerBlock("mcd__mossier_cobblestone",
@@ -887,12 +927,67 @@ public class ModBlocks {
                     .ticksRandomly()
                     .strength(0.2f)
                     .sounds(BlockSoundGroup.VINE)));
+    //QUARK - VERTICAL PLANKS
+    public static final Block QUARK__VERTICAL_OAK_PLANKS = registerBlock("quark__vertical_oak_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.OAK_PLANKS)));
+    public static final Block QUARK__VERTICAL_SPRUCE_PLANKS = registerBlock("quark__vertical_spruce_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block QUARK__VERTICAL_BIRCH_PLANKS = registerBlock("quark__vertical_birch_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.BIRCH_PLANKS)));
+    public static final Block QUARK__VERTICAL_JUNGLE_PLANKS = registerBlock("quark__vertical_jungle_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.JUNGLE_PLANKS)));
+    public static final Block QUARK__VERTICAL_ACACIA_PLANKS = registerBlock("quark__vertical_acacia_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.ACACIA_PLANKS)));
+    public static final Block QUARK__VERTICAL_DARK_OAK_PLANKS = registerBlock("quark__vertical_dark_oak_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.DARK_OAK_PLANKS)));
+    public static final Block QUARK__VERTICAL_MANGROVE_PLANKS = registerBlock("quark__vertical_mangrove_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.MANGROVE_PLANKS)));
+    public static final Block QUARK__VERTICAL_CHERRY_PLANKS = registerBlock("quark__vertical_cherry_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.CHERRY_PLANKS)));
+    public static final Block QUARK__VERTICAL_BAMBOO_PLANKS = registerBlock("quark__vertical_bamboo_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.BAMBOO_PLANKS)));
+    public static final Block QUARK__VERTICAL_CRIMSON_PLANKS = registerBlock("quark__vertical_crimson_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.CRIMSON_PLANKS)));
+    public static final Block QUARK__VERTICAL_WARPED_PLANKS = registerBlock("quark__vertical_warped_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.WARPED_PLANKS)));
+    //QUARK - VERTICAL PLANKS
     //QUARK
     //HALLOWEEN 2023
     public static final Block H__NODE = registerBlock("h__node",
             new Block(FabricBlockSettings
                     .copyOf(Blocks.OBSIDIAN)));
     //HALLOWEEN 2023
+    //CHRISTMAS 2023
+    public static final Block SKYBLOCK__SNOWY_SHORT_GRASS = registerBlock("skyblock__snowy_short_grass",
+            new ShortPlantBlock(FabricBlockSettings
+                    .copyOf(Blocks.SHORT_GRASS)));
+    public static final Block SKYBLOCK__FROSTSLATE = registerBlock("skyblock__frostslate",
+            new Block(FabricBlockSettings
+                    .copyOf(Blocks.OBSIDIAN)));
+    public static final Block SKYBLOCK__FROSTSLATE_PILLAR = registerBlock("skyblock__frostslate_pillar",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.OBSIDIAN)));
+    public static final Block SKYBLOCK__FROSTSLATE_BRICKS = registerBlock("skyblock__frostslate_bricks",
+            new Block(FabricBlockSettings
+                    .copyOf(Blocks.OBSIDIAN)));
+    public static final Block SKYBLOCK__FROSTSLATE_BRICK_STAIRS = registerBlock("skyblock__frostslate_brick_stairs",
+            new ModStairsBlock(ModBlocks.SKYBLOCK__FROSTSLATE_BRICKS.getDefaultState(), FabricBlockSettings
+                    .copyOf(Blocks.OBSIDIAN)));
+    public static final Block SKYBLOCK__FROSTSLATE_BRICK_SLAB = registerBlock("skyblock__frostslate_brick_slab",
+            new SlabBlock(FabricBlockSettings
+                    .copyOf(Blocks.OBSIDIAN)));
+    //CHRISTMAS 2023
 
     private static Block registerBlockWithoutItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(SkyBlock.MOD_ID, name), block);

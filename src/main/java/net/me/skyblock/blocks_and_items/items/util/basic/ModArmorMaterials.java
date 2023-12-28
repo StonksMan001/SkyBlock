@@ -1,5 +1,7 @@
 package net.me.skyblock.blocks_and_items.items.util.basic;
 
+import com.mojang.serialization.Codec;
+import net.me.skyblock.SkyBlock;
 import net.me.skyblock.blocks_and_items.ModItems;
 import net.minecraft.item.*;
 import net.minecraft.recipe.Ingredient;
@@ -12,9 +14,15 @@ import net.minecraft.util.Util;
 import java.util.EnumMap;
 import java.util.function.Supplier;
 //ENDERITE("enderite", 45, new int[]{6, 8, 10, 6}, 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.6f, 0.25f, () -> Ingredient.ofItems(ModItems.ENDERITE_INGOT));
-public enum ModArmorMaterials implements StringIdentifiable,
-ArmorMaterial
-{
+public enum ModArmorMaterials implements ArmorMaterial {
+    /*NETHERITE("netherite", 37, (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (map) -> {
+        map.put(ArmorItem.Type.BOOTS, 3);
+        map.put(ArmorItem.Type.LEGGINGS, 6);
+        map.put(ArmorItem.Type.CHESTPLATE, 8);
+        map.put(ArmorItem.Type.HELMET, 3);
+    }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
+    });*/
     ENDERITE("enderite", 45, Util.make(new EnumMap<ArmorItem.Type, Integer>(ArmorItem.Type.class), map -> {
         map.put(ArmorItem.Type.BOOTS, 9);
         map.put(ArmorItem.Type.LEGGINGS, 8);
@@ -33,8 +41,12 @@ ArmorMaterial
         map.put(ArmorItem.Type.CHESTPLATE, 8);
         map.put(ArmorItem.Type.HELMET, 3);
     }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.3f, 0.25f, () -> Ingredient.ofItems(ModItems.H__ANOMALITE_FRAGMENT));
-    public static final StringIdentifiable.Codec<ArmorMaterials> CODEC;
-    private static final EnumMap<ArmorItem.Type, Integer> BASE_DURABILITY;
+    private static final EnumMap BASE_DURABILITY = Util.make(new EnumMap(ArmorItem.Type.class), (map) -> {
+        map.put(ArmorItem.Type.BOOTS, 13);
+        map.put(ArmorItem.Type.LEGGINGS, 15);
+        map.put(ArmorItem.Type.CHESTPLATE, 16);
+        map.put(ArmorItem.Type.HELMET, 11);
+    });
     private final String name;
     private final int durabilityMultiplier;
     private final EnumMap<ArmorItem.Type, Integer> protectionAmounts;
@@ -44,7 +56,7 @@ ArmorMaterial
     private final float knockbackResistance;
     private final Lazy<Ingredient> repairIngredientSupplier;
 
-    private ModArmorMaterials(String name, int durabilityMultiplier, EnumMap<ArmorItem.Type, Integer> protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
+    ModArmorMaterials(String name, int durabilityMultiplier, EnumMap protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier repairIngredientSupplier) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;
@@ -52,62 +64,44 @@ ArmorMaterial
         this.equipSound = equipSound;
         this.toughness = toughness;
         this.knockbackResistance = knockbackResistance;
-        this.repairIngredientSupplier = new Lazy<Ingredient>(repairIngredientSupplier);
+        this.repairIngredientSupplier = new Lazy(repairIngredientSupplier);
     }
 
-    @Override
+
     public int getDurability(ArmorItem.Type type) {
-        return BASE_DURABILITY.get((Object)type) * this.durabilityMultiplier;
+        return (Integer)BASE_DURABILITY.get(type) * this.durabilityMultiplier;
     }
 
-    @Override
     public int getProtection(ArmorItem.Type type) {
-        return this.protectionAmounts.get((Object)type);
+        return (Integer)this.protectionAmounts.get(type);
     }
 
-    @Override
     public int getEnchantability() {
         return this.enchantability;
     }
 
-    @Override
     public SoundEvent getEquipSound() {
         return this.equipSound;
     }
 
-    @Override
     public Ingredient getRepairIngredient() {
-        return this.repairIngredientSupplier.get();
+        return (Ingredient)this.repairIngredientSupplier.get();
     }
 
-    @Override
     public String getName() {
         return this.name;
     }
 
-    @Override
     public float getToughness() {
         return this.toughness;
     }
 
-    @Override
     public float getKnockbackResistance() {
         return this.knockbackResistance;
     }
 
-    @Override
     public String asString() {
         return this.name;
-    }
-
-    static {
-        CODEC = StringIdentifiable.createCodec(ArmorMaterials::values);
-        BASE_DURABILITY = Util.make(new EnumMap(ArmorItem.Type.class), map -> {
-            map.put(ArmorItem.Type.BOOTS, 13);
-            map.put(ArmorItem.Type.LEGGINGS, 15);
-            map.put(ArmorItem.Type.CHESTPLATE, 16);
-            map.put(ArmorItem.Type.HELMET, 11);
-        });
     }
 }
 

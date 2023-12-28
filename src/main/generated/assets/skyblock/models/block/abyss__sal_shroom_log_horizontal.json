@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "skyblock:block/abyss__sal_shroom_log_top",
+    "side": "skyblock:block/abyss__sal_shroom_log"
+  }
+}

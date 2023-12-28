@@ -1,5 +1,6 @@
 package net.me.skyblock.blocks_and_items.blocks.abyss;
 
+import com.mojang.serialization.MapCodec;
 import net.me.skyblock.blocks_and_items.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -11,7 +12,11 @@ import net.minecraft.world.BlockView;
 
 public class YoungExoliusMaximus
         extends PlantBlock {
-    protected static final float field_31235 = 6.0f;
+    public static final MapCodec<YoungExoliusMaximus> CODEC = createCodec(YoungExoliusMaximus::new);
+    @Override
+    protected MapCodec<? extends PlantBlock> getCodec() {
+        return CODEC;
+    }
     protected static final VoxelShape SHAPE = Block.createCuboidShape(2.0, 0.0, 2.0, 14.0, 13.0, 14.0);
 
     public YoungExoliusMaximus(Settings settings) {

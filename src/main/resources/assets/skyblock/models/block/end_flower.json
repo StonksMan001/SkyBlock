@@ -1,4 +1,5 @@
 {
+	"parent": "block/cube_all",
 	"textures": {
 		"0": "skyblock:block/end_flower",
 		"particle": "skyblock:block/end_flower"

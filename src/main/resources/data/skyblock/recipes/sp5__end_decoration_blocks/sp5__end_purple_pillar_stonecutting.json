@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "skyblock:sp5__end_purple_block"
+  },
+  "result": "skyblock:sp5__end_purple_pillar"
+}

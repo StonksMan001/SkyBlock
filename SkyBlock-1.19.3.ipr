@@ -169,13 +169,6 @@
       </item>
     </group>
   </component>
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/SkyBlockMod_Main.iml" filepath="$PROJECT_DIR$/SkyBlockMod_Main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SkyBlockMod_Main.main.iml" filepath="$PROJECT_DIR$/SkyBlockMod_Main.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SkyBlockMod_Main.test.iml" filepath="$PROJECT_DIR$/SkyBlockMod_Main.test.iml" />
-    </modules>
-  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

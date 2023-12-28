@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/skyblock__frostslate_brick_slab"
+    },
+    "type=double": {
+      "model": "skyblock:block/skyblock__frostslate_bricks"
+    },
+    "type=top": {
+      "model": "skyblock:block/skyblock__frostslate_brick_slab_top"
+    }
+  }
+}

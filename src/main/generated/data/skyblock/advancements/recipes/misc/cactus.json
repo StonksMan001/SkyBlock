@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cactus_block": {
+    "has_quark__cactus_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "skyblock:cactus_block"
+              "skyblock:quark__cactus_block"
             ]
           }
         ]
@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_cactus_block",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_quark__cactus_block"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:cactus"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "skyblock:block/abyss__bog_shroom_planks"
+  }
+}

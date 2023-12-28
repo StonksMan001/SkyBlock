@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_golden_apple_crate": {
+    "has_quark__golden_apple_crate": {
       "conditions": {
         "items": [
           {
             "items": [
-              "skyblock:golden_apple_crate"
+              "skyblock:quark__golden_apple_crate"
             ]
           }
         ]
@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_golden_apple_crate",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_quark__golden_apple_crate"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:golden_apple"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

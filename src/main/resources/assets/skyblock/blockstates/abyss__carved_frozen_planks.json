@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "skyblock:block/abyss__carved_frozen_planks_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "skyblock:block/abyss__carved_frozen_planks"
+    },
+    "axis=z": {
+      "model": "skyblock:block/abyss__carved_frozen_planks_horizontal",
+      "x": 90
+    }
+  }
+}

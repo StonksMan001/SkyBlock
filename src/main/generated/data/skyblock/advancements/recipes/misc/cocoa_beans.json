@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cocoa_beans_sack": {
+    "has_quark__cocoa_bean_sack": {
       "conditions": {
         "items": [
           {
             "items": [
-              "skyblock:cocoa_beans_sack"
+              "skyblock:quark__cocoa_bean_sack"
             ]
           }
         ]
@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_cocoa_beans_sack",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_quark__cocoa_bean_sack"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:cocoa_beans"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

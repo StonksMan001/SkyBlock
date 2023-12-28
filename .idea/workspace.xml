@@ -5,36 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="v1.3.0 - Datagen frissítve">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/SnowyShortGrass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/skyblock__frostslate_brick_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/skyblock__frostslate_brick_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/skyblock__frostslate_brick_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/skyblock__frostslate_brick_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/skyblock__frostslate_brick_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__frostslate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__frostslate_brick_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__frostslate_brick_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__frostslate_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__snowy_short_grass.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__frostslate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__frostslate_brick_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__frostslate_brick_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__frostslate_brick_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__frostslate_brick_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__frostslate_brick_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__frostslate_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__frostslate_mirrored.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__snowy_short_grass.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__frostslate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__frostslate_brick_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__frostslate_brick_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__frostslate_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__snowy_short_grass.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__frostslate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__frostslate_bricks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__snowy_short_grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/items/axes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__carved_dark_oak_planks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__carved_oak_planks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__carved_spruce_planks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate_brick_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate_brick_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate_pillar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__bluishe_bush.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__bluishe_fungus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_bush.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_flower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_fungus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__ender_grass.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
@@ -43,10 +27,12 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlockClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlockClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_iron_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_iron_tool.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,15 +102,15 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaVariableFindUsagesOptions.isSearchForTextOccurrences": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main/src/main/resources/assets/skyblock/models/block",
-    "settings.editor.selected.configurable": "preferences.fileTypes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaVariableFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SONY/MODS_2/SkyBlockMod_Main/src/main/resources/assets/skyblock/models/block&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\block" />

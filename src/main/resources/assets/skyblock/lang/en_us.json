@@ -135,6 +135,8 @@
   "block.skyblock.abyss__stripped_frozen_log": "Stripped Frozen Log",
   "block.skyblock.abyss__stripped_frozen_wood": "Stripped Frozen Wood",
   "block.skyblock.abyss__frozen_planks": "Frozen Planks",
+  "block.skyblock.abyss__vertical_frozen_planks": "Vertical Frozen Planks",
+  "block.skyblock.abyss__carved_frozen_planks": "Carved Frozen Planks",
   "block.skyblock.abyss__frozen_leaves": "Frozen Leaves",
   "block.skyblock.abyss__slimed_log": "Slimed Log",
   "block.skyblock.abyss__slimed_wood": "Slimed Wood",
@@ -295,6 +297,31 @@
   "block.skyblock.quark__granite_pillar": "Granite Pillar",
   "block.skyblock.quark__cave_roots": "Cave Roots",
 
+  "block.skyblock:quark__vertical_oak_planks": "Vertical Oak Planks",
+  "block.skyblock:quark__vertical_spruce_planks": "Vertical Spruce Planks",
+  "block.skyblock:quark__vertical_birch_planks": "Vertical Birch Planks",
+  "block.skyblock:quark__vertical_jungle_planks": "Vertical Jungle Planks",
+  "block.skyblock:quark__vertical_acacia_planks": "Vertical Acacia Planks",
+  "block.skyblock:quark__vertical_dark_oak_planks": "Vertical Dark Oak Planks",
+  "block.skyblock:quark__vertical_mangrove_planks": "Vertical Mangrove Planks",
+  "block.skyblock:quark__vertical_cherry_planks": "Vertical Cherry Planks",
+  "block.skyblock:quark__vertical_bamboo_planks": "Vertical Bamboo Planks",
+  "block.skyblock:quark__vertical_crimson_planks": "Vertical Crimson Planks",
+  "block.skyblock:quark__vertical_warped_planks": "Vertical Warped Planks",
+
+  "block.skyblock.skyblock__carved_oak_planks": "Carved Oak Planks",
+  "block.skyblock.skyblock__carved_dark_oak_planks": "Carved Dark Oak Planks",
+  "block.skyblock.skyblock__carved_spruce_planks": "Carved Spruce Planks",
+
+  "block.skyblock.skyblock__frostslate": "Frostslate",
+  "block.skyblock.skyblock__frostslate_pillar": "Frostslate Pillar",
+  "block.skyblock.skyblock__frostslate_bricks": "Frostslate Bricks",
+  "block.skyblock.skyblock__frostslate_brick_stairs": "Frostslate Brick Stairs",
+  "block.skyblock.skyblock__frostslate_brick_slab": "Frostslate Brick Slab",
+
+  "block.skyblock.skyblock__duckweed": "Duckweed",
+  "block.skyblock.skyblock__snowy_short_grass": "Snowy Short Grass",
+
   "painting.skyblock.witherstorm.title": "The Wither Storm",
   "painting.skyblock.witherstorm.author": "Mojang & Telltale Games",
   "painting.skyblock.beni.title": "Beni Jelképe",
@@ -312,7 +339,5 @@
   "tooltip.skyblock.rarity_info_extended.gilded": "§r[§e§lGILDED§r]",
   "tooltip.skyblock.rarity_info_extended.gifted": "§r[§a§lGifted§r]",
 
-  "enchantment.skyblock.primitiveness_curse": "Primitiveness Curse",
-
-  "block.skyblock.skyblock__duckweed": "Duckweed"
+  "enchantment.skyblock.primitiveness_curse": "Primitiveness Curse"
 }

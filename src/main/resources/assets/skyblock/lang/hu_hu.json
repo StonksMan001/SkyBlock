@@ -135,6 +135,8 @@
   "block.skyblock.abyss__stripped_frozen_log": "Kérgezett dermedtrönk",
   "block.skyblock.abyss__stripped_frozen_wood": "Kérgezett dermedtfablokk",
   "block.skyblock.abyss__frozen_planks": "Dermedtdeszka",
+  "block.skyblock.abyss__vertical_frozen_planks": "Függőleges dermedtdeszka",
+  "block.skyblock.abyss__carved_frozen_planks": "Faragott dermedtdeszka",
   "block.skyblock.abyss__frozen_leaves": "Dermedtlevelek",
   "block.skyblock.abyss__slimed_log": "Slejm gomba tönk",
   "block.skyblock.abyss__slimed_wood": "Slejm gombafonalak",
@@ -295,6 +297,31 @@
   "block.skyblock.quark__granite_pillar": "Gránitoszlop",
   "block.skyblock.quark__cave_roots": "Barlangi Gyökerek",
 
+  "block.skyblock:quark__vertical_oak_planks": "Függőleges tölgydeszka",
+  "block.skyblock:quark__vertical_spruce_planks": "Függőleges fenyődeszka",
+  "block.skyblock:quark__vertical_birch_planks": "Függőleges nyírfa deszka",
+  "block.skyblock:quark__vertical_jungle_planks": "Függőleges dzsungelfa deszka",
+  "block.skyblock:quark__vertical_acacia_planks": "Függőleges akáciadeszka",
+  "block.skyblock:quark__vertical_dark_oak_planks": "Függőleges sötéttölgy deszka",
+  "block.skyblock:quark__vertical_mangrove_planks": "Függőleges mangrovedeszka",
+  "block.skyblock:quark__vertical_cherry_planks": "Függőleges cseresznyefa deszka",
+  "block.skyblock:quark__vertical_bamboo_planks": "Függőleges bambuszdeszka",
+  "block.skyblock:quark__vertical_crimson_planks": "Függőleges karmazsin deszka",
+  "block.skyblock:quark__vertical_warped_planks": "Függőleges torz deszka",
+
+  "block.skyblock.skyblock__carved_oak_planks": "Faragott tölgydeszka",
+  "block.skyblock.skyblock__carved_dark_oak_planks": "Faragott sötéttölgy deszka",
+  "block.skyblock.skyblock__carved_spruce_planks": "Faragott fenyődeszka",
+
+  "block.skyblock.skyblock__frostslate": "Fagypala",
+  "block.skyblock.skyblock__frostslate_pillar": "Fagypalaoszlop",
+  "block.skyblock.skyblock__frostslate_bricks": "Fagypalatégla",
+  "block.skyblock.skyblock__frostslate_brick_stairs": "Fagypalatégla-lépcső",
+  "block.skyblock.skyblock__frostslate_brick_slab": "Fagypalatégla lap",
+
+  "block.skyblock.skyblock__duckweed": "Békalencse",
+  "block.skyblock.skyblock__snowy_short_grass": "Havas rövid fű",
+
   "painting.skyblock.witherstorm.title": "The Wither Storm",
   "painting.skyblock.witherstorm.author": "Mojang & Telltale Games",
   "painting.skyblock.beni.title": "Beni Jelképe",
@@ -312,7 +339,5 @@
   "tooltip.skyblock.rarity_info_extended.gilded": "§r[§e§lARANYOZOTT§r]",
   "tooltip.skyblock.rarity_info_extended.gifted": "§r[§a§lAjándék§r]",
 
-  "enchantment.skyblock.primitiveness_curse": "Primitivitás átka",
-
-  "block.skyblock.skyblock__duckweed": "Békalencse"
+  "enchantment.skyblock.primitiveness_curse": "Primitivitás átka"
 }

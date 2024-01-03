@@ -32,7 +32,7 @@ glintStrength:1.0
 damageTiltStrength:0.0
 highContrast:false
 narratorHotkey:true
-gamma:0.0
+gamma:1.0
 renderDistance:8
 simulationDistance:5
 entityDistanceScaling:1.0
@@ -44,10 +44,10 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","fabric"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","fabric","file/better_nether_enhanced"]
+incompatibleResourcePacks:["file/better_nether_enhanced"]
 lastServer:
-lang:hu_hu
+lang:en_us
 soundDevice:""
 chatVisibility:0
 chatOpacity:1.0

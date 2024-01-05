@@ -14,6 +14,6 @@ public class ModPaintings {
         return Registry.register(Registries.PAINTING_VARIANT, new Identifier(SkyBlock.MOD_ID, name), paintingVariant);
     }
     public static void registerPaintings(){
-        SkyBlock.LOGGER.debug("Registering Paintings for " + SkyBlock.MOD_ID);
+        SkyBlock.LOGGER.debug("[SkyBlock MultiMod] Registering Paintings for " + SkyBlock.MOD_ID);
     }
 }

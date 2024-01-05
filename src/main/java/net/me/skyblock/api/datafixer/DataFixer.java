@@ -20,8 +20,10 @@ import java.util.Map;
 
 public class DataFixer {
     public static void register() {
+        SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering BCLib Data Patches for " + SkyBlock.MOD_ID);
         DataFixerAPI.registerPatch(Patcher_1::new);
         DataFixerAPI.registerPatch(Patcher_2::new);
+
     }
 }
 class Patcher_2 extends Patch {

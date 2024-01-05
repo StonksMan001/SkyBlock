@@ -17,6 +17,6 @@ public class ModDimensions {
     public static final RegistryKey<DimensionType> THE_ABYSS_TYPE_KEY = RegistryKey.of(RegistryKeys.DIMENSION_TYPE, THE_ABYSS_KEY.getValue());
 
     public static void register() {
-        SkyBlock.LOGGER.debug("Registering ModDimensions for " + SkyBlock.MOD_ID);
+        SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering Dimensions for " + SkyBlock.MOD_ID);
     }
 }

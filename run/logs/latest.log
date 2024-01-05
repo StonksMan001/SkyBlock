@@ -507,3 +507,8 @@ Apply Modifications for minecraft:overworld
 [23:38:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
 [23:38:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
 [23:38:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[23:39:56] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[23:39:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:39:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[23:39:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
+[23:46:41] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2985ms or 59 ticks behind

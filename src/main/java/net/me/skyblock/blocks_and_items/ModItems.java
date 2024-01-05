@@ -218,7 +218,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(SkyBlock.MOD_ID, name), item);
     }
     public static void registerModItems () {
-        SkyBlock.LOGGER.debug("Registering Items for " + SkyBlock.MOD_ID);
+        SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering Items for " + SkyBlock.MOD_ID);
     }
     protected static Item registerBlockAndItem(Block block, Item item) {
         return ModItems.register(Registries.BLOCK.getId(block), item);

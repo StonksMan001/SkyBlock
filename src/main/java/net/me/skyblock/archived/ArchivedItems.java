@@ -59,7 +59,7 @@ public class ArchivedItems {
         return Registry.register(Registries.ITEM, new Identifier(SkyBlock.MOD_ID, name), item);
     }
     public static void registerArchivedItems () {
-        SkyBlock.LOGGER.debug("Registering Archived Items for " + SkyBlock.MOD_ID);
+        SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering Archived Items for " + SkyBlock.MOD_ID);
     }
     protected static Item register(Block block, Item item) {
         return ArchivedItems.register(Registries.BLOCK.getId(block), item);

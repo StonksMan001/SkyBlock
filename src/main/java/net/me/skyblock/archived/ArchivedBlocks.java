@@ -328,6 +328,6 @@ public class ArchivedBlocks {
         return false;
     }
     public static void registerArchivedBlocks() {
-        SkyBlock.LOGGER.info("Registering Archived Blocks for " + SkyBlock.MOD_ID);
+        SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering Archived Blocks for " + SkyBlock.MOD_ID);
     }
 }

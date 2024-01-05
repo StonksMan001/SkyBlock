@@ -15,6 +15,6 @@ public class ModEnchantments {
         return Registry.register(Registries.ENCHANTMENT, new Identifier(SkyBlock.MOD_ID, name), enchantment);
     }
     public static void registerModEnchantments() {
-        System.out.println("Registering Enchantments for " + SkyBlock.MOD_ID);
+        System.out.println("[SkyBlock MultiMod] Registering Enchantments for " + SkyBlock.MOD_ID);
     }
 }

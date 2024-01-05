@@ -62,7 +62,7 @@ public class GhostItems {
         return Registry.register(Registries.ITEM, new Identifier(SkyBlock.MOD_ID, name), item);
     }
     public static void registerGhostItems () {
-        SkyBlock.LOGGER.debug("Registering Abstract Items for " + SkyBlock.MOD_ID);
+        SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering Abstract Items (Client-Only) for " + SkyBlock.MOD_ID);
     }
     protected static Item registerBlockAndItem(Block block, Item item) {
         return GhostItems.register(Registries.BLOCK.getId(block), item);

@@ -1010,6 +1010,6 @@ public class ModBlocks {
         return false;
     }
     public static void registerModBlocks() {
-        SkyBlock.LOGGER.info("Registering Blocks for " + SkyBlock.MOD_ID);
+        SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering Blocks for " + SkyBlock.MOD_ID);
     }
 }

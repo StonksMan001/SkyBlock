@@ -33,7 +33,7 @@ public class SkyBlock implements ModInitializer {
 		DataFixer.register();
 
 		ModCreativeInventoryGroups.registerItemGroups();
-		GhostItems.registerGhostItems();
+		//GhostItems.registerGhostItems();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModEnchantments.registerModEnchantments();

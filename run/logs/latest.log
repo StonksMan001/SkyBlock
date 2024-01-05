@@ -1,8 +1,11 @@
-[13:23:33] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.4 with Fabric Loader 0.15.2
-[13:23:34] [main/INFO] (FabricLoader) Loading 62 mods:
+[23:33:18] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.4 with Fabric Loader 0.15.2
+[23:33:19] [main/INFO] (FabricLoader) Loading 67 mods:
+	- architectury 11.0.9
 	- bclib 3.30.1
 	- betterend 4.30.1
 	- betternether 9.30.0
+	- cloth-config 13.0.121
+	   \-- cloth-basic-math 0.6.1
 	- continuity 3.0.0-beta.4+1.20.2
 	- fabric-api 0.91.2+1.20.4
 	- fabric-api-base 0.4.35+78d798af4f
@@ -60,12 +63,14 @@
 	- geckolib 4.3.1
 	- java 17
 	- minecraft 1.20.4
+	- roughlyenoughitems 14.0.688
+	   \-- error_notifier 1.0.9
 	- skyblock 1.3.0
 	- wunderlib 1.30.0
-[13:23:51] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/totha/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[13:23:51] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[13:23:51] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[13:23:55] [main/ERROR] (FabricLoader/Mixin) bclib.mixins.client.json:AnvilScreenMixin from mod bclib: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
+[23:33:36] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/totha/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[23:33:37] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[23:33:37] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[23:33:38] [main/ERROR] (FabricLoader/Mixin) bclib.mixins.client.json:AnvilScreenMixin from mod bclib: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
 org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
 	at org.spongepowered.asm.mixin.transformer.InterfaceInfo.renameMethod(InterfaceInfo.java:188) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepareSoftImplements(MixinPreProcessorStandard.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
@@ -86,25 +91,30 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: method
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.15.2.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.15.2.jar:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:463) ~[fabric-loader-0.15.2.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.2.jar:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) ~[fabric-loader-0.15.2.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.15.2.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.15.2.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:384) ~[fabric-loader-0.15.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:160) ~[fabric-loader-0.15.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.15.2.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.2.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[13:23:57] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[13:24:10] [Datafixer Bootstrap/INFO] (Minecraft) 198 Datafixer optimizations took 463 milliseconds
-[13:24:14] [main/INFO] (Logger) [bclib] Added Config betternether.main to auto sync (file hash)
-[13:24:14] [main/INFO] (Logger) [bclib] Added Config betternether.generator to auto sync (file hash)
-[13:24:14] [main/INFO] (Logger) [bclib] Added Config betternether.blocks to auto sync (file hash)
-[13:24:14] [main/INFO] (Logger) [bclib] Added Config betternether.items to auto sync (file hash)
-[13:24:14] [main/INFO] (Logger) [bclib] Added Config betternether.biomes to auto sync (file hash)
-[13:24:14] [main/INFO] (Logger) [bclib] Added Config betternether.mobs to auto sync (file hash)
-[13:24:14] [main/INFO] (Logger) [bclib] Added Config betternether.recipes to auto sync (file hash)
-[13:24:15] [main/WARN] (Logger) [bclib] Recipe betternether:bone_block_bone_button only takes in a single item and should be shapeless
-[13:24:15] [main/WARN] (Logger) [betternether] Generating Debug Helpers
-[13:24:17] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:24:17] [Render thread/INFO] (Minecraft) Setting user: Player60
-[13:24:17] [Render thread/INFO] (Logger) [betternether] =^..^=    BetterNether for 1.20    =^..^=
-[13:24:17] [Download-2/ERROR] (Minecraft) Failed to fetch user properties
+[23:33:40] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[23:33:54] [Datafixer Bootstrap/INFO] (Minecraft) 198 Datafixer optimizations took 2015 milliseconds
+[23:33:57] [main/INFO] (Logger) [bclib] Added Config betternether.main to auto sync (file hash)
+[23:33:57] [main/INFO] (Logger) [bclib] Added Config betternether.generator to auto sync (file hash)
+[23:33:57] [main/INFO] (Logger) [bclib] Added Config betternether.blocks to auto sync (file hash)
+[23:33:57] [main/INFO] (Logger) [bclib] Added Config betternether.items to auto sync (file hash)
+[23:33:57] [main/INFO] (Logger) [bclib] Added Config betternether.biomes to auto sync (file hash)
+[23:33:57] [main/INFO] (Logger) [bclib] Added Config betternether.mobs to auto sync (file hash)
+[23:33:57] [main/INFO] (Logger) [bclib] Added Config betternether.recipes to auto sync (file hash)
+[23:33:58] [main/WARN] (Logger) [bclib] Recipe betternether:bone_block_bone_button only takes in a single item and should be shapeless
+[23:33:58] [main/WARN] (Logger) [betternether] Generating Debug Helpers
+[23:33:59] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:33:59] [Render thread/INFO] (Minecraft) Setting user: Player336
+[23:34:00] [Download-2/ERROR] (Minecraft) Failed to fetch user properties
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:59) ~[authlib-6.0.52.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:150) ~[authlib-6.0.52.jar:?]
@@ -118,109 +128,136 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.52.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:121) ~[authlib-6.0.52.jar:?]
 	... 5 more
-[13:24:18] [Render thread/INFO] (fabric-networking-api-v1) Force Packet Serialization is enabled to mimic remote connection on single player, this is the default behaviour on dev env. Add -Dfabric-api.networking.force-packet-serialization=false JVM arg to disable it.
-[13:24:18] [Render thread/INFO] (skyblock) Registering Archived Blocks for skyblock
-[13:24:18] [Render thread/INFO] (skyblock) Registering Blocks for skyblock
-[13:24:18] [Render thread/INFO] (Minecraft) [STDOUT]: Registering Enchantments for skyblock
-[13:24:19] [Render thread/INFO] (Logger) [bclib] Added Config betterend.entities to auto sync (file hash)
-[13:24:19] [Render thread/INFO] (Logger) [bclib] Added Config betterend.blocks to auto sync (file hash)
-[13:24:19] [Render thread/INFO] (Logger) [bclib] Added Config betterend.items to auto sync (file hash)
-[13:24:19] [Render thread/INFO] (Logger) [bclib] Added Config betterend.biomes to auto sync (file hash)
-[13:24:19] [Render thread/INFO] (Logger) [bclib] Added Config betterend.recipes to auto sync (file hash)
-[13:24:19] [Render thread/INFO] (Logger) [bclib] Added Config betterend.enchantments to auto sync (file hash)
-[13:24:32] [Render thread/WARN] (Logger) [betterend] Generating Debug Helpers
-[13:24:32] [Render thread/INFO] (Logger) [bclib] Added Config bclib.generator to auto sync (file hash)
-[13:24:32] [Render thread/INFO] (Logger) [bclib] Added Config bclib.main to auto sync (content diff)
-[13:24:32] [Render thread/INFO] (Logger) [bclib] Added Config bclib.biomes to auto sync (file hash)
-[13:24:34] [Thread-4/INFO] (Logger) [bclib] Received Version Info for minecraft=1.20.4, loader=fabric
-[13:24:34] [Thread-4/INFO] (Logger) [bclib]  - bclib:3.30.1
-[13:24:34] [Thread-4/INFO] (Logger) [bclib]  - betterend:4.30.1
-[13:24:34] [Thread-4/INFO] (Logger) [bclib]  - betternether:9.30.0
-[13:24:34] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[13:24:35] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
-[13:24:38] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-object-builder-api-v1, fabric-gametest-api-v1, continuity, fabric-renderer-registries-v1, fabric-client-tags-api-v1, fabric-lifecycle-events-v1, fabric-key-binding-api-v1, fabric-rendering-v0, betternether, fabric-loot-api-v2, fabric-recipe-api-v1, fabric-command-api-v2, fabric-command-api-v1, skyblock, fabric-models-v0, fabric-commands-v0, fabric-biome-api-v1, fabric-particles-v1, betterend, fabric-networking-api-v1, fabricloader, fabric-item-api-v1, fabric-transfer-api-v1, fabric-resource-loader-v0, fabric-rendering-v1, fabric-item-group-api-v1, fabric-data-generation-api-v1, fabric-events-lifecycle-v0, fabric-screen-handler-api-v1, bclib, fabric-sound-api-v1, fabric-renderer-api-v1, fabric-rendering-data-attachment-v1, fabric-mining-level-api-v1, fabric-resource-conditions-api-v1, fabric-keybindings-v0, geckolib, fabric-api-base, fabric-model-loading-api-v1, fabric-events-interaction-v0, fabric-message-api-v1, fabric-game-rule-api-v1, fabric-block-view-api-v2, fabric-renderer-indigo, fabric-entity-events-v1, fabric-crash-report-info-v1, fabric-containers-v0, fabric-registry-sync-v0, fabric-screen-api-v1, fabric-api, fabric-block-api-v1, fabric-transitive-access-wideners-v1, fabric-rendering-fluids-v1, fabric-dimensions-v1, fabric-content-registries-v0, fabric-blockrenderlayer-v1, fabric-convention-tags-v1, fabric-api-lookup-api-v1), file/better_nether_enhanced
-[13:24:38] [Worker-Main-1/INFO] (Minecraft) Found unifont_all_no_pua-15.1.04.hex, loading
-[13:24:38] [Worker-Main-2/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip1.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
-[13:24:38] [Worker-Main-2/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip1.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
-[13:24:38] [Worker-Main-2/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip2.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
-[13:24:39] [Worker-Main-2/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip2.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
-[13:24:39] [Worker-Main-2/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_unequip1.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_unequip
-[13:24:39] [Worker-Main-2/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_unequip2.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_unequip
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 2 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 3 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 5 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 6 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 7 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 7 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 3 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 8 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 9 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 11 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 12 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
-[13:24:39] [Worker-Main-3/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
-[13:24:43] [Worker-Main-2/WARN] (Minecraft) Texture skyblock:item/z__logo5 with size 20x20 limits mip level from 4 to 2
-[13:24:43] [Worker-Main-2/WARN] (Minecraft) Texture skyblock:item/z__null with size 1x1 limits mip level from 2 to 0
-[13:24:43] [Worker-Main-2/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
-[13:24:47] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:item/shortbow' referenced from: skyblock:mcd__shortbow#inventory: java.io.FileNotFoundException: skyblock:models/item/shortbow.json
-[13:24:47] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:item/auto_crossbow' referenced from: skyblock:mcd__auto_crossbow#inventory: java.io.FileNotFoundException: skyblock:models/item/auto_crossbow.json
-[13:24:47] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'skyblock:mcd__longbow#inventory' referenced from: skyblock:mcd__longbow#inventory: java.io.FileNotFoundException: skyblock:models/item/mcd__longbow.json
-[13:24:50] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=y:
+[23:34:00] [Render thread/INFO] (fabric-networking-api-v1) Force Packet Serialization is enabled to mimic remote connection on single player, this is the default behaviour on dev env. Add -Dfabric-api.networking.force-packet-serialization=false JVM arg to disable it.
+[23:34:00] [Render thread/INFO] (skyblock) Registering Archived Blocks for skyblock
+[23:34:00] [Render thread/INFO] (skyblock) Registering Blocks for skyblock
+[23:34:00] [Render thread/INFO] (Minecraft) [STDOUT]: Registering Enchantments for skyblock
+[23:34:00] [Render thread/INFO] (Logger) [betternether] =^..^=    BetterNether for 1.20    =^..^=
+[23:34:02] [Render thread/INFO] (Logger) [bclib] Added Config betterend.entities to auto sync (file hash)
+[23:34:02] [Render thread/INFO] (Logger) [bclib] Added Config betterend.blocks to auto sync (file hash)
+[23:34:02] [Render thread/INFO] (Logger) [bclib] Added Config betterend.items to auto sync (file hash)
+[23:34:02] [Render thread/INFO] (Logger) [bclib] Added Config betterend.biomes to auto sync (file hash)
+[23:34:02] [Render thread/INFO] (Logger) [bclib] Added Config betterend.recipes to auto sync (file hash)
+[23:34:02] [Render thread/INFO] (Logger) [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[23:34:14] [Render thread/WARN] (Logger) [betterend] Generating Debug Helpers
+[23:34:14] [Render thread/INFO] (Logger) [bclib] Added Config bclib.generator to auto sync (file hash)
+[23:34:14] [Render thread/INFO] (Logger) [bclib] Added Config bclib.main to auto sync (content diff)
+[23:34:14] [Render thread/INFO] (Logger) [bclib] Added Config bclib.biomes to auto sync (file hash)
+[23:34:14] [Render thread/INFO] (REI) [REI] Config loaded
+[23:34:15] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+[23:34:15] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[23:34:15] [Render thread/INFO] (REI) [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[23:34:15] [Render thread/INFO] (REI) [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[23:34:15] [Render thread/INFO] (REI) [REI] Registered plugin provider REIPlugin [betterend] for REIPlugin
+[23:34:15] [Render thread/INFO] (REI) [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
+[23:34:15] [Render thread/INFO] (REI) [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[23:34:15] [Render thread/INFO] (REI) [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin
+[23:34:15] [Render thread/INFO] (REI) [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[23:34:15] [Render thread/INFO] (REI) [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[23:34:15] [Render thread/INFO] (REI) [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[23:34:15] [Render thread/INFO] (REI) [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[23:34:15] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id roughlyenoughitems:delete_item
+[23:34:15] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id roughlyenoughitems:create_item
+[23:34:15] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[23:34:15] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[23:34:15] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id roughlyenoughitems:move_items
+[23:34:15] [Render thread/INFO] (NetworkManagerImpl) Registering C2S receiver with id roughlyenoughitems:move_items_new
+[23:34:15] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[23:34:16] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id architectury:spawn_entity_packet
+[23:34:16] [Thread-4/INFO] (Logger) [bclib] Received Version Info for minecraft=1.20.4, loader=fabric
+[23:34:16] [Thread-4/INFO] (Logger) [bclib]  - bclib:3.30.1
+[23:34:16] [Thread-4/INFO] (Logger) [bclib]  - betterend:4.30.1
+[23:34:16] [Thread-4/INFO] (Logger) [bclib]  - betternether:9.30.0
+[23:34:16] [Render thread/INFO] (REI) [REI] Registered plugin provider REIPlugin [betterend] for REIClientPlugin
+[23:34:16] [Render thread/INFO] (REI) [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[23:34:16] [Render thread/INFO] (REI) [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[23:34:16] [Render thread/INFO] (REI) [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[23:34:16] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id roughlyenoughitems:ci_msg
+[23:34:16] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id roughlyenoughitems:og_not_enough
+[23:34:16] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[23:34:19] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-item-group-api-v1, fabric-convention-tags-v1, fabric-sound-api-v1, fabric-rendering-v0, fabric-keybindings-v0, fabric-block-view-api-v2, fabric-networking-api-v1, fabric-renderer-registries-v1, fabric-data-generation-api-v1, fabric-particles-v1, fabric-command-api-v2, skyblock, fabric-gametest-api-v1, fabric-model-loading-api-v1, fabric-crash-report-info-v1, fabric-recipe-api-v1, fabric-renderer-indigo, fabric-commands-v0, fabric-screen-api-v1, betternether, fabric-lifecycle-events-v1, fabric-key-binding-api-v1, geckolib, fabric-renderer-api-v1, betterend, fabric-message-api-v1, fabric-biome-api-v1, fabric-transfer-api-v1, fabric-rendering-data-attachment-v1, fabric-blockrenderlayer-v1, fabric-mining-level-api-v1, fabric-resource-conditions-api-v1, fabricloader, fabric-client-tags-api-v1, cloth-config, fabric-object-builder-api-v1, fabric-events-lifecycle-v0, fabric-item-api-v1, continuity, fabric-events-interaction-v0, fabric-rendering-v1, fabric-containers-v0, fabric-transitive-access-wideners-v1, fabric-api-lookup-api-v1, fabric-entity-events-v1, fabric-registry-sync-v0, fabric-resource-loader-v0, fabric-dimensions-v1, bclib, fabric-models-v0, fabric-api, roughlyenoughitems, fabric-loot-api-v2, fabric-rendering-fluids-v1, fabric-content-registries-v0, fabric-game-rule-api-v1, fabric-block-api-v1, fabric-api-base, fabric-screen-handler-api-v1, fabric-command-api-v1), file/better_nether_enhanced
+[23:34:19] [Worker-Main-3/INFO] (Minecraft) Found unifont_all_no_pua-15.1.04.hex, loading
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 2 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 3 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-2/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip1.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
+[23:34:19] [Worker-Main-2/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip1.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
+[23:34:19] [Worker-Main-2/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip2.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
+[23:34:19] [Worker-Main-2/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip2.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
+[23:34:19] [Worker-Main-2/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_unequip1.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_unequip
+[23:34:19] [Worker-Main-2/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_unequip2.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_unequip
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 5 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 6 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 7 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 7 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 3 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 8 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 9 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 11 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 12 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
+[23:34:19] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
+[23:34:21] [Worker-Main-2/WARN] (Minecraft) Texture skyblock:item/z__logo5 with size 20x20 limits mip level from 4 to 2
+[23:34:21] [Worker-Main-2/WARN] (Minecraft) Texture skyblock:item/z__null with size 1x1 limits mip level from 2 to 0
+[23:34:21] [Worker-Main-2/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
+[23:34:24] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'skyblock:item/shortbow' referenced from: skyblock:mcd__shortbow#inventory: java.io.FileNotFoundException: skyblock:models/item/shortbow.json
+[23:34:24] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'skyblock:item/auto_crossbow' referenced from: skyblock:mcd__auto_crossbow#inventory: java.io.FileNotFoundException: skyblock:models/item/auto_crossbow.json
+[23:34:24] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'skyblock:mcd__longbow#inventory' referenced from: skyblock:mcd__longbow#inventory: java.io.FileNotFoundException: skyblock:models/item/mcd__longbow.json
+[23:34:26] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=y:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[13:24:50] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=z:
+[23:34:26] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=z:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[13:24:50] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#inventory:
+[23:34:26] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#inventory:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[13:24:50] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#inventory:
+[23:34:26] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#inventory:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[13:24:50] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=z:
+[23:34:26] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=z:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[13:24:50] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=x:
+[23:34:26] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=x:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[13:24:50] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=y:
+[23:34:26] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=y:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[13:24:50] [Worker-Main-3/WARN] (Minecraft) Missing textures in model betterend:debug/biome_loot#inventory:
+[23:34:26] [Worker-Main-1/WARN] (Minecraft) Missing textures in model betterend:debug/biome_loot#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/oak_leaves
-[13:24:50] [Worker-Main-3/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=x:
+[23:34:26] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=x:
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
     minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[13:24:51] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[13:24:51] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[13:24:51] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Hangszórók (2 - USB Audio Device)
-[13:24:51] [Render thread/INFO] (Minecraft) Sound engine started
-[13:24:51] [Render thread/INFO] (Minecraft) Created: 2048x1024x0 minecraft:textures/atlas/blocks.png-atlas
-[13:24:51] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
-[13:24:51] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[13:24:51] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[13:24:51] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[13:24:51] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[13:24:51] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
-[13:24:51] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[13:24:51] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[13:24:52] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[13:24:52] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[13:24:52] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[13:24:52] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[13:24:52] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[13:24:52] [IO-Worker-1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[13:24:52] [IO-Worker-1/ERROR] (Minecraft) Couldn't connect to realms
+[23:34:27] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[23:34:27] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[23:34:27] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Hangszórók (2 - USB Audio Device)
+[23:34:27] [Render thread/INFO] (Minecraft) Sound engine started
+[23:34:27] [Render thread/INFO] (Minecraft) Created: 2048x1024x0 minecraft:textures/atlas/blocks.png-atlas
+[23:34:27] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[23:34:27] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[23:34:27] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[23:34:27] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[23:34:27] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
+[23:34:27] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[23:34:27] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[23:34:27] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[23:34:28] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[23:34:28] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[23:34:28] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[23:34:28] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[23:34:28] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[23:34:28] [IO-Worker-1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[23:34:28] [IO-Worker-1/ERROR] (Minecraft) Couldn't connect to realms
 net.minecraft.client.realms.exception.RealmsServiceException: Realms authentication error with message 'Invalid session id'
 	at net.minecraft.client.realms.RealmsClient.execute(RealmsClient.java:447) ~[minecraft-merged-project-root-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
 	at net.minecraft.client.realms.RealmsClient.clientCompatible(RealmsClient.java:232) ~[minecraft-merged-project-root-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
@@ -229,64 +266,64 @@ net.minecraft.client.realms.exception.RealmsServiceException: Realms authenticat
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[13:28:55] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
-[13:28:55] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
-[13:28:55] [Render thread/ERROR] (Logger) [worlds_together] No valid registry found!
-[13:28:55] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{betternether:5.3.5:21020677}
-[13:28:55] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{betternether:8.2.2:33587202}
-[13:28:55] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{betternether:9.0.1:37748737}
-[13:28:55] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{bclib:3.0.11:12582923}
-[13:28:55] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{skyblock:1.2.0-1.20.1:4227072}
-[13:28:55] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{skyblock:1.2.1-1.20.1:4227073}
-[13:28:55] [Render thread/INFO] (Logger) [bclib] Running Pre Patchers on D:\SONY\MODS_2\SkyBlockMod_Main\run\saves\New World (1) backup2\.
-[13:28:55] [Render thread/INFO] (Logger) [DataFixerAPI] Everything up to date
-[13:28:55] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_aurora_cave
-[13:28:55] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_end_cave
-[13:28:55] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_smaragdant_cave
-[13:28:55] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:jade_cave
-[13:28:55] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_aurora_cave
-[13:28:55] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_smaragdant_cave
-[13:28:55] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:megalake_grove
-[13:28:55] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:neon_oasis
-[13:28:55] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:painted_mountains
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (75deac45)
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[13:28:56] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[13:28:56] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[13:28:56] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (3aa950b1)
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (5e97692e)
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[13:28:56] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[13:28:56] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[13:28:56] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (6976d4e)
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (82d9b85)
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[13:28:56] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[13:28:56] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[13:28:56] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (5bb7e4f5)
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (5121442a)
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[13:28:56] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
-[13:28:56] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[13:28:56] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (54f84161)
-[13:28:56] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
-[13:28:56] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[13:28:56] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[13:28:56] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[13:28:56] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[13:28:56] [Render thread/WARN] (Logger) [bclib] No valid Biome Registry available!
-[13:28:56] [Render thread/WARN] (Logger) [bclib] No valid BCLBiome Registry available!
-[13:28:56] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[13:28:56] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[13:28:57] [Worker-Main-5/ERROR] (Minecraft) Not a JSON object: null
-[13:28:57] [Worker-Main-5/ERROR] (Minecraft) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack fabric
+[23:37:22] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
+[23:37:22] [Render thread/ERROR] (Logger) [worlds_together] Tried to read from global registry!
+[23:37:22] [Render thread/ERROR] (Logger) [worlds_together] No valid registry found!
+[23:37:22] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{betternether:5.3.5:21020677}
+[23:37:22] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{betternether:8.2.2:33587202}
+[23:37:22] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{betternether:9.0.1:37748737}
+[23:37:22] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{bclib:3.0.11:12582923}
+[23:37:22] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{skyblock:1.2.0-1.20.1:4227072}
+[23:37:22] [Render thread/INFO] (Logger) [DataFixerAPI] Ignoring Patch{skyblock:1.2.1-1.20.1:4227073}
+[23:37:22] [Render thread/INFO] (Logger) [bclib] Running Pre Patchers on D:\SONY\MODS_2\SkyBlockMod_Main\run\saves\New World (1) backup2\.
+[23:37:22] [Render thread/INFO] (Logger) [DataFixerAPI] Everything up to date
+[23:37:22] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_aurora_cave
+[23:37:22] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_end_cave
+[23:37:22] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:empty_smaragdant_cave
+[23:37:22] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:jade_cave
+[23:37:22] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_aurora_cave
+[23:37:22] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:lush_smaragdant_cave
+[23:37:22] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:megalake_grove
+[23:37:22] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:neon_oasis
+[23:37:22] [Render thread/INFO] (Logger) [bclib] Did not manage biome betterend:painted_mountains
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (7c64c01d)
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[23:37:23] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[23:37:23] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[23:37:23] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (1ea9ffa2)
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (7d7656f6)
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[23:37:23] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[23:37:23] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[23:37:23] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (1b25a932)
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (261d7351)
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[23:37:23] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[23:37:23] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[23:37:23] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (7cda8195)
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (7bef4ec7)
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[23:37:23] [Render thread/INFO] (Logger) [bclib] No Void Biomes found. Disabling by using barrens
+[23:37:23] [Render thread/INFO] (Logger) [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[23:37:23] [Render thread/WARN] (Logger) [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (2e1b0e7d)
+[23:37:23] [Render thread/INFO] (Logger) [bclib] Unable to build Biome List yet
+[23:37:23] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[23:37:23] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[23:37:23] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[23:37:23] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[23:37:23] [Render thread/WARN] (Logger) [bclib] No valid Biome Registry available!
+[23:37:23] [Render thread/WARN] (Logger) [bclib] No valid BCLBiome Registry available!
+[23:37:23] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[23:37:23] [Render thread/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[23:37:24] [Worker-Main-4/ERROR] (Minecraft) Not a JSON object: null
+[23:37:24] [Worker-Main-4/ERROR] (Minecraft) Couldn't read tag list fabric:needs_tool_level_4 from fabric:tags/blocks/needs_tool_level_4.json in data pack fabric
 java.lang.RuntimeException: Not a JSON object: null
 	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
 	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
@@ -301,9 +338,9 @@ java.lang.RuntimeException: Not a JSON object: null
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13:29:00] [Render thread/ERROR] (Logger) [betternether] Unable to building bartering table
-[13:29:00] [Render thread/INFO] (Logger) [bclib] Disabling Recipe: bclib:test_star
-[13:29:00] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:quark__vertical_planks/quark__vertical__planks
+[23:37:25] [Render thread/ERROR] (Logger) [betternether] Unable to building bartering table
+[23:37:25] [Render thread/INFO] (Logger) [bclib] Disabling Recipe: bclib:test_star
+[23:37:25] [Render thread/ERROR] (Minecraft) Parsing error loading recipe skyblock:quark__vertical_planks/quark__vertical__planks
 com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry '#' : No key tag in MapLike[{"item":"minecraft:_planks"}]; Item must not be minecraft:air; Not a json array: {"item":"minecraft:_planks"}; Input does not contain a key [fabric:type]: MapLike[{"item":"minecraft:_planks"}]
 	at net.minecraft.util.Util.getResult(Util.java:1005) ~[minecraft-merged-project-root-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:131) ~[minecraft-merged-project-root-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
@@ -334,261 +371,139 @@ com.google.gson.JsonParseException: Item must not be minecraft:air; Map entry '#
 	at net.minecraft.client.Mouse.method_22684(Mouse.java:180) ~[minecraft-merged-project-root-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar:build 13]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar:build 13]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438) ~[lwjgl-glfw-3.3.2.jar:build 13]
-	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:202) ~[minecraft-merged-project-root-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:220) ~[minecraft-merged-project-root-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:287) ~[minecraft-merged-project-root-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1349) ~[minecraft-merged-project-root-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:238) ~[minecraft-merged-project-root-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1352) ~[minecraft-merged-project-root-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:888) ~[minecraft-merged-project-root-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:265) ~[minecraft-merged-project-root-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.2.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.2.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.2.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[13:29:00] [Render thread/INFO] (Minecraft) Loaded 10 recipes
-[13:29:01] [Render thread/INFO] (Minecraft) Loaded 2796 advancements
-[13:29:03] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (2c6edfc1)
-[13:29:03] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (352ed9bc)
-[13:29:03] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 111 new biomes in 4.067 ms
-[13:29:03] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.4
-[13:29:03] [Server thread/INFO] (Minecraft) Generating keypair
-[13:29:03] [Server thread/INFO] (Logger) [bclib] 
-Apply Modifications for minecraft:overworld
-    FixedBiomeSource (48df299)
-        biomes     = 1
-        namespaces = minecraft(1)
-[13:29:03] [Server thread/INFO] (Logger) [bclib] 
-Apply Modifications for skyblock:the_abyss_fabric
-    FixedBiomeSource (693b4259)
-        biomes     = 1
-        namespaces = minecraft(1)
-[13:29:03] [Server thread/INFO] (Logger) [bclib] 
+[23:37:25] [Render thread/INFO] (Minecraft) Loaded 10 recipes
+[23:37:26] [Render thread/INFO] (Minecraft) Loaded 2796 advancements
+[23:37:28] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - Nether BiomeSource (248b9930)
+[23:37:28] [Render thread/INFO] (Logger) [bclib] Updating Pickers for BCLib - The End  BiomeSource (b355e66)
+[23:37:28] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 111 new biomes in 5.397 ms
+[23:37:28] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.4
+[23:37:28] [Server thread/INFO] (Minecraft) Generating keypair
+[23:37:29] [Server thread/INFO] (Logger) [bclib] 
 Apply Modifications for skyblock:unknown
-    FixedBiomeSource (b34a66f)
+    FixedBiomeSource (6741afa9)
         biomes     = 1
         namespaces = minecraft(1)
-[13:29:03] [Server thread/INFO] (Logger) [bclib] World Dimensions: 
- - minecraft:overworld: 
-     net.minecraft.world.gen.chunk.FlatChunkGenerator@6bba82c 
-     FixedBiomeSource (48df299)
+[23:37:29] [Server thread/INFO] (Logger) [bclib] 
+Apply Modifications for skyblock:the_abyss_fabric
+    FixedBiomeSource (72b1ac83)
+        biomes     = 1
+        namespaces = minecraft(1)
+[23:37:29] [Server thread/INFO] (Logger) [bclib] 
+Apply Modifications for minecraft:overworld
+    FixedBiomeSource (aaf99bc)
+        biomes     = 1
+        namespaces = minecraft(1)
+[23:37:29] [Server thread/INFO] (Logger) [bclib] World Dimensions: 
+ - skyblock:unknown: 
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@797d7ffd 
+     FixedBiomeSource (6741afa9)
          biomes     = 1
          namespaces = minecraft(1)
  - skyblock:the_abyss_fabric: 
-     net.minecraft.world.gen.chunk.FlatChunkGenerator@3e5a2ffd 
-     FixedBiomeSource (693b4259)
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@67a7e697 
+     FixedBiomeSource (72b1ac83)
          biomes     = 1
          namespaces = minecraft(1)
- - skyblock:unknown: 
-     net.minecraft.world.gen.chunk.FlatChunkGenerator@509585ed 
-     FixedBiomeSource (b34a66f)
+ - minecraft:overworld: 
+     net.minecraft.world.gen.chunk.FlatChunkGenerator@18bf8d83 
+     FixedBiomeSource (aaf99bc)
          biomes     = 1
          namespaces = minecraft(1)
-[13:29:04] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[13:29:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[13:29:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[13:29:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[13:29:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[13:29:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[13:29:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
-[13:29:08] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
-[13:29:08] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
-[13:29:08] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
-[13:29:09] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
-[13:29:09] [Render thread/INFO] (Minecraft) Preparing spawn area: 17%
-[13:29:10] [Render thread/INFO] (Minecraft) Preparing spawn area: 45%
-[13:29:10] [Render thread/INFO] (Minecraft) Time elapsed: 5879 ms
-[13:29:10] [Server thread/INFO] (Minecraft) Changing view distance to 8, from 10
-[13:29:10] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
-[13:29:12] [Netty Server IO #1/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[13:29:12] [Netty Server IO #1/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[13:29:12] [Server thread/INFO] (Minecraft) Player60[local:E:2a24846a] logged in with entity id 217 at (9.906619653970168, -46.38413014488536, 11.215060482757506)
-[13:29:12] [Server thread/INFO] (Minecraft) Player60 joined the game
-[13:29:13] [Server thread/INFO] (Minecraft) Player60 has made the advancement [Ice Bucket Challenge]
-[13:29:13] [Render thread/INFO] (Logger) [bclib] Sending hello to server.
-[13:29:13] [Server thread/INFO] (Logger) [bclib] Received Hello from Client. (server=3.30.1, client=3.30.1)
-[13:29:13] [Server thread/INFO] (Logger) [bclib] Auto-Sync is disabled for Singleplayer worlds.
-[13:29:14] [Render thread/INFO] (Minecraft) [System] [CHAT] Player60 has made the advancement [Ice Bucket Challenge]
-[13:29:14] [Render thread/INFO] (Minecraft) Loaded 280 advancements
-[13:29:15] [Render thread/INFO] (Minecraft) Loaded 297 advancements
-[13:38:08] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[13:38:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13:38:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[13:38:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[13:38:10] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[13:38:10] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13:38:10] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[13:38:10] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[13:38:25] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-object-builder-api-v1, fabric-gametest-api-v1, continuity, fabric-renderer-registries-v1, fabric-client-tags-api-v1, fabric-lifecycle-events-v1, fabric-key-binding-api-v1, fabric-rendering-v0, betternether, fabric-loot-api-v2, fabric-recipe-api-v1, fabric-command-api-v2, fabric-command-api-v1, skyblock, fabric-models-v0, fabric-commands-v0, fabric-biome-api-v1, fabric-particles-v1, betterend, fabric-networking-api-v1, fabricloader, fabric-item-api-v1, fabric-transfer-api-v1, fabric-resource-loader-v0, fabric-rendering-v1, fabric-item-group-api-v1, fabric-data-generation-api-v1, fabric-events-lifecycle-v0, fabric-screen-handler-api-v1, bclib, fabric-sound-api-v1, fabric-renderer-api-v1, fabric-rendering-data-attachment-v1, fabric-mining-level-api-v1, fabric-resource-conditions-api-v1, fabric-keybindings-v0, geckolib, fabric-api-base, fabric-model-loading-api-v1, fabric-events-interaction-v0, fabric-message-api-v1, fabric-game-rule-api-v1, fabric-block-view-api-v2, fabric-renderer-indigo, fabric-entity-events-v1, fabric-crash-report-info-v1, fabric-containers-v0, fabric-registry-sync-v0, fabric-screen-api-v1, fabric-api, fabric-block-api-v1, fabric-transitive-access-wideners-v1, fabric-rendering-fluids-v1, fabric-dimensions-v1, fabric-content-registries-v0, fabric-blockrenderlayer-v1, fabric-convention-tags-v1, fabric-api-lookup-api-v1), file/better_nether_enhanced
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 2 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 3 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 5 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 6 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 7 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 7 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-11/INFO] (Minecraft) Found unifont_all_no_pua-15.1.04.hex, loading
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 3 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 8 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 9 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 11 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 12 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-9/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
-[13:38:25] [Worker-Main-10/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip1.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
-[13:38:25] [Worker-Main-10/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip1.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
-[13:38:25] [Worker-Main-10/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip2.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
-[13:38:25] [Worker-Main-10/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip2.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
-[13:38:25] [Worker-Main-10/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_unequip1.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_unequip
-[13:38:25] [Worker-Main-10/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_unequip2.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_unequip
-[13:38:26] [Worker-Main-11/WARN] (Minecraft) Texture skyblock:item/z__logo5 with size 20x20 limits mip level from 4 to 2
-[13:38:26] [Worker-Main-11/WARN] (Minecraft) Texture skyblock:item/z__null with size 1x1 limits mip level from 2 to 0
-[13:38:26] [Worker-Main-11/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
-[13:38:28] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'skyblock:item/shortbow' referenced from: skyblock:mcd__shortbow#inventory: java.io.FileNotFoundException: skyblock:models/item/shortbow.json
-[13:38:28] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'skyblock:item/auto_crossbow' referenced from: skyblock:mcd__auto_crossbow#inventory: java.io.FileNotFoundException: skyblock:models/item/auto_crossbow.json
-[13:38:28] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'skyblock:mcd__longbow#inventory' referenced from: skyblock:mcd__longbow#inventory: java.io.FileNotFoundException: skyblock:models/item/mcd__longbow.json
-[13:38:30] [Worker-Main-9/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=y:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[13:38:30] [Worker-Main-9/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=z:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[13:38:30] [Worker-Main-9/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#inventory:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[13:38:30] [Worker-Main-9/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#inventory:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[13:38:30] [Worker-Main-9/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=z:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[13:38:30] [Worker-Main-9/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=x:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[13:38:30] [Worker-Main-9/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=y:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[13:38:30] [Worker-Main-9/WARN] (Minecraft) Missing textures in model betterend:debug/biome_loot#inventory:
-    minecraft:textures/atlas/blocks.png:minecraft:item/oak_leaves
-[13:38:30] [Worker-Main-9/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=x:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[13:38:31] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[13:38:31] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[13:38:31] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Hangszórók (2 - USB Audio Device)
-[13:38:31] [Render thread/INFO] (Minecraft) Sound engine started
-[13:38:31] [Render thread/INFO] (Minecraft) Created: 2048x1024x0 minecraft:textures/atlas/blocks.png-atlas
-[13:38:31] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
-[13:38:31] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[13:38:31] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[13:38:31] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[13:38:31] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[13:38:31] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
-[13:38:31] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[13:38:31] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[13:38:31] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[13:38:31] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[13:38:31] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[13:38:31] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[13:38:31] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[13:38:44] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[13:38:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13:38:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[13:38:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[14:35:29] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:35:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[14:35:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[14:35:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
-[14:35:37] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-object-builder-api-v1, fabric-gametest-api-v1, continuity, fabric-renderer-registries-v1, fabric-client-tags-api-v1, fabric-lifecycle-events-v1, fabric-key-binding-api-v1, fabric-rendering-v0, betternether, fabric-loot-api-v2, fabric-recipe-api-v1, fabric-command-api-v2, fabric-command-api-v1, skyblock, fabric-models-v0, fabric-commands-v0, fabric-biome-api-v1, fabric-particles-v1, betterend, fabric-networking-api-v1, fabricloader, fabric-item-api-v1, fabric-transfer-api-v1, fabric-resource-loader-v0, fabric-rendering-v1, fabric-item-group-api-v1, fabric-data-generation-api-v1, fabric-events-lifecycle-v0, fabric-screen-handler-api-v1, bclib, fabric-sound-api-v1, fabric-renderer-api-v1, fabric-rendering-data-attachment-v1, fabric-mining-level-api-v1, fabric-resource-conditions-api-v1, fabric-keybindings-v0, geckolib, fabric-api-base, fabric-model-loading-api-v1, fabric-events-interaction-v0, fabric-message-api-v1, fabric-game-rule-api-v1, fabric-block-view-api-v2, fabric-renderer-indigo, fabric-entity-events-v1, fabric-crash-report-info-v1, fabric-containers-v0, fabric-registry-sync-v0, fabric-screen-api-v1, fabric-api, fabric-block-api-v1, fabric-transitive-access-wideners-v1, fabric-rendering-fluids-v1, fabric-dimensions-v1, fabric-content-registries-v0, fabric-blockrenderlayer-v1, fabric-convention-tags-v1, fabric-api-lookup-api-v1), file/better_nether_enhanced
-[14:35:37] [Worker-Main-19/INFO] (Minecraft) Found unifont_all_no_pua-15.1.04.hex, loading
-[14:35:37] [Worker-Main-18/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip1.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
-[14:35:37] [Worker-Main-18/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip1.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
-[14:35:37] [Worker-Main-18/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip2.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
-[14:35:37] [Worker-Main-18/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_equip2.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_equip
-[14:35:37] [Worker-Main-18/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_unequip1.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_unequip
-[14:35:37] [Worker-Main-18/WARN] (Minecraft) File minecraft:sounds/mob/wolf/armor_unequip2.ogg does not exist, cannot add it to event minecraft:entity.wolf.armor_unequip
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 2 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 3 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 5 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 6 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 7 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 7 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 3 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 8 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 9 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 11 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 12 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
-[14:35:37] [Worker-Main-18/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'fabric'
-[14:35:38] [Worker-Main-18/WARN] (Minecraft) Texture skyblock:item/z__logo5 with size 20x20 limits mip level from 4 to 2
-[14:35:38] [Worker-Main-18/WARN] (Minecraft) Texture skyblock:item/z__null with size 1x1 limits mip level from 2 to 0
-[14:35:38] [Worker-Main-18/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
-[14:35:40] [Worker-Main-19/WARN] (Minecraft) Unable to load model: 'skyblock:item/shortbow' referenced from: skyblock:mcd__shortbow#inventory: java.io.FileNotFoundException: skyblock:models/item/shortbow.json
-[14:35:40] [Worker-Main-19/WARN] (Minecraft) Unable to load model: 'skyblock:item/auto_crossbow' referenced from: skyblock:mcd__auto_crossbow#inventory: java.io.FileNotFoundException: skyblock:models/item/auto_crossbow.json
-[14:35:40] [Worker-Main-19/WARN] (Minecraft) Unable to load model: 'skyblock:mcd__longbow#inventory' referenced from: skyblock:mcd__longbow#inventory: java.io.FileNotFoundException: skyblock:models/item/mcd__longbow.json
-[14:35:42] [Worker-Main-19/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=y:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[14:35:42] [Worker-Main-19/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=z:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[14:35:42] [Worker-Main-19/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#inventory:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[14:35:42] [Worker-Main-19/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#inventory:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[14:35:42] [Worker-Main-19/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=z:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[14:35:42] [Worker-Main-19/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=x:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[14:35:42] [Worker-Main-19/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=y:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-[14:35:42] [Worker-Main-19/WARN] (Minecraft) Missing textures in model betterend:debug/biome_loot#inventory:
-    minecraft:textures/atlas/blocks.png:minecraft:item/oak_leaves
-[14:35:42] [Worker-Main-19/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=x:
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
-    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
-[14:35:42] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[14:35:42] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[14:35:42] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Hangszórók (2 - USB Audio Device)
-[14:35:42] [Render thread/INFO] (Minecraft) Sound engine started
-[14:35:42] [Render thread/INFO] (Minecraft) Created: 2048x1024x0 minecraft:textures/atlas/blocks.png-atlas
-[14:35:42] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
-[14:35:42] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[14:35:42] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[14:35:42] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[14:35:42] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[14:35:42] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
-[14:35:42] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[14:35:42] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[14:35:42] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[14:35:42] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[14:35:42] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[14:35:42] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[14:35:42] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[15:22:22] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[15:22:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15:22:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric
-[15:22:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[23:37:29] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[23:37:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:37:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:37:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:37:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:37:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:37:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:37:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:37:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:37:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:37:34] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[23:37:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 12%
+[23:37:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 32%
+[23:37:35] [Render thread/INFO] (Minecraft) Time elapsed: 6009 ms
+[23:37:36] [Server thread/INFO] (Minecraft) Changing view distance to 8, from 10
+[23:37:36] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
+[23:37:38] [Netty Server IO #1/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[23:37:38] [Netty Server IO #1/INFO] (Logger) [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[23:37:39] [Server thread/INFO] (Minecraft) Player336[local:E:7e04ef4b] logged in with entity id 216 at (33.26984996474763, -58.74328211609987, 260.5945985920716)
+[23:37:39] [Server thread/INFO] (Minecraft) Player336 joined the game
+[23:37:39] [Server thread/INFO] (Minecraft) Player336 has made the advancement [Ice Bucket Challenge]
+[23:37:40] [Render thread/INFO] (Logger) [bclib] Sending hello to server.
+[23:37:40] [Server thread/INFO] (Logger) [bclib] Received Hello from Client. (server=3.30.1, client=3.30.1)
+[23:37:40] [Server thread/INFO] (Logger) [bclib] Auto-Sync is disabled for Singleplayer worlds.
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI] ########################################
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI] REIPlugin starting main-reload for START.
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI] Plugins (7):
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI]  - (-100,00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) FabricFluidAPISupportPlugin
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) REIPlugin of REIPlugin [betterend]
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI] ########################################
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI] ****************************************
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI] REIClientPlugin starting main-reload for START.
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI] Plugins (4):
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI]  - (-100,00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) REIPlugin of REIPlugin [betterend]
+[23:37:40] [REI-ReloadPlugins/INFO] (REI) [REI] ****************************************
+[23:37:41] [Render thread/INFO] (Minecraft) [System] [CHAT] Player336 has made the advancement [Ice Bucket Challenge]
+[23:37:41] [Render thread/INFO] (Minecraft) Loaded 280 advancements
+[23:37:41] [Render thread/INFO] (Minecraft) Loaded 297 advancements
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] REIServerPlugin starting main-reload for START.
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] Plugins (3):
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) FabricFluidAPISupportPlugin
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] REIPlugin finished post-reload for START in 5.794 ms, totaling 211.4 ms.
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] REIClientPlugin finished post-reload for START in 3.702 ms, totaling 771.4 ms.
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] REIServerPlugin finished post-reload for START in 941.9 ?s, totaling 10.91 ms.
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] REIPlugin starting main-reload for END.
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] Plugins (7):
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI]  - (-100,00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) FabricFluidAPISupportPlugin
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) REIPlugin of REIPlugin [betterend]
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] ****************************************
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] REIClientPlugin starting main-reload for END.
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] Plugins (4):
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI]  - (-100,00) DefaultClientPlugin of DefaultClientPlugin [roughlyenoughitems]
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) REIPlugin of REIPlugin [betterend]
+[23:37:41] [REI-ReloadPlugins/INFO] (REI) [REI] ****************************************
+[23:37:44] [REI-ReloadPlugins/INFO] (REI) [REI] ++++++++++++++++++++++++++++++++++++++++
+[23:37:44] [REI-ReloadPlugins/INFO] (REI) [REI] REIServerPlugin starting main-reload for END.
+[23:37:44] [REI-ReloadPlugins/INFO] (REI) [REI] Plugins (3):
+[23:37:44] [REI-ReloadPlugins/INFO] (REI) [REI]  - (-100,00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[23:37:44] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) FabricFluidAPISupportPlugin
+[23:37:44] [REI-ReloadPlugins/INFO] (REI) [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[23:37:44] [REI-ReloadPlugins/INFO] (REI) [REI] ++++++++++++++++++++++++++++++++++++++++
+[23:37:44] [REI-ReloadPlugins/INFO] (REI) [REI] REIPlugin finished post-reload for END in 1.514 ms, totaling 202.2 ms.
+[23:37:44] [REI-ReloadPlugins/INFO] (REI) [REI] REIClientPlugin finished post-reload for END in 1.858 ms, totaling 2.186 s.
+[23:37:44] [REI-ReloadPlugins/INFO] (REI) [REI] REIServerPlugin finished post-reload for END in 689.6 ?s, totaling 11.04 ms.
+[23:38:00] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[23:38:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:38:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:unknown
+[23:38:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/skyblock:the_abyss_fabric

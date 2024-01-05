@@ -14,7 +14,7 @@ public class ModModelPredicateProvider {
         registerBow(ModItems.MCD__TWIN_BOW);
         registerCrossbow(ModItems.MCD__AUTO_CROSSBOW);
         registerWrittenBookTextures(Items.WRITTEN_BOOK);
-        registerEnchantedBookTextures(Items.ENCHANTED_BOOK);
+        //registerEnchantedBookTextures(Items.ENCHANTED_BOOK);
     }
     /*public static final String[] ANNOTATIONS = {
             "@green",
@@ -25,7 +25,9 @@ public class ModModelPredicateProvider {
         /*ModelPredicateProviderRegistry.register(book, new Identifier("null"),
                 (stack, world, entity, seed) -> {
                     NbtCompound nbtCompound = stack.getNbt();
-                    assert nbtCompound != null;
+                    if (nbtCompound == null) {
+                        return 0.0f;
+                    }
                     String title = nbtCompound.getString(WrittenBookItem.TITLE_KEY);
                     int flags = 0;
                     for (int i = 0; i <= 2; i++) {
@@ -42,7 +44,9 @@ public class ModModelPredicateProvider {
         ModelPredicateProviderRegistry.register(book, new Identifier("green"),
                 (stack, world, entity, seed) -> {
                     NbtCompound nbtCompound = stack.getNbt();
-                    assert nbtCompound != null;
+                    if (nbtCompound == null) {
+                        return 0.0f;
+                    }
                     String title = nbtCompound.getString(WrittenBookItem.TITLE_KEY);
                     if (title.contains("@green")) {
                         return 1.0f;
@@ -53,7 +57,9 @@ public class ModModelPredicateProvider {
         ModelPredicateProviderRegistry.register(book, new Identifier("contract"),
                 (stack, world, entity, seed) -> {
                     NbtCompound nbtCompound = stack.getNbt();
-                    assert nbtCompound != null;
+                    if (nbtCompound == null) {
+                        return 0.0f;
+                    }
                     String title = nbtCompound.getString(WrittenBookItem.TITLE_KEY);
                     if (title.contains("@contr")) {
                         return 1.0f;
@@ -64,7 +70,9 @@ public class ModModelPredicateProvider {
         ModelPredicateProviderRegistry.register(book, new Identifier("note"),
                 (stack, world, entity, seed) -> {
                     NbtCompound nbtCompound = stack.getNbt();
-                    assert nbtCompound != null;
+                    if (nbtCompound == null) {
+                        return 0.0f;
+                    }
                     String title = nbtCompound.getString(WrittenBookItem.TITLE_KEY);
                     if (title.contains("@note")) {
                         return 1.0f;
@@ -75,7 +83,9 @@ public class ModModelPredicateProvider {
         ModelPredicateProviderRegistry.register(book, new Identifier("laws"),
                 (stack, world, entity, seed) -> {
                     NbtCompound nbtCompound = stack.getNbt();
-                    assert nbtCompound != null;
+                    if (nbtCompound == null) {
+                        return 0.0f;
+                    }
                     String title = nbtCompound.getString(WrittenBookItem.TITLE_KEY);
                     if (title.contains("@laws")) {
                         return 1.0f;
@@ -88,7 +98,9 @@ public class ModModelPredicateProvider {
         ModelPredicateProviderRegistry.register(book, new Identifier("test"),
                 (stack, world, entity, seed) -> {
                     NbtCompound nbtCompound = stack.getNbt();
-                    assert nbtCompound != null;
+                    if (nbtCompound == null) {
+                        return 0.0f;
+                    }
                     int level = EnchantmentHelper.getLevelFromNbt(nbtCompound);
                     if (level == 1) {
                         return 1.0f;

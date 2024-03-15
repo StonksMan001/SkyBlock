@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "type=1": { "model": "skyblock:block/mcd__stronghold_decor/mcd__carved_polished_andesite" },
+    "type=2": { "model": "skyblock:block/mcd__stronghold_decor/mcd__stone_pillar" },
+    "type=3": { "model": "skyblock:block/mcd__stronghold_decor/mcd__stone_brick_tiles" },
+    "type=4": { "model": "skyblock:block/mcd__stronghold_decor/mcd__stone_brick_tiles_mossy" },
+    "type=5": { "model": "skyblock:block/mcd__stronghold_decor/mcd__prehistoric_purpur_block" },
+    "type=6": { "model": "skyblock:block/mcd__stronghold_decor/mcd__polished_stone" },
+    "type=7": { "model": "skyblock:block/mcd__stronghold_decor/mcd__polished_stone_mossy" }
+  }
+}

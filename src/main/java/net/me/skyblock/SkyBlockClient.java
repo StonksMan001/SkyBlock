@@ -6,6 +6,9 @@ import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.me.skyblock.archived.ArchivedBlocks;
 import net.me.skyblock.blocks_and_items.ModBlocks;
+import net.me.skyblock.blocks_and_items.block_entities.ModBlockEntities;
+import net.me.skyblock.client.ModBlockEntityRendererFactories;
+import net.me.skyblock.client.VoidBlockEntityRenderer;
 import net.me.skyblock.entity.ModEntities;
 import net.me.skyblock.entity.mobs.mcd.rendering.WispRenderer;
 import net.me.skyblock.api.ModModelPredicateProvider;
@@ -30,6 +33,8 @@ public class SkyBlockClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__SNOWY_SHORT_GRASS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__ANT_JAM_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__SWEET_BERRY_JAM_BLOCK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__UNKNOWN_SPROUTS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__UNKNOWN_VEGETATION, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SP5__TRANSPARENT_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ABYSS__ABYSS_SLIME_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SP5__BLUE_WART, RenderLayer.getTranslucent());
@@ -53,9 +58,11 @@ public class SkyBlockClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SP5__BLUISHE_MUSHROOM, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SP5__END_BUSH, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SP5__END_FLOWER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MCD__VOID_BLOCK, RenderLayer.getEndGateway());
 
         EntityRendererRegistry.register(ModEntities.WISP, WispRenderer::new);
         ModModelPredicateProvider.registerModModels();
+        ModBlockEntityRendererFactories.registerModBlockEntityRendererFactories();
 
         ParticleFactoryRegistry.getInstance().register(ModParticles.HALLOWEEN__NODE_TRACKER, NodeTracker.Factory::new);
     }

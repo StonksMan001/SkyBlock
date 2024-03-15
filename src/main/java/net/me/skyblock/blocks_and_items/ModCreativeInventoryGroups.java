@@ -169,6 +169,12 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModItems.SP5__BLUISHE_PICKAXE);
                 ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 13, 4);
                 ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 9, 9);
+                entries.add(ModBlocks.SKYBLOCK__UNKNOWN_DIRT_NYLIUM);
+                entries.add(ModBlocks.SKYBLOCK__UNKNOWN_DIRT);
+                entries.add(ModBlocks.SKYBLOCK__UNKNOWN_VEGETATION);
+                entries.add(ModBlocks.SKYBLOCK__UNKNOWN_SPROUTS);
+                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 17, 5);
+                ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 18, 9);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_LOG);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_WOOD);
                 entries.add(ModBlocks.FLOGICAL__STRIPPED_AZALEA_LOG);
@@ -176,8 +182,8 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.FLOGICAL__AZALEA_PLANKS);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_STAIRS);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_SLAB);
-                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 17, 2);
-                ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 18, 9);
+                ModCreativeInventoryGroups.addSpaces(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 22, 2);
+                ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 27, 9);
                 entries.add(ModBlocks.DIGPEAR__CALLERY_LOG);
                 entries.add(ModBlocks.DIGPEAR__CALLERY_WOOD);
                 entries.add(ModBlocks.DIGPEAR__STRIPPED_CALLERY_LOG);
@@ -187,7 +193,7 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModBlocks.DIGPEAR__CALLERY_SLAB);
                 entries.add(ModBlocks.DIGPEAR__CALLERY_LEAVES);
                 entries.add(ModBlocks.DIGPEAR__FLOWERING_CALLERY_LEAVES);
-                ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 27, 9);
+                ModCreativeInventoryGroups.addTiles(entries, ItemGroup.StackVisibility.PARENT_TAB_ONLY, 46, 9);
             }).build());
     public static ItemGroup MCD = Registry.register(Registries.ITEM_GROUP, new Identifier(SkyBlock.MOD_ID,"minecraft_dungeons"),
             FabricItemGroup.builder().displayName(Text.literal("Sky Block: Minecraft Dungeons (ilosemypotato)")).icon(() -> new ItemStack(GhostItems.Z__LOGO2)).entries((displayContext, entries) -> {
@@ -219,6 +225,7 @@ public class ModCreativeInventoryGroups {
                 entries.add(ModItems.SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER);
                 entries.add(ModItems.SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE);
                 entries.add(ModBlocks.MCD__VOID_BLOCK);
+                entries.add(ModBlocks.MCD__STRONGHOLD_DECOR);
                 entries.add(ModBlocks.ABYSS__ABYSS_STONE_OG);
                 //entries.add(ModBlocks.STRIPPED_ABYSCULK_LOG);
                 //entries.add(ModBlocks.STRIPPED_ABYSCULK_WOOD);

@@ -327,6 +327,11 @@
   "painting.skyblock.beni.title": "Beni Jelképe",
   "painting.skyblock.beni.author": "Dalmi Benedek",
 
+  "block.skyblock.skyblock__unknown_dirt_nylium": "Ismeretlen föld nílium",
+  "block.skyblock.skyblock__unknown_dirt": "Ismeretlen föld",
+  "block.skyblock.skyblock__unknown_sprouts": "Ismeretlen csírák",
+  "block.skyblock.skyblock__unknown_vegetation": "Ismeretlen növényzet",
+
   "item.skyblock.mcd__artifact_iron_hide_amulet": "Vasba foglalt amulett",
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip1": "A Vasba foglalt amulett egy ősrégi",
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip2": "tárgy. A benne lévő repedésekből",

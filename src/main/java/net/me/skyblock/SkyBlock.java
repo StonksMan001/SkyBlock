@@ -8,6 +8,7 @@ import net.me.skyblock.api.datafixer.DataFixer;
 import net.me.skyblock.archived.ArchivedBlocks;
 import net.me.skyblock.archived.ArchivedItems;
 import net.me.skyblock.blocks_and_items.ModBlocks;
+import net.me.skyblock.blocks_and_items.block_entities.ModBlockEntities;
 import net.me.skyblock.blocks_and_items.items.util.GhostItems;
 import net.me.skyblock.enchantments.ModEnchantments;
 import net.me.skyblock.entity.ModEntities;
@@ -33,9 +34,10 @@ public class SkyBlock implements ModInitializer {
 		DataFixer.register();
 
 		ModCreativeInventoryGroups.registerItemGroups();
-		//GhostItems.registerGhostItems();
+		GhostItems.registerGhostItems();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModBlockEntities.registerModBlockEntities();
 		ModEnchantments.registerModEnchantments();
 		ModDimensions.register();
 		ModPaintings.registerPaintings();

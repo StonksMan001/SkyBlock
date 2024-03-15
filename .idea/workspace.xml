@@ -4,11 +4,79 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="v1.3.1 - Logger info fixek">
-      <change afterPath="$PROJECT_DIR$/FINAL RELEASES/skyblock-1.3.1-1.20.4(hotfix).jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL RELEASES/skyblock-1.3.1-1.20.4(server).jar" afterDir="false" />
+    <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="v1.3.1 - .jar file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/WorldRendererMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/block_entities/ModBlockEntities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/block_entities/mcd/echoing_void/VoidBlockEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/mcd/echoing_void/StrongholdDecorBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/mcd/echoing_void/VoidBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/vegetations/UnknownInfectionFamily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/vegetations/unknown/UnknownDirt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/vegetations/unknown/UnknownDirtNylium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/vegetations/unknown/UnknownVegetation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/client/ModBlockEntityRendererFactories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/client/ModRenderLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/client/VoidBlockEntityRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/clay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/hardened_clay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/hardened_clay_stained_orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/hardened_clay_stained_pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/hardened_clay_stained_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/log_acacia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__carved_polished_andesite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__polished_stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__polished_stone_mossy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_brick_tile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_brick_tile2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_brick_tile_mossy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_pillar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_pillar_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/planks_spruce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/quartz_block_bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/stone_andesite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/stone_andesite_smooth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/stonebrick_mossy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/mcd__stronghold_decor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__unknown_dirt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__unknown_dirt_nylium.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__unknown_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__unknown_vegetation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__stronghold_decor/mcd__carved_polished_andesite.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__stronghold_decor/mcd__polished_stone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__stronghold_decor/mcd__polished_stone_mossy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__stronghold_decor/mcd__prehistoric_purpur_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__stronghold_decor/mcd__stone_brick_tiles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__stronghold_decor/mcd__stone_brick_tiles_mossy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__stronghold_decor/mcd__stone_pillar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__unknown_dirt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__unknown_dirt_nylium.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__unknown_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__unknown_vegetation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__unknown_dirt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__unknown_dirt_nylium.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__unknown_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__unknown_vegetation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__carved_polished_andesite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__polished_stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__polished_stone_mossy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__prehistoric_purpur_block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__stone_brick_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__stone_brick_tiles_mossy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__stone_pillar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__stone_pillar_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__unknown_dirt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__unknown_dirt_nylium_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__unknown_dirt_nylium_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__unknown_sprouts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__unknown_vegetation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/entity/void_stars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__unknown_dirt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__unknown_dirt_nylium.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SkyBlockMod_Main.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/SkyBlockMod_Main.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SkyBlockMod_Main.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/SkyBlockMod_Main.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/bclib/cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/bclib/cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
@@ -19,9 +87,18 @@
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/rei-issues.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/rei-issues.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/rei.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/rei.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/servers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/servers.dat_old" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlockClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlockClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,29 +168,29 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaVariableFindUsagesOptions.isSearchForTextOccurrences": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main/FINAL RELEASES",
-    "settings.editor.selected.configurable": "preferences.fileTypes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaVariableFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SONY/MODS_2/SkyBlockMod_Main/src/main/resources/data/skyblock/loot_tables/blocks&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\FINAL RELEASES" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\run\mods" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\recipes\minecraft__common" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\run\resourcepacks\better_nether_enhanced\assets\betternether\blockstates" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\run\resourcepacks\better_nether_enhanced\assets\betternether\models\block" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\loot_tables\blocks" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\item" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\block" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\blockstates" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\textures\block" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\run\mods_temp" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\run\resourcepacks" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\resourcepacks\better_nether_enhanced\assets" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\recipes\skyblock__frostslate_blocks" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\recipes\quark__vertical_planks" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\recipes\skyblock__carved_planks" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.SkyBlockMod_Main [runClient]">
@@ -350,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704495345671</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="v1.3.1 - .jar file">
+      <created>1704497645019</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1704497645019</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -377,15 +461,21 @@
     <MESSAGE value="v1.3.0 - Kritikus error REI használatakor" />
     <MESSAGE value="v1.3.1 - Kritikus error REI használatakor" />
     <MESSAGE value="v1.3.1 - Logger info fixek" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.3.1 - Logger info fixek" />
+    <MESSAGE value="v1.3.1 - .jar file" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.3.1 - .jar file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/build.gradle</url>
-          <line>75</line>
+          <line>73</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2-sources.jar!/net/minecraft/client/render/RenderPhase.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

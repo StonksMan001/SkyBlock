@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "skyblock:block/mcd__stronghold_decor/mcd__stone_brick_tiles_mossy"
+  }
+}

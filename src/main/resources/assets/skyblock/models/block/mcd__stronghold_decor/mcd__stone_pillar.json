@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyblock:block/mcd__stronghold_decor/mcd__stone_pillar_top",
+    "side": "skyblock:block/mcd__stronghold_decor/mcd__stone_pillar"
+  }
+}

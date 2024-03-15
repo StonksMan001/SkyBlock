@@ -10,8 +10,14 @@ import net.me.skyblock.blocks_and_items.blocks.end.EndFlower;
 import net.me.skyblock.blocks_and_items.blocks.end.EndVegetation;
 import net.me.skyblock.blocks_and_items.blocks.end.EnderBlock;
 import net.me.skyblock.blocks_and_items.blocks.mcd.MossyOakPlanks;
+import net.me.skyblock.blocks_and_items.blocks.mcd.echoing_void.StrongholdDecorBlock;
+import net.me.skyblock.blocks_and_items.blocks.mcd.echoing_void.VoidBlock;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.DuckweedBlock;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.SuspiciousCoarseDirt;
+import net.me.skyblock.blocks_and_items.blocks.skyblock.vegetations.unknown.UnknownDirt;
+import net.me.skyblock.blocks_and_items.blocks.skyblock.vegetations.unknown.UnknownDirtNylium;
+import net.me.skyblock.blocks_and_items.blocks.skyblock.vegetations.UnknownInfectionFamily;
+import net.me.skyblock.blocks_and_items.blocks.skyblock.vegetations.unknown.UnknownVegetation;
 import net.me.skyblock.blocks_and_items.blocks.util.ModStairsBlock;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
@@ -480,12 +486,10 @@ public class ModBlocks {
                     .noBlockBreakParticles()
                     .nonOpaque()));
     public static final Block MCD__VOID_BLOCK = registerBlock("mcd__void_block",
-            new Block(FabricBlockSettings
+            new VoidBlock(FabricBlockSettings
                     .copy(Blocks.SCULK)
                     .strength(3.0f)
-                    .luminance(state -> 1)
-                    .requiresTool()
-                    .emissiveLighting(ModBlocks::always)));
+                    .requiresTool()));
     public static final Block SP5__ENDMERALD_ORE = registerBlock("sp5__end_emerald_ore",
             new Block(FabricBlockSettings
                     .copyOf(Blocks.END_STONE)
@@ -761,6 +765,20 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings
                     .copy(Blocks.OAK_SLAB)
                     .strength(2.0f)));
+    //SKYBLOCK - UNKNOWN VEGETATION
+    public static final Block SKYBLOCK__UNKNOWN_DIRT_NYLIUM = registerBlock("skyblock__unknown_dirt_nylium",
+            new UnknownDirtNylium(FabricBlockSettings
+                    .copy(Blocks.DIRT),1));
+    public static final Block SKYBLOCK__UNKNOWN_DIRT = registerBlock("skyblock__unknown_dirt",
+            new UnknownDirt(FabricBlockSettings
+                    .copy(Blocks.DIRT),1));
+    public static final Block SKYBLOCK__UNKNOWN_SPROUTS = registerBlock("skyblock__unknown_sprouts",
+            new UnknownVegetation(FabricBlockSettings
+                    .copy(Blocks.NETHER_SPROUTS)));
+    public static final Block SKYBLOCK__UNKNOWN_VEGETATION = registerBlock("skyblock__unknown_vegetation",
+            new UnknownVegetation(FabricBlockSettings
+                    .copy(Blocks.WARPED_ROOTS)));
+    //SKYBLOCK - UNKNOWN VEGETATION
     //SKYBLOCK - CARVED PLANKS
     public static final Block SKYBLOCK__CARVED_OAK_PLANKS = registerBlock("skyblock__carved_oak_planks",
             new PillarBlock(FabricBlockSettings
@@ -786,6 +804,9 @@ public class ModBlocks {
             new Block(FabricBlockSettings
                     .copy(Blocks.SPRUCE_PLANKS)
                     .strength(2.0f, 3.0f)));
+    public static final Block MCD__STRONGHOLD_DECOR = registerBlock("mcd__stronghold_decor",
+            new StrongholdDecorBlock(FabricBlockSettings
+                    .copy(Blocks.BEDROCK)));
     public static final Block MCD__BARREN_GRASS_BLOCK = registerBlock("mcd__barren_grass_block",
             new Block(FabricBlockSettings
                     .copy(Blocks.END_STONE)

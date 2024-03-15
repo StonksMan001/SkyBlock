@@ -4,20 +4,21 @@
   "package": "net.me.skyblock.api.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "BookEditScreenMixin",
     "ChorusPlantBlockMixin",
+    "HoneyBlockMixin",
     "ItemGroupIconSupplierAccessor",
     "ItemGroupsMixin",
-    "WrittenBookItemMixin",
-    "BookEditScreenMixin",
-    "HoneyBlockMixin"
+    "WrittenBookItemMixin"
   ],
   "client": [
+    "BookEditScreenMixin",
     "ChorusPlantBlockMixin",
+    "HoneyBlockMixin",
     "ItemGroupIconSupplierAccessor",
     "ItemGroupsMixin",
-    "WrittenBookItemMixin",
-    "BookEditScreenMixin",
-    "HoneyBlockMixin"
+    "WorldRendererMixin",
+    "WrittenBookItemMixin"
   ],
   "injectors": {
     "defaultRequire": 1

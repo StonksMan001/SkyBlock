@@ -2,6 +2,7 @@ package net.me.skyblock.blocks_and_items;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.me.skyblock.SkyBlock;
+import net.me.skyblock.blocks_and_items.items.backport.OminousBottle;
 import net.me.skyblock.blocks_and_items.items.end.EnchantedEnderiteAppleItem;
 import net.me.skyblock.blocks_and_items.items.abyss.Loran;
 import net.me.skyblock.blocks_and_items.items.util.AnomaliteArmorItem;
@@ -160,18 +161,23 @@ public class ModItems {
     public static final Item SKYBLOCK__LIGHTNING_SWORD = registerItem("skyblock__lightning_sword",
             new SwordItem(ModToolMaterials.BENIKARD, 3, 3.5f -4f, new FabricItemSettings()));
     public static final Item MCD__DIAMOND_RAPIER = registerItem("mcd__diamond_rapier",
-            new SwordItem(ToolMaterials.DIAMOND, 2, 3.4028235E38f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.DIAMOND, 2, Float.MAX_VALUE, new FabricItemSettings()));
     public static final Item MCD__GOLDEN_RAPIER = registerItem("mcd__golden_rapier",
-            new SwordItem(ToolMaterials.GOLD, 2, 3.4028235E38f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.GOLD, 2, Float.MAX_VALUE, new FabricItemSettings()));
     public static final Item MCD__IRON_RAPIER = registerItem("mcd__iron_rapier",
-            new SwordItem(ToolMaterials.IRON, 2, 3.4028235E38f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.IRON, 2, Float.MAX_VALUE, new FabricItemSettings()));
     public static final Item MCD__NETHERITE_RAPIER = registerItem("mcd__netherite_rapier",
-            new SwordItem(ToolMaterials.NETHERITE, 2, 3.4028235E38f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.NETHERITE, 2, Float.MAX_VALUE, new FabricItemSettings()));
     public static final Item MCD__STONE_RAPIER = registerItem("mcd__stone_rapier",
-            new SwordItem(ToolMaterials.STONE, 2, 3.4028235E38f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.STONE, 2, Float.MAX_VALUE, new FabricItemSettings()));
     public static final Item MCD__WOODEN_RAPIER = registerItem("mcd__wooden_rapier",
-            new SwordItem(ToolMaterials.WOOD, 2, 3.4028235E38f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.WOOD, 2, Float.MAX_VALUE, new FabricItemSettings()));
     //MCD
+    // <BACKPORTED FEATURES>
+    /** Ominous Bottle (1.21 Feature)*/
+    public static final Item BP__OMINOUS_BOTTLE = registerItem("bp__ominous_bottle",
+            new OminousBottle(new FabricItemSettings()));
+    // <BACKPORTED FEATURES>
     //HALLOWEEN 2023
     public static final Item H__ANOMALITE_FRAGMENT = registerItem("h__anomalite_fragment",
             new Item(new FabricItemSettings()));

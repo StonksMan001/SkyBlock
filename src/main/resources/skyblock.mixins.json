@@ -6,9 +6,11 @@
   "mixins": [
     "BookEditScreenMixin",
     "ChorusPlantBlockMixin",
+    "ExplosionMixin",
     "HoneyBlockMixin",
     "ItemGroupIconSupplierAccessor",
     "ItemGroupsMixin",
+    "RaiderEntityMixin",
     "WrittenBookItemMixin"
   ],
   "client": [

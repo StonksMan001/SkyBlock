@@ -2,33 +2,5 @@
     "parent": "skyblock:item/auto_crossbow",
     "textures": {
         "layer0": "skyblock:item/auto_crossbow_firework"
-    },
-    "display": {
-        "thirdperson_righthand": {
-            "rotation": [-90, 0, -60],
-            "translation": [2, 0.1, -3],
-            "scale": [2, 2, 1]
-        },
-        "thirdperson_lefthand": {
-            "rotation": [-90, 0, 30],
-            "translation": [2, 0.1, -3],
-            "scale": [2, 2, 1]
-        },
-        "firstperson_righthand": {
-            "rotation": [-90, 0, -55],
-            "translation": [1.13, 3.2, 1.13],
-            "scale": [2, 2, 1]
-        },
-        "firstperson_lefthand": {
-            "rotation": [-90, 0, 35],
-            "translation": [1.13, 3.2, 1.13],
-            "scale": [2, 2, 1]
-        },
-        "gui": {
-            "scale": [1.75, 1.75, 1.75]
-        },
-        "fixed": {
-            "scale": [1.75, 1.75, 1.75]
-        }
     }
 }

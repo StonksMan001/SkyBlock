@@ -320,12 +320,23 @@
   "block.skyblock.skyblock__frostslate_brick_slab": "Fagypalatégla lap",
 
   "block.skyblock.skyblock__duckweed": "Békalencse",
+  "block.skyblock.skyblock__compressed_steel": "Sűrített acél",
+  "item.skyblock.bp__ominous_bottle": "Vészjósló üveg",
   "block.skyblock.skyblock__snowy_short_grass": "Havas rövid fű",
 
   "painting.skyblock.witherstorm.title": "The Wither Storm",
   "painting.skyblock.witherstorm.author": "Mojang & Telltale Games",
   "painting.skyblock.beni.title": "Beni Jelképe",
   "painting.skyblock.beni.author": "Dalmi Benedek",
+
+  "block.skyblock.skyblock__red_sculk": "Vörös sculk",
+  "block.skyblock.skyblock__red_sculk_jaw": "Vörös sculkfogsor",
+  "block.skyblock.skyblock__red_sculk_sprouts": "Vörös sculkcsírák",
+  "block.skyblock.skyblock__sculk_sprouts": "Sculkcsírák",
+  "block.skyblock.bosc__sculk_jaw": "Sculkfogsor",
+  "block.skyblock.bosc__dead_sculk": "Halott sculk",
+  "block.skyblock.bosc__dead_sculk_jaw": "Halott sculkfogsor",
+  "block.skyblock.bosc__dead_sculk_sprouts": "Halott sculkcsírák",
 
   "block.skyblock.skyblock__unknown_dirt_nylium": "Ismeretlen föld nílium",
   "block.skyblock.skyblock__unknown_dirt": "Ismeretlen föld",

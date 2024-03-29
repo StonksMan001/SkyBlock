@@ -320,17 +320,28 @@
   "block.skyblock.skyblock__frostslate_brick_slab": "Frostslate Brick Slab",
 
   "block.skyblock.skyblock__duckweed": "Duckweed",
+  "block.skyblock.skyblock__compressed_steel": "Compressed Steel",
+  "item.skyblock.bp__ominous_bottle": "Ominous Bottle",
   "block.skyblock.skyblock__snowy_short_grass": "Snowy Short Grass",
-
-  "block.skyblock.skyblock__unknown_dirt_nylium": "Unknown Dirt Nylium",
-  "block.skyblock.skyblock__unknown_dirt": "Unknown Dirt",
-  "block.skyblock.skyblock__unknown_sprouts": "Unknown Sprouts",
-  "block.skyblock.skyblock__unknown_vegetation": "Unknown Vegetation",
 
   "painting.skyblock.witherstorm.title": "The Wither Storm",
   "painting.skyblock.witherstorm.author": "Mojang & Telltale Games",
   "painting.skyblock.beni.title": "Beni Jelképe",
   "painting.skyblock.beni.author": "Dalmi Benedek",
+
+  "block.skyblock.skyblock__red_sculk": "Red Sculk",
+  "block.skyblock.skyblock__red_sculk_jaw": "Red Sculk Jaw",
+  "block.skyblock.skyblock__red_sculk_sprouts": "Red Sculk Sprouts",
+  "block.skyblock.skyblock__sculk_sprouts": "Sculk Sprouts",
+  "block.skyblock.bosc__sculk_jaw": "Sculk Jaw",
+  "block.skyblock.bosc__dead_sculk": "Dead Sculk",
+  "block.skyblock.bosc__dead_sculk_jaw": "Dead Sculk Jaw",
+  "block.skyblock.bosc__dead_sculk_sprouts": "Dead Sculk Sprouts",
+
+  "block.skyblock.skyblock__unknown_dirt_nylium": "Unknown Dirt Nylium",
+  "block.skyblock.skyblock__unknown_dirt": "Unknown Dirt",
+  "block.skyblock.skyblock__unknown_sprouts": "Unknown Sprouts",
+  "block.skyblock.skyblock__unknown_vegetation": "Unknown Vegetation",
 
   "item.skyblock.mcd__artifact_iron_hide_amulet": "Iron Hide Amulet",
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip1": "The Iron Hide Amulet is both ancient",

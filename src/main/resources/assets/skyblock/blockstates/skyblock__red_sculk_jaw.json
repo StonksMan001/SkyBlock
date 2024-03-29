@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "teeth_state=0": [
+      { "model": "skyblock:block/skyblock__red_sculk_jaw0" },
+      { "model": "skyblock:block/skyblock__red_sculk_jaw0","y": 90 }
+    ],
+    "teeth_state=1": [
+      { "model": "skyblock:block/skyblock__red_sculk_jaw1" },
+      { "model": "skyblock:block/skyblock__red_sculk_jaw1","y": 90 }
+    ],
+    "teeth_state=2": [
+      { "model": "skyblock:block/skyblock__red_sculk_jaw2" },
+      { "model": "skyblock:block/skyblock__red_sculk_jaw2","y": 90 }
+    ],
+    "teeth_state=3": [
+      { "model": "skyblock:block/skyblock__red_sculk_jaw3" },
+      { "model": "skyblock:block/skyblock__red_sculk_jaw3","y": 90 }
+    ]
+  }
+}

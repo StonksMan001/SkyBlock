@@ -4,78 +4,99 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="v1.3.1 - .jar file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/WorldRendererMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/block_entities/ModBlockEntities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/block_entities/mcd/echoing_void/VoidBlockEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/mcd/echoing_void/StrongholdDecorBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/mcd/echoing_void/VoidBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/vegetations/UnknownInfectionFamily.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/vegetations/unknown/UnknownDirt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/vegetations/unknown/UnknownDirtNylium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/vegetations/unknown/UnknownVegetation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/client/ModBlockEntityRendererFactories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/client/ModRenderLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/client/VoidBlockEntityRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/clay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/hardened_clay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/hardened_clay_stained_orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/hardened_clay_stained_pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/hardened_clay_stained_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/log_acacia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__carved_polished_andesite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__polished_stone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__polished_stone_mossy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_brick_tile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_brick_tile2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_brick_tile_mossy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_pillar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_pillar_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/planks_spruce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/quartz_block_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/stone_andesite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/stone_andesite_smooth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/asset, data factory/stonebrick_mossy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/mcd__stronghold_decor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__unknown_dirt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__unknown_dirt_nylium.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__unknown_sprouts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__unknown_vegetation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__stronghold_decor/mcd__carved_polished_andesite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__stronghold_decor/mcd__polished_stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__stronghold_decor/mcd__polished_stone_mossy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__stronghold_decor/mcd__prehistoric_purpur_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__stronghold_decor/mcd__stone_brick_tiles.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__stronghold_decor/mcd__stone_brick_tiles_mossy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__stronghold_decor/mcd__stone_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__unknown_dirt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__unknown_dirt_nylium.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__unknown_sprouts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__unknown_vegetation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__unknown_dirt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__unknown_dirt_nylium.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__unknown_sprouts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__unknown_vegetation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__carved_polished_andesite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__polished_stone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__polished_stone_mossy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__prehistoric_purpur_block.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__stone_brick_tiles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__stone_brick_tiles_mossy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__stone_pillar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__stronghold_decor/mcd__stone_pillar_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__unknown_dirt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__unknown_dirt_nylium_side.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__unknown_dirt_nylium_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__unknown_sprouts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__unknown_vegetation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/entity/void_stars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__unknown_dirt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__unknown_dirt_nylium.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/SkyBlockMod_Main.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/SkyBlockMod_Main.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/SkyBlockMod_Main.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/SkyBlockMod_Main.test.iml" afterDir="false" />
+    <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="v1.3.2 - Void block render changes, Unknown blockset">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/ModTags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ExplosionMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/RaiderEntityMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/SculkBlockMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/BaseShortPlantBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/BaseTallPlantBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/ComplexBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/bosc/SculkJawBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/CompressedSteelBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/items/backport/OminousBottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/bosc__dead_sculk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/bosc__dead_sculk_jaw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/bosc__dead_sculk_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/bosc__sculk_jaw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__compressed_steel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__red_sculk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__red_sculk_jaw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__red_sculk_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__sculk_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/bosc__dead_sculk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/bosc__dead_sculk_jaw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/bosc__dead_sculk_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/bosc__sculk_jaw0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/bosc__sculk_jaw1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/bosc__sculk_jaw2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/bosc__sculk_jaw3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__compressed_steel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__compressed_steel_pulsing_blue.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__compressed_steel_pulsing_red.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__red_sculk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__red_sculk_jaw0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__red_sculk_jaw1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__red_sculk_jaw2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__red_sculk_jaw3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__red_sculk_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__sculk_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/sp5__warped_navi_plant_bottom.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/sp5__warped_navi_plant_top.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bosc__dead_sculk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bosc__dead_sculk_jaw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bosc__dead_sculk_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bosc__sculk_jaw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bp__ominous_bottle.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__compressed_steel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__red_sculk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__red_sculk_jaw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__red_sculk_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__sculk_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/sp5__warped_navi_plant.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/bosc__dead_sculk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/bosc__dead_sculk_jaw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/bosc__dead_sculk_sprouts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/bosc__sculk_jaw0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/bosc__sculk_jaw1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/bosc__sculk_jaw2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/bosc__sculk_jaw3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__compressed_steel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__compressed_steel_pulsing_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__compressed_steel_pulsing_blue.png.mcmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__compressed_steel_pulsing_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__compressed_steel_pulsing_red.png.mcmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__red_sculk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__red_sculk.png.mcmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__red_sculk_jaw0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__red_sculk_jaw1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__red_sculk_jaw2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__red_sculk_jaw3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__red_sculk_sprouts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__sculk_sprouts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/sp5__warped_navi_plant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/bp__ominous_bottle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/bp__ominous_bottle.png.mcmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/sp5__warped_navi_plant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/bosc__dead_sculk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/bosc__dead_sculk_jaw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/bosc__dead_sculk_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/bosc__sculk_jaw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__compressed_steel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__red_sculk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__red_sculk_jaw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__red_sculk_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__sculk_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/mcd__rapiers/diamond_rapier.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/mcd__rapiers/golden_rapier.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/mcd__rapiers/iron_rapier.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/mcd__rapiers/netherite_rapier_smithing.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/mcd__rapiers/stone_rapier.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipes/mcd__rapiers/wooden_rapier.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/blocks/bosc__dead_sculk_ground.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/blocks/skyblock__red_sculk_ground.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/blocks/skyblock__sculk_ground.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/bclib/cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/bclib/cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
@@ -85,19 +106,55 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/rei-issues.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/rei-issues.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/rei.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/rei.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/servers.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/servers.dat_old" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlockClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlockClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/ModModelPredicateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/ModModelPredicateProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/clay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/hardened_clay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/hardened_clay_stained_orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/hardened_clay_stained_pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/hardened_clay_stained_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/log_acacia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__carved_polished_andesite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__polished_stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__polished_stone_mossy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_brick_tile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_brick_tile2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_brick_tile_mossy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_pillar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/mcd__stone_pillar_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/planks_spruce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/quartz_block_bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/stone_andesite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/stone_andesite_smooth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asset, data factory/stonebrick_mossy.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__auto_crossbow.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__auto_crossbow.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__auto_crossbow_arrow.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__auto_crossbow_arrow.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__auto_crossbow_firework.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__auto_crossbow_firework.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__auto_crossbow_pulling_0.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__auto_crossbow_pulling_0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__auto_crossbow_pulling_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__auto_crossbow_pulling_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__auto_crossbow_pulling_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__auto_crossbow_pulling_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/auto_crossbow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/auto_crossbow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/auto_crossbow_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/auto_crossbow_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/auto_crossbow_firework.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/auto_crossbow_firework.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/auto_crossbow_pulling_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/auto_crossbow_pulling_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/auto_crossbow_pulling_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/auto_crossbow_pulling_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/auto_crossbow_pulling_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/auto_crossbow_pulling_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/diamond_rapier.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/diamond_rapier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/golden_rapier.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/golden_rapier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/iron_rapier.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/iron_rapier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/netherite_rapier.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/netherite_rapier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/stone_rapier.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/stone_rapier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/wooden_rapier.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/wooden_rapier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/fabric/tags/blocks/needs_tool_level_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/sp5__warped_navi_plant.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_diamond_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_diamond_tool.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,29 +225,33 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaVariableFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/SONY/MODS_2/SkyBlockMod_Main/src/main/resources/data/skyblock/loot_tables/blocks&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaVariableFindUsagesOptions.isSearchForTextOccurrences": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main/src/main/resources/assets/skyblock/textures/item",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\textures\item" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\tags\blocks" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\recipes\mcd__rapiers" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\loot_tables\blocks" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\item" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\block" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\blockstates" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\textures\block" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\block" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\item" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\textures\block" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\blockstates" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\run\mods_temp" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\run\resourcepacks" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\resourcepacks\better_nether_enhanced\assets" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\recipes\skyblock__frostslate_blocks" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\recipes\quark__vertical_planks" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.me.skyblock.api.skycore" />
+      <recent name="net.me.skyblock.blocks_and_items.blocks.skyblock.vegetations.sculk" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.SkyBlockMod_Main [runClient]">
@@ -434,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704497645019</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="v1.3.2 - Void block render changes, Unknown blockset">
+      <created>1710488077056</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710488077056</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -462,7 +530,8 @@
     <MESSAGE value="v1.3.1 - Kritikus error REI használatakor" />
     <MESSAGE value="v1.3.1 - Logger info fixek" />
     <MESSAGE value="v1.3.1 - .jar file" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.3.1 - .jar file" />
+    <MESSAGE value="v1.3.2 - Void block render changes, Unknown blockset" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.3.2 - Void block render changes, Unknown blockset" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

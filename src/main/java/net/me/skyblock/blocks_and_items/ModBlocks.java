@@ -3,8 +3,12 @@ package net.me.skyblock.blocks_and_items;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.me.skyblock.SkyBlock;
+import net.me.skyblock.api.ModTags;
+import net.me.skyblock.api.skycore.BaseShortPlantBlock;
+import net.me.skyblock.api.skycore.BaseTallPlantBlock;
 import net.me.skyblock.blocks_and_items.blocks.abyss.AbyssVegetation;
 import net.me.skyblock.blocks_and_items.blocks.abyss.BlueVigilantGrass;
+import net.me.skyblock.blocks_and_items.blocks.bosc.SculkJawBlock;
 import net.me.skyblock.blocks_and_items.blocks.end.BluisheLightStemBlock;
 import net.me.skyblock.blocks_and_items.blocks.end.EndFlower;
 import net.me.skyblock.blocks_and_items.blocks.end.EndVegetation;
@@ -12,12 +16,11 @@ import net.me.skyblock.blocks_and_items.blocks.end.EnderBlock;
 import net.me.skyblock.blocks_and_items.blocks.mcd.MossyOakPlanks;
 import net.me.skyblock.blocks_and_items.blocks.mcd.echoing_void.StrongholdDecorBlock;
 import net.me.skyblock.blocks_and_items.blocks.mcd.echoing_void.VoidBlock;
+import net.me.skyblock.blocks_and_items.blocks.skyblock.CompressedSteelBlock;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.DuckweedBlock;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.SuspiciousCoarseDirt;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.vegetations.unknown.UnknownDirt;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.vegetations.unknown.UnknownDirtNylium;
-import net.me.skyblock.blocks_and_items.blocks.skyblock.vegetations.UnknownInfectionFamily;
-import net.me.skyblock.blocks_and_items.blocks.skyblock.vegetations.unknown.UnknownVegetation;
 import net.me.skyblock.blocks_and_items.blocks.util.ModStairsBlock;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
@@ -479,12 +482,6 @@ public class ModBlocks {
                     .strength(2.0f)));
     //ABYSS
     //SKYBLOCK MAIN-BLOCK
-    public static final Block SKYBLOCK__DUCKWEED = registerBlockWithoutItem("skyblock__duckweed",
-            new DuckweedBlock(FabricBlockSettings
-                    .copyOf(Blocks.LILY_PAD)
-                    .noCollision()
-                    .noBlockBreakParticles()
-                    .nonOpaque()));
     public static final Block MCD__VOID_BLOCK = registerBlock("mcd__void_block",
             new VoidBlock(FabricBlockSettings
                     .copy(Blocks.SCULK)
@@ -564,6 +561,9 @@ public class ModBlocks {
             new EndFlower(FabricBlockSettings
                     .copy(Blocks.DANDELION)
                     .sounds(BlockSoundGroup.SPORE_BLOSSOM)));
+    public static final Block SP5__WARPED_NAVI_PLANT = registerBlock("sp5__warped_navi_plant",
+            new BaseTallPlantBlock(FabricBlockSettings
+                    .copyOf(Blocks.TALL_GRASS), ModBlocks.SP5__END_GRASS));
     public static final Block SKYBLOCK__ANT_JAM_BLOCK = registerBlock("skyblock__ant_jam_block",
             new SlimeBlock(FabricBlockSettings
                     .copy(Blocks.HONEY_BLOCK)));
@@ -735,8 +735,6 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings
                     .copy(Blocks.WARPED_SLAB)
                     .strength(2.0f)));
-
-
     public static final Block FLOGICAL__AZALEA_LOG = registerBlock("flogical__azalea_log",
             new PillarBlock(FabricBlockSettings
                     .copy(Blocks.OAK_LOG)
@@ -765,6 +763,38 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings
                     .copy(Blocks.OAK_SLAB)
                     .strength(2.0f)));
+    //BUNCH O' SCULK
+    public static final Block BOSC__SCULK_JAW = registerBlock("bosc__sculk_jaw",
+            new SculkJawBlock(FabricBlockSettings
+                    .copy(Blocks.SCULK)
+                    .strength(1f), Blocks.SCULK));
+    public static final Block BOSC__DEAD_SCULK = registerBlock("bosc__dead_sculk",
+            new SculkBlock(FabricBlockSettings
+                    .copy(Blocks.SCULK)
+                    .sounds(BlockSoundGroup.CORAL)));
+    public static final Block BOSC__DEAD_SCULK_JAW = registerBlock("bosc__dead_sculk_jaw",
+            new SculkBlock(FabricBlockSettings
+                    .copy(Blocks.SCULK)
+                    .sounds(BlockSoundGroup.CORAL)));
+    public static final Block BOSC__DEAD_SCULK_SPROUTS = registerBlock("bosc__dead_sculk_sprouts",
+            new BaseShortPlantBlock(FabricBlockSettings
+                    .copy(Blocks.NETHER_SPROUTS), ModTags.Blocks.BOSC__DEAD_SCULK_GROUND));
+    //BUNCH O' SCULK
+    //SKYBLOCK - SCULK
+    public static final Block SKYBLOCK__RED_SCULK = registerBlock("skyblock__red_sculk",
+            new SculkBlock(FabricBlockSettings
+                    .copy(Blocks.SCULK)));
+    public static final Block SKYBLOCK__RED_SCULK_JAW = registerBlock("skyblock__red_sculk_jaw",
+            new SculkJawBlock(FabricBlockSettings
+                    .copy(Blocks.SCULK)
+                    .strength(1f), ModBlocks.SKYBLOCK__RED_SCULK));
+    public static final Block SKYBLOCK__SCULK_SPROUTS = registerBlock("skyblock__sculk_sprouts",
+            new BaseShortPlantBlock(FabricBlockSettings
+                    .copy(Blocks.NETHER_SPROUTS), ModTags.Blocks.SKYBLOCK__SCULK_GROUND));
+    public static final Block SKYBLOCK__RED_SCULK_SPROUTS = registerBlock("skyblock__red_sculk_sprouts",
+            new BaseShortPlantBlock(FabricBlockSettings
+                    .copy(Blocks.NETHER_SPROUTS), ModTags.Blocks.SKYBLOCK__RED_SCULK_GROUND));
+    //SKYBLOCK - SCULK
     //SKYBLOCK - UNKNOWN VEGETATION
     public static final Block SKYBLOCK__UNKNOWN_DIRT_NYLIUM = registerBlock("skyblock__unknown_dirt_nylium",
             new UnknownDirtNylium(FabricBlockSettings
@@ -773,12 +803,24 @@ public class ModBlocks {
             new UnknownDirt(FabricBlockSettings
                     .copy(Blocks.DIRT),1));
     public static final Block SKYBLOCK__UNKNOWN_SPROUTS = registerBlock("skyblock__unknown_sprouts",
-            new UnknownVegetation(FabricBlockSettings
-                    .copy(Blocks.NETHER_SPROUTS)));
+            new BaseShortPlantBlock(FabricBlockSettings
+                    .copy(Blocks.NETHER_SPROUTS), ModBlocks.SKYBLOCK__UNKNOWN_DIRT_NYLIUM));
     public static final Block SKYBLOCK__UNKNOWN_VEGETATION = registerBlock("skyblock__unknown_vegetation",
-            new UnknownVegetation(FabricBlockSettings
-                    .copy(Blocks.WARPED_ROOTS)));
+            new BaseShortPlantBlock(FabricBlockSettings
+                    .copy(Blocks.WARPED_ROOTS), ModBlocks.SKYBLOCK__UNKNOWN_DIRT_NYLIUM));
     //SKYBLOCK - UNKNOWN VEGETATION
+    //SKYBLOCK VANILLA+
+    public static final Block SKYBLOCK__DUCKWEED = registerBlockWithoutItem("skyblock__duckweed",
+            new DuckweedBlock(FabricBlockSettings
+                    .copyOf(Blocks.LILY_PAD)
+                    .noCollision()
+                    .noBlockBreakParticles()
+                    .nonOpaque()));
+    public static final Block SKYBLOCK__COMPRESSED_STEEL = registerBlock("skyblock__compressed_steel",
+            new CompressedSteelBlock(FabricBlockSettings
+                    .copy(Blocks.NETHERITE_BLOCK)
+                    .strength(Blocks.OBSIDIAN.getHardness(), Blocks.OBSIDIAN.getBlastResistance())));
+    //SKYBLOCK VANILLA+
     //SKYBLOCK - CARVED PLANKS
     public static final Block SKYBLOCK__CARVED_OAK_PLANKS = registerBlock("skyblock__carved_oak_planks",
             new PillarBlock(FabricBlockSettings

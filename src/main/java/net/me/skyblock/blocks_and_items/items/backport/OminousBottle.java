@@ -33,23 +33,15 @@ public class OminousBottle extends Item {
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
         super.finishUsing(stack, world, user);
-        if (user instanceof ServerPlayerEntity) {
-            ServerPlayerEntity serverPlayerEntity = (ServerPlayerEntity)user;
+        if (user instanceof ServerPlayerEntity serverPlayerEntity) {
             Criteria.CONSUME_ITEM.trigger(serverPlayerEntity, stack);
             serverPlayerEntity.incrementStat(Stats.USED.getOrCreateStat(this));
         }
         if (!world.isClient) {
             int rand = (int)(Math.random()*5);
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.BAD_OMEN, 20/*tick*/*60/*sec*/*100/*min*/, rand, false, true, true));
-        }
-        if (stack.isEmpty()) {
-            return new ItemStack(Items.GLASS_BOTTLE);
-        }
-        if (user instanceof PlayerEntity && !((PlayerEntity)user).getAbilities().creativeMode) {
-            ItemStack itemStack = new ItemStack(Items.GLASS_BOTTLE);
-            PlayerEntity playerEntity = (PlayerEntity)user;
-            if (!playerEntity.getInventory().insertStack(itemStack)) {
-                playerEntity.dropItem(itemStack, false);
+            if (user instanceof PlayerEntity playerEntity && !playerEntity.getAbilities().creativeMode) {
+                stack.setCount(stack.getCount()-1);
             }
         }
         return stack;
@@ -59,8 +51,6 @@ public class OminousBottle extends Item {
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         Text text1 = Text.translatable("effect.minecraft.bad_omen").formatted(Formatting.BLUE);
         Text text2 = Text.literal(" I-V (01:40:00)").formatted(Formatting.BLUE);
-        //Collection collection = List.of(text1, text2);
-        //tooltip.addAll(1, collection);
         tooltip.add(text1.copy().append(text2));
     }
 

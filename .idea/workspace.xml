@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="v1.3.2 - &quot;FINAL RELEASES&quot; updated">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/SculkVeinGrowCheckerMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/blocks/skyblock__sculk_vein_cant_cover.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
+    <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="v1.3.2 - bugfix: Sculk Jaw blokkra ráterjed a Sculk Vein">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/items/skyblock/OminousTotem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/bclib/cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/bclib/cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FINAL RELEASES/skyblock-1.3.2-1.20.4(client).jar" beforeDir="false" afterPath="$PROJECT_DIR$/FINAL RELEASES/skyblock-1.3.2-1.20.4(client).jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
@@ -25,9 +18,8 @@
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/ModTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/ModTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlockClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlockClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/items/backport/OminousBottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/items/backport/OminousBottle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,17 +100,17 @@
     &quot;JavaVariableFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/SONY/MODS_2/SkyBlockMod_Main/src/main/resources/assets/skyblock/textures/item&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SONY/MODS_2/SkyBlockMod_Main/FINAL RELEASES&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\FINAL RELEASES" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\textures\item" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\tags\blocks" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\recipes\mcd__rapiers" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\loot_tables\blocks" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\FINAL RELEASES" />
@@ -394,11 +386,17 @@
       <option name="project" value="LOCAL" />
       <updated>1711790982098</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="v1.3.2 - bugfix: Sculk Jaw blokkra ráterjed a Sculk Vein">
+      <created>1711868095385</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1711868095385</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v1.3.0 - 2 Új PredicateProviderRegistry" />
     <MESSAGE value="v1.3.0 - Build for 1.20.4" />
     <MESSAGE value="v1.3.0 - Common Item Tag Crying Obsidianokank" />
     <MESSAGE value="v1.3.0 - Common Item Tag Crying Obsidianoknak" />
@@ -423,7 +421,8 @@
     <MESSAGE value="v1.3.2 - Void block render changes, Unknown blockset" />
     <MESSAGE value="v1.3.2 - .jar file" />
     <MESSAGE value="v1.3.2 - &quot;FINAL RELEASES&quot; updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.3.2 - &quot;FINAL RELEASES&quot; updated" />
+    <MESSAGE value="v1.3.2 - bugfix: Sculk Jaw blokkra ráterjed a Sculk Vein" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.3.2 - bugfix: Sculk Jaw blokkra ráterjed a Sculk Vein" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -437,6 +436,11 @@
           <url>jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2-sources.jar!/net/minecraft/client/render/RenderPhase.java</url>
           <line>42</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-651790f209/1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2/minecraft-merged-651790f209-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar!/net/minecraft/item/Items.class</url>
+          <line>2538</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

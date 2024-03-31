@@ -11,6 +11,7 @@
     "ItemGroupIconSupplierAccessor",
     "ItemGroupsMixin",
     "RaiderEntityMixin",
+    "SculkVeinGrowCheckerMixin",
     "WrittenBookItemMixin"
   ],
   "client": [

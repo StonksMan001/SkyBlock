@@ -12,6 +12,7 @@ public class ModTags {
         public static final TagKey<Block> BOSC__DEAD_SCULK_GROUND = createBlockTag("bosc__dead_sculk_ground");
         public static final TagKey<Block> SKYBLOCK__SCULK_GROUND = createBlockTag("skyblock__sculk_ground");
         public static final TagKey<Block> SKYBLOCK__RED_SCULK_GROUND = createBlockTag("skyblock__red_sculk_ground");
+        public static final TagKey<Block> SKYBLOCK__SCULK_VEIN_CANT_COVER = createBlockTag("skyblock__sculk_vein_cant_cover");
         private static TagKey<Block> createBlockTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(SkyBlock.MOD_ID, name));
         }

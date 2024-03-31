@@ -174,7 +174,7 @@ public class ModItems {
             new SwordItem(ToolMaterials.WOOD, 2, Float.MAX_VALUE, new FabricItemSettings()));
     //MCD
     // <BACKPORTED FEATURES>
-    /** Ominous Bottle (1.21 Feature)*/
+    /** Ominous Bottle (1.21 Feature) */
     public static final Item BP__OMINOUS_BOTTLE = registerItem("bp__ominous_bottle",
             new OminousBottle(new FabricItemSettings()));
     // <BACKPORTED FEATURES>

@@ -5,9 +5,8 @@ import net.me.skyblock.SkyBlock;
 import net.me.skyblock.blocks_and_items.items.backport.OminousBottle;
 import net.me.skyblock.blocks_and_items.items.end.EnchantedEnderiteAppleItem;
 import net.me.skyblock.blocks_and_items.items.abyss.Loran;
+import net.me.skyblock.blocks_and_items.items.skyblock.BondedTotemOfUndying;
 import net.me.skyblock.blocks_and_items.items.util.AnomaliteArmorItem;
-import net.me.skyblock.blocks_and_items.items.util.NullItem;
-import net.me.skyblock.blocks_and_items.items.util.TileBlankItem;
 import net.me.skyblock.blocks_and_items.items.util.basic.ModFoodComponents;
 import net.me.skyblock.blocks_and_items.items.util.basic.ModToolMaterials;
 import net.me.skyblock.blocks_and_items.items.mcd.mcd_artifact.IronSkinItem_Common;
@@ -18,7 +17,6 @@ import net.me.skyblock.blocks_and_items.items.util.custom_unenchantable.Unenchan
 import net.me.skyblock.blocks_and_items.items.util.custom_unenchantable.UnenchantableSwordItem;
 import net.me.skyblock.sound.ModSounds;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -51,6 +49,14 @@ public class ModItems {
             new Item(new FabricItemSettings().food(ModFoodComponents.STEAM_DUMPLING_WITH_MOLTEN_BUTTER)));
     public static final Item SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE = registerItem("skyblock__steam_dumpling_with_molten_butter_and_sugar_poppy_mixture",
             new Item(new FabricItemSettings().food(ModFoodComponents.STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE)));
+    //SKYBLOCK VANILLA+
+    //1.21.1+
+    public static final Item SKYBLOCK__BONDED_TOTEM_OF_UNDYING = registerItem("skyblock__bonded_totem_of_undying",
+            new Item(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON)));
+    public static final Item SKYBLOCK__OMINOUS_LINK = registerItem("skyblock__ominous_link",
+            new Item(new FabricItemSettings().maxCount(1)));
+    //1.21.1+
+    //SKYBLOCK VANILLA+
     public static final Item ABYSS__LORAN = registerItem("abyss__loran",
             new Loran(new FabricItemSettings()));
     public static final Item ABYSS__ABYSS_PORTAL_ACTIVATOR = registerItem("abyss__abyss_portal_activator",
@@ -157,7 +163,7 @@ public class ModItems {
     public static final Item MCD__AUTO_CROSSBOW = registerItem("mcd__auto_crossbow",
             new CrossbowItem(new FabricItemSettings().maxDamage(384)));
     public static final Item MCD__ARTIFACT_IRON_HIDE_AMULET= registerItem("mcd__artifact_iron_hide_amulet",
-            new IronSkinItem_Common( new FabricItemSettings().maxCount(1).maxDamage(10)));
+            new IronSkinItem_Common(new FabricItemSettings().maxCount(1).maxDamage(10)));
     public static final Item SKYBLOCK__LIGHTNING_SWORD = registerItem("skyblock__lightning_sword",
             new SwordItem(ModToolMaterials.BENIKARD, 3, 3.5f -4f, new FabricItemSettings()));
     public static final Item MCD__DIAMOND_RAPIER = registerItem("mcd__diamond_rapier",

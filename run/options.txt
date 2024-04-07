@@ -120,7 +120,7 @@ key_key.hotbar.6:key.keyboard.caps.lock
 key_key.hotbar.7:key.keyboard.e
 key_key.hotbar.8:key.keyboard.7
 key_key.hotbar.9:key.keyboard.9
-soundCategory_master:0.10927152317880795
+soundCategory_master:0.054635761589403975
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

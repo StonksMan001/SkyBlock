@@ -1,6 +1,7 @@
 package net.me.skyblock.api;
 
 import net.me.skyblock.blocks_and_items.ModItems;
+import net.me.skyblock.blocks_and_items.items.skyblock.BondedTotemOfUndying;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.item.*;
@@ -109,6 +110,41 @@ public class ModModelPredicateProvider {
                     }
                 });
     }
+    /*private static void registerOminousTotem(Item totem) {
+        ModelPredicateProviderRegistry.register(totem, new Identifier("single"),
+                (stack, world, entity, seed) -> {
+                    if (stack.getNbt() == null) {
+                        return 0.0f;
+                    }
+                    if (BondedTotemOfUndying.getGroupCount(stack) == 1) {
+                        return 1.0f;
+                    } else {
+                        return 0.0f;
+                    }
+                });
+        ModelPredicateProviderRegistry.register(totem, new Identifier("double"),
+                (stack, world, entity, seed) -> {
+                    if (stack.getNbt() == null) {
+                        return 0.0f;
+                    }
+                    if (BondedTotemOfUndying.getGroupCount(stack) == 2) {
+                        return 1.0f;
+                    } else {
+                        return 0.0f;
+                    }
+                });
+        ModelPredicateProviderRegistry.register(totem, new Identifier("triple"),
+                (stack, world, entity, seed) -> {
+                    if (stack.getNbt() == null) {
+                        return 0.0f;
+                    }
+                    if (BondedTotemOfUndying.getGroupCount(stack) == 3) {
+                        return 1.0f;
+                    } else {
+                        return 0.0f;
+                    }
+                });
+    }*/
     private static void registerBow(Item bow) {
         ModelPredicateProviderRegistry.register(bow, new Identifier("pull"),
                 (stack, world, entity, seed) -> {

@@ -41,7 +41,7 @@ public class OminousBottle extends Item {
             int rand = (int)(Math.random()*5);
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.BAD_OMEN, 20/*tick*/*60/*sec*/*100/*min*/, rand, false, true, true));
             if (user instanceof PlayerEntity playerEntity && !playerEntity.getAbilities().creativeMode) {
-                stack.setCount(stack.getCount()-1);
+                stack.decrement(1);
             }
         }
         return stack;

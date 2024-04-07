@@ -816,10 +816,12 @@ public class ModBlocks {
                     .noCollision()
                     .noBlockBreakParticles()
                     .nonOpaque()));
+    //1.21.1+
     public static final Block SKYBLOCK__COMPRESSED_STEEL = registerBlock("skyblock__compressed_steel",
             new CompressedSteelBlock(FabricBlockSettings
                     .copy(Blocks.NETHERITE_BLOCK)
                     .strength(Blocks.OBSIDIAN.getHardness(), Blocks.OBSIDIAN.getBlastResistance())));
+    //1.21.1+
     //SKYBLOCK VANILLA+
     //SKYBLOCK - CARVED PLANKS
     public static final Block SKYBLOCK__CARVED_OAK_PLANKS = registerBlock("skyblock__carved_oak_planks",

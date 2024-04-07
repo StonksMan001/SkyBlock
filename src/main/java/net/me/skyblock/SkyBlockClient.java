@@ -6,16 +6,15 @@ import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.me.skyblock.archived.ArchivedBlocks;
 import net.me.skyblock.blocks_and_items.ModBlocks;
-import net.me.skyblock.blocks_and_items.block_entities.ModBlockEntities;
-import net.me.skyblock.blocks_and_items.items.util.GhostItems;
 import net.me.skyblock.client.ModBlockEntityRendererFactories;
-import net.me.skyblock.client.VoidBlockEntityRenderer;
 import net.me.skyblock.entity.ModEntities;
 import net.me.skyblock.entity.mobs.mcd.rendering.WispRenderer;
 import net.me.skyblock.api.ModModelPredicateProvider;
+import net.me.skyblock.entity.mobs.skyblock.rendering.OminousEvokerRenderer;
 import net.me.skyblock.particle.ModParticles;
 import net.me.skyblock.particle.halloween.NodeTracker;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.entity.EvokerEntityRenderer;
 
 public class SkyBlockClient implements ClientModInitializer {
 
@@ -65,7 +64,8 @@ public class SkyBlockClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SP5__WARPED_NAVI_PLANT, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MCD__VOID_BLOCK, RenderLayer.getEndGateway());
 
-        EntityRendererRegistry.register(ModEntities.WISP, WispRenderer::new);
+        EntityRendererRegistry.register(ModEntities.MCD__WISP, WispRenderer::new);
+        EntityRendererRegistry.register(ModEntities.SKYBLOCK__OMINOUS_EVOKER, OminousEvokerRenderer::new);
         ModModelPredicateProvider.registerModModels();
         ModBlockEntityRendererFactories.registerModBlockEntityRendererFactories();
 

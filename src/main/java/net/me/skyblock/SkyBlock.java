@@ -15,9 +15,11 @@ import net.me.skyblock.entity.ModEntities;
 import net.me.skyblock.entity.mobs.mcd.WispEntity;
 import net.me.skyblock.blocks_and_items.ModCreativeInventoryGroups;
 import net.me.skyblock.blocks_and_items.ModItems;
+import net.me.skyblock.entity.mobs.skyblock.OminousEvokerEntity;
 import net.me.skyblock.entity.non_mobs.ModPaintings;
 import net.me.skyblock.particle.ModParticles;
 import net.me.skyblock.world.dimension.ModDimensions;
+import net.minecraft.entity.mob.EvokerEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -34,7 +36,7 @@ public class SkyBlock implements ModInitializer {
 		DataFixer.register();
 
 		ModCreativeInventoryGroups.registerItemGroups();
-		//GhostItems.registerGhostItems();
+		GhostItems.registerGhostItems();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModBlockEntities.registerModBlockEntities();
@@ -69,7 +71,8 @@ public class SkyBlock implements ModInitializer {
 		StrippableBlockRegistry.register(ModBlocks.ABYSS__ABYSS_JUNGLE_WOOD, ModBlocks.ABYSS__STRIPPED_ABYSS_JUNGLE_WOOD);
 
 
-		FabricDefaultAttributeRegistry.register(ModEntities.WISP, WispEntity.setAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.MCD__WISP, WispEntity.setAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.SKYBLOCK__OMINOUS_EVOKER, OminousEvokerEntity.setAttributes());
 
 		FuelRegistry.INSTANCE.add(ModItems.SP5__MELTED_RESIDUES, 30000);
 	}

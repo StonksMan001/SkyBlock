@@ -20,6 +20,12 @@ public class BaseShortPlantBlock extends ShortPlantBlock {
     public Block block;
     @Override
     protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
-        return floor.isOf(block) || floor.isIn(blockTagKey);
+        if (block != null) {
+            return floor.isOf(block);
+        } else if (blockTagKey != null) {
+            return floor.isIn(blockTagKey);
+        } else {
+            return false;
+        }
     }
 }

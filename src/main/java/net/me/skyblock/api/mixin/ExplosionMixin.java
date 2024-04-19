@@ -1,5 +1,6 @@
 package net.me.skyblock.api.mixin;
 
+import net.me.skyblock.SkyBlock;
 import net.me.skyblock.api.skycore.ComplexBlock;
 import net.me.skyblock.blocks_and_items.ModBlocks;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.CompressedSteelBlock;
@@ -24,8 +25,13 @@ public abstract class ExplosionMixin {
     @Shadow @Final private World world;
     @Inject(method = "collectBlocksAndDamageEntities", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/World;getFluidState(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/fluid/FluidState;", shift = At.Shift.AFTER), locals = LocalCapture.CAPTURE_FAILHARD)
     public void collectBlocksAndDamageEntities(CallbackInfo ci, Set set, int i, int j, int k, int l, double d, double e, double f, double g, float h, double m, double n, double o, float p, BlockPos blockPos, BlockState blockState) {
-        if (world.getBlockState(blockPos).isOf(ModBlocks.SKYBLOCK__COMPRESSED_STEEL)) {
+        /*if (world.getBlockState(blockPos).isOf(ModBlocks.SKYBLOCK__COMPRESSED_STEEL)) {
             CompressedSteelBlock.getRedPulse(ModBlocks.SKYBLOCK__COMPRESSED_STEEL.getDefaultState(), world, blockPos);
+        }*/
+        Block block = world.getBlockState(blockPos).getBlock();
+        //SkyBlock.LOGGER.info(block.toString());
+        if (block instanceof ComplexBlock complexBlock) {
+            complexBlock.onExplosionImpacted(blockState, world, blockPos);
         }
     }
 }

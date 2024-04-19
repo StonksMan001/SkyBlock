@@ -28,10 +28,12 @@ public class CompressedSteelBlock extends ComplexBlock {
             world.setBlockState(pos, state.with(IS_PULSING, false));
         }
     }
-    public static void getRedPulse(BlockState state, World world, BlockPos pos) {
+    @Override
+    public void onExplosionImpacted(BlockState state, World world, BlockPos pos) {
         world.setBlockState(pos, state.with(IS_PULSING, true).with(PULSE_TYPE, 2)); // red
         world.scheduleBlockTick(pos, state.getBlock(), 5);
     }
+
     @Override
     public void onLandedUpon(World world, BlockState state, BlockPos pos, Entity entity, float fallDistance) {
         entity.handleFallDamage(fallDistance, 1.9F, world.getDamageSources().fall());

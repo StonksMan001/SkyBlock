@@ -11,6 +11,6 @@ public abstract class ComplexBlock extends Block {
         super(settings);
         this.setDefaultState(getDefaultState());
     }
-    public static void onExplosionImpacted(BlockState state, World world, BlockPos pos) {
+    public void onExplosionImpacted(BlockState state, World world, BlockPos pos) {
     }
 }

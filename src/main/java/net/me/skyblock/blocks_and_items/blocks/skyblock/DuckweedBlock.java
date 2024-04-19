@@ -7,11 +7,11 @@ import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.WorldView;
 
-public class DuckweedBlock
-        extends PlantBlock {
+public class DuckweedBlock extends PlantBlock {
     public static final MapCodec<DuckweedBlock> CODEC = createCodec(DuckweedBlock::new);
     @Override
     protected MapCodec<? extends PlantBlock> getCodec() {
@@ -28,17 +28,15 @@ public class DuckweedBlock
         return SHAPE;
     }
 
-    /*@Override
-    protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
-        FluidState fluidState = world.getFluidState(pos);
-        FluidState fluidState2 = world.getFluidState(pos.up());
-        return (fluidState.getFluid() == Fluids.WATER || floor.getBlock() instanceof IceBlock) && fluidState2.getFluid() == Fluids.EMPTY;
-    }*/
-
     @Override
     public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
         FluidState fluidState = world.getFluidState(pos.down());
         FluidState fluidState2 = world.getFluidState(pos);
         return (fluidState.getFluid() == Fluids.WATER || state.getBlock() instanceof IceBlock) && fluidState2.getFluid() == Fluids.EMPTY;
+    }
+    // rendering
+    @Override
+    public VoxelShape getCameraCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+        return VoxelShapes.empty();
     }
 }

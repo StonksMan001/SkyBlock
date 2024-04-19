@@ -16,6 +16,7 @@ import net.me.skyblock.blocks_and_items.blocks.end.EnderBlock;
 import net.me.skyblock.blocks_and_items.blocks.mcd.MossyOakPlanks;
 import net.me.skyblock.blocks_and_items.blocks.mcd.echoing_void.StrongholdDecorBlock;
 import net.me.skyblock.blocks_and_items.blocks.mcd.echoing_void.VoidBlock;
+import net.me.skyblock.blocks_and_items.blocks.skyblock.BoggedWoodBlock;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.CompressedSteelBlock;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.DuckweedBlock;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.SuspiciousCoarseDirt;
@@ -816,6 +817,26 @@ public class ModBlocks {
                     .noCollision()
                     .noBlockBreakParticles()
                     .nonOpaque()));
+    public static final Block SKYBLOCK__BOGGED_LOG = registerBlock("skyblock__bogged_log",
+            new BoggedWoodBlock(FabricBlockSettings
+                    .copy(Blocks.MANGROVE_LOG)
+                    .strength(2.0f)));
+    public static final Block SKYBLOCK__BOGGED_WOOD = registerBlock("skyblock__bogged_wood",
+            new BoggedWoodBlock(FabricBlockSettings
+                    .copy(Blocks.MANGROVE_WOOD)
+                    .strength(2.0f)));
+    public static final Block SKYBLOCK__BOGGED_PLANKS = registerBlock("skyblock__bogged_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.MANGROVE_PLANKS)
+                    .strength(2.0f)));
+    public static final Block SKYBLOCK__BOGGED_STAIRS = registerBlock("skyblock__bogged_stairs",
+            new ModStairsBlock(ModBlocks.SKYBLOCK__BOGGED_PLANKS.getDefaultState(), FabricBlockSettings
+                    .copy(Blocks.MANGROVE_STAIRS)
+                    .strength(2.0f)));
+    public static final Block SKYBLOCK__BOGGED_SLAB = registerBlock("skyblock__bogged_slab",
+            new SlabBlock(FabricBlockSettings
+                    .copy(Blocks.MANGROVE_SLAB)
+                    .strength(2.0f)));
     //1.21.1+
     public static final Block SKYBLOCK__COMPRESSED_STEEL = registerBlock("skyblock__compressed_steel",
             new CompressedSteelBlock(FabricBlockSettings

@@ -44,8 +44,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["fabric"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","fabric","file/better_nether_enhanced"]
+incompatibleResourcePacks:["file/better_nether_enhanced"]
 lastServer:
 lang:hu_hu
 soundDevice:""

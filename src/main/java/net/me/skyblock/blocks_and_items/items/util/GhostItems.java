@@ -56,6 +56,58 @@ public class GhostItems {
             new Item(new FabricItemSettings()));
     public static final Item Z__TILE_SKYBLOCK_9 = registerItem("z__tile_skyblock_9",
             new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK2_1 = registerItem("z__tile_skyblock2_1",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK2_2 = registerItem("z__tile_skyblock2_2",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK2_3 = registerItem("z__tile_skyblock2_3",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK2_4 = registerItem("z__tile_skyblock2_4",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK2_5 = registerItem("z__tile_skyblock2_5",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK2_6 = registerItem("z__tile_skyblock2_6",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK2_7 = registerItem("z__tile_skyblock2_7",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK2_8 = registerItem("z__tile_skyblock2_8",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK2_9 = registerItem("z__tile_skyblock2_9",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK3_1 = registerItem("z__tile_skyblock3_1",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK3_2 = registerItem("z__tile_skyblock3_2",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK3_3 = registerItem("z__tile_skyblock3_3",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK3_4 = registerItem("z__tile_skyblock3_4",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK3_5 = registerItem("z__tile_skyblock3_5",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK3_6 = registerItem("z__tile_skyblock3_6",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK3_7 = registerItem("z__tile_skyblock3_7",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK3_8 = registerItem("z__tile_skyblock3_8",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SKYBLOCK3_9 = registerItem("z__tile_skyblock3_9",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SP5_1 = registerItem("z__tile_sp5_1",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SP5_2 = registerItem("z__tile_sp5_2",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SP5_3 = registerItem("z__tile_sp5_3",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SP5_4 = registerItem("z__tile_sp5_4",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SP5_5 = registerItem("z__tile_sp5_5",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SP5_6 = registerItem("z__tile_sp5_6",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SP5_7 = registerItem("z__tile_sp5_7",
+            new Item(new FabricItemSettings()));
+    public static final Item Z__TILE_SP5_8 = registerItem("z__tile_sp5_8",
+            new Item(new FabricItemSettings()));
     public static final Item Z__NULL = registerItem("z__null",
             new NullItem(Blocks.AIR, new FabricItemSettings()));
     private static Item registerItem(String name, Item item) {

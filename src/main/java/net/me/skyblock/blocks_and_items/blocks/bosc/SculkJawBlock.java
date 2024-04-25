@@ -67,7 +67,6 @@ public class SculkJawBlock extends SculkBlock {
                 pos.west().south(), pos.west().north(), pos.east().south(), pos.east().north()
         };
         BlockPos pos1 = blockPosArray1[rand1];
-        SkyBlock.LOGGER.info(String.valueOf(rand1));
         if (world.getBlockState(pos1).isOf(assimilation_block)) {
             world.setBlockState(blockPosArray1[rand1], this.asBlock().getDefaultState());
             world.setBlockState(pos, assimilation_block.getDefaultState());

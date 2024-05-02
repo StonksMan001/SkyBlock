@@ -1,16 +1,13 @@
 package net.me.skyblock.client;
 
-import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.me.skyblock.SkyBlock;
-import net.me.skyblock.blocks_and_items.block_entities.ModBlockEntities;
+import net.me.skyblock.blocks_and_items.ModBlockEntities;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.client.render.block.entity.*;
-import net.minecraft.registry.Registries;
-import org.spongepowered.asm.mixin.Unique;
 
 import java.util.Map;
 
@@ -22,7 +19,7 @@ public class ModBlockEntityRendererFactories {
         FACTORIES.put(type, factory);
     }
     static {
-        BlockEntityRendererFactories.register(ModBlockEntities.VOID_BLOCK_ENTITY, VoidBlockEntityRenderer::new);
+        BlockEntityRendererFactories.register(ModBlockEntities.MCD__VOID_BLOCK_ENTITY, VoidBlockEntityRenderer::new);
     }
     public static void registerModBlockEntityRendererFactories () {
         SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering BlockEntityRendererFactories for " + SkyBlock.MOD_ID);

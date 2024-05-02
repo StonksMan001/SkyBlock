@@ -1,7 +1,6 @@
 package net.me.skyblock.blocks_and_items.blocks.skyblock;
 
 import com.mojang.serialization.MapCodec;
-import net.me.skyblock.blocks_and_items.blocks.abyss.AbyssVegetation;
 import net.minecraft.block.*;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
@@ -11,15 +10,15 @@ import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.WorldView;
 
-public class DuckweedBlock extends PlantBlock {
-    public static final MapCodec<DuckweedBlock> CODEC = createCodec(DuckweedBlock::new);
+public class WaterDecorPlantBlock extends PlantBlock {
+    public static final MapCodec<WaterDecorPlantBlock> CODEC = createCodec(WaterDecorPlantBlock::new);
     @Override
     protected MapCodec<? extends PlantBlock> getCodec() {
         return CODEC;
     }
     protected static final VoxelShape SHAPE = Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 1.5, 16.0);
 
-    public DuckweedBlock(AbstractBlock.Settings settings) {
+    public WaterDecorPlantBlock(AbstractBlock.Settings settings) {
         super(settings);
     }
 

@@ -8,8 +8,9 @@ import net.me.skyblock.api.datafixer.DataFixer;
 import net.me.skyblock.archived.ArchivedBlocks;
 import net.me.skyblock.archived.ArchivedItems;
 import net.me.skyblock.blocks_and_items.ModBlocks;
-import net.me.skyblock.blocks_and_items.block_entities.ModBlockEntities;
+import net.me.skyblock.blocks_and_items.ModBlockEntities;
 import net.me.skyblock.blocks_and_items.items.util.GhostItems;
+import net.me.skyblock.client.ModScreenHandlers;
 import net.me.skyblock.enchantments.ModEnchantments;
 import net.me.skyblock.entity.ModEntities;
 import net.me.skyblock.entity.mobs.mcd.WispEntity;
@@ -19,7 +20,6 @@ import net.me.skyblock.entity.mobs.skyblock.OminousEvokerEntity;
 import net.me.skyblock.entity.non_mobs.ModPaintings;
 import net.me.skyblock.particle.ModParticles;
 import net.me.skyblock.world.dimension.ModDimensions;
-import net.minecraft.entity.mob.EvokerEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -44,6 +44,7 @@ public class SkyBlock implements ModInitializer {
 		ModDimensions.register();
 		ModPaintings.registerPaintings();
 		ModParticles.registerParticles();
+		ModScreenHandlers.registerScreenHandlers();
 
 		StrippableBlockRegistry.register(ModBlocks.SP5__END_STEM, ModBlocks.SP5__STRIPPED_END_STEM);
 		StrippableBlockRegistry.register(ModBlocks.SP5__END_HYPHAE, ModBlocks.SP5__STRIPPED_END_HYPHAE);
@@ -53,6 +54,8 @@ public class SkyBlock implements ModInitializer {
 		StrippableBlockRegistry.register(ModBlocks.SP5__BLUISHE_LIGHT_HYPHAE, ModBlocks.SP5__STRIPPED_BLUISHE_HYPHAE);
 		StrippableBlockRegistry.register(ModBlocks.FLOGICAL__AZALEA_LOG, ModBlocks.FLOGICAL__STRIPPED_AZALEA_LOG);
 		StrippableBlockRegistry.register(ModBlocks.FLOGICAL__AZALEA_WOOD, ModBlocks.FLOGICAL__STRIPPED_AZALEA_WOOD);
+		StrippableBlockRegistry.register(ModBlocks.SKYBLOCK__FIR_LOG, ModBlocks.SKYBLOCK__STRIPPED_FIR_LOG);
+		StrippableBlockRegistry.register(ModBlocks.SKYBLOCK__FIR_WOOD, ModBlocks.SKYBLOCK__STRIPPED_FIR_WOOD);
 		StrippableBlockRegistry.register(ModBlocks.DIGPEAR__CALLERY_LOG, ModBlocks.DIGPEAR__STRIPPED_CALLERY_LOG);
 		StrippableBlockRegistry.register(ModBlocks.DIGPEAR__CALLERY_WOOD, ModBlocks.DIGPEAR__STRIPPED_CALLERY_WOOD);
 		StrippableBlockRegistry.register(ModBlocks.ABYSS__BLARU_LOG, ModBlocks.ABYSS__STRIPPED_BLARU_LOG);

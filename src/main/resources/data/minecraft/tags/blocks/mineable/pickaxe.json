@@ -68,7 +68,21 @@
     "skyblock:skyblock__frostslate_brick_stairs",
     
     "skyblock:quark__andesite_pillar",
+    "skyblock:quark__andesite_bricks",
+    "skyblock:quark__chiseled_andesite_bricks",
     "skyblock:quark__diorite_pillar",
-    "skyblock:quark__granite_pillar"
+    "skyblock:quark__diorite_bricks",
+    "skyblock:quark__chiseled_diorite_bricks",
+    "skyblock:quark__granite_pillar",
+    "skyblock:quark__granite_bricks",
+    "skyblock:quark__chiseled_granite_bricks",
+    "skyblock:quark__dripstone_pillar",
+    "skyblock:quark__dripstone_bricks",
+    "skyblock:quark__chiseled_dripstone_bricks",
+    "skyblock:quark__polished_dripstone",
+    "skyblock:quark__calcite_pillar",
+    "skyblock:quark__calcite_bricks",
+    "skyblock:quark__chiseled_calcite_bricks",
+    "skyblock:quark__polished_calcite"
   ]
 }

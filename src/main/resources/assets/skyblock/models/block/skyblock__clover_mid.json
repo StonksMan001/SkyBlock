@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "skyblock:block/skyblock__clover",
+		"particle": "skyblock:block/skyblock__clover"
+	},
+	"elements": [
+		{
+			"from": [0, 6, 0],
+			"to": [16, 6, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0], "texture": "#missing", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 0], "texture": "#missing", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 0], "texture": "#missing", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 0], "texture": "#missing", "tintindex": 0},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [0, 8, 8, 0], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 0, 8],
+			"to": [16, 6, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 3], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#missing"},
+				"south": {"uv": [16, 0, 8, 3], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [8, 6, 16],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"east": {"uv": [8, 0, 16, 3], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"west": {"uv": [16, 0, 8, 3], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [0, 0, 16, 0], "rotation": 90, "texture": "#missing", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 0], "rotation": 270, "texture": "#missing", "tintindex": 0}
+			}
+		}
+	]
+}

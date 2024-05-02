@@ -114,6 +114,12 @@
     "skyblock:abyss__abysculk_wood",
     "skyblock:abyss__abysculk_planks",
 
+    "skyblock:skyblock__fir_log",
+    "skyblock:skyblock__fir_wood",
+    "skyblock:skyblock__stripped_fir_log",
+    "skyblock:skyblock__stripped_fir_wood",
+    "skyblock:skyblock__fir_planks",
+
     "skyblock:quark__apple_crate",
     "skyblock:quark__beetroot_crate",
     "skyblock:quark__carrot_crate",
@@ -138,11 +144,13 @@
     "skyblock:quark__vertical_crimson_planks",
     "skyblock:quark__vertical_warped_planks",
     "skyblock:abyss__vertical_frozen_planks",
+    "skyblock:skyblock__vertical_fir_planks",
 
     "skyblock:skyblock__carved_oak_planks",
     "skyblock:skyblock__carved_dark_oak_planks",
     "skyblock:skyblock__carved_spruce_planks",
     "skyblock:abyss__carved_frozen_planks",
+    "skyblock:skyblock__carved_fir_planks",
 
     "skyblock:sp5__end_stairs",
     "skyblock:sp5__end_slab",
@@ -166,6 +174,8 @@
     "skyblock:abyss__bog_shroom_slab",
     "skyblock:abyss__sal_shroom_stairs",
     "skyblock:abyss__sal_shroom_slab",
+    "skyblock:skyblock__fir_stairs",
+    "skyblock:skyblock__fir_slab",
     "skyblock:digpear__callery_stairs",
     "skyblock:digpear__callery_slab"
   ]

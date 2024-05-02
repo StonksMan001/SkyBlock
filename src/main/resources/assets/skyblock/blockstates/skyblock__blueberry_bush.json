@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "has_berries=true": {
+      "model": "skyblock:block/skyblock__blueberry_bush1"
+    },
+    "has_berries=false": {
+      "model": "skyblock:block/skyblock__blueberry_bush0"
+    }
+  }
+}

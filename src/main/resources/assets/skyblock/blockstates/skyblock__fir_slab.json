@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/skyblock__fir_slab"
+    },
+    "type=double": {
+      "model": "skyblock:block/skyblock__fir_planks"
+    },
+    "type=top": {
+      "model": "skyblock:block/skyblock__fir_slab_top"
+    }
+  }
+}

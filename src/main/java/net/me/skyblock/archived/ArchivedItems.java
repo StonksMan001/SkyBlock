@@ -25,9 +25,9 @@ public class ArchivedItems {
     public static final Item DISC_FRAGMENT_WITHERSTORM = registerItem("disc_fragment_wither_storm_theme",
             new DiscFragmentItem(new FabricItemSettings()));
     public static final Item ENDERITE_APPLE = registerItem("enderite_apple",
-            new Item(new FabricItemSettings().food(ModFoodComponents.ENDERITE_APPLE)));
+            new Item(new FabricItemSettings().food(ModFoodComponents.SP5__ENDERITE_APPLE)));
     public static final Item ENCHANTED_ENDERITE_APPLE = registerItem("enchanted_enderite_apple",
-            new EnchantedEnderiteAppleItem(new FabricItemSettings().food(ModFoodComponents.ENCHANTED_ENDERITE_APPLE)));
+            new EnchantedEnderiteAppleItem(new FabricItemSettings().food(ModFoodComponents.SP5__ENCHANTED_ENDERITE_APPLE)));
     public static final Item ENDER_STICK = registerItem("ender_stick",
             new Item(new FabricItemSettings()));
     public static final Item ENDMERALD = registerItem("end_emerald",

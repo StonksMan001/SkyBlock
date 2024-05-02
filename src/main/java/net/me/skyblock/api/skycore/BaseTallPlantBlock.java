@@ -26,7 +26,7 @@ public class BaseTallPlantBlock extends TallPlantBlock {
         } else if (blockTagKey != null) {
             return floor.isIn(blockTagKey);
         } else {
-            return false;
+            return super.canPlantOnTop(floor, world, pos);
         }
     }
 }

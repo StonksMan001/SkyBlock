@@ -16,10 +16,7 @@ import net.me.skyblock.blocks_and_items.blocks.end.EnderBlock;
 import net.me.skyblock.blocks_and_items.blocks.mcd.MossyOakPlanks;
 import net.me.skyblock.blocks_and_items.blocks.mcd.echoing_void.StrongholdDecorBlock;
 import net.me.skyblock.blocks_and_items.blocks.mcd.echoing_void.VoidBlock;
-import net.me.skyblock.blocks_and_items.blocks.skyblock.BoggedWoodBlock;
-import net.me.skyblock.blocks_and_items.blocks.skyblock.CompressedSteelBlock;
-import net.me.skyblock.blocks_and_items.blocks.skyblock.DuckweedBlock;
-import net.me.skyblock.blocks_and_items.blocks.skyblock.SuspiciousCoarseDirt;
+import net.me.skyblock.blocks_and_items.blocks.skyblock.*;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.vegetations.unknown.UnknownDirt;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.vegetations.unknown.UnknownDirtNylium;
 import net.me.skyblock.blocks_and_items.blocks.util.ModStairsBlock;
@@ -812,11 +809,23 @@ public class ModBlocks {
     //SKYBLOCK - UNKNOWN VEGETATION
     //SKYBLOCK VANILLA+
     public static final Block SKYBLOCK__DUCKWEED = registerBlockWithoutItem("skyblock__duckweed",
-            new DuckweedBlock(FabricBlockSettings
+            new WaterDecorPlantBlock(FabricBlockSettings
                     .copyOf(Blocks.LILY_PAD)
                     .noCollision()
                     .noBlockBreakParticles()
                     .nonOpaque()));
+    public static final Block SKYBLOCK__SMALL_LILY_PADS = registerBlockWithoutItem("skyblock__small_lily_pads",
+            new WaterDecorPlantBlock(FabricBlockSettings
+                    .copyOf(Blocks.LILY_PAD)
+                    .noCollision()
+                    .noBlockBreakParticles()
+                    .nonOpaque()));
+    public static final Block SKYBLOCK__CLOVER = registerBlock("skyblock__clover",
+            new CloverBlock(FabricBlockSettings
+                    .copyOf(Blocks.SHORT_GRASS)
+                    .offset(AbstractBlock.OffsetType.NONE)
+                    .noBlockBreakParticles()
+                    .sounds(BlockSoundGroup.CAVE_VINES)));
     public static final Block SKYBLOCK__BOGGED_LOG = registerBlock("skyblock__bogged_log",
             new BoggedWoodBlock(FabricBlockSettings
                     .copy(Blocks.MANGROVE_LOG)
@@ -837,6 +846,49 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings
                     .copy(Blocks.MANGROVE_SLAB)
                     .strength(2.0f)));
+    public static final Block SKYBLOCK__FIR_LOG = registerBlock("skyblock__fir_log",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.SPRUCE_LOG)
+                    .strength(2.0f)));
+    public static final Block SKYBLOCK__FIR_WOOD = registerBlock("skyblock__fir_wood",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.SPRUCE_WOOD)
+                    .strength(2.0f)));
+    public static final Block SKYBLOCK__STRIPPED_FIR_LOG = registerBlock("skyblock__stripped_fir_log",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.STRIPPED_SPRUCE_LOG)
+                    .strength(2.0f)));
+    public static final Block SKYBLOCK__STRIPPED_FIR_WOOD = registerBlock("skyblock__stripped_fir_wood",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.STRIPPED_SPRUCE_WOOD)
+                    .strength(2.0f)));
+    public static final  Block SKYBLOCK__FIR_LEAVES = registerBlock("skyblock__fir_leaves",
+            new LeavesBlock(FabricBlockSettings
+                    .copy(Blocks.SPRUCE_LEAVES)));
+    public static final Block SKYBLOCK__FIR_PLANKS = registerBlock("skyblock__fir_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.SPRUCE_PLANKS)
+                    .strength(2.0f)));
+    public static final Block SKYBLOCK__CARVED_FIR_PLANKS = registerBlock("skyblock__carved_fir_planks",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SKYBLOCK__VERTICAL_FIR_PLANKS = registerBlock("skyblock__vertical_fir_planks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SKYBLOCK__FIR_STAIRS = registerBlock("skyblock__fir_stairs",
+            new ModStairsBlock(ModBlocks.SKYBLOCK__FIR_PLANKS.getDefaultState(), FabricBlockSettings
+                    .copy(Blocks.SPRUCE_STAIRS)
+                    .strength(2.0f)));
+    public static final Block SKYBLOCK__FIR_SLAB = registerBlock("skyblock__fir_slab",
+            new SlabBlock(FabricBlockSettings
+                    .copy(Blocks.SPRUCE_SLAB)
+                    .strength(2.0f)));
+    public static final Block SKYBLOCK__ANCIENT_PEDESTAL = registerBlock("skyblock__ancient_pedestal",
+            new AncientPedestal(FabricBlockSettings
+                    .copy(Blocks.BEDROCK)));
+    public static final Block SKYBLOCK__BLUEBERRY_BUSH = registerBlock("skyblock__blueberry_bush",
+            new BlueberryBush(FabricBlockSettings
+                    .copy(Blocks.SPRUCE_LEAVES)));
     //1.21.1+
     public static final Block SKYBLOCK__COMPRESSED_STEEL = registerBlock("skyblock__compressed_steel",
             new CompressedSteelBlock(FabricBlockSettings
@@ -869,9 +921,6 @@ public class ModBlocks {
             new Block(FabricBlockSettings
                     .copy(Blocks.SPRUCE_PLANKS)
                     .strength(2.0f, 3.0f)));
-    public static final Block MCD__STRONGHOLD_DECOR = registerBlock("mcd__stronghold_decor",
-            new StrongholdDecorBlock(FabricBlockSettings
-                    .copy(Blocks.BEDROCK)));
     public static final Block MCD__BARREN_GRASS_BLOCK = registerBlock("mcd__barren_grass_block",
             new Block(FabricBlockSettings
                     .copy(Blocks.END_STONE)
@@ -879,6 +928,14 @@ public class ModBlocks {
                     .requiresTool()
                     .strength(3.0F, 9.0F)));
     //MCD
+    //CUSTOM WORLD BLOCKS
+    public static final Block MCD__STRONGHOLD_DECOR = registerBlock("mcd__stronghold_decor",
+            new StrongholdDecorBlock(FabricBlockSettings
+                    .copy(Blocks.BEDROCK)));
+    /*public static final Block SKYBLOCK__VILLAGE_MARKETPLACE_MODULE_001 = registerBlock("skyblock__village_marketplace_module_001",
+            new Module_001(FabricBlockSettings
+                    .copy(Blocks.OAK_PLANKS)));*/
+    //CUSTOM WORLD BLOCKS
     //PEARFECTION
     public static final Block DIGPEAR__CALLERY_LEAVES = registerBlock("digpear__callery_leaves",
             new Block(FabricBlockSettings
@@ -993,18 +1050,88 @@ public class ModBlocks {
                     .strength(1.0f)));
     public static final Block QUARK__ANDESITE_PILLAR = registerBlock("quark__andesite_pillar",
             new PillarBlock(FabricBlockSettings
-                    .copy(Blocks.ANDESITE)
+                    .copy(Blocks.POLISHED_ANDESITE)
                     .sounds(BlockSoundGroup.STONE)
-                    .strength(1.5f, 6.0f)));
+                    .strength(Blocks.POLISHED_ANDESITE.getHardness(), Blocks.POLISHED_ANDESITE.getBlastResistance())));
+    public static final Block QUARK__ANDESITE_BRICKS = registerBlock("quark__andesite_bricks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.POLISHED_ANDESITE)
+                    .sounds(BlockSoundGroup.STONE)
+                    .strength(Blocks.POLISHED_ANDESITE.getHardness(), Blocks.POLISHED_ANDESITE.getBlastResistance())));
+    public static final Block QUARK__CHISELED_ANDESITE_BRICKS = registerBlock("quark__chiseled_andesite_bricks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.POLISHED_ANDESITE)
+                    .sounds(BlockSoundGroup.STONE)
+                    .strength(Blocks.POLISHED_ANDESITE.getHardness(), Blocks.POLISHED_ANDESITE.getBlastResistance())));
     public static final Block QUARK__DIORITE_PILLAR = registerBlock("quark__diorite_pillar",
             new PillarBlock(FabricBlockSettings
-                    .copy(Blocks.DIORITE)
+                    .copy(Blocks.POLISHED_DIORITE)
                     .sounds(BlockSoundGroup.STONE)
-                    .strength(1.5f, 6.0f)));
+                    .strength(Blocks.POLISHED_DIORITE.getHardness(), Blocks.POLISHED_DIORITE.getBlastResistance())));
+    public static final Block QUARK__DIORITE_BRICKS = registerBlock("quark__diorite_bricks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.POLISHED_DIORITE)
+                    .sounds(BlockSoundGroup.STONE)
+                    .strength(Blocks.POLISHED_DIORITE.getHardness(), Blocks.POLISHED_DIORITE.getBlastResistance())));
+    public static final Block QUARK__CHISELED_DIORITE_BRICKS = registerBlock("quark__chiseled_diorite_bricks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.POLISHED_DIORITE)
+                    .sounds(BlockSoundGroup.STONE)
+                    .strength(Blocks.POLISHED_DIORITE.getHardness(), Blocks.POLISHED_DIORITE.getBlastResistance())));
     public static final Block QUARK__GRANITE_PILLAR = registerBlock("quark__granite_pillar",
             new PillarBlock(FabricBlockSettings
-                    .copy(Blocks.GRANITE)
+                    .copy(Blocks.POLISHED_GRANITE)
                     .sounds(BlockSoundGroup.STONE)
+                    .strength(Blocks.POLISHED_GRANITE.getHardness(), Blocks.POLISHED_GRANITE.getBlastResistance())));
+    public static final Block QUARK__GRANITE_BRICKS = registerBlock("quark__granite_bricks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.POLISHED_GRANITE)
+                    .sounds(BlockSoundGroup.STONE)
+                    .strength(Blocks.POLISHED_GRANITE.getHardness(), Blocks.POLISHED_GRANITE.getBlastResistance())));
+    public static final Block QUARK__CHISELED_GRANITE_BRICKS = registerBlock("quark__chiseled_granite_bricks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.POLISHED_GRANITE)
+                    .sounds(BlockSoundGroup.STONE)
+                    .strength(Blocks.POLISHED_GRANITE.getHardness(), Blocks.POLISHED_GRANITE.getBlastResistance())));
+    public static final Block QUARK__DRIPSTONE_PILLAR = registerBlock("quark__dripstone_pillar",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.DRIPSTONE_BLOCK)
+                    .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
+                    .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())));
+    public static final Block QUARK__DRIPSTONE_BRICKS = registerBlock("quark__dripstone_bricks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.DRIPSTONE_BLOCK)
+                    .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
+                    .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())));
+    public static final Block QUARK__CHISELED_DRIPSTONE_BRICKS = registerBlock("quark__chiseled_dripstone_bricks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.DRIPSTONE_BLOCK)
+                    .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
+                    .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())));
+    public static final Block QUARK__POLISHED_DRIPSTONE = registerBlock("quark__polished_dripstone",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.DRIPSTONE_BLOCK)
+                    .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
+                    .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())));
+    public static final Block QUARK__CALCITE_PILLAR = registerBlock("quark__calcite_pillar",
+            new PillarBlock(FabricBlockSettings
+                    .copy(Blocks.CALCITE)
+                    .sounds(BlockSoundGroup.CALCITE)
+                    .strength(1.5f, 6.0f)));
+    public static final Block QUARK__CALCITE_BRICKS = registerBlock("quark__calcite_bricks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.CALCITE)
+                    .sounds(BlockSoundGroup.CALCITE)
+                    .strength(1.5f, 6.0f)));
+    public static final Block QUARK__CHISELED_CALCITE_BRICKS = registerBlock("quark__chiseled_calcite_bricks",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.CALCITE)
+                    .sounds(BlockSoundGroup.CALCITE)
+                    .strength(1.5f, 6.0f)));
+    public static final Block QUARK__POLISHED_CALCITE = registerBlock("quark__polished_calcite",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.CALCITE)
+                    .sounds(BlockSoundGroup.CALCITE)
                     .strength(1.5f, 6.0f)));
     public static final Block QUARK__CAVE_ROOTS = registerBlock("quark__cave_roots",
             new VineBlock(FabricBlockSettings
@@ -1056,7 +1183,7 @@ public class ModBlocks {
     //HALLOWEEN 2023
     //CHRISTMAS 2023
     public static final Block SKYBLOCK__SNOWY_SHORT_GRASS = registerBlock("skyblock__snowy_short_grass",
-            new ShortPlantBlock(FabricBlockSettings
+            new BaseShortPlantBlock(FabricBlockSettings
                     .copyOf(Blocks.SHORT_GRASS)));
     public static final Block SKYBLOCK__FROSTSLATE = registerBlock("skyblock__frostslate",
             new Block(FabricBlockSettings

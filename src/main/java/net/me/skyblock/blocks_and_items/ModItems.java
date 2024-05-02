@@ -5,7 +5,6 @@ import net.me.skyblock.SkyBlock;
 import net.me.skyblock.blocks_and_items.items.backport.OminousBottle;
 import net.me.skyblock.blocks_and_items.items.end.EnchantedEnderiteAppleItem;
 import net.me.skyblock.blocks_and_items.items.abyss.Loran;
-import net.me.skyblock.blocks_and_items.items.skyblock.BondedTotemOfUndying;
 import net.me.skyblock.blocks_and_items.items.util.AnomaliteArmorItem;
 import net.me.skyblock.blocks_and_items.items.util.basic.ModFoodComponents;
 import net.me.skyblock.blocks_and_items.items.util.basic.ModToolMaterials;
@@ -36,20 +35,26 @@ public class ModItems {
     public static final Item WITHERSTORM__DISC_FRAGMENT_WITHERSTORM = registerItem("witherstorm__disc_fragment_witherstorm_theme",
             new DiscFragmentItem(new FabricItemSettings()));
     public static final Item SP5__ENDERITE_APPLE = registerItem("sp5__enderite_apple",
-            new Item(new FabricItemSettings().food(ModFoodComponents.ENDERITE_APPLE)));
+            new Item(new FabricItemSettings().food(ModFoodComponents.SP5__ENDERITE_APPLE)));
     public static final Item SP5__ENCHANTED_ENDERITE_APPLE = registerItem("sp5__enchanted_enderite_apple",
-            new EnchantedEnderiteAppleItem(new FabricItemSettings().food(ModFoodComponents.ENCHANTED_ENDERITE_APPLE)));
+            new EnchantedEnderiteAppleItem(new FabricItemSettings().food(ModFoodComponents.SP5__ENCHANTED_ENDERITE_APPLE)));
     public static final Item SKYBLOCK__SUGAR_POPPY_MIXTURE = registerItem("skyblock__sugar_poppy_mixture",
             new Item(new FabricItemSettings()));
     public static final Item SKYBLOCK__STEAM_DUMPLING_FRESH = registerItem("skyblock__steam_dumpling_raw",
             new Item(new FabricItemSettings()));
     public static final Item SKYBLOCK__STEAM_DUMPLING = registerItem("skyblock__steam_dumpling",
-            new Item(new FabricItemSettings().food(ModFoodComponents.STEAM_DUMPLING)));
+            new Item(new FabricItemSettings().food(ModFoodComponents.SKYBLOCK__STEAM_DUMPLING)));
     public static final Item SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER = registerItem("skyblock__steam_dumpling_with_molten_butter",
-            new Item(new FabricItemSettings().food(ModFoodComponents.STEAM_DUMPLING_WITH_MOLTEN_BUTTER)));
+            new Item(new FabricItemSettings().food(ModFoodComponents.SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER)));
     public static final Item SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE = registerItem("skyblock__steam_dumpling_with_molten_butter_and_sugar_poppy_mixture",
-            new Item(new FabricItemSettings().food(ModFoodComponents.STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE)));
+            new Item(new FabricItemSettings().food(ModFoodComponents.SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE)));
     //SKYBLOCK VANILLA+
+    public static final Item SKYBLOCK__RARE_TOKEN = registerItem("skyblock__rare_token",
+            new Item(new FabricItemSettings()));
+    public static final Item SKYBLOCK__UNCOMMON_TOKEN = registerItem("skyblock__uncommon_token",
+            new Item(new FabricItemSettings()));
+    public static final Item SKYBLOCK__COMMON_TOKEN = registerItem("skyblock__common_token",
+            new Item(new FabricItemSettings()));
     //1.21.1+
     public static final Item SKYBLOCK__BONDED_TOTEM_OF_UNDYING = registerItem("skyblock__bonded_totem_of_undying",
             new Item(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON)));
@@ -217,14 +222,15 @@ public class ModItems {
             new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item H__ANOMALITE_BOOTS = registerItem("h__anomalite_boots",
             new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item SKYBLOCK__BLUEBERRY = registerItem("skyblock__blueberry",
+            new Item(new FabricItemSettings().food(ModFoodComponents.SKYBLOCK__BLUEBERRY)));
     public static final Item SKYBLOCK__DUCKWEED = registerBlockItem(
             new PlaceableOnWaterItem(ModBlocks.SKYBLOCK__DUCKWEED, new Item.Settings()));
-
+    public static final Item SKYBLOCK__SMALL_LILY_PADS = registerBlockItem(
+            new PlaceableOnWaterItem(ModBlocks.SKYBLOCK__SMALL_LILY_PADS, new Item.Settings()));
 
 
     //HALLOWEEN 2023
-    //UNUSED
-    //UNUSED
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(SkyBlock.MOD_ID, name), item);

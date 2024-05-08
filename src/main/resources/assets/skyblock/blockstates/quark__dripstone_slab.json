@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/quark__dripstone_slab"
+    },
+    "type=double": {
+      "model": "block/dripstone_block"
+    },
+    "type=top": {
+      "model": "skyblock:block/quark__dripstone_slab_top"
+    }
+  }
+}

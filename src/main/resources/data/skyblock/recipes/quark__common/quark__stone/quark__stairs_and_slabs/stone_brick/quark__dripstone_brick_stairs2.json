@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "skyblock:quark__dripstone_pillar_craftable_from"
+  },
+  "result": "skyblock:quark__dripstone_brick_stairs"
+}

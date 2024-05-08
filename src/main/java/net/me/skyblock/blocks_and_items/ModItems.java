@@ -5,6 +5,8 @@ import net.me.skyblock.SkyBlock;
 import net.me.skyblock.blocks_and_items.items.backport.OminousBottle;
 import net.me.skyblock.blocks_and_items.items.end.EnchantedEnderiteAppleItem;
 import net.me.skyblock.blocks_and_items.items.abyss.Loran;
+import net.me.skyblock.blocks_and_items.items.skyblock.ChilliPepper;
+import net.me.skyblock.blocks_and_items.items.skyblock.FirwoodMace;
 import net.me.skyblock.blocks_and_items.items.util.AnomaliteArmorItem;
 import net.me.skyblock.blocks_and_items.items.util.basic.ModFoodComponents;
 import net.me.skyblock.blocks_and_items.items.util.basic.ModToolMaterials;
@@ -49,6 +51,20 @@ public class ModItems {
     public static final Item SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE = registerItem("skyblock__steam_dumpling_with_molten_butter_and_sugar_poppy_mixture",
             new Item(new FabricItemSettings().food(ModFoodComponents.SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE)));
     //SKYBLOCK VANILLA+
+    public static final Item SKYBLOCK__CHILLI_PEPPER_SEEDS = registerItem("skyblock__chilli_pepper_seeds",
+            new AliasedBlockItem(ModBlocks.SKYBLOCK__CHILLI_PEPPER_CROP, new FabricItemSettings()));
+    public static final Item SKYBLOCK__CHILLI_PEPPER = registerItem("skyblock__chilli_pepper",
+            new ChilliPepper(new FabricItemSettings().food(ModFoodComponents.SKYBLOCK__CHILLI_PEPPER)));
+    public static final Item SKYBLOCK__GOLDEN_CHILLI_PEPPER = registerItem("skyblock__golden_chilli_pepper",
+            new Item(new FabricItemSettings().food(ModFoodComponents.SKYBLOCK__GOLDEN_CHILLI_PEPPER)));
+    public static final Item SKYBLOCK__BLUEBERRIES = registerItem("skyblock__blueberries",
+            new Item(new FabricItemSettings().food(ModFoodComponents.SKYBLOCK__BLUEBERRIES)));
+    public static final Item SKYBLOCK__DUCKWEED = registerBlockItem(
+            new PlaceableOnWaterItem(ModBlocks.SKYBLOCK__DUCKWEED, new Item.Settings()));
+    public static final Item SKYBLOCK__SMALL_LILY_PADS = registerBlockItem(
+            new PlaceableOnWaterItem(ModBlocks.SKYBLOCK__SMALL_LILY_PADS, new Item.Settings()));
+    public static final Item SKYBLOCK__FIRWOOD_MACE = registerItem("skyblock__firwood_mace",
+            new FirwoodMace(ModToolMaterials.FIRWOOD, 10, 0.75f -4f, new FabricItemSettings()));
     public static final Item SKYBLOCK__RARE_TOKEN = registerItem("skyblock__rare_token",
             new Item(new FabricItemSettings()));
     public static final Item SKYBLOCK__UNCOMMON_TOKEN = registerItem("skyblock__uncommon_token",
@@ -222,14 +238,6 @@ public class ModItems {
             new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item H__ANOMALITE_BOOTS = registerItem("h__anomalite_boots",
             new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
-    public static final Item SKYBLOCK__BLUEBERRY = registerItem("skyblock__blueberry",
-            new Item(new FabricItemSettings().food(ModFoodComponents.SKYBLOCK__BLUEBERRY)));
-    public static final Item SKYBLOCK__DUCKWEED = registerBlockItem(
-            new PlaceableOnWaterItem(ModBlocks.SKYBLOCK__DUCKWEED, new Item.Settings()));
-    public static final Item SKYBLOCK__SMALL_LILY_PADS = registerBlockItem(
-            new PlaceableOnWaterItem(ModBlocks.SKYBLOCK__SMALL_LILY_PADS, new Item.Settings()));
-
-
     //HALLOWEEN 2023
 
     private static Item registerItem(String name, Item item) {

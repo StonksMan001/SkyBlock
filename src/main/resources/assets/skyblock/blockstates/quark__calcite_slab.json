@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/quark__calcite_slab"
+    },
+    "type=double": {
+      "model": "block/calcite"
+    },
+    "type=top": {
+      "model": "skyblock:block/quark__calcite_slab_top"
+    }
+  }
+}

@@ -18,6 +18,7 @@ public class ModTags {
         }
     }
     public static class Items {
+        public static final TagKey<Item> SKYBLOCK__FIR_LOGS = createItemTag("skyblock__fir_logs");
         private static TagKey<Item> createItemTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, new Identifier(SkyBlock.MOD_ID, name));
         }

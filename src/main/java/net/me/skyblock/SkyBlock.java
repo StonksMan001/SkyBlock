@@ -1,6 +1,8 @@
 package net.me.skyblock;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.gamerule.v1.GameRuleFactory;
+import net.fabricmc.fabric.api.gamerule.v1.GameRuleRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
@@ -19,7 +21,9 @@ import net.me.skyblock.blocks_and_items.ModItems;
 import net.me.skyblock.entity.mobs.skyblock.OminousEvokerEntity;
 import net.me.skyblock.entity.non_mobs.ModPaintings;
 import net.me.skyblock.particle.ModParticles;
+import net.me.skyblock.server.ModGameRules;
 import net.me.skyblock.world.dimension.ModDimensions;
+import net.minecraft.world.GameRules;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -31,12 +35,13 @@ public class SkyBlock implements ModInitializer {
 		// Should never touch
 		ArchivedItems.registerArchivedItems();
 		ArchivedBlocks.registerArchivedBlocks();
+
+		GhostItems.registerGhostItems();
 		// Should never touch
 
 		DataFixer.register();
 
 		ModCreativeInventoryGroups.registerItemGroups();
-		GhostItems.registerGhostItems();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModBlockEntities.registerModBlockEntities();
@@ -45,6 +50,7 @@ public class SkyBlock implements ModInitializer {
 		ModPaintings.registerPaintings();
 		ModParticles.registerParticles();
 		ModScreenHandlers.registerScreenHandlers();
+		ModGameRules.registerModGameRules();
 
 		StrippableBlockRegistry.register(ModBlocks.SP5__END_STEM, ModBlocks.SP5__STRIPPED_END_STEM);
 		StrippableBlockRegistry.register(ModBlocks.SP5__END_HYPHAE, ModBlocks.SP5__STRIPPED_END_HYPHAE);
@@ -56,6 +62,8 @@ public class SkyBlock implements ModInitializer {
 		StrippableBlockRegistry.register(ModBlocks.FLOGICAL__AZALEA_WOOD, ModBlocks.FLOGICAL__STRIPPED_AZALEA_WOOD);
 		StrippableBlockRegistry.register(ModBlocks.SKYBLOCK__FIR_LOG, ModBlocks.SKYBLOCK__STRIPPED_FIR_LOG);
 		StrippableBlockRegistry.register(ModBlocks.SKYBLOCK__FIR_WOOD, ModBlocks.SKYBLOCK__STRIPPED_FIR_WOOD);
+		StrippableBlockRegistry.register(ModBlocks.SKYBLOCK__WHITE_MUSHROOM_STEM, ModBlocks.SKYBLOCK__STRIPPED_MUSHROOM_STEM);
+		StrippableBlockRegistry.register(ModBlocks.SKYBLOCK__WHITE_MUSHROOM_HYPHAE, ModBlocks.SKYBLOCK__STRIPPED_MUSHROOM_HYPHAE);
 		StrippableBlockRegistry.register(ModBlocks.DIGPEAR__CALLERY_LOG, ModBlocks.DIGPEAR__STRIPPED_CALLERY_LOG);
 		StrippableBlockRegistry.register(ModBlocks.DIGPEAR__CALLERY_WOOD, ModBlocks.DIGPEAR__STRIPPED_CALLERY_WOOD);
 		StrippableBlockRegistry.register(ModBlocks.ABYSS__BLARU_LOG, ModBlocks.ABYSS__STRIPPED_BLARU_LOG);
@@ -73,10 +81,11 @@ public class SkyBlock implements ModInitializer {
 		StrippableBlockRegistry.register(ModBlocks.ABYSS__ABYSS_JUNGLE_LOG, ModBlocks.ABYSS__STRIPPED_ABYSS_JUNGLE_LOG);
 		StrippableBlockRegistry.register(ModBlocks.ABYSS__ABYSS_JUNGLE_WOOD, ModBlocks.ABYSS__STRIPPED_ABYSS_JUNGLE_WOOD);
 
-
 		FabricDefaultAttributeRegistry.register(ModEntities.MCD__WISP, WispEntity.setAttributes());
 		FabricDefaultAttributeRegistry.register(ModEntities.SKYBLOCK__OMINOUS_EVOKER, OminousEvokerEntity.setAttributes());
 
 		FuelRegistry.INSTANCE.add(ModItems.SP5__MELTED_RESIDUES, 30000);
+
+
 	}
 }

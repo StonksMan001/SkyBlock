@@ -2,11 +2,14 @@ package net.me.skyblock.api;
 
 import net.me.skyblock.blocks_and_items.ModItems;
 import net.me.skyblock.blocks_and_items.items.skyblock.BondedTotemOfUndying;
+import net.me.skyblock.blocks_and_items.items.skyblock.FirwoodMace;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.item.*;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.util.Identifier;
+
+import java.util.Objects;
 
 public class ModModelPredicateProvider {
     public static void registerModModels() {
@@ -15,6 +18,7 @@ public class ModModelPredicateProvider {
         registerBow(ModItems.MCD__TWIN_BOW);
         registerCrossbow(ModItems.MCD__AUTO_CROSSBOW);
         registerWrittenBookTextures(Items.WRITTEN_BOOK);
+        registerFirwoodMace(ModItems.SKYBLOCK__FIRWOOD_MACE);
         //registerEnchantedBookTextures(Items.ENCHANTED_BOOK);
     }
     /*public static final String[] ANNOTATIONS = {
@@ -145,6 +149,31 @@ public class ModModelPredicateProvider {
                     }
                 });
     }*/
+    private static void registerFirwoodMace(Item firwood_mace) {
+        ModelPredicateProviderRegistry.register(firwood_mace, new Identifier("green"),
+                (stack, world, entity, seed) -> {
+                    if (stack.getNbt() == null) {
+                        return 0.0f;
+                    }
+                    if (Objects.equals(FirwoodMace.getLeaves(stack), "green")) {
+                        return 1.0f;
+                    } else {
+                        return 0.0f;
+                    }
+                });
+        ModelPredicateProviderRegistry.register(firwood_mace, new Identifier("orange"),
+                (stack, world, entity, seed) -> {
+                    if (stack.getNbt() == null) {
+                        return 0.0f;
+                    }
+                    if (Objects.equals(FirwoodMace.getLeaves(stack), "orange")) {
+                        return 1.0f;
+                    } else {
+                        return 0.0f;
+                    }
+                });
+    }
+
     private static void registerBow(Item bow) {
         ModelPredicateProviderRegistry.register(bow, new Identifier("pull"),
                 (stack, world, entity, seed) -> {

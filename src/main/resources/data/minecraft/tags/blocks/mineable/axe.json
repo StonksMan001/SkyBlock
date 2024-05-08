@@ -120,12 +120,20 @@
     "skyblock:skyblock__stripped_fir_wood",
     "skyblock:skyblock__fir_planks",
 
+    "skyblock:skyblock__white_mushroom_stem",
+    "skyblock:skyblock__white_mushroom_hyphae",
+    "skyblock:skyblock__stripped_mushroom_stem",
+    "skyblock:skyblock__stripped_mushroom_hyphae",
+    "skyblock:skyblock__mushroom_planks",
+
     "skyblock:quark__apple_crate",
     "skyblock:quark__beetroot_crate",
     "skyblock:quark__carrot_crate",
     "skyblock:quark__potato_crate",
     "skyblock:quark__golden_apple_crate",
     "skyblock:quark__golden_carrot_crate",
+    "skyblock:skyblock__chilli_pepper_crate",
+    "skyblock:skyblock__golden_chilli_pepper_crate",
 
     "skyblock:quark__stick_block",
     "skyblock:quark__sugar_cane_block",
@@ -145,12 +153,14 @@
     "skyblock:quark__vertical_warped_planks",
     "skyblock:abyss__vertical_frozen_planks",
     "skyblock:skyblock__vertical_fir_planks",
+    "skyblock:skyblock__vertical_mushroom_planks",
 
     "skyblock:skyblock__carved_oak_planks",
     "skyblock:skyblock__carved_dark_oak_planks",
     "skyblock:skyblock__carved_spruce_planks",
     "skyblock:abyss__carved_frozen_planks",
     "skyblock:skyblock__carved_fir_planks",
+    "skyblock:skyblock__carved_mushroom_planks",
 
     "skyblock:sp5__end_stairs",
     "skyblock:sp5__end_slab",
@@ -176,6 +186,8 @@
     "skyblock:abyss__sal_shroom_slab",
     "skyblock:skyblock__fir_stairs",
     "skyblock:skyblock__fir_slab",
+    "skyblock:skyblock__mushroom_stairs",
+    "skyblock:skyblock__mushroom_slab",
     "skyblock:digpear__callery_stairs",
     "skyblock:digpear__callery_slab"
   ]

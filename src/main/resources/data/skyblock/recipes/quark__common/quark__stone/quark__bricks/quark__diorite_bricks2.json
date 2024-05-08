@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "skyblock:quark__diorite_pillar_craftable_from"
+  },
+  "result": "skyblock:quark__diorite_bricks"
+}

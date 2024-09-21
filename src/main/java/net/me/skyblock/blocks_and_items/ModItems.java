@@ -14,6 +14,7 @@ import net.me.skyblock.blocks_and_items.items.mcd.mcd_artifact.IronSkinItem_Comm
 import net.me.skyblock.blocks_and_items.items.util.basic.ModArmorMaterials;
 import net.me.skyblock.blocks_and_items.items.util.basic.ModAxeItem;
 import net.me.skyblock.blocks_and_items.items.mcd.mcd_ranged.ShortBowItem;
+import net.me.skyblock.blocks_and_items.items.util.custom_unenchantable.UnenchantableAxeItem;
 import net.me.skyblock.blocks_and_items.items.util.custom_unenchantable.UnenchantablePickaxeItem;
 import net.me.skyblock.blocks_and_items.items.util.custom_unenchantable.UnenchantableSwordItem;
 import net.me.skyblock.sound.ModSounds;
@@ -51,6 +52,8 @@ public class ModItems {
     public static final Item SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE = registerItem("skyblock__steam_dumpling_with_molten_butter_and_sugar_poppy_mixture",
             new Item(new FabricItemSettings().food(ModFoodComponents.SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE)));
     //SKYBLOCK VANILLA+
+    public static final Item SKYBLOCK__PUFFBALL_FLESH = registerItem("skyblock__puffball_flesh",
+            new Item(new FabricItemSettings()));
     public static final Item SKYBLOCK__CHILLI_PEPPER_SEEDS = registerItem("skyblock__chilli_pepper_seeds",
             new AliasedBlockItem(ModBlocks.SKYBLOCK__CHILLI_PEPPER_CROP, new FabricItemSettings()));
     public static final Item SKYBLOCK__CHILLI_PEPPER = registerItem("skyblock__chilli_pepper",
@@ -205,30 +208,20 @@ public class ModItems {
     public static final Item BP__OMINOUS_BOTTLE = registerItem("bp__ominous_bottle",
             new OminousBottle(new FabricItemSettings()));
     // <BACKPORTED FEATURES>
-    //HALLOWEEN 2023
+    //HALLOWEEN (UNIVERSAL)
     public static final Item H__ANOMALITE_FRAGMENT = registerItem("h__anomalite_fragment",
             new Item(new FabricItemSettings()));
     public static final Item H__ANOMALITE_HANDLE = registerItem("h__anomalite_handle",
-            new Item(new FabricItemSettings()));
-    public static final Item H__PLASMA_1 = registerItem("h__plasma_1",
-            new Item(new FabricItemSettings()));
-    public static final Item H__PLASMA_2 = registerItem("h__plasma_2",
             new Item(new FabricItemSettings()));
     public static final Item H__NODE_CORE = registerItem("h__node_core",
             new Item(new FabricItemSettings()));
     public static final Item H__PEARL_OF_DARKNESS = registerItem("h__pearl_of_darkness",
             new Item(new FabricItemSettings()));
+    public static final Item H__ANOMALITE_AXE = registerItem("h__anomalite_axe",
+            new UnenchantableAxeItem(ModToolMaterials.H__ANOMALITE, 10, 1.0f -4f, new FabricItemSettings()));
     public static final Item H__ANOMALITE_SWORD = registerItem("h__anomalite_sword",
             new UnenchantableSwordItem(ModToolMaterials.H__ANOMALITE, 8, 1.6f -4f, new FabricItemSettings()));
-    public static final Item H__ANOMALITE_SWORD1 = registerItem("h__anomalite_sword1",
-            new UnenchantableSwordItem(ModToolMaterials.H__ANOMALITE, 8, 1.6f -4f, new FabricItemSettings()));
-    public static final Item H__ANOMALITE_SWORD2 = registerItem("h__anomalite_sword2",
-            new UnenchantableSwordItem(ModToolMaterials.H__ANOMALITE, 8, 1.6f -4f, new FabricItemSettings()));
     public static final Item H__ANOMALITE_PICKAXE = registerItem("h__anomalite_pickaxe",
-            new UnenchantablePickaxeItem(ModToolMaterials.H__ANOMALITE, 6, 1.2f -4f, new FabricItemSettings()));
-    public static final Item H__ANOMALITE_PICKAXE1 = registerItem("h__anomalite_pickaxe1",
-            new UnenchantablePickaxeItem(ModToolMaterials.H__ANOMALITE, 6, 1.2f -4f, new FabricItemSettings()));
-    public static final Item H__ANOMALITE_PICKAXE2 = registerItem("h__anomalite_pickaxe2",
             new UnenchantablePickaxeItem(ModToolMaterials.H__ANOMALITE, 6, 1.2f -4f, new FabricItemSettings()));
     public static final Item H__ANOMALITE_HELMET = registerItem("h__anomalite_helmet",
             new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -238,7 +231,24 @@ public class ModItems {
             new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item H__ANOMALITE_BOOTS = registerItem("h__anomalite_boots",
             new AnomaliteArmorItem(ModArmorMaterials.H__ANOMALITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
-    //HALLOWEEN 2023
+    // <HALLOWEEN 2023 EXCLUSIVE>
+    public static final Item H__ANOMALITE_SWORD1 = registerItem("h__anomalite_sword1",
+            new UnenchantableSwordItem(ModToolMaterials.H__ANOMALITE, 8, 1.6f -4f, new FabricItemSettings()));
+    public static final Item H__ANOMALITE_SWORD2 = registerItem("h__anomalite_sword2",
+            new UnenchantableSwordItem(ModToolMaterials.H__ANOMALITE, 8, 1.6f -4f, new FabricItemSettings()));
+    public static final Item H__ANOMALITE_PICKAXE1 = registerItem("h__anomalite_pickaxe1",
+            new UnenchantablePickaxeItem(ModToolMaterials.H__ANOMALITE, 6, 1.2f -4f, new FabricItemSettings()));
+    public static final Item H__ANOMALITE_PICKAXE2 = registerItem("h__anomalite_pickaxe2",
+            new UnenchantablePickaxeItem(ModToolMaterials.H__ANOMALITE, 6, 1.2f -4f, new FabricItemSettings()));
+    public static final Item H__PLASMA_1 = registerItem("h__plasma_1",
+            new Item(new FabricItemSettings()));
+    public static final Item H__PLASMA_2 = registerItem("h__plasma_2",
+            new Item(new FabricItemSettings()));
+    // <HALLOWEEN 2023 EXCLUSIVE>
+    // <HALLOWEEN 2024 EXCLUSIVE>
+
+    // <HALLOWEEN 2024 EXCLUSIVE>
+    //HALLOWEEN (UNIVERSAL)
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(SkyBlock.MOD_ID, name), item);

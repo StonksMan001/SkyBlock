@@ -2,12 +2,11 @@ package net.me.skyblock.api.mixin;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
-import net.me.skyblock.api.ModTags;
+import net.me.skyblock.blocks_and_items.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Redirect;
 
 @Mixin(targets = "net.minecraft.block.SculkVeinBlock$SculkVeinGrowChecker")
 public class SculkVeinGrowCheckerMixin {

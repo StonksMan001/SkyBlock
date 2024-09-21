@@ -1,12 +1,11 @@
 package net.me.skyblock.blocks_and_items.items.util.basic;
 
 import net.fabricmc.yarn.constants.MiningLevels;
-import net.me.skyblock.api.ModTags;
+import net.me.skyblock.blocks_and_items.ModTags;
 import net.me.skyblock.blocks_and_items.ModItems;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
@@ -16,10 +15,8 @@ public enum ModToolMaterials implements ToolMaterial {
     ENDERITE(MiningLevels.NETHERITE, 2236, 11.0f, -1f, 19, () -> Ingredient.ofItems(ModItems.SP5__ENDERITE_INGOT)),
     BENIKARD(MiningLevels.NETHERITE, 2236, 0f, -1f, 15, () -> Ingredient.ofItems(Items.WATER_BUCKET)),
     ABERYTHE(MiningLevels.NETHERITE, 2100, 10.0f, -1f, 16, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    FIRWOOD(MiningLevels.WOOD, 200, 2.0F, -1f, 15, () -> {
-        return Ingredient.fromTag(ModTags.Items.SKYBLOCK__FIR_LOGS);
-    }),
-    H__ANOMALITE(MiningLevels.NETHERITE, 200, 11.0f, -1f, 1, () -> Ingredient.ofItems(ModItems.H__ANOMALITE_FRAGMENT)),
+    FIRWOOD(MiningLevels.WOOD, 200, 2.0F, -1f, 15, () -> Ingredient.fromTag(ModTags.Items.SKYBLOCK__FIR_LOGS)),
+    H__ANOMALITE(MiningLevels.NETHERITE, 2031, 11.0f, -1f, 1, () -> Ingredient.ofItems(ModItems.H__ANOMALITE_FRAGMENT)),
     H__ANOMALITE_EXOPLASMIC(MiningLevels.NETHERITE, 2000, 11.0f, -1f, 1, () -> Ingredient.ofItems(ModItems.H__ANOMALITE_FRAGMENT)),
     H__ANOMALITE_ENDOPLASMIC(MiningLevels.NETHERITE, 1000, 15.0f, -1f, 1, () -> Ingredient.ofItems(ModItems.H__ANOMALITE_FRAGMENT));
 

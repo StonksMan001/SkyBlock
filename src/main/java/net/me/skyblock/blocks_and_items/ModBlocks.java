@@ -3,7 +3,6 @@ package net.me.skyblock.blocks_and_items;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.me.skyblock.SkyBlock;
-import net.me.skyblock.api.ModTags;
 import net.me.skyblock.api.skycore.BaseShortPlantBlock;
 import net.me.skyblock.api.skycore.BaseTallPlantBlock;
 import net.me.skyblock.blocks_and_items.blocks.abyss.AbyssVegetation;
@@ -19,6 +18,8 @@ import net.me.skyblock.blocks_and_items.blocks.mcd.echoing_void.VoidBlock;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.*;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.crops.BlueberryBush;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.crops.ChilliPepperBlock;
+import net.me.skyblock.blocks_and_items.blocks.skyblock.crops.PuffballMushroom;
+import net.me.skyblock.blocks_and_items.blocks.skyblock.crops.PuffballMushroomBlock;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.vegetations.unknown.UnknownDirt;
 import net.me.skyblock.blocks_and_items.blocks.skyblock.vegetations.unknown.UnknownDirtNylium;
 import net.me.skyblock.blocks_and_items.blocks.util.ModStairsBlock;
@@ -564,7 +565,8 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.SPORE_BLOSSOM)));
     public static final Block SP5__WARPED_NAVI_PLANT = registerBlock("sp5__warped_navi_plant",
             new BaseTallPlantBlock(FabricBlockSettings
-                    .copyOf(Blocks.TALL_GRASS), ModBlocks.SP5__END_GRASS));
+                    .copyOf(Blocks.TALL_GRASS)
+                    .offset(AbstractBlock.OffsetType.NONE), ModBlocks.SP5__END_GRASS));
     public static final Block SKYBLOCK__ANT_JAM_BLOCK = registerBlock("skyblock__ant_jam_block",
             new SlimeBlock(FabricBlockSettings
                     .copy(Blocks.HONEY_BLOCK)));
@@ -841,6 +843,10 @@ public class ModBlocks {
     public static final Block SKYBLOCK__DEEPSLATE_PLATINUM_ORE = registerBlock("skyblock__deepslate_platinum_ore",
             new Block(FabricBlockSettings
                     .copy(Blocks.DEEPSLATE_DIAMOND_ORE)));
+    public static final Block SKYBLOCK__DEEPSLATE_TITANIUM_ORE = registerBlock("skyblock__deepslate_titanium_ore",
+            new Block(FabricBlockSettings
+                    .copy(Blocks.DEEPSLATE_DIAMOND_ORE)
+                    .strength(Blocks.OBSIDIAN.getHardness(), Blocks.OBSIDIAN.getBlastResistance())));
     public static final Block SKYBLOCK__WHITE_MUSHROOM_STEM = registerBlock("skyblock__white_mushroom_stem",
             new PillarBlock(FabricBlockSettings
                     .copy(Blocks.CRIMSON_STEM)
@@ -960,6 +966,26 @@ public class ModBlocks {
                     .copy(Blocks.HAY_BLOCK)
                     .sounds(BlockSoundGroup.WOOD)
                     .strength(1.0f)));
+    public static final Block SKYBLOCK__PUFFBALL_MUSHROOM = registerBlock("skyblock__puffball_mushroom",
+            new PuffballMushroom(FabricBlockSettings
+                    .copy(Blocks.BROWN_MUSHROOM)
+                    .sounds(BlockSoundGroup.FUNGUS)));
+    public static final Block SKYBLOCK__PUFFBALL_MUSHROOM_BLOCK = registerBlock("skyblock__puffball_mushroom_block",
+            new PuffballMushroomBlock(FabricBlockSettings
+                    .copy(Blocks.MUSHROOM_STEM)
+                    .sounds(BlockSoundGroup.FUNGUS)));
+    public static final Block SKYBLOCK__SPORE_PLANTER_BOX = registerBlock("skyblock__spore_planter_box",
+            new EmptySporePlanterBox(FabricBlockSettings
+                    .copy(Blocks.COARSE_DIRT)
+                    .sounds(BlockSoundGroup.WOOD)));
+    public static final Block SKYBLOCK__PUFFBALL_SPORE_PLANTER_BOX = registerBlock("skyblock__puffball_spore_planter_box",
+            new SporePlanterBox(FabricBlockSettings
+                    .copy(Blocks.COARSE_DIRT)
+                    .sounds(BlockSoundGroup.WOOD), ModBlocks.SKYBLOCK__PUFFBALL_MUSHROOM, 2, false));
+    public static final Block SKYBLOCK__RED_MUSHROOM_SPORE_PLANTER_BOX = registerBlock("skyblock__red_mushroom_spore_planter_box",
+            new SporePlanterBox(FabricBlockSettings
+                    .copy(Blocks.COARSE_DIRT)
+                    .sounds(BlockSoundGroup.WOOD), Blocks.RED_MUSHROOM, 0.5, true));
     //1.21.1+
     public static final Block SKYBLOCK__COMPRESSED_STEEL = registerBlock("skyblock__compressed_steel",
             new CompressedSteelBlock(FabricBlockSettings

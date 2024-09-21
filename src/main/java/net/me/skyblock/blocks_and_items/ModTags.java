@@ -1,4 +1,4 @@
-package net.me.skyblock.api;
+package net.me.skyblock.blocks_and_items;
 
 import net.me.skyblock.SkyBlock;
 import net.minecraft.block.Block;
@@ -13,6 +13,7 @@ public class ModTags {
         public static final TagKey<Block> SKYBLOCK__SCULK_GROUND = createBlockTag("skyblock__sculk_ground");
         public static final TagKey<Block> SKYBLOCK__RED_SCULK_GROUND = createBlockTag("skyblock__red_sculk_ground");
         public static final TagKey<Block> SKYBLOCK__SCULK_VEIN_CANT_COVER = createBlockTag("skyblock__sculk_vein_cant_cover");
+        public static final TagKey<Block> SKYBLOCK__SPORE_PLANTER_BOXES = createBlockTag("skyblock__spore_planter_boxes");
         private static TagKey<Block> createBlockTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(SkyBlock.MOD_ID, name));
         }

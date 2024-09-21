@@ -12,8 +12,11 @@
     "ItemGroupIconSupplierAccessor",
     "ItemGroupsMixin",
     "LivingEntityMixin",
+    "PaneBlockMixin",
     "RaiderEntityMixin",
     "SculkVeinGrowCheckerMixin",
+    "StainedGlassBlockMixin",
+    "TransparentBlockMixin",
     "WrittenBookItemMixin"
   ],
   "client": [

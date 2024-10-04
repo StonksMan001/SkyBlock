@@ -15,8 +15,8 @@ import org.joml.Matrix4f;
 
 @Environment(value=EnvType.CLIENT)
 public class VoidBlockEntityRenderer<T extends VoidBlockEntity> implements BlockEntityRenderer<T> {
-    public static final Identifier SKY_TEXTURE = new Identifier("textures/environment/end_sky.png");
-    public static final Identifier PORTAL_TEXTURE = new Identifier("skyblock:textures/entity/void_stars.png");
+    public static final Identifier SKY_TEXTURE = Identifier.of("textures/environment/end_sky.png");
+    public static final Identifier PORTAL_TEXTURE = Identifier.of("skyblock:textures/entity/void_stars.png");
 
     public VoidBlockEntityRenderer(BlockEntityRendererFactory.Context context) {
     }
@@ -41,11 +41,11 @@ public class VoidBlockEntityRenderer<T extends VoidBlockEntity> implements Block
     }
 
     private void renderSide(T entity, Matrix4f model, VertexConsumer vertices, float x1, float x2, float y1, float y2, float z1, float z2, float z3, float z4, Direction side) {
-        if (((VoidBlockEntity)entity).shouldDrawSide(side)) {
-            vertices.vertex(model, x1, y1, z1).next();
-            vertices.vertex(model, x2, y1, z2).next();
-            vertices.vertex(model, x2, y2, z3).next();
-            vertices.vertex(model, x1, y2, z4).next();
+        if (entity.shouldDrawSide(side)) {
+            vertices.vertex(model, x1, y1, z1);
+            vertices.vertex(model, x2, y1, z2);
+            vertices.vertex(model, x2, y2, z3);
+            vertices.vertex(model, x1, y2, z4);
         }
     }
     protected float getTopYOffset() {

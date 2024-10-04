@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "tag": "skyblock:quark__calcite_pillar_craftable_from"
-  },
-  "result": "skyblock:quark__polished_calcite_slab"
-}

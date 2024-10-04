@@ -2,7 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "package": "net.me.skyblock.api.mixin",
-  "compatibilityLevel": "JAVA_17",
+  "compatibilityLevel": "JAVA_21",
   "mixins": [
     "BookEditScreenMixin",
     "ChorusPlantBlockMixin",
@@ -13,7 +13,6 @@
     "ItemGroupsMixin",
     "LivingEntityMixin",
     "PaneBlockMixin",
-    "RaiderEntityMixin",
     "SculkVeinGrowCheckerMixin",
     "StainedGlassBlockMixin",
     "TransparentBlockMixin",
@@ -25,7 +24,6 @@
     "HoneyBlockMixin",
     "ItemGroupIconSupplierAccessor",
     "ItemGroupsMixin",
-    "WorldRendererMixin",
     "WrittenBookItemMixin"
   ],
   "injectors": {

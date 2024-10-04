@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "tag": "skyblock:quark__andesite_pillar_craftable_from"
-  },
-  "result": "skyblock:quark__chiseled_andesite_bricks"
-}

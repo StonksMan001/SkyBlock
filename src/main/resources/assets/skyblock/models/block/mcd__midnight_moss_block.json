@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "skyblock:block/mcd__midnight_moss_block"
+  }
+}

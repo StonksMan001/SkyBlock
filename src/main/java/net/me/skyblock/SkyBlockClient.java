@@ -20,14 +20,13 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.color.item.ItemColors;
 import net.minecraft.client.color.world.BiomeColors;
-import net.minecraft.client.color.world.FoliageColors;
-import net.minecraft.client.color.world.GrassColors;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.entity.EvokerEntityRenderer;
 import net.minecraft.item.BlockItem;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockRenderView;
+import net.minecraft.world.biome.GrassColors;
 
 public class SkyBlockClient implements ClientModInitializer {
 
@@ -74,6 +73,8 @@ public class SkyBlockClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__AUTUMN_FIR_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__AUTUMN_BIRCH_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__BLUEBERRY_BUSH, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__PESTILENT_TROPHY, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BP__PALE_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.QUARK__CAVE_ROOTS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SP5__END_GRASS_VEGETATION, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SP5__END_MUSHROOM, RenderLayer.getCutout());
@@ -83,8 +84,11 @@ public class SkyBlockClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SP5__END_FLOWER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SP5__WARPED_NAVI_PLANT, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MCD__VOID_BLOCK, RenderLayer.getEndGateway());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MCD__POP_FLOWER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MCD__MIDNIGHT_SPROUTS, RenderLayer.getCutout());
 
-        EntityRendererRegistry.register(ModEntities.MCD__WISP, WispRenderer::new);
+
+        //EntityRendererRegistry.register(ModEntities.MCD__WISP, WispRenderer::new); //TODO: this
         EntityRendererRegistry.register(ModEntities.SKYBLOCK__OMINOUS_EVOKER, OminousEvokerRenderer::new);
         ModModelPredicateProvider.registerModModels();
         ModBlockEntityRendererFactories.registerModBlockEntityRendererFactories();
@@ -95,8 +99,6 @@ public class SkyBlockClient implements ClientModInitializer {
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.SKYBLOCK__SMALL_LILY_PADS);
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> world != null && pos != null ? 2129968 : 7455580, ModBlocks.SKYBLOCK__SMALL_LILY_PADS);
 
-        ParticleFactoryRegistry.getInstance().register(ModParticles.HALLOWEEN__NODE_TRACKER, NodeTracker.Factory::new);
-
-        HandledScreens.register(ModScreenHandlers.SKYBLOCK__ANCIENT_PEDESTAL_SCREEN_HANDLER, AncientPedestalScreen::new);
+        //HandledScreens.register(ModScreenHandlers.SKYBLOCK__ANCIENT_PEDESTAL_SCREEN_HANDLER, AncientPedestalScreen::new); //TODO: this
     }
 }

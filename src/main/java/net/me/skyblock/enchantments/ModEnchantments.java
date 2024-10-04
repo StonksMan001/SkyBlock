@@ -1,20 +1,28 @@
 package net.me.skyblock.enchantments;
 
 import net.me.skyblock.SkyBlock;
-import net.me.skyblock.enchantments.misc.PrimitivenessCurse;
 import net.minecraft.enchantment.Enchantment;
-import net.minecraft.enchantment.EnchantmentTarget;
-import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
+import net.minecraft.item.ItemStack;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.world.World;
+import org.betterx.wover.enchantment.api.EnchantmentUtils;
+
+import javax.swing.text.html.Option;
+import java.util.Objects;
+import java.util.Optional;
 
 public class ModEnchantments {
-    public static Enchantment PRIMITIVENESS_CURSE = register("primitiveness_curse", new PrimitivenessCurse(Enchantment.Rarity.VERY_RARE, EnchantmentTarget.BREAKABLE ,EquipmentSlot.values()));
-    private static Enchantment register(String name, Enchantment enchantment) {
-        return Registry.register(Registries.ENCHANTMENT, new Identifier(SkyBlock.MOD_ID, name), enchantment);
-    }
-    public static void registerModEnchantments() {
+    public static RegistryKey<Enchantment> PRIMITIVENESS_CURSE = SkyBlock.BuiltinRegistries.ofEnchantmentRegistry("primitiveness_curse");
+
+    public static void register() {
         System.out.println("[SkyBlock MultiMod] Registering Enchantments for " + SkyBlock.MOD_ID);
+    }
+    public static class Helper {
+        public static void addEnchantmentToStack(ItemStack itemStack, RegistryWrapper.WrapperLookup wrapper, RegistryKey<Enchantment> enchantment, int level) {
+            EnchantmentUtils.enchantInWorld(itemStack, enchantment, level, wrapper);
+        }
     }
 }

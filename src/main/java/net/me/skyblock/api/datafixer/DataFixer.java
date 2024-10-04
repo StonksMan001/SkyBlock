@@ -1,18 +1,9 @@
 package net.me.skyblock.api.datafixer;
 
-import com.mojang.datafixers.DataFixerBuilder;
-import com.mojang.datafixers.schemas.Schema;
+import de.ambertation.wunderlib.utils.Version;
 import net.me.skyblock.SkyBlock;
-import net.minecraft.nbt.NbtCompound;
-import net.minecraft.nbt.NbtList;
 import org.betterx.bclib.api.v2.datafixer.DataFixerAPI;
-import org.betterx.bclib.api.v2.datafixer.ForcedLevelPatch;
-import org.betterx.bclib.api.v2.datafixer.MigrationProfile;
 import org.betterx.bclib.api.v2.datafixer.Patch;
-import org.betterx.bclib.api.v2.levelgen.LevelGenUtil;
-import org.betterx.bclib.interfaces.PatchBiFunction;
-import org.betterx.bclib.interfaces.PatchFunction;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 import java.util.Map;
@@ -28,7 +19,7 @@ public class DataFixer {
 }
 class Patcher_2 extends Patch {
     public Patcher_2() {
-        super(SkyBlock.MOD_ID, "1.2.1-1.20.1");
+        super(SkyBlock.MOD_CORE, new Version("1.2.1-1.20.1"));
     }
 
     @Override
@@ -43,7 +34,7 @@ class Patcher_2 extends Patch {
 }
 class Patcher_1 extends Patch {
     public Patcher_1() {
-        super(SkyBlock.MOD_ID, "1.2.0-1.20.1");
+        super(SkyBlock.MOD_CORE, new Version("1.2.0-1.20.1"));
     }
     @Override
     public Map<String, String> getIDReplacements() {

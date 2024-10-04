@@ -13,6 +13,7 @@ import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
+import net.minecraft.util.ItemActionResult;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
@@ -46,11 +47,12 @@ public class BlueberryBush extends LeavesBlock {
             world.setBlockState(pos, state.with(HAS_BERRIES, true));
         }
     }
+
     @Override
-    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+    protected ItemActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         boolean bl = state.get(HAS_BERRIES);
         if (!bl) {
-            return super.onUse(state, world, pos, player, hand, hit);
+            return super.onUseWithItem(stack, state, world, pos, player, hand, hit);
         } else {
             int j = 1 + world.random.nextInt(2);
             dropStack(world, pos, new ItemStack(ModItems.SKYBLOCK__BLUEBERRIES, j + 1));
@@ -58,7 +60,7 @@ public class BlueberryBush extends LeavesBlock {
             BlockState blockState = state.with(HAS_BERRIES, false);
             world.setBlockState(pos, blockState, 2);
             world.emitGameEvent(GameEvent.BLOCK_CHANGE, pos, GameEvent.Emitter.of(player, blockState));
-            return ActionResult.success(world.isClient);
+            return ItemActionResult.success(world.isClient);
         }
     }
 }

@@ -9,19 +9,14 @@ import net.minecraft.util.Identifier;
 
 public class ModTags {
     public static class Blocks {
-        public static final TagKey<Block> BOSC__DEAD_SCULK_GROUND = createBlockTag("bosc__dead_sculk_ground");
-        public static final TagKey<Block> SKYBLOCK__SCULK_GROUND = createBlockTag("skyblock__sculk_ground");
-        public static final TagKey<Block> SKYBLOCK__RED_SCULK_GROUND = createBlockTag("skyblock__red_sculk_ground");
-        public static final TagKey<Block> SKYBLOCK__SCULK_VEIN_CANT_COVER = createBlockTag("skyblock__sculk_vein_cant_cover");
-        public static final TagKey<Block> SKYBLOCK__SPORE_PLANTER_BOXES = createBlockTag("skyblock__spore_planter_boxes");
-        private static TagKey<Block> createBlockTag(String name) {
-            return TagKey.of(RegistryKeys.BLOCK, new Identifier(SkyBlock.MOD_ID, name));
-        }
+        public static final TagKey<Block> BOSC__DEAD_SCULK_GROUND = SkyBlock.BuiltinRegistries.createBlockTag("bosc__dead_sculk_ground");
+        public static final TagKey<Block> SKYBLOCK__SCULK_GROUND = SkyBlock.BuiltinRegistries.createBlockTag("skyblock__sculk_ground");
+        public static final TagKey<Block> SKYBLOCK__RED_SCULK_GROUND = SkyBlock.BuiltinRegistries.createBlockTag("skyblock__red_sculk_ground");
+        public static final TagKey<Block> SKYBLOCK__SCULK_VEIN_CANT_COVER = SkyBlock.BuiltinRegistries.createBlockTag("skyblock__sculk_vein_cant_cover");
+        public static final TagKey<Block> SKYBLOCK__SPORE_PLANTER_BOXES = SkyBlock.BuiltinRegistries.createBlockTag("skyblock__spore_planter_boxes");
+
     }
     public static class Items {
-        public static final TagKey<Item> SKYBLOCK__FIR_LOGS = createItemTag("skyblock__fir_logs");
-        private static TagKey<Item> createItemTag(String name) {
-            return TagKey.of(RegistryKeys.ITEM, new Identifier(SkyBlock.MOD_ID, name));
-        }
+        public static final TagKey<Item> SKYBLOCK__FIR_LOGS = SkyBlock.BuiltinRegistries.createItemTag("skyblock__fir_logs");
     }
 }

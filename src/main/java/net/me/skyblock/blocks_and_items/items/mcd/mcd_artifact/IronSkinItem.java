@@ -2,12 +2,12 @@ package net.me.skyblock.blocks_and_items.items.mcd.mcd_artifact;
 
 import net.me.skyblock.blocks_and_items.items.mcd.McdArtifactItem;
 import net.me.skyblock.sound.ModSounds;
-import net.minecraft.client.item.TooltipContext;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.NbtString;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Style;
 import net.minecraft.text.Text;
@@ -21,36 +21,37 @@ import java.util.Iterator;
 import java.util.List;
 
 public class IronSkinItem extends McdArtifactItem {
+    public int distance = 15;
+    public int duration = 200;
+    public int amplifier = 2;
+    public String rarityTooltip = "tooltip.skyblock.rarity.rare";
+
     public IronSkinItem(Settings settings) {
         super(settings);
     }
+
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         if (!world.isClient() && hand == Hand.MAIN_HAND ) {
             user.getItemCooldownManager().set(this, 500);
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 200, 2, false, false, true));
-            world.playSoundFromEntity((PlayerEntity)null, user, ModSounds.ARTIFACT_IRON_HIDE_AMULET_USED, SoundCategory.PLAYERS, 1.0F, 1.0F);
-            user.getStackInHand(hand).damage(1, user,
-                    playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, duration, amplifier, false, false, true));
+            world.playSoundFromEntity(null, user, ModSounds.ARTIFACT_IRON_HIDE_AMULET_USED, SoundCategory.PLAYERS, 1.0F, 1.0F);
+            user.getStackInHand(hand).damage(1, user, LivingEntity.getSlotForHand(hand));
         } else if (!world.isClient() && hand == Hand.OFF_HAND ) {
             user.getItemCooldownManager().set(this, 500);
-            world.playSoundFromEntity((PlayerEntity)null, user, ModSounds.ARTIFACT_IRON_HIDE_AMULET_USED, SoundCategory.PLAYERS, 1.0F, 1.0F);
-            user.getStackInHand(hand).damage(1, user,
-                    playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
-            int j = 15;
+            world.playSoundFromEntity(null, user, ModSounds.ARTIFACT_IRON_HIDE_AMULET_USED, SoundCategory.PLAYERS, 1.0F, 1.0F);
+            user.getStackInHand(hand).damage(1, user, LivingEntity.getSlotForHand(hand));
+            int j = distance;
             int k = user.getBlockPos().getX();
             int l = user.getBlockPos().getY();
             int m = user.getBlockPos().getZ();
-            Box box = (new Box((double)k, (double)l, (double)m, (double)(k + 1), (double)(l + 1), (double)(m + 1))).expand((double)j).stretch(0.0, (double)world.getHeight(), 0.0);
+            Box box = (new Box(k, l, m, k + 1, l + 1, m + 1)).expand(j).stretch(0.0, world.getHeight(), 0.0);
             List<PlayerEntity> list = world.getNonSpectatingEntities(PlayerEntity.class, box);
             if (!list.isEmpty()) {
-                Iterator var10 = list.iterator();
-
-                while(var10.hasNext()) {
-                    PlayerEntity playerEntity = (PlayerEntity)var10.next();
-                    if (user.getBlockPos().isWithinDistance(playerEntity.getBlockPos(), (double)j)) {
-                        playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 200, 2, false, false, true));
+                for (PlayerEntity playerEntity : list) {
+                    if (user.getBlockPos().isWithinDistance(playerEntity.getBlockPos(), j)) {
+                        playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, duration, amplifier, false, false, true));
                     }
                 }
 
@@ -61,11 +62,11 @@ public class IronSkinItem extends McdArtifactItem {
     }
 
     @Override
-    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         tooltip.add(Text.translatable("tooltip.skyblock.artifact_iron_hide_amulet.tooltip1").setStyle(Style.EMPTY.withItalic(true)));
         tooltip.add(Text.translatable("tooltip.skyblock.artifact_iron_hide_amulet.tooltip2").setStyle(Style.EMPTY.withItalic(true)));
         tooltip.add(Text.translatable("tooltip.skyblock.artifact_iron_hide_amulet.tooltip3").setStyle(Style.EMPTY.withItalic(true)));
-        tooltip.add(Text.translatable("tooltip.skyblock.rarity.rare"));
-        super.appendTooltip(stack, world, tooltip, context);
+        tooltip.add(Text.translatable(rarityTooltip));
+        super.appendTooltip(stack, context, tooltip, type);
     }
 }

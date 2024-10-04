@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "X": {
+      "item": "minecraft:ink_sac"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "X",
+    "#",
+    "Y"
+  ],
+  "result": {
+    "id": "skyblock:skyblock__lightning_sword"
+  },
+  "show_notification": true
+}

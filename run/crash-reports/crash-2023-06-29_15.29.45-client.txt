@@ -7,7 +7,7 @@ Description: Unexpected error
 java.lang.IllegalStateException: Accidentally adding the same item stack twice [Vigilant Wood] to a Creative Mode Tab: The Abyss Chapter II: Feature (Y3Z0N)
 	at net.minecraft.item.ItemGroup$EntriesImpl.add(ItemGroup.java:252)
 	at net.minecraft.item.ItemGroup$Entries.add(ItemGroup.java:286)
-	at net.me.skyblock.blocks_and_items.ModCreativeInventoryGroups.lambda$static$7(ModItemGroup.java:163)
+	at net.me.skyblock.blocks_and_items.ModItemGroups.lambda$static$7(ModItemGroup.java:163)
 	at net.minecraft.item.ItemGroup.updateEntries(ItemGroup.java:101)
 	at net.minecraft.item.ItemGroups.method_47338(ItemGroups.java:2052)
 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
@@ -45,7 +45,7 @@ Thread: Render thread
 Stacktrace:
 	at net.minecraft.item.ItemGroup$EntriesImpl.add(ItemGroup.java:252)
 	at net.minecraft.item.ItemGroup$Entries.add(ItemGroup.java:286)
-	at net.me.skyblock.blocks_and_items.ModCreativeInventoryGroups.lambda$static$7(ModItemGroup.java:163)
+	at net.me.skyblock.blocks_and_items.ModItemGroups.lambda$static$7(ModItemGroup.java:163)
 	at net.minecraft.item.ItemGroup.updateEntries(ItemGroup.java:101)
 	at net.minecraft.item.ItemGroups.method_47338(ItemGroups.java:2052)
 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)

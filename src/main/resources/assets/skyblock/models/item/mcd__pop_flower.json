@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "skyblock:block/mcd__pop_flower_0"
+  }
+}

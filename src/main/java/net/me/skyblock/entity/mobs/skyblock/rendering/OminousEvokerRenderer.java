@@ -15,10 +15,10 @@ import net.minecraft.util.Identifier;
 
 @Environment(EnvType.CLIENT)
 public class OminousEvokerRenderer<T extends SpellcastingIllagerEntity> extends IllagerEntityRenderer<T> {
-    private static final Identifier TEXTURE = new Identifier(SkyBlock.MOD_ID, "textures/entity/skyblock__ominous_evoker.png");
+    private static final Identifier TEXTURE = SkyBlock.identifierOfSkyBlock("textures/entity/skyblock__ominous_evoker.png");
 
     public OminousEvokerRenderer(EntityRendererFactory.Context context) {
-        super(context, new IllagerEntityModel(context.getPart(EntityModelLayers.EVOKER)), 0.5F);
+        super(context, new IllagerEntityModel<>(context.getPart(EntityModelLayers.EVOKER)), 0.5F);
         this.addFeature(new HeldItemFeatureRenderer<T, IllagerEntityModel<T>>(this, context.getHeldItemRenderer()) {
             public void render(MatrixStack matrixStack, VertexConsumerProvider vertexConsumerProvider, int i, T spellcastingIllagerEntity, float f, float g, float h, float j, float k, float l) {
                 if (spellcastingIllagerEntity.isSpellcasting()) {

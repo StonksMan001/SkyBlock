@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "skyblock:block/abyss__vigilant_log",
-    "side": "skyblock:block/abyss__vigilant_log"
-  }
-}

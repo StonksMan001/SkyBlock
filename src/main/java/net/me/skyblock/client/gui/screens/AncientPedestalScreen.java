@@ -20,8 +20,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class AncientPedestalScreen extends HandledScreen<AncientPedestalScreenHandler> {
-    private static final Identifier TEXTURE = new Identifier(SkyBlock.MOD_ID, "textures/gui/skyblock__ancient_pedestal/skyblock__ancient_pedestal_screen.png");
-    private static final Identifier EMPTY_TOKEN_SLOT_TEXTURE = new Identifier(SkyBlock.MOD_ID, "textures/gui/skyblock__ancient_pedestal/skyblock__empty_token_slot.png");
+    private static final Identifier TEXTURE = SkyBlock.identifierOfSkyBlock("textures/gui/skyblock__ancient_pedestal/skyblock__ancient_pedestal_screen.png");
+    private static final Identifier EMPTY_TOKEN_SLOT_TEXTURE = SkyBlock.identifierOfSkyBlock("textures/gui/skyblock__ancient_pedestal/skyblock__empty_token_slot.png");
     public AncientPedestalScreen(AncientPedestalScreenHandler handler, PlayerInventory inventory, Text title) {
         super(handler, inventory, title);
     }

@@ -9,9 +9,10 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import software.bernie.geckolib.renderer.GeoEntityRenderer;
 
+@Deprecated
 public class WispRenderer extends GeoEntityRenderer<WispEntity> {
-    private static final Identifier TEXTURE = new Identifier(SkyBlock.MOD_ID, "textures/entity/wisp.png");
-    private static final Identifier EMISSIVE = new Identifier(SkyBlock.MOD_ID, "textures/entity/wisp_e.png");
+    private static final Identifier TEXTURE = SkyBlock.identifierOfSkyBlock("textures/entity/wisp.png");
+    private static final Identifier EMISSIVE = SkyBlock.identifierOfSkyBlock("textures/entity/wisp_e.png");
     public WispRenderer(EntityRendererFactory.Context renderManager) {
         super(renderManager, new WispModel());
     }

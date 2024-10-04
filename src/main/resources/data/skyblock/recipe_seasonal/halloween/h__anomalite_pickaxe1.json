@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "skyblock:h__node_core"
+    },
+    "X": {
+      "item": "skyblock:h__anomalite_pickaxe"
+    },
+    "Y": {
+      "item": "skyblock:h__plasma_1"
+    }
+  },
+  "pattern": [
+    "   ",
+    "X#Y",
+    "   "
+  ],
+  "result": {
+    "id": "skyblock:h__anomalite_pickaxe1"
+  },
+  "show_notification": true
+}

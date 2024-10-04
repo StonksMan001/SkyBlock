@@ -14,19 +14,6 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(WorldRenderer.class)
+@Deprecated
 public abstract class WorldRendererMixin {
-    @Mutable
-    @Final
-    @Shadow
-    private final BufferBuilderStorage bufferBuilders;
-
-    public WorldRendererMixin(BufferBuilderStorage bufferBuilders) {
-        this.bufferBuilders = bufferBuilders;
-    }
-
-    @Inject(method = "render", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/render/RenderLayer;getEndGateway()Lnet/minecraft/client/render/RenderLayer;"))
-    public void render(MatrixStack matrices, float tickDelta, long limitTime, boolean renderBlockOutline, Camera camera, GameRenderer gameRenderer, LightmapTextureManager lightmapTextureManager, Matrix4f projectionMatrix, CallbackInfo ci) {
-        VertexConsumerProvider.Immediate immediate = this.bufferBuilders.getEntityVertexConsumers();
-        immediate.draw(ModRenderLayer.getVoidBlock());
-    }
 }

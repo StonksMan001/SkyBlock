@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "skyblock:block/abyss__blaru_grass"
-  }
-}

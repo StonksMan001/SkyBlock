@@ -27,7 +27,7 @@ public class ModConfiguredFeatures {
                 new TwoLayersFeatureSize(1, 0, 2)).build());*/
     }
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
-        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(SkyBlock.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(SkyBlock.MOD_ID, name));
     }
     private static <FC extends FeatureConfig, F extends Feature<FC>> void register(
             Registerable<ConfiguredFeature<?, ?>> context,

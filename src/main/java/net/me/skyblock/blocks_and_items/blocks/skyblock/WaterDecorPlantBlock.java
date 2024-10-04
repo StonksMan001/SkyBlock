@@ -18,7 +18,7 @@ public class WaterDecorPlantBlock extends PlantBlock {
     }
     protected static final VoxelShape SHAPE = Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 1.5, 16.0);
 
-    public WaterDecorPlantBlock(AbstractBlock.Settings settings) {
+    public WaterDecorPlantBlock(Settings settings) {
         super(settings);
     }
 

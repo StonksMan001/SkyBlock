@@ -10,7 +10,6 @@ import net.minecraft.world.World;
 import net.minecraft.world.dimension.DimensionType;
 
 public class ModDimensions {
-    //TODO: SkyBlock.Builtinregistires használata
     public static final RegistryKey<World> THE_ABYSS_KEY = SkyBlock.BuiltinRegistries.ofMinecraftWorldRegistry("the_abyss_fabric");
     public static final RegistryKey<World> UNKNOWN_KEY = SkyBlock.BuiltinRegistries.ofMinecraftWorldRegistry("unknown");
     public static final RegistryKey<DimensionType> THE_ABYSS_TYPE_KEY = SkyBlock.BuiltinRegistries.ofDimensionTypeRegistry(THE_ABYSS_KEY.getValue());

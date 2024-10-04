@@ -11,6 +11,7 @@ import net.me.skyblock.component.util.SimpleByteValueComponent;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.text.Text;
 
 public class ModItemGroups {
@@ -87,18 +88,20 @@ public class ModItemGroups {
                 entries.add(ModBlocks.SKYBLOCK__BLUEBERRY_SACK);
                 entries.add(ModItems.SKYBLOCK__BLUEBERRIES);
                 ModItemGroups.addSpaces(entries, 11,3);
+                entries.add(Items.OMINOUS_BOTTLE);
                 entries.add(ModItems.SKYBLOCK__OMINOUS_LINK);
+                entries.add(Items.TOTEM_OF_UNDYING);
                 entries.add(ModItems.SKYBLOCK__BONDED_TOTEM_OF_UNDYING);
+                entries.add(Items.HEAVY_CORE);
                 entries.add(ModItems.SKYBLOCK__COMPRESSED_STEEL);
                 entries.add(ModItems.SKYBLOCK__COMMON_TOKEN);
                 entries.add(ModItems.SKYBLOCK__UNCOMMON_TOKEN);
                 entries.add(ModItems.SKYBLOCK__RARE_TOKEN);
-                ModItemGroups.addSpaces(entries, 14, 3);
                 entries.add(ModBlocks.SKYBLOCK__CARVED_OAK_PLANKS);
                 entries.add(ModBlocks.SKYBLOCK__CARVED_SPRUCE_PLANKS);
                 entries.add(ModBlocks.SKYBLOCK__CARVED_DARK_OAK_PLANKS);
                 entries.add(ModBlocks.ABYSS__CARVED_FROZEN_PLANKS);
-                ModItemGroups.addSpaces(entries, 17, 5);
+                ModItemGroups.addSpaces(entries, 14, 5);
                 entries.add(GhostItems.Z__TILE_SKYBLOCK2p1_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItems.Z__TILE_SKYBLOCK2p1_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItems.Z__TILE_SKYBLOCK2p1_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
@@ -109,7 +112,7 @@ public class ModItemGroups {
                 entries.add(GhostItems.Z__TILE_SKYBLOCK2p1_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItems.Z__TILE_SKYBLOCK2p1_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(ModItems.SKYBLOCK__PESTILENT_TROPHY);
-                ModItemGroups.addSpaces(entries, 22, 8);
+                ModItemGroups.addSpaces(entries, 19, 8);
                 entries.add(GhostItems.Z__TILE_SKYBLOCK3_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItems.Z__TILE_SKYBLOCK3_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItems.Z__TILE_SKYBLOCK3_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
@@ -133,7 +136,7 @@ public class ModItemGroups {
                 entries.add(ModItems.H__PLASMA_1);
                 entries.add(ModItems.H__PLASMA_2);
                 entries.add(ModBlocks.H__NODE);
-                ModItemGroups.addSpaces(entries, 30, 4);
+                ModItemGroups.addSpaces(entries, 27, 4);
                 entries.add(GhostItems.Z__TILE_SP5_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItems.Z__TILE_SP5_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItems.Z__TILE_SP5_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
@@ -250,7 +253,7 @@ public class ModItemGroups {
                 entries.add(ModItems.SP5__BLUISHE_SHOVEL);
                 entries.add(ModItems.SP5__BLUISHE_HOE);
                 entries.add(ModItems.SP5__BLUISHE_PICKAXE);
-                ModItemGroups.addSpaces(entries, 34, 0);
+                ModItemGroups.addSpaces(entries, 31, 0);
                 ModItemGroups.addTiles(entries, 1, 9);
                 entries.add(Blocks.SCULK);
                 entries.add(ModBlocks.BOSC__SCULK_JAW);
@@ -261,13 +264,13 @@ public class ModItemGroups {
                 entries.add(ModBlocks.BOSC__DEAD_SCULK);
                 entries.add(ModBlocks.BOSC__DEAD_SCULK_JAW);
                 entries.add(ModBlocks.BOSC__DEAD_SCULK_SPROUTS);
-                ModItemGroups.addSpaces(entries, 34, 0);
+                ModItemGroups.addSpaces(entries, 31, 0);
                 ModItemGroups.addTiles(entries, 10, 9);
                 entries.add(ModBlocks.SKYBLOCK__UNKNOWN_DIRT_NYLIUM);
                 entries.add(ModBlocks.SKYBLOCK__UNKNOWN_DIRT);
                 entries.add(ModBlocks.SKYBLOCK__UNKNOWN_VEGETATION);
                 entries.add(ModBlocks.SKYBLOCK__UNKNOWN_SPROUTS);
-                ModItemGroups.addSpaces(entries, 34, 5);
+                ModItemGroups.addSpaces(entries, 31, 5);
                 ModItemGroups.addTiles(entries, 19, 9);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_LOG);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_WOOD);
@@ -276,7 +279,7 @@ public class ModItemGroups {
                 entries.add(ModBlocks.FLOGICAL__AZALEA_PLANKS);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_STAIRS);
                 entries.add(ModBlocks.FLOGICAL__AZALEA_SLAB);
-                ModItemGroups.addSpaces(entries, 39, 2);
+                ModItemGroups.addSpaces(entries, 36, 2);
                 ModItemGroups.addTiles(entries, 28, 9);
                 entries.add(ModBlocks.DIGPEAR__CALLERY_LOG);
                 entries.add(ModBlocks.DIGPEAR__CALLERY_WOOD);

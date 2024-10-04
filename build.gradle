@@ -44,9 +44,8 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-	modImplementation "software.bernie.geckolib:geckolib-fabric-${minecraft_version}:${geckolib_version}" // 1.21.1 https://github.com/bernie-g/geckolib/wiki
-	modImplementation "curse.maven:continuity-531351:5425853"                							  // 1.21.1 https://www.curseforge.com/minecraft/mc-mods/continuity
-	modImplementation "org.betterx:bclib:${project.bclib_version}"                                        // 1.21.1
+	modImplementation "curse.maven:continuity-531351:5425853"                							    // 1.21.1 https://www.curseforge.com/minecraft/mc-mods/continuity
+	modImplementation "org.betterx:bclib:${project.bclib_version}"                                          // 1.21.1
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"

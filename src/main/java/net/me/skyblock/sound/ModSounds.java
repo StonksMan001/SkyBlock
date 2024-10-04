@@ -5,7 +5,7 @@ import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.sound.SoundEvent;
 
 public class ModSounds {
-    public static RegistryEntry.Reference<SoundEvent> WITHERSTORM_THEME = SkyBlock.BuiltinRegistries.registerSoundEventReference("wither_storm_theme");  //TODO: this
+    public static RegistryEntry.Reference<SoundEvent> WITHERSTORM_THEME = SkyBlock.BuiltinRegistries.registerSoundEventReference("wither_storm_theme");
     public static SoundEvent ABYSS_AMCIENCE = SkyBlock.BuiltinRegistries.registerSoundEvent("abyss_amcience");
     public static SoundEvent ABYSS_RESONATOR_AMBIENCE = SkyBlock.BuiltinRegistries.registerSoundEvent("abyss_resonator_ambience");
     public static SoundEvent AMBIENT_JUMPSCARE_EFFECT = SkyBlock.BuiltinRegistries.registerSoundEvent("ambient_jumpscare_effect");

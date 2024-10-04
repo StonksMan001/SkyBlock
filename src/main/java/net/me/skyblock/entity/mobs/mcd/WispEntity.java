@@ -7,11 +7,8 @@ import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.passive.AllayEntity;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.world.World;
-import software.bernie.geckolib.animatable.GeoAnimatable;
-import software.bernie.geckolib.animatable.instance.AnimatableInstanceCache;
-import software.bernie.geckolib.animation.AnimatableManager;
 
-public class WispEntity extends AllayEntity implements GeoAnimatable {  //TODO: this
+public class WispEntity extends AllayEntity {  //TODO: this
     public WispEntity(EntityType<? extends AllayEntity> entityType, World world) {
         super(entityType, world);
     }
@@ -31,16 +28,16 @@ public class WispEntity extends AllayEntity implements GeoAnimatable {  //TODO: 
         return ModSounds.WISP_MOTION;
     }
 
-    @Override
-    public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
-    }
+    //@Override
+    /*public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
+    }*/
 
-    @Override
-    public AnimatableInstanceCache getAnimatableInstanceCache() {
+    //@Override
+    /*public AnimatableInstanceCache getAnimatableInstanceCache() {
         return null;
-    }
+    }*/
 
-    @Override
+    //@Override
     public double getTick(Object object) {
         return 0;
     }

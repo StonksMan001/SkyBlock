@@ -85,6 +85,24 @@ public class GhostItems {
             new Item(new Item.Settings()));
     public static final Item Z__TILE_SKYBLOCK2p1_9 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_9",
             new Item(new Item.Settings()));
+    public static final Item Z__TILE_SKYBLOCK2p2_1 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_1",
+            new Item(new Item.Settings()));
+    public static final Item Z__TILE_SKYBLOCK2p2_2 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_2",
+            new Item(new Item.Settings()));
+    public static final Item Z__TILE_SKYBLOCK2p2_3 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_3",
+            new Item(new Item.Settings()));
+    public static final Item Z__TILE_SKYBLOCK2p2_4 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_4",
+            new Item(new Item.Settings()));
+    public static final Item Z__TILE_SKYBLOCK2p2_5 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_5",
+            new Item(new Item.Settings()));
+    public static final Item Z__TILE_SKYBLOCK2p2_6 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_6",
+            new Item(new Item.Settings()));
+    public static final Item Z__TILE_SKYBLOCK2p2_7 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_7",
+            new Item(new Item.Settings()));
+    public static final Item Z__TILE_SKYBLOCK2p2_8 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_8",
+            new Item(new Item.Settings()));
+    public static final Item Z__TILE_SKYBLOCK2p2_9 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_9",
+            new Item(new Item.Settings()));
     public static final Item Z__TILE_SKYBLOCK3_1 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_1",
             new Item(new Item.Settings()));
     public static final Item Z__TILE_SKYBLOCK3_2 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_2",

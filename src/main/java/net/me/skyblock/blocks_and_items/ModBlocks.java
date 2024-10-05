@@ -1004,6 +1004,12 @@ public class ModBlocks {
     public static final Block BP__PALE_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__pale_planks",
             new Block(AbstractBlock.Settings
                     .copy(Blocks.OAK_PLANKS)));
+    public static final Block SKYBLOCK__CARVED_PALE_OAK_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__carved_pale_oak_planks",
+            new PillarBlock(AbstractBlock.Settings
+                    .copy(Blocks.OAK_PLANKS)));
+    public static final Block QUARK__VERTICAL_PALE_OAK_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__vertical_pale_oak_planks",
+            new Block(AbstractBlock.Settings
+                    .copy(Blocks.OAK_PLANKS)));
     public static final Block BP__PALE_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__pale_stairs",
             new ModStairsBlock(ModBlocks.BP__PALE_PLANKS.getDefaultState(), AbstractBlock.Settings
                     .copy(Blocks.OAK_STAIRS)

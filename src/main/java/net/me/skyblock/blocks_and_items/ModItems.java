@@ -49,6 +49,7 @@ public class ModItems {
             new Item(new Item.Settings().food(ModFoodComponents.SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER)));
     public static final Item SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE = SkyBlock.BuiltinRegistries.registerItem("skyblock__steam_dumpling_with_molten_butter_and_sugar_poppy_mixture",
             new Item(new Item.Settings().food(ModFoodComponents.SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE)));
+    //SKYBLOCK MAIN-BLOCK
     //SKYBLOCK VANILLA+
     public static final Item SKYBLOCK__PUFFBALL_FLESH = SkyBlock.BuiltinRegistries.registerItem("skyblock__puffball_flesh",
             new Item(new Item.Settings()));
@@ -72,7 +73,7 @@ public class ModItems {
             new Item(new Item.Settings()));
     public static final Item SKYBLOCK__COMMON_TOKEN = SkyBlock.BuiltinRegistries.registerItem("skyblock__common_token",
             new Item(new Item.Settings()));
-    //1.21.1+
+    //---1.21.1+
     public static final Item SKYBLOCK__BONDED_TOTEM_OF_UNDYING = SkyBlock.BuiltinRegistries.registerItem("skyblock__bonded_totem_of_undying",
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.UNCOMMON)));
     public static final Item SKYBLOCK__OMINOUS_LINK = SkyBlock.BuiltinRegistries.registerItem("skyblock__ominous_link",
@@ -80,7 +81,7 @@ public class ModItems {
     public static final Item SKYBLOCK__COMPRESSED_STEEL = SkyBlock.BuiltinRegistries.registerItemThatHasBlock(
             new BlockItem(ModBlocks.SKYBLOCK__COMPRESSED_STEEL, new Item.Settings()
                     .rarity(Rarity.EPIC)));
-    //1.21.1+
+    //---1.21.1+
     //SKYBLOCK VANILLA+
     //SKYBLOCK TROPHIES
     public static final Item SKYBLOCK__PESTILENT_TROPHY = SkyBlock.BuiltinRegistries.registerItemThatHasBlock(
@@ -156,7 +157,6 @@ public class ModItems {
             new ToolAPI.HoeItem(ToolMaterials.IRON, 1-3, 3f -4f, new Item.Settings()));
     public static final Item SP5__END_STONE_PICKAXE = SkyBlock.BuiltinRegistries.registerItem("sp5__end_stone_pickaxe",
             new ToolAPI.PickaxeItem(ToolMaterials.IRON, 4-3, 1.2f -4f, new Item.Settings()));
-    //SKYBLOCK MAIN-BLOCK
     //ABYSS
     public static final Item ABYSS__ABERYTHE_GEM = SkyBlock.BuiltinRegistries.registerItem("abyss__aberythe_gem",
             new Item(new Item.Settings()));
@@ -264,6 +264,7 @@ public class ModItems {
             new Item(new Item.Settings()));
     // <HALLOWEEN 2023 EXCLUSIVE>
     // <HALLOWEEN 2024 EXCLUSIVE>
+    // ---------empty------------
     // <HALLOWEEN 2024 EXCLUSIVE>
     //HALLOWEEN (UNIVERSAL)
     //unimplemented TODO

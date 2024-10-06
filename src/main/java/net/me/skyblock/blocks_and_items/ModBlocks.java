@@ -938,7 +938,7 @@ public class ModBlocks {
             new LeavesBlock(AbstractBlock.Settings
                     .copy(Blocks.BIRCH_LEAVES)));
     public static final Block SKYBLOCK__ANCIENT_PEDESTAL = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__ancient_pedestal",
-            new Block(AbstractBlock.Settings
+            new AncientPedestalBlock(AbstractBlock.Settings
                     .copy(Blocks.BEDROCK)));
     public static final Block SKYBLOCK__BLUEBERRY_BUSH = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__blueberry_bush",
             new BlueberryBush(AbstractBlock.Settings

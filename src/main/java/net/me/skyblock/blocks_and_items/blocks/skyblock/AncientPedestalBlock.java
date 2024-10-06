@@ -1,6 +1,7 @@
 package net.me.skyblock.blocks_and_items.blocks.skyblock;
 
 import com.mojang.serialization.MapCodec;
+import net.me.skyblock.api.skycore.BlockEntityAPI;
 import net.me.skyblock.blocks_and_items.ModBlockEntities;
 import net.me.skyblock.blocks_and_items.block_entities.skyblock.AncientPedestalBlockEntity;
 import net.minecraft.block.*;
@@ -11,17 +12,20 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
-public class AncientPedestal extends BlockWithEntity implements BlockEntityProvider {
-    public static final MapCodec<AncientPedestal> CODEC = createCodec(AncientPedestal::new);
-    public AncientPedestal(Settings settings) {
+public class AncientPedestalBlock extends Block implements BlockEntityProvider {
+    public static final MapCodec<AncientPedestalBlock> CODEC = createCodec(AncientPedestalBlock::new);
+    public AncientPedestalBlock(Settings settings) {
         super(settings);
     }
-
+    @Nullable
     @Override
-    protected MapCodec<? extends BlockWithEntity> getCodec() {
+    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+        return BlockEntityAPI.createTickerHelper(type, ModBlockEntities.SKYBLOCK__ANCIENT_PEDESTAL_BLOCK_ENTITY, AncientPedestalBlockEntity::serverTick);
+    }
+    @Override
+    protected MapCodec<AncientPedestalBlock> getCodec() {
         return CODEC;
     }
-
     @Nullable
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {

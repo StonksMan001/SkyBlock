@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:skyblock__block_of_experience"
+    }
+  ],
+  "result": {
+    "id": "skyblock:create__nugget_of_experience",
+    "count": 9
+  }
+}

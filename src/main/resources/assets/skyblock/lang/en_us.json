@@ -407,8 +407,8 @@
   "block.skyblock.bp__pale_moss_block": "Pale Moss Block",
   "block.skyblock.bp__pale_moss_carpet": "Pale Moss Carpet",
   "block.skyblock.bp__pale_planks": "Pale Oak Planks",
-  "block.skyblock.skyblock__carved_pale_planks": "Carved Pale Oak Planks",
-  "block.skyblock.quark__vertical_pale_planks": "Vertical Pale Oak Planks",
+  "block.skyblock.skyblock__carved_pale_oak_planks": "Carved Pale Oak Planks",
+  "block.skyblock.quark__vertical_pale_oak_planks": "Vertical Pale Oak Planks",
   "block.skyblock.bp__pale_stairs": "Pale Oak Stairs",
   "block.skyblock.bp__pale_slab": "Pale Oak Slab",
   "block.skyblock.skyblock__white_mushroom_stem": "White Mushroom Stem",
@@ -420,6 +420,9 @@
   "block.skyblock.skyblock__vertical_mushroom_planks": "Vertical Mushroom Planks",
   "block.skyblock.skyblock__mushroom_stairs": "Mushroom Stairs",
   "block.skyblock.skyblock__mushroom_slab": "Mushroom Slab",
+
+  "item.skyblock.create__nugget_of_experience": "Nugget of Experience",
+  "block.skyblock.skyblock__block_of_experience": "Block of Experience",
 
   "item.skyblock.skyblock__firwood_mace": "Firwood Mace",
 

@@ -7,42 +7,11 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.0 - Pale Oak Woodset">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/world/ModBiomeEffects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/world/ModBiomes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/block/chiseled_tuff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/block/chiseled_tuff_bricks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/block/chiseled_tuff_bricks_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/block/chiseled_tuff_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__block_of_experience.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__block_of_experience.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/create__nugget_of_experience.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__block_of_experience.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__block_of_experience.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__block_of_experience_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/create__nugget_of_experience.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/create__nugget_of_experience_e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/bp__pale_leaves.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/bp__pale_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/bp__pale_moss_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/bp__pale_moss_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/bp__pale_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/bp__pale_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/bp__pale_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/bp__pale_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/bp__stripped_pale_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/bp__stripped_pale_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/quark__vertical_pale_oak_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__carved_pale_oak_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/bp__common/1_22/bp__pale_moss_carpet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/bp__common/1_22/bp__pale_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/bp__common/1_22/bp__pale_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/bp__common/1_22/bp__pale_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/bp__common/1_22/bp__pale_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/bp__common/1_22/bp__strippped_pale_wood.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/quark__common/quark__vertical_planks/quark__vertical_pale_oak_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__carved_planks/skyblock__carved_pale_oak_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/item/bp__pale_logs.json" afterDir="false" />
+    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.0 - Pale Oak .json fájlok">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/items/create/NuggetOfExperienceItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__block_of_experience.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/create__nugget_of_experience.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__block_of_experience.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
@@ -52,23 +21,11 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/SkyBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItemGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItemGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/dirt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/leaves.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/leaves.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/mineable/axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/mineable/axe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/mineable/hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/mineable/hoe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/wooden_slabs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/wooden_slabs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/wooden_stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/wooden_stairs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/sp5__end_tools/skyblock__compressed_steel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__compressed_steel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +109,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "#4 on master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main(1.21.1)/src/main/resources/assets/skyblock/textures/block",
+    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main(1.21.1)/src/main/resources/data/skyblock/loot_table/blocks",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -161,15 +118,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\loot_table\blocks" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\asset, data factory" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\textures\block" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe\skyblock__carved_planks" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe\quark__common\quark__vertical_planks" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe\sp5__end_tools" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe\bp__common\1_22" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe\bp__common\1_22" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\loot_table\blocks" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\item" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\block" />
@@ -245,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728165012333</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v1.4.0 - Pale Oak .json fájlok">
+      <option name="closed" value="true" />
+      <created>1728228446254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728228446255</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +229,7 @@
     <MESSAGE value="v1.4.0 - GeckiLib dependency eltávolítva" />
     <MESSAGE value="v1.4.0 - ModItemGroups bugfix, a nem használt (&quot;unused&quot;) itemek mostmár nem lesznek az univerzális kereső tab-ban is megjelenítve" />
     <MESSAGE value="v1.4.0 - Pale Oak Woodset" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.4.0 - Pale Oak Woodset" />
+    <MESSAGE value="v1.4.0 - Pale Oak .json fájlok" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.4.0 - Pale Oak .json fájlok" />
   </component>
 </project>

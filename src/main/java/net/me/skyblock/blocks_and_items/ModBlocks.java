@@ -981,16 +981,16 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.WOOD), Blocks.RED_MUSHROOM, 0.5, true));
     public static final Block SKYBLOCK__BLOCK_OF_EXPERIENCE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__block_of_experience",
             new Block(AbstractBlock.Settings
-                    .copy(Blocks.IRON_BLOCK)
+                    .create()
                     .breakInstantly()
-                    .sounds(BlockSoundGroup.SHROOMLIGHT)
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
                     .luminance(state -> 3)
                     .emissiveLighting(SkyBlock.BuiltinRegistries::alwaysPredicate)));
     //1.21.1+
     public static final Block SKYBLOCK__COMPRESSED_STEEL = SkyBlock.BuiltinRegistries.registerBlock("skyblock__compressed_steel",
             new CompressedSteelBlock(AbstractBlock.Settings
                     .create()
-                    .mapColor(MapColor.BLACK)
+                    .mapColor(MapColor.GRAY)
                     .sounds(BlockSoundGroup.HEAVY_CORE)
                     .pistonBehavior(PistonBehavior.BLOCK)
                     .strength(Blocks.OBSIDIAN.getHardness(), Blocks.OBSIDIAN.getBlastResistance())));

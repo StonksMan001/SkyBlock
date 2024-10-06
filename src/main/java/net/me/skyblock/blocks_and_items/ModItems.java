@@ -3,6 +3,7 @@ package net.me.skyblock.blocks_and_items;
 import net.me.skyblock.SkyBlock;
 import net.me.skyblock.api.skycore.ArmorAPI;
 import net.me.skyblock.api.skycore.ToolAPI;
+import net.me.skyblock.blocks_and_items.items.create.NuggetOfExperienceItem;
 import net.me.skyblock.blocks_and_items.items.end.EnchantedEnderiteAppleItem;
 import net.me.skyblock.blocks_and_items.items.abyss.Loran;
 import net.me.skyblock.blocks_and_items.items.mcd.RapierItem;
@@ -68,7 +69,7 @@ public class ModItems {
     public static final Item SKYBLOCK__FIRWOOD_MACE = SkyBlock.BuiltinRegistries.registerItem("skyblock__firwood_mace",
             new FirwoodMace(ModToolMaterials.FIRWOOD, 10, 0.75f -4f, new Item.Settings()));
     public static final Item CREATE__NUGGET_OF_EXPERIENCE = SkyBlock.BuiltinRegistries.registerItem("create__nugget_of_experience",
-            new Item(new Item.Settings()));
+            new NuggetOfExperienceItem(new Item.Settings()));
     public static final Item SKYBLOCK__RARE_TOKEN = SkyBlock.BuiltinRegistries.registerItem("skyblock__rare_token",
             new Item(new Item.Settings()));
     public static final Item SKYBLOCK__UNCOMMON_TOKEN = SkyBlock.BuiltinRegistries.registerItem("skyblock__uncommon_token",

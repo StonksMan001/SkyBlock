@@ -20,9 +20,10 @@ import net.me.skyblock.blocks_and_items.ModItems;
 import net.me.skyblock.entity.mobs.skyblock.OminousEvokerEntity;
 import net.me.skyblock.server.ModGameRules;
 import net.me.skyblock.sound.ModSounds;
+import net.me.skyblock.world.ModBiomeEffects;
+import net.me.skyblock.world.ModBiomes;
 import net.me.skyblock.world.dimension.ModDimensions;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.jukebox.JukeboxSong;
@@ -41,9 +42,8 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
+import net.minecraft.world.biome.Biome;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.poi.PointOfInterestType;
 import org.betterx.wover.core.api.ModCore;
@@ -70,6 +70,8 @@ public class SkyBlock implements ModInitializer {
 
 		DataFixer.register();
 
+		ModBiomes.register();
+		ModBiomeEffects.register();
 		ModItemGroups.register();
 		ModDataComponentTypes.register();
 		ModSounds.register();
@@ -91,6 +93,8 @@ public class SkyBlock implements ModInitializer {
 		StrippableBlockRegistry.register(ModBlocks.FLOGICAL__AZALEA_WOOD, ModBlocks.FLOGICAL__STRIPPED_AZALEA_WOOD);
 		StrippableBlockRegistry.register(ModBlocks.SKYBLOCK__FIR_LOG, ModBlocks.SKYBLOCK__STRIPPED_FIR_LOG);
 		StrippableBlockRegistry.register(ModBlocks.SKYBLOCK__FIR_WOOD, ModBlocks.SKYBLOCK__STRIPPED_FIR_WOOD);
+		StrippableBlockRegistry.register(ModBlocks.BP__PALE_LOG, ModBlocks.BP__STRIPPED_PALE_LOG);
+		StrippableBlockRegistry.register(ModBlocks.BP__PALE_WOOD, ModBlocks.BP__STRIPPED_PALE_WOOD);
 		StrippableBlockRegistry.register(ModBlocks.SKYBLOCK__WHITE_MUSHROOM_STEM, ModBlocks.SKYBLOCK__STRIPPED_MUSHROOM_STEM);
 		StrippableBlockRegistry.register(ModBlocks.SKYBLOCK__WHITE_MUSHROOM_HYPHAE, ModBlocks.SKYBLOCK__STRIPPED_MUSHROOM_HYPHAE);
 		StrippableBlockRegistry.register(ModBlocks.DIGPEAR__CALLERY_LOG, ModBlocks.DIGPEAR__STRIPPED_CALLERY_LOG);
@@ -133,6 +137,12 @@ public class SkyBlock implements ModInitializer {
 		}
 		public static RegistryKey<DimensionType> ofDimensionTypeRegistry(Identifier id) {
 			return RegistryKey.of(RegistryKeys.DIMENSION_TYPE, id);
+		}
+		public static RegistryKey<DimensionType> ofDimensionTypeRegistry(String name) {
+			return RegistryKey.of(RegistryKeys.DIMENSION_TYPE, identifierOfSkyBlock(name));
+		}
+		public static RegistryKey<Biome> ofBiomeRegistry(String name) {
+			return RegistryKey.of(RegistryKeys.BIOME, identifierOfSkyBlock(name));
 		}
 		public static void registerJukeBlockSong(Registerable<JukeboxSong> registry, RegistryKey<JukeboxSong> key, RegistryEntry.Reference<SoundEvent> soundEvent, int lengthInSeconds, int comparatorOutput) {
 			registry.register(key, new JukeboxSong(soundEvent, Text.translatable(Util.createTranslationKey("jukebox_song", key.getValue())), (float)lengthInSeconds, comparatorOutput));

@@ -120,6 +120,12 @@
     "skyblock:skyblock__stripped_fir_wood",
     "skyblock:skyblock__fir_planks",
 
+    "skyblock:bp__pale_log",
+    "skyblock:bp__pale_wood",
+    "skyblock:bp__stripped_pale_log",
+    "skyblock:bp__stripped_pale_wood",
+    "skyblock:bp__pale_planks",
+
     "skyblock:skyblock__white_mushroom_stem",
     "skyblock:skyblock__white_mushroom_hyphae",
     "skyblock:skyblock__stripped_mushroom_stem",
@@ -153,6 +159,7 @@
     "skyblock:quark__vertical_warped_planks",
     "skyblock:abyss__vertical_frozen_planks",
     "skyblock:skyblock__vertical_fir_planks",
+    "skyblock:quark__vertical_pale_oak_planks",
     "skyblock:skyblock__vertical_mushroom_planks",
 
     "skyblock:skyblock__carved_oak_planks",
@@ -160,6 +167,7 @@
     "skyblock:skyblock__carved_spruce_planks",
     "skyblock:abyss__carved_frozen_planks",
     "skyblock:skyblock__carved_fir_planks",
+    "skyblock:skyblock__carved_pale_oak_planks",
     "skyblock:skyblock__carved_mushroom_planks",
 
     "skyblock:sp5__end_stairs",
@@ -186,6 +194,8 @@
     "skyblock:abyss__sal_shroom_slab",
     "skyblock:skyblock__fir_stairs",
     "skyblock:skyblock__fir_slab",
+    "skyblock:bp__pale_stairs",
+    "skyblock:bp__pale_slab",
     "skyblock:skyblock__mushroom_stairs",
     "skyblock:skyblock__mushroom_slab",
     "skyblock:digpear__callery_stairs",

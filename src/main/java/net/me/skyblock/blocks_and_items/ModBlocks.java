@@ -979,6 +979,13 @@ public class ModBlocks {
             new SporePlanterBox(AbstractBlock.Settings
                     .copy(Blocks.COARSE_DIRT)
                     .sounds(BlockSoundGroup.WOOD), Blocks.RED_MUSHROOM, 0.5, true));
+    public static final Block SKYBLOCK__BLOCK_OF_EXPERIENCE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__block_of_experience",
+            new Block(AbstractBlock.Settings
+                    .copy(Blocks.IRON_BLOCK)
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.SHROOMLIGHT)
+                    .luminance(state -> 3)
+                    .emissiveLighting(SkyBlock.BuiltinRegistries::alwaysPredicate)));
     //1.21.1+
     public static final Block SKYBLOCK__COMPRESSED_STEEL = SkyBlock.BuiltinRegistries.registerBlock("skyblock__compressed_steel",
             new CompressedSteelBlock(AbstractBlock.Settings

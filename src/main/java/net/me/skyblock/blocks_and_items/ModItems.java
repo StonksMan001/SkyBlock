@@ -67,6 +67,8 @@ public class ModItems {
             new PlaceableOnWaterItem(ModBlocks.SKYBLOCK__SMALL_LILY_PADS, new Item.Settings()));
     public static final Item SKYBLOCK__FIRWOOD_MACE = SkyBlock.BuiltinRegistries.registerItem("skyblock__firwood_mace",
             new FirwoodMace(ModToolMaterials.FIRWOOD, 10, 0.75f -4f, new Item.Settings()));
+    public static final Item CREATE__NUGGET_OF_EXPERIENCE = SkyBlock.BuiltinRegistries.registerItem("create__nugget_of_experience",
+            new Item(new Item.Settings()));
     public static final Item SKYBLOCK__RARE_TOKEN = SkyBlock.BuiltinRegistries.registerItem("skyblock__rare_token",
             new Item(new Item.Settings()));
     public static final Item SKYBLOCK__UNCOMMON_TOKEN = SkyBlock.BuiltinRegistries.registerItem("skyblock__uncommon_token",

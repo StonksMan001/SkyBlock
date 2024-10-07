@@ -1428,9 +1428,9 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings
                     .copy(Blocks.OBSIDIAN)));
     //HALLOWEEN 2023
-    //CHRISTMAS 2023
+    //CHRISTMAS
     public static final Block SKYBLOCK__SNOWY_SHORT_GRASS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__snowy_short_grass",
-            new BaseShortPlantBlock(AbstractBlock.Settings
+            new SnowyShortGrassBlock(AbstractBlock.Settings
                     .copy(Blocks.SHORT_GRASS)));
     public static final Block SKYBLOCK__FROSTSLATE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__frostslate",
             new Block(AbstractBlock.Settings
@@ -1447,7 +1447,7 @@ public class ModBlocks {
     public static final Block SKYBLOCK__FROSTSLATE_BRICK_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__frostslate_brick_slab",
             new SlabBlock(AbstractBlock.Settings
                     .copy(Blocks.OBSIDIAN)));
-    //CHRISTMAS 2023
+    //CHRISTMAS
     
     public static void register() {
         SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering Blocks for " + SkyBlock.MOD_ID);

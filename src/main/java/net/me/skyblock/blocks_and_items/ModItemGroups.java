@@ -152,11 +152,11 @@ public class ModItemGroups {
                 entries.add(ModItems.H__ANOMALITE_PICKAXE);
                 entries.add(ModItems.H__ANOMALITE_FRAGMENT);
                 entries.add(ModItems.H__ANOMALITE_HANDLE);
-                entries.add(ModItems.H__PEARL_OF_DARKNESS);
                 entries.add(ModItems.H__ANOMALITE_HELMET);
                 entries.add(ModItems.H__ANOMALITE_CHESTPLATE);
                 entries.add(ModItems.H__ANOMALITE_LEGGINGS);
                 entries.add(ModItems.H__ANOMALITE_BOOTS);
+                entries.add(ModItems.H__PEARL_OF_DARKNESS);
                 entries.add(ModItems.H__NODE_CORE);
                 entries.add(ModItems.H__PLASMA_1);
                 entries.add(ModItems.H__PLASMA_2);

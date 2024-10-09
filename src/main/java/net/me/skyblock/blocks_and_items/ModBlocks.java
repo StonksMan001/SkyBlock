@@ -940,6 +940,21 @@ public class ModBlocks {
     public static final Block SKYBLOCK__ANCIENT_PEDESTAL = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__ancient_pedestal",
             new AncientPedestalBlock(AbstractBlock.Settings
                     .copy(Blocks.BEDROCK)));
+    public static final Block SKYBLOCK__BLUE_BORDER_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__blue_border_block",
+            new TransparentBlock(AbstractBlock.Settings
+                    .copy(Blocks.BEDROCK)
+                    .nonOpaque()
+                    .allowsSpawning(SkyBlock.BuiltinRegistries::neverPredicate)));
+    public static final Block SKYBLOCK__RED_BORDER_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__red_border_block",
+            new TransparentBlock(AbstractBlock.Settings
+                    .copy(Blocks.BEDROCK)
+                    .nonOpaque()
+                    .allowsSpawning(SkyBlock.BuiltinRegistries::neverPredicate)));
+    public static final Block SKYBLOCK__GREEN_BORDER_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__green_border_block",
+            new TransparentBlock(AbstractBlock.Settings
+                    .copy(Blocks.BEDROCK)
+                    .nonOpaque()
+                    .allowsSpawning(SkyBlock.BuiltinRegistries::neverPredicate)));
     public static final Block SKYBLOCK__BLUEBERRY_BUSH = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__blueberry_bush",
             new BlueberryBush(AbstractBlock.Settings
                     .copy(Blocks.SPRUCE_LEAVES)

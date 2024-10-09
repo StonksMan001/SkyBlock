@@ -86,6 +86,9 @@ public class SkyBlockClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MCD__VOID_BLOCK, RenderLayer.getEndGateway());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MCD__POP_FLOWER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MCD__MIDNIGHT_SPROUTS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__BLUE_BORDER_BLOCK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__RED_BORDER_BLOCK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKYBLOCK__GREEN_BORDER_BLOCK, RenderLayer.getTranslucent());
 
 
         //EntityRendererRegistry.register(ModEntities.MCD__WISP, WispRenderer::new); //TODO: this

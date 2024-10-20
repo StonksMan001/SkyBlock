@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "skyblock:witherstorm__disc_fragment_witherstorm_theme"
+    },
+    {
+      "item": "skyblock:witherstorm__disc_fragment_witherstorm_theme"
+    },
+    {
+      "item": "skyblock:witherstorm__disc_fragment_witherstorm_theme"
+    },
+    {
+      "item": "skyblock:witherstorm__disc_fragment_witherstorm_theme"
+    },
+    {
+      "item": "skyblock:witherstorm__disc_fragment_witherstorm_theme"
+    },
+    {
+      "item": "skyblock:witherstorm__disc_fragment_witherstorm_theme"
+    },
+    {
+      "item": "skyblock:witherstorm__disc_fragment_witherstorm_theme"
+    },
+    {
+      "item": "skyblock:witherstorm__disc_fragment_witherstorm_theme"
+    },
+    {
+      "item": "skyblock:witherstorm__disc_fragment_witherstorm_theme"
+    }
+  ],
+  "result": {
+    "id": "skyblock:witherstorm__music_disc_witherstorm_theme"
+  }
+}

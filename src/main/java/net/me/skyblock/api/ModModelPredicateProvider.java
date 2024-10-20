@@ -2,10 +2,16 @@ package net.me.skyblock.api;
 
 import net.me.skyblock.blocks_and_items.ModItems;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
-import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.ChargedProjectilesComponent;
+import net.minecraft.component.type.ItemEnchantmentsComponent;
+import net.minecraft.component.type.WrittenBookContentComponent;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.*;
-import net.minecraft.nbt.NbtCompound;
+import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
+
+import java.util.Objects;
 
 public class ModModelPredicateProvider {
     public static void registerModModels() {
@@ -14,69 +20,54 @@ public class ModModelPredicateProvider {
         registerBow(ModItems.MCD__TWIN_BOW);
         registerCrossbow(ModItems.MCD__AUTO_CROSSBOW);
         registerWrittenBookTextures(Items.WRITTEN_BOOK);
-        registerEnchantedBookTextures(Items.ENCHANTED_BOOK);
     }
-    /*public static final String[] ANNOTATIONS = {
-            "@green",
-            "@contr",
-            "@note"
-    };*/
     private static void registerWrittenBookTextures(Item book) {
-        /*ModelPredicateProviderRegistry.register(book, new Identifier("null"),
+        ModelPredicateProviderRegistry.register(book, Identifier.of("green"),
                 (stack, world, entity, seed) -> {
-                    NbtCompound nbtCompound = stack.getNbt();
-                    assert nbtCompound != null;
-                    String title = nbtCompound.getString(WrittenBookItem.TITLE_KEY);
-                    int flags = 0;
-                    for (int i = 0; i <= 2; i++) {
-                        if (title.contains(ANNOTATIONS[i])) {
-                            flags++;
-                        }
-                    }
-                    if (flags > 1) {
-                        return 1.0f;
-                    } else {
+                    WrittenBookContentComponent writtenBookContentComponent = stack.get(DataComponentTypes.WRITTEN_BOOK_CONTENT);
+                    if (writtenBookContentComponent == null) {
                         return 0.0f;
                     }
-                });*/
-        ModelPredicateProviderRegistry.register(book, new Identifier("green"),
-                (stack, world, entity, seed) -> {
-                    NbtCompound nbtCompound = stack.getNbt();
-                    assert nbtCompound != null;
-                    String title = nbtCompound.getString(WrittenBookItem.TITLE_KEY);
+                    String title = writtenBookContentComponent.title().toString();
                     if (title.contains("@green")) {
                         return 1.0f;
                     } else {
                         return 0.0f;
                     }
                 });
-        ModelPredicateProviderRegistry.register(book, new Identifier("contract"),
+        ModelPredicateProviderRegistry.register(book, Identifier.of("contract"),
                 (stack, world, entity, seed) -> {
-                    NbtCompound nbtCompound = stack.getNbt();
-                    assert nbtCompound != null;
-                    String title = nbtCompound.getString(WrittenBookItem.TITLE_KEY);
+                    WrittenBookContentComponent writtenBookContentComponent = stack.get(DataComponentTypes.WRITTEN_BOOK_CONTENT);
+                    if (writtenBookContentComponent == null) {
+                        return 0.0f;
+                    }
+                    String title = writtenBookContentComponent.title().toString();
                     if (title.contains("@contr")) {
                         return 1.0f;
                     } else {
                         return 0.0f;
                     }
                 });
-        ModelPredicateProviderRegistry.register(book, new Identifier("note"),
+        ModelPredicateProviderRegistry.register(book, Identifier.of("note"),
                 (stack, world, entity, seed) -> {
-                    NbtCompound nbtCompound = stack.getNbt();
-                    assert nbtCompound != null;
-                    String title = nbtCompound.getString(WrittenBookItem.TITLE_KEY);
+                    WrittenBookContentComponent writtenBookContentComponent = stack.get(DataComponentTypes.WRITTEN_BOOK_CONTENT);
+                    if (writtenBookContentComponent == null) {
+                        return 0.0f;
+                    }
+                    String title = writtenBookContentComponent.title().toString();
                     if (title.contains("@note")) {
                         return 1.0f;
                     } else {
                         return 0.0f;
                     }
                 });
-        ModelPredicateProviderRegistry.register(book, new Identifier("laws"),
+        ModelPredicateProviderRegistry.register(book, Identifier.of("laws"),
                 (stack, world, entity, seed) -> {
-                    NbtCompound nbtCompound = stack.getNbt();
-                    assert nbtCompound != null;
-                    String title = nbtCompound.getString(WrittenBookItem.TITLE_KEY);
+                    WrittenBookContentComponent writtenBookContentComponent = stack.get(DataComponentTypes.WRITTEN_BOOK_CONTENT);
+                    if (writtenBookContentComponent == null) {
+                        return 0.0f;
+                    }
+                    String title = writtenBookContentComponent.title().toString();
                     if (title.contains("@laws")) {
                         return 1.0f;
                     } else {
@@ -85,12 +76,18 @@ public class ModModelPredicateProvider {
                 });
     }
     private static void registerEnchantedBookTextures(Item book) {
-        ModelPredicateProviderRegistry.register(book, new Identifier("test"),
+        ModelPredicateProviderRegistry.register(book, Identifier.of("test"),
                 (stack, world, entity, seed) -> {
-                    NbtCompound nbtCompound = stack.getNbt();
-                    assert nbtCompound != null;
-                    int level = EnchantmentHelper.getLevelFromNbt(nbtCompound);
-                    if (level == 1) {
+                    ItemEnchantmentsComponent itemEnchantmentsComponent = stack.get(DataComponentTypes.ENCHANTMENTS);
+                    if (itemEnchantmentsComponent == null) {
+                        return 0.0f;
+                    }
+                    int maxLevel = 0;
+                    for (RegistryEntry<Enchantment> enchantmentRegistryEntry: itemEnchantmentsComponent.getEnchantments()) {
+                        int level = itemEnchantmentsComponent.getLevel(enchantmentRegistryEntry);
+                        if (level > maxLevel) maxLevel = level;
+                    }
+                    if (maxLevel == 1) {
                         return 1.0f;
                     } else {
                         return 0.0f;
@@ -98,34 +95,32 @@ public class ModModelPredicateProvider {
                 });
     }
     private static void registerBow(Item bow) {
-        ModelPredicateProviderRegistry.register(bow, new Identifier("pull"),
+        ModelPredicateProviderRegistry.register(bow, Identifier.of("pull"),
                 (stack, world, entity, seed) -> {
                     if (entity == null) {
-                        return 0.0f;
+                        return 0.0F;
+                    } else {
+                        return entity.getActiveItem() != stack ? 0.0F : (float)(stack.getMaxUseTime(entity) - entity.getItemUseTimeLeft()) / 20.0F;
                     }
-                    if (entity.getActiveItem() != stack) {
-                        return 0.0f;
-                    }
-                    return (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / 20.0f;
                 });
 
-        ModelPredicateProviderRegistry.register(bow, new Identifier("pulling"),
-                (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
+        ModelPredicateProviderRegistry.register(bow, Identifier.of("pulling"),
+                (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F);
     }
     private static void registerCrossbow(Item crossbow) {
-        ModelPredicateProviderRegistry.register(crossbow, new Identifier("pull"), (stack, world, entity, seed) -> {
+        ModelPredicateProviderRegistry.register(crossbow, Identifier.of("pull"), (stack, world, entity, seed) -> {
             if (entity == null) {
                 return 0.0F;
             } else {
-                return CrossbowItem.isCharged(stack) ? 0.0F : (float)(stack.getMaxUseTime() - entity.getItemUseTimeLeft()) / (float)CrossbowItem.getPullTime(stack);
+                return CrossbowItem.isCharged(stack) ? 0.0F : (float)(stack.getMaxUseTime(entity) - entity.getItemUseTimeLeft()) / (float)CrossbowItem.getPullTime(stack, entity);
             }
         });
-        ModelPredicateProviderRegistry.register(crossbow, new Identifier("pulling"),
-                (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CrossbowItem.isCharged(stack) ? 1.0F : 0.0F);
-        ModelPredicateProviderRegistry.register(crossbow, new Identifier("charged"),
-                (stack, world, entity, seed) -> CrossbowItem.isCharged(stack) ? 1.0F : 0.0F);
-        ModelPredicateProviderRegistry.register(crossbow, new Identifier("firework"),
-                (stack, world, entity, seed) -> CrossbowItem.isCharged(stack) && CrossbowItem.hasProjectile(stack, Items.FIREWORK_ROCKET) ? 1.0F : 0.0F);
+        ModelPredicateProviderRegistry.register(crossbow, Identifier.of("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CrossbowItem.isCharged(stack) ? 1.0F : 0.0F);
+        ModelPredicateProviderRegistry.register(crossbow, Identifier.of("charged"), (stack, world, entity, seed) -> CrossbowItem.isCharged(stack) ? 1.0F : 0.0F);
+        ModelPredicateProviderRegistry.register(crossbow, Identifier.of("firework"), (stack, world, entity, seed) -> {
+            ChargedProjectilesComponent chargedProjectilesComponent = stack.get(DataComponentTypes.CHARGED_PROJECTILES);
+            return chargedProjectilesComponent != null && chargedProjectilesComponent.contains(Items.FIREWORK_ROCKET) ? 1.0F : 0.0F;
+        });
     }
 
 }

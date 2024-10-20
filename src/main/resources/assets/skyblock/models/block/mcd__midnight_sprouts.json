@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "skyblock:block/mcd__midnight_sprouts"
+  }
+}

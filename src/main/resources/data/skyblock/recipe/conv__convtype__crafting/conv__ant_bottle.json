@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:ant_bottle"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyblock:skyblock__ant_bottle"
+  }
+}

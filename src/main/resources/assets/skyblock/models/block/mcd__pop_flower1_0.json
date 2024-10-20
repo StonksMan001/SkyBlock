@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "skyblock:block/mcd__pop_flower_0"
+  }
+}

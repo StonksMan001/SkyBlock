@@ -20,10 +20,11 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 
+@Deprecated
 public class BottleOfAntJam extends Item {
     private static final int MAX_USE_TIME = 40;
 
-    public BottleOfAntJam(Item.Settings settings) {
+    public BottleOfAntJam(Settings settings) {
         super(settings);
     }
 
@@ -51,10 +52,10 @@ public class BottleOfAntJam extends Item {
         return stack;
     }
 
-    @Override
+    /*@Override
     public int getMaxUseTime(ItemStack stack) {
         return 40;
-    }
+    }*/
 
     @Override
     public UseAction getUseAction(ItemStack stack) {

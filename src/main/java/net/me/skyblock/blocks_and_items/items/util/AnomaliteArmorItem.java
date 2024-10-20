@@ -10,18 +10,20 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
+import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.world.World;
 
+import java.rmi.registry.Registry;
 import java.util.Map;
 
 public class AnomaliteArmorItem extends UnenchantableArmorItem {
-    private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
-            (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
+    private static final Map<RegistryEntry<ArmorMaterial>, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
+            (new ImmutableMap.Builder<RegistryEntry<ArmorMaterial>, StatusEffectInstance>())
                     .put(ModArmorMaterials.H__ANOMALITE, new StatusEffectInstance(StatusEffects.INVISIBILITY, 100, 0,
                             false, false, false)).build();
 
-    public AnomaliteArmorItem(ArmorMaterial material, Type type, Settings settings) {
-        super(material, type, settings);
+    public AnomaliteArmorItem(RegistryEntry<ArmorMaterial> material, Type type, Settings settings, int durrabilityMultiplier) {
+        super(material, type, settings, durrabilityMultiplier);
     }
 
     @Override
@@ -36,8 +38,8 @@ public class AnomaliteArmorItem extends UnenchantableArmorItem {
     }
 
     private void evaluateArmorEffects(PlayerEntity player) {
-        for (Map.Entry<ArmorMaterial, StatusEffectInstance> entry : MATERIAL_TO_EFFECT_MAP.entrySet()) {
-            ArmorMaterial mapArmorMaterial = entry.getKey();
+        for (Map.Entry<RegistryEntry<ArmorMaterial>, StatusEffectInstance> entry : MATERIAL_TO_EFFECT_MAP.entrySet()) {
+            RegistryEntry<ArmorMaterial> mapArmorMaterial = entry.getKey();
             StatusEffectInstance mapStatusEffect = entry.getValue();
 
             if(hasCorrectArmorOn(mapArmorMaterial, player)) {
@@ -46,7 +48,7 @@ public class AnomaliteArmorItem extends UnenchantableArmorItem {
         }
     }
 
-    private void addStatusEffectForMaterial(PlayerEntity player, ArmorMaterial mapArmorMaterial, StatusEffectInstance mapStatusEffect) {
+    private void addStatusEffectForMaterial(PlayerEntity player, RegistryEntry<ArmorMaterial> mapArmorMaterial, StatusEffectInstance mapStatusEffect) {
         boolean hasPlayerEffect = player.hasStatusEffect(mapStatusEffect.getEffectType());
 
         if(hasCorrectArmorOn(mapArmorMaterial, player) && !hasPlayerEffect) {
@@ -64,7 +66,7 @@ public class AnomaliteArmorItem extends UnenchantableArmorItem {
                 && !leggings.isEmpty() && !boots.isEmpty();
     }
 
-    private boolean hasCorrectArmorOn(ArmorMaterial material, PlayerEntity player) {
+    private boolean hasCorrectArmorOn(RegistryEntry<ArmorMaterial> material, PlayerEntity player) {
         for (ItemStack armorStack: player.getInventory().armor) {
             if(!(armorStack.getItem() instanceof ArmorItem)) {
                 return false;

@@ -21,7 +21,7 @@ public class AbyssVegetation
 
     protected static final VoxelShape SHAPE = Block.createCuboidShape(2.0, 0.0, 2.0, 14.0, 13.0, 14.0);
 
-    public AbyssVegetation(AbstractBlock.Settings settings) {
+    public AbyssVegetation(Settings settings) {
         super(settings);
     }
     @Override

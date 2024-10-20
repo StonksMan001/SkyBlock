@@ -10,13 +10,11 @@ import net.minecraft.world.World;
 import net.minecraft.world.dimension.DimensionType;
 
 public class ModDimensions {
-    public static final RegistryKey<World> THE_ABYSS_KEY = RegistryKey.of(RegistryKeys.WORLD,
-            new Identifier(SkyBlock.MOD_ID, "the_abyss_fabric.json"));
-    public static final RegistryKey<World> UNKNOWN_KEY = RegistryKey.of(RegistryKeys.WORLD,
-            new Identifier(SkyBlock.MOD_ID, "unknown.json"));
-    public static final RegistryKey<DimensionType> THE_ABYSS_TYPE_KEY = RegistryKey.of(RegistryKeys.DIMENSION_TYPE, THE_ABYSS_KEY.getValue());
+    public static final RegistryKey<World> THE_ABYSS_KEY = SkyBlock.BuiltinRegistries.ofMinecraftWorldRegistry("the_abyss_fabric");
+    public static final RegistryKey<World> UNKNOWN_KEY = SkyBlock.BuiltinRegistries.ofMinecraftWorldRegistry("unknown");
+    public static final RegistryKey<DimensionType> THE_ABYSS_TYPE_KEY = SkyBlock.BuiltinRegistries.ofDimensionTypeRegistry(THE_ABYSS_KEY.getValue());
 
     public static void register() {
-        SkyBlock.LOGGER.debug("Registering ModDimensions for " + SkyBlock.MOD_ID);
+        SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering Dimensions for " + SkyBlock.MOD_ID);
     }
 }

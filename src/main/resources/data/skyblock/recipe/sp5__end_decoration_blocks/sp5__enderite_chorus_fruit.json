@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "skyblock:sp5__enderite_ingot"
+    }
+  ],
+  "result": {
+    "id": "skyblock:sp5__enderite_chorus_fruit"
+  },
+  "show_notification": false
+}

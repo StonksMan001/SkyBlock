@@ -1,5 +1,11 @@
 {
   "customSky [default: true]": true,
   "blendBiomeMusic [default: true]": true,
-  "sulfurWaterColor [default: true]": true
+  "sulfurWaterColor [default: true]": true,
+  "rendering": {
+    "custom_sky": true,
+    "sulfur_water_color": true,
+    "blend_biome_music": true
+  },
+  "modify_version": "21.0.11"
 }

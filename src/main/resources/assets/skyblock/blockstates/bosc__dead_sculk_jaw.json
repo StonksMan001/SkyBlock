@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+      { "model": "skyblock:block/bosc__dead_sculk_jaw" },
+      { "model": "skyblock:block/bosc__dead_sculk_jaw","y": 90 }
+    ]
+  }
+}

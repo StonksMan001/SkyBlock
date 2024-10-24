@@ -2,7 +2,7 @@ package net.me.skyblock.entity.mobs.skyblock.rendering;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-import net.me.skyblock.SkyBlock;
+import net.me.skyblock.registries.SkyBlock;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.IllagerEntityRenderer;

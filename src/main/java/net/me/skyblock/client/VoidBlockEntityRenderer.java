@@ -2,7 +2,8 @@ package net.me.skyblock.client;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-import net.me.skyblock.blocks_and_items.block_entities.mcd.echoing_void.VoidBlockEntity;
+import net.me.skyblock.block_entities.mcd.echoing_void.VoidBlockEntity;
+import net.me.skyblock.registries.SkyBlockRegistries;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.VertexConsumerProvider;
@@ -55,7 +56,7 @@ public class VoidBlockEntityRenderer<T extends VoidBlockEntity> implements Block
         return 0.0f;
     }
     protected RenderLayer getLayer() {
-        return ModRenderLayer.getVoidBlock();
+        return SkyBlockRegistries.RenderLayerRegistries.getVoidBlock();
     }
 
     public int getRenderDistance() {

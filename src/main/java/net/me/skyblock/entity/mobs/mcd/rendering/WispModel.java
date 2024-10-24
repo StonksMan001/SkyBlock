@@ -1,6 +1,6 @@
 package net.me.skyblock.entity.mobs.mcd.rendering;
 
-import net.me.skyblock.SkyBlock;
+import net.me.skyblock.registries.SkyBlock;
 import net.me.skyblock.entity.mobs.mcd.WispEntity;
 import net.minecraft.util.Identifier;
 

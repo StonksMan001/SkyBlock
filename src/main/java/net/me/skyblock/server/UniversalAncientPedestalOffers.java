@@ -1,15 +1,11 @@
 package net.me.skyblock.server;
 
-import net.me.skyblock.SkyBlock;
-import net.me.skyblock.blocks_and_items.ModBlocks;
+import net.me.skyblock.registries.SkyBlockRegistries;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import oshi.util.tuples.Pair;
 
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Random;
-import java.util.Set;
 
 public class UniversalAncientPedestalOffers {
     public static Map<Item, Tier> currentDeque() {
@@ -55,25 +51,25 @@ public class UniversalAncientPedestalOffers {
                 //CROPS
                 Map.entry(new Pair<>(Items.HAY_BLOCK, 8), Tier.GREEN),
                 Map.entry(new Pair<>(Items.WHEAT, 32), Tier.GREEN),
-                Map.entry(new Pair<>(ModBlocks.QUARK__APPLE_CRATE.asItem(), 8), Tier.GREEN),
+                Map.entry(new Pair<>(SkyBlockRegistries.BlockRegistries.QUARK__APPLE_CRATE.asItem(), 8), Tier.GREEN),
                 Map.entry(new Pair<>(Items.APPLE, 16), Tier.GREEN),
-                Map.entry(new Pair<>(ModBlocks.QUARK__BEETROOT_CRATE.asItem(), 8), Tier.GREEN),
+                Map.entry(new Pair<>(SkyBlockRegistries.BlockRegistries.QUARK__BEETROOT_CRATE.asItem(), 8), Tier.GREEN),
                 Map.entry(new Pair<>(Items.BEETROOT, 32), Tier.GREEN),
-                Map.entry(new Pair<>(ModBlocks.QUARK__CARROT_CRATE.asItem(), 8), Tier.GREEN),
+                Map.entry(new Pair<>(SkyBlockRegistries.BlockRegistries.QUARK__CARROT_CRATE.asItem(), 8), Tier.GREEN),
                 Map.entry(new Pair<>(Items.CARROT, 32), Tier.GREEN),
-                Map.entry(new Pair<>(ModBlocks.QUARK__POTATO_CRATE.asItem(), 8), Tier.GREEN),
+                Map.entry(new Pair<>(SkyBlockRegistries.BlockRegistries.QUARK__POTATO_CRATE.asItem(), 8), Tier.GREEN),
                 Map.entry(new Pair<>(Items.POTATO, 32), Tier.GREEN),
-                Map.entry(new Pair<>(ModBlocks.QUARK__SUGAR_CANE_BLOCK.asItem(), 8), Tier.GREEN),
+                Map.entry(new Pair<>(SkyBlockRegistries.BlockRegistries.QUARK__SUGAR_CANE_BLOCK.asItem(), 8), Tier.GREEN),
                 Map.entry(new Pair<>(Items.SUGAR_CANE, 32), Tier.GREEN),
-                Map.entry(new Pair<>(ModBlocks.QUARK__STICK_BLOCK.asItem(), 16), Tier.GREEN),
+                Map.entry(new Pair<>(SkyBlockRegistries.BlockRegistries.QUARK__STICK_BLOCK.asItem(), 16), Tier.GREEN),
                 Map.entry(new Pair<>(Items.STICK, 64), Tier.GREEN),
-                Map.entry(new Pair<>(ModBlocks.QUARK__CACTUS_BLOCK.asItem(), 4), Tier.GREEN),
+                Map.entry(new Pair<>(SkyBlockRegistries.BlockRegistries.QUARK__CACTUS_BLOCK.asItem(), 4), Tier.GREEN),
                 Map.entry(new Pair<>(Items.CACTUS, 16), Tier.GREEN),
-                Map.entry(new Pair<>(ModBlocks.QUARK__SWEET_BERRY_SACK.asItem(), 16), Tier.GREEN),
+                Map.entry(new Pair<>(SkyBlockRegistries.BlockRegistries.QUARK__SWEET_BERRY_SACK.asItem(), 16), Tier.GREEN),
                 Map.entry(new Pair<>(Items.SWEET_BERRIES, 64), Tier.GREEN),
-                Map.entry(new Pair<>(ModBlocks.QUARK__GLOW_BERRY_SACK.asItem(), 16), Tier.GREEN),
+                Map.entry(new Pair<>(SkyBlockRegistries.BlockRegistries.QUARK__GLOW_BERRY_SACK.asItem(), 16), Tier.GREEN),
                 Map.entry(new Pair<>(Items.GLOW_BERRIES, 64), Tier.GREEN),
-                Map.entry(new Pair<>(ModBlocks.QUARK__COCOA_BEAN_SACK.asItem(), 8), Tier.GREEN),
+                Map.entry(new Pair<>(SkyBlockRegistries.BlockRegistries.QUARK__COCOA_BEAN_SACK.asItem(), 8), Tier.GREEN),
                 Map.entry(new Pair<>(Items.COCOA_BEANS, 32), Tier.GREEN),
                 Map.entry(new Pair<>(Items.BAMBOO_BLOCK, 16), Tier.GREEN),
                 Map.entry(new Pair<>(Items.BAMBOO, 64), Tier.GREEN),
@@ -90,8 +86,8 @@ public class UniversalAncientPedestalOffers {
                 Map.entry(new Pair<>(Items.ACACIA_LEAVES, 8), Tier.GREEN),
                 Map.entry(new Pair<>(Items.JUNGLE_LEAVES, 8), Tier.GREEN),
                 Map.entry(new Pair<>(Items.MANGROVE_LEAVES, 8), Tier.GREEN),
-                Map.entry(new Pair<>(ModBlocks.DIGPEAR__CALLERY_LEAVES.asItem(), 8), Tier.GREEN),
-                Map.entry(new Pair<>(ModBlocks.DIGPEAR__FLOWERING_CALLERY_LEAVES.asItem(), 4), Tier.GREEN),
+                Map.entry(new Pair<>(SkyBlockRegistries.BlockRegistries.DIGPEAR__CALLERY_LEAVES.asItem(), 8), Tier.GREEN),
+                Map.entry(new Pair<>(SkyBlockRegistries.BlockRegistries.DIGPEAR__FLOWERING_CALLERY_LEAVES.asItem(), 4), Tier.GREEN),
                 Map.entry(new Pair<>(Items.CHERRY_LEAVES, 8), Tier.GREEN),
                 Map.entry(new Pair<>(Items.AZALEA_LEAVES, 8), Tier.GREEN),
                 Map.entry(new Pair<>(Items.FLOWERING_AZALEA_LEAVES, 4), Tier.GREEN),
@@ -119,7 +115,7 @@ public class UniversalAncientPedestalOffers {
                 Map.entry(new Pair<>(Items.JUNGLE_LOG, 8), Tier.GREEN),
                 Map.entry(new Pair<>(Items.MANGROVE_LOG, 8), Tier.GREEN),
                 Map.entry(new Pair<>(Items.CHERRY_LOG, 8), Tier.GREEN),
-                Map.entry(new Pair<>(ModBlocks.DIGPEAR__CALLERY_LOG.asItem(), 8), Tier.GREEN),
+                Map.entry(new Pair<>(SkyBlockRegistries.BlockRegistries.DIGPEAR__CALLERY_LOG.asItem(), 8), Tier.GREEN),
                 Map.entry(new Pair<>(Items.MUSHROOM_STEM, 8), Tier.GREEN),
                 //LOGS
                 //FLOWERS

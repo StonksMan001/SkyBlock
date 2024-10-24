@@ -1,6 +1,6 @@
 package net.me.skyblock.entity.mobs.mcd;
 
-import net.me.skyblock.sound.ModSounds;
+import net.me.skyblock.registries.SkyBlockRegistries;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
@@ -25,7 +25,7 @@ public class WispEntity extends AllayEntity {  //TODO: this
     }
     @Override
     protected SoundEvent getAmbientSound() {
-        return ModSounds.WISP_MOTION;
+        return SkyBlockRegistries.SoundRegistries.WISP_MOTION;
     }
 
     //@Override

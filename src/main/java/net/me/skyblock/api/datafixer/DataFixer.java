@@ -1,11 +1,10 @@
 package net.me.skyblock.api.datafixer;
 
 import de.ambertation.wunderlib.utils.Version;
-import net.me.skyblock.SkyBlock;
+import net.me.skyblock.registries.SkyBlock;
 import org.betterx.bclib.api.v2.datafixer.DataFixerAPI;
 import org.betterx.bclib.api.v2.datafixer.Patch;
 
-import java.util.List;
 import java.util.Map;
 
 

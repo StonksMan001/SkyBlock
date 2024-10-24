@@ -1,24 +1,20 @@
 package net.me.skyblock.client.gui.screen_handlers;
 
-import net.me.skyblock.blocks_and_items.block_entities.skyblock.AncientPedestalBlockEntity;
-import net.me.skyblock.client.ModScreenHandlers;
-import net.minecraft.block.entity.BlockEntity;
+import net.me.skyblock.registries.SkyBlockRegistries;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.ItemStack;
-import net.minecraft.network.PacketByteBuf;
 import net.minecraft.screen.*;
 import net.minecraft.screen.slot.Slot;
-import org.jetbrains.annotations.Nullable;
 
 public class AncientPedestalScreenHandler extends ScreenHandler {
     private final Inventory inventory;
 
 
     public AncientPedestalScreenHandler(int syncId, PlayerInventory playerInventory, Inventory inventory) {
-        super(ModScreenHandlers.SKYBLOCK__ANCIENT_PEDESTAL_SCREEN_HANDLER, syncId);
+        super(SkyBlockRegistries.ScreenHandlerRegistries.SKYBLOCK__ANCIENT_PEDESTAL_SCREEN_HANDLER, syncId);
         checkSize(inventory, 3);
         this.inventory = inventory;
         playerInventory.onOpen(playerInventory.player);

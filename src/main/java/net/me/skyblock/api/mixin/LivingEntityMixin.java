@@ -3,7 +3,7 @@ package net.me.skyblock.api.mixin;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
 import com.llamalad7.mixinextras.sugar.Local;
-import net.me.skyblock.blocks_and_items.ModItems;
+import net.me.skyblock.registries.SkyBlockRegistries;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.item.Item;
@@ -21,7 +21,7 @@ public abstract class LivingEntityMixin {
 
     @Inject(method = "tryUseTotem", at = @At(value = "INVOKE", target = "Lnet/minecraft/item/ItemStack;copy()Lnet/minecraft/item/ItemStack;", shift = At.Shift.BEFORE))
     public void tryUseTotem(DamageSource source, CallbackInfoReturnable<Boolean> cir, @Local Hand hand, @Local ItemStack itemStack2) {
-        if (itemStack2.isOf(ModItems.SKYBLOCK__BONDED_TOTEM_OF_UNDYING)) {
+        if (itemStack2.isOf(SkyBlockRegistries.ItemRegistries.SKYBLOCK__BONDED_TOTEM_OF_UNDYING)) {
             ItemStack itemStack3 = new ItemStack(Items.TOTEM_OF_UNDYING);
             if ((Object)this instanceof LivingEntity livingEntity) {
                 livingEntity.setStackInHand(hand, itemStack3);
@@ -30,7 +30,7 @@ public abstract class LivingEntityMixin {
     }
     @WrapOperation(method = "tryUseTotem", at = @At(value = "INVOKE", target = "Lnet/minecraft/item/ItemStack;isOf(Lnet/minecraft/item/Item;)Z"))
     public boolean isAlsoOf(ItemStack itemStack, Item item, Operation<Boolean> original) {
-        return original.call(itemStack, item) || itemStack.isOf(ModItems.SKYBLOCK__BONDED_TOTEM_OF_UNDYING);
+        return original.call(itemStack, item) || itemStack.isOf(SkyBlockRegistries.ItemRegistries.SKYBLOCK__BONDED_TOTEM_OF_UNDYING);
     }
     @Redirect(method = "tryUseTotem", at = @At(value = "INVOKE", target = "Lnet/minecraft/item/ItemStack;decrement(I)V"))
     public void decrement(ItemStack instance, int amount) {

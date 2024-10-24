@@ -1,23 +1,14 @@
 package net.me.skyblock.client.gui.screens;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import net.me.skyblock.SkyBlock;
-import net.me.skyblock.blocks_and_items.ModItems;
+import net.me.skyblock.registries.SkyBlock;
 import net.me.skyblock.client.gui.screen_handlers.AncientPedestalScreenHandler;
-import net.me.skyblock.server.UniversalAncientPedestalOffers;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
 import net.minecraft.client.render.GameRenderer;
 import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.item.Item;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import oshi.util.tuples.Pair;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 
 public class AncientPedestalScreen extends HandledScreen<AncientPedestalScreenHandler> {
     private static final Identifier TEXTURE = SkyBlock.identifierOfSkyBlock("textures/gui/skyblock__ancient_pedestal/skyblock__ancient_pedestal_screen.png");

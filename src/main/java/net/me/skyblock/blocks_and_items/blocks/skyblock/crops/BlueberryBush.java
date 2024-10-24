@@ -1,6 +1,7 @@
 package net.me.skyblock.blocks_and_items.blocks.skyblock.crops;
 
 import net.me.skyblock.blocks_and_items.ModItems;
+import net.me.skyblock.server.ModGameRules;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.LeavesBlock;
@@ -44,7 +45,7 @@ public class BlueberryBush extends LeavesBlock {
             }
         }
         if ((random.nextInt(20) == 0) && !state.get(HAS_BERRIES) && bl1) {
-            world.setBlockState(pos, state.with(HAS_BERRIES, true));
+            if (world.getGameRules().getBoolean(ModGameRules.SKYBLOCK__DO_BLUEBERRIES_GROW)) world.setBlockState(pos, state.with(HAS_BERRIES, true));
         }
     }
 

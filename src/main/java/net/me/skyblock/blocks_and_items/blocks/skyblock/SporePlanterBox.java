@@ -29,7 +29,7 @@ public class SporePlanterBox extends Block {
         this.isShroomLightSensitive = isShroomLightSensitive;
     }
     public Block mushroom;
-    public double multiplier;
+    public double multiplier; // higher number = lower growth chance
     public boolean isShroomLightSensitive;
     @Override
     public boolean hasRandomTicks(BlockState state) {

@@ -7,7 +7,7 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.1 - fishing rod nem működik bugfix">
+    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.1 - .gitignore update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
@@ -18,7 +18,11 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/WrittenBookItemMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/WrittenBookItemMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/EmptySporePlanterBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/EmptySporePlanterBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/SporePlanterBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/SporePlanterBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/crops/BlueberryBush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/crops/BlueberryBush.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/crops/PuffballMushroomBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/blocks/skyblock/crops/PuffballMushroomBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/server/ModGameRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/server/ModGameRules.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +265,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729425457606</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="v1.4.1 - WrittenBookItem enchantment glint bugfix">
+      <option name="closed" value="true" />
+      <created>1729427967286</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729427967286</updated>
+    </task>
+    <task id="LOCAL-00014" summary="v1.4.1 - .gitignore update">
+      <option name="closed" value="true" />
+      <created>1729427994127</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729427994127</updated>
+    </task>
+    <task id="LOCAL-00015" summary="v1.4.1 - .gitignore update">
+      <option name="closed" value="true" />
+      <created>1729428022914</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729428022914</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,6 +316,8 @@
     <MESSAGE value="v1.4.0 - .jar file" />
     <MESSAGE value="v1.4.1 - helytelen gamerule elnevezés fix" />
     <MESSAGE value="v1.4.1 - fishing rod nem működik bugfix" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.4.1 - fishing rod nem működik bugfix" />
+    <MESSAGE value="v1.4.1 - WrittenBookItem enchantment glint bugfix" />
+    <MESSAGE value="v1.4.1 - .gitignore update" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.4.1 - .gitignore update" />
   </component>
 </project>

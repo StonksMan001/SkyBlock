@@ -11,6 +11,7 @@ import net.minecraft.state.StateManager;
 import net.minecraft.state.property.EnumProperty;
 import net.minecraft.util.StringIdentifiable;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 
 import java.util.List;
@@ -42,18 +43,6 @@ public class EmptySporePlanterBox extends Block {
 
     @Override
     public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-        /*
-        int infecting_quality = world.getGameRules().getInt(ModGameRules.SKYBLOCK__RARE_MUSHROOM_GROWTH_CHANCE);
-        if (random.nextInt(infecting_quality * 3) == 0 && state.get(NATURAL) && !state.get(DEAD)) {
-            if (random.nextInt(2) == 0) {
-                BlockPos[] blockPosArray = {pos.north(), pos.south(), pos.east(), pos.west(), pos.north().east(), pos.north().west(), pos.south().east(), pos.south().west()};
-                int i = random.nextInt(8);
-                if (world.getBlockState(blockPosArray[i]).isOf(ModBlocks.SKYBLOCK__SPORE_PLANTER_BOX)) {
-                    world.setBlockState(blockPosArray[i], ModBlocks.SKYBLOCK__PUFFBALL_SPORE_PLANTER_BOX.getDefaultState());
-                    world.setBlockState(pos, state.with(DEAD, true));
-                }
-            } else world.setBlockState(pos, state.with(DEAD, true));
-        }*/
         int infecting_quality = world.getGameRules().getInt(ModGameRules.SKYBLOCK__RARE_MUSHROOM_GROWTH_CHANCE);
         BlockPos[] blockPosArray = {
                 pos.north(), pos.south(), pos.east(), pos.west(), pos.up(), pos.down(),
@@ -63,16 +52,18 @@ public class EmptySporePlanterBox extends Block {
                 pos.north().down(), pos.south().down(), pos.east().down(), pos.west().down()
         };
         Block[] blockKeyArray = shroom_planter_box_pairs().keySet().toArray(new Block[0]);
-        boolean ifUniqueCanExecute = state.getBlock() instanceof PuffballMushroomBlock && state.get(PuffballMushroomBlock.NATURAL) && !state.get(PuffballMushroomBlock.DEAD);
-
-
-
 
         if (random.nextInt(infecting_quality * 3) == 0) {
             int i = random.nextInt(blockPosArray.length);
-            Block block1 = world.getBlockState(blockPosArray[i]).getBlock();
-            if (List.of(blockKeyArray).contains(block1)) {
-                world.setBlockState(pos, shroom_planter_box_pairs().get(block1).getDefaultState());
+            BlockPos pos1 = blockPosArray[i];
+            BlockState state1 = world.getBlockState(pos1);
+            if (List.of(blockKeyArray).contains(state1.getBlock())) {
+                if (state1.getBlock() instanceof PuffballMushroomBlock && state1.get(PuffballMushroomBlock.NATURAL) && !state1.get(PuffballMushroomBlock.DEAD)) {
+                    world.setBlockState(pos, shroom_planter_box_pairs().get(state1.getBlock()).getDefaultState());
+                    world.setBlockState(pos1, state1.with(PuffballMushroomBlock.DEAD, true));
+                } else if (!(state1.getBlock() instanceof  PuffballMushroomBlock)) {
+                    world.setBlockState(pos, shroom_planter_box_pairs().get(state1.getBlock()).getDefaultState());
+                }
             }
         }
     }

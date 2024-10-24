@@ -34,16 +34,9 @@ public class PuffballMushroomBlock extends Block {
 
     @Override
     public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-        /*int infecting_quality = world.getGameRules().getInt(ModGameRules.SKYBLOCK__RARE_MUSHROOM_GROWTH_CHANCE);
+        int infecting_quality = world.getGameRules().getInt(ModGameRules.SKYBLOCK__RARE_MUSHROOM_GROWTH_CHANCE);
         if (random.nextInt(infecting_quality * 3) == 0 && state.get(NATURAL) && !state.get(DEAD)) {
-            if (random.nextInt(2) == 0) {
-                BlockPos[] blockPosArray = {pos.north(), pos.south(), pos.east(), pos.west(), pos.north().east(), pos.north().west(), pos.south().east(), pos.south().west()};
-                int i = random.nextInt(8);
-                if (world.getBlockState(blockPosArray[i]).isOf(ModBlocks.SKYBLOCK__SPORE_PLANTER_BOX)) {
-                    world.setBlockState(blockPosArray[i], ModBlocks.SKYBLOCK__PUFFBALL_SPORE_PLANTER_BOX.getDefaultState());
-                    world.setBlockState(pos, state.with(DEAD, true));
-                }
-            } else world.setBlockState(pos, state.with(DEAD, true));
-        }*/
+            world.setBlockState(pos, state.with(DEAD, true));
+        }
     }
 }

@@ -1,6 +1,6 @@
 package net.me.skyblock.api.mixin;
 
-import net.me.skyblock.blocks_and_items.ModBlocks;
+import net.me.skyblock.registries.SkyBlockRegistries;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -24,22 +24,22 @@ public abstract class ChorusPlantBlockMixin extends Block {
     @Inject(method = "canPlaceAt", at = @At("HEAD"), cancellable = true)
     private void canSurvive(BlockState state, WorldView world, BlockPos pos, CallbackInfoReturnable<Boolean> info) {
         BlockState down = world.getBlockState(pos.down());
-        if (down.isOf(ModBlocks.SP5__BLUISHE_GRASS) ||down.isOf(ModBlocks.MCD__BARREN_GRASS_BLOCK) ||down.isOf(ModBlocks.SP5__END_GRASS) || down.isOf(Blocks.END_STONE)) {
+        if (down.isOf(SkyBlockRegistries.BlockRegistries.SP5__BLUISHE_GRASS) ||down.isOf(SkyBlockRegistries.BlockRegistries.MCD__BARREN_GRASS_BLOCK) ||down.isOf(SkyBlockRegistries.BlockRegistries.SP5__END_GRASS) || down.isOf(Blocks.END_STONE)) {
             info.setReturnValue(true);
         }
     }
     @Inject(method = "getStateForNeighborUpdate", at = @At("RETURN"), cancellable = true)
     private void getStateForNeighborUpdate(BlockState state, Direction direction, BlockState newState, WorldAccess world, BlockPos pos, BlockPos posFrom, CallbackInfoReturnable<BlockState> info) {
         BlockState plant = info.getReturnValue();
-        if (plant.isOf(Blocks.CHORUS_PLANT) && world.getBlockState(pos.down()).isOf(ModBlocks.SP5__END_GRASS)) {
+        if (plant.isOf(Blocks.CHORUS_PLANT) && world.getBlockState(pos.down()).isOf(SkyBlockRegistries.BlockRegistries.SP5__END_GRASS)) {
             plant = plant.with(Properties.DOWN, true);
             info.setReturnValue(plant);
         }
-        if (plant.isOf(Blocks.CHORUS_PLANT) && world.getBlockState(pos.down()).isOf(ModBlocks.SP5__BLUISHE_GRASS)) {
+        if (plant.isOf(Blocks.CHORUS_PLANT) && world.getBlockState(pos.down()).isOf(SkyBlockRegistries.BlockRegistries.SP5__BLUISHE_GRASS)) {
             plant = plant.with(Properties.DOWN, true);
             info.setReturnValue(plant);
         }
-        if (plant.isOf(Blocks.CHORUS_PLANT) && world.getBlockState(pos.down()).isOf(ModBlocks.MCD__BARREN_GRASS_BLOCK)) {
+        if (plant.isOf(Blocks.CHORUS_PLANT) && world.getBlockState(pos.down()).isOf(SkyBlockRegistries.BlockRegistries.MCD__BARREN_GRASS_BLOCK)) {
             plant = plant.with(Properties.DOWN, true);
             info.setReturnValue(plant);
         }

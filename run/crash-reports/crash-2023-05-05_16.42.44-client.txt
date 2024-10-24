@@ -18,7 +18,7 @@ java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to err
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
 Caused by: java.lang.ExceptionInInitializerError
-	at net.me.skyblock.SkyBlock.onInitialize(SkyBlock.java:18)
+	at net.me.skyblock.registries.SkyBlock.onInitialize(SkyBlock.java:18)
 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
 	... 9 more
 Caused by: java.lang.RuntimeException: Attempted to register ID ResourceKey[minecraft:item / skyblock:enderite_hoe] at different raw IDs (1197, 1198)! If you're trying to override an item, use .set(), not .register()!
@@ -28,8 +28,8 @@ Caused by: java.lang.RuntimeException: Attempted to register ID ResourceKey[mine
 	at net.minecraft.registry.SimpleRegistry.add(SimpleRegistry.java:186)
 	at net.minecraft.registry.Registry.register(Registry.java:118)
 	at net.minecraft.registry.Registry.register(Registry.java:114)
-	at net.me.skyblock.blocks_and_items.ModItems.registerItem(ModItems.java:51)
-	at net.me.skyblock.blocks_and_items.ModItems.<clinit>(ModItems.java:41)
+	at net.me.skyblock.registries.SkyBlockRegistries.ItemRegistries.registerItem(ModItems.java:51)
+	at net.me.skyblock.registries.SkyBlockRegistries.ItemRegistries.<clinit>(ModItems.java:41)
 	... 11 more
 
 

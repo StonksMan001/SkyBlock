@@ -1,0 +1,8 @@
+{
+	"parent": "skyblock:block/skyblock__bushy_leaves",
+	"textures": {
+		"1": "skyblock:block/skyblock__blueberry_bush0",
+		"2": "skyblock:block/outer_leaves/skyblock__blueberry_bush0_outer",
+		"particle": "skyblock:block/skyblock__blueberry_bush0"
+	}
+}

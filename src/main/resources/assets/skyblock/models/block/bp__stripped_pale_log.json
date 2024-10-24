@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyblock:block/bp__stripped_pale_log_top",
+    "side": "skyblock:block/bp__stripped_pale_log"
+  }
+}

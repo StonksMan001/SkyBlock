@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "skyblock:end_emerald_ore",
+    "skyblock:end_emerald_block",
+
+    "skyblock:sp5__end_emerald_ore",
+    "skyblock:sp5__end_emerald_block",
+    "skyblock:mcd__void_block",
+    "skyblock:abyss__abyss_diamond_ore",
+    "skyblock:abyss__abyss_gold_ore",
+    "skyblock:abyss__abyss_emerald_ore",
+    "skyblock:abyss__abyss_ignisithe_ore",
+    "skyblock:abyss__abyss_aberythe_ore",
+    "skyblock:abyss__abyss_aboranys_ore",
+    "skyblock:abyss__abyss_fusion_ore",
+    "skyblock:abyss__abyss_garnite_ore",
+    "skyblock:abyss__abyss_glacerythe_ore",
+    "skyblock:abyss__abyss_incorythe_ore",
+    "skyblock:abyss__abyss_loran_ore",
+    "skyblock:skyblock__frostslate",
+    "skyblock:skyblock__frostslate_pillar",
+    "skyblock:skyblock__frostslate_bricks",
+    "skyblock:skyblock__frostslate_brick_slab",
+    "skyblock:skyblock__frostslate_brick_stairs",
+
+    "skyblock:skyblock__pestilent_trophy"
+  ]
+}

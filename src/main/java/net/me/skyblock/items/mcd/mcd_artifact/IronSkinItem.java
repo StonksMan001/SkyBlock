@@ -11,6 +11,7 @@ import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Style;
 import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.Box;
@@ -61,9 +62,9 @@ public class IronSkinItem extends McdArtifactItem {
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("tooltip.skyblock.artifact_iron_hide_amulet.tooltip1").setStyle(Style.EMPTY.withItalic(true)));
-        tooltip.add(Text.translatable("tooltip.skyblock.artifact_iron_hide_amulet.tooltip2").setStyle(Style.EMPTY.withItalic(true)));
-        tooltip.add(Text.translatable("tooltip.skyblock.artifact_iron_hide_amulet.tooltip3").setStyle(Style.EMPTY.withItalic(true)));
+        tooltip.add(Text.translatable("tooltip.skyblock.artifact_iron_hide_amulet.tooltip1").setStyle(Style.EMPTY.withItalic(true).withFormatting(Formatting.GRAY)));
+        tooltip.add(Text.translatable("tooltip.skyblock.artifact_iron_hide_amulet.tooltip2").setStyle(Style.EMPTY.withItalic(true).withFormatting(Formatting.GRAY)));
+        tooltip.add(Text.translatable("tooltip.skyblock.artifact_iron_hide_amulet.tooltip3").setStyle(Style.EMPTY.withItalic(true).withFormatting(Formatting.GRAY)));
         tooltip.add(Text.translatable(rarityTooltip));
         super.appendTooltip(stack, context, tooltip, type);
     }

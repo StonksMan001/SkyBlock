@@ -356,6 +356,18 @@
 
   "block.skyblock.quark__cave_roots": "Barlangi Gyökerek",
 
+  "block.skyblock.skyblock__puffball_mushroom": "Pöfeteg gomba",
+  "block.skyblock.skyblock__puffball_mushroom_block": "Pöfeteg gomba blokk",
+  "item.skyblock.skyblock__puffball_mushroom_flesh": "Pöfeteg gomba hús",
+  "item.skyblock.skyblock__cooked_puffball_mushroom_flesh": "Rántott pöfeteg gomba hús",
+  "item.skyblock.skyblock__puffball_mushroom_stew": "Pöfeteg gombaragu",
+  "block.skyblock.skyblock__spore_planter_box": "Spóratenyésztő doboz",
+  "block.skyblock.skyblock__puffball_spore_planter_box": "Spóratenyésztő doboz",
+  "block.skyblock.skyblock__red_mushroom_spore_planter_box": "Spóratenyésztő doboz",
+  "block.skyblock.skyblock__brown_mushroom_spore_planter_box": "Spóratenyésztő doboz",
+  "tooltip.skyblock.skyblock__spore_type": "Spórák",
+  "tooltip.skyblock.skyblock__empty_spore_type": "Üres",
+
   "block.skyblock.quark__vertical_oak_planks": "Függőleges tölgydeszka",
   "block.skyblock.quark__vertical_spruce_planks": "Függőleges fenyődeszka",
   "block.skyblock.quark__vertical_birch_planks": "Függőleges nyírfa deszka",
@@ -470,6 +482,7 @@
   "block.skyblock.skyblock__unknown_vegetation": "Ismeretlen növényzet",
 
   "item.skyblock.mcd__artifact_iron_hide_amulet": "Vasba foglalt amulett",
+  "tooltip.skyblock.minecraft_dungeons_header": "Minecraft Dungeons leírás:",
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip1": "A Vasba foglalt amulett egy ősrégi",
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip2": "tárgy. A benne lévő repedésekből",
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip3": "a homok időnként kipereg",

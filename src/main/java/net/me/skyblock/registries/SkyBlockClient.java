@@ -4,7 +4,6 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
-import net.me.skyblock.registries.archived.ArchivedBlockRegistries;
 import net.me.skyblock.entity.mobs.skyblock.rendering.OminousEvokerRenderer;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.render.RenderLayer;
@@ -16,11 +15,11 @@ public class SkyBlockClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         // Should never touch
-        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedBlockRegistries.ANT_JAM_BLOCK, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedBlockRegistries.SWEET_BERRY_JAM_BLOCK, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedBlockRegistries.TRANSPARENT_BLOCK, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedBlockRegistries.BLUE_WART, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedBlockRegistries.CAVE_ROOTS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedRegistries.ArchivedBlockRegistries.ANT_JAM_BLOCK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedRegistries.ArchivedBlockRegistries.SWEET_BERRY_JAM_BLOCK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedRegistries.ArchivedBlockRegistries.TRANSPARENT_BLOCK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedRegistries.ArchivedBlockRegistries.BLUE_WART, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ArchivedRegistries.ArchivedBlockRegistries.CAVE_ROOTS, RenderLayer.getCutout());
         // Should never touch
 
         BlockRenderLayerMap.INSTANCE.putBlock(SkyBlockRegistries.BlockRegistries.SKYBLOCK__DUCKWEED, RenderLayer.getCutout());

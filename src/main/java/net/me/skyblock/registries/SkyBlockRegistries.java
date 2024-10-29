@@ -41,9 +41,10 @@ import net.me.skyblock.items.mcd.mcd_artifact.IronSkinItem_Common;
 import net.me.skyblock.items.mcd.mcd_ranged.ShortBowItem;
 import net.me.skyblock.items.skyblock.ChilliPepper;
 import net.me.skyblock.items.skyblock.FirwoodMace;
+import net.me.skyblock.items.skyblock.SporePlanterBoxItem;
 import net.me.skyblock.items.util.AnomaliteArmorItem;
-import net.me.skyblock.items.util.GhostItems;
 import net.me.skyblock.items.util.NullItem;
+import net.me.skyblock.items.util.TileBlankItem;
 import net.me.skyblock.items.util.custom_unenchantable.UnenchantableAxeItem;
 import net.me.skyblock.items.util.custom_unenchantable.UnenchantablePickaxeItem;
 import net.me.skyblock.items.util.custom_unenchantable.UnenchantableSwordItem;
@@ -51,8 +52,6 @@ import net.me.skyblock.client.VoidBlockEntityRenderer;
 import net.me.skyblock.client.gui.screen_handlers.AncientPedestalScreenHandler;
 import net.me.skyblock.component.util.SimpleByteValueComponent;
 import net.me.skyblock.entity.mobs.skyblock.OminousEvokerEntity;
-import net.me.skyblock.registries.archived.ArchivedBlockRegistries;
-import net.me.skyblock.registries.archived.ArchivedItemRegistries;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
@@ -247,8 +246,12 @@ public class SkyBlockRegistries {
                 new Item(new Item.Settings().food(FoodComponentRegistries.SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE)));
         //SKYBLOCK MAIN-BLOCK
         //SKYBLOCK VANILLA+
-        public static final Item SKYBLOCK__PUFFBALL_FLESH = SkyBlock.BuiltinRegistries.registerItem("skyblock__puffball_flesh",
+        public static final Item SKYBLOCK__PUFFBALL_MUSHROOM_FLESH = SkyBlock.BuiltinRegistries.registerItem("skyblock__puffball_mushroom_flesh",
                 new Item(new Item.Settings()));
+        public static final Item SKYBLOCK__COOKED_PUFFBALL_MUSHROOM_FLESH = SkyBlock.BuiltinRegistries.registerItem("skyblock__cooked_puffball_mushroom_flesh",
+                new Item(new Item.Settings()));
+        public static final Item SKYBLOCK__PUFFBALL_MUSHROOM_STEW = SkyBlock.BuiltinRegistries.registerItem("skyblock__puffball_mushroom_stew",
+                new Item(new Item.Settings().maxCount(1)));
         public static final Item SKYBLOCK__CHILLI_PEPPER_SEEDS = SkyBlock.BuiltinRegistries.registerItem("skyblock__chilli_pepper_seeds",
                 new AliasedBlockItem(BlockRegistries.SKYBLOCK__CHILLI_PEPPER_CROP, new Item.Settings()));
         public static final Item SKYBLOCK__CHILLI_PEPPER = SkyBlock.BuiltinRegistries.registerItem("skyblock__chilli_pepper",
@@ -271,11 +274,21 @@ public class SkyBlockRegistries {
                 new Item(new Item.Settings()));
         public static final Item SKYBLOCK__COMMON_TOKEN = SkyBlock.BuiltinRegistries.registerItem("skyblock__common_token",
                 new Item(new Item.Settings()));
+        //SPORE PLANTER BOXES
+        public static final Item SKYBLOCK__SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerItemThatHasBlock(
+                new SporePlanterBoxItem(BlockRegistries.SKYBLOCK__SPORE_PLANTER_BOX, new Item.Settings(), "tooltip.skyblock.skyblock__empty_spore_type"));
+        public static final Item SKYBLOCK__PUFFBALL_SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerItemThatHasBlock(
+                new SporePlanterBoxItem(BlockRegistries.SKYBLOCK__PUFFBALL_SPORE_PLANTER_BOX, new Item.Settings(), BlockRegistries.SKYBLOCK__PUFFBALL_MUSHROOM.asItem().getTranslationKey()));
+        public static final Item SKYBLOCK__RED_MUSHROOM_SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerItemThatHasBlock(
+                new SporePlanterBoxItem(BlockRegistries.SKYBLOCK__RED_MUSHROOM_SPORE_PLANTER_BOX, new Item.Settings(), Blocks.RED_MUSHROOM.asItem().getTranslationKey()));
+        public static final Item SKYBLOCK__BROWN_MUSHROOM_SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerItemThatHasBlock(
+                new SporePlanterBoxItem(BlockRegistries.SKYBLOCK__BROWN_MUSHROOM_SPORE_PLANTER_BOX, new Item.Settings(), Blocks.BROWN_MUSHROOM.asItem().getTranslationKey()));
+        //SPORE PLANTER BOXES
         //---1.21.1+
         public static final Item SKYBLOCK__BONDED_TOTEM_OF_UNDYING = SkyBlock.BuiltinRegistries.registerItem("skyblock__bonded_totem_of_undying",
                 new Item(new Item.Settings().maxCount(1).rarity(Rarity.UNCOMMON)));
         public static final Item SKYBLOCK__OMINOUS_LINK = SkyBlock.BuiltinRegistries.registerItem("skyblock__ominous_link",
-                new Item(new Item.Settings().maxCount(1)));
+                new Item(new Item.Settings().maxCount(1).rarity(Rarity.EPIC)));
         public static final Item SKYBLOCK__COMPRESSED_STEEL = SkyBlock.BuiltinRegistries.registerItemThatHasBlock(
                 new BlockItem(BlockRegistries.SKYBLOCK__COMPRESSED_STEEL, new Item.Settings()
                         .rarity(Rarity.EPIC)));
@@ -284,6 +297,8 @@ public class SkyBlockRegistries {
         //SKYBLOCK TROPHIES
         public static final Item SKYBLOCK__PESTILENT_TROPHY = SkyBlock.BuiltinRegistries.registerItemThatHasBlock(
                 new BlockItem(BlockRegistries.SKYBLOCK__PESTILENT_TROPHY, new Item.Settings().maxCount(1)));
+        public static final Item SKYBLOCK__TORCH_OF_LUNACY = SkyBlock.BuiltinRegistries.registerItem("skyblock__torch_of_lunacy",
+                new Item(new Item.Settings().maxCount(1)));
         //SKYBLOCK TROPHIES
 
         public static final Item ABYSS__LORAN = SkyBlock.BuiltinRegistries.registerItem("abyss__loran",
@@ -504,16 +519,16 @@ public class SkyBlockRegistries {
 
     public static class ItemGroupRegistries {
         public static final ItemGroup SKYBLOCK_FEATURES = SkyBlock.BuiltinRegistries.registerItemGroup( "skyblock_features",
-                FabricItemGroup.builder().displayName(Text.literal("SkyBlock-Multimod")).icon(() -> new ItemStack(GhostItems.Z__LOGO1)).entries((displayContext, entries) -> {
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK_4, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK_5, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK_6, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                FabricItemGroup.builder().displayName(Text.literal("SkyBlock-Multimod")).icon(() -> new ItemStack(GhostItemRegistries.Z__LOGO1)).entries((displayContext, entries) -> {
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK_4, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK_5, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK_6, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(BlockRegistries.SKYBLOCK__FROSTSLATE);
                     entries.add(BlockRegistries.SKYBLOCK__FROSTSLATE_PILLAR);
                     entries.add(BlockRegistries.SKYBLOCK__FROSTSLATE_BRICKS);
@@ -526,15 +541,15 @@ public class SkyBlockRegistries {
                     entries.add(ItemRegistries.SKYBLOCK__ANT_BOTTLE);
                     entries.add(BlockRegistries.SKYBLOCK__SUSPICIOUS_COARSE_DIRT);
                     ItemGroupRegistries.addSpaces(entries, 3, 5);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2_4, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2_5, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2_6, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2_4, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2_5, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2_6, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(BlockRegistries.SKYBLOCK__BOGGED_LOG);
                     entries.add(BlockRegistries.SKYBLOCK__BOGGED_WOOD);
                     entries.add(BlockRegistries.SKYBLOCK__BOGGED_PLANKS);
@@ -569,6 +584,15 @@ public class SkyBlockRegistries {
                     entries.add(BlockRegistries.SKYBLOCK__BLUEBERRY_BUSH);
                     entries.add(ItemRegistries.SKYBLOCK__CHILLI_PEPPER_SEEDS);
                     ItemGroupRegistries.addSpaces(entries, 8, 3);
+                    entries.add(BlockRegistries.SKYBLOCK__PUFFBALL_MUSHROOM_BLOCK);
+                    entries.add(ItemRegistries.SKYBLOCK__PUFFBALL_MUSHROOM_FLESH);
+                    entries.add(ItemRegistries.SKYBLOCK__COOKED_PUFFBALL_MUSHROOM_FLESH);
+                    entries.add(BlockRegistries.SKYBLOCK__PUFFBALL_MUSHROOM);
+                    entries.add(ItemRegistries.SKYBLOCK__PUFFBALL_MUSHROOM_STEW);
+                    entries.add(ItemRegistries.SKYBLOCK__SPORE_PLANTER_BOX);
+                    entries.add(ItemRegistries.SKYBLOCK__PUFFBALL_SPORE_PLANTER_BOX);
+                    entries.add(ItemRegistries.SKYBLOCK__RED_MUSHROOM_SPORE_PLANTER_BOX);
+                    entries.add(ItemRegistries.SKYBLOCK__BROWN_MUSHROOM_SPORE_PLANTER_BOX);
                     entries.add(BlockRegistries.SKYBLOCK__CHILLI_PEPPER_CRATE);
                     entries.add(ItemRegistries.SKYBLOCK__CHILLI_PEPPER);
                     entries.add(BlockRegistries.SKYBLOCK__GOLDEN_CHILLI_PEPPER_CRATE);
@@ -592,15 +616,15 @@ public class SkyBlockRegistries {
                     entries.add(BlockRegistries.SKYBLOCK__CARVED_DARK_OAK_PLANKS);
                     entries.add(BlockRegistries.ABYSS__CARVED_FROZEN_PLANKS);
                     ItemGroupRegistries.addSpaces(entries, 12, 5);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p1_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p1_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p1_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p1_4, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p1_5, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p1_6, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p1_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p1_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p1_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_4, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_5, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_6, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(BlockRegistries.BP__PALE_LOG);
                     entries.add(BlockRegistries.BP__PALE_WOOD);
                     entries.add(BlockRegistries.BP__STRIPPED_PALE_LOG);
@@ -614,26 +638,27 @@ public class SkyBlockRegistries {
                     entries.add(BlockRegistries.BP__PALE_MOSS_BLOCK);
                     entries.add(BlockRegistries.BP__PALE_MOSS_CARPET);
                     ItemGroupRegistries.addSpaces(entries, 17, 6);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p2_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p2_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p2_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p2_4, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p2_5, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p2_6, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p2_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p2_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK2p2_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_4, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_5, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_6, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(ItemRegistries.SKYBLOCK__PESTILENT_TROPHY);
-                    ItemGroupRegistries.addSpaces(entries, 23, 8);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK3_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK3_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK3_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK3_4, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK3_5, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK3_6, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK3_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK3_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SKYBLOCK3_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(ItemRegistries.SKYBLOCK__TORCH_OF_LUNACY);
+                    ItemGroupRegistries.addSpaces(entries, 23, 7);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_4, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_5, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_6, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(ItemRegistries.H__ANOMALITE_SWORD);
                     entries.add(ItemRegistries.H__ANOMALITE_AXE);
                     entries.add(ItemRegistries.H__ANOMALITE_PICKAXE);
@@ -648,15 +673,15 @@ public class SkyBlockRegistries {
                     entries.add(ItemRegistries.H__PLASMA_1);
                     entries.add(ItemRegistries.H__PLASMA_2);
                     entries.add(BlockRegistries.H__NODE);
-                    ItemGroupRegistries.addSpaces(entries, 31, 4);
-                    entries.add(GhostItems.Z__TILE_SP5_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SP5_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SP5_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SP5_4, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SP5_5, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SP5_6, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SP5_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(GhostItems.Z__TILE_SP5_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    ItemGroupRegistries.addSpaces(entries, 30, 4);
+                    entries.add(GhostItemRegistries.Z__TILE_SP5_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SP5_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SP5_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SP5_4, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SP5_5, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SP5_6, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SP5_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(GhostItemRegistries.Z__TILE_SP5_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     ItemGroupRegistries.addTiles(entries, 0, 1);
                     entries.add(ItemRegistries.SP5__ENDERITE_INGOT);
                     entries.add(ItemRegistries.SP5__ENDERITE_APPLE);
@@ -765,7 +790,7 @@ public class SkyBlockRegistries {
                     entries.add(ItemRegistries.SP5__BLUISHE_SHOVEL);
                     entries.add(ItemRegistries.SP5__BLUISHE_HOE);
                     entries.add(ItemRegistries.SP5__BLUISHE_PICKAXE);
-                    ItemGroupRegistries.addSpaces(entries, 35, 0);
+                    ItemGroupRegistries.addSpaces(entries, 34, 0);
                     ItemGroupRegistries.addTiles(entries, 1, 9);
                     entries.add(Blocks.SCULK);
                     entries.add(BlockRegistries.BOSC__SCULK_JAW);
@@ -776,13 +801,13 @@ public class SkyBlockRegistries {
                     entries.add(BlockRegistries.BOSC__DEAD_SCULK);
                     entries.add(BlockRegistries.BOSC__DEAD_SCULK_JAW);
                     entries.add(BlockRegistries.BOSC__DEAD_SCULK_SPROUTS);
-                    ItemGroupRegistries.addSpaces(entries, 35, 0);
+                    ItemGroupRegistries.addSpaces(entries, 34, 0);
                     ItemGroupRegistries.addTiles(entries, 10, 9);
                     entries.add(BlockRegistries.SKYBLOCK__UNKNOWN_DIRT_NYLIUM);
                     entries.add(BlockRegistries.SKYBLOCK__UNKNOWN_DIRT);
                     entries.add(BlockRegistries.SKYBLOCK__UNKNOWN_VEGETATION);
                     entries.add(BlockRegistries.SKYBLOCK__UNKNOWN_SPROUTS);
-                    ItemGroupRegistries.addSpaces(entries, 35, 5);
+                    ItemGroupRegistries.addSpaces(entries, 34, 5);
                     ItemGroupRegistries.addTiles(entries, 19, 9);
                     entries.add(BlockRegistries.FLOGICAL__AZALEA_LOG);
                     entries.add(BlockRegistries.FLOGICAL__AZALEA_WOOD);
@@ -791,7 +816,7 @@ public class SkyBlockRegistries {
                     entries.add(BlockRegistries.FLOGICAL__AZALEA_PLANKS);
                     entries.add(BlockRegistries.FLOGICAL__AZALEA_STAIRS);
                     entries.add(BlockRegistries.FLOGICAL__AZALEA_SLAB);
-                    ItemGroupRegistries.addSpaces(entries, 40, 2);
+                    ItemGroupRegistries.addSpaces(entries, 39, 2);
                     ItemGroupRegistries.addTiles(entries, 28, 9);
                     entries.add(BlockRegistries.DIGPEAR__CALLERY_LOG);
                     entries.add(BlockRegistries.DIGPEAR__CALLERY_WOOD);
@@ -805,7 +830,7 @@ public class SkyBlockRegistries {
                     ItemGroupRegistries.addTiles(entries, 37, 9);
                 }).build());
         public static ItemGroup MCD = SkyBlock.BuiltinRegistries.registerItemGroup("minecraft_dungeons",
-                FabricItemGroup.builder().displayName(Text.literal("SkyBlock: Minecraft Dungeons (ilosemypotato)")).icon(() -> new ItemStack(GhostItems.Z__LOGO2)).entries((displayContext, entries) -> {
+                FabricItemGroup.builder().displayName(Text.literal("SkyBlock: Minecraft Dungeons (ilosemypotato)")).icon(() -> new ItemStack(GhostItemRegistries.Z__LOGO2)).entries((displayContext, entries) -> {
                     entries.add(ItemRegistries.MCD__SHORTBOW);
                     //entries.add(ModItems.MCD__LONGBOW);
                     entries.add(ItemRegistries.MCD__TWIN_BOW);
@@ -828,13 +853,7 @@ public class SkyBlockRegistries {
                     entries.add(ItemRegistries.MCD__ARTIFACT_IRON_HIDE_AMULET);
                 }).build());
         public static ItemGroup UNUSED = SkyBlock.BuiltinRegistries.registerItemGroup("unused",
-                FabricItemGroup.builder().displayName(Text.literal("SkyBlock: Unused (Qbaesz13)")).icon(() -> new ItemStack(GhostItems.Z__LOGO5)).entries((displayContext, entries) -> {
-                    invisibleAdd(entries, ItemRegistries.SKYBLOCK__PUFFBALL_FLESH);
-                    invisibleAdd(entries, BlockRegistries.SKYBLOCK__PUFFBALL_MUSHROOM);
-                    invisibleAdd(entries, BlockRegistries.SKYBLOCK__PUFFBALL_MUSHROOM_BLOCK);
-                    invisibleAdd(entries, BlockRegistries.SKYBLOCK__SPORE_PLANTER_BOX);
-                    invisibleAdd(entries, BlockRegistries.SKYBLOCK__PUFFBALL_SPORE_PLANTER_BOX);
-                    invisibleAdd(entries, BlockRegistries.SKYBLOCK__RED_MUSHROOM_SPORE_PLANTER_BOX);
+                FabricItemGroup.builder().displayName(Text.literal("SkyBlock: Unused (Qbaesz13)")).icon(() -> new ItemStack(GhostItemRegistries.Z__LOGO5)).entries((displayContext, entries) -> {
                     invisibleAdd(entries, ItemRegistries.WITHERSTORM__MUSIC_DISC_WITHERSTORM);
                     invisibleAdd(entries, ItemRegistries.WITHERSTORM__DISC_FRAGMENT_WITHERSTORM);
                     invisibleAdd(entries, ItemRegistries.SKYBLOCK__FYBERITE);
@@ -865,85 +884,85 @@ public class SkyBlockRegistries {
                     invisibleAdd(entries, ItemRegistries.SP5__NAVI_FRUIT);
                     invisibleAdd(entries, ItemRegistries.SP5__END_BEEF);
                     invisibleAdd(entries, ItemRegistries.SP5__COOKED_END_BEEF);
-                    invisibleAdd(entries, ArchivedBlockRegistries.ENDMERALD_ORE);
-                    invisibleAdd(entries, ArchivedBlockRegistries.ENDMERALD_BLOCK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.ENDERITE_ORE);
-                    invisibleAdd(entries, ArchivedBlockRegistries.ENDERITE_BLOCK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.ASTEROID_RESIDUES);
-                    invisibleAdd(entries, ArchivedBlockRegistries.SOLID_ROCK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.END_GRASS);
-                    invisibleAdd(entries, ArchivedBlockRegistries.BLUISHE_GRASS);
-                    invisibleAdd(entries, ArchivedBlockRegistries.ANT_JAM_BLOCK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.SWEET_BERRY_JAM_BLOCK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.SUSPICIOUS_COARSE_DIRT);
-                    invisibleAdd(entries, ArchivedBlockRegistries.TRANSPARENT_BLOCK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.END_WART_BLOCK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.BLUE_WART);
-                    invisibleAdd(entries, ArchivedBlockRegistries.END_STEM);
-                    invisibleAdd(entries, ArchivedBlockRegistries.END_HYPHAE);
-                    invisibleAdd(entries, ArchivedBlockRegistries.STRIPPED_END_STEM);
-                    invisibleAdd(entries, ArchivedBlockRegistries.STRIPPED_END_HYPHAE);
-                    invisibleAdd(entries, ArchivedBlockRegistries.ENDLIGHT);
-                    invisibleAdd(entries, ArchivedBlockRegistries.END_PLANKS);
-                    invisibleAdd(entries, ArchivedBlockRegistries.END_STAIRS);
-                    invisibleAdd(entries, ArchivedBlockRegistries.END_SLAB);
-                    invisibleAdd(entries, ArchivedBlockRegistries.BLUISHE_STEM);
-                    invisibleAdd(entries, ArchivedBlockRegistries.BLUISHE_HYPHAE);
-                    invisibleAdd(entries, ArchivedBlockRegistries.BLUISHE_LIGHT_STEM);
-                    invisibleAdd(entries, ArchivedBlockRegistries.BLUISHE_LIGHT_HYPHAE);
-                    invisibleAdd(entries, ArchivedBlockRegistries.STRIPPED_BLUISHE_STEM);
-                    invisibleAdd(entries, ArchivedBlockRegistries.STRIPPED_BLUISHE_HYPHAE);
-                    invisibleAdd(entries, ArchivedBlockRegistries.BLUISHE_PLANKS);
-                    invisibleAdd(entries, ArchivedBlockRegistries.BLUISHE_STAIRS);
-                    invisibleAdd(entries, ArchivedBlockRegistries.BLUISHE_SLAB);
-                    invisibleAdd(entries, ArchivedBlockRegistries.AZALEA_LOG);
-                    invisibleAdd(entries, ArchivedBlockRegistries.AZALEA_WOOD);
-                    invisibleAdd(entries, ArchivedBlockRegistries.STRIPPED_AZALEA_LOG);
-                    invisibleAdd(entries, ArchivedBlockRegistries.STRIPPED_AZALEA_WOOD);
-                    invisibleAdd(entries, ArchivedBlockRegistries.AZALEA_PLANKS);
-                    invisibleAdd(entries, ArchivedBlockRegistries.AZALEA_STAIRS);
-                    invisibleAdd(entries, ArchivedBlockRegistries.AZALEA_SLAB);
-                    invisibleAdd(entries, ArchivedBlockRegistries.MOSSIER_COBBLESTONE);
-                    invisibleAdd(entries, ArchivedBlockRegistries.MOSSIER_OAK_PLANKS);
-                    invisibleAdd(entries, ArchivedBlockRegistries.MOSSIER_SPRUCE_PLANKS);
-                    invisibleAdd(entries, ArchivedBlockRegistries.APPLE_CRATE);
-                    invisibleAdd(entries, ArchivedBlockRegistries.BEETROOT_CRATE);
-                    invisibleAdd(entries, ArchivedBlockRegistries.CARROT_CRATE);
-                    invisibleAdd(entries, ArchivedBlockRegistries.POTATO_CRATE);
-                    invisibleAdd(entries, ArchivedBlockRegistries.GOLDEN_APPLE_CRATE);
-                    invisibleAdd(entries, ArchivedBlockRegistries.GOLDEN_CARROT_CRATE);
-                    invisibleAdd(entries, ArchivedBlockRegistries.SWEET_BERRY_SACK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.GLOW_BERRY_SACK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.COCOA_BEANS_SACK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.GUNPOWDER_SACK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.NETHER_WART_SACK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.STICK_BLOCK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.SUGAR_CANE_BLOCK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.CACTUS_BLOCK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.CHORUS_FRUIT_BLOCK);
-                    invisibleAdd(entries, ArchivedBlockRegistries.ANDESITE_PILLAR);
-                    invisibleAdd(entries, ArchivedBlockRegistries.DIORITE_PILLAR);
-                    invisibleAdd(entries, ArchivedBlockRegistries.GRANITE_PILLAR);
-                    invisibleAdd(entries, ArchivedBlockRegistries.CAVE_ROOTS);
-                    invisibleAdd(entries, ArchivedItemRegistries.ANT_BOTTLE);
-                    invisibleAdd(entries, ArchivedItemRegistries.BOTTLE_OF_ANT_JAM);
-                    invisibleAdd(entries, ArchivedItemRegistries.MUSIC_DISC_WITHERSTORM);
-                    invisibleAdd(entries, ArchivedItemRegistries.DISC_FRAGMENT_WITHERSTORM);
-                    invisibleAdd(entries, ArchivedItemRegistries.ENDERITE_APPLE);
-                    invisibleAdd(entries, ArchivedItemRegistries.ENCHANTED_ENDERITE_APPLE);
-                    invisibleAdd(entries, ArchivedItemRegistries.ENDER_STICK);
-                    invisibleAdd(entries, ArchivedItemRegistries.ENDMERALD);
-                    invisibleAdd(entries, ArchivedItemRegistries.MELTE_RESIDUES);
-                    invisibleAdd(entries, ArchivedItemRegistries.ENDERITE_INGOT);
-                    invisibleAdd(entries, ArchivedItemRegistries.ENDERITE_HELMET);
-                    invisibleAdd(entries, ArchivedItemRegistries.ENDERITE_CHESTPLATE);
-                    invisibleAdd(entries, ArchivedItemRegistries.ENDERITE_LEGGINGS);
-                    invisibleAdd(entries, ArchivedItemRegistries.ENDERITE_BOOTS);
-                    invisibleAdd(entries, ArchivedItemRegistries.ENDERITE_SWORD);
-                    invisibleAdd(entries, ArchivedItemRegistries.ENDERITE_AXE);
-                    invisibleAdd(entries, ArchivedItemRegistries.ENDERITE_SHOVEL);
-                    invisibleAdd(entries, ArchivedItemRegistries.ENDERITE_HOE);
-                    invisibleAdd(entries, ArchivedItemRegistries.ENDERITE_PICKAXE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.ENDMERALD_ORE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.ENDMERALD_BLOCK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.ENDERITE_ORE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.ENDERITE_BLOCK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.ASTEROID_RESIDUES);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.SOLID_ROCK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.END_GRASS);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.BLUISHE_GRASS);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.ANT_JAM_BLOCK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.SWEET_BERRY_JAM_BLOCK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.SUSPICIOUS_COARSE_DIRT);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.TRANSPARENT_BLOCK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.END_WART_BLOCK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.BLUE_WART);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.END_STEM);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.END_HYPHAE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.STRIPPED_END_STEM);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.STRIPPED_END_HYPHAE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.ENDLIGHT);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.END_PLANKS);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.END_STAIRS);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.END_SLAB);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.BLUISHE_STEM);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.BLUISHE_HYPHAE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.BLUISHE_LIGHT_STEM);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.BLUISHE_LIGHT_HYPHAE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.STRIPPED_BLUISHE_STEM);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.STRIPPED_BLUISHE_HYPHAE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.BLUISHE_PLANKS);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.BLUISHE_STAIRS);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.BLUISHE_SLAB);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.AZALEA_LOG);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.AZALEA_WOOD);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.STRIPPED_AZALEA_LOG);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.STRIPPED_AZALEA_WOOD);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.AZALEA_PLANKS);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.AZALEA_STAIRS);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.AZALEA_SLAB);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.MOSSIER_COBBLESTONE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.MOSSIER_OAK_PLANKS);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.MOSSIER_SPRUCE_PLANKS);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.APPLE_CRATE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.BEETROOT_CRATE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.CARROT_CRATE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.POTATO_CRATE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.GOLDEN_APPLE_CRATE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.GOLDEN_CARROT_CRATE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.SWEET_BERRY_SACK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.GLOW_BERRY_SACK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.COCOA_BEANS_SACK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.GUNPOWDER_SACK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.NETHER_WART_SACK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.STICK_BLOCK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.SUGAR_CANE_BLOCK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.CACTUS_BLOCK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.CHORUS_FRUIT_BLOCK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.ANDESITE_PILLAR);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.DIORITE_PILLAR);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.GRANITE_PILLAR);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedBlockRegistries.CAVE_ROOTS);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ANT_BOTTLE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.BOTTLE_OF_ANT_JAM);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.MUSIC_DISC_WITHERSTORM);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.DISC_FRAGMENT_WITHERSTORM);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ENDERITE_APPLE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ENCHANTED_ENDERITE_APPLE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ENDER_STICK);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ENDMERALD);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.MELTE_RESIDUES);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ENDERITE_INGOT);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ENDERITE_HELMET);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ENDERITE_CHESTPLATE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ENDERITE_LEGGINGS);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ENDERITE_BOOTS);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ENDERITE_SWORD);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ENDERITE_AXE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ENDERITE_SHOVEL);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ENDERITE_HOE);
+                    invisibleAdd(entries, ArchivedRegistries.ArchivedItemRegistries.ENDERITE_PICKAXE);
                     invisibleAdd(entries, ItemRegistries.BP__OMINOUS_BOTTLE);
                     invisibleAdd(entries, ItemRegistries.H__ANOMALITE_SWORD1);
                     invisibleAdd(entries, ItemRegistries.H__ANOMALITE_SWORD2);
@@ -953,7 +972,7 @@ public class SkyBlockRegistries {
                     invisibleAdd(entries, ItemRegistries.H__PLASMA_2);
                 }).build());
         public static ItemGroup ABYSS = SkyBlock.BuiltinRegistries.registerItemGroup("classified",
-                FabricItemGroup.builder().displayName(Text.literal("The Abyss Chapter II (Y3Z0N)")).icon(() -> new ItemStack(GhostItems.Z__LOGO3)).entries((displayContext, entries) -> {
+                FabricItemGroup.builder().displayName(Text.literal("The Abyss Chapter II (Y3Z0N)")).icon(() -> new ItemStack(GhostItemRegistries.Z__LOGO3)).entries((displayContext, entries) -> {
                     entries.add(ItemRegistries.ABYSS__ABERYTHE_GEM);
                     entries.add(ItemRegistries.ABYSS__ABERYTHE_HELMET);
                     entries.add(ItemRegistries.ABYSS__ABERYTHE_CHESTPLATE);
@@ -1066,7 +1085,7 @@ public class SkyBlockRegistries {
                     entries.add(BlockRegistries.ABYSS__ABYSCULK_SLAB);
                 }).build());
         public static ItemGroup QUARK = SkyBlock.BuiltinRegistries.registerItemGroup("quark",
-                FabricItemGroup.builder().displayName(Text.literal("Quark (Vazkii)")).icon(() -> new ItemStack(GhostItems.Z__LOGO4)).entries((displayContext, entries) -> {
+                FabricItemGroup.builder().displayName(Text.literal("Quark (Vazkii)")).icon(() -> new ItemStack(GhostItemRegistries.Z__LOGO4)).entries((displayContext, entries) -> {
                     entries.add(BlockRegistries.QUARK__APPLE_CRATE);
                     entries.add(BlockRegistries.QUARK__BEETROOT_CRATE);
                     entries.add(BlockRegistries.QUARK__CARROT_CRATE);
@@ -1159,7 +1178,7 @@ public class SkyBlockRegistries {
         private static void addSpaces(ItemGroup.Entries entries, int used_spaces, int spaces) {
             for (byte b : NullItem.VALUES) {
                 if (spaces != 0) {
-                    ItemStack itemStack = new ItemStack(GhostItems.Z__NULL);
+                    ItemStack itemStack = new ItemStack(GhostItemRegistries.Z__NULL);
                     itemStack.set(DataComponentTypeRegistries.SIMPLE_BYTE_VALUE_COMPONENT, new SimpleByteValueComponent(used_spaces + b));
                     spaces = spaces-1;
                 entries.add(itemStack, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
@@ -1169,7 +1188,7 @@ public class SkyBlockRegistries {
         private static void addTiles(ItemGroup.Entries entries, int used_tiles, int tiles) {
             for (byte b : NullItem.VALUES) {
                 if (tiles != 0) {
-                    ItemStack itemStack = new ItemStack(GhostItems.Z__TILE_BLANK);
+                    ItemStack itemStack = new ItemStack(GhostItemRegistries.Z__TILE_BLANK);
                     itemStack.set(DataComponentTypeRegistries.SIMPLE_BYTE_VALUE_COMPONENT, new SimpleByteValueComponent(used_tiles + b));
                     tiles = tiles-1;
                     entries.add(itemStack, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
@@ -1239,6 +1258,10 @@ public class SkyBlockRegistries {
     }
 
     public static class BlockRegistries {
+        //TODO:
+        // -MapColors
+        // -SKYBLOCK__OBSIDIAN_PILLAR
+        // -BN__BLUE_OBSIDIAN_PILLAR
 
         //ABYSS
         public static final Block ABYSS__UNSTABLE_OBSIDIAN = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__unstable_obsidian",
@@ -2193,18 +2216,24 @@ public class SkyBlockRegistries {
                 new PuffballMushroomBlock(AbstractBlock.Settings
                         .copy(Blocks.MUSHROOM_STEM)
                         .sounds(BlockSoundGroup.FUNGUS)));
-        public static final Block SKYBLOCK__SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__spore_planter_box",
+        //SPORE PLANTER BOXES
+        public static final Block SKYBLOCK__SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerBlock("skyblock__spore_planter_box",
                 new EmptySporePlanterBox(AbstractBlock.Settings
                         .copy(Blocks.COARSE_DIRT)
                         .sounds(BlockSoundGroup.WOOD)));
-        public static final Block SKYBLOCK__PUFFBALL_SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__puffball_spore_planter_box",
+        public static final Block SKYBLOCK__PUFFBALL_SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerBlock("skyblock__puffball_spore_planter_box",
                 new SporePlanterBox(AbstractBlock.Settings
                         .copy(Blocks.COARSE_DIRT)
                         .sounds(BlockSoundGroup.WOOD), BlockRegistries.SKYBLOCK__PUFFBALL_MUSHROOM, 2, false));
-        public static final Block SKYBLOCK__RED_MUSHROOM_SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__red_mushroom_spore_planter_box",
+        public static final Block SKYBLOCK__RED_MUSHROOM_SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerBlock("skyblock__red_mushroom_spore_planter_box",
                 new SporePlanterBox(AbstractBlock.Settings
                         .copy(Blocks.COARSE_DIRT)
                         .sounds(BlockSoundGroup.WOOD), Blocks.RED_MUSHROOM, 0.5, true));
+        public static final Block SKYBLOCK__BROWN_MUSHROOM_SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerBlock("skyblock__brown_mushroom_spore_planter_box",
+                new SporePlanterBox(AbstractBlock.Settings
+                        .copy(Blocks.COARSE_DIRT)
+                        .sounds(BlockSoundGroup.WOOD), Blocks.BROWN_MUSHROOM, 0.5, true));
+        //SPORE PLANTER BOXES
         public static final Block SKYBLOCK__BLOCK_OF_EXPERIENCE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__block_of_experience",
                 new Block(AbstractBlock.Settings
                         .create()
@@ -2212,7 +2241,7 @@ public class SkyBlockRegistries {
                         .sounds(BlockSoundGroup.AMETHYST_BLOCK)
                         .luminance(state -> 3)
                         .emissiveLighting(SkyBlock.BuiltinRegistries::alwaysPredicate)));
-        //1.21.1+
+        //---1.21.1+
         public static final Block SKYBLOCK__COMPRESSED_STEEL = SkyBlock.BuiltinRegistries.registerBlock("skyblock__compressed_steel",
                 new CompressedSteelBlock(AbstractBlock.Settings
                         .create()
@@ -2220,8 +2249,8 @@ public class SkyBlockRegistries {
                         .sounds(BlockSoundGroup.HEAVY_CORE)
                         .pistonBehavior(PistonBehavior.BLOCK)
                         .strength(Blocks.OBSIDIAN.getHardness(), Blocks.OBSIDIAN.getBlastResistance())));
-        //1.21.1+
-        //1.22.0+
+        //---1.21.1+
+        //---1.22.0+
         public static final Block BP__PALE_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__pale_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.OAK_LOG)));
@@ -2260,7 +2289,7 @@ public class SkyBlockRegistries {
         public static final Block BP__PALE_MOSS_CARPET = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__pale_moss_carpet",
                 new CarpetBlock(AbstractBlock.Settings
                         .copy(Blocks.MOSS_CARPET)));
-        //1.22.0+
+        //---1.22.0+
         //SKYBLOCK VANILLA+
         //SKYBLOCK TROPHIES
         public static final Block SKYBLOCK__PESTILENT_TROPHY = SkyBlock.BuiltinRegistries.registerBlock("skyblock__pestilent_trophy",
@@ -2847,7 +2876,7 @@ public class SkyBlockRegistries {
         }
 
     }
-
+    @Deprecated
     public static class ArmorTrimMaterialRegistries {  //TODO: this
         public static final RegistryKey<ArmorTrimMaterial> ENDERITE = ArmorTrimMaterialRegistries.of("enderite");
         public static final RegistryKey<ArmorTrimMaterial> FYBERITE = ArmorTrimMaterialRegistries.of("fyberite");
@@ -3025,5 +3054,146 @@ public class SkyBlockRegistries {
                 .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 200, 2), 1.0f)
                 .alwaysEdible()
                 .build();
+    }
+
+    public static class GhostItemRegistries {
+        public static final Item Z__LOGO_V1 = SkyBlock.BuiltinRegistries.registerItem("z__logo_v1",
+                new Item(new Item.Settings()));
+        public static final Item Z__LOGO_V2 = SkyBlock.BuiltinRegistries.registerItem("z__logo_v2",
+                new Item(new Item.Settings()));
+        public static final Item Z__LOGO_V3 = SkyBlock.BuiltinRegistries.registerItem("z__logo_v3",
+                new Item(new Item.Settings()));
+        public static final Item Z__LOGO_V4 = SkyBlock.BuiltinRegistries.registerItem("z__logo_v4",
+                new Item(new Item.Settings()));
+        public static final Item Z__LOGO_V5 = SkyBlock.BuiltinRegistries.registerItem("z__logo_v5",
+                new Item(new Item.Settings()));
+        public static final Item Z__LOGO_V6 = SkyBlock.BuiltinRegistries.registerItem("z__logo_v6",
+                new Item(new Item.Settings()));
+        public static final Item Z__LOGO1 = SkyBlock.BuiltinRegistries.registerItem("z__logo1",
+                new Item(new Item.Settings()));
+        public static final Item Z__LOGO2 = SkyBlock.BuiltinRegistries.registerItem("z__logo2",
+                new Item(new Item.Settings()));
+        public static final Item Z__LOGO3 = SkyBlock.BuiltinRegistries.registerItem("z__logo3",
+                new Item(new Item.Settings()));
+        public static final Item Z__LOGO4 = SkyBlock.BuiltinRegistries.registerItem("z__logo4",
+                new Item(new Item.Settings()));
+        public static final Item Z__LOGO5 = SkyBlock.BuiltinRegistries.registerItem("z__logo5",
+                new Item(new Item.Settings()));
+        public static final Item Z__LOGO6 = SkyBlock.BuiltinRegistries.registerItem("z__logo6",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_BLANK = SkyBlock.BuiltinRegistries.registerItem("z__tile_blank",
+                new TileBlankItem(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK_1 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_1",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK_2 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_2",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK_3 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_3",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK_4 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_4",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK_5 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_5",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK_6 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_6",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK_7 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_7",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK_8 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_8",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK_9 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_9",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2_1 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_1",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2_2 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_2",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2_3 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_3",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2_4 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_4",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2_5 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_5",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2_6 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_6",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2_7 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_7",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2_8 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_8",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2_9 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_9",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p1_1 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_1",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p1_2 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_2",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p1_3 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_3",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p1_4 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_4",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p1_5 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_5",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p1_6 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_6",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p1_7 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_7",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p1_8 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_8",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p1_9 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_9",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p2_1 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_1",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p2_2 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_2",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p2_3 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_3",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p2_4 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_4",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p2_5 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_5",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p2_6 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_6",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p2_7 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_7",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p2_8 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_8",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK2p2_9 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_9",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK3_1 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_1",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK3_2 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_2",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK3_3 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_3",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK3_4 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_4",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK3_5 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_5",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK3_6 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_6",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK3_7 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_7",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK3_8 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_8",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SKYBLOCK3_9 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_9",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SP5_1 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_1",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SP5_2 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_2",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SP5_3 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_3",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SP5_4 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_4",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SP5_5 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_5",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SP5_6 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_6",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SP5_7 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_7",
+                new Item(new Item.Settings()));
+        public static final Item Z__TILE_SP5_8 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_8",
+                new Item(new Item.Settings()));
+        public static final Item Z__NULL = SkyBlock.BuiltinRegistries.registerItem("z__null",
+                new NullItem(new Item.Settings()));
+
+        public static void registerGhostItems () {
+            SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering Abstract Items (Client-Only) for " + SkyBlock.MOD_ID);
+        }
     }
 }

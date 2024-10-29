@@ -30,6 +30,7 @@ public class EmptySporePlanterBox extends Block {
     public Map<Block, Block> shroom_planter_box_pairs() {
         return Map.ofEntries(
                 Map.entry(Blocks.RED_MUSHROOM_BLOCK, SkyBlockRegistries.BlockRegistries.SKYBLOCK__RED_MUSHROOM_SPORE_PLANTER_BOX),
+                Map.entry(Blocks.BROWN_MUSHROOM_BLOCK, SkyBlockRegistries.BlockRegistries.SKYBLOCK__BROWN_MUSHROOM_SPORE_PLANTER_BOX),
                 Map.entry(SkyBlockRegistries.BlockRegistries.SKYBLOCK__PUFFBALL_MUSHROOM_BLOCK, SkyBlockRegistries.BlockRegistries.SKYBLOCK__PUFFBALL_SPORE_PLANTER_BOX)
         );
     }
@@ -51,7 +52,7 @@ public class EmptySporePlanterBox extends Block {
         };
         Block[] blockKeyArray = shroom_planter_box_pairs().keySet().toArray(new Block[0]);
 
-        if (random.nextInt(infecting_quality * 3) == 0) {
+        if (random.nextInt(infecting_quality * 2) == 0) {
             int i = random.nextInt(blockPosArray.length);
             BlockPos pos1 = blockPosArray[i];
             BlockState state1 = world.getBlockState(pos1);

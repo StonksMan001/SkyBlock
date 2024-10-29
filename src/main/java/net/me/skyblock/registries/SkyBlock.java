@@ -6,9 +6,6 @@ import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.me.skyblock.api.datafixer.DataFixer;
-import net.me.skyblock.registries.archived.ArchivedBlockRegistries;
-import net.me.skyblock.registries.archived.ArchivedItemRegistries;
-import net.me.skyblock.items.util.GhostItems;
 import net.me.skyblock.entity.mobs.skyblock.OminousEvokerEntity;
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.BlockEntity;
@@ -49,10 +46,10 @@ public class SkyBlock implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		// Should never touch
-		ArchivedItemRegistries.registerArchivedItems();
-		ArchivedBlockRegistries.registerArchivedBlocks();
+		ArchivedRegistries.ArchivedItemRegistries.registerArchivedItems();
+		ArchivedRegistries.ArchivedBlockRegistries.registerArchivedBlocks();
 
-		GhostItems.registerGhostItems();
+		SkyBlockRegistries.GhostItemRegistries.registerGhostItems();
 		// Should never touch
 
 		DataFixer.register();

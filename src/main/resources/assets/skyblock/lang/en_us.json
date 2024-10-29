@@ -356,6 +356,18 @@
 
   "block.skyblock.quark__cave_roots": "Cave Roots",
 
+  "block.skyblock.skyblock__puffball_mushroom": "Puffball Mushroom",
+  "block.skyblock.skyblock__puffball_mushroom_block": "Puffball Mushroom Block",
+  "item.skyblock.skyblock__puffball_mushroom_flesh": "Puffball Mushroom Flesh",
+  "item.skyblock.skyblock__cooked_puffball_mushroom_flesh": "Cooked Puffball Mushroom Flesh",
+  "item.skyblock.skyblock__puffball_mushroom_stew": "Puffball Mushroom Stew",
+  "block.skyblock.skyblock__spore_planter_box": "Spore Planter Box",
+  "block.skyblock.skyblock__puffball_spore_planter_box": "Spore Planter Box",
+  "block.skyblock.skyblock__red_mushroom_spore_planter_box": "Spore Planter Box",
+  "block.skyblock.skyblock__brown_mushroom_spore_planter_box": "Spore Planter Box",
+  "tooltip.skyblock.skyblock__spore_type": "Spores",
+  "tooltip.skyblock.skyblock__empty_spore_type": "Empty",
+
   "block.skyblock.quark__vertical_oak_planks": "Vertical Oak Planks",
   "block.skyblock.quark__vertical_spruce_planks": "Vertical Spruce Planks",
   "block.skyblock.quark__vertical_birch_planks": "Vertical Birch Planks",
@@ -470,6 +482,7 @@
   "block.skyblock.skyblock__unknown_vegetation": "Unknown Vegetation",
 
   "item.skyblock.mcd__artifact_iron_hide_amulet": "Iron Hide Amulet",
+  "tooltip.skyblock.minecraft_dungeons_header": "Minecraft Dungeons description:",
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip1": "The Iron Hide Amulet is both ancient",
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip2": "and timeless. Sand mysteriously and endlessly",
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip3": "slips through the cracks in the iron",

@@ -49,7 +49,7 @@ public class SkyBlock implements ModInitializer {
 		ArchivedRegistries.ArchivedItemRegistries.registerArchivedItems();
 		ArchivedRegistries.ArchivedBlockRegistries.registerArchivedBlocks();
 
-		SkyBlockRegistries.GhostItemRegistries.registerGhostItems();
+		GhostItemRegistries.registerGhostItems();
 		// Should never touch
 
 		DataFixer.register();

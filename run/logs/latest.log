@@ -1,0 +1,505 @@
+[21:36:08] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.5
+[21:36:08] [main/INFO] (FabricLoader) Loading 77 mods:
+	- bclib 21.0.13
+	- betterend 21.0.11
+	- betternether 21.0.11
+	- continuity 3.0.0-beta.5+1.21
+	- fabric-api 0.104.0+1.21.1
+	- fabric-api-base 0.4.42+6573ed8c19
+	- fabric-api-lookup-api-v1 1.6.68+b559734419
+	- fabric-biome-api-v1 13.0.29+5bd9f1bc19
+	- fabric-block-api-v1 1.0.22+0af3f5a719
+	- fabric-block-view-api-v2 1.0.10+6573ed8c19
+	- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	- fabric-command-api-v1 1.2.49+f71b366f19
+	- fabric-command-api-v2 2.2.28+6ced4dd919
+	- fabric-commands-v0 0.2.66+df3654b319
+	- fabric-content-registries-v0 8.0.16+b559734419
+	- fabric-convention-tags-v1 2.0.22+7f945d5b19
+	- fabric-convention-tags-v2 2.7.0+4053855719
+	- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	- fabric-data-attachment-api-v1 1.1.28+1daea21519
+	- fabric-data-generation-api-v1 20.2.19+16c4ae2519
+	- fabric-dimensions-v1 4.0.0+6fc22b9919
+	- fabric-entity-events-v1 1.7.0+2122d82819
+	- fabric-events-interaction-v0 0.7.12+ba9dae0619
+	- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	- fabric-gametest-api-v1 2.0.4+6fc22b9919
+	- fabric-item-api-v1 11.0.0+afdfc92119
+	- fabric-item-group-api-v1 4.1.5+3fc0e55219
+	- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	- fabric-keybindings-v0 0.2.45+df3654b319
+	- fabric-lifecycle-events-v1 2.3.12+6c1df36019
+	- fabric-loot-api-v2 3.0.14+3f89f5a519
+	- fabric-loot-api-v3 1.0.2+3f89f5a519
+	- fabric-message-api-v1 6.0.13+6573ed8c19
+	- fabric-model-loading-api-v1 2.0.0+fe474d6b19
+	- fabric-networking-api-v1 4.2.2+60c3209b19
+	- fabric-object-builder-api-v1 15.2.0+40875a9319
+	- fabric-particles-v1 4.0.2+6573ed8c19
+	- fabric-recipe-api-v1 5.0.12+6508971219
+	- fabric-registry-sync-v0 5.1.2+60c3209b19
+	- fabric-renderer-api-v1 3.4.0+c705a49c19
+	- fabric-renderer-indigo 1.7.0+c705a49c19
+	- fabric-renderer-registries-v1 3.2.68+df3654b319
+	- fabric-rendering-data-attachment-v1 0.3.48+73761d2e19
+	- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	- fabric-rendering-v0 1.1.71+df3654b319
+	- fabric-rendering-v1 5.0.5+df16efd019
+	- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	- fabric-resource-loader-v0 1.3.0+5659912919
+	- fabric-screen-api-v1 2.0.25+8b68f1c719
+	- fabric-screen-handler-api-v1 1.3.86+b559734419
+	- fabric-sound-api-v1 1.0.23+6573ed8c19
+	- fabric-transfer-api-v1 5.2.0+d38f898f19
+	- fabric-transitive-access-wideners-v1 6.1.0+1daea21519
+	- fabricloader 0.16.5
+	- java 21
+	- minecraft 1.21.1
+	- mixinextras 0.4.1
+	- skyblock 1.4.1
+	- wover 21.0.13
+	- wover-biome 21.0.13
+	- wover-block 21.0.13
+	- wover-common 21.0.13
+	- wover-core 21.0.13
+	- wover-datagen 21.0.13
+	- wover-events 21.0.13
+	- wover-feature 21.0.13
+	- wover-generator 21.0.13
+	- wover-item 21.0.13
+	- wover-math 21.0.13
+	- wover-preset 21.0.13
+	- wover-recipe 21.0.13
+	- wover-structure 21.0.13
+	- wover-surface 21.0.13
+	- wover-tag 21.0.13
+	- wover-ui 21.0.13
+	- wunderlib 21.0.8
+[21:36:24] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/totha/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/51ee0a44ab05f6fddd66b09e66b3a16904f9c55d/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[21:36:24] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[21:36:24] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[21:36:25] [main/ERROR] (FabricLoader/Mixin) bclib.mixins.client.json:AnvilScreenMixin from mod bclib: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
+org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
+	at org.spongepowered.asm.mixin.transformer.InterfaceInfo.renameMethod(InterfaceInfo.java:188) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepareSoftImplements(MixinPreProcessorStandard.java:234) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepareMethod(MixinPreProcessorStandard.java:215) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepare(MixinPreProcessorStandard.java:184) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validateChanges(MixinInfo.java:442) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:342) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.validate(MixinInfo.java:913) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:884) [sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:568) [sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) [sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) [sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) [sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) [sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) [sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) [fabric-loader-0.16.5.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) [?:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:473) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[21:36:26] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:36:29] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 826 milliseconds
+[21:36:39] [main/WARN] (betternether) Generating Debug Helpers
+[21:36:39] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:36:39] [Render thread/INFO] (Minecraft) Setting user: Player850
+[21:36:39] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/biome
+[21:36:39] [Render thread/INFO] (wover-core) (DEBUG) Creating registry: wover:wover/biome_codec
+[21:36:39] [Render thread/INFO] (wover-core) (DEBUG) Creating registry: wover:wover/biome_predicates
+[21:36:39] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry: wover:wover/worldgen/biome_modifications
+[21:36:40] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry: wover:wover/world_preset_info
+[21:36:40] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/world_preset
+[21:36:40] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/flat_level_generator_preset
+[21:36:48] [Render thread/WARN] (betterend) Generating Debug Helpers
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Archived Items for skyblock
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Archived Blocks for skyblock
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Abstract Items (Client-Only) for skyblock
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering BCLib Data Patches for skyblock
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Biomes for skyblock
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering BiomeEffects for skyblock
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Item Groups for skyblock
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering DataComponentTypes for skyblock
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering SoundEvents for skyblock
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Items for skyblock
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Blocks for skyblock
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering BlockEntities for skyblock
+[21:36:48] [Render thread/INFO] (Minecraft) [STDOUT]: [SkyBlock MultiMod] Registering Enchantments for skyblock
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Dimensions for skyblock
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Screen Handlers for skyblock
+[21:36:48] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering GameRules for skyblock
+[21:36:48] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/structure
+[21:36:48] [Render thread/INFO] (betternether) =^..^=    BetterNether for 1.21    =^..^=
+[21:36:48] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry: wover:wover/worldgen/surface_rules
+[21:36:49] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering BlockEntityRendererFactories for skyblock
+[21:36:49] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[21:36:49] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[21:36:51] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, bclib, betterend, betternether, continuity, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, skyblock, wover, wover-block, wover-core, wover-events, wover-generator, wover-preset, wover-surface, wover-ui, wunderlib, file/better_nether_enhanced, high_contrast
+[21:36:52] [Worker-Main-2/INFO] (Minecraft) Found unifont_all_no_pua-15.1.05.hex, loading
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 2 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 3 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/00_cave_moss/cave_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/01_end_mycelium/end_mycelium.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 5 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/02_shadow_grass/shadow_grass.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 5 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 6 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 7 in file 'minecraft:optifine/ctm/_overlays/03_pink_moss/pink_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 6 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 7 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/04_crystal_moss/crystal_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 3 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 8 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 9 in file 'minecraft:optifine/ctm/_overlays/05_chorus_nylium/chorus_nylium.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 8 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/06_end_moss/end_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 11 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 12 in file 'minecraft:optifine/ctm/_overlays/07_jungle_moss/jungle_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:ivis_phylium' in 'matchBlocks' element 'byg:ivis_phylium' at index 4 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:vermilion_sculk' in 'matchBlocks' element 'byg:vermilion_sculk' at index 9 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/WARN] (Continuity) Unknown block 'byg:shulkren_phylium' in 'matchBlocks' element 'byg:shulkren_phylium' at index 10 in file 'minecraft:optifine/ctm/_overlays/08_amber_moss/amber_moss.properties' in pack 'betterend'
+[21:36:52] [Worker-Main-1/INFO] (Minecraft) Found unifont_jp_patch-15.1.05.hex, loading
+[21:36:55] [Worker-Main-3/WARN] (Minecraft) Texture skyblock:item/z__tile_skyblock2p2_6 with size 24x24 limits mip level from 4 to 3
+[21:36:55] [Worker-Main-3/WARN] (Minecraft) Texture skyblock:item/z__logo5 with size 20x20 limits mip level from 3 to 2
+[21:36:55] [Worker-Main-3/WARN] (Minecraft) Texture skyblock:item/z__null with size 1x1 limits mip level from 2 to 0
+[21:36:55] [Worker-Main-3/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
+[21:36:55] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'betterend:block/umbralith' referenced from: betterend:block/umbralith: java.io.FileNotFoundException: betterend:models/block/umbralith.json
+[21:36:55] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'skyblock:item/shortbow' referenced from: skyblock:item/mcd__shortbow: java.io.FileNotFoundException: skyblock:models/item/shortbow.json
+[21:36:55] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'skyblock:item/mcd__stronghold_decor' referenced from: skyblock:item/mcd__stronghold_decor: java.io.FileNotFoundException: skyblock:models/item/mcd__stronghold_decor.json
+[21:36:55] [Worker-Main-1/WARN] (Minecraft) Unable to load model: 'skyblock:item/mcd__longbow' referenced from: skyblock:item/mcd__longbow: java.io.FileNotFoundException: skyblock:models/item/mcd__longbow.json
+[21:36:58] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=y:
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
+[21:36:58] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=z:
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
+[21:36:58] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#inventory:
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
+[21:36:58] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#inventory:
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
+[21:36:58] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=z:
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
+[21:36:58] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=x:
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
+[21:36:58] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_wood#axis=y:
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
+[21:36:58] [Worker-Main-1/WARN] (Minecraft) Missing textures in model betterend:debug/biome_loot#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/oak_leaves
+[21:36:58] [Worker-Main-1/WARN] (Minecraft) Missing textures in model skyblock:abyss__stripped_abysculk_log#axis=x:
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log
+    minecraft:textures/atlas/blocks.png:skyblock:block/stripped_abysculk_log_top
+[21:36:58] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[21:36:58] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[21:36:58] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Hangszórók (USB Audio Device)
+[21:36:58] [Render thread/INFO] (Minecraft) Sound engine started
+[21:36:59] [Render thread/INFO] (Minecraft) Created: 2048x1024x0 minecraft:textures/atlas/blocks.png-atlas
+[21:36:59] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[21:36:59] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[21:36:59] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[21:36:59] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[21:36:59] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
+[21:36:59] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[21:36:59] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[21:36:59] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21:36:59] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[21:36:59] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21:36:59] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[21:36:59] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[21:36:59] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[21:36:59] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[21:36:59] [Render thread/INFO] (wover-ui) Received Version Info for minecraft=1.21.1, loader=fabric
+[21:36:59] [Render thread/INFO] (wover-ui)  - wover:21.0.13
+[21:36:59] [Render thread/INFO] (wover-ui)  - bclib:21.0.13
+[21:36:59] [Render thread/INFO] (wover-ui)  - betterend:21.0.11
+[21:36:59] [Render thread/INFO] (wover-ui)  - betternether:21.0.11
+[21:37:07] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: WORLD_FOLDER_READY (43f6e059, New World (1) backup2)
+[21:37:07] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BEFORE_CLIENT_LOAD_SCREEN
+[21:37:07] [Render thread/INFO] (bclib) Ignoring Patch{ModCore: skyblock (skyblock):1.2.0-1.20.1:66048}
+[21:37:07] [Render thread/INFO] (bclib) Ignoring Patch{ModCore: skyblock (skyblock):1.2.1-1.20.1:66049}
+[21:37:07] [Render thread/INFO] (bclib) Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
+[21:37:07] [Render thread/INFO] (bclib) Ignoring Patch{ModCore: betternether (betternether):5.3.5:328453}
+[21:37:07] [Render thread/INFO] (bclib) Ignoring Patch{ModCore: betternether (betternether):8.2.2:524802}
+[21:37:07] [Render thread/INFO] (bclib) Ignoring Patch{ModCore: betternether (betternether):9.0.1:589825}
+[21:37:07] [Render thread/INFO] (bclib) Running Pre Patchers on D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\run\saves\New World (1) backup2\.
+[21:37:07] [Render thread/INFO] (bclib) Everything up to date
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Adding custom WORLDGEN_REGISTRIES
+[21:37:08] [Render thread/INFO] (wover-core) Processing wover.datapack.registry Entrypoints
+[21:37:08] [Render thread/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry: wover:wover/worldgen/biome_data
+[21:37:08] [Render thread/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:enchantment
+[21:37:08] [Render thread/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/template_pool
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/structure_set
+[21:37:08] [Render thread/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[21:37:08] [Render thread/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/configured_feature
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/placed_feature
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG)     - Adding wover:wover/worldgen/biome_modifications
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG)     - Adding wover:wover/world_preset_info
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG)     - Adding wover:wover/worldgen/surface_rules
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG)     - Adding wover:wover/worldgen/biome_data
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:dimension_type
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/biome
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:worldgen/biome
+[21:37:08] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_BIOME_REGISTRY
+[21:37:08] [Render thread/INFO] (wover-biome) (DEBUG) Biome getter changed, resetting bootstrap context
+[21:37:08] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_BIOMES_WITH_DATA
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:chat_type
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/configured_carver
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/configured_feature
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:worldgen/configured_feature
+[21:37:08] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_CONFIGURED_FEATURES
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/placed_feature
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:worldgen/placed_feature
+[21:37:08] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_PLACED_FEATURES
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/structure
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:worldgen/structure
+[21:37:08] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_STRUCTURES
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/structure_set
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:worldgen/structure_set
+[21:37:08] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_STRUCTURE_SETS
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/processor_list
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/template_pool
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:worldgen/template_pool
+[21:37:08] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_TEMPLATE_POOLS
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/noise_settings
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/noise
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/density_function
+[21:37:08] [Render thread/INFO] (wover-generator) Updating Pickers for WoVer - The End  BiomeSource (4caf90b5)
+[21:37:08] [Render thread/INFO] (wover-generator) Unable to build Biome List yet
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - The End  BiomeSource (4caf90b5)
+    --> Map Update
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - The End  BiomeSource (4caf90b5)
+    --> new height = 128
+[21:37:08] [Render thread/INFO] (wover-generator) Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:37:08] [Render thread/INFO] (wover-generator) Updating Pickers for WoVer - Nether BiomeSource (2e05cf08)
+[21:37:08] [Render thread/INFO] (wover-generator) Unable to build Biome List yet
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - Nether BiomeSource (2e05cf08)
+    --> Map Update
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - Nether BiomeSource (2e05cf08)
+    --> new height = 256
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - Nether BiomeSource (2e05cf08)
+    --> Map Update
+[21:37:08] [Render thread/INFO] (wover-generator) Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:37:08] [Render thread/INFO] (wover-generator) Updating Pickers for WoVer - The End  BiomeSource (40151c0a)
+[21:37:08] [Render thread/INFO] (wover-generator) Unable to build Biome List yet
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - The End  BiomeSource (40151c0a)
+    --> Map Update
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - The End  BiomeSource (40151c0a)
+    --> new height = 128
+[21:37:08] [Render thread/INFO] (wover-generator) Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:37:08] [Render thread/INFO] (wover-generator) Updating Pickers for WoVer - Nether BiomeSource (34bf3547)
+[21:37:08] [Render thread/INFO] (wover-generator) Unable to build Biome List yet
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - Nether BiomeSource (34bf3547)
+    --> Map Update
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - Nether BiomeSource (34bf3547)
+    --> new height = 128
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - Nether BiomeSource (34bf3547)
+    --> Map Update
+[21:37:08] [Render thread/INFO] (wover-generator) Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:37:08] [Render thread/INFO] (wover-generator) Updating Pickers for WoVer - The End  BiomeSource (35759fb8)
+[21:37:08] [Render thread/INFO] (wover-generator) Unable to build Biome List yet
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - The End  BiomeSource (35759fb8)
+    --> Map Update
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - The End  BiomeSource (35759fb8)
+    --> new height = 128
+[21:37:08] [Render thread/INFO] (wover-generator) Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:37:08] [Render thread/INFO] (wover-generator) Updating Pickers for WoVer - Nether BiomeSource (fc047f6)
+[21:37:08] [Render thread/INFO] (wover-generator) Unable to build Biome List yet
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - Nether BiomeSource (fc047f6)
+    --> Map Update
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - Nether BiomeSource (fc047f6)
+    --> new height = 128
+[21:37:08] [Render thread/INFO] (wover-generator) (DEBUG) WoVer - Nether BiomeSource (fc047f6)
+    --> Map Update
+[21:37:08] [Render thread/INFO] (wover-generator) Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/world_preset
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:worldgen/world_preset
+[21:37:08] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_WORLD_PRESETS
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/flat_level_generator_preset
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:worldgen/flat_level_generator_preset
+[21:37:08] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_FLAT_LEVEL_PRESETS
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:trim_pattern
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:trim_material
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:wolf_variant
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:painting_variant
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:damage_type
+[21:37:08] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/multi_noise_biome_source_parameter_list
+[21:37:09] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:banner_pattern
+[21:37:09] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:enchantment
+[21:37:09] [Render thread/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:enchantment
+[21:37:09] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_ENCHANTMENTS
+[21:37:09] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:enchantment_provider
+[21:37:09] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:jukebox_song
+[21:37:09] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry wover:wover/worldgen/biome_modifications
+[21:37:09] [Render thread/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on wover:wover/worldgen/biome_modifications
+[21:37:09] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_BIOME_MODIFICATION_REGISTRY
+[21:37:09] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry wover:wover/world_preset_info
+[21:37:09] [Render thread/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on wover:wover/world_preset_info
+[21:37:09] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_WORLD_PRESET_INFO_REGISTRY
+[21:37:09] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry wover:wover/worldgen/surface_rules
+[21:37:09] [Render thread/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on wover:wover/worldgen/surface_rules
+[21:37:09] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_SURFACE_RULE_REGISTRY
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:amber_land
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:amber_land
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:bone_reef (NoiseHypercube[temperature=-100, humidity=-500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:chorus_forest
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:crimson_glowing_woods (NoiseHypercube[temperature=4000, humidity=-500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:crimson_pinewood (NoiseHypercube[temperature=3500, humidity=1000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:dust_wastelands
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:flooded_deltas (NoiseHypercube[temperature=-3000, humidity=-100, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1750])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:gravel_desert (NoiseHypercube[temperature=-1000, humidity=1000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=2000])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Small End Island Biome to Fabric: betterend:ice_starfield
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:lantern_woods
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:lantern_woods
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:magma_land (NoiseHypercube[temperature=8000, humidity=-7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:megalake
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:megalake
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:megalake_grove
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:megalake_grove
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:neon_oasis
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:neon_oasis
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:nether_grasslands (NoiseHypercube[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:nether_jungle (NoiseHypercube[temperature=5000, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:nether_mushroom_forest (NoiseHypercube[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:nether_mushroom_forest_edge (NoiseHypercube[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:nether_swampland (NoiseHypercube[temperature=1000, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:nether_swampland_terraces (NoiseHypercube[temperature=800, humidity=8500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:old_fungiwoods (NoiseHypercube[temperature=0, humidity=6500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:old_swampland (NoiseHypercube[temperature=1000, humidity=7500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:old_warped_woods (NoiseHypercube[temperature=0, humidity=5500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=3750])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:painted_mountains
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:painted_mountains
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:poor_nether_grasslands (NoiseHypercube[temperature=0, humidity=3000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:shadow_forest
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:shadow_forest
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:soul_plain (NoiseHypercube[temperature=100, humidity=-5000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:sulfuric_bone_reef (NoiseHypercube[temperature=0, humidity=6000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=3700])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:umbra_valley
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:umbra_valley
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[21:37:09] [Render thread/INFO] (wover-generator) Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:upside_down_forest (NoiseHypercube[temperature=4500, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1250])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:upside_down_forest_cleared (NoiseHypercube[temperature=4500, humidity=3000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1250])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:wart_forest (NoiseHypercube[temperature=-5000, humidity=5000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:37:09] [Render thread/INFO] (wover-generator) Adding Nether Biome to Fabric: betternether:wart_forest_edge (NoiseHypercube[temperature=-5000, humidity=4500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[21:37:09] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry wover:wover/worldgen/biome_data
+[21:37:09] [Render thread/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on wover:wover/worldgen/biome_data
+[21:37:09] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_BIOME_DATA_REGISTRY
+[21:37:09] [Render thread/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:dimension
+[21:37:09] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: WORLD_REGISTRY_READY (7b1921d, PREPARATION)
+[21:37:09] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BEFORE_LOADING_RESOURCES
+[21:37:09] [Render thread/INFO] (wover-tag) (DEBUG) Invalidating TagBootstrapContext Caches
+[21:37:09] [Worker-Main-3/ERROR] (betternether) Unable to building bartering table
+[21:37:10] [Worker-Main-1/INFO] (wover-events) (DEBUG) Emitting event: TAG_BOOTSTRAP_EVENT (tags/enchantment)
+[21:37:10] [Worker-Main-3/INFO] (wover-events) (DEBUG) Emitting event: TAG_BOOTSTRAP_EVENT (tags/worldgen/biome)
+[21:37:10] [Worker-Main-3/INFO] (wover-events) (DEBUG) Emitting event: TAG_BOOTSTRAP_EVENT (tags/entity_type)
+[21:37:10] [Worker-Main-1/INFO] (wover-events) (DEBUG) Emitting event: TAG_BOOTSTRAP_EVENT (tags/block)
+[21:37:10] [Worker-Main-2/INFO] (wover-events) (DEBUG) Emitting event: TAG_BOOTSTRAP_EVENT (tags/item)
+[21:37:10] [Render thread/INFO] (wover-core) (DEBUG) Checking Resource from Datapack: 'bclib:config/recipes.json'
+[21:37:10] [Render thread/INFO] (bclib) Disabling Recipe: bclib:test_star
+[21:37:10] [Render thread/INFO] (Minecraft) Loaded 3173 recipes
+[21:37:10] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_RECIPES
+[21:37:10] [Render thread/INFO] (wover-recipe) Added 0 recipes in 2ms
+[21:37:11] [Render thread/INFO] (Minecraft) Loaded 2929 advancements
+[21:37:13] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: WORLD_REGISTRY_READY (440bd21e, FINAL)
+[21:37:13] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: RESOURCES_LOADED
+[21:37:13] [Render thread/INFO] (wover-core) (DEBUG) Checking Resource from Datapack: 'bclib:config/recipes.json'
+[21:37:13] [Render thread/INFO] (wover-core) (DEBUG) Checking Resource from Datapack: 'bclib:config/recipes.json'
+[21:37:13] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: ON_DIMENSION_LOAD
+[21:37:13] [Render thread/ERROR] (wover-generator) Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/chunk_generator]: bclib:betterx; Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/chunk_generator]: bclib:betterx missed input: {"minecraft:the_end":{biome_source:{config:{barrens_biomes_size:256,center_biomes_size:256,generator_version:"paulevs",inner_void_radius_squared:1048576,land_biomes_size:256,map_type:"hex",void_biomes_size:256,with_void_biomes:1b},seed:0L,type:"bclib:end_biome_source"},settings:"minecraft:end",type:"bclib:betterx"},"minecraft:the_nether":{biome_source:{config:{amplified:0b,biome_size:256,biome_size_vertical:86,map_type:"hex",use_vertical_biomes:1b},seed:0L,type:"bclib:nether_biome_source"},settings:"minecraft:nether",type:"bclib:betterx"}}
+[21:37:13] [Render thread/INFO] (wover-generator) Added Tags for 1 fabric biomes in 23.71 ms
+[21:37:13] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: ALLOW_EXPERIMENTAL_WARNING_SCREEN
+[21:37:15] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_POTIONS
+[21:37:15] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: MINECRAFT_SERVER_READY
+[21:37:15] [Render thread/INFO] (wover-biome) Applied 30 biome modifications and added 23 tags to 29 of 112 biomes in 7.360 ms
+[21:37:15] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 112 new biomes in 1.514 ms
+[21:37:15] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.1
+[21:37:15] [Server thread/INFO] (Minecraft) Generating keypair
+[21:37:15] [Server thread/INFO] (wover-events) (DEBUG) Emitting event: BEFORE_CREATING_LEVELS
+[21:37:15] [Server thread/INFO] (wover-generator) World Dimensions: 
+ - minecraft:overworld: 
+     FlatChunkGenerator (260da11b)
+         preset     = none
+         features   = none
+     FixedBiomeSource (5500d142)
+         biomes     = 1
+         namespaces = minecraft(1)
+ - skyblock:the_abyss_fabric: 
+     FlatChunkGenerator (65776c20)
+         preset     = none
+         features   = none
+     FixedBiomeSource (229f0a35)
+         biomes     = 1
+         namespaces = minecraft(1)
+ - skyblock:unknown: 
+     FlatChunkGenerator (7f63892a)
+         preset     = none
+         features   = none
+     FixedBiomeSource (67789c80)
+         biomes     = 1
+         namespaces = minecraft(1)
+[21:37:15] [Server thread/INFO] (wover-events) (DEBUG) Emitting event: SERVER_LEVEL_READY
+[21:37:15] [Server thread/INFO] (wover-generator) Added 2 Biomes
+[21:37:15] [Server thread/INFO] (wover-generator)  - minecraft:end_barrens, subbiomes=1
+[21:37:15] [Server thread/INFO] (wover-generator)  - minecraft:end_midlands, subbiomes=1
+[21:37:15] [Server thread/INFO] (wover-events) (DEBUG) Emitting event: SERVER_LEVEL_READY
+[21:37:15] [Server thread/INFO] (wover-generator) Added 2 Biomes
+[21:37:15] [Server thread/INFO] (wover-generator)  - minecraft:end_barrens, subbiomes=1
+[21:37:15] [Server thread/INFO] (wover-generator)  - minecraft:end_midlands, subbiomes=1
+[21:37:15] [Server thread/INFO] (wover-events) (DEBUG) Emitting event: SERVER_LEVEL_READY
+[21:37:15] [Server thread/INFO] (wover-generator) Added 2 Biomes
+[21:37:15] [Server thread/INFO] (wover-generator)  - minecraft:end_barrens, subbiomes=1
+[21:37:15] [Server thread/INFO] (wover-generator)  - minecraft:end_midlands, subbiomes=1
+[21:37:15] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[21:37:15] [Render thread/INFO] (Minecraft) Kezd?terület el?készítése: 0%
+[21:37:15] [Render thread/INFO] (Minecraft) Time elapsed: 482 ms
+[21:37:15] [Server thread/WARN] (ConventionLogWarnings) 
+	Dev warning - Legacy Tags detected. Please migrate your old tags to our new format that follows better conventions!
+	See classes under net.fabricmc.fabric.api.tag.convention.v2 package for all tags.
+
+	NOTE: Many tags have been moved around or renamed. Some new ones were added so please review the new tags.
+	And make sure you follow tag conventions for new tags! The convention is `c` with nouns generally being plural and adjectives being singular.
+	You can disable this message by this system property to your runs: `-Dfabric-tag-conventions-v1.legacyTagWarning=SILENCED`.
+	To see individual legacy tags found, set the system property to `-Dfabric-tag-conventions-v1.legacyTagWarning=VERBOSE` instead. Default is `SHORT`.
+
+[21:37:15] [Server thread/WARN] (TranslationConventionLogWarnings) 
+	Dev warning - Untranslated Item Tags detected. Please translate your item tags so other mods such as recipe viewers can properly display your tag's name.
+	The format desired is tag.item.<namespace>.<path> for the translation key with slashes in path turned into periods.
+	To disable this message, set this system property in your runs: `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=SILENCED`.
+	To see individual untranslated item tags found, set the system property to `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=VERBOSE`.
+	Default is `SHORT`.
+
+[21:37:16] [Server thread/INFO] (Minecraft) Changing view distance to 16, from 10
+[21:37:16] [Server thread/INFO] (Minecraft) Changing simulation distance to 26, from 0
+[21:37:17] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_POTIONS
+[21:37:17] [Server thread/INFO] (Minecraft) Player850[local:E:5963fe96] logged in with entity id 163 at (13.00219848067868, -49.391021108554625, 16.132019189631862)
+[21:37:17] [Server thread/INFO] (Minecraft) Player850 csatlakozott a játékhoz
+[21:37:21] [Render thread/INFO] (Minecraft) Loaded 43 advancements

@@ -2,7 +2,6 @@ package net.me.skyblock.registries;
 
 import com.google.common.base.Suppliers;
 import com.google.common.collect.Maps;
-import jdk.jfr.Unsigned;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.gamerule.v1.GameRuleFactory;
@@ -43,7 +42,6 @@ import net.me.skyblock.items.mcd.mcd_ranged.ShortBowItem;
 import net.me.skyblock.items.skyblock.*;
 import net.me.skyblock.items.util.AnomaliteArmorItem;
 import net.me.skyblock.items.util.NullItem;
-import net.me.skyblock.items.util.TileBlankItem;
 import net.me.skyblock.items.util.custom_unenchantable.UnenchantableAxeItem;
 import net.me.skyblock.items.util.custom_unenchantable.UnenchantablePickaxeItem;
 import net.me.skyblock.items.util.custom_unenchantable.UnenchantableSwordItem;
@@ -1286,775 +1284,847 @@ public class SkyBlockRegistries {
                         .copy(Blocks.OBSIDIAN)
                         .strength(50.0f, 1200.0f)
                         .requiresTool()
-                        .luminance(state -> 10)));
+                        .luminance(state -> 10))); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_DIRT = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_dirt",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.DIRT)
                         .sounds(BlockSoundGroup.MUD)
-                        .strength(0.5f)));
+                        .strength(0.5f))); //TODO: MAPCOLOR
         public static final Block ABYSS__ROMA_MUD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__roma_mud",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.MUD)
                         .sounds(BlockSoundGroup.MUD)
-                        .strength(0.5f)));
+                        .strength(0.5f))); //TODO: MAPCOLOR
         public static final Block ABYSS__ROMA_MUD_CURSED = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__roma_mud_2",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.MUD)
                         .sounds(BlockSoundGroup.MUD)
-                        .strength(0.5f)));
+                        .strength(0.5f))); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_GRAVEL = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_gravel",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.DIRT)
                         .sounds(BlockSoundGroup.GRAVEL)
-                        .strength(0.6f)));
+                        .strength(0.6f))); //TODO: MAPCOLOR
         public static final Block ABYSS__INFECTED_PEAT = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__infected_peat",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.DIRT)
                         .sounds(BlockSoundGroup.MUD)
-                        .strength(0.5f)));
+                        .strength(0.5f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STONE_RACKLE = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stone_rackle",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.STONE)
                         .strength(1.5f, 6.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__BLARU_MOSS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__blaru_moss",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.DIRT)
                         .sounds(BlockSoundGroup.ROOTED_DIRT)
-                        .strength(0.5f)));
+                        .strength(0.5f))); //TODO: MAPCOLOR
         public static final Block ABYSS__GLOWING_BLARU_MOSS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__glowing_blaru_moss",
                 new CarpetBlock(AbstractBlock.Settings
                         .copy(Blocks.MOSS_CARPET)
                         .sounds(BlockSoundGroup.MOSS_CARPET)
-                        .luminance(state -> 6)));
+                        .luminance(state -> 6))); //TODO: MAPCOLOR
         public static final Block ABYSS__BLARU_GRASS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__blaru_grass",
                 new AbyssVegetation(AbstractBlock.Settings
                         .copy(Blocks.NETHER_SPROUTS)
-                        .sounds(BlockSoundGroup.NETHER_SPROUTS)));
+                        .sounds(BlockSoundGroup.NETHER_SPROUTS))); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_SPORES = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_spores",
                 new AbyssVegetation(AbstractBlock.Settings
                         .copy(Blocks.WARPED_ROOTS)
-                        .sounds(BlockSoundGroup.ROOTS)));
+                        .sounds(BlockSoundGroup.ROOTS))); //TODO: MAPCOLOR
         public static final Block ABYSS__TESLA_FLOWER = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__tesla_flower",
                 new AbyssVegetation(AbstractBlock.Settings
                         .copy(Blocks.WARPED_ROOTS)
-                        .sounds(BlockSoundGroup.ROOTS)));
+                        .sounds(BlockSoundGroup.ROOTS))); //TODO: MAPCOLOR
         public static final Block ABYSS__VIGILANT_VERSA = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__vigilant_versa",
                 new AbyssVegetation(AbstractBlock.Settings
                         .copy(Blocks.WARPED_ROOTS)
                         .sounds(BlockSoundGroup.ROOTS)
-                        .luminance(state -> 7)));
+                        .luminance(state -> 7))); //TODO: MAPCOLOR
         public static final Block ABYSS__EXOLIUS_MAXIMUS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__exolius_maximus",
                 new AbyssVegetation(AbstractBlock.Settings
                         .copy(Blocks.NETHER_SPROUTS)
                         .sounds(BlockSoundGroup.ROOTS)
-                        .luminance(state -> 3)));
+                        .luminance(state -> 3))); //TODO: MAPCOLOR
         public static final Block ABYSS__YOUNG_EXOLIUS_MAXIMUS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__young_exolius_maximus",
                 new AbyssVegetation(AbstractBlock.Settings
                         .copy(Blocks.NETHER_SPROUTS)
                         .sounds(BlockSoundGroup.ROOTS)
-                        .luminance(state -> 3)));
+                        .luminance(state -> 3))); //TODO: MAPCOLOR
         public static final Block ABYSS__VIGILANT_GRASS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__vigilant_grass",
                 new AbyssVegetation(AbstractBlock.Settings
                         .copy(Blocks.NETHER_SPROUTS)
-                        .sounds(BlockSoundGroup.NETHER_SPROUTS)));
+                        .sounds(BlockSoundGroup.NETHER_SPROUTS))); //TODO: MAPCOLOR
         public static final Block ABYSS__BLUE_VIGILANT_GRASS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__blue_vigilant_grass",
                 new BlueVigilantGrass(AbstractBlock.Settings
                         .copy(Blocks.NETHER_SPROUTS)
                         .sounds(BlockSoundGroup.ROOTS)
-                        .luminance(state -> state.get(BlueVigilantGrass.LIT) ? 10 : 6)));
+                        .luminance(state -> state.get(BlueVigilantGrass.LIT) ? 10 : 6))); //TODO: MAPCOLOR
         public static final Block ABYSS__VIGILANT_MOSS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__vigilant_moss",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.DIRT)
                         .sounds(BlockSoundGroup.ROOTED_DIRT)
-                        .strength(0.5f)));
+                        .strength(0.5f))); //TODO: MAPCOLOR
         public static final Block ABYSS__INFUSED_MAGMA = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__infused_magma",
                 new MagmaBlock(AbstractBlock.Settings
                         .copy(Blocks.MAGMA_BLOCK)
                         .strength(0.5f)
                         .luminance(state -> 3)
                         .requiresTool()
-                        .emissiveLighting(SkyBlock.BuiltinRegistries::alwaysPredicate)));
+                        .emissiveLighting(SkyBlock.BuiltinRegistries::alwaysPredicate))); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_STONE = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_stone",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.STONE)
                         .strength(1.5f, 6.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_STONE_OG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_stone_og",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.STONE)
                         .strength(1.5f, 6.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_DIAMOND_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_diamond_ore",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.DIAMOND_ORE)
                         .strength(3.0f, 3.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_EMERALD_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_emerald_ore",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.EMERALD_ORE)
                         .strength(3.0f, 3.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_GOLD_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_gold_ore",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.GOLD_ORE)
                         .strength(3.0f, 3.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_IRON_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_iron_ore",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.IRON_ORE)
                         .strength(3.0f, 3.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_IGNISITHE_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_ignisithe_ore",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.IRON_ORE)
                         .strength(3.0f, 3.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_ABERYTHE_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_aberythe_ore",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.IRON_ORE)
                         .strength(3.0f, 3.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_ABORANYS_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_aboranys_ore",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.IRON_ORE)
                         .strength(3.0f, 3.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_FUSION_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_fusion_ore",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.IRON_ORE)
                         .strength(3.0f, 3.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_GARNITE_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_garnite_ore",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.IRON_ORE)
                         .strength(3.0f, 3.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_GLACERYTHE_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_glacerythe_ore",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.IRON_ORE)
                         .strength(3.0f, 3.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_INCORYTHE_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_incorythe_ore",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.IRON_ORE)
                         .strength(3.0f, 3.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_LORAN_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_loran_ore",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.IRON_ORE)
                         .strength(3.0f, 3.0f)
-                        .requiresTool()));
+                        .requiresTool())); //TODO: MAPCOLOR
         public static final Block ABYSS__PURPLE_SHROOMLIGHT = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__purple_shroomlight",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.SHROOMLIGHT)
-                        .strength(1.0f)));
+                        .strength(1.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__DARK_BLUE_SHROOMLIGHT = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__dark_blue_shroomlight",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.SHROOMLIGHT)
-                        .strength(1.0f)));
+                        .strength(1.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__BLUE_SHROOMLIGHT = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__blue_shroomlight",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.SHROOMLIGHT)
-                        .strength(1.0f)));
+                        .strength(1.0f))); //TODO: MAPCOLOR
 
 
         public static final Block ABYSS__ABYSS_JUNGLE_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_jungle_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_JUNGLE_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_jungle_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_ABYSS_JUNGLE_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_abyss_jungle_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_ABYSS_JUNGLE_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_abyss_jungle_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_JUNGLE_LEAVES = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_jungle_leaves",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.OAK_LEAVES)));
+                        .copy(Blocks.OAK_LEAVES))); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_JUNGLE_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_jungle_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.WARPED_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_JUNGLE_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_jungle_stairs",
                 new ModStairsBlock(BlockRegistries.ABYSS__ABYSS_JUNGLE_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.WARPED_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_JUNGLE_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_jungle_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
 
 
         public static final Block ABYSS__BLARU_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__blaru_log",
                 new PillarBlock(AbstractBlock.Settings
-                        .copy(Blocks.WARPED_STEM).strength(2.0f)));
+                        .copy(Blocks.WARPED_STEM).strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__BLARU_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__blaru_wood",
                 new PillarBlock(AbstractBlock.Settings
-                        .copy(Blocks.WARPED_HYPHAE).strength(2.0f)));
+                        .copy(Blocks.WARPED_HYPHAE).strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_BLARU_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_blaru_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_BLARU_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_blaru_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__BLARU_LEAVES = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__blaru_leaves",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.OAK_LEAVES)));
+                        .copy(Blocks.OAK_LEAVES))); //TODO: MAPCOLOR
         public static final Block ABYSS__BLARU_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__blaru_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.WARPED_PLANKS).strength(2.0f)));
+                        .copy(Blocks.WARPED_PLANKS).strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__BLARU_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__blaru_stairs",
                 new ModStairsBlock(BlockRegistries.ABYSS__BLARU_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.WARPED_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__BLARU_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__blaru_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
 
 
         public static final Block ABYSS__FROZEN_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__frozen_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__FROZEN_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__frozen_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_FROZEN_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_frozen_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_FROZEN_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_frozen_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__FROZEN_LEAVES = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__frozen_leaves",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.OAK_LEAVES)));
+                        .copy(Blocks.OAK_LEAVES))); //TODO: MAPCOLOR
         public static final Block ABYSS__FROZEN_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__frozen_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.WARPED_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__VERTICAL_FROZEN_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__vertical_frozen_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.WARPED_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__CARVED_FROZEN_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__carved_frozen_planks",
                 new PillarBlock(AbstractBlock.Settings
-                        .copy(Blocks.WARPED_PLANKS)));
+                        .copy(Blocks.WARPED_PLANKS))); //TODO: MAPCOLOR
         public static final Block ABYSS__FROZEN_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__frozen_stairs",
                 new ModStairsBlock(BlockRegistries.ABYSS__FROZEN_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.WARPED_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__FROZEN_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__frozen_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
 
 
         public static final Block ABYSS__SLIMED_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__slimed_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__SLIMED_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__slimed_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_SLIMED_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_slimed_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_SLIMED_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_slimed_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSS_SLIME_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abyss_slime_block",
                 new SlimeBlock(AbstractBlock.Settings
                         .copy(Blocks.SLIME_BLOCK)
-                        .strength(0.01f)));
+                        .strength(0.01f))); //TODO: MAPCOLOR
         public static final Block ABYSS__SLIMED_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__slimed_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.WARPED_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__SLIMED_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__slimed_stairs",
                 new ModStairsBlock(BlockRegistries.ABYSS__SLIMED_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.WARPED_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__SLIMED_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__slimed_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
 
 
         public static final Block ABYSS__VIGILANT_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__vigilant_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__VIGILANT_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__vigilant_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_VIGILANT_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_vigilant_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_VIGILANT_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_vigilant_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__VIGILANT_LEAVES = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__vigilant_leaves",
                 new LeavesBlock(AbstractBlock.Settings
                         .copy(Blocks.BUBBLE_CORAL_BLOCK)
-                        .strength(1.0f)));
+                        .strength(1.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__VIGILANT_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__vigilant_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.WARPED_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__VIGILANT_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__vigilant_stairs",
                 new ModStairsBlock(BlockRegistries.ABYSS__VIGILANT_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.WARPED_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__VIGILANT_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__vigilant_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
 
 
         public static final Block ABYSS__ABYSCULK_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abysculk_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSCULK_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abysculk_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_ABYSCULK_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_abysculk_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_ABYSCULK_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_abysculk_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSCULK_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abysculk_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.WARPED_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSCULK_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abysculk_stairs",
                 new ModStairsBlock(BlockRegistries.ABYSS__ABYSCULK_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.WARPED_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__ABYSCULK_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__abysculk_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
 
 
         public static final Block ABYSS__BOG_SHROOM_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__bog_shroom_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__BOG_SHROOM_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__bog_shroom_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_BOG_SHROOM_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_bog_shroom_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_BOG_SHROOM_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_bog_shroom_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__BOG_SHROOM_LEAVES = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__bog_shroom_leaves",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.BRAIN_CORAL_BLOCK)
-                        .luminance(state -> 10)));
+                        .luminance(state -> 10))); //TODO: MAPCOLOR
         public static final Block ABYSS__BOG_SHROOM_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__bog_shroom_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.WARPED_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__BOG_SHROOM_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__bog_shroom_stairs",
                 new ModStairsBlock(BlockRegistries.ABYSS__BOG_SHROOM_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.WARPED_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__BOG_SHROOM_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__bog_shroom_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
 
 
         public static final Block ABYSS__SAL_SHROOM_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__sal_shroom_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__SAL_SHROOM_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__sal_shroom_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_SAL_SHROOM_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_sal_shroom_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__STRIPPED_SAL_SHROOM_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__stripped_sal_shroom_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__SAL_SHROOM_LEAVES = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__sal_shroom_leaves",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.BUBBLE_CORAL_BLOCK)
-                        .luminance(state -> 10)));
+                        .luminance(state -> 10))); //TODO: MAPCOLOR
         public static final Block ABYSS__SAL_SHROOM_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__sal_shroom_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.WARPED_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__SAL_SHROOM_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__sal_shroom_stairs",
                 new ModStairsBlock(BlockRegistries.ABYSS__SAL_SHROOM_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.WARPED_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         public static final Block ABYSS__SAL_SHROOM_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("abyss__sal_shroom_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f))); //TODO: MAPCOLOR
         //ABYSS
         //SKYBLOCK MAIN-BLOCK
         public static final Block MCD__VOID_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("mcd__void_block",
                 new VoidBlock(AbstractBlock.Settings
                         .copy(Blocks.SCULK)
                         .strength(3.0f)
-                        .requiresTool()));
+                        .requiresTool()));  //TODO: MAPCOLOR
         public static final Block SP5__ENDMERALD_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_emerald_ore",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE)
                         .strength(4.0f)
-                        .requiresTool()));
+                        .requiresTool()
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block SP5__ENDMERALD_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_emerald_block",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.EMERALD_BLOCK)
                         .strength(4.0f)
-                        .requiresTool()));
+                        .requiresTool()
+                        .mapColor(MapColor.EMERALD_GREEN)));
         public static final Block SP5__ENDERITE_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__enderite_ore",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE)
                         .strength(4.0f)
-                        .requiresTool()));
+                        .requiresTool()
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block SP5__ENDERITE_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__enderite_block",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.EMERALD_BLOCK)
                         .strength(4.0f)
-                        .requiresTool()));
+                        .requiresTool()
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__ASTEROID_RESIDUES = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__asteroid_residues",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE)
                         .strength(4.0f)
-                        .requiresTool()));
+                        .requiresTool()
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block SP5__SOLID_ROCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__solid_rock",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE)
                         .strength(4.0f)
-                        .requiresTool()));
+                        .requiresTool()
+                        .mapColor(MapColor.BLACK)));
         public static final Block MCD__OG_PURPUR_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("mcd__og_purpur_block",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.PURPUR_BLOCK)
-                        .mapColor(MapColor.MAGENTA)
                         .instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool()
-                        .strength(1.5F, 6.0F)));
+                        .strength(1.5F, 6.0F)
+                        .mapColor(MapColor.MAGENTA)));
         public static final Block SP5__END_GRASS = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_grass",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE)
                         .sounds(BlockSoundGroup.GRASS)
                         .instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool()
-                        .strength(2.0F, 7.5F)));
+                        .strength(2.0F, 7.5F)
+                        .mapColor(MapColor.TERRACOTTA_PURPLE)));
         public static final Block SP5__BLUISHE_GRASS = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__bluishe_end_stone",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE)
                         .instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool()
-                        .strength(3.0F, 9.0F)));
+                        .strength(3.0F, 9.0F)
+                        .mapColor(MapColor.CYAN)));
         public static final Block SP5__END_GRASS_VEGETATION = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__ender_grass",
                 new EndVegetation(AbstractBlock.Settings
                         .copy(Blocks.NETHER_SPROUTS)
-                        .sounds(BlockSoundGroup.GRASS)));
+                        .sounds(BlockSoundGroup.GRASS)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__END_MUSHROOM = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_fungus",
                 new EndVegetation(AbstractBlock.Settings
                         .copy(Blocks.CRIMSON_FUNGUS)
-                        .sounds(BlockSoundGroup.FUNGUS)));
+                        .sounds(BlockSoundGroup.FUNGUS)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__BLUISHE_BUSH = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__bluishe_bush",
                 new EndVegetation(AbstractBlock.Settings
                         .copy(Blocks.WARPED_FUNGUS)
-                        .sounds(BlockSoundGroup.GRASS)));
+                        .sounds(BlockSoundGroup.GRASS)
+                        .mapColor(MapColor.LAPIS_BLUE)));
         public static final Block SP5__BLUISHE_MUSHROOM = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__bluishe_fungus",
                 new EndVegetation(AbstractBlock.Settings
                         .copy(Blocks.WARPED_FUNGUS)
-                        .sounds(BlockSoundGroup.FUNGUS)));
+                        .sounds(BlockSoundGroup.FUNGUS)
+                        .mapColor(MapColor.LIGHT_BLUE)));
         public static final Block SP5__END_BUSH = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_bush",
                 new EndVegetation(AbstractBlock.Settings
                         .copy(Blocks.NETHER_SPROUTS)
-                        .sounds(BlockSoundGroup.GRASS)));
+                        .sounds(BlockSoundGroup.GRASS)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__END_FLOWER = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_flower",
                 new EndFlower(AbstractBlock.Settings
                         .copy(Blocks.DANDELION)
-                        .sounds(BlockSoundGroup.SPORE_BLOSSOM)));
+                        .sounds(BlockSoundGroup.SPORE_BLOSSOM)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__WARPED_NAVI_PLANT = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__warped_navi_plant",
                 new BaseTallPlantBlock(AbstractBlock.Settings
                         .copy(Blocks.TALL_GRASS)
-                        .offset(AbstractBlock.OffsetType.NONE), BlockRegistries.SP5__END_GRASS));
+                        .offset(AbstractBlock.OffsetType.NONE)
+                        .mapColor(MapColor.CYAN), BlockRegistries.SP5__END_GRASS));
         public static final Block SKYBLOCK__ANT_JAM_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__ant_jam_block",
                 new SlimeBlock(AbstractBlock.Settings
-                        .copy(Blocks.HONEY_BLOCK)));
+                        .copy(Blocks.HONEY_BLOCK)
+                        .mapColor(MapColor.LIGHT_GRAY)));
         public static final Block SKYBLOCK__SWEET_BERRY_JAM_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__sweet_berry_jam_block",
                 new SlimeBlock(AbstractBlock.Settings
-                        .copy(Blocks.HONEY_BLOCK)));
+                        .copy(Blocks.HONEY_BLOCK)
+                        .mapColor(MapColor.DARK_RED)));
         public static final Block SKYBLOCK__SUSPICIOUS_COARSE_DIRT = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__suspicious_coarse_dirt",
                 new SuspiciousCoarseDirt(AbstractBlock.Settings
                         .copy(Blocks.COARSE_DIRT)
-                        .strength(0.5f)));
+                        .strength(0.5f)
+                        .mapColor(MapColor.DIRT_BROWN)));
         public static final Block SP5__TRANSPARENT_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__transparent_block",
                 new TransparentBlock(AbstractBlock.Settings
                         .copy(Blocks.BLACK_STAINED_GLASS)
                         .sounds(BlockSoundGroup.WART_BLOCK)
-                        .strength(0.5f)));
+                        .strength(0.5f)
+                        .mapColor(MapColor.TERRACOTTA_PURPLE)));
         public static final Block SP5__END_WART_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_wart_block",
                 new TransparentBlock(AbstractBlock.Settings
                         .copy(Blocks.BLACK_STAINED_GLASS)
                         .sounds(BlockSoundGroup.WART_BLOCK)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__BLUE_WART = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__blue_wart",
                 new TransparentBlock(AbstractBlock.Settings
                         .copy(Blocks.BLACK_STAINED_GLASS)
                         .sounds(BlockSoundGroup.MOSS_BLOCK)
-                        .strength(0.5f)));
+                        .strength(0.5f)
+                        .mapColor(MapColor.CYAN)));
         public static final Block SP5__CRACKED_END_STONE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__cracked_end_stone_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICKS)
-                        .strength(3.0f, 9.0f)));
+                        .strength(3.0f, 9.0f)
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block SP5__WARPED_END_STONE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__warped_end_stone_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICKS)
-                        .strength(3.0f, 9.0f)));
+                        .strength(3.0f, 9.0f)
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block SP5__END_STONE_PILLAR = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_stone_pillar",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICKS)
-                        .strength(3.0f, 9.0f)));
+                        .strength(3.0f, 9.0f)
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block SP5__END_STONE_TILES = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_stone_tiles",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICKS)
-                        .strength(3.0f, 9.0f)));
+                        .strength(3.0f, 9.0f)
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block SP5__SMALL_END_STONE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__small_end_stone_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICKS)
-                        .strength(3.0f, 9.0f)));
+                        .strength(3.0f, 9.0f)
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block SP5__SMOOTH_END_STONE = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__smooth_end_stone",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICKS)
-                        .strength(3.0f, 9.0f)));
+                        .strength(3.0f, 9.0f)
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block SP5__CHISELED_END_STONE = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__chiseled_end_stone",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICKS)
-                        .strength(3.0f, 9.0f)));
+                        .strength(3.0f, 9.0f)
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block SP5__CHISELED_END_STONE_CUBIC = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__chiseled_end_stone_cubic",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICKS)
-                        .strength(3.0f, 9.0f)));
+                        .strength(3.0f, 9.0f)
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block SP5__CHISELED_END_STONE_MAZE = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__chiseled_end_stone_maze",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICKS)
-                        .strength(3.0f, 9.0f)));
+                        .strength(3.0f, 9.0f)
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block SP5__PURPLE_END_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__purple_end_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICKS)
-                        .strength(3.0f, 9.0f)));
+                        .strength(3.0f, 9.0f)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__PURPLE_END_BRICK_PILLAR = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__purple_end_brick_pillar",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICKS)
-                        .strength(1.5f, 6.0f)));
+                        .strength(1.5f, 6.0f)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__WARPED_PURPLE_END_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__warped_purple_end_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICKS)
-                        .strength(3.0f, 9.0f)));
+                        .strength(3.0f, 9.0f)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__PURPLE_END_BRICK_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__purple_end_brick_stairs",
                 new StairsBlock(BlockRegistries.SP5__PURPLE_END_BRICKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICK_STAIRS)
-                        .strength(3.0f, 9.0f)));
+                        .strength(3.0f, 9.0f)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__PURPLE_END_BRICK_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__purple_end_brick_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICK_SLAB)
-                        .strength(3.0f, 9.0f)));
+                        .strength(3.0f, 9.0f)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__END_PURPLE_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_purple_block",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.PURPUR_BLOCK)
-                        .strength(1.5f, 6.0f)));
+                        .strength(1.5f, 6.0f)
+                        .mapColor(MapColor.TERRACOTTA_LIGHT_BLUE)));
         public static final Block SP5__END_PURPLE_PILLAR = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_purple_pillar",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.END_STONE_BRICKS)
-                        .strength(1.5f, 6.0f)));
+                        .strength(1.5f, 6.0f)
+                        .mapColor(MapColor.TERRACOTTA_LIGHT_BLUE)));
         public static final Block SP5__ENDER_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__ender_block",
                 new EnderBlock(AbstractBlock.Settings
                         .copy(Blocks.PURPUR_BLOCK)
-                        .strength(1.5f, 6.0f)));
+                        .strength(1.5f, 6.0f)
+                        .mapColor(MapColor.TERRACOTTA_LIGHT_BLUE)));
         public static final Block SP5__END_PURPLE_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_purple_stairs",
                 new StairsBlock(BlockRegistries.SP5__END_PURPLE_BLOCK.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.PURPUR_STAIRS)
-                        .strength(1.5f, 6.0f)));
+                        .strength(1.5f, 6.0f)
+                        .mapColor(MapColor.TERRACOTTA_LIGHT_BLUE)));
         public static final Block SP5__END_PURPLE_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_purple_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.PURPUR_SLAB)
-                        .strength(1.5f, 6.0f)));
+                        .strength(1.5f, 6.0f)
+                        .mapColor(MapColor.TERRACOTTA_LIGHT_BLUE)));
         public static final Block SP5__END_STEM = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_stem",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.CRIMSON_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__END_HYPHAE = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_hyphae",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.CRIMSON_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__STRIPPED_END_STEM = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__stripped_end_stem",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_CRIMSON_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__STRIPPED_END_HYPHAE = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__stripped_end_hyphae",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_CRIMSON_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__ENDLIGHT = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__endlight",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.SHROOMLIGHT)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.PINK)));
         public static final Block SP5__END_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.CRIMSON_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__END_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_stairs",
                 new ModStairsBlock(BlockRegistries.SP5__END_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.WARPED_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block SP5__END_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__end_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.PURPLE)));
 
 
         public static final Block SP5__BLUISHE_STEM = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__bluishe_stem",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BLUE)));
         public static final Block SP5__BLUISHE_HYPHAE = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__bluishe_hyphae",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BLUE)));
         public static final Block SP5__BLUISHE_LIGHT_STEM = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__bluishe_light_stem",
                 new BluisheLightStemBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BLUE)));
         public static final Block SP5__BLUISHE_LIGHT_HYPHAE = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__bluishe_light_hyphae",
                 new BluisheLightStemBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BLUE)));
         public static final Block SP5__STRIPPED_BLUISHE_STEM = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__stripped_bluishe_stem",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BLUE)));
         public static final Block SP5__STRIPPED_BLUISHE_HYPHAE = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__stripped_bluishe_hyphae",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_WARPED_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BLUE)));
         public static final Block SP5__BLUISHE_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__bluishe_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.WARPED_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BLUE)));
         public static final Block SP5__BLUISHE_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__bluishe_stairs",
                 new ModStairsBlock(BlockRegistries.SP5__BLUISHE_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.WARPED_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BLUE)));
         public static final Block SP5__BLUISHE_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("sp5__bluishe_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BLUE)));
         public static final Block FLOGICAL__AZALEA_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("flogical__azalea_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.OAK_LOG)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_MAGENTA)));
         public static final Block FLOGICAL__AZALEA_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("flogical__azalea_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.OAK_WOOD)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_MAGENTA)));
         public static final Block FLOGICAL__STRIPPED_AZALEA_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("flogical__stripped_azalea_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_OAK_LOG)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_MAGENTA)));
         public static final Block FLOGICAL__STRIPPED_AZALEA_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("flogical__stripped_azalea_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_OAK_WOOD)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_MAGENTA)));
         public static final Block FLOGICAL__AZALEA_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("flogical__azalea_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.OAK_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_MAGENTA)));
         public static final Block FLOGICAL__AZALEA_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("flogical__azalea_stairs",
                 new ModStairsBlock(BlockRegistries.FLOGICAL__AZALEA_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.OAK_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_MAGENTA)));
         public static final Block FLOGICAL__AZALEA_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("flogical__azalea_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.OAK_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_MAGENTA)));
         //BUNCH O' SCULK
         public static final Block BOSC__SCULK_JAW = SkyBlock.BuiltinRegistries.registerBlockAndItem("bosc__sculk_jaw",
                 new SculkJawBlock(AbstractBlock.Settings
                         .copy(Blocks.SCULK)
-                        .strength(1f), Blocks.SCULK));
+                        .strength(1f)
+                        .mapColor(MapColor.BLACK), Blocks.SCULK));
         public static final Block BOSC__DEAD_SCULK = SkyBlock.BuiltinRegistries.registerBlockAndItem("bosc__dead_sculk",
                 new SculkBlock(AbstractBlock.Settings
                         .copy(Blocks.SCULK)
-                        .sounds(BlockSoundGroup.CORAL)));
+                        .sounds(BlockSoundGroup.CORAL)
+                        .mapColor(MapColor.BLACK)));
         public static final Block BOSC__DEAD_SCULK_JAW = SkyBlock.BuiltinRegistries.registerBlockAndItem("bosc__dead_sculk_jaw",
                 new SculkBlock(AbstractBlock.Settings
                         .copy(Blocks.SCULK)
-                        .sounds(BlockSoundGroup.CORAL)));
+                        .sounds(BlockSoundGroup.CORAL)
+                        .mapColor(MapColor.BLACK)));
         public static final Block BOSC__DEAD_SCULK_SPROUTS = SkyBlock.BuiltinRegistries.registerBlockAndItem("bosc__dead_sculk_sprouts",
                 new BaseShortPlantBlock(AbstractBlock.Settings
-                        .copy(Blocks.NETHER_SPROUTS), TagRegistries.Blocks.BOSC__DEAD_SCULK_GROUND));
+                        .copy(Blocks.NETHER_SPROUTS)
+                        .mapColor(MapColor.DEEPSLATE_GRAY), TagRegistries.Blocks.BOSC__DEAD_SCULK_GROUND));
         //BUNCH O' SCULK
         //SKYBLOCK - SCULK
         public static final Block SKYBLOCK__RED_SCULK = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__red_sculk",
                 new SculkBlock(AbstractBlock.Settings
-                        .copy(Blocks.SCULK)));
+                        .copy(Blocks.SCULK)
+                        .mapColor(MapColor.BLACK)));
         public static final Block SKYBLOCK__RED_SCULK_JAW = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__red_sculk_jaw",
                 new SculkJawBlock(AbstractBlock.Settings
                         .copy(Blocks.SCULK)
-                        .strength(1f), BlockRegistries.SKYBLOCK__RED_SCULK));
+                        .strength(1f)
+                        .mapColor(MapColor.BLACK), BlockRegistries.SKYBLOCK__RED_SCULK));
         public static final Block SKYBLOCK__SCULK_SPROUTS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__sculk_sprouts",
                 new BaseShortPlantBlock(AbstractBlock.Settings
-                        .copy(Blocks.NETHER_SPROUTS), TagRegistries.Blocks.SKYBLOCK__SCULK_GROUND));
+                        .copy(Blocks.NETHER_SPROUTS)
+                        .mapColor(MapColor.DIAMOND_BLUE), TagRegistries.Blocks.SKYBLOCK__SCULK_GROUND));
         public static final Block SKYBLOCK__RED_SCULK_SPROUTS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__red_sculk_sprouts",
                 new BaseShortPlantBlock(AbstractBlock.Settings
-                        .copy(Blocks.NETHER_SPROUTS), TagRegistries.Blocks.SKYBLOCK__RED_SCULK_GROUND));
+                        .copy(Blocks.NETHER_SPROUTS)
+                        .mapColor(MapColor.DARK_RED), TagRegistries.Blocks.SKYBLOCK__RED_SCULK_GROUND));
         //SKYBLOCK - SCULK
         //SKYBLOCK - UNKNOWN VEGETATION
         public static final Block SKYBLOCK__UNKNOWN_DIRT_NYLIUM = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__unknown_dirt_nylium",
                 new UnknownDirtNylium(AbstractBlock.Settings
-                        .copy(Blocks.DIRT),1));
+                        .copy(Blocks.DIRT),1)); //TODO: MAPCOLOR
         public static final Block SKYBLOCK__UNKNOWN_DIRT = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__unknown_dirt",
                 new UnknownDirt(AbstractBlock.Settings
-                        .copy(Blocks.DIRT),1));
+                        .copy(Blocks.DIRT),1)); //TODO: MAPCOLOR
         public static final Block SKYBLOCK__UNKNOWN_SPROUTS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__unknown_sprouts",
                 new BaseShortPlantBlock(AbstractBlock.Settings
-                        .copy(Blocks.NETHER_SPROUTS), BlockRegistries.SKYBLOCK__UNKNOWN_DIRT_NYLIUM));
+                        .copy(Blocks.NETHER_SPROUTS), BlockRegistries.SKYBLOCK__UNKNOWN_DIRT_NYLIUM)); //TODO: MAPCOLOR
         public static final Block SKYBLOCK__UNKNOWN_VEGETATION = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__unknown_vegetation",
                 new BaseShortPlantBlock(AbstractBlock.Settings
-                        .copy(Blocks.WARPED_ROOTS), BlockRegistries.SKYBLOCK__UNKNOWN_DIRT_NYLIUM));
+                        .copy(Blocks.WARPED_ROOTS), BlockRegistries.SKYBLOCK__UNKNOWN_DIRT_NYLIUM)); //TODO: MAPCOLOR
         //SKYBLOCK - UNKNOWN VEGETATION
         //SKYBLOCK VANILLA+
         public static final Block SKYBLOCK__DUCKWEED = SkyBlock.BuiltinRegistries.registerBlock("skyblock__duckweed",
@@ -2062,194 +2132,238 @@ public class SkyBlockRegistries {
                         .copy(Blocks.LILY_PAD)
                         .noCollision()
                         .noBlockBreakParticles()
-                        .nonOpaque()));
+                        .nonOpaque()
+                        .mapColor(MapColor.DARK_GREEN)));
         public static final Block SKYBLOCK__SMALL_LILY_PADS = SkyBlock.BuiltinRegistries.registerBlock("skyblock__small_lily_pads",
                 new WaterDecorPlantBlock(AbstractBlock.Settings
                         .copy(Blocks.LILY_PAD)
                         .noCollision()
                         .noBlockBreakParticles()
-                        .nonOpaque()));
+                        .nonOpaque()
+                        .mapColor(MapColor.DARK_GREEN)));
         public static final Block SKYBLOCK__CLOVER = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__clover",
                 new CloverBlock(AbstractBlock.Settings
                         .copy(Blocks.SHORT_GRASS)
                         .offset(AbstractBlock.OffsetType.NONE)
                         .noBlockBreakParticles()
-                        .sounds(BlockSoundGroup.CAVE_VINES)));
+                        .sounds(BlockSoundGroup.CAVE_VINES)
+                        .mapColor(MapColor.DARK_GREEN)));
         // crops
 
         public static final Block SKYBLOCK__CHILLI_PEPPER_CROP = SkyBlock.BuiltinRegistries.registerBlock("skyblock__chilli_pepper_crop",
                 new ChilliPepperBlock(AbstractBlock.Settings
                         .copy(Blocks.CARROTS)
-                        .sounds(BlockSoundGroup.CAVE_VINES)));
+                        .sounds(BlockSoundGroup.CAVE_VINES)
+                        .mapColor(MapColor.GREEN)));
 
         // crops
 
         public static final Block SKYBLOCK__DEEPSLATE_PLATINUM_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__deepslate_platinum_ore",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.DEEPSLATE_DIAMOND_ORE)));
+                        .copy(Blocks.DEEPSLATE_DIAMOND_ORE))); //TODO: MAPCOLOR
         public static final Block SKYBLOCK__DEEPSLATE_TITANIUM_ORE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__deepslate_titanium_ore",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.DEEPSLATE_DIAMOND_ORE)
+                        .copy(Blocks.DEEPSLATE_DIAMOND_ORE) //TODO: MAPCOLOR
                         .strength(Blocks.OBSIDIAN.getHardness(), Blocks.OBSIDIAN.getBlastResistance())));
         public static final Block SKYBLOCK__WHITE_MUSHROOM_STEM = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__white_mushroom_stem",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.CRIMSON_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.WHITE_GRAY)));
         public static final Block SKYBLOCK__WHITE_MUSHROOM_HYPHAE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__white_mushroom_hyphae",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.CRIMSON_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.WHITE_GRAY)));
         public static final Block SKYBLOCK__STRIPPED_MUSHROOM_STEM = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__stripped_mushroom_stem",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_CRIMSON_STEM)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.OAK_TAN)));
         public static final Block SKYBLOCK__STRIPPED_MUSHROOM_HYPHAE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__stripped_mushroom_hyphae",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_CRIMSON_HYPHAE)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.OAK_TAN)));
         public static final Block SKYBLOCK__MUSHROOM_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__mushroom_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.CRIMSON_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.OAK_TAN)));
         public static final Block SKYBLOCK__CARVED_MUSHROOM_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__carved_mushroom_planks",
                 new PillarBlock(AbstractBlock.Settings
-                        .copy(Blocks.CRIMSON_PLANKS)));
+                        .copy(Blocks.CRIMSON_PLANKS)
+                        .mapColor(MapColor.OAK_TAN)));
         public static final Block SKYBLOCK__VERTICAL_MUSHROOM_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__vertical_mushroom_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.CRIMSON_PLANKS)));
+                        .copy(Blocks.CRIMSON_PLANKS)
+                        .mapColor(MapColor.OAK_TAN)));
         public static final Block SKYBLOCK__MUSHROOM_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__mushroom_stairs",
                 new ModStairsBlock(BlockRegistries.SKYBLOCK__MUSHROOM_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.CRIMSON_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.OAK_TAN)));
         public static final Block SKYBLOCK__MUSHROOM_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__mushroom_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.CRIMSON_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.OAK_TAN)));
         public static final Block SKYBLOCK__BOGGED_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__bogged_log",
                 new BoggedWoodBlock(AbstractBlock.Settings
                         .copy(Blocks.MANGROVE_LOG)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.PALE_GREEN)));
         public static final Block SKYBLOCK__BOGGED_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__bogged_wood",
                 new BoggedWoodBlock(AbstractBlock.Settings
                         .copy(Blocks.MANGROVE_WOOD)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.PALE_GREEN)));
         public static final Block SKYBLOCK__BOGGED_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__bogged_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.MANGROVE_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.PALE_GREEN)));
         public static final Block SKYBLOCK__BOGGED_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__bogged_stairs",
                 new ModStairsBlock(BlockRegistries.SKYBLOCK__BOGGED_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.MANGROVE_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.PALE_GREEN)));
         public static final Block SKYBLOCK__BOGGED_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__bogged_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.MANGROVE_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.PALE_GREEN)));
         public static final Block SKYBLOCK__FIR_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__fir_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.SPRUCE_LOG)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block SKYBLOCK__FIR_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__fir_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.SPRUCE_WOOD)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block SKYBLOCK__STRIPPED_FIR_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__stripped_fir_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_SPRUCE_LOG)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block SKYBLOCK__STRIPPED_FIR_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__stripped_fir_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_SPRUCE_WOOD)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final  Block SKYBLOCK__FIR_LEAVES = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__fir_leaves",
                 new LeavesBlock(AbstractBlock.Settings
-                        .copy(Blocks.SPRUCE_LEAVES)));
+                        .copy(Blocks.SPRUCE_LEAVES)
+                        .mapColor(MapColor.DARK_GREEN)));
         public static final Block SKYBLOCK__FIR_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__fir_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.SPRUCE_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block SKYBLOCK__CARVED_FIR_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__carved_fir_planks",
                 new PillarBlock(AbstractBlock.Settings
-                        .copy(Blocks.SPRUCE_PLANKS)));
+                        .copy(Blocks.SPRUCE_PLANKS)
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block SKYBLOCK__VERTICAL_FIR_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__vertical_fir_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.SPRUCE_PLANKS)));
+                        .copy(Blocks.SPRUCE_PLANKS)
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block SKYBLOCK__FIR_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__fir_stairs",
                 new ModStairsBlock(BlockRegistries.SKYBLOCK__FIR_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.SPRUCE_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block SKYBLOCK__FIR_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__fir_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.SPRUCE_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final  Block SKYBLOCK__AUTUMN_FIR_LEAVES = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__autumn_fir_leaves",
                 new LeavesBlock(AbstractBlock.Settings
-                        .copy(Blocks.SPRUCE_LEAVES)));
+                        .copy(Blocks.SPRUCE_LEAVES)
+                        .mapColor(MapColor.TERRACOTTA_ORANGE)));
         public static final  Block SKYBLOCK__AUTUMN_BIRCH_LEAVES = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__autumn_birch_leaves",
                 new LeavesBlock(AbstractBlock.Settings
-                        .copy(Blocks.BIRCH_LEAVES)));
+                        .copy(Blocks.BIRCH_LEAVES)
+                        .mapColor(MapColor.YELLOW)));
         public static final Block SKYBLOCK__ANCIENT_PEDESTAL = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__ancient_pedestal",
                 new AncientPedestalBlock(AbstractBlock.Settings
-                        .copy(Blocks.BEDROCK)));
+                        .copy(Blocks.BEDROCK)
+                        .mapColor(MapColor.STONE_GRAY)));
         public static final Block SKYBLOCK__BLUE_BORDER_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__blue_border_block",
                 new TransparentBlock(AbstractBlock.Settings
                         .copy(Blocks.BEDROCK)
                         .nonOpaque()
-                        .allowsSpawning(SkyBlock.BuiltinRegistries::neverPredicate)));
+                        .allowsSpawning(SkyBlock.BuiltinRegistries::neverPredicate)
+                        .mapColor(MapColor.CLEAR)));
         public static final Block SKYBLOCK__RED_BORDER_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__red_border_block",
                 new TransparentBlock(AbstractBlock.Settings
                         .copy(Blocks.BEDROCK)
                         .nonOpaque()
-                        .allowsSpawning(SkyBlock.BuiltinRegistries::neverPredicate)));
+                        .allowsSpawning(SkyBlock.BuiltinRegistries::neverPredicate)
+                        .mapColor(MapColor.CLEAR)));
         public static final Block SKYBLOCK__GREEN_BORDER_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__green_border_block",
                 new TransparentBlock(AbstractBlock.Settings
                         .copy(Blocks.BEDROCK)
                         .nonOpaque()
-                        .allowsSpawning(SkyBlock.BuiltinRegistries::neverPredicate)));
+                        .allowsSpawning(SkyBlock.BuiltinRegistries::neverPredicate)
+                        .mapColor(MapColor.CLEAR)));
         public static final Block SKYBLOCK__BLUEBERRY_BUSH = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__blueberry_bush",
                 new BlueberryBush(AbstractBlock.Settings
                         .copy(Blocks.SPRUCE_LEAVES)
-                        .sounds(BlockSoundGroup.AZALEA_LEAVES)));
+                        .sounds(BlockSoundGroup.AZALEA_LEAVES)
+                        .mapColor(MapColor.CYAN)));
         public static final Block SKYBLOCK__BLUEBERRY_SACK = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__blueberry_sack",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WART_BLOCK)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.LIGHT_BLUE)));
         public static final Block SKYBLOCK__CHILLI_PEPPER_CRATE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__chilli_pepper_crate",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WOOD)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.RED)));
         public static final Block SKYBLOCK__GOLDEN_CHILLI_PEPPER_CRATE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__golden_chilli_pepper_crate",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WOOD)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.YELLOW)));
         public static final Block SKYBLOCK__PUFFBALL_MUSHROOM = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__puffball_mushroom",
                 new PuffballMushroom(AbstractBlock.Settings
                         .copy(Blocks.BROWN_MUSHROOM)
-                        .sounds(BlockSoundGroup.FUNGUS)));
+                        .sounds(BlockSoundGroup.FUNGUS)
+                        .mapColor(MapColor.WHITE_GRAY)));
         public static final Block SKYBLOCK__PUFFBALL_MUSHROOM_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__puffball_mushroom_block",
                 new PuffballMushroomBlock(AbstractBlock.Settings
                         .copy(Blocks.MUSHROOM_STEM)
-                        .sounds(BlockSoundGroup.FUNGUS)));
+                        .sounds(BlockSoundGroup.FUNGUS)
+                        .mapColor(MapColor.WHITE_GRAY)));
         //SPORE PLANTER BOXES
         public static final Block SKYBLOCK__SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerBlock("skyblock__spore_planter_box",
                 new EmptySporePlanterBox(AbstractBlock.Settings
                         .copy(Blocks.COARSE_DIRT)
-                        .sounds(BlockSoundGroup.WOOD)));
+                        .sounds(BlockSoundGroup.WOOD)
+                        .mapColor(MapColor.DIRT_BROWN)));
         public static final Block SKYBLOCK__PUFFBALL_SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerBlock("skyblock__puffball_spore_planter_box",
                 new SporePlanterBox(AbstractBlock.Settings
                         .copy(Blocks.COARSE_DIRT)
-                        .sounds(BlockSoundGroup.WOOD), BlockRegistries.SKYBLOCK__PUFFBALL_MUSHROOM, 2, false));
+                        .sounds(BlockSoundGroup.WOOD)
+                        .mapColor(MapColor.WHITE_GRAY), BlockRegistries.SKYBLOCK__PUFFBALL_MUSHROOM, 2, false));
         public static final Block SKYBLOCK__RED_MUSHROOM_SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerBlock("skyblock__red_mushroom_spore_planter_box",
                 new SporePlanterBox(AbstractBlock.Settings
                         .copy(Blocks.COARSE_DIRT)
-                        .sounds(BlockSoundGroup.WOOD), Blocks.RED_MUSHROOM, 0.5, true));
+                        .sounds(BlockSoundGroup.WOOD)
+                        .mapColor(MapColor.RED), Blocks.RED_MUSHROOM, 0.5, true));
         public static final Block SKYBLOCK__BROWN_MUSHROOM_SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerBlock("skyblock__brown_mushroom_spore_planter_box",
                 new SporePlanterBox(AbstractBlock.Settings
                         .copy(Blocks.COARSE_DIRT)
-                        .sounds(BlockSoundGroup.WOOD), Blocks.BROWN_MUSHROOM, 0.5, true));
+                        .sounds(BlockSoundGroup.WOOD)
+                        .mapColor(MapColor.BROWN), Blocks.BROWN_MUSHROOM, 0.5, true));
         //SPORE PLANTER BOXES
         public static final Block SKYBLOCK__BLOCK_OF_EXPERIENCE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__block_of_experience",
                 new Block(AbstractBlock.Settings
@@ -2257,7 +2371,8 @@ public class SkyBlockRegistries {
                         .breakInstantly()
                         .sounds(BlockSoundGroup.AMETHYST_BLOCK)
                         .luminance(state -> 3)
-                        .emissiveLighting(SkyBlock.BuiltinRegistries::alwaysPredicate)));
+                        .emissiveLighting(SkyBlock.BuiltinRegistries::alwaysPredicate)
+                        .mapColor(MapColor.EMERALD_GREEN)));
         //---1.21.1+
         public static final Block SKYBLOCK__COMPRESSED_STEEL = SkyBlock.BuiltinRegistries.registerBlock("skyblock__compressed_steel",
                 new CompressedSteelBlock(AbstractBlock.Settings
@@ -2265,47 +2380,60 @@ public class SkyBlockRegistries {
                         .mapColor(MapColor.GRAY)
                         .sounds(BlockSoundGroup.HEAVY_CORE)
                         .pistonBehavior(PistonBehavior.BLOCK)
-                        .strength(Blocks.OBSIDIAN.getHardness(), Blocks.OBSIDIAN.getBlastResistance())));
+                        .strength(Blocks.OBSIDIAN.getHardness(), Blocks.OBSIDIAN.getBlastResistance())
+                        .mapColor(MapColor.IRON_GRAY)));
         //---1.21.1+
         //---1.22.0+
         public static final Block BP__PALE_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__pale_log",
                 new PillarBlock(AbstractBlock.Settings
-                        .copy(Blocks.OAK_LOG)));
+                        .copy(Blocks.OAK_LOG)
+                        .mapColor(MapColor.DIRT_BROWN)));
         public static final Block BP__PALE_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__pale_wood",
                 new PillarBlock(AbstractBlock.Settings
-                        .copy(Blocks.OAK_WOOD)));
+                        .copy(Blocks.OAK_WOOD)
+                        .mapColor(MapColor.DIRT_BROWN)));
         public static final Block BP__STRIPPED_PALE_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__stripped_pale_log",
                 new PillarBlock(AbstractBlock.Settings
-                        .copy(Blocks.STRIPPED_OAK_LOG)));
+                        .copy(Blocks.STRIPPED_OAK_LOG)
+                        .mapColor(MapColor.WHITE_GRAY)));
         public static final Block BP__STRIPPED_PALE_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__stripped_pale_wood",
                 new PillarBlock(AbstractBlock.Settings
-                        .copy(Blocks.STRIPPED_OAK_WOOD)));
+                        .copy(Blocks.STRIPPED_OAK_WOOD)
+                        .mapColor(MapColor.WHITE_GRAY)));
         public static final Block BP__PALE_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__pale_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.OAK_PLANKS)));
+                        .copy(Blocks.OAK_PLANKS)
+                        .mapColor(MapColor.WHITE_GRAY)));
         public static final Block SKYBLOCK__CARVED_PALE_OAK_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__carved_pale_oak_planks",
                 new PillarBlock(AbstractBlock.Settings
-                        .copy(Blocks.OAK_PLANKS)));
+                        .copy(Blocks.OAK_PLANKS)
+                        .mapColor(MapColor.WHITE_GRAY)));
         public static final Block QUARK__VERTICAL_PALE_OAK_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__vertical_pale_oak_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.OAK_PLANKS)));
+                        .copy(Blocks.OAK_PLANKS)
+                        .mapColor(MapColor.WHITE_GRAY)));
         public static final Block BP__PALE_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__pale_stairs",
                 new ModStairsBlock(BlockRegistries.BP__PALE_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.OAK_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.WHITE_GRAY)));
         public static final Block BP__PALE_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__pale_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.OAK_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.WHITE_GRAY)));
         public static final Block BP__PALE_LEAVES = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__pale_leaves",
                 new LeavesBlock(AbstractBlock.Settings
-                        .copy(Blocks.OAK_LEAVES)));
+                        .copy(Blocks.OAK_LEAVES)
+                        .mapColor(MapColor.WHITE_GRAY)));
         public static final Block BP__PALE_MOSS_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__pale_moss_block",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.MOSS_BLOCK)));
+                        .copy(Blocks.MOSS_BLOCK)
+                        .mapColor(MapColor.LIGHT_GRAY)));
         public static final Block BP__PALE_MOSS_CARPET = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__pale_moss_carpet",
                 new CarpetBlock(AbstractBlock.Settings
-                        .copy(Blocks.MOSS_CARPET)));
+                        .copy(Blocks.MOSS_CARPET)
+                        .mapColor(MapColor.LIGHT_GRAY)));
         //---1.22.0+
         //SKYBLOCK VANILLA+
         //SKYBLOCK TROPHIES
@@ -2320,407 +2448,497 @@ public class SkyBlockRegistries {
         //SKYBLOCK - CARVED PLANKS
         public static final Block SKYBLOCK__CARVED_OAK_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__carved_oak_planks",
                 new PillarBlock(AbstractBlock.Settings
-                        .copy(Blocks.OAK_PLANKS)));
+                        .copy(Blocks.OAK_PLANKS)
+                        .mapColor(MapColor.OAK_TAN)));
         public static final Block SKYBLOCK__CARVED_SPRUCE_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__carved_spruce_planks",
                 new PillarBlock(AbstractBlock.Settings
-                        .copy(Blocks.SPRUCE_PLANKS)));
+                        .copy(Blocks.SPRUCE_PLANKS)
+                        .mapColor(MapColor.SPRUCE_BROWN)));
         public static final Block SKYBLOCK__CARVED_DARK_OAK_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__carved_dark_oak_planks",
                 new PillarBlock(AbstractBlock.Settings
-                        .copy(Blocks.DARK_OAK_PLANKS)));
+                        .copy(Blocks.DARK_OAK_PLANKS)
+                        .mapColor(MapColor.BROWN)));
         //SKYBLOCK - CARVED PLANKS
         //SKYBLOCK MAIN-BLOCK
         //MCD
         public static final Block MCD__MOSSIER_COBBLESTONE = SkyBlock.BuiltinRegistries.registerBlockAndItem("mcd__mossier_cobblestone",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.COBBLESTONE)
-                        .strength(2.0F, 6.0F)));
+                        .strength(2.0F, 6.0F)
+                        .mapColor(MapColor.CYAN)));
         public static final Block MCD__MOSSIER_OAK_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("mcd__mossier_oak_planks",
                 new MossyOakPlanks(AbstractBlock.Settings
                         .copy(Blocks.OAK_PLANKS)
-                        .strength(2.0f, 3.0f)));
+                        .strength(2.0f, 3.0f)
+                        .mapColor(MapColor.OAK_TAN)));
         public static final Block MCD__MOSSIER_SPRUCE_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("mcd__mossier_spruce_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.SPRUCE_PLANKS)
-                        .strength(2.0f, 3.0f)));
+                        .strength(2.0f, 3.0f)
+                        .mapColor(MapColor.SPRUCE_BROWN)));
         public static final Block MCD__BARREN_GRASS_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("mcd__barren_grass_block",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE)
                         .instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool()
-                        .strength(3.0F, 9.0F)));
+                        .strength(3.0F, 9.0F)
+                        .mapColor(MapColor.YELLOW)));
         public static final Block MCD__MIDNIGHT_MOSS_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("mcd__midnight_moss_block",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.MOSS_BLOCK)));
+                        .copy(Blocks.MOSS_BLOCK)
+                        .mapColor(MapColor.CYAN)));
         public static final Block MCD__MIDNIGHT_MOSS_CARPET = SkyBlock.BuiltinRegistries.registerBlockAndItem("mcd__midnight_moss_carpet",
                 new CarpetBlock(AbstractBlock.Settings
-                        .copy(Blocks.MOSS_CARPET)));
+                        .copy(Blocks.MOSS_CARPET)
+                        .mapColor(MapColor.CYAN)));
         public static final Block MCD__MIDNIGHT_SPROUTS = SkyBlock.BuiltinRegistries.registerBlockAndItem("mcd__midnight_sprouts",
                 new ShortPlantBlock(AbstractBlock.Settings
-                        .copy(Blocks.NETHER_SPROUTS)));
+                        .copy(Blocks.NETHER_SPROUTS)
+                        .mapColor(MapColor.CYAN)));
         public static final Block MCD__POP_FLOWER = SkyBlock.BuiltinRegistries.registerBlockAndItem("mcd__pop_flower",
                 new PopFlowerBlock(AbstractBlock.Settings
-                        .copy(Blocks.WARPED_ROOTS)));
+                        .copy(Blocks.WARPED_ROOTS)
+                        .mapColor(MapColor.CYAN)));
         //MCD
         //CUSTOM WORLD BLOCKS
         public static final Block MCD__STRONGHOLD_DECOR = SkyBlock.BuiltinRegistries.registerBlockAndItem("mcd__stronghold_decor",
                 new StrongholdDecorBlock(AbstractBlock.Settings
-                        .copy(Blocks.BEDROCK)));
+                        .copy(Blocks.BEDROCK)
+                        .mapColor(MapColor.STONE_GRAY)));
         //CUSTOM WORLD BLOCKS
         //PEARFECTION
         public static final Block DIGPEAR__CALLERY_LEAVES = SkyBlock.BuiltinRegistries.registerBlockAndItem("digpear__callery_leaves",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.AZALEA_LEAVES)));
+                        .copy(Blocks.AZALEA_LEAVES)
+                        .mapColor(MapColor.PALE_GREEN)));
         public static final Block DIGPEAR__FLOWERING_CALLERY_LEAVES = SkyBlock.BuiltinRegistries.registerBlockAndItem("digpear__flowering_callery_leaves",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.FLOWERING_AZALEA_LEAVES)));
+                        .copy(Blocks.FLOWERING_AZALEA_LEAVES)
+                        .mapColor(MapColor.PALE_GREEN)));
         public static final Block DIGPEAR__CALLERY_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("digpear__callery_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.OAK_LOG)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.SPRUCE_BROWN)));
         public static final Block DIGPEAR__CALLERY_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("digpear__callery_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.OAK_WOOD)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.SPRUCE_BROWN)));
         public static final Block DIGPEAR__STRIPPED_CALLERY_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("digpear__stripped_callery_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_OAK_LOG)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_YELLOW)));
         public static final Block DIGPEAR__STRIPPED_CALLERY_WOOD = SkyBlock.BuiltinRegistries.registerBlockAndItem("digpear__stripped_callery_wood",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.STRIPPED_OAK_WOOD)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_YELLOW)));
         public static final Block DIGPEAR__CALLERY_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("digpear__callery_planks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.OAK_PLANKS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_YELLOW)));
         public static final Block DIGPEAR__CALLERY_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("digpear__callery_stairs",
                 new ModStairsBlock(BlockRegistries.DIGPEAR__CALLERY_PLANKS.getDefaultState(), AbstractBlock.Settings
                         .copy(Blocks.OAK_STAIRS)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_YELLOW)));
         public static final Block DIGPEAR__CALLERY_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("digpear__callery_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.OAK_SLAB)
-                        .strength(2.0f)));
+                        .strength(2.0f)
+                        .mapColor(MapColor.TERRACOTTA_YELLOW)));
         //PEARFECTION
         //QUARK
         public static final Block QUARK__APPLE_CRATE = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__apple_crate",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WOOD)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.RED)));
         public static final Block QUARK__BEETROOT_CRATE = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__beetroot_crate",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WOOD)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.TERRACOTTA_PURPLE)));
         public static final Block QUARK__CARROT_CRATE = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__carrot_crate",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WOOD)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.TERRACOTTA_ORANGE)));
         public static final Block QUARK__POTATO_CRATE = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__potato_crate",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WOOD)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.OAK_TAN)));
         public static final Block QUARK__GOLDEN_APPLE_CRATE = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__golden_apple_crate",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WOOD)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.GOLD)));
         public static final Block QUARK__GOLDEN_CARROT_CRATE = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__golden_carrot_crate",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WOOD)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.GOLD)));
         public static final Block QUARK__SWEET_BERRY_SACK = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__sweet_berry_sack",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WART_BLOCK)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.DARK_RED)));
         public static final Block QUARK__GLOW_BERRY_SACK = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__glow_berry_sack",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WART_BLOCK)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.YELLOW)));
         public static final Block QUARK__COCOA_BEAN_SACK = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__cocoa_bean_sack",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WART_BLOCK)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.BROWN)));
         public static final Block QUARK__GUNPOWDER_SACK = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__gunpowder_sack",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WART_BLOCK)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.DEEPSLATE_GRAY)));
         public static final Block QUARK__NETHER_WART_SACK = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__nether_wart_sack",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WART_BLOCK)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.DARK_RED)));
         public static final Block QUARK__STICK_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__stick_block",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.BAMBOO_WOOD)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.SPRUCE_BROWN)));
         public static final Block QUARK__SUGAR_CANE_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__sugar_cane_block",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.BAMBOO_WOOD)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.EMERALD_GREEN)));
         public static final Block QUARK__CACTUS_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__cactus_block",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WOOL)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.DARK_GREEN)));
         public static final Block QUARK__CHORUS_FRUIT_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__chorus_fruit_block",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WOOD)
-                        .strength(1.0f)));
+                        .strength(1.0f)
+                        .mapColor(MapColor.PURPLE)));
         public static final Block QUARK__ANDESITE_PILLAR = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__andesite_pillar",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.POLISHED_ANDESITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_ANDESITE.getHardness(), Blocks.POLISHED_ANDESITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_ANDESITE.getHardness(), Blocks.POLISHED_ANDESITE.getBlastResistance())
+                        .mapColor(MapColor.STONE_GRAY)));
         public static final Block QUARK__ANDESITE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__andesite_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.POLISHED_ANDESITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_ANDESITE.getHardness(), Blocks.POLISHED_ANDESITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_ANDESITE.getHardness(), Blocks.POLISHED_ANDESITE.getBlastResistance())
+                        .mapColor(MapColor.STONE_GRAY)));
         public static final Block QUARK__CHISELED_ANDESITE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__chiseled_andesite_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.POLISHED_ANDESITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_ANDESITE.getHardness(), Blocks.POLISHED_ANDESITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_ANDESITE.getHardness(), Blocks.POLISHED_ANDESITE.getBlastResistance())
+                        .mapColor(MapColor.STONE_GRAY)));
         public static final Block QUARK__ANDESITE_BRICK_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__andesite_brick_stairs",
                 new ModStairsBlock(BlockRegistries.QUARK__ANDESITE_BRICKS.getDefaultState(),AbstractBlock.Settings
                         .copy(Blocks.POLISHED_ANDESITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_ANDESITE.getHardness(), Blocks.POLISHED_ANDESITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_ANDESITE.getHardness(), Blocks.POLISHED_ANDESITE.getBlastResistance())
+                        .mapColor(MapColor.STONE_GRAY)));
         public static final Block QUARK__ANDESITE_BRICK_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__andesite_brick_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.POLISHED_ANDESITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_ANDESITE.getHardness(), Blocks.POLISHED_ANDESITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_ANDESITE.getHardness(), Blocks.POLISHED_ANDESITE.getBlastResistance())
+                        .mapColor(MapColor.STONE_GRAY)));
         public static final Block QUARK__DIORITE_PILLAR = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__diorite_pillar",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.POLISHED_DIORITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_DIORITE.getHardness(), Blocks.POLISHED_DIORITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_DIORITE.getHardness(), Blocks.POLISHED_DIORITE.getBlastResistance())
+                        .mapColor(MapColor.OFF_WHITE)));
         public static final Block QUARK__DIORITE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__diorite_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.POLISHED_DIORITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_DIORITE.getHardness(), Blocks.POLISHED_DIORITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_DIORITE.getHardness(), Blocks.POLISHED_DIORITE.getBlastResistance())
+                        .mapColor(MapColor.OFF_WHITE)));
         public static final Block QUARK__CHISELED_DIORITE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__chiseled_diorite_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.POLISHED_DIORITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_DIORITE.getHardness(), Blocks.POLISHED_DIORITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_DIORITE.getHardness(), Blocks.POLISHED_DIORITE.getBlastResistance())
+                        .mapColor(MapColor.OFF_WHITE)));
         public static final Block QUARK__DIORITE_BRICK_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__diorite_brick_stairs",
                 new ModStairsBlock(BlockRegistries.QUARK__DIORITE_BRICKS.getDefaultState(),AbstractBlock.Settings
                         .copy(Blocks.POLISHED_DIORITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_DIORITE.getHardness(), Blocks.POLISHED_DIORITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_DIORITE.getHardness(), Blocks.POLISHED_DIORITE.getBlastResistance())
+                        .mapColor(MapColor.OFF_WHITE)));
         public static final Block QUARK__DIORITE_BRICK_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__diorite_brick_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.POLISHED_DIORITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_DIORITE.getHardness(), Blocks.POLISHED_DIORITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_DIORITE.getHardness(), Blocks.POLISHED_DIORITE.getBlastResistance())
+                        .mapColor(MapColor.OFF_WHITE)));
         public static final Block QUARK__GRANITE_PILLAR = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__granite_pillar",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.POLISHED_GRANITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_GRANITE.getHardness(), Blocks.POLISHED_GRANITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_GRANITE.getHardness(), Blocks.POLISHED_GRANITE.getBlastResistance())
+                        .mapColor(MapColor.DIRT_BROWN)));
         public static final Block QUARK__GRANITE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__granite_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.POLISHED_GRANITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_GRANITE.getHardness(), Blocks.POLISHED_GRANITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_GRANITE.getHardness(), Blocks.POLISHED_GRANITE.getBlastResistance())
+                        .mapColor(MapColor.DIRT_BROWN)));
         public static final Block QUARK__CHISELED_GRANITE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__chiseled_granite_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.POLISHED_GRANITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_GRANITE.getHardness(), Blocks.POLISHED_GRANITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_GRANITE.getHardness(), Blocks.POLISHED_GRANITE.getBlastResistance())
+                        .mapColor(MapColor.DIRT_BROWN)));
         public static final Block QUARK__GRANITE_BRICK_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__granite_brick_stairs",
                 new ModStairsBlock(BlockRegistries.QUARK__GRANITE_BRICKS.getDefaultState(),AbstractBlock.Settings
                         .copy(Blocks.POLISHED_GRANITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_GRANITE.getHardness(), Blocks.POLISHED_GRANITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_GRANITE.getHardness(), Blocks.POLISHED_GRANITE.getBlastResistance())
+                        .mapColor(MapColor.DIRT_BROWN)));
         public static final Block QUARK__GRANITE_BRICK_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__granite_brick_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.POLISHED_GRANITE)
                         .sounds(BlockSoundGroup.STONE)
-                        .strength(Blocks.POLISHED_GRANITE.getHardness(), Blocks.POLISHED_GRANITE.getBlastResistance())));
+                        .strength(Blocks.POLISHED_GRANITE.getHardness(), Blocks.POLISHED_GRANITE.getBlastResistance())
+                        .mapColor(MapColor.DIRT_BROWN)));
         public static final Block QUARK__DRIPSTONE_PILLAR = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__dripstone_pillar",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.DRIPSTONE_BLOCK)
                         .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
-                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())));
+                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block QUARK__DRIPSTONE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__dripstone_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.DRIPSTONE_BLOCK)
                         .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
-                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())));
+                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block QUARK__CHISELED_DRIPSTONE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__chiseled_dripstone_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.DRIPSTONE_BLOCK)
                         .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
-                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())));
+                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block QUARK__POLISHED_DRIPSTONE = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__polished_dripstone",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.DRIPSTONE_BLOCK)
                         .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
-                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())));
+                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
 
         public static final Block QUARK__DRIPSTONE_BRICK_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__dripstone_brick_stairs",
                 new ModStairsBlock(Blocks.DRIPSTONE_BLOCK.getDefaultState(),AbstractBlock.Settings
                         .copy(Blocks.DRIPSTONE_BLOCK)
                         .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
-                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())));
+                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block QUARK__DRIPSTONE_BRICK_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__dripstone_brick_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.DRIPSTONE_BLOCK)
                         .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
-                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())));
+                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block QUARK__POLISHED_DRIPSTONE_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__polished_dripstone_stairs",
                 new ModStairsBlock(Blocks.DRIPSTONE_BLOCK.getDefaultState(),AbstractBlock.Settings
                         .copy(Blocks.DRIPSTONE_BLOCK)
                         .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
-                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())));
+                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block QUARK__POLISHED_DRIPSTONE_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__polished_dripstone_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.DRIPSTONE_BLOCK)
                         .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
-                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())));
+                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block QUARK__DRIPSTONE_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__dripstone_stairs",
                 new ModStairsBlock(Blocks.DRIPSTONE_BLOCK.getDefaultState(),AbstractBlock.Settings
                         .copy(Blocks.DRIPSTONE_BLOCK)
                         .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
-                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())));
+                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block QUARK__DRIPSTONE_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__dripstone_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.DRIPSTONE_BLOCK)
                         .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
-                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())));
+                        .strength(Blocks.DRIPSTONE_BLOCK.getHardness(), Blocks.DRIPSTONE_BLOCK.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_BROWN)));
         public static final Block QUARK__CALCITE_PILLAR = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__calcite_pillar",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.CALCITE)
                         .sounds(BlockSoundGroup.CALCITE)
-                        .strength(1.5f, 6.0f)));
+                        .strength(1.5f, 6.0f)
+                        .mapColor(MapColor.TERRACOTTA_WHITE)));
         public static final Block QUARK__CALCITE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__calcite_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.CALCITE)
                         .sounds(BlockSoundGroup.CALCITE)
-                        .strength(1.5f, 6.0f)));
+                        .strength(1.5f, 6.0f)
+                        .mapColor(MapColor.TERRACOTTA_WHITE)));
         public static final Block QUARK__CHISELED_CALCITE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__chiseled_calcite_bricks",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.CALCITE)
                         .sounds(BlockSoundGroup.CALCITE)
-                        .strength(1.5f, 6.0f)));
+                        .strength(1.5f, 6.0f)
+                        .mapColor(MapColor.TERRACOTTA_WHITE)));
         public static final Block QUARK__POLISHED_CALCITE = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__polished_calcite",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.CALCITE)
                         .sounds(BlockSoundGroup.CALCITE)
-                        .strength(1.5f, 6.0f)));
+                        .strength(1.5f, 6.0f)
+                        .mapColor(MapColor.TERRACOTTA_WHITE)));
         public static final Block QUARK__CALCITE_BRICK_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__calcite_brick_stairs",
                 new ModStairsBlock(Blocks.CALCITE.getDefaultState(),AbstractBlock.Settings
                         .copy(Blocks.CALCITE)
                         .sounds(BlockSoundGroup.CALCITE)
-                        .strength(Blocks.CALCITE.getHardness(), Blocks.CALCITE.getBlastResistance())));
+                        .strength(Blocks.CALCITE.getHardness(), Blocks.CALCITE.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_WHITE)));
         public static final Block QUARK__CALCITE_BRICK_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__calcite_brick_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.CALCITE)
                         .sounds(BlockSoundGroup.CALCITE)
-                        .strength(Blocks.CALCITE.getHardness(), Blocks.CALCITE.getBlastResistance())));
+                        .strength(Blocks.CALCITE.getHardness(), Blocks.CALCITE.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_WHITE)));
         public static final Block QUARK__POLISHED_CALCITE_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__polished_calcite_stairs",
                 new ModStairsBlock(Blocks.CALCITE.getDefaultState(),AbstractBlock.Settings
                         .copy(Blocks.CALCITE)
                         .sounds(BlockSoundGroup.CALCITE)
-                        .strength(Blocks.CALCITE.getHardness(), Blocks.CALCITE.getBlastResistance())));
+                        .strength(Blocks.CALCITE.getHardness(), Blocks.CALCITE.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_WHITE)));
         public static final Block QUARK__POLISHED_CALCITE_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__polished_calcite_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.CALCITE)
                         .sounds(BlockSoundGroup.CALCITE)
-                        .strength(Blocks.CALCITE.getHardness(), Blocks.CALCITE.getBlastResistance())));
+                        .strength(Blocks.CALCITE.getHardness(), Blocks.CALCITE.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_WHITE)));
         public static final Block QUARK__CALCITE_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__calcite_stairs",
                 new ModStairsBlock(Blocks.CALCITE.getDefaultState(),AbstractBlock.Settings
                         .copy(Blocks.CALCITE)
                         .sounds(BlockSoundGroup.CALCITE)
-                        .strength(Blocks.CALCITE.getHardness(), Blocks.CALCITE.getBlastResistance())));
+                        .strength(Blocks.CALCITE.getHardness(), Blocks.CALCITE.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_WHITE)));
         public static final Block QUARK__CALCITE_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__calcite_slab",
                 new SlabBlock(AbstractBlock.Settings
                         .copy(Blocks.CALCITE)
                         .sounds(BlockSoundGroup.CALCITE)
-                        .strength(Blocks.CALCITE.getHardness(), Blocks.CALCITE.getBlastResistance())));
+                        .strength(Blocks.CALCITE.getHardness(), Blocks.CALCITE.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_WHITE)));
         public static final Block QUARK__CAVE_ROOTS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__cave_roots",
                 new VineBlock(AbstractBlock.Settings
                         .copy(Blocks.VINE)
                         .noCollision()
                         .ticksRandomly()
                         .strength(0.2f)
-                        .sounds(BlockSoundGroup.VINE)));
+                        .sounds(BlockSoundGroup.VINE)
+                        .mapColor(MapColor.OAK_TAN)));
         //QUARK - VERTICAL PLANKS
         public static final Block QUARK__VERTICAL_OAK_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__vertical_oak_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.OAK_PLANKS)));
+                        .copy(Blocks.OAK_PLANKS)
+                        .mapColor(MapColor.OAK_TAN)));
         public static final Block QUARK__VERTICAL_SPRUCE_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__vertical_spruce_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.SPRUCE_PLANKS)));
+                        .copy(Blocks.SPRUCE_PLANKS)
+                        .mapColor(MapColor.SPRUCE_BROWN)));
         public static final Block QUARK__VERTICAL_BIRCH_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__vertical_birch_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.BIRCH_PLANKS)));
+                        .copy(Blocks.BIRCH_PLANKS)
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block QUARK__VERTICAL_JUNGLE_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__vertical_jungle_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.JUNGLE_PLANKS)));
+                        .copy(Blocks.JUNGLE_PLANKS)
+                        .mapColor(MapColor.DIRT_BROWN)));
         public static final Block QUARK__VERTICAL_ACACIA_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__vertical_acacia_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.ACACIA_PLANKS)));
+                        .copy(Blocks.ACACIA_PLANKS)
+                        .mapColor(MapColor.ORANGE)));
         public static final Block QUARK__VERTICAL_DARK_OAK_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__vertical_dark_oak_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.DARK_OAK_PLANKS)));
+                        .copy(Blocks.DARK_OAK_PLANKS)
+                        .mapColor(MapColor.BROWN)));
         public static final Block QUARK__VERTICAL_MANGROVE_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__vertical_mangrove_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.MANGROVE_PLANKS)));
+                        .copy(Blocks.MANGROVE_PLANKS)
+                        .mapColor(MapColor.RED)));
         public static final Block QUARK__VERTICAL_CHERRY_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__vertical_cherry_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.CHERRY_PLANKS)));
+                        .copy(Blocks.CHERRY_PLANKS)
+                        .mapColor(MapColor.TERRACOTTA_WHITE)));
         public static final Block QUARK__VERTICAL_BAMBOO_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__vertical_bamboo_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.BAMBOO_PLANKS)));
+                        .copy(Blocks.BAMBOO_PLANKS)
+                        .mapColor(MapColor.YELLOW)));
         public static final Block QUARK__VERTICAL_CRIMSON_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__vertical_crimson_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.CRIMSON_PLANKS)));
+                        .copy(Blocks.CRIMSON_PLANKS)
+                        .mapColor(MapColor.DULL_PINK)));
         public static final Block QUARK__VERTICAL_WARPED_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("quark__vertical_warped_planks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.WARPED_PLANKS)));
+                        .copy(Blocks.WARPED_PLANKS)
+                        .mapColor(MapColor.DARK_AQUA)));
         //QUARK - VERTICAL PLANKS
         //QUARK
         //HALLOWEEN 2023
         public static final Block H__NODE = SkyBlock.BuiltinRegistries.registerBlockAndItem("h__node",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.OBSIDIAN)));
+                        .copy(Blocks.OBSIDIAN)
+                        .mapColor(MapColor.BLACK)));
         //HALLOWEEN 2023
         //CHRISTMAS
         public static final Block SKYBLOCK__SNOWY_SHORT_GRASS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__snowy_short_grass",
                 new SnowyShortGrassBlock(AbstractBlock.Settings
-                        .copy(Blocks.SHORT_GRASS)));
+                        .copy(Blocks.SHORT_GRASS)
+                        .mapColor(MapColor.DIAMOND_BLUE)));
         public static final Block SKYBLOCK__FROSTSLATE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__frostslate",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.OBSIDIAN)));
+                        .copy(Blocks.OBSIDIAN)
+                        .mapColor(MapColor.TERRACOTTA_CYAN)));
         public static final Block SKYBLOCK__FROSTSLATE_PILLAR = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__frostslate_pillar",
                 new PillarBlock(AbstractBlock.Settings
-                        .copy(Blocks.OBSIDIAN)));
+                        .copy(Blocks.OBSIDIAN)
+                        .mapColor(MapColor.TERRACOTTA_CYAN)));
         public static final Block SKYBLOCK__FROSTSLATE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__frostslate_bricks",
                 new Block(AbstractBlock.Settings
-                        .copy(Blocks.OBSIDIAN)));
+                        .copy(Blocks.OBSIDIAN)
+                        .mapColor(MapColor.TERRACOTTA_CYAN)));
         public static final Block SKYBLOCK__FROSTSLATE_BRICK_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__frostslate_brick_stairs",
                 new ModStairsBlock(BlockRegistries.SKYBLOCK__FROSTSLATE_BRICKS.getDefaultState(), AbstractBlock.Settings
-                        .copy(Blocks.OBSIDIAN)));
+                        .copy(Blocks.OBSIDIAN)
+                        .mapColor(MapColor.TERRACOTTA_CYAN)));
         public static final Block SKYBLOCK__FROSTSLATE_BRICK_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__frostslate_brick_slab",
                 new SlabBlock(AbstractBlock.Settings
-                        .copy(Blocks.OBSIDIAN)));
+                        .copy(Blocks.OBSIDIAN)
+                        .mapColor(MapColor.TERRACOTTA_CYAN)));
         //CHRISTMAS
 
         public static void register() {
@@ -3113,144 +3331,4 @@ public class SkyBlockRegistries {
                 .build();
     }
 
-    public static class GhostItemRegistries {
-        public static final Item Z__LOGO_V1 = SkyBlock.BuiltinRegistries.registerItem("z__logo_v1",
-                new Item(new Item.Settings()));
-        public static final Item Z__LOGO_V2 = SkyBlock.BuiltinRegistries.registerItem("z__logo_v2",
-                new Item(new Item.Settings()));
-        public static final Item Z__LOGO_V3 = SkyBlock.BuiltinRegistries.registerItem("z__logo_v3",
-                new Item(new Item.Settings()));
-        public static final Item Z__LOGO_V4 = SkyBlock.BuiltinRegistries.registerItem("z__logo_v4",
-                new Item(new Item.Settings()));
-        public static final Item Z__LOGO_V5 = SkyBlock.BuiltinRegistries.registerItem("z__logo_v5",
-                new Item(new Item.Settings()));
-        public static final Item Z__LOGO_V6 = SkyBlock.BuiltinRegistries.registerItem("z__logo_v6",
-                new Item(new Item.Settings()));
-        public static final Item Z__LOGO1 = SkyBlock.BuiltinRegistries.registerItem("z__logo1",
-                new Item(new Item.Settings()));
-        public static final Item Z__LOGO2 = SkyBlock.BuiltinRegistries.registerItem("z__logo2",
-                new Item(new Item.Settings()));
-        public static final Item Z__LOGO3 = SkyBlock.BuiltinRegistries.registerItem("z__logo3",
-                new Item(new Item.Settings()));
-        public static final Item Z__LOGO4 = SkyBlock.BuiltinRegistries.registerItem("z__logo4",
-                new Item(new Item.Settings()));
-        public static final Item Z__LOGO5 = SkyBlock.BuiltinRegistries.registerItem("z__logo5",
-                new Item(new Item.Settings()));
-        public static final Item Z__LOGO6 = SkyBlock.BuiltinRegistries.registerItem("z__logo6",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_BLANK = SkyBlock.BuiltinRegistries.registerItem("z__tile_blank",
-                new TileBlankItem(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK_1 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_1",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK_2 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_2",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK_3 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_3",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK_4 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_4",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK_5 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_5",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK_6 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_6",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK_7 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_7",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK_8 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_8",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK_9 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock_9",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2_1 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_1",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2_2 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_2",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2_3 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_3",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2_4 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_4",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2_5 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_5",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2_6 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_6",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2_7 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_7",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2_8 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_8",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2_9 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2_9",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p1_1 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_1",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p1_2 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_2",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p1_3 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_3",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p1_4 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_4",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p1_5 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_5",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p1_6 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_6",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p1_7 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_7",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p1_8 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_8",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p1_9 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p1_9",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p2_1 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_1",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p2_2 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_2",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p2_3 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_3",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p2_4 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_4",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p2_5 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_5",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p2_6 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_6",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p2_7 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_7",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p2_8 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_8",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK2p2_9 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock2p2_9",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK3_1 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_1",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK3_2 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_2",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK3_3 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_3",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK3_4 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_4",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK3_5 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_5",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK3_6 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_6",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK3_7 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_7",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK3_8 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_8",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SKYBLOCK3_9 = SkyBlock.BuiltinRegistries.registerItem("z__tile_skyblock3_9",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SP5_1 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_1",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SP5_2 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_2",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SP5_3 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_3",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SP5_4 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_4",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SP5_5 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_5",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SP5_6 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_6",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SP5_7 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_7",
-                new Item(new Item.Settings()));
-        public static final Item Z__TILE_SP5_8 = SkyBlock.BuiltinRegistries.registerItem("z__tile_sp5_8",
-                new Item(new Item.Settings()));
-        public static final Item Z__NULL = SkyBlock.BuiltinRegistries.registerItem("z__null",
-                new NullItem(new Item.Settings()));
-
-        public static void registerGhostItems () {
-            SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering Abstract Items (Client-Only) for " + SkyBlock.MOD_ID);
-        }
-    }
 }

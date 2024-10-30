@@ -25,7 +25,7 @@ public class ArchivedRegistries {
                         .copy(Blocks.END_STONE)
                         .strength(4.0f)
                         .requiresTool()
-                        .mapColor(MapColor.EMERALD_GREEN)));
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block ENDMERALD_BLOCK = registerBlock("end_emerald_block",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.EMERALD_BLOCK)
@@ -37,7 +37,7 @@ public class ArchivedRegistries {
                         .copy(Blocks.END_STONE)
                         .strength(4.0f)
                         .requiresTool()
-                        .mapColor(MapColor.PURPLE)));
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block ENDERITE_BLOCK = registerBlock("enderite_block",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.EMERALD_BLOCK)
@@ -49,13 +49,13 @@ public class ArchivedRegistries {
                         .copy(Blocks.END_STONE)
                         .strength(4.0f)
                         .requiresTool()
-                        .mapColor(MapColor.SPRUCE_BROWN)));
+                        .mapColor(MapColor.PALE_YELLOW)));
         public static final Block SOLID_ROCK = registerBlock("solid_rock",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE)
                         .strength(4.0f)
                         .requiresTool()
-                        .mapColor(MapColor.SPRUCE_BROWN)));
+                        .mapColor(MapColor.BLACK)));
         public static final Block END_GRASS = registerBlock("end_grass",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE)
@@ -63,7 +63,7 @@ public class ArchivedRegistries {
                         .instrument(NoteBlockInstrument.BASEDRUM)
                         .requiresTool()
                         .strength(2.0F, 7.5F)
-                        .mapColor(MapColor.PURPLE)));
+                        .mapColor(MapColor.TERRACOTTA_PURPLE)));
         public static final Block BLUISHE_GRASS = registerBlock("bluishe_end_stone",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.END_STONE)
@@ -234,7 +234,7 @@ public class ArchivedRegistries {
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.COBBLESTONE)
                         .strength(2.0F, 6.0F)
-                        .mapColor(MapColor.TERRACOTTA_BLUE)));
+                        .mapColor(MapColor.CYAN)));
         public static final Block MOSSIER_OAK_PLANKS = registerBlock("mossier_oak_planks",
                 new MossyOakPlanks(AbstractBlock.Settings
                         .copy(Blocks.OAK_PLANKS)
@@ -258,13 +258,13 @@ public class ArchivedRegistries {
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WOOD)
                         .strength(1.0f)
-                        .mapColor(MapColor.DARK_RED)));
+                        .mapColor(MapColor.TERRACOTTA_PURPLE)));
         public static final Block CARROT_CRATE = registerBlock("carrot_crate",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WOOD)
                         .strength(1.0f)
-                        .mapColor(MapColor.ORANGE)));
+                        .mapColor(MapColor.TERRACOTTA_ORANGE)));
         public static final Block POTATO_CRATE = registerBlock("potato_crate",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)
@@ -294,7 +294,7 @@ public class ArchivedRegistries {
                         .copy(Blocks.HAY_BLOCK)
                         .sounds(BlockSoundGroup.WART_BLOCK)
                         .strength(1.0f)
-                        .mapColor(MapColor.PALE_YELLOW)));
+                        .mapColor(MapColor.YELLOW)));
         public static final Block COCOA_BEANS_SACK = registerBlock("cocoa_beans_sack",
                 new Block(AbstractBlock.Settings
                         .copy(Blocks.HAY_BLOCK)

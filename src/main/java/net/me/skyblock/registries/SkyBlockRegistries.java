@@ -2,6 +2,7 @@ package net.me.skyblock.registries;
 
 import com.google.common.base.Suppliers;
 import com.google.common.collect.Maps;
+import jdk.jfr.Unsigned;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.gamerule.v1.GameRuleFactory;
@@ -39,9 +40,7 @@ import net.me.skyblock.items.end.EnchantedEnderiteAppleItem;
 import net.me.skyblock.items.mcd.RapierItem;
 import net.me.skyblock.items.mcd.mcd_artifact.IronSkinItem_Common;
 import net.me.skyblock.items.mcd.mcd_ranged.ShortBowItem;
-import net.me.skyblock.items.skyblock.ChilliPepper;
-import net.me.skyblock.items.skyblock.FirwoodMace;
-import net.me.skyblock.items.skyblock.SporePlanterBoxItem;
+import net.me.skyblock.items.skyblock.*;
 import net.me.skyblock.items.util.AnomaliteArmorItem;
 import net.me.skyblock.items.util.NullItem;
 import net.me.skyblock.items.util.TileBlankItem;
@@ -101,10 +100,7 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.FeatureConfig;
 import org.betterx.wover.enchantment.api.EnchantmentUtils;
 
-import java.util.EnumMap;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Optional;
+import java.util.*;
 import java.util.function.Supplier;
 
 public class SkyBlockRegistries {
@@ -247,11 +243,11 @@ public class SkyBlockRegistries {
         //SKYBLOCK MAIN-BLOCK
         //SKYBLOCK VANILLA+
         public static final Item SKYBLOCK__PUFFBALL_MUSHROOM_FLESH = SkyBlock.BuiltinRegistries.registerItem("skyblock__puffball_mushroom_flesh",
-                new Item(new Item.Settings()));
+                new Item(new Item.Settings().food(FoodComponentRegistries.SKYBLOCK__PUFFBALL_MUSHROOM_FLESH)));
         public static final Item SKYBLOCK__COOKED_PUFFBALL_MUSHROOM_FLESH = SkyBlock.BuiltinRegistries.registerItem("skyblock__cooked_puffball_mushroom_flesh",
-                new Item(new Item.Settings()));
+                new Item(new Item.Settings().food(FoodComponentRegistries.SKYBLOCK__COOKED_PUFFBALL_MUSHROOM_FLESH)));
         public static final Item SKYBLOCK__PUFFBALL_MUSHROOM_STEW = SkyBlock.BuiltinRegistries.registerItem("skyblock__puffball_mushroom_stew",
-                new Item(new Item.Settings().maxCount(1)));
+                new Item(new Item.Settings().maxCount(1).food(FoodComponentRegistries.SKYBLOCK__PUFFBALL_MUSHROOM_STEW)));
         public static final Item SKYBLOCK__CHILLI_PEPPER_SEEDS = SkyBlock.BuiltinRegistries.registerItem("skyblock__chilli_pepper_seeds",
                 new AliasedBlockItem(BlockRegistries.SKYBLOCK__CHILLI_PEPPER_CROP, new Item.Settings()));
         public static final Item SKYBLOCK__CHILLI_PEPPER = SkyBlock.BuiltinRegistries.registerItem("skyblock__chilli_pepper",
@@ -296,11 +292,32 @@ public class SkyBlockRegistries {
         //SKYBLOCK VANILLA+
         //SKYBLOCK TROPHIES
         public static final Item SKYBLOCK__PESTILENT_TROPHY = SkyBlock.BuiltinRegistries.registerItemThatHasBlock(
-                new BlockItem(BlockRegistries.SKYBLOCK__PESTILENT_TROPHY, new Item.Settings().maxCount(1)));
+                new Trophy.BlockItem(BlockRegistries.SKYBLOCK__PESTILENT_TROPHY, new Item.Settings(),
+                        new String[]{
+                                "tooltip.skyblock.skyblock__pestilent_trophy.tooltip1",
+                                "tooltip.skyblock.skyblock__pestilent_trophy.tooltip2"
+                        },
+                        new String[]{
+                                "tooltip.skyblock.skyblock__pestilent_trophy.background_info.tooltip1",
+                                "tooltip.skyblock.skyblock__pestilent_trophy.background_info.tooltip2",
+                                "tooltip.skyblock.skyblock__pestilent_trophy.background_info.tooltip3",
+                                "tooltip.skyblock.skyblock__pestilent_trophy.background_info.tooltip4",
+                                "tooltip.skyblock.skyblock__pestilent_trophy.background_info.tooltip5"
+                }));
         public static final Item SKYBLOCK__TORCH_OF_LUNACY = SkyBlock.BuiltinRegistries.registerItem("skyblock__torch_of_lunacy",
-                new Item(new Item.Settings().maxCount(1)));
+                new TorchOfLunacyItem(new Item.Settings(),
+                        new String[]{
+                                "tooltip.skyblock.skyblock__torch_of_lunacy.tooltip1",
+                                "tooltip.skyblock.skyblock__torch_of_lunacy.tooltip2",
+                                "tooltip.skyblock.skyblock__torch_of_lunacy.tooltip3"
+                        },
+                        new String[]{
+                                "tooltip.skyblock.skyblock__torch_of_lunacy.background_info.tooltip1",
+                                "tooltip.skyblock.skyblock__torch_of_lunacy.background_info.tooltip2",
+                                "tooltip.skyblock.skyblock__torch_of_lunacy.background_info.tooltip3",
+                                "tooltip.skyblock.skyblock__torch_of_lunacy.background_info.tooltip4"
+                        }));
         //SKYBLOCK TROPHIES
-
         public static final Item ABYSS__LORAN = SkyBlock.BuiltinRegistries.registerItem("abyss__loran",
                 new Loran(new Item.Settings()));
         public static final Item ABYSS__ABYSS_PORTAL_ACTIVATOR = SkyBlock.BuiltinRegistries.registerItem("abyss__abyss_portal_activator",
@@ -2294,9 +2311,11 @@ public class SkyBlockRegistries {
         //SKYBLOCK TROPHIES
         public static final Block SKYBLOCK__PESTILENT_TROPHY = SkyBlock.BuiltinRegistries.registerBlock("skyblock__pestilent_trophy",
                 new TrophyBlock(AbstractBlock.Settings
-                        .copy(Blocks.NETHERITE_BLOCK)
+                        .create()
                         .strength(Blocks.IRON_BLOCK.getHardness(), Blocks.IRON_BLOCK.getBlastResistance())
-                        .noBlockBreakParticles()));
+                        .noBlockBreakParticles()
+                        .sounds(BlockSoundGroup.NETHERITE)
+                        .mapColor(MapColor.PALE_GREEN)));
         //SKYBLOCK TROPHIES
         //SKYBLOCK - CARVED PLANKS
         public static final Block SKYBLOCK__CARVED_OAK_PLANKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__carved_oak_planks",
@@ -3012,7 +3031,8 @@ public class SkyBlockRegistries {
     }
 
     public static class FoodComponentRegistries {
-        public static final FoodComponent SP5__ENDERITE_APPLE = new FoodComponent.Builder().nutrition(4)
+        public static final FoodComponent SP5__ENDERITE_APPLE = new FoodComponent.Builder()
+                .nutrition(4)
                 .saturationModifier(1.2f)
                 .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 1200, 3), 1.0f)
                 .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 900, 2), 1.0f)
@@ -3021,8 +3041,10 @@ public class SkyBlockRegistries {
                 .statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 1200, 1), 1.0f)
                 .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 3200, 0), 1.0f)
                 .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 4400, 4), 1.0f)
-                .alwaysEdible().build();
-        public static final FoodComponent SP5__ENCHANTED_ENDERITE_APPLE = new FoodComponent.Builder().nutrition(4)
+                .alwaysEdible()
+                .build();
+        public static final FoodComponent SP5__ENCHANTED_ENDERITE_APPLE = new FoodComponent.Builder()
+                .nutrition(4)
                 .saturationModifier(1.2f)
                 .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 1600, 4), 1.0f)
                 .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 7000, 4), 1.0f)
@@ -3037,21 +3059,56 @@ public class SkyBlockRegistries {
                 .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 7000, 4), 1.0f)
                 .statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 5000, 0), 1.0f)
                 .statusEffect(new StatusEffectInstance(StatusEffects.HERO_OF_THE_VILLAGE, 5000, 0), 1.0f)
-                .alwaysEdible().build();
-        public static final FoodComponent SKYBLOCK__STEAM_DUMPLING = new FoodComponent.Builder().nutrition(5).saturationModifier(1.1f).build();
-        public static final FoodComponent SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER = new FoodComponent.Builder().nutrition(7).saturationModifier(1.4f).build();
-        public static final FoodComponent SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE = new FoodComponent.Builder().nutrition(9).saturationModifier(1.9f).build();
-        public static final FoodComponent SKYBLOCK__BLUEBERRIES = new FoodComponent.Builder().nutrition(5).saturationModifier(0.5f)
+                .alwaysEdible()
+                .build();
+        public static final FoodComponent SKYBLOCK__STEAM_DUMPLING = new FoodComponent.Builder()
+                .nutrition(5)
+                .saturationModifier(1.1f)
+                .build();
+        public static final FoodComponent SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER = new FoodComponent.Builder()
+                .nutrition(7)
+                .saturationModifier(1.4f)
+                .build();
+        public static final FoodComponent SKYBLOCK__STEAM_DUMPLING_WITH_MOLTEN_BUTTER_AND_SUGAR_POPPY_MIXTURE = new FoodComponent.Builder()
+                .nutrition(9)
+                .saturationModifier(1.9f)
+                .build();
+        public static final FoodComponent SKYBLOCK__BLUEBERRIES = new FoodComponent.Builder()
+                .nutrition(5)
+                .saturationModifier(0.5f)
                 .statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 2400, 4), 1.0f)
                 .alwaysEdible()
                 .build();
         public static final FoodComponent SKYBLOCK__CHILLI_PEPPER = new FoodComponent.Builder().nutrition(6).saturationModifier(1.0f)
                 .build();
-        public static final FoodComponent SKYBLOCK__GOLDEN_CHILLI_PEPPER = new FoodComponent.Builder().nutrition(8).saturationModifier(1.75f)
+        public static final FoodComponent SKYBLOCK__GOLDEN_CHILLI_PEPPER = new FoodComponent.Builder()
+                .nutrition(8)
+                .saturationModifier(1.75f)
                 .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 2400, 0), 1.0f)
                 .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 1200, 0), 1.0f)
                 .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 1200, 0), 1.0f)
                 .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 200, 2), 1.0f)
+                .alwaysEdible()
+                .build();
+        public static final FoodComponent SKYBLOCK__PUFFBALL_MUSHROOM_FLESH = new FoodComponent.Builder()
+                .nutrition(8)
+                .saturationModifier(0.3F)
+                .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 0), 0.4f)
+                .alwaysEdible()
+                .build();
+        public static final FoodComponent SKYBLOCK__COOKED_PUFFBALL_MUSHROOM_FLESH = new FoodComponent.Builder()
+                .nutrition(10)
+                .saturationModifier(1.0F)
+                .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 0), 0.2f)
+                .statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 200, 0), 1.0f)
+                .alwaysEdible()
+                .build();
+        public static final FoodComponent SKYBLOCK__PUFFBALL_MUSHROOM_STEW = new FoodComponent.Builder()
+                .nutrition(10)
+                .saturationModifier(1.0F)
+                .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 0), 0.2f)
+                .statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 200, 0), 1.0f)
+                .usingConvertsTo(Items.BOWL)
                 .alwaysEdible()
                 .build();
     }

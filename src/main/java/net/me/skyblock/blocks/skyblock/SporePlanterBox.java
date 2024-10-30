@@ -28,7 +28,7 @@ public class SporePlanterBox extends Block {
     @Override
     public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         int appearing_chance = world.getGameRules().getInt(SkyBlockRegistries.GameRuleRegistries.SKYBLOCK__RARE_MUSHROOM_GROWTH_CHANCE);
-        if (random.nextInt((int)(appearing_chance * multiplier)) == 0 && world.getBlockState(pos.up()).isOf(Blocks.AIR) && Objects.nonNull(mushroom)) {
+        if ((int)(appearing_chance * multiplier) > 0 && random.nextInt((int)(appearing_chance * multiplier)) == 0 && world.getBlockState(pos.up()).isOf(Blocks.AIR) && Objects.nonNull(mushroom)) {
             if (!isShroomLightSensitive || world.getBaseLightLevel(pos.up(), 0) < 13) {
                 world.setBlockState(pos.up(), mushroom.getDefaultState(), 2);
             }

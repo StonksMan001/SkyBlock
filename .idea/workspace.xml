@@ -7,8 +7,9 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.1 - Torch of Lunacy trófea item">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/GhostItemRegistries.java" afterDir="false" />
+    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.1 - MapColor értékek a BlockRegistry-knek">
+      <change afterPath="$PROJECT_DIR$/FINAL RELEASES/skyblock-1.4.1-1.21.1(client).jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FINAL RELEASES/skyblock-1.4.1-1.21.1(server).jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
@@ -19,10 +20,6 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ItemGroupsMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ItemGroupsMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/ArchivedRegistries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/ArchivedRegistries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockRegistries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockRegistries.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +106,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "#4 on master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main(1.21.1)/src/main/resources/assets/skyblock/textures/item",
+    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main(1.21.1)/FINAL RELEASES",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -118,18 +115,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\FINAL RELEASES" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\textures\item" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\item" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\loot_table\blocks" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\textures\block" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\FINAL RELEASES" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\minecraft\loot_table" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\asset, data factory" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\item" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\block" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="net.me.skyblock.registries" />
@@ -349,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730315742918</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="v1.4.1 - MapColor értékek a BlockRegistry-knek">
+      <option name="closed" value="true" />
+      <created>1730320801565</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1730320801565</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -384,6 +389,7 @@
     <MESSAGE value="v1.4.1 - IronSkinItem tooltip decription mostmár könnyebben megkülönböztethető az item nevétől, mert világosszürke színű nem pedig ugyanolyan fehér mint maga az item neve" />
     <MESSAGE value="v1.4.1 - Spore Planter Box blokkok és új gomba fajták" />
     <MESSAGE value="v1.4.1 - Torch of Lunacy trófea item" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.4.1 - Torch of Lunacy trófea item" />
+    <MESSAGE value="v1.4.1 - MapColor értékek a BlockRegistry-knek" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.4.1 - MapColor értékek a BlockRegistry-knek" />
   </component>
 </project>

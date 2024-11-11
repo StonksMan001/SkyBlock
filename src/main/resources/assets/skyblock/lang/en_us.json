@@ -211,10 +211,10 @@
   "item.skyblock.sp5__popped_enderite_chorus_fruit": "Popped Enderite Chorus Fruit",
   "item.skyblock.sp5__bluishe_light_sheel": "Bluishe Light Sheel",
 
-  "block.skyblock.sp5__end_stem": "End Log",
-  "block.skyblock.sp5__end_hyphae": "End Wood",
-  "block.skyblock.sp5__stripped_end_stem": "Stripped End Log",
-  "block.skyblock.sp5__stripped_end_hyphae": "Stripped End Wood",
+  "block.skyblock.sp5__end_stem": "End Stem",
+  "block.skyblock.sp5__end_hyphae": "End Hyphae",
+  "block.skyblock.sp5__stripped_end_stem": "Stripped End Stem",
+  "block.skyblock.sp5__stripped_end_hyphae": "Stripped End Hyphae",
   "block.skyblock.sp5__end_planks": "End Planks",
   "block.skyblock.sp5__endlight": "End Shroomlight",
 

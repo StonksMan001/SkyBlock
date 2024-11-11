@@ -662,8 +662,8 @@ public class SkyBlockRegistries {
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_7, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_8, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    entries.add(ItemRegistries.SKYBLOCK__PESTILENT_TROPHY);
-                    entries.add(ItemRegistries.SKYBLOCK__TORCH_OF_LUNACY);
+                    entries.add(ItemRegistries.SKYBLOCK__PESTILENT_TROPHY, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
+                    entries.add(ItemRegistries.SKYBLOCK__TORCH_OF_LUNACY, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     ItemGroupRegistries.addSpaces(entries, 23, 7);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);

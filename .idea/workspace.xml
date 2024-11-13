@@ -7,7 +7,22 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.1 - TrophyItemek mostantól csak PARENT_TAB-ban látszanak" />
+    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.2 -">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/lightning_sword_e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/lightning_sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/lightning_sword.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,24 +101,24 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SkyBlockMod_Main(1.21.1) [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#4 on master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/SONY/MODS_2/SkyBlockMod_Main(1.21.1)/FINAL RELEASES&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.SkyBlockMod_Main(1.21.1) [runClient].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "#4 on master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main(1.21.1)/src/main/resources/assets/skyblock/textures/item",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\FINAL RELEASES" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\textures\item" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\FINAL RELEASES" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\item" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\loot_table\blocks" />
@@ -365,7 +380,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731327618774</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="v1.4.2 - modverzió 1.4.2">
+      <option name="closed" value="true" />
+      <created>1731406022987</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1731406022987</updated>
+    </task>
+    <task id="LOCAL-00028" summary="v1.4.2 - SkyBlockRegistries.ItemRegistries.SKYBLOCK__FIRWOOD_MACE attack speed-je (eddig 0.75f) mostantól megegyezik az Items.MACE (vanilla mace) attack speed-jével (0.6f)">
+      <option name="closed" value="true" />
+      <created>1731447484072</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1731447484072</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -380,7 +411,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v1.4.0 - 1.21.1 update, kritikus átrendezések" />
     <MESSAGE value="v1.4.0 - GeckiLib dependency eltávolítva" />
     <MESSAGE value="v1.4.0 - ModItemGroups bugfix, a nem használt (&quot;unused&quot;) itemek mostmár nem lesznek az univerzális kereső tab-ban is megjelenítve" />
     <MESSAGE value="v1.4.0 - Pale Oak Woodset" />
@@ -404,6 +434,8 @@
     <MESSAGE value="v1.4.1 - .jar file" />
     <MESSAGE value="v1.4.1 - en_us.json lang fájl fixek" />
     <MESSAGE value="v1.4.1 - TrophyItemek mostantól csak PARENT_TAB-ban látszanak" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.4.1 - TrophyItemek mostantól csak PARENT_TAB-ban látszanak" />
+    <MESSAGE value="v1.4.2 - modverzió 1.4.2" />
+    <MESSAGE value="v1.4.2 - SkyBlockRegistries.ItemRegistries.SKYBLOCK__FIRWOOD_MACE attack speed-je (eddig 0.75f) mostantól megegyezik az Items.MACE (vanilla mace) attack speed-jével (0.6f)" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.4.2 - SkyBlockRegistries.ItemRegistries.SKYBLOCK__FIRWOOD_MACE attack speed-je (eddig 0.75f) mostantól megegyezik az Items.MACE (vanilla mace) attack speed-jével (0.6f)" />
   </component>
 </project>

@@ -5,15 +5,12 @@
     "#": {
       "item": "minecraft:heart_of_the_sea"
     },
-    "X": {
-      "item": "minecraft:ink_sac"
-    },
     "Y": {
-      "item": "minecraft:stick"
+      "item": "minecraft:breeze_rod"
     }
   },
   "pattern": [
-    "X",
+    "#",
     "#",
     "Y"
   ],

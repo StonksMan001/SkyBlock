@@ -39,6 +39,7 @@ import net.me.skyblock.items.end.EnchantedEnderiteAppleItem;
 import net.me.skyblock.items.mcd.RapierItem;
 import net.me.skyblock.items.mcd.mcd_artifact.IronSkinItem_Common;
 import net.me.skyblock.items.mcd.mcd_ranged.ShortBowItem;
+import net.me.skyblock.items.mcd.mcd_ranged.TwinBowItem;
 import net.me.skyblock.items.skyblock.*;
 import net.me.skyblock.items.util.AnomaliteArmorItem;
 import net.me.skyblock.items.util.NullItem;
@@ -413,7 +414,7 @@ public class SkyBlockRegistries {
         public static final Item MCD__LONGBOW = SkyBlock.BuiltinRegistries.registerItem("mcd__longbow",
                 new ShortBowItem(new Item.Settings().maxDamage(384)));
         public static final Item MCD__TWIN_BOW = SkyBlock.BuiltinRegistries.registerItem("mcd__twin_bow",
-                new BowItem(new Item.Settings().maxDamage(384)));
+                new TwinBowItem(new Item.Settings().maxDamage(384)));
         public static final Item MCD__AUTO_CROSSBOW = SkyBlock.BuiltinRegistries.registerItem("mcd__auto_crossbow",
                 new CrossbowItem(new Item.Settings().maxDamage(384)));
         public static final Item MCD__ARTIFACT_IRON_HIDE_AMULET= SkyBlock.BuiltinRegistries.registerItem("mcd__artifact_iron_hide_amulet",

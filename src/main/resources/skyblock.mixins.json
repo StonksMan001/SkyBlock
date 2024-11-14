@@ -4,6 +4,7 @@
   "package": "net.me.skyblock.api.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "ArrowEntityMixin",
     "BookEditScreenMixin",
     "ChorusPlantBlockMixin",
     "ExplosionMixin",

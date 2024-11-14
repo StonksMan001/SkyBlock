@@ -3,6 +3,7 @@
  */
 package net.me.skyblock.items.mcd.mcd_ranged;
 
+import net.me.skyblock.items.mcd.McdItem;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.LivingEntity;
@@ -22,6 +23,10 @@ import java.util.function.Predicate;
 public class ShortBowItem extends BowItem {
     public ShortBowItem(Settings settings) {
         super(settings); //TODO: this
+    }
+    @Override
+    public int getItemBarColor(ItemStack stack) {
+        return McdItem.getMcdItemBarColor();
     }
 }
 

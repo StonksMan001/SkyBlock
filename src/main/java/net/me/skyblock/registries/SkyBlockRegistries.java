@@ -38,6 +38,7 @@ import net.me.skyblock.items.create.NuggetOfExperienceItem;
 import net.me.skyblock.items.end.EnchantedEnderiteAppleItem;
 import net.me.skyblock.items.mcd.RapierItem;
 import net.me.skyblock.items.mcd.mcd_artifact.IronSkinItem_Common;
+import net.me.skyblock.items.mcd.mcd_ranged.AutoCrossbowItem;
 import net.me.skyblock.items.mcd.mcd_ranged.ShortBowItem;
 import net.me.skyblock.items.mcd.mcd_ranged.TwinBowItem;
 import net.me.skyblock.items.skyblock.*;
@@ -411,12 +412,10 @@ public class SkyBlockRegistries {
         //MCD
         public static final Item MCD__SHORTBOW = SkyBlock.BuiltinRegistries.registerItem("mcd__shortbow",
                 new ShortBowItem(new Item.Settings().maxDamage(384)));
-        public static final Item MCD__LONGBOW = SkyBlock.BuiltinRegistries.registerItem("mcd__longbow",
-                new ShortBowItem(new Item.Settings().maxDamage(384)));
         public static final Item MCD__TWIN_BOW = SkyBlock.BuiltinRegistries.registerItem("mcd__twin_bow",
-                new TwinBowItem(new Item.Settings().maxDamage(384)));
+                new TwinBowItem(new Item.Settings().maxDamage(384).rarity(Rarity.RARE)));
         public static final Item MCD__AUTO_CROSSBOW = SkyBlock.BuiltinRegistries.registerItem("mcd__auto_crossbow",
-                new CrossbowItem(new Item.Settings().maxDamage(384)));
+                new AutoCrossbowItem(new Item.Settings().maxDamage(465).rarity(Rarity.RARE)));
         public static final Item MCD__ARTIFACT_IRON_HIDE_AMULET= SkyBlock.BuiltinRegistries.registerItem("mcd__artifact_iron_hide_amulet",
                 new IronSkinItem_Common(new Item.Settings().maxCount(1).maxDamage(10)));
         public static final Item SKYBLOCK__LIGHTNING_SWORD = SkyBlock.BuiltinRegistries.registerItem("skyblock__lightning_sword",
@@ -848,8 +847,6 @@ public class SkyBlockRegistries {
                 }).build());
         public static ItemGroup MCD = SkyBlock.BuiltinRegistries.registerItemGroup("minecraft_dungeons",
                 FabricItemGroup.builder().displayName(Text.literal("SkyBlock: Minecraft Dungeons (ilosemypotato)")).icon(() -> new ItemStack(GhostItemRegistries.Z__LOGO2)).entries((displayContext, entries) -> {
-                    entries.add(ItemRegistries.MCD__SHORTBOW);
-                    //entries.add(ModItems.MCD__LONGBOW);
                     entries.add(ItemRegistries.MCD__TWIN_BOW);
                     entries.add(ItemRegistries.MCD__AUTO_CROSSBOW);
                     entries.add(ItemRegistries.MCD__WOODEN_RAPIER);
@@ -885,6 +882,7 @@ public class SkyBlockRegistries {
                     invisibleAdd(entries, BlockRegistries.SKYBLOCK__SWEET_BERRY_JAM_BLOCK);
                     entries.add(BlockRegistries.MCD__BARREN_GRASS_BLOCK);
                     entries.add(BlockRegistries.MCD__OG_PURPUR_BLOCK);
+                    entries.add(ItemRegistries.MCD__SHORTBOW);
                     invisibleAdd(entries, ItemRegistries.MCD__VILLAGER_STATUE);
                     invisibleAdd(entries, ItemRegistries.SP5__FORBIDDEN_POTION);
                     invisibleAdd(entries, ItemRegistries.SP5__GOD_POTION);

@@ -51,7 +51,7 @@ narratorHotkey:true
 resourcePacks:["vanilla","fabric","file/better_nether_enhanced","high_contrast"]
 incompatibleResourcePacks:["file/better_nether_enhanced"]
 lastServer:
-lang:hu_hu
+lang:en_us
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
@@ -78,7 +78,7 @@ glDebugVerbosity:1
 skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:true
-hideBundleTutorial:false
+hideBundleTutorial:true
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true

@@ -1,0 +1,540 @@
+[21:49:34] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.5
+[21:49:35] [main/INFO] (FabricLoader) Loading 75 mods:
+	- bclib 21.0.13
+	- continuity 3.0.0-beta.5+1.21
+	- fabric-api 0.104.0+1.21.1
+	- fabric-api-base 0.4.42+6573ed8c19
+	- fabric-api-lookup-api-v1 1.6.68+b559734419
+	- fabric-biome-api-v1 13.0.29+5bd9f1bc19
+	- fabric-block-api-v1 1.0.22+0af3f5a719
+	- fabric-block-view-api-v2 1.0.10+6573ed8c19
+	- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	- fabric-command-api-v1 1.2.49+f71b366f19
+	- fabric-command-api-v2 2.2.28+6ced4dd919
+	- fabric-commands-v0 0.2.66+df3654b319
+	- fabric-content-registries-v0 8.0.16+b559734419
+	- fabric-convention-tags-v1 2.0.22+7f945d5b19
+	- fabric-convention-tags-v2 2.7.0+4053855719
+	- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	- fabric-data-attachment-api-v1 1.1.28+1daea21519
+	- fabric-data-generation-api-v1 20.2.19+16c4ae2519
+	- fabric-dimensions-v1 4.0.0+6fc22b9919
+	- fabric-entity-events-v1 1.7.0+2122d82819
+	- fabric-events-interaction-v0 0.7.12+ba9dae0619
+	- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	- fabric-gametest-api-v1 2.0.4+6fc22b9919
+	- fabric-item-api-v1 11.0.0+afdfc92119
+	- fabric-item-group-api-v1 4.1.5+3fc0e55219
+	- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	- fabric-keybindings-v0 0.2.45+df3654b319
+	- fabric-lifecycle-events-v1 2.3.12+6c1df36019
+	- fabric-loot-api-v2 3.0.14+3f89f5a519
+	- fabric-loot-api-v3 1.0.2+3f89f5a519
+	- fabric-message-api-v1 6.0.13+6573ed8c19
+	- fabric-model-loading-api-v1 2.0.0+fe474d6b19
+	- fabric-networking-api-v1 4.2.2+60c3209b19
+	- fabric-object-builder-api-v1 15.2.0+40875a9319
+	- fabric-particles-v1 4.0.2+6573ed8c19
+	- fabric-recipe-api-v1 5.0.12+6508971219
+	- fabric-registry-sync-v0 5.1.2+60c3209b19
+	- fabric-renderer-api-v1 3.4.0+c705a49c19
+	- fabric-renderer-indigo 1.7.0+c705a49c19
+	- fabric-renderer-registries-v1 3.2.68+df3654b319
+	- fabric-rendering-data-attachment-v1 0.3.48+73761d2e19
+	- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	- fabric-rendering-v0 1.1.71+df3654b319
+	- fabric-rendering-v1 5.0.5+df16efd019
+	- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	- fabric-resource-loader-v0 1.3.0+5659912919
+	- fabric-screen-api-v1 2.0.25+8b68f1c719
+	- fabric-screen-handler-api-v1 1.3.86+b559734419
+	- fabric-sound-api-v1 1.0.23+6573ed8c19
+	- fabric-transfer-api-v1 5.2.0+d38f898f19
+	- fabric-transitive-access-wideners-v1 6.1.0+1daea21519
+	- fabricloader 0.16.5
+	- java 21
+	- minecraft 1.21.1
+	- mixinextras 0.4.1
+	- skyblock 1.4.2
+	- wover 21.0.13
+	- wover-biome 21.0.13
+	- wover-block 21.0.13
+	- wover-common 21.0.13
+	- wover-core 21.0.13
+	- wover-datagen 21.0.13
+	- wover-events 21.0.13
+	- wover-feature 21.0.13
+	- wover-generator 21.0.13
+	- wover-item 21.0.13
+	- wover-math 21.0.13
+	- wover-preset 21.0.13
+	- wover-recipe 21.0.13
+	- wover-structure 21.0.13
+	- wover-surface 21.0.13
+	- wover-tag 21.0.13
+	- wover-ui 21.0.13
+	- wunderlib 21.0.8
+[21:49:35] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/totha/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/51ee0a44ab05f6fddd66b09e66b3a16904f9c55d/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[21:49:36] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[21:49:36] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[21:49:39] [main/ERROR] (FabricLoader/Mixin) bclib.mixins.client.json:AnvilScreenMixin from mod bclib: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
+org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: method_25402 does not exist in target interface net.minecraft.client.gui.ParentElement
+	at org.spongepowered.asm.mixin.transformer.InterfaceInfo.renameMethod(InterfaceInfo.java:188) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepareSoftImplements(MixinPreProcessorStandard.java:234) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepareMethod(MixinPreProcessorStandard.java:215) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepare(MixinPreProcessorStandard.java:184) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validateChanges(MixinInfo.java:442) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:342) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.validate(MixinInfo.java:913) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:884) [sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:568) [sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) [sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) [sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) [sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) [sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) [sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) [fabric-loader-0.16.5.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) [?:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:473) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[21:49:41] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:50:00] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 16440 milliseconds
+[21:50:03] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:50:03] [Render thread/INFO] (Minecraft) Setting user: Player460
+[21:50:04] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry: wover:wover/world_preset_info
+[21:50:04] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/world_preset
+[21:50:04] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/flat_level_generator_preset
+[21:50:04] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/structure
+[21:50:04] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/biome
+[21:50:04] [Render thread/INFO] (wover-core) (DEBUG) Creating registry: wover:wover/biome_codec
+[21:50:04] [Render thread/INFO] (wover-core) (DEBUG) Creating registry: wover:wover/biome_predicates
+[21:50:04] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry: wover:wover/worldgen/biome_modifications
+[21:50:04] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry: wover:wover/worldgen/surface_rules
+[21:50:04] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Archived Items for skyblock
+[21:50:04] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Archived Blocks for skyblock
+[21:50:04] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Abstract Items (Client-Only) for skyblock
+[21:50:04] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering BCLib Data Patches for skyblock
+[21:50:04] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Biomes for skyblock
+[21:50:04] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering BiomeEffects for skyblock
+[21:50:04] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Item Groups for skyblock
+[21:50:04] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering DataComponentTypes for skyblock
+[21:50:04] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering SoundEvents for skyblock
+[21:50:05] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Items for skyblock
+[21:50:05] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Blocks for skyblock
+[21:50:05] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering BlockEntities for skyblock
+[21:50:05] [Render thread/INFO] (Minecraft) [STDOUT]: [SkyBlock MultiMod] Registering Enchantments for skyblock
+[21:50:05] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Dimensions for skyblock
+[21:50:05] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering Screen Handlers for skyblock
+[21:50:05] [Render thread/INFO] (skyblock) [SkyBlock Mu[21:50:05] [main/WARN] (FabricLoader/Mixin) [21:50:08] [Render thread/INFO] (skyblock) [SkyBlock MultiMod] Registering BlockEntityRendererFactories for skyblock
+[21:50:08] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[21:50:11] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[21:50:16] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, bclib, continuity, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabri[21:50:29] [main/INFO] (wover-core) (DEBUG) Creating registry: wover:wover/biome_codec
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering Archived Items for skyblock
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering Archived Blocks for skyblock
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering Abstract Items (Client-Only) for skyblock
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering BCLib Data Patches for skyblock
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering Biomes for skyblock
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering BiomeEffects for skyblock
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering Item Groups for skyblock
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering DataComponentTypes for skyblock
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering SoundEvents for skyblock
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering Items for skyblock
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering Blocks for skyblock
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering BlockEntities for skyblock
+[21:50:29] [main/INFO] (Minecraft) [STDOUT]: [SkyBlock MultiMod] Registering Enchantments for skyblock
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering Dimensions for skyblock
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering Screen Handlers for skyblock
+[21:50:29] [main/INFO] (skyblock) [SkyBlock MultiMod] Registering GameRules for skyblock
+[21:50:29] [main/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/structure
+[21:50:29] [main/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/biome
+[21:50:29] [main/INFO] (wover-core) (DEBUG) Creating registry: wover:wover/biome_predicates
+[21:50:29] [main/INFO] (wover-core) (DEBUG) Adding dynamic registry: wover:wover/worldgen/biome_modifications
+[21:50:29] [main/INFO] (wover-core) (DEBUG) Adding dynamic registry: wover:wover/world_preset_info
+[21:50:29] [main/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/world_preset
+[21:50:29] [main/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/flat_level_generator_preset
+[21:50:29] [main/INFO] (wover-core) (DEBUG) Adding dynamic registry: wover:wover/worldgen/surface_rules
+[21:50:31] [main/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:50:31] [main/INFO] (wover-events) (DEBUG) Emitting event: WORLD_FOLDER_READY (265f8dd7, world)
+[21:50:32] [main/INFO] (bclib) Ignoring Patch{ModCore: skyblock (skyblock):1.2.0-1.20.1:66048}
+[21:50:32] [main/INFO] (bclib) Ignoring Patch{ModCore: skyblock (skyblock):1.2.1-1.20.1:66049}
+[21:50:32] [main/INFO] (bclib) Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
+[21:50:32] [main/INFO] (bclib) Running Pre Patchers on .\world\.
+[21:50:32] [main/INFO] (bclib) Everything up to date
+[21:50:32] [main/INFO] (wover-core) (DEBUG) Adding custom WORLDGEN_REGISTRIES
+[21:50:32] [main/INFO] (wover-core) Processing wover.datapack.registry Entrypoints
+[21:50:32] [main/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[21:50:32] [main/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/configured_feature
+[21:50:32] [main/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/placed_feature
+[21:50:32] [main/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[21:50:32] [main/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/template_pool
+[21:50:32] [main/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/structure_set
+[21:50:32] [main/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[21:50:32] [main/INFO] (wover-core) (DEBUG) Adding dynamic registry: wover:wover/worldgen/biome_data
+[21:50:32] [main/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[21:50:32] [main/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:enchantment
+[21:50:32] [main/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[21:50:32] [main/INFO] (wover-core) (DEBUG)     - Adding wover:wover/worldgen/biome_modifications
+[21:50:32] [main/INFO] (wover-core) (DEBUG)     - Adding wover:wover/world_preset_info
+[21:50:32] [main/INFO] (wover-core) (DEBUG)     - Adding wover:wover/worldgen/surface_rules
+[21:50:32] [main/INFO] (wover-core) (DEBUG)     - Adding wover:wover/worldgen/biome_data
+[21:50:32] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:dimension_type
+[21:50:33] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/biome
+[21:50:33] [main/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:worldgen/biome
+[21:50:33] [main/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_BIOME_REGISTRY
+[21:50:33] [main/INFO] (wover-biome) (DEBUG) Biome getter changed, resetting bootstrap context
+[21:50:33] [main/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_BIOMES_WITH_DATA
+[21:50:33] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:chat_type
+[21:50:33] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/configured_carver
+[21:50:33] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/configured_feature
+[21:50:33] [main/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:worldgen/configured_feature
+[21:50:33] [main/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_CONFIGURED_FEATURES
+[21:50:33] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/placed_feature
+[21:50:33] [main/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:worldgen/placed_feature
+[21:50:33] [main/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_PLACED_FEATURES
+[21:50:33] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/structure
+[21:50:33] [main/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:worldgen/structure
+[21:50:33] [main/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_STRUCTURES
+[21:50:3[21:50:54] [Render thread/INFO] (Minecraft) Connecting to 0, 25565
+[21:50:55] [Render thread/INFO] (wover-core) (DEBUG) Adding custom WORLDGEN_REGISTRIES
+[21:50:55] [Render thread/INFO] (wover-core) Processing wover.datapack.registry Entrypoints
+[21:50:55] [Render thread/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[21:50:55] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/configured_feature
+[21:50:55] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/placed_feature
+[21:50:55] [Render thread/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[21:50:55] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/template_pool
+[21:50:55] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:worldgen/structure_set
+[21:50:55] [Render thread/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[21:50:55] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry: wover:wover/worldgen/biome_data
+[21:50:55] [Render thread/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[21:50:55] [Render thread/INFO] (wover-core)     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[21:50:55] [Render thread/INFO] (wover-core) (DEBUG) Adding dynamic registry bootstrap: minecraft:enchantment
+[21:50:55] [Render thread/INFO] (wover-core) (DEBUG)     - Adding wover:wover/world_preset_info
+[21:50:55] [Render thread/INFO] (wover-core) (DEBUG)     - Adding wover:wover/worldgen/biome_modifications
+[21:50:55] [Render thread/INFO] (wover-core) (DEBUG)     - Adding wover:wover/worldgen/surface_rules
+[21:50:55] [Render thread/INFO] (wover-core) (DEBUG)     - Adding wover:wover/worldgen/biome_data
+[21:50:57] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_POTIONS
+[21:50:59] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[21:51:04] [Render thread/INFO] (Minecraft) [System] [CHAT] Player948 joined the game
+[21:51:07] [Render thread/INFO] (Minecraft) [System] [CHAT] Player460 was slain by Zombie
+[21:51:07] [Render thread/INFO] (Minecraft) Loaded 38 advancements
+[21:52:08] [Render thread/INFO] (Minecraft) [System] [CHAT] [Server: Made Player460 a server operator]
+[21:52:08] [Render thread/INFO] (Minecraft) [System] [CHAT] [Server: Made Player460 a server operator]
+[21:52:13] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
+[21:52:16] [Render thread/INFO] (Minecraft) [System] [CHAT] [Player948: Set own game mode to Creative Mode]
+[21:53:22] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Spectator Mode
+[21:58:35] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
+[21:59:37] [Render thread/INFO] (Minecraft) Stopping!
+ = 128
+[21:50:34] [main/INFO] (wover-generator) (DEBUG) WoVer - Nether BiomeSource (71f6166f)
+    --> Map Update
+[21:50:34] [main/INFO] (wover-generator) Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:50:34] [main/INFO] (wover-generator) Updating Pickers for WoVer - The End  BiomeSource (47af2410)
+[21:50:34] [main/INFO] (wover-generator) Unable to build Biome List yet
+[21:50:34] [main/INFO] (wover-generator) (DEBUG) WoVer - The End  BiomeSource (47af2410)
+    --> Map Update
+[21:50:34] [main/INFO] (wover-generator) (DEBUG) WoVer - The End  BiomeSource (47af2410)
+    --> new height = 128
+[21:50:34] [main/INFO] (wover-generator) Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[21:50:34] [main/INFO] (wover-generator) Updating Pickers for WoVer - Nether BiomeSource (7654d932)
+[21:50:34] [main/INFO] (wover-generator) Unable to build Biome List yet
+[21:50:34] [main/INFO] (wover-generator) (DEBUG) WoVer - Nether BiomeSource (7654d932)
+    --> Map Update
+[21:50:34] [main/INFO] (wover-generator) (DEBUG) WoVer - Nether BiomeSource (7654d932)
+    --> new height = 128
+[21:50:34] [main/INFO] (wover-generator) (DEBUG) WoVer - Nether BiomeSource (7654d932)
+    --> Map Update
+[21:50:34] [main/INFO] (wover-generator) Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[21:50:34] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/world_preset
+[21:50:34] [main/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:worldgen/world_preset
+[21:50:34] [main/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_WORLD_PRESETS
+[21:50:34] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/flat_level_generator_preset
+[21:50:34] [main/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:worldgen/flat_level_generator_preset
+[21:50:34] [main/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_FLAT_LEVEL_PRESETS
+[21:50:34] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:trim_pattern
+[21:50:34] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:trim_material
+[21:50:34] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:wolf_variant
+[21:50:34] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:painting_variant
+[21:50:34] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:damage_type
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:worldgen/multi_noise_biome_source_parameter_list
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:banner_pattern
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:enchantment
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on minecraft:enchantment
+[21:50:35] [main/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_ENCHANTMENTS
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:enchantment_provider
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:jukebox_song
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry wover:wover/worldgen/biome_modifications
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on wover:wover/worldgen/biome_modifications
+[21:50:35] [main/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_BIOME_MODIFICATION_REGISTRY
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry wover:wover/world_preset_info
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on wover:wover/world_preset_info
+[21:50:35] [main/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_WORLD_PRESET_INFO_REGISTRY
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry wover:wover/worldgen/surface_rules
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on wover:wover/worldgen/surface_rules
+[21:50:35] [main/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_SURFACE_RULE_REGISTRY
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry wover:wover/worldgen/biome_data
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Calling custom Registry Bootstrap on wover:wover/worldgen/biome_data
+[21:50:35] [main/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_BIOME_DATA_REGISTRY
+[21:50:35] [main/INFO] (wover-core) (DEBUG) Bootstrapping registry minecraft:dimension
+[21:50:35] [main/INFO] (wover-events) (DEBUG) Emitting event: WORLD_REGISTRY_READY (4556b389, PREPARATION)
+[21:50:35] [main/INFO] (wover-events) (DEBUG) Emitting event: BEFORE_LOADING_RESOURCES
+[21:50:35] [main/INFO] (wover-tag) (DEBUG) Invalidating TagBootstrapContext Caches
+[21:50:39] [Worker-Main-2/INFO] (wover-events) (DEBUG) Emitting event: TAG_BOOTSTRAP_EVENT (tags/enchantment)
+[21:50:39] [Worker-Main-1/INFO] (wover-events) (DEBUG) Emitting event: TAG_BOOTSTRAP_EVENT (tags/worldgen/biome)
+[21:50:39] [Worker-Main-2/INFO] (wover-events) (DEBUG) Emitting event: TAG_BOOTSTRAP_EVENT (tags/entity_type)
+[21:50:39] [Worker-Main-3/INFO] (wover-events) (DEBUG) Emitting event: TAG_BOOTSTRAP_EVENT (tags/item)
+[21:50:39] [Worker-Main-3/ERROR] (Minecraft) Couldn't load tag skyblock:minecraft__crying_obsidians as it is missing following references: betternether:weeping_obsidian (from skyblock), betternether:blue_crying_obsidian (from skyblock), betternether:blue_weeping_obsidian (from skyblock)
+[21:50:39] [Worker-Main-2/INFO] (wover-events) (DEBUG) Emitting event: TAG_BOOTSTRAP_EVENT (tags/block)
+[21:50:39] [Worker-Main-2/ERROR] (Minecraft) Couldn't load tag wover:vegetation/plant as it is missing following references: #wover:vegetation/vine (from wover-tag)
+[21:50:39] [main/INFO] (wover-core) (DEBUG) Checking Resource from Datapack: 'bclib:config/recipes.json'
+[21:50:39] [main/INFO] (bclib) Disabling Recipe: bclib:test_star
+[21:50:40] [main/ERROR] (Minecraft) Parsing error loading recipe skyblock:bn__recipes/bn__obsidian
+com.google.gson.JsonParseException: Failed to parse either. First: Input does not contain a key [fabric:type]: MapLike[{"item":"betternether:blue_obsidian"}]; Second: Failed to parse either. First: Not a json array: {"item":"betternether:blue_obsidian"}; Second: No key tag in MapLike[{"item":"betternether:blue_obsidian"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: betternether:blue_obsidian; No ingredients for shapeless recipe
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:62) ~[minecraft-merged-dd0618f260-1.21.1-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:35) ~[minecraft-merged-dd0618f260-1.21.1-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-dd0618f260-1.21.1-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-dd0618f260-1.21.1-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1024) [minecraft-merged-dd0618f260-1.21.1-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1012) [minecraft-merged-dd0618f260-1.21.1-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:182) [minecraft-merged-dd0618f260-1.21.1-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[21:50:40] [main/ERROR] (Minecraft) Parsing error loading recipe skyblock:bn__recipes/bn__blue_obsidian
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: betternether:blue_obsidian
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:62) ~[minecraft-merged-dd0618f260-1.21.1-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:35) ~[minecraft-merged-dd0618f260-1.21.1-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-merged-dd0618f260-1.21.1-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-merged-dd0618f260-1.21.1-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1024) [minecraft-merged-dd0618f260-1.21.1-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1012) [minecraft-merged-dd0618f260-1.21.1-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:182) [minecraft-merged-dd0618f260-1.21.1-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[21:50:40] [main/INFO] (Minecraft) Loaded 1690 recipes
+[21:50:40] [main/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_RECIPES
+[21:50:40] [main/INFO] (wover-recipe) Added 0 recipes in 2ms
+[21:50:40] [main/INFO] (Minecraft) Loaded 1399 advancements
+[21:50:41] [main/INFO] (wover-events) (DEBUG) Emitting event: WORLD_REGISTRY_READY (6d5bdc65, FINAL)
+[21:50:41] [main/INFO] (wover-events) (DEBUG) Emitting event: RESOURCES_LOADED
+[21:50:41] [main/INFO] (wover-core) (DEBUG) Checking Resource from Datapack: 'bclib:config/recipes.json'
+[21:50:41] [main/INFO] (wover-core) (DEBUG) Checking Resource from Datapack: 'bclib:config/recipes.json'
+[21:50:41] [main/INFO] (wover-events) (DEBUG) Emitting event: ON_DIMENSION_LOAD
+[21:50:41] [main/ERROR] (wover-generator) Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/chunk_generator]: bclib:betterx; Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/chunk_generator]: bclib:betterx missed input: {"minecraft:the_end":{biome_source:{config:{barrens_biomes_size:256,center_biomes_size:256,generator_version:"paulevs",inner_void_radius_squared:1048576,land_biomes_size:256,map_type:"hex",void_biomes_size:256,with_void_biomes:1b},seed:0L,type:"bclib:end_biome_source"},settings:"minecraft:end",type:"bclib:betterx"},"minecraft:the_nether":{biome_source:{config:{amplified:0b,biome_size:256,biome_size_vertical:86,map_type:"hex",use_vertical_biomes:1b},seed:0L,type:"bclib:nether_biome_source"},settings:"minecraft:nether",type:"bclib:betterx"}}
+[21:50:42] [main/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_POTIONS
+[21:50:42] [main/INFO] (wover-events) (DEBUG) Emitting event: MINECRAFT_SERVER_READY
+[21:50:42] [main/INFO] (wover-biome) Applied 0 biome modifications and added 0 tags to 0 of 65 biomes in 7.264 ms
+[21:50:42] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 65 new biomes in 1.559 ms
+[21:50:42] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.21.1
+[21:50:42] [Server thread/INFO] (Minecraft) Loading properties
+[21:50:42] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
+[21:50:42] [Server thread/INFO] (Minecraft) Generating keypair
+[21:50:42] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
+[21:50:42] [Server thread/INFO] (Minecraft) Using default channel type
+[21:50:42] [Server thread/WARN] (Minecraft) **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:50:42] [Server thread/WARN] (Minecraft) The server will make no attempt to authenticate usernames. Beware.
+[21:50:42] [Server thread/WARN] (Minecraft) While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:50:42] [Server thread/WARN] (Minecraft) To change this, set "online-mode" to "true" in the server.properties file.
+[21:50:42] [Server thread/INFO] (Minecraft) Preparing level "world"
+[21:50:42] [Server thread/INFO] (wover-events) (DEBUG) Emitting event: BEFORE_CREATING_LEVELS
+[21:50:42] [Server thread/INFO] (wover-generator) World Dimensions: 
+ - skyblock:unknown: 
+     FlatChunkGenerator (1bd16cf8)
+         preset     = none
+         features   = none
+     FixedBiomeSource (458592b0)
+         biomes     = 1
+         namespaces = minecraft(1)
+ - skyblock:the_abyss_fabric: 
+     FlatChunkGenerator (3fae3655)
+         preset     = none
+         features   = none
+     FixedBiomeSource (2855bfc1)
+         biomes     = 1
+         namespaces = minecraft(1)
+ - minecraft:overworld: 
+     FlatChunkGenerator (142c50bd)
+         preset     = none
+         features   = none
+     FixedBiomeSource (7a36f7e2)
+         biomes     = 1
+         namespaces = minecraft(1)
+[21:50:43] [Server thread/INFO] (wover-events) (DEBUG) Emitting event: SERVER_LEVEL_READY
+[21:50:43] [Server thread/INFO] (wover-events) (DEBUG) Emitting event: SERVER_LEVEL_READY
+[21:50:43] [Server thread/INFO] (wover-events) (DEBUG) Emitting event: SERVER_LEVEL_READY
+[21:50:43] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[21:50:44] [Worker-Main-1/INFO] (Minecraft) menu.preparingSpawn
+[21:50:44] [Worker-Main-1/INFO] (Minecraft) menu.preparingSpawn
+[21:50:44] [Server thread/INFO] (Minecraft) Time elapsed: 1108 ms
+[21:50:44] [Server thread/INFO] (Minecraft) Done (1.771s)! For help, type "help"
+[21:50:44] [Server thread/WARN] (TranslationConventionLogWarnings) 
+	Dev warning - Untranslated Item Tags detected. Please translate your item tags so other mods such as recipe viewers can properly display your tag's name.
+	The format desired is tag.item.<namespace>.<path> for the translation key with slashes in path turned into periods.
+	To disable this message, set this system property in your runs: `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=SILENCED`.
+	To see individual untranslated item tags found, set the system property to `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=VERBOSE`.
+	Default is `SHORT`.
+
+[21:50:44] [Server thread/WARN] (ConventionLogWarnings) 
+	Dev warning - Legacy Tags detected. Please migrate your old tags to our new format that follows better conventions!
+	See classes under net.fabricmc.fabric.api.tag.convention.v2 package for all tags.
+
+	NOTE: Many tags have been moved around or renamed. Some new ones were added so please review the new tags.
+	And make sure you follow tag conventions for new tags! The convention is `c` with nouns generally being plural and adjectives being singular.
+	You can disable this message by this system property to your runs: `-Dfabric-tag-conventions-v1.legacyTagWarning=SILENCED`.
+	To see individual legacy tags found, set the system property to `-Dfabric-tag-conventions-v1.legacyTagWarning=VERBOSE` instead. Default is `SHORT`.
+
+[21:50:58] [Server thread/INFO] (Minecraft) Player460[/127.0.0.1:54134] logged in with entity id 70 at (35.5, -62.0, -33.5)
+[21:50:58] [Server thread/INFO] (Minecraft) multiplayer.player.joined
+[21:51:01] [Server thread/WARN] (Minecraft) Invalid statistic in .\world\stats\2dd1d9e7-57ae-36c4-8b90-c235b1bdb90f.json: Don't know what skyblock:twin_bow is
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load invalid item: 'Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: skyblock:artifact_iron_hide_amulet'
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__blaru_slab removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__bluishe_stairs removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:melte_residues_smelting removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:strippped_sal_shroom_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__bog_shroom_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:slimed_planks1 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:slimed_planks2 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:slimed_planks3 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:slimed_planks4 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__abyss_jungle_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__end_stairs removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:callery_planks1 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:callery_planks3 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:callery_planks2 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:callery_planks4 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__vigilant_stairs removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__enderite_helmet removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__vigilant_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:strippped_slimed_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:end_planks3 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:end_planks4 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:end_planks1 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:azalea_planks4 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:end_planks2 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:azalea_planks3 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:azalea_planks2 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:azalea_planks1 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:strippped_blaru_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__abysculk_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:enderite_smelting removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__ender_stick removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__enderite_boots removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__abyss_jungle_slab removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:strippped_bog_shroom_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__sal_shroom_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss_jungle_planks3 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss_jungle_planks2 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss_jungle_planks1 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss_jungle_planks4 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abysculk_planks1 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abysculk_planks2 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__slimed_slab removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__slimed_stairs removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:blaru_planks1 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:blaru_planks4 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:blaru_planks3 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:blaru_planks2 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__bog_shroom_stairs removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__enderite_chestplate removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sal_shroom_planks1 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sal_shroom_planks2 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sal_shroom_planks3 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sal_shroom_planks4 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__abysculk_slab removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__frozen_stairs removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__vigilant_slab removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__slimed_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:strippped_azalea_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__end_slab removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:strippped_abyss_jungle_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__frozen_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:vigilant_planks4 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:vigilant_planks1 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:vigilant_planks2 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:vigilant_planks3 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__sal_shroom_slab removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__frozen_slab removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:strippped_callery_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__enderite_block removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__sal_shroom_stairs removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:bluishe_planks6 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:bluishe_planks4 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:bluishe_planks5 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:bluishe_planks2 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:bluishe_planks3 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:bluishe_planks1 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:golden_apple removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__bluishe_hyphae removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:bog_shroom_planks4 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:bog_shroom_planks3 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:bog_shroom_planks2 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:bog_shroom_planks1 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__abyss_jungle_stairs removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__bluishe_light_hyphae removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__end_hyphae removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__abysculk_stairs removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:strippped_vigilant_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__enderite_leggings removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__bog_shroom_slab removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__enderite_ingot removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__blaru_stairs removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__end_emerald_block removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:strippped_bluishe_hyphae removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__end_emerald removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:frozen_planks4 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__blaru_wood removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:frozen_planks2 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:frozen_planks3 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__bluishe_slab removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:frozen_planks1 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:bottle_of_ant_jam1 removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__bluishe_end_stone removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:abyss__abyss_portal_activator removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:melte_residues_smelting removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__end_emerald_block removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:sp5__end_emerald removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:golden_apple removed now.
+[21:51:03] [Server thread/ERROR] (Minecraft) Tried to load unrecognized recipe: skyblock:enderite_smelting removed now.
+[21:51:03] [Server thread/INFO] (Minecraft) Player948[/127.0.0.1:54135] logged in with entity id 75 at (-3.433223177347417, -58.975575911786315, -35.652566373535734)
+[21:51:03] [Server thread/INFO] (Minecraft) multiplayer.player.joined
+[21:51:03] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 3040ms or 60 ticks behind
+[21:51:06] [Server thread/INFO] (Minecraft) death.attack.mob
+[21:51:21] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 3772ms or 75 ticks behind
+[21:52:08] [Server thread/INFO] (Minecraft) commands.op.success
+[21:52:08] [Server thread/INFO] (Minecraft) commands.op.success
+[21:52:08] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2238ms or 44 ticks behind
+[21:52:13] [Server thread/INFO] (Minecraft) chat.type.admin
+[21:52:16] [Server thread/INFO] (Minecraft) chat.type.admin
+[21:53:22] [Server thread/INFO] (Minecraft) chat.type.admin
+[21:58:35] [Server thread/INFO] (Minecraft) chat.type.admin
+[21:59:35] [Server thread/INFO] (Minecraft) Player460 lost connection: multiplayer.disconnect.generic
+[21:59:35] [Server thread/INFO] (Minecraft) multiplayer.player.left
+[21:59:38] [Server thread/INFO] (Minecraft) Player948 lost connection: multiplayer.disconnect.generic
+[21:59:38] [Server thread/INFO] (Minecraft) multiplayer.player.left
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     [21:50:56] [Render thread/INFO] (Minecraft) Connecting to 0, 25565
+[21:50:56] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: bclib:bonemeal/source/end_stone, bclib:bonemeal/source/obsidian, betterend:bonemeal/source/dragon_bone, betterend:bonemeal/source/water_grass, betterend:bonemeal/target/dragon_bone, betterend:bonemeal/target/water_grass, betterend:dragon_tree_logs, betterend:end_lotus_logs, betterend:helix_tree_logs, betterend:incorrect_for_aeternium_tool, betterend:jellyshroom_logs, betterend:lacugrove_logs, betterend:lucernia_logs, betterend:mossy_glowshroom_logs, betterend:pedestal, betterend:pythadendron_logs, betterend:tenanea_logs, betterend:umbrella_tree_logs, betternether:anchor_tree_logs, betternether:firefly_flowers, betternether:mushroom_fir_logs, betternether:nether_farmland, betternether:nether_sakura_logs, betternether:nether_sand, betternether:obsidian_breaker_mineable, betternether:rubeus_logs, betternether:stalagnate_logs, betternether:wart_logs, betternether:willow_logs, wover:composters, wover:immobile, wover:mineable/shears, wover:mineable/sword, wover:nether_pframe, wover:vegetation/leaves, wover:vegetation/plant, wover:vegetation/seeds, wover:vegetation/vine
+[21:50:56] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: betterend:alloying_copper, betterend:alloying_gold, betterend:alloying_iron, betterend:anvil_tool/aeternium, betterend:anvil_tool/diamond, betterend:anvil_tool/iron, betterend:anvil_tool/netherite, betterend:dragon_tree_logs, betterend:end_lotus_logs, betterend:helix_tree_logs, betterend:jellyshroom_logs, betterend:lacugrove_logs, betterend:lucernia_logs, betterend:mossy_glowshroom_logs, betterend:pythadendron_logs, betterend:tenanea_logs, betterend:thallasium_alloying, betterend:umbrella_tree_logs, betternether:anchor_tree_logs, betternether:flaming_ruby_enchantable, betternether:flaming_ruby_primary, betternether:mushroom_fir_logs, betternether:nether_sakura_logs, betternether:obsidian_breaker_enchantable, betternether:pickaxes, betternether:rubeus_logs, betternether:stalagnate_logs, betternether:wart_logs, betternether:willow_logs, fabric:axes, fabric:hoes, fabric:pickaxes, fabric:shears, fabric:shovels, fabric:swords, skyblock:minecraft__crying_obsidians, trinkets:chest/cape, wover:compostable, wover:tools/hammers, wover:vegetation/leaves, wover:vegetation/saplings, wover:vegetation/seeds, wover:workbench
+[21:51:00] [Render thread/INFO] (wover-events) (DEBUG) Emitting event: BOOTSTRAP_POTIONS
+[21:51:03] [Render thread/INFO] (Minecraft) Loaded 50 advancements
+[21:51:07] [Render thread/INFO] (Minecraft) [System] [CHAT] Player460 was slain by Zombie
+[21:52:08] [Render thread/INFO] (Minecraft) [System] [CHAT] [Server: Made Player460 a server operator]
+[21:52:13] [Render thread/INFO] (Minecraft) [System] [CHAT] [Player460: Set own game mode to Creative Mode]
+[21:52:16] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
+[21:53:22] [Render thread/INFO] (Minecraft) [System] [CHAT] [Player460: Set own game mode to Spectator Mode]
+[21:58:35] [Render thread/INFO] (Minecraft) [System] [CHAT] [Player460: Set own game mode to Creative Mode]
+[21:59:35] [Render thread/INFO] (Minecraft) [System] [CHAT] Player460 left the game
+[21:59:40] [Render thread/INFO] (Minecraft) Stopping!

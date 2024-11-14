@@ -258,7 +258,6 @@
   "block.skyblock.sp5__stripped_bluishe_hyphae": "Kérgezett bluishe gombafonalak",
   "block.skyblock.sp5__bluishe_planks": "Bluishe deszka",
   "item.skyblock.mcd__shortbow": "Zseb íj",
-  "item.skyblock.mcd__auto_crossbow": "Automatizált számszeríj",
   "item.skyblock.mcd__diamond_rapier": "Gyémánt vívótőr",
   "item.skyblock.mcd__golden_rapier": "Arany vívótőr",
   "item.skyblock.mcd__iron_rapier": "Vas vívótőr",
@@ -505,10 +504,15 @@
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip1": "A Vasba foglalt amulett egy ősrégi",
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip2": "tárgy. A benne lévő repedésekből",
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip3": "a homok időnként kipereg.",
+  "tooltip.skyblock.mcd__artifact_iron_hide_amulet.personal": "Személyes",
 
   "item.skyblock.mcd__twin_bow": "Iker íj",
   "tooltip.skyblock.mcd__twin_bow.tooltip1": "Az Iker íj a hős biztos társa, akire számíthat",
   "tooltip.skyblock.mcd__twin_bow.tooltip2": "ha túlerővel szemben egyedül találja magát.",
+
+  "item.skyblock.mcd__auto_crossbow": "Automatizált számszeríj",
+  "tooltip.skyblock.mcd__auto_crossbow.tooltip1": "Az Arch-Illager elmondása szerint ennek az erőteljes számszeríjnak",
+  "tooltip.skyblock.mcd__auto_crossbow.tooltip2": "az elképzelése egy látomáson keresztül jutott el hozzá.",
 
   "tooltip.skyblock.rarity.common": "Gyakoriság: §r[§7ɢʏᴀᴋᴏʀɪ§r]",
   "tooltip.skyblock.rarity.rare": "Gyakoriság: §r[§aʀɪᴛᴋᴀ§r]",
@@ -518,5 +522,7 @@
   "tooltip.skyblock.rarity_info_extended.gifted": "§r[§aᴀᴊáɴᴅéᴋ§r]",
 
   "enchantment.skyblock.primitiveness_curse": "Primitivitás átka",
-  "enchantment.skyblock.mcd__bonus_shot": "Bónusz Lövés"
+  "enchantment.skyblock.mcd__bonus_shot": "Bónusz Lövés",
+  "tooltip.skyblock.mcd__bonus_shot.target_players": "Célozzon játékosokat",
+  "enchantment.skyblock.mcd__accelerate": "Gyorsulás"
 }

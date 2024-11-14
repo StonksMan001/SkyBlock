@@ -1252,6 +1252,9 @@ public class SkyBlockRegistries {
         public static final ComponentType<Boolean> MCD__TWIN_BOW_TARGET_PLAYER_ENTITIES_TOGGLE = SkyBlock.BuiltinRegistries.registerComponentType("mcd__twin_bow_attack_player_entities_toggle", booleanBuilder -> {
             return booleanBuilder.codec(Codec.BOOL);
         });
+        public static final ComponentType<Boolean> MCD__IRON_HIDE_AMULET_PERSONAL_TOGGLE = SkyBlock.BuiltinRegistries.registerComponentType("mcd__iron_hide_amulet_personal_toggle", booleanBuilder -> {
+            return booleanBuilder.codec(Codec.BOOL);
+        });
 
         public static void register() {
             SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering DataComponentTypes for " + SkyBlock.MOD_ID);

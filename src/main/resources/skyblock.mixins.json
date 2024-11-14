@@ -20,6 +20,7 @@
     "WrittenBookItemMixin"
   ],
   "client": [
+    "AbstractClientPlayerEntityMixin",
     "BookEditScreenMixin",
     "ChorusPlantBlockMixin",
     "HoneyBlockMixin",

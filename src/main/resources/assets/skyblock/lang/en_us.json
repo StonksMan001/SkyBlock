@@ -258,7 +258,6 @@
   "block.skyblock.sp5__stripped_bluishe_hyphae": "Stripped Bluishe Hyphae",
   "block.skyblock.sp5__bluishe_planks": "Bluishe Planks",
   "item.skyblock.mcd__shortbow": "Shortbow",
-  "item.skyblock.mcd__auto_crossbow": "Auto Crossbow",
   "item.skyblock.mcd__diamond_rapier": "Diamond Rapier",
   "item.skyblock.mcd__golden_rapier": "Golden Rapier",
   "item.skyblock.mcd__iron_rapier": "Iron Rapier",
@@ -505,10 +504,15 @@
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip1": "The Iron Hide Amulet is both ancient and",
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip2": "timeless. Sand mysteriously and endlessly",
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip3": "slips through the cracks in the iron.",
+  "tooltip.skyblock.mcd__artifact_iron_hide_amulet.personal": "Personal",
 
   "item.skyblock.mcd__twin_bow": "Twin Bow",
   "tooltip.skyblock.mcd__twin_bow.tooltip1": "The Twin Bow is the champion of the hero",
   "tooltip.skyblock.mcd__twin_bow.tooltip2": "who finds themselves outnumbered and alone.",
+
+  "item.skyblock.mcd__auto_crossbow": "Auto Crossbow",
+  "tooltip.skyblock.mcd__auto_crossbow.tooltip1": "The Arch-Illager said the design for this",
+  "tooltip.skyblock.mcd__auto_crossbow.tooltip2": "powerful crossbow came to him in a vision.",
 
   "tooltip.skyblock.rarity.common": "Rarity: §r[§7ᴄᴏᴍᴍᴏɴ§r]",
   "tooltip.skyblock.rarity.rare": "Rarity: §r[§aʀᴀʀᴇ§r]",
@@ -518,5 +522,7 @@
   "tooltip.skyblock.rarity_info_extended.gifted": "§r[§aɢɪꜰᴛᴇᴅ§r]",
 
   "enchantment.skyblock.primitiveness_curse": "Primitiveness Curse",
-  "enchantment.skyblock.mcd__bonus_shot": "Bonus Shot"
+  "enchantment.skyblock.mcd__bonus_shot": "Bonus Shot",
+  "tooltip.skyblock.mcd__bonus_shot.target_players": "Target players",
+  "enchantment.skyblock.mcd__accelerate": "Accelerate"
 }

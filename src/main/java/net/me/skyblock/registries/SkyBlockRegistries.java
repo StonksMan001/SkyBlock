@@ -2,6 +2,7 @@ package net.me.skyblock.registries;
 
 import com.google.common.base.Suppliers;
 import com.google.common.collect.Maps;
+import com.mojang.serialization.Codec;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.gamerule.v1.GameRuleFactory;
@@ -1245,7 +1246,12 @@ public class SkyBlockRegistries {
     }
 
     public static class DataComponentTypeRegistries {
-        public static ComponentType<SimpleByteValueComponent> SIMPLE_BYTE_VALUE_COMPONENT = SkyBlock.BuiltinRegistries.registerComponentType("z__null_component", nullComponentBuilder -> nullComponentBuilder.codec(SimpleByteValueComponent.CODEC));
+        public static final ComponentType<SimpleByteValueComponent> SIMPLE_BYTE_VALUE_COMPONENT = SkyBlock.BuiltinRegistries.registerComponentType("z__null_component", nullComponentBuilder -> {
+            return nullComponentBuilder.codec(SimpleByteValueComponent.CODEC);
+        });
+        public static final ComponentType<Boolean> MCD__TWIN_BOW_TARGET_PLAYER_ENTITIES_TOGGLE = SkyBlock.BuiltinRegistries.registerComponentType("mcd__twin_bow_attack_player_entities_toggle", booleanBuilder -> {
+            return booleanBuilder.codec(Codec.BOOL);
+        });
 
         public static void register() {
             SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering DataComponentTypes for " + SkyBlock.MOD_ID);
@@ -3097,16 +3103,16 @@ public class SkyBlockRegistries {
                     (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F);
         }
         private static void registerCrossbow(Item crossbow) {
-            ModelPredicateProviderRegistry.register(crossbow, Identifier.of("pull"), (stack, world, entity, seed) -> {
+            ModelPredicateProviderRegistry.register(crossbow, Identifier.ofVanilla("pull"), (stack, world, entity, seed) -> {
                 if (entity == null) {
                     return 0.0F;
                 } else {
                     return CrossbowItem.isCharged(stack) ? 0.0F : (float)(stack.getMaxUseTime(entity) - entity.getItemUseTimeLeft()) / (float)CrossbowItem.getPullTime(stack, entity);
                 }
             });
-            ModelPredicateProviderRegistry.register(crossbow, Identifier.of("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CrossbowItem.isCharged(stack) ? 1.0F : 0.0F);
-            ModelPredicateProviderRegistry.register(crossbow, Identifier.of("charged"), (stack, world, entity, seed) -> CrossbowItem.isCharged(stack) ? 1.0F : 0.0F);
-            ModelPredicateProviderRegistry.register(crossbow, Identifier.of("firework"), (stack, world, entity, seed) -> {
+            ModelPredicateProviderRegistry.register(crossbow, Identifier.ofVanilla("pulling"), (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack && !CrossbowItem.isCharged(stack) ? 1.0F : 0.0F);
+            ModelPredicateProviderRegistry.register(crossbow, Identifier.ofVanilla("charged"), (stack, world, entity, seed) -> CrossbowItem.isCharged(stack) ? 1.0F : 0.0F);
+            ModelPredicateProviderRegistry.register(crossbow, Identifier.ofVanilla("firework"), (stack, world, entity, seed) -> {
                 ChargedProjectilesComponent chargedProjectilesComponent = stack.get(DataComponentTypes.CHARGED_PROJECTILES);
                 return chargedProjectilesComponent != null && chargedProjectilesComponent.contains(Items.FIREWORK_ROCKET) ? 1.0F : 0.0F;
             });

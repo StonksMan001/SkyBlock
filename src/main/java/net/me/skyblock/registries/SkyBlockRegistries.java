@@ -413,9 +413,9 @@ public class SkyBlockRegistries {
         public static final Item MCD__SHORTBOW = SkyBlock.BuiltinRegistries.registerItem("mcd__shortbow",
                 new ShortBowItem(new Item.Settings().maxDamage(384)));
         public static final Item MCD__TWIN_BOW = SkyBlock.BuiltinRegistries.registerItem("mcd__twin_bow",
-                new TwinBowItem(new Item.Settings().maxDamage(384).rarity(Rarity.RARE)));
+                new TwinBowItem(new Item.Settings().maxDamage(384).rarity(Rarity.EPIC)));
         public static final Item MCD__AUTO_CROSSBOW = SkyBlock.BuiltinRegistries.registerItem("mcd__auto_crossbow",
-                new AutoCrossbowItem(new Item.Settings().maxDamage(465).rarity(Rarity.RARE)));
+                new AutoCrossbowItem(new Item.Settings().maxDamage(465).rarity(Rarity.EPIC)));
         public static final Item MCD__ARTIFACT_IRON_HIDE_AMULET= SkyBlock.BuiltinRegistries.registerItem("mcd__artifact_iron_hide_amulet",
                 new IronSkinItem_Common(new Item.Settings().maxCount(1).maxDamage(10)));
         public static final Item SKYBLOCK__LIGHTNING_SWORD = SkyBlock.BuiltinRegistries.registerItem("skyblock__lightning_sword",

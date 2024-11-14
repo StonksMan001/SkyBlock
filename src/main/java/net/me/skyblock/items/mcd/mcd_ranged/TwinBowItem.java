@@ -68,7 +68,7 @@ public class TwinBowItem extends BowItem {
                                             ?
                                     serverWorld.getEntitiesByClass(LivingEntity.class, searchBox,
                                             entity ->
-                                                    (entity instanceof Monster || entity instanceof HostileEntity || entity instanceof PlayerEntity) &&
+                                                    (entity instanceof Monster || entity instanceof HostileEntity || (entity instanceof PlayerEntity playerEntity2 && !playerEntity2.isCreative() && !playerEntity2.isSpectator())) &&
                                                     entity != playerEntity &&
                                                     (entity.getScoreboardTeam() != playerEntity.getScoreboardTeam() ||
                                                             (entity.getScoreboardTeam() == null && playerEntity.getScoreboardTeam() == null)

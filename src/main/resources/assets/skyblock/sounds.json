@@ -438,7 +438,15 @@
   "artifact_iron_hide_amulet_used": {
     "sounds": [
       {
-        "name": "skyblock:artifact_iron_hide_amulet_used",
+        "name": "skyblock:mcd__iron_hide_amulet/use/mcd__iron_hide_amulet_use1",
+        "stream": true
+      },
+      {
+        "name": "skyblock:mcd__iron_hide_amulet/use/mcd__iron_hide_amulet_use2",
+        "stream": true
+      },
+      {
+        "name": "skyblock:mcd__iron_hide_amulet/use/mcd__iron_hide_amulet_use3",
         "stream": true
       }
     ]

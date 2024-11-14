@@ -10,11 +10,11 @@ import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.world.World;
 import org.betterx.wover.common.item.api.ItemWithCustomStack;
 
-public class McdArtifactItem extends Item implements ItemWithCustomStack, SkyblockEnchantmentHelper {
-    public static final byte[] RARITY = new byte[]{1, 2, 3};
+public class McdArtifactItem extends McdItem implements ItemWithCustomStack, SkyblockEnchantmentHelper {
     public McdArtifactItem(Settings settings) {
         super(settings);
     }
+
     @Override
     public boolean isEnchantable(ItemStack stack) {
         return false;

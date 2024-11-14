@@ -156,7 +156,8 @@ public class SkyBlockRegistries {
         public static SoundEvent H__DESPAIR = SkyBlock.BuiltinRegistries.registerSoundEvent("h__despair");
         public static SoundEvent H__ABANDONED_VALLEY = SkyBlock.BuiltinRegistries.registerSoundEvent("h__abandoned_valley");
         public static SoundEvent H__BREACH_OF_WORLDS = SkyBlock.BuiltinRegistries.registerSoundEvent("h__breach_of_worlds");
-        public static SoundEvent ARTIFACT_IRON_HIDE_AMULET_USED = SkyBlock.BuiltinRegistries.registerSoundEvent("artifact_iron_hide_amulet_used");
+        public static SoundEvent MCD__IRON_HIDE_AMULET_USE = SkyBlock.BuiltinRegistries.registerSoundEvent("artifact_iron_hide_amulet_used");
+        public static SoundEvent MCD__TWIN_BOW_SHOOT = SkyBlock.BuiltinRegistries.registerSoundEvent("mcd__twin_bow_shoot");
         public static void register() {
             SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering SoundEvents for " + SkyBlock.MOD_ID);
         }

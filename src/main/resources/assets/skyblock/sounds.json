@@ -450,5 +450,21 @@
         "stream": true
       }
     ]
+  },
+  "mcd__twin_bow_shoot": {
+    "sounds": [
+      {
+        "name": "skyblock:mcd__twin_bow/shoot/mcd__twin_bow_shoot1",
+        "stream": true
+      },
+      {
+        "name": "skyblock:mcd__twin_bow/shoot/mcd__twin_bow_shoot2",
+        "stream": true
+      },
+      {
+        "name": "skyblock:mcd__twin_bow/shoot/mcd__twin_bow_shoot3",
+        "stream": true
+      }
+    ]
   }
 }

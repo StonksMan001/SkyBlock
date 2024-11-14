@@ -35,11 +35,11 @@ public class IronSkinItem extends McdArtifactItem {
         if (!world.isClient() && hand == Hand.MAIN_HAND ) {
             user.getItemCooldownManager().set(this, 500);
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, duration, amplifier, false, false, true));
-            world.playSoundFromEntity(null, user, SkyBlockRegistries.SoundRegistries.ARTIFACT_IRON_HIDE_AMULET_USED, SoundCategory.PLAYERS, 1.0F, 1.0F);
+            world.playSoundFromEntity(null, user, SkyBlockRegistries.SoundRegistries.MCD__IRON_HIDE_AMULET_USE, SoundCategory.PLAYERS, 1.0F, 1.0F);
             user.getStackInHand(hand).damage(1, user, LivingEntity.getSlotForHand(hand));
         } else if (!world.isClient() && hand == Hand.OFF_HAND ) {
             user.getItemCooldownManager().set(this, 500);
-            world.playSoundFromEntity(null, user, SkyBlockRegistries.SoundRegistries.ARTIFACT_IRON_HIDE_AMULET_USED, SoundCategory.PLAYERS, 1.0F, 1.0F);
+            world.playSoundFromEntity(null, user, SkyBlockRegistries.SoundRegistries.MCD__IRON_HIDE_AMULET_USE, SoundCategory.PLAYERS, 1.0F, 1.0F);
             user.getStackInHand(hand).damage(1, user, LivingEntity.getSlotForHand(hand));
             int j = distance;
             int k = user.getBlockPos().getX();

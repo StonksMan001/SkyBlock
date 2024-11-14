@@ -7,36 +7,17 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.2 - Frissített EnchantmentAPI">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ArrowEntityMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/McdItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/mcd__iron_hide_amulet/use/mcd__iron_hide_amulet_use1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/mcd__iron_hide_amulet/use/mcd__iron_hide_amulet_use2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/mcd__iron_hide_amulet/use/mcd__iron_hide_amulet_use3.ogg" afterDir="false" />
+    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.2 - &quot;mcd__twin_bow&quot; és &quot;mcd__auto_crossbow&quot; mostmár Rarity.EPIC rarity kategóriába tartozik">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/mcd__twin_bow/shoot/mcd__twin_bow_shoot1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/mcd__twin_bow/shoot/mcd__twin_bow_shoot2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/mcd__twin_bow/shoot/mcd__twin_bow_shoot3.ogg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/McdArtifactItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/McdArtifactItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/AutoCrossbowItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/AutoCrossbowItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/ShortBowItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/ShortBowItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/IronSkinItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/IronSkinItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/TwinBowItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/TwinBowItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockRegistries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockRegistries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/artifact_iron_hide_amulet_used.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/twin_bow_pulling_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/twin_bow_pulling_0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/twin_bow_pulling_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/twin_bow_pulling_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/twin_bow_pulling_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/twin_bow_pulling_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +104,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "#4 on master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main(1.21.1)/src/main/resources/assets/skyblock/textures/item",
+    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main(1.21.1)/src/main/resources/assets/skyblock/sounds/mcd__twin_bow/shoot",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -132,11 +113,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\sounds\mcd__twin_bow\shoot" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\textures\item" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\sounds\mcd__iron_hide_amulet\use" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\run\resourcepacks\LordMystery'sCustomPack_1.0" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\run\resourcepacks" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\FINAL RELEASES" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\FINAL RELEASES" />
@@ -443,7 +424,47 @@
       <option name="project" value="LOCAL" />
       <updated>1731509371324</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="v1.4.2 - Iron Skin több sound effect">
+      <option name="closed" value="true" />
+      <created>1731591711974</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1731591711974</updated>
+    </task>
+    <task id="LOCAL-00034" summary="v1.4.2 - McdItem-ek mostantól könnyebben megkülönböztethetőek a világoskék itembar színük miatt">
+      <option name="closed" value="true" />
+      <created>1731591800390</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1731591800390</updated>
+    </task>
+    <task id="LOCAL-00035" summary="v1.4.2 - TwinBowItem tooltip fordítások">
+      <option name="closed" value="true" />
+      <created>1731591833319</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1731591833319</updated>
+    </task>
+    <task id="LOCAL-00036" summary="v1.4.2 - TwinBowItem teljesen kidolgozott behaviour + beépített Bonus Shot enchantment">
+      <option name="closed" value="true" />
+      <created>1731591892620</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1731591892620</updated>
+    </task>
+    <task id="LOCAL-00037" summary="v1.4.2 - &quot;mcd__twin_bow&quot; és &quot;mcd__auto_crossbow&quot; mostmár Rarity.EPIC rarity kategóriába tartozik">
+      <option name="closed" value="true" />
+      <created>1731592055209</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1731592055209</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,11 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v1.4.0 - &quot;Nugget of Experience&quot; és &quot;Block of Experience&quot;" />
-    <MESSAGE value="v1.4.0 - Ancient Pedestal titkos behaviour &gt;:)" />
-    <MESSAGE value="v1.4.0 - small bugfix" />
-    <MESSAGE value="v1.4.0 - SnowyShortGrassBlock bugfix" />
-    <MESSAGE value="v1.4.0 - .jar file" />
     <MESSAGE value="v1.4.1 - helytelen gamerule elnevezés fix" />
     <MESSAGE value="v1.4.1 - fishing rod nem működik bugfix" />
     <MESSAGE value="v1.4.1 - WrittenBookItem enchantment glint bugfix" />
@@ -483,6 +499,11 @@
     <MESSAGE value="v1.4.2 - &quot;skyblock__firwood_mace&quot; sebzés nerf (10ről 9re)" />
     <MESSAGE value="v1.4.2 - &quot;mcd__twin_bow&quot; új textúra" />
     <MESSAGE value="v1.4.2 - Frissített EnchantmentAPI" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.4.2 - Frissített EnchantmentAPI" />
+    <MESSAGE value="v1.4.2 - Iron Skin több sound effect" />
+    <MESSAGE value="v1.4.2 - McdItem-ek mostantól könnyebben megkülönböztethetőek a világoskék itembar színük miatt" />
+    <MESSAGE value="v1.4.2 - TwinBowItem tooltip fordítások" />
+    <MESSAGE value="v1.4.2 - TwinBowItem teljesen kidolgozott behaviour + beépített Bonus Shot enchantment" />
+    <MESSAGE value="v1.4.2 - &quot;mcd__twin_bow&quot; és &quot;mcd__auto_crossbow&quot; mostmár Rarity.EPIC rarity kategóriába tartozik" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.4.2 - &quot;mcd__twin_bow&quot; és &quot;mcd__auto_crossbow&quot; mostmár Rarity.EPIC rarity kategóriába tartozik" />
   </component>
 </project>

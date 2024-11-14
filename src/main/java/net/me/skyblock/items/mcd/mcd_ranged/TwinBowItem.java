@@ -1,6 +1,7 @@
 package net.me.skyblock.items.mcd.mcd_ranged;
 
 import net.me.skyblock.items.mcd.McdItem;
+import net.me.skyblock.registries.SkyBlockRegistries;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -58,7 +59,7 @@ public class TwinBowItem extends BowItem {
                             }
                         }
                     }
-                    world.playSound(null, playerEntity.getX(), playerEntity.getY(), playerEntity.getZ(), SoundEvents.ENTITY_ARROW_SHOOT, SoundCategory.PLAYERS, 1.0F, 1.0F / (world.getRandom().nextFloat() * 0.4F + 1.2F) + f * 0.5F);
+                    world.playSound(null, playerEntity.getX(), playerEntity.getY(), playerEntity.getZ(), SkyBlockRegistries.SoundRegistries.MCD__TWIN_BOW_SHOOT, SoundCategory.PLAYERS, 1.0F, 1.0F / (world.getRandom().nextFloat() * 0.4F + 1.2F) + f * 0.5F);
                     playerEntity.incrementStat(Stats.USED.getOrCreateStat(this));
                 }
             }

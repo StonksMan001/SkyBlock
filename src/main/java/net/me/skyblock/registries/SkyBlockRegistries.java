@@ -34,11 +34,12 @@ import net.me.skyblock.blocks.skyblock.crops.PuffballMushroomBlock;
 import net.me.skyblock.blocks.skyblock.vegetations.unknown.UnknownDirt;
 import net.me.skyblock.blocks.skyblock.vegetations.unknown.UnknownDirtNylium;
 import net.me.skyblock.blocks.util.ModStairsBlock;
+import net.me.skyblock.component.McdRarity;
 import net.me.skyblock.items.abyss.Loran;
 import net.me.skyblock.items.create.NuggetOfExperienceItem;
 import net.me.skyblock.items.end.EnchantedEnderiteAppleItem;
 import net.me.skyblock.items.mcd.RapierItem;
-import net.me.skyblock.items.mcd.mcd_artifact.IronSkinItem_Common;
+import net.me.skyblock.items.mcd.mcd_artifact.IronSkinItem;
 import net.me.skyblock.items.mcd.mcd_ranged.AutoCrossbowItem;
 import net.me.skyblock.items.mcd.mcd_ranged.ShortBowItem;
 import net.me.skyblock.items.mcd.mcd_ranged.TwinBowItem;
@@ -419,7 +420,7 @@ public class SkyBlockRegistries {
         public static final Item MCD__AUTO_CROSSBOW = SkyBlock.BuiltinRegistries.registerItem("mcd__auto_crossbow",
                 new AutoCrossbowItem(new Item.Settings().maxDamage(465).rarity(Rarity.EPIC)));
         public static final Item MCD__ARTIFACT_IRON_HIDE_AMULET= SkyBlock.BuiltinRegistries.registerItem("mcd__artifact_iron_hide_amulet",
-                new IronSkinItem_Common(new Item.Settings().maxCount(1).maxDamage(10)));
+                new IronSkinItem(new Item.Settings().maxCount(1).maxDamage(10)));
         public static final Item SKYBLOCK__LIGHTNING_SWORD = SkyBlock.BuiltinRegistries.registerItem("skyblock__lightning_sword",
                 new ToolAPI.SwordItem(ToolMaterialRegistries.BENIKARD, 3, 3.5f -4f, new Item.Settings()));
         public static final Item MCD__DIAMOND_RAPIER = SkyBlock.BuiltinRegistries.registerItem("mcd__diamond_rapier",
@@ -864,7 +865,12 @@ public class SkyBlockRegistries {
                     entries.add(BlockRegistries.MCD__POP_FLOWER);
                     entries.add(BlockRegistries.MCD__MOSSIER_OAK_PLANKS);
                     entries.add(BlockRegistries.MCD__MOSSIER_SPRUCE_PLANKS);
-                    entries.add(ItemRegistries.MCD__ARTIFACT_IRON_HIDE_AMULET);
+                    ItemStack commonAmulet = new ItemStack(ItemRegistries.MCD__ARTIFACT_IRON_HIDE_AMULET);
+                    commonAmulet.set(DataComponentTypeRegistries.MCD__RARITY, McdRarity.COMMON);
+                    entries.add(commonAmulet);
+                    ItemStack rareAmulet = new ItemStack(ItemRegistries.MCD__ARTIFACT_IRON_HIDE_AMULET);
+                    rareAmulet.set(DataComponentTypeRegistries.MCD__RARITY, McdRarity.RARE);
+                    entries.add(rareAmulet);
                 }).build());
         public static ItemGroup UNUSED = SkyBlock.BuiltinRegistries.registerItemGroup("unused",
                 FabricItemGroup.builder().displayName(Text.literal("SkyBlock: Unused (Qbaesz13)")).icon(() -> new ItemStack(GhostItemRegistries.Z__LOGO5)).entries((displayContext, entries) -> {
@@ -1254,6 +1260,9 @@ public class SkyBlockRegistries {
         });
         public static final ComponentType<Boolean> MCD__IRON_HIDE_AMULET_PERSONAL_TOGGLE = SkyBlock.BuiltinRegistries.registerComponentType("mcd__iron_hide_amulet_personal_toggle", booleanBuilder -> {
             return booleanBuilder.codec(Codec.BOOL);
+        });
+        public static final ComponentType<McdRarity> MCD__RARITY = SkyBlock.BuiltinRegistries.registerComponentType("mcd__rarity", (mcdRarityBuilder) -> {
+            return mcdRarityBuilder.codec(McdRarity.CODEC);
         });
 
         public static void register() {

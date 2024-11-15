@@ -7,7 +7,10 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.2 - Még kifonomultabb TwinBowItem működés">
+    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.2 - mégtöbb namespace változtatás">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/component/McdRarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/data/fabricDefaultResourcePacks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/data/fabricDefaultResourcePacks.dat" afterDir="false" />
@@ -18,15 +21,14 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/ops.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/ops.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/server.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/SkyblockHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/SkyblockHelpers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/IronSkinItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/IronSkinItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/IronSkinItem_Common.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/IronSkinItem_Rare_Custom.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/AutoCrossbowItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/AutoCrossbowItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockRegistries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockRegistries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +113,11 @@
     "Gradle.Download Sources.executor": "Run",
     "Gradle.SkyBlockMod_Main(1.21.1) [runClient].executor": "Run",
     "Gradle.SkyBlockMod_Main(1.21.1) [runServer].executor": "Run",
+    "JavaClassFindUsagesOptions.isDerivedClasses": "true",
+    "JavaClassFindUsagesOptions.isFieldsUsages": "true",
+    "JavaClassFindUsagesOptions.isMethodsUsages": "true",
+    "JavaVariableFindUsagesOptions.isSearchForAccessors": "true",
+    "JavaVariableFindUsagesOptions.isSearchForTextOccurrences": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "#4 on master",
     "kotlin-language-version-configured": "true",
@@ -140,7 +147,7 @@
       <recent name="net.me.skyblock.registries" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SkyBlockMod_Main(1.21.1) [runServer]">
+  <component name="RunManager" selected="Gradle.SkyBlockMod_Main(1.21.1) [runClient]">
     <configuration name="SkyBlockMod_Main(1.21.1) [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -187,8 +194,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SkyBlockMod_Main(1.21.1) [runServer]" />
         <item itemvalue="Gradle.SkyBlockMod_Main(1.21.1) [runClient]" />
+        <item itemvalue="Gradle.SkyBlockMod_Main(1.21.1) [runServer]" />
       </list>
     </recent_temporary>
   </component>
@@ -521,7 +528,71 @@
       <option name="project" value="LOCAL" />
       <updated>1731615840877</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="v1.4.2 - bugfix: Bonus Shot enchantment megpróbál spectator playerekre lőni">
+      <option name="closed" value="true" />
+      <created>1731618318493</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1731618318493</updated>
+    </task>
+    <task id="LOCAL-00042" summary="v1.4.2 - IronSkinItem-nek mostmár van egy egyedi Toggle finkciója (akárcsak a TwinBowItem-nek) amivel lehet állítani hogy más játékosokra is kifejtse hatását">
+      <option name="closed" value="true" />
+      <created>1731618406743</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1731618406743</updated>
+    </task>
+    <task id="LOCAL-00043" summary="v1.4.2 - bugfix: ItemStack enkódolási problémák helytelen PersistentProjectileEntity cast miatt">
+      <option name="closed" value="true" />
+      <created>1731675365943</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1731675365943</updated>
+    </task>
+    <task id="LOCAL-00044" summary="v1.4.2 - namespace updatek">
+      <option name="closed" value="true" />
+      <created>1731675389564</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1731675389564</updated>
+    </task>
+    <task id="LOCAL-00045" summary="v1.4.2 - külön interface helper methodoknak">
+      <option name="closed" value="true" />
+      <created>1731675421327</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1731675421327</updated>
+    </task>
+    <task id="LOCAL-00046" summary="v1.4.2 - bugfix: AutoCrossbowItem hibás renderelés fps és tps-ben">
+      <option name="closed" value="true" />
+      <created>1731675466728</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1731675466728</updated>
+    </task>
+    <task id="LOCAL-00047" summary="v1.4.2 - mixin .json update">
+      <option name="closed" value="true" />
+      <created>1731675479828</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1731675479828</updated>
+    </task>
+    <task id="LOCAL-00048" summary="v1.4.2 - mégtöbb namespace változtatás">
+      <option name="closed" value="true" />
+      <created>1731675551395</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1731675551395</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,14 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v1.4.1 - pár kicsi változtatás" />
-    <MESSAGE value="v1.4.1 - Registry class-ok átrendezve, így talán átláthatóbb lesz" />
-    <MESSAGE value="v1.4.1 - workspace fileok átrendezés" />
-    <MESSAGE value="v1.4.1 - .gitignore update" />
-    <MESSAGE value="v1.4.1 - IronSkinItem tooltip decription mostmár könnyebben megkülönböztethető az item nevétől, mert világosszürke színű nem pedig ugyanolyan fehér mint maga az item neve" />
-    <MESSAGE value="v1.4.1 - Spore Planter Box blokkok és új gomba fajták" />
-    <MESSAGE value="v1.4.1 - Torch of Lunacy trófea item" />
-    <MESSAGE value="v1.4.1 - MapColor értékek a BlockRegistry-knek" />
     <MESSAGE value="v1.4.1 - .jar file" />
     <MESSAGE value="v1.4.1 - en_us.json lang fájl fixek" />
     <MESSAGE value="v1.4.1 - TrophyItemek mostantól csak PARENT_TAB-ban látszanak" />
@@ -561,6 +624,14 @@
     <MESSAGE value="v1.4.2 - &quot;mcd__twin_bow&quot; egyedi &quot;shoot&quot; sund effectek az MCD-ből" />
     <MESSAGE value="v1.4.2 - Mixin a TwinBow foveffect-jéhez" />
     <MESSAGE value="v1.4.2 - Még kifonomultabb TwinBowItem működés" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.4.2 - Még kifonomultabb TwinBowItem működés" />
+    <MESSAGE value="v1.4.2 - bugfix: Bonus Shot enchantment megpróbál spectator playerekre lőni" />
+    <MESSAGE value="v1.4.2 - IronSkinItem-nek mostmár van egy egyedi Toggle finkciója (akárcsak a TwinBowItem-nek) amivel lehet állítani hogy más játékosokra is kifejtse hatását" />
+    <MESSAGE value="v1.4.2 - bugfix: ItemStack enkódolási problémák helytelen PersistentProjectileEntity cast miatt" />
+    <MESSAGE value="v1.4.2 - namespace updatek" />
+    <MESSAGE value="v1.4.2 - külön interface helper methodoknak" />
+    <MESSAGE value="v1.4.2 - bugfix: AutoCrossbowItem hibás renderelés fps és tps-ben" />
+    <MESSAGE value="v1.4.2 - mixin .json update" />
+    <MESSAGE value="v1.4.2 - mégtöbb namespace változtatás" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.4.2 - mégtöbb namespace változtatás" />
   </component>
 </project>

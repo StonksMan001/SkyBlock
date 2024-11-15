@@ -6,6 +6,7 @@ import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.text.Style;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
+import net.minecraft.util.UseAction;
 
 import java.util.List;
 

@@ -1,16 +1,13 @@
 package net.me.skyblock.items.mcd;
 
-import net.me.skyblock.items.util.SkyblockEnchantmentHelper;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.api.skycore.SkyblockHelpers;
 import net.minecraft.entity.Entity;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.registry.BuiltinRegistries;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.world.World;
 import org.betterx.wover.common.item.api.ItemWithCustomStack;
 
-public class McdArtifactItem extends McdItem implements ItemWithCustomStack, SkyblockEnchantmentHelper {
+public class McdArtifactItem extends McdItem implements ItemWithCustomStack, SkyblockHelpers {
     public McdArtifactItem(Settings settings) {
         super(settings);
     }

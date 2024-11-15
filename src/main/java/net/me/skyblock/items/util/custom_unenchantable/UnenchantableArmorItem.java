@@ -1,19 +1,16 @@
 package net.me.skyblock.items.util.custom_unenchantable;
 
 import net.me.skyblock.api.skycore.ArmorAPI;
-import net.me.skyblock.items.util.SkyblockEnchantmentHelper;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.api.skycore.SkyblockHelpers;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
-import net.minecraft.registry.BuiltinRegistries;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.world.World;
 import org.betterx.wover.common.item.api.ItemWithCustomStack;
 
-public class UnenchantableArmorItem extends ArmorAPI.ArmorItem implements ItemWithCustomStack, SkyblockEnchantmentHelper {
+public class UnenchantableArmorItem extends ArmorAPI.ArmorItem implements ItemWithCustomStack, SkyblockHelpers {
 
     public UnenchantableArmorItem(RegistryEntry<ArmorMaterial> material, Type type, Settings settings, int durrabilityMultiplier) {
         super(material, type, settings, durrabilityMultiplier);

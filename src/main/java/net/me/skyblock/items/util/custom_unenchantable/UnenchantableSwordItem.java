@@ -1,17 +1,15 @@
 package net.me.skyblock.items.util.custom_unenchantable;
 
 import net.me.skyblock.api.skycore.ToolAPI;
-import net.me.skyblock.items.util.SkyblockEnchantmentHelper;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.api.skycore.SkyblockHelpers;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ToolMaterial;
-import net.minecraft.registry.BuiltinRegistries;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.world.World;
 import org.betterx.wover.common.item.api.ItemWithCustomStack;
 
-public class UnenchantableSwordItem extends ToolAPI.SwordItem implements ItemWithCustomStack, SkyblockEnchantmentHelper {
+public class UnenchantableSwordItem extends ToolAPI.SwordItem implements ItemWithCustomStack, SkyblockHelpers {
     public UnenchantableSwordItem(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
         super(toolMaterial, attackDamage, attackSpeed, settings);
     }

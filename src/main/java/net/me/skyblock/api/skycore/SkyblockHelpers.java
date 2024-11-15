@@ -1,14 +1,20 @@
 package net.me.skyblock.api.skycore;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
+import net.me.skyblock.component.McdRarity;
 import net.me.skyblock.registries.SkyBlockRegistries;
 import net.minecraft.item.BowItem;
 import net.minecraft.item.CrossbowItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.text.Text;
+
+import java.util.List;
 
 public interface SkyblockHelpers {
+
+
     default void enchantStackWithPrimitiveness(ItemStack stack, RegistryWrapper.WrapperLookup provider) {
         SkyBlockRegistries.EnchantmentRegistries.Helper.addEnchantmentToStack(stack, provider, SkyBlockRegistries.EnchantmentRegistries.PRIMITIVENESS_CURSE, 1);
     }
@@ -20,5 +26,15 @@ public interface SkyblockHelpers {
             return original.call(instance, item) || instance.getItem() instanceof CrossbowItem;
         }
         return original.call(instance, item);
+    }
+    static void appendMcdRarity(ItemStack stack, List<Text> tooltip) {
+        McdRarity mcdRarity = stack.get(SkyBlockRegistries.DataComponentTypeRegistries.MCD__RARITY);
+        if (mcdRarity != null) {
+            switch (mcdRarity) {
+                case McdRarity.COMMON -> tooltip.add(Text.translatable("tooltip.skyblock.rarity.common"));
+                case McdRarity.RARE -> tooltip.add(Text.translatable("tooltip.skyblock.rarity.rare"));
+                case McdRarity.UNIQUE -> tooltip.add(Text.translatable("tooltip.skyblock.rarity.unique"));
+            }
+        }
     }
 }

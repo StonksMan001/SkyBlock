@@ -3,16 +3,26 @@ package net.me.skyblock.items.mcd.mcd_ranged;
 import net.me.skyblock.items.mcd.McdItem;
 import net.me.skyblock.registries.SkyBlock;
 import net.me.skyblock.registries.SkyBlockRegistries;
+import net.minecraft.component.DataComponentTypes;
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.entity.mob.Monster;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
+import net.minecraft.entity.projectile.ProjectileEntity;
 import net.minecraft.inventory.StackReference;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.registry.tag.EnchantmentTags;
 import net.minecraft.screen.slot.Slot;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
@@ -58,6 +68,11 @@ public class TwinBowItem extends BowItem {
                     if (world instanceof ServerWorld) {
                         ServerWorld serverWorld = ((ServerWorld) world).toServerWorld();
                         if (!list.isEmpty()) {
+                            boolean bowHasInfinity = false;
+                            RegistryEntry<Enchantment> registryEntry = world.getRegistryManager().get(RegistryKeys.ENCHANTMENT).getEntry(Enchantments.INFINITY).orElseThrow();
+                            if (EnchantmentHelper.getLevel(registryEntry, stack) > 0) {
+                                bowHasInfinity = true;
+                            }
                             boolean critical = f == 1.0F;
                             float speed = f * 3.0F;
                             float divergence = 1.0F;
@@ -85,23 +100,22 @@ public class TwinBowItem extends BowItem {
                                 bonus_shot = true;
                                 LivingEntity closestHostile = targetEntities.getFirst();
                                 // bonus projectile
-                                PersistentProjectileEntity persistentProjectileEntity1 = (PersistentProjectileEntity) this.createArrowEntity(serverWorld, playerEntity, stack, itemStack, critical);
+                                PersistentProjectileEntity persistentProjectileEntity1 = this.createArrowEntity(serverWorld, playerEntity, stack, itemStack, critical);
                                 this.shoot(playerEntity, persistentProjectileEntity1, index, speed, divergence, playerEntity.getYaw(), null);
                                 persistentProjectileEntity1.pickupType = PersistentProjectileEntity.PickupPermission.DISALLOWED;
                                 persistentProjectileEntity1.setVelocity(closestHostile.getX() - playerEntity.getX(), closestHostile.getEyeY() - playerEntity.getEyeY(), closestHostile.getZ() - playerEntity.getZ(), 1.5F, 0);
                                 world.spawnEntity(persistentProjectileEntity1);
                             }
                             // main projectile
-                            PersistentProjectileEntity persistentProjectileEntity0 = (PersistentProjectileEntity) this.createArrowEntity(serverWorld, playerEntity, stack, itemStack, critical);
+                            PersistentProjectileEntity persistentProjectileEntity0 = this.createArrowEntity(serverWorld, playerEntity, stack, itemStack, critical);
                             this.shoot(playerEntity, persistentProjectileEntity0, index, speed, divergence, 0.0f, null);
-                            if (bonus_shot) {
+                            if (bonus_shot || (bowHasInfinity && persistentProjectileEntity0 instanceof ArrowEntity)) {
                                 persistentProjectileEntity0.pickupType = PersistentProjectileEntity.PickupPermission.DISALLOWED;
                             } else if (playerEntity.isCreative()) {
                                 persistentProjectileEntity0.pickupType = PersistentProjectileEntity.PickupPermission.CREATIVE_ONLY;
                             } else {
                                 persistentProjectileEntity0.pickupType = PersistentProjectileEntity.PickupPermission.ALLOWED;
                             }
-
                             world.spawnEntity(persistentProjectileEntity0);
                             stack.damage(this.getWeaponStackDamage(itemStack), playerEntity, LivingEntity.getSlotForHand(playerEntity.getActiveHand()));
                         }
@@ -111,6 +125,21 @@ public class TwinBowItem extends BowItem {
                 }
             }
         }
+    }
+    protected PersistentProjectileEntity createArrowEntity(World world, LivingEntity shooter, ItemStack weaponStack, ItemStack projectileStack, boolean critical) {
+        Item var8 = projectileStack.getItem();
+        ArrowItem var10000;
+        if (var8 instanceof ArrowItem arrowItem) {
+            var10000 = arrowItem;
+        } else {
+            var10000 = (ArrowItem)Items.ARROW;
+        }
+        ArrowItem arrowItem2 = var10000;
+        PersistentProjectileEntity persistentProjectileEntity = arrowItem2.createArrow(world, projectileStack, shooter, weaponStack);
+        if (critical) {
+            persistentProjectileEntity.setCritical(true);
+        }
+        return persistentProjectileEntity;
     }
 
     @Override

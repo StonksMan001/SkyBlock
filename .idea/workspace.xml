@@ -7,13 +7,11 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.2 - mégtöbb namespace változtatás">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/component/McdRarity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
+    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.2 - IronSkinItem McdRarity API használatával mostmár lehet McdRarity.RARE vagy McdRarity.COMMON (és az eredeti értékeken is buffoltam egy kicsit)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/CrossBowItemMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/CrossbowItemAccessors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/data/fabricDefaultResourcePacks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/data/fabricDefaultResourcePacks.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -21,14 +19,9 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/server.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/SkyblockHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/SkyblockHelpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/IronSkinItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/IronSkinItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/IronSkinItem_Common.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/IronSkinItem_Rare_Custom.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/AutoCrossbowItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/AutoCrossbowItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockRegistries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockRegistries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,14 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726925280281</updated>
-    </task>
-    <task id="LOCAL-00001" summary="v1.4.0 - 1.21.1 update, kritikus átrendezések">
-      <option name="closed" value="true" />
-      <created>1728074811223</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1728074811223</updated>
     </task>
     <task id="LOCAL-00002" summary="v1.4.0 - GeckiLib dependency eltávolítva">
       <option name="closed" value="true" />
@@ -592,7 +577,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731675551395</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="v1.4.2 - McdRarity API">
+      <option name="closed" value="true" />
+      <created>1731678868400</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1731678868400</updated>
+    </task>
+    <task id="LOCAL-00050" summary="v1.4.2 - IronSkinItem McdRarity API használatával mostmár lehet McdRarity.RARE vagy McdRarity.COMMON (és az eredeti értékeken is buffoltam egy kicsit)">
+      <option name="closed" value="true" />
+      <created>1731678959732</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1731678959733</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,8 +608,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v1.4.1 - .jar file" />
-    <MESSAGE value="v1.4.1 - en_us.json lang fájl fixek" />
     <MESSAGE value="v1.4.1 - TrophyItemek mostantól csak PARENT_TAB-ban látszanak" />
     <MESSAGE value="v1.4.2 - modverzió 1.4.2" />
     <MESSAGE value="v1.4.2 - SkyBlockRegistries.ItemRegistries.SKYBLOCK__FIRWOOD_MACE attack speed-je (eddig 0.75f) mostantól megegyezik az Items.MACE (vanilla mace) attack speed-jével (0.6f)" />
@@ -632,6 +631,8 @@
     <MESSAGE value="v1.4.2 - bugfix: AutoCrossbowItem hibás renderelés fps és tps-ben" />
     <MESSAGE value="v1.4.2 - mixin .json update" />
     <MESSAGE value="v1.4.2 - mégtöbb namespace változtatás" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.4.2 - mégtöbb namespace változtatás" />
+    <MESSAGE value="v1.4.2 - McdRarity API" />
+    <MESSAGE value="v1.4.2 - IronSkinItem McdRarity API használatával mostmár lehet McdRarity.RARE vagy McdRarity.COMMON (és az eredeti értékeken is buffoltam egy kicsit)" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.4.2 - IronSkinItem McdRarity API használatával mostmár lehet McdRarity.RARE vagy McdRarity.COMMON (és az eredeti értékeken is buffoltam egy kicsit)" />
   </component>
 </project>

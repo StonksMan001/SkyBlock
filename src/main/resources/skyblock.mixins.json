@@ -7,6 +7,8 @@
     "ArrowEntityMixin",
     "BookEditScreenMixin",
     "ChorusPlantBlockMixin",
+    "CrossbowItemAccessors",
+    "CrossBowItemMixin",
     "ExplosionMixin",
     "FarmlandBlockMixin",
     "HoneyBlockMixin",

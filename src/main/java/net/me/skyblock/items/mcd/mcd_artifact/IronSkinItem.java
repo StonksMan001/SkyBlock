@@ -68,7 +68,7 @@ public class IronSkinItem extends McdArtifactItem {
         if (!world.isClient && duration != 0) {
             if (Boolean.TRUE.equals(stack.get(SkyBlockRegistries.DataComponentTypeRegistries.MCD__IRON_HIDE_AMULET_PERSONAL_TOGGLE))) {
                 user.getItemCooldownManager().set(this, 500);
-                user.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, duration, amplifier, false, false, true));
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, duration, amplifier, false, true, true));
                 world.playSoundFromEntity(null, user, SkyBlockRegistries.SoundRegistries.MCD__IRON_HIDE_AMULET_USE, SoundCategory.PLAYERS, 1.0F, 1.0F);
                 stack.damage(1, user, LivingEntity.getSlotForHand(hand));
             } else if (Boolean.FALSE.equals(stack.get(SkyBlockRegistries.DataComponentTypeRegistries.MCD__IRON_HIDE_AMULET_PERSONAL_TOGGLE))) {
@@ -87,7 +87,7 @@ public class IronSkinItem extends McdArtifactItem {
                             if (playerEntity.getScoreboardTeam() != user.getScoreboardTeam() ||
                                     (playerEntity.getScoreboardTeam() == null && user.getScoreboardTeam() == null)
                             ) {
-                            playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, duration, amplifier, false, false, true));
+                            playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, duration, amplifier, false, true, true));
                             }
                         }
                     }

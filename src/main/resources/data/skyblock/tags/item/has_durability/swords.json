@@ -1,0 +1,28 @@
+{
+  "values": [
+    "skyblock:enderite_sword",
+
+    "skyblock:sp5__enderite_sword",
+    "skyblock:sp5__end_wooden_sword",
+    "skyblock:sp5__end_stone_sword",
+    "skyblock:sp5__bluishe_sword",
+    "skyblock:h__anomalite_sword",
+    "skyblock:abyss__aberythe_sword",
+
+    "skyblock:skyblock__lightning_sword",
+    "skyblock:mcd__rough_diamond_sword",
+    "skyblock:mcd__steel_mace",
+    "skyblock:skyblock__firwood_mace",
+
+    "skyblock:mcd__diamond_rapier",
+    "skyblock:mcd__golden_rapier",
+    "skyblock:mcd__iron_rapier",
+    "skyblock:mcd__stone_rapier",
+    "skyblock:mcd__netherite_rapier",
+    "skyblock:mcd__wooden_rapier",
+    "skyblock:sp5__end_wooden_rapier",
+    "skyblock:sp5__end_stone_rapier",
+    "skyblock:sp5__bluishe_rapier",
+    "skyblock:sp5__enderite_rapier"
+  ]
+}

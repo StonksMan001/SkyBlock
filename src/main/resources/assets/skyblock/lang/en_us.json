@@ -269,6 +269,8 @@
   "item.skyblock.sp5__bluishe_rapier": "Bluishe Rapier",
   "item.skyblock.sp5__end_stone_rapier": "End Stone Rapier",
 
+  "item.skyblock.mcd__ancient_gold_ingot": "Ancient Gold Ingot",
+  "block.skyblock.mcd__ancient_gold_block": "Ancient Gold Block",
   "block.skyblock.mcd__pop_flower": "Pop Flower",
   "block.skyblock.mcd__midnight_moss_block": "Midnight Moss Block",
   "block.skyblock.mcd__midnight_moss_carpet": "Midnight Moss Carpet",
@@ -514,12 +516,26 @@
   "tooltip.skyblock.mcd__auto_crossbow.tooltip1": "The Arch-Illager said the design for this",
   "tooltip.skyblock.mcd__auto_crossbow.tooltip2": "powerful crossbow came to him in a vision.",
 
+  "item.skyblock.mcd__artifact_death_cap_mushroom": "Death Cap Mushroom",
+  "tooltip.skyblock.mcd__artifact_death_cap_mushroom.tooltip1": "Eaten by daring warriors before battle, the",
+  "tooltip.skyblock.mcd__artifact_death_cap_mushroom.tooltip2": "Death Cap Mushroom drives fighters into a frenzy.",
+
+  "item.skyblock.mcd__rough_diamond_sword": "Rough Diamond Sword",
+  "tooltip.skyblock.mcd__rough_diamond_sword.tooltip1": "The Rough Diamond Sword is the true mark",
+  "tooltip.skyblock.mcd__rough_diamond_sword.tooltip2": "of a hero and an accomplished adventurer.",
+
+  "item.skyblock.mcd__steel_mace": "Steel Mace",
+  "tooltip.skyblock.mcd__steel_mace.tooltip1": "The Steel Mace is a brutal tool of war and what",
+  "tooltip.skyblock.mcd__steel_mace.tooltip2": "it lacks in finesse; it makes up for in power.",
+
   "tooltip.skyblock.rarity.common": "Rarity: §r[§7ᴄᴏᴍᴍᴏɴ§r]",
   "tooltip.skyblock.rarity.rare": "Rarity: §r[§aʀᴀʀᴇ§r]",
   "tooltip.skyblock.rarity.unique": "Rarity: §r[§6ᴜɴɪǫᴜᴇ§r]",
   "tooltip.skyblock.rarity_info_extended.custom": "§r[§5ᴄᴜѕᴛᴏᴍ§r]",
   "tooltip.skyblock.rarity_info_extended.gilded": "§r[§eɢɪʟᴅᴇᴅ§r]",
   "tooltip.skyblock.rarity_info_extended.gifted": "§r[§aɢɪꜰᴛᴇᴅ§r]",
+
+  "tooltip.skyblock.special_resource": "A special resource",
 
   "enchantment.skyblock.primitiveness_curse": "Primitiveness Curse",
   "enchantment.skyblock.mcd__bonus_shot": "Bonus Shot",

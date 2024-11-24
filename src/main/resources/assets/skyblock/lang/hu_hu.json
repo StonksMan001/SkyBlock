@@ -269,6 +269,8 @@
   "item.skyblock.sp5__bluishe_rapier": "Bluishe vívótőr",
   "item.skyblock.sp5__end_stone_rapier": "Endkő vívótőr",
 
+  "item.skyblock.mcd__ancient_gold_ingot": "Ősi aranyrúd",
+  "block.skyblock.mcd__ancient_gold_block": "Ősi aranyblokk",
   "block.skyblock.mcd__pop_flower": "Popvirág",
   "block.skyblock.mcd__midnight_moss_block": "Éjféli mohablokk",
   "block.skyblock.mcd__midnight_moss_carpet": "Éjféli mohaszőnyeg",
@@ -514,12 +516,26 @@
   "tooltip.skyblock.mcd__auto_crossbow.tooltip1": "Az Arch-Illager elmondása szerint ennek az erőteljes számszeríjnak",
   "tooltip.skyblock.mcd__auto_crossbow.tooltip2": "az elképzelése egy látomáson keresztül jutott el hozzá.",
 
+  "item.skyblock.mcd__artifact_death_cap_mushroom": "Gyilkos galóca",
+  "tooltip.skyblock.mcd__artifact_death_cap_mushroom.tooltip1": "A vakmerő harcosok mindig a csata előtt fogyasztották, a",
+  "tooltip.skyblock.mcd__artifact_death_cap_mushroom.tooltip2": "Gyilkos galóca képes őrületbe kergetni azt aki elfogyasztja.",
+
+  "item.skyblock.mcd__rough_diamond_sword": "Csiszolatlan gyémántkard",
+  "tooltip.skyblock.mcd__rough_diamond_sword.tooltip1": "A Csiszolatlan gyémántkard egy igazi hős",
+  "tooltip.skyblock.mcd__rough_diamond_sword.tooltip2": "és egy elszánt kalandor méltó jelképe.",
+
+  "item.skyblock.mcd__steel_mace": "Acél buzogány",
+  "tooltip.skyblock.mcd__steel_mace.tooltip1": "Az Acél buzogány a háború egyik legbrutálisabb eszköze.",
+  "tooltip.skyblock.mcd__steel_mace.tooltip2": "Amivel alulmarad gyorsaságban, azt visszahozza ütőképességben.",
+
   "tooltip.skyblock.rarity.common": "Gyakoriság: §r[§7ɢʏᴀᴋᴏʀɪ§r]",
   "tooltip.skyblock.rarity.rare": "Gyakoriság: §r[§aʀɪᴛᴋᴀ§r]",
   "tooltip.skyblock.rarity.unique": "Gyakoriság: §r[§6ᴋüʟöɴʟᴇɢᴇѕ§r]",
   "tooltip.skyblock.rarity_info_extended.custom": "§r[§5ᴇɢʏᴇᴅɪ§r]",
   "tooltip.skyblock.rarity_info_extended.gilded": "§r[§eᴀʀᴀɴʏᴏᴢᴏᴛᴛ§r]",
   "tooltip.skyblock.rarity_info_extended.gifted": "§r[§aᴀᴊáɴᴅéᴋ§r]",
+
+  "tooltip.skyblock.special_resource": "Egy különleges nyersanyag",
 
   "enchantment.skyblock.primitiveness_curse": "Primitivitás átka",
   "enchantment.skyblock.mcd__bonus_shot": "Bónusz Lövés",

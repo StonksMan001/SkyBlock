@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyblock:block/skyblock__ancient_pedestal_top_experience_converting",
+    "side": "skyblock:block/skyblock__ancient_pedestal_with_ancient_gold2"
+  }
+}

@@ -1,6 +1,8 @@
 package net.me.skyblock.items.skyblock;
 
 import net.minecraft.block.Block;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.text.Style;
@@ -11,10 +13,10 @@ import java.util.List;
 
 public class Trophy {
 
-    public static class Item extends net.minecraft.item.Item {
+    public static class TrophyItem extends Item {
         public String[] information;
         public String[] backgroundInformation;
-        public Item(Settings settings, String[] information, String[] backgroundInformation) {
+        public TrophyItem(Settings settings, String[] information, String[] backgroundInformation) {
             super(settings.maxCount(1));
             this.information = information;
             this.backgroundInformation = backgroundInformation;
@@ -31,10 +33,10 @@ public class Trophy {
             super.appendTooltip(stack, context, tooltip, type);
         }
     }
-    public static class BlockItem extends net.minecraft.item.BlockItem {
+    public static class TrophyBlockItem extends BlockItem {
         public String[] information;
         public String[] backgroundInformation;
-        public BlockItem(Block block, Settings settings, String[] information, String[] backgroundInformation) {
+        public TrophyBlockItem(Block block, Settings settings, String[] information, String[] backgroundInformation) {
             super(block, settings.maxCount(1));
             this.information = information;
             this.backgroundInformation = backgroundInformation;

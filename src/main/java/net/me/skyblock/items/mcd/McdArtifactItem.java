@@ -9,7 +9,7 @@ import org.betterx.wover.common.item.api.ItemWithCustomStack;
 
 public class McdArtifactItem extends McdItem implements ItemWithCustomStack, SkyblockHelpers {
     public McdArtifactItem(Settings settings) {
-        super(settings);
+        super(settings.maxCount(1).maxDamage(10));
     }
 
     @Override

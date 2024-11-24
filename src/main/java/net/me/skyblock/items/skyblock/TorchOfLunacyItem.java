@@ -8,7 +8,7 @@ import net.minecraft.util.Formatting;
 
 import java.util.List;
 
-public class TorchOfLunacyItem extends Trophy.Item {
+public class TorchOfLunacyItem extends Trophy.TrophyItem {
     public TorchOfLunacyItem(Settings settings, String[] information, String[] backgroundInformation) {
         super(settings, information, backgroundInformation);
     }

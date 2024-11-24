@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:mcd__ancient_gold_block"
+    }
+  ],
+  "result": {
+    "id": "skyblock:mcd__ancient_gold_ingot",
+    "count": 9
+  }
+}

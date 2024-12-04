@@ -105,6 +105,7 @@ import org.betterx.wover.enchantment.api.EnchantmentUtils;
 import java.util.*;
 import java.util.function.Supplier;
 
+@Deprecated
 public class SkyBlockRegistries {
     public static class SoundRegistries {
         public static RegistryEntry.Reference<SoundEvent> WITHERSTORM_THEME = SkyBlock.BuiltinRegistries.registerSoundEventReference("wither_storm_theme");

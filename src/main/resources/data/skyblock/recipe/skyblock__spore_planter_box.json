@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "Y": {
+      "item": "minecraft:coarse_dirt"
+    }
+  },
+  "pattern": [
+    "#Y#",
+    "#Y#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyblock:skyblock__spore_planter_box"
+  }
+}

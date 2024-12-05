@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "skyblock:block/skyblock__small_lily_pads"
+      },
+      {
+        "model": "skyblock:block/skyblock__small_lily_pads",
+        "y": 90
+      },
+      {
+        "model": "skyblock:block/skyblock__small_lily_pads",
+        "y": 180
+      },
+      {
+        "model": "skyblock:block/skyblock__small_lily_pads",
+        "y": 270
+      }
+    ]
+  }
+}

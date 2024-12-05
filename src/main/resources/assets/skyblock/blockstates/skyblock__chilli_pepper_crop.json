@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "golden_crop=false,age=0": {
+      "model": "skyblock:block/skyblock__chilli_pepper_crop0"
+    },
+    "golden_crop=false,age=1": {
+      "model": "skyblock:block/skyblock__chilli_pepper_crop1"
+    },
+    "golden_crop=false,age=2": {
+      "model": "skyblock:block/skyblock__chilli_pepper_crop2"
+    },
+    "golden_crop=true": {
+      "model": "skyblock:block/skyblock__chilli_pepper_crop_golden"
+    }
+  }
+}

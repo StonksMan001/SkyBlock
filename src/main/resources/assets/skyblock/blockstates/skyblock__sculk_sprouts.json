@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "skyblock:block/skyblock__sculk_sprouts"
+      }
+    ]
+  }
+}

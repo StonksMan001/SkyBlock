@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/skyblock__polished_chert_slab"
+    },
+    "type=double": {
+      "model": "skyblock:block/skyblock__polished_chert"
+    },
+    "type=top": {
+      "model": "skyblock:block/skyblock__polished_chert_slab_top"
+    }
+  }
+}

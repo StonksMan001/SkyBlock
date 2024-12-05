@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "skyblock:block/skyblock__clover_mid" },
+      { "model": "skyblock:block/skyblock__clover_mid","y": 90 },
+      { "model": "skyblock:block/skyblock__clover_short" },
+      { "model": "skyblock:block/skyblock__clover_short","y": 90 }
+    ]
+  }
+}

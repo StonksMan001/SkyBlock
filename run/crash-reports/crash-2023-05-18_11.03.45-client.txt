@@ -17,7 +17,7 @@ java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to err
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
 Caused by: java.lang.ExceptionInInitializerError
-	at net.me.skyblock.SkyBlock.onInitialize(SkyBlock.java:20)
+	at net.me.skyblock.registries.SkyBlock.onInitialize(SkyBlock.java:20)
 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
 	... 8 more
 Caused by: java.lang.RuntimeException: Attempted to register object glass_bottle twice! (at raw IDs 954 and 1970 )
@@ -27,8 +27,8 @@ Caused by: java.lang.RuntimeException: Attempted to register object glass_bottle
 	at net.minecraft.registry.SimpleRegistry.add(SimpleRegistry.java:181)
 	at net.minecraft.registry.Registry.register(Registry.java:317)
 	at net.minecraft.registry.Registry.register(Registry.java:308)
-	at net.me.skyblock.blocks_and_items.ModItems.registerItem(ModItems.java:63)
-	at net.me.skyblock.blocks_and_items.ModItems.<clinit>(ModItems.java:56)
+	at net.me.skyblock.registries.SkyBlockRegistries.ItemRegistries.registerItem(ModItems.java:63)
+	at net.me.skyblock.registries.SkyBlockRegistries.ItemRegistries.<clinit>(ModItems.java:56)
 	... 10 more
 
 

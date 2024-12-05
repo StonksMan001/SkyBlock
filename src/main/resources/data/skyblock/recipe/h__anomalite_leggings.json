@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "X": {
+      "item": "skyblock:h__anomalite_fragment"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X#X",
+    "X X"
+  ],
+  "result": {
+    "id": "skyblock:h__anomalite_leggings"
+  },
+  "show_notification": true
+}

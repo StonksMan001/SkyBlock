@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "type=default": { "model": "skyblock:block/skyblock__spore_planter_box" },
+    "type=ashen": { "model": "skyblock:block/skyblock__ashen_spore_planter_box" }
+  }
+}

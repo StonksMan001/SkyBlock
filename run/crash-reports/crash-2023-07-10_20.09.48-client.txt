@@ -17,7 +17,7 @@ java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to e
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
 	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.client.render.RenderLayer
-		at net.me.skyblock.SkyBlockClient.onInitializeClient(SkyBlockClient.java:20)
+		at net.me.skyblock.registries.SkyBlockClient.onInitializeClient(SkyBlockClient.java:20)
 		at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
 		... 8 more
 	Suppressed: java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.client.render.RenderLayer

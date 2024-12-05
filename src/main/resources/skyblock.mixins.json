@@ -2,22 +2,36 @@
   "required": true,
   "minVersion": "0.8",
   "package": "net.me.skyblock.api.mixin",
-  "compatibilityLevel": "JAVA_17",
+  "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "ArrowEntityMixin",
+    "BookEditScreenMixin",
     "ChorusPlantBlockMixin",
+    "CrossbowItemAccessors",
+    "CrossBowItemMixin",
+    "ExplosionMixin",
+    "FarmlandBlockMixin",
+    "GrindStoneScreenHandlerMixin",
+    "HoneyBlockMixin",
     "ItemGroupIconSupplierAccessor",
     "ItemGroupsMixin",
-    "WrittenBookItemMixin",
-    "BookEditScreenMixin",
-    "HoneyBlockMixin"
+    "LivingEntityMixin",
+    "PaneBlockMixin",
+    "PlayerEntityRendererMixin",
+    "SculkVeinGrowCheckerMixin",
+    "StainedGlassBlockMixin",
+    "TransparentBlockMixin",
+    "WrittenBookItemMixin"
   ],
   "client": [
+    "AbstractClientPlayerEntityMixin",
+    "BookEditScreenMixin",
     "ChorusPlantBlockMixin",
+    "HeldItemRendererMixin",
+    "HoneyBlockMixin",
     "ItemGroupIconSupplierAccessor",
     "ItemGroupsMixin",
-    "WrittenBookItemMixin",
-    "BookEditScreenMixin",
-    "HoneyBlockMixin"
+    "WrittenBookItemMixin"
   ],
   "injectors": {
     "defaultRequire": 1

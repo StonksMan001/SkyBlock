@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "skyblock:sp5__end_stone_pillar"
+    }
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "skyblock:sp5__chiseled_end_stone_cubic"
+  },
+  "show_notification": false
+}

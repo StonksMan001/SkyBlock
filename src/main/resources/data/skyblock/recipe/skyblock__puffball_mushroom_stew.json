@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "skyblock:skyblock__puffball_mushroom_flesh"
+    },
+    {
+      "item": "skyblock:skyblock__puffball_mushroom_flesh"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyblock:skyblock__puffball_mushroom_stew"
+  }
+}

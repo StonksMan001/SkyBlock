@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:bluishe_light_hyphae"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyblock:sp5__bluishe_light_hyphae"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "skyblock:skyblock__puffball_mushroom_flesh",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "skyblock:skyblock__puffball_mushroom",
+              "properties": {
+                "age": "1"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skyblock:skyblock__puffball_mushroom_flesh",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "skyblock:skyblock__puffball_mushroom",
+              "properties": {
+                "age": "2"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skyblock:skyblock__puffball_mushroom_flesh",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "skyblock:skyblock__puffball_mushroom",
+              "properties": {
+                "age": "3"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skyblock:skyblock__puffball_mushroom_flesh",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "skyblock:skyblock__puffball_mushroom",
+              "properties": {
+                "age": "4"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skyblock:skyblock__puffball_mushroom_flesh",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "skyblock:skyblock__puffball_mushroom",
+              "properties": {
+                "age": "5"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "skyblock:skyblock__puffball_mushroom_flesh",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "skyblock:skyblock__puffball_mushroom",
+              "properties": {
+                "age": "6"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

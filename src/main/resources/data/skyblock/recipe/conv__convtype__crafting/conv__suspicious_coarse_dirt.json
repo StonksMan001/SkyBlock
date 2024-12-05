@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:suspicious_coarse_dirt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyblock:skyblock__suspicious_coarse_dirt"
+  }
+}

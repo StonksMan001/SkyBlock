@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "skyblock:skyblock__puffball_mushroom_flesh"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "id": "skyblock:skyblock__puffball_mushroom_block"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "skyblock:block/mcd__pop_flower_5"
+  }
+}

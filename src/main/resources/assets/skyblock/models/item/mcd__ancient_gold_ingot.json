@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "skyblock:item/mcd__ancient_gold_ingot"
+  }
+}

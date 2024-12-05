@@ -1,13 +1,13 @@
 package net.me.skyblock.items.mcd.mcd_meele;
 
-import net.me.skyblock.api.skycore.GrindStoneExperienceNotDropping;
 import net.me.skyblock.api.skycore.SkyblockHelpers;
 import net.me.skyblock.api.skycore.ToolAPI;
 import net.me.skyblock.items.mcd.McdItem;
-import net.me.skyblock.registries.SkyBlock;
-import net.me.skyblock.registries.SkyBlockRegistries;
 import net.minecraft.enchantment.Enchantments;
+import net.minecraft.entity.Attackable;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.ItemEntity;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.item.tooltip.TooltipType;
@@ -20,22 +20,23 @@ import org.betterx.wover.common.item.api.ItemWithCustomStack;
 
 import java.util.List;
 
-public class RoughDiamondSword extends ToolAPI.SwordItem implements ItemWithCustomStack, GrindStoneExperienceNotDropping {
-    public RoughDiamondSword(ToolMaterial toolMaterial, float baseAttackDamage, float attackSpeed, Settings settings) {
+public class RoughDiamondPickaxe extends ToolAPI.PickaxeItem implements ItemWithCustomStack {
+    public RoughDiamondPickaxe(ToolMaterial toolMaterial, float baseAttackDamage, float attackSpeed, Settings settings) {
         super(toolMaterial, baseAttackDamage, attackSpeed, settings);
     }
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         tooltip.add(Text.translatable("tooltip.skyblock.minecraft_dungeons_header").setStyle(Style.EMPTY.withBold(true).withFormatting(Formatting.GRAY)));
-        tooltip.add(Text.translatable("tooltip.skyblock.mcd__rough_diamond_sword.tooltip1").setStyle(Style.EMPTY.withItalic(true).withFormatting(Formatting.GRAY)));
-        tooltip.add(Text.translatable("tooltip.skyblock.mcd__rough_diamond_sword.tooltip2").setStyle(Style.EMPTY.withItalic(true).withFormatting(Formatting.GRAY)));
         tooltip.add(Text.translatable("tooltip.skyblock.rarity.unique"));
-        tooltip.add(
-                Text.translatable("tooltip.skyblock.mcd__built_in").setStyle(Style.EMPTY.withFormatting(Formatting.GREEN).withItalic(true))
-                        .append(Text.literal(" "))
-                        .append(Text.translatable("enchantment.minecraft.sharpness").setStyle(Style.EMPTY.withFormatting(Formatting.GREEN).withItalic(true)))
-        );
         super.appendTooltip(stack, context, tooltip, type);
+    }
+
+    @Override
+    public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+        if (target.isDead()) {
+            //TODO
+        }
+        return super.postHit(stack, target, attacker);
     }
 
     @Override

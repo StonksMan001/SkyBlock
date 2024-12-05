@@ -56,6 +56,7 @@ public class DeathCapMushroomItem extends McdArtifactItem {
         tooltip.add(Text.translatable("tooltip.skyblock.mcd__artifact_death_cap_mushroom.tooltip1").setStyle(Style.EMPTY.withItalic(true).withFormatting(Formatting.GRAY)));
         tooltip.add(Text.translatable("tooltip.skyblock.mcd__artifact_death_cap_mushroom.tooltip2").setStyle(Style.EMPTY.withItalic(true).withFormatting(Formatting.GRAY)));
         SkyblockHelpers.appendMcdRarity(stack, tooltip);
+        tooltip.add(Text.translatable("tooltip.skyblock.mcd__artifact_death_cap_mushroom.tooltip3").setStyle(Style.EMPTY.withFormatting(Formatting.GREEN).withItalic(true)));
         super.appendTooltip(stack, context, tooltip, type);
     }
 }

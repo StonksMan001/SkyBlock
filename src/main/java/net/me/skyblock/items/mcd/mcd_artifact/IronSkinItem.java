@@ -109,6 +109,7 @@ public class IronSkinItem extends McdArtifactItem {
                         .append(Boolean.TRUE.equals(stack.get(SkyBlockRegistries.DataComponentTypeRegistries.MCD__IRON_HIDE_AMULET_PERSONAL_TOGGLE)) ?
                                 Text.translatable("options.on").formatted(Formatting.GREEN):
                                 Text.translatable("options.off").formatted(Formatting.RED))));
+        tooltip.add(Text.translatable("tooltip.skyblock.artifact_iron_hide_amulet.tooltip4").setStyle(Style.EMPTY.withFormatting(Formatting.GREEN).withItalic(true)));
         super.appendTooltip(stack, context, tooltip, type);
     }
 }

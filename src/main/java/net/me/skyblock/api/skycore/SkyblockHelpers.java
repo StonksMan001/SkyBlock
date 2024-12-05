@@ -16,8 +16,6 @@ import org.betterx.wover.enchantment.api.EnchantmentUtils;
 import java.util.List;
 
 public interface SkyblockHelpers {
-
-
     default void enchantStackWithPrimitiveness(ItemStack stack, RegistryWrapper.WrapperLookup provider) {
         addEnchantmentToStack(stack, provider, SkyBlockRegistries.EnchantmentRegistries.PRIMITIVENESS_CURSE, 1);
     }

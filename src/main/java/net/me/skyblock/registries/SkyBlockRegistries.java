@@ -39,13 +39,17 @@ import net.me.skyblock.items.abyss.Loran;
 import net.me.skyblock.items.create.NuggetOfExperienceItem;
 import net.me.skyblock.items.end.EnchantedEnderiteAppleItem;
 import net.me.skyblock.items.mcd.RapierItem;
+import net.me.skyblock.items.mcd.mcd_artifact.DeathCapMushroomItem;
 import net.me.skyblock.items.mcd.mcd_artifact.IronSkinItem;
+import net.me.skyblock.items.mcd.mcd_meele.RoughDiamondSword;
+import net.me.skyblock.items.mcd.mcd_meele.SteelMace;
 import net.me.skyblock.items.mcd.mcd_ranged.AutoCrossbowItem;
 import net.me.skyblock.items.mcd.mcd_ranged.ShortBowItem;
 import net.me.skyblock.items.mcd.mcd_ranged.TwinBowItem;
 import net.me.skyblock.items.skyblock.*;
 import net.me.skyblock.items.util.AnomaliteArmorItem;
 import net.me.skyblock.items.util.NullItem;
+import net.me.skyblock.items.util.SimpleOneLineTooltipItem;
 import net.me.skyblock.items.util.custom_unenchantable.UnenchantableAxeItem;
 import net.me.skyblock.items.util.custom_unenchantable.UnenchantablePickaxeItem;
 import net.me.skyblock.items.util.custom_unenchantable.UnenchantableSwordItem;
@@ -77,10 +81,7 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.item.trim.ArmorTrimMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.registry.Registerable;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.*;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
@@ -90,6 +91,7 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Style;
 import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.Util;
@@ -100,7 +102,6 @@ import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.FeatureConfig;
-import org.betterx.wover.enchantment.api.EnchantmentUtils;
 
 import java.util.*;
 import java.util.function.Supplier;
@@ -160,7 +161,9 @@ public class SkyBlockRegistries {
         public static SoundEvent H__ABANDONED_VALLEY = SkyBlock.BuiltinRegistries.registerSoundEvent("h__abandoned_valley");
         public static SoundEvent H__BREACH_OF_WORLDS = SkyBlock.BuiltinRegistries.registerSoundEvent("h__breach_of_worlds");
         public static SoundEvent MCD__IRON_HIDE_AMULET_USE = SkyBlock.BuiltinRegistries.registerSoundEvent("artifact_iron_hide_amulet_used");
+        public static SoundEvent MCD__DEATH_CAP_MUSHROOM_USE = SkyBlock.BuiltinRegistries.registerSoundEvent("mcd__death_cap_mushroom_use");
         public static SoundEvent MCD__TWIN_BOW_SHOOT = SkyBlock.BuiltinRegistries.registerSoundEvent("mcd__twin_bow_shoot");
+        public static SoundEvent MCD__ANCIENT_GOLD_PICK_UP = SkyBlock.BuiltinRegistries.registerSoundEvent("mcd__ancient_gold_pick_up");
         public static void register() {
             SkyBlock.LOGGER.info("[SkyBlock MultiMod] Registering SoundEvents for " + SkyBlock.MOD_ID);
         }
@@ -265,7 +268,7 @@ public class SkyBlockRegistries {
         public static final Item SKYBLOCK__SMALL_LILY_PADS = SkyBlock.BuiltinRegistries.registerItemThatHasBlock(
                 new PlaceableOnWaterItem(BlockRegistries.SKYBLOCK__SMALL_LILY_PADS, new Item.Settings()));
         public static final Item SKYBLOCK__FIRWOOD_MACE = SkyBlock.BuiltinRegistries.registerItem("skyblock__firwood_mace",
-                new FirwoodMace(ToolMaterialRegistries.FIRWOOD, 9, 0.6f -4f, new Item.Settings()));
+                new FirwoodMace(ToolMaterialRegistries.FIRWOOD_MACE, 9, 0.6f -4f, new Item.Settings()));
         public static final Item CREATE__NUGGET_OF_EXPERIENCE = SkyBlock.BuiltinRegistries.registerItem("create__nugget_of_experience",
                 new NuggetOfExperienceItem(new Item.Settings()));
         public static final Item SKYBLOCK__RARE_TOKEN = SkyBlock.BuiltinRegistries.registerItem("skyblock__rare_token",
@@ -296,7 +299,7 @@ public class SkyBlockRegistries {
         //SKYBLOCK VANILLA+
         //SKYBLOCK TROPHIES
         public static final Item SKYBLOCK__PESTILENT_TROPHY = SkyBlock.BuiltinRegistries.registerItemThatHasBlock(
-                new Trophy.BlockItem(BlockRegistries.SKYBLOCK__PESTILENT_TROPHY, new Item.Settings(),
+                new Trophy.TrophyBlockItem(BlockRegistries.SKYBLOCK__PESTILENT_TROPHY, new Item.Settings(),
                         new String[]{
                                 "tooltip.skyblock.skyblock__pestilent_trophy.tooltip1",
                                 "tooltip.skyblock.skyblock__pestilent_trophy.tooltip2"
@@ -418,10 +421,16 @@ public class SkyBlockRegistries {
                 new ShortBowItem(new Item.Settings().maxDamage(384)));
         public static final Item MCD__TWIN_BOW = SkyBlock.BuiltinRegistries.registerItem("mcd__twin_bow",
                 new TwinBowItem(new Item.Settings().maxDamage(384).rarity(Rarity.EPIC)));
+        public static final Item MCD__ROUGH_DIAMOND_SWORD = SkyBlock.BuiltinRegistries.registerItem("mcd__rough_diamond_sword",
+                new RoughDiamondSword(ToolMaterials.DIAMOND, 3, 1.6f -4f, new Item.Settings().rarity(Rarity.EPIC)));
+        public static final Item MCD__STEEL_MACE = SkyBlock.BuiltinRegistries.registerItem("mcd__steel_mace",
+                new SteelMace(ToolMaterialRegistries.STEEL_MACE, 3, 1.6f -4f, new Item.Settings()));
         public static final Item MCD__AUTO_CROSSBOW = SkyBlock.BuiltinRegistries.registerItem("mcd__auto_crossbow",
                 new AutoCrossbowItem(new Item.Settings().maxDamage(465).rarity(Rarity.EPIC)));
         public static final Item MCD__ARTIFACT_IRON_HIDE_AMULET= SkyBlock.BuiltinRegistries.registerItem("mcd__artifact_iron_hide_amulet",
-                new IronSkinItem(new Item.Settings().maxCount(1).maxDamage(10)));
+                new IronSkinItem(new Item.Settings()));
+        public static final Item MCD__ARTIFACT_DEATH_CAP_MUSHROOM= SkyBlock.BuiltinRegistries.registerItem("mcd__artifact_death_cap_mushroom",
+                new DeathCapMushroomItem(new Item.Settings()));
         public static final Item SKYBLOCK__LIGHTNING_SWORD = SkyBlock.BuiltinRegistries.registerItem("skyblock__lightning_sword",
                 new ToolAPI.SwordItem(ToolMaterialRegistries.BENIKARD, 3, 3.5f -4f, new Item.Settings()));
         public static final Item MCD__DIAMOND_RAPIER = SkyBlock.BuiltinRegistries.registerItem("mcd__diamond_rapier",
@@ -436,7 +445,9 @@ public class SkyBlockRegistries {
                 new RapierItem(ToolMaterials.STONE, 2, Float.MAX_VALUE, new Item.Settings()));
         public static final Item MCD__WOODEN_RAPIER = SkyBlock.BuiltinRegistries.registerItem("mcd__wooden_rapier",
                 new RapierItem(ToolMaterials.WOOD, 2, Float.MAX_VALUE, new Item.Settings()));
-
+        public static final Item MCD__ANCIENT_GOLD_INGOT = SkyBlock.BuiltinRegistries.registerItem("mcd__ancient_gold_ingot",
+                new SimpleOneLineTooltipItem(new Item.Settings(),
+                        Text.translatable("tooltip.skyblock.special_resource").setStyle(Style.EMPTY.withItalic(true).withFormatting(Formatting.GRAY))));
         public static final Item SP5__ENDERITE_RAPIER = SkyBlock.BuiltinRegistries.registerItem("sp5__enderite_rapier",
                 new RapierItem(ToolMaterialRegistries.ENDERITE, 8, Float.MAX_VALUE, new Item.Settings()));
         public static final Item SP5__END_WOODEN_RAPIER = SkyBlock.BuiltinRegistries.registerItem("sp5__end_wooden_rapier",
@@ -454,7 +465,8 @@ public class SkyBlockRegistries {
         // <BACKPORTED FEATURES>
         //HALLOWEEN (UNIVERSAL)
         public static final Item H__ANOMALITE_FRAGMENT = SkyBlock.BuiltinRegistries.registerItem("h__anomalite_fragment",
-                new Item(new Item.Settings()));
+                new SimpleOneLineTooltipItem(new Item.Settings(),
+                        Text.translatable("tooltip.skyblock.special_resource").setStyle(Style.EMPTY.withItalic(true).withFormatting(Formatting.GRAY))));
         public static final Item H__ANOMALITE_HANDLE = SkyBlock.BuiltinRegistries.registerItem("h__anomalite_handle",
                 new Item(new Item.Settings()));
         public static final Item H__NODE_CORE = SkyBlock.BuiltinRegistries.registerItem("h__node_core",
@@ -555,12 +567,19 @@ public class SkyBlockRegistries {
                     entries.add(BlockRegistries.SKYBLOCK__FROSTSLATE_BRICK_SLAB);
                     entries.add(BlockRegistries.SKYBLOCK__SNOWY_SHORT_GRASS);
                     ItemGroupRegistries.addSpaces(entries, 0, 3);
+                    entries.add(BlockRegistries.SKYBLOCK__CHERT);
+                    entries.add(BlockRegistries.SKYBLOCK__COBBLED_CHERT);
+                    entries.add(BlockRegistries.SKYBLOCK__CHERT_BRICKS);
+                    entries.add(BlockRegistries.SKYBLOCK__CHISELED_CHERT);
+                    entries.add(BlockRegistries.SKYBLOCK__TANGLY_COBBLESTONE);
+                    entries.add(BlockRegistries.SKYBLOCK__TANGLY_STONE_BRICKS);
+                    ItemGroupRegistries.addSpaces(entries, 3, 3);
                     invisibleAdd(entries, ItemRegistries.SKYBLOCK__LIGHTNING_SWORD);
                     entries.add(ItemRegistries.SKYBLOCK__BOTTLE_OF_ANT_JAM);
                     entries.add(BlockRegistries.SKYBLOCK__ANT_JAM_BLOCK);
                     entries.add(ItemRegistries.SKYBLOCK__ANT_BOTTLE);
                     entries.add(BlockRegistries.SKYBLOCK__SUSPICIOUS_COARSE_DIRT);
-                    ItemGroupRegistries.addSpaces(entries, 3, 4);
+                    ItemGroupRegistries.addSpaces(entries, 6, 4);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
@@ -603,7 +622,7 @@ public class SkyBlockRegistries {
                     entries.add(BlockRegistries.SKYBLOCK__AUTUMN_BIRCH_LEAVES);
                     entries.add(BlockRegistries.SKYBLOCK__BLUEBERRY_BUSH);
                     entries.add(ItemRegistries.SKYBLOCK__CHILLI_PEPPER_SEEDS);
-                    ItemGroupRegistries.addSpaces(entries, 7, 3);
+                    ItemGroupRegistries.addSpaces(entries, 10, 3);
                     entries.add(BlockRegistries.SKYBLOCK__PUFFBALL_MUSHROOM_BLOCK);
                     entries.add(ItemRegistries.SKYBLOCK__PUFFBALL_MUSHROOM_FLESH);
                     entries.add(ItemRegistries.SKYBLOCK__COOKED_PUFFBALL_MUSHROOM_FLESH);
@@ -621,7 +640,7 @@ public class SkyBlockRegistries {
                     entries.add(ItemRegistries.SKYBLOCK__BLUEBERRIES);
                     entries.add(BlockRegistries.SKYBLOCK__BLOCK_OF_EXPERIENCE);
                     entries.add(ItemRegistries.CREATE__NUGGET_OF_EXPERIENCE);
-                    ItemGroupRegistries.addSpaces(entries, 10,1);
+                    ItemGroupRegistries.addSpaces(entries, 13,1);
                     entries.add(Items.OMINOUS_BOTTLE);
                     entries.add(ItemRegistries.SKYBLOCK__OMINOUS_LINK);
                     entries.add(Items.TOTEM_OF_UNDYING);
@@ -635,7 +654,7 @@ public class SkyBlockRegistries {
                     entries.add(BlockRegistries.SKYBLOCK__CARVED_SPRUCE_PLANKS);
                     entries.add(BlockRegistries.SKYBLOCK__CARVED_DARK_OAK_PLANKS);
                     entries.add(BlockRegistries.ABYSS__CARVED_FROZEN_PLANKS);
-                    ItemGroupRegistries.addSpaces(entries, 11, 5);
+                    ItemGroupRegistries.addSpaces(entries, 14, 5);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
@@ -657,7 +676,7 @@ public class SkyBlockRegistries {
                     entries.add(BlockRegistries.BP__PALE_LEAVES);
                     entries.add(BlockRegistries.BP__PALE_MOSS_BLOCK);
                     entries.add(BlockRegistries.BP__PALE_MOSS_CARPET);
-                    ItemGroupRegistries.addSpaces(entries, 16, 6);
+                    ItemGroupRegistries.addSpaces(entries, 19, 6);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
@@ -669,7 +688,7 @@ public class SkyBlockRegistries {
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(ItemRegistries.SKYBLOCK__PESTILENT_TROPHY, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(ItemRegistries.SKYBLOCK__TORCH_OF_LUNACY, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                    ItemGroupRegistries.addSpaces(entries, 22, 7);
+                    ItemGroupRegistries.addSpaces(entries, 25, 7);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
@@ -693,7 +712,7 @@ public class SkyBlockRegistries {
                     entries.add(ItemRegistries.H__PLASMA_1);
                     entries.add(ItemRegistries.H__PLASMA_2);
                     entries.add(BlockRegistries.H__NODE);
-                    ItemGroupRegistries.addSpaces(entries, 29, 4);
+                    ItemGroupRegistries.addSpaces(entries, 32, 4);
                     entries.add(GhostItemRegistries.Z__TILE_SP5_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(GhostItemRegistries.Z__TILE_SP5_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                     entries.add(GhostItemRegistries.Z__TILE_SP5_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
@@ -810,7 +829,7 @@ public class SkyBlockRegistries {
                     entries.add(ItemRegistries.SP5__BLUISHE_SHOVEL);
                     entries.add(ItemRegistries.SP5__BLUISHE_HOE);
                     entries.add(ItemRegistries.SP5__BLUISHE_PICKAXE);
-                    ItemGroupRegistries.addSpaces(entries, 33, 0);
+                    ItemGroupRegistries.addSpaces(entries, 36, 0);
                     ItemGroupRegistries.addTiles(entries, 1, 9);
                     entries.add(Blocks.SCULK);
                     entries.add(BlockRegistries.BOSC__SCULK_JAW);
@@ -821,13 +840,13 @@ public class SkyBlockRegistries {
                     entries.add(BlockRegistries.BOSC__DEAD_SCULK);
                     entries.add(BlockRegistries.BOSC__DEAD_SCULK_JAW);
                     entries.add(BlockRegistries.BOSC__DEAD_SCULK_SPROUTS);
-                    ItemGroupRegistries.addSpaces(entries, 33, 0);
+                    ItemGroupRegistries.addSpaces(entries, 36, 0);
                     ItemGroupRegistries.addTiles(entries, 10, 9);
                     entries.add(BlockRegistries.SKYBLOCK__UNKNOWN_DIRT_NYLIUM);
                     entries.add(BlockRegistries.SKYBLOCK__UNKNOWN_DIRT);
                     entries.add(BlockRegistries.SKYBLOCK__UNKNOWN_VEGETATION);
                     entries.add(BlockRegistries.SKYBLOCK__UNKNOWN_SPROUTS);
-                    ItemGroupRegistries.addSpaces(entries, 33, 5);
+                    ItemGroupRegistries.addSpaces(entries, 36, 5);
                     ItemGroupRegistries.addTiles(entries, 19, 9);
                     entries.add(BlockRegistries.FLOGICAL__AZALEA_LOG);
                     entries.add(BlockRegistries.FLOGICAL__AZALEA_WOOD);
@@ -836,7 +855,7 @@ public class SkyBlockRegistries {
                     entries.add(BlockRegistries.FLOGICAL__AZALEA_PLANKS);
                     entries.add(BlockRegistries.FLOGICAL__AZALEA_STAIRS);
                     entries.add(BlockRegistries.FLOGICAL__AZALEA_SLAB);
-                    ItemGroupRegistries.addSpaces(entries, 38, 2);
+                    ItemGroupRegistries.addSpaces(entries, 42, 2);
                     ItemGroupRegistries.addTiles(entries, 28, 9);
                     entries.add(BlockRegistries.DIGPEAR__CALLERY_LOG);
                     entries.add(BlockRegistries.DIGPEAR__CALLERY_WOOD);
@@ -851,8 +870,27 @@ public class SkyBlockRegistries {
                 }).build());
         public static ItemGroup MCD = SkyBlock.BuiltinRegistries.registerItemGroup("minecraft_dungeons",
                 FabricItemGroup.builder().displayName(Text.literal("SkyBlock: Minecraft Dungeons (ilosemypotato)")).icon(() -> new ItemStack(GhostItemRegistries.Z__LOGO2)).entries((displayContext, entries) -> {
+                    ItemStack commonSteelMace = new ItemStack(ItemRegistries.MCD__STEEL_MACE);
+                    commonSteelMace.set(DataComponentTypeRegistries.MCD__RARITY, McdRarity.COMMON);
+                    entries.add(commonSteelMace);
+                    ItemStack rareSteelMace = new ItemStack(ItemRegistries.MCD__STEEL_MACE);
+                    rareSteelMace.set(DataComponentTypeRegistries.MCD__RARITY, McdRarity.RARE);
+                    entries.add(rareSteelMace);
+                    entries.add(ItemRegistries.MCD__ROUGH_DIAMOND_SWORD);
                     entries.add(ItemRegistries.MCD__TWIN_BOW);
                     entries.add(ItemRegistries.MCD__AUTO_CROSSBOW);
+                    ItemStack commonAmulet = new ItemStack(ItemRegistries.MCD__ARTIFACT_IRON_HIDE_AMULET);
+                    commonAmulet.set(DataComponentTypeRegistries.MCD__RARITY, McdRarity.COMMON);
+                    entries.add(commonAmulet);
+                    ItemStack rareAmulet = new ItemStack(ItemRegistries.MCD__ARTIFACT_IRON_HIDE_AMULET);
+                    rareAmulet.set(DataComponentTypeRegistries.MCD__RARITY, McdRarity.RARE);
+                    entries.add(rareAmulet);
+                    ItemStack commonMushroom = new ItemStack(ItemRegistries.MCD__ARTIFACT_DEATH_CAP_MUSHROOM);
+                    commonMushroom.set(DataComponentTypeRegistries.MCD__RARITY, McdRarity.COMMON);
+                    entries.add(commonMushroom);
+                    ItemStack rareMushroom = new ItemStack(ItemRegistries.MCD__ARTIFACT_DEATH_CAP_MUSHROOM);
+                    rareMushroom.set(DataComponentTypeRegistries.MCD__RARITY, McdRarity.RARE);
+                    entries.add(rareMushroom);
                     entries.add(ItemRegistries.MCD__WOODEN_RAPIER);
                     entries.add(ItemRegistries.MCD__STONE_RAPIER);
                     entries.add(ItemRegistries.MCD__IRON_RAPIER);
@@ -866,12 +904,8 @@ public class SkyBlockRegistries {
                     entries.add(BlockRegistries.MCD__POP_FLOWER);
                     entries.add(BlockRegistries.MCD__MOSSIER_OAK_PLANKS);
                     entries.add(BlockRegistries.MCD__MOSSIER_SPRUCE_PLANKS);
-                    ItemStack commonAmulet = new ItemStack(ItemRegistries.MCD__ARTIFACT_IRON_HIDE_AMULET);
-                    commonAmulet.set(DataComponentTypeRegistries.MCD__RARITY, McdRarity.COMMON);
-                    entries.add(commonAmulet);
-                    ItemStack rareAmulet = new ItemStack(ItemRegistries.MCD__ARTIFACT_IRON_HIDE_AMULET);
-                    rareAmulet.set(DataComponentTypeRegistries.MCD__RARITY, McdRarity.RARE);
-                    entries.add(rareAmulet);
+                    entries.add(ItemRegistries.MCD__ANCIENT_GOLD_INGOT);
+                    entries.add(BlockRegistries.MCD__ANCIENT_GOLD_BLOCK);
                 }).build());
         public static ItemGroup UNUSED = SkyBlock.BuiltinRegistries.registerItemGroup("unused",
                 FabricItemGroup.builder().displayName(Text.literal("SkyBlock: Unused (Qbaesz13)")).icon(() -> new ItemStack(GhostItemRegistries.Z__LOGO5)).entries((displayContext, entries) -> {
@@ -1235,11 +1269,6 @@ public class SkyBlockRegistries {
         public static void register() {
             System.out.println("[SkyBlock MultiMod] Registering Enchantments for " + SkyBlock.MOD_ID);
         }
-        public static class Helper {
-            public static void addEnchantmentToStack(ItemStack itemStack, RegistryWrapper.WrapperLookup wrapper, RegistryKey<Enchantment> enchantment, int level) {
-                EnchantmentUtils.enchantInWorld(itemStack, enchantment, level, wrapper);
-            }
-        }
     }
 
     public static class DimensionRegistries {
@@ -1264,6 +1293,15 @@ public class SkyBlockRegistries {
         });
         public static final ComponentType<McdRarity> MCD__RARITY = SkyBlock.BuiltinRegistries.registerComponentType("mcd__rarity", (mcdRarityBuilder) -> {
             return mcdRarityBuilder.codec(McdRarity.CODEC);
+        });
+        public static final ComponentType<Long> MCD__ACCELERATE_LAST_SHOT_TIME = SkyBlock.BuiltinRegistries.registerComponentType("mcd__accelerate_last_shot_time", longBuilder -> {
+            return longBuilder.codec(Codec.LONG);
+        });
+        public static final ComponentType<Float> MCD__ACCELERATE_RELOAD_BONUS = SkyBlock.BuiltinRegistries.registerComponentType("mcd__accelerate_reload_bonus", floatBuilder -> {
+            return floatBuilder.codec(Codec.FLOAT);
+        });
+        public static final ComponentType<Integer> MCD__STEEL_MACE_ATTACK_CHAIN = SkyBlock.BuiltinRegistries.registerComponentType("mcd__steel_mace_attack_chain", integerBuilder -> {
+            return integerBuilder.codec(Codec.INT);
         });
 
         public static void register() {
@@ -2362,6 +2400,110 @@ public class SkyBlockRegistries {
                         .copy(Blocks.MUSHROOM_STEM)
                         .sounds(BlockSoundGroup.FUNGUS)
                         .mapColor(MapColor.WHITE_GRAY)));
+        public static final Block SKYBLOCK__BLOCK_OF_EXPERIENCE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__block_of_experience",
+                new Block(AbstractBlock.Settings
+                        .create()
+                        .breakInstantly()
+                        .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                        .luminance(state -> 3)
+                        .emissiveLighting(SkyBlock.BuiltinRegistries::alwaysPredicate)
+                        .mapColor(MapColor.EMERALD_GREEN)));
+        public static final Block SKYBLOCK__CHERT = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__chert",
+                new PillarBlock(AbstractBlock.Settings
+                        .copy(Blocks.DEEPSLATE)
+                        .mapColor(MapColor.CYAN)));
+        public static final Block SKYBLOCK__COBBLED_CHERT = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__cobbled_chert",
+                new Block(AbstractBlock.Settings
+                        .copy(Blocks.COBBLED_DEEPSLATE)
+                        .mapColor(MapColor.CYAN)));
+        public static final Block SKYBLOCK__COBBLED_CHERT_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__cobbled_chert_stairs",
+                new ModStairsBlock(BlockRegistries.SKYBLOCK__COBBLED_CHERT.getDefaultState(), AbstractBlock.Settings
+                        .copy(Blocks.COBBLED_DEEPSLATE_STAIRS)
+                        .mapColor(MapColor.CYAN)));
+        public static final Block SKYBLOCK__COBBLED_CHERT_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__cobbled_chert_slab",
+                new SlabBlock(AbstractBlock.Settings
+                        .copy(Blocks.COBBLED_DEEPSLATE_SLAB)
+                        .mapColor(MapColor.CYAN)));
+        public static final Block SKYBLOCK__CHERT_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__chert_bricks",
+                new Block(AbstractBlock.Settings
+                        .copy(Blocks.DEEPSLATE_BRICKS)
+                        .mapColor(MapColor.CYAN)));
+        public static final Block SKYBLOCK__CHERT_BRICK_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__chert_brick_stairs",
+                new ModStairsBlock(BlockRegistries.SKYBLOCK__CHERT_BRICKS.getDefaultState(), AbstractBlock.Settings
+                        .copy(Blocks.DEEPSLATE_BRICK_STAIRS)
+                        .mapColor(MapColor.CYAN)));
+        public static final Block SKYBLOCK__CHERT_BRICK_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__chert_brick_slab",
+                new SlabBlock(AbstractBlock.Settings
+                        .copy(Blocks.DEEPSLATE_BRICK_SLAB)
+                        .mapColor(MapColor.CYAN)));
+        public static final Block SKYBLOCK__CHISELED_CHERT = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__chiseled_chert",
+                new Block(AbstractBlock.Settings
+                        .copy(Blocks.CHISELED_DEEPSLATE)
+                        .mapColor(MapColor.CYAN)));
+        public static final Block SKYBLOCK__POLISHED_CHERT = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__polished_chert",
+                new Block(AbstractBlock.Settings
+                        .copy(Blocks.POLISHED_DEEPSLATE)
+                        .mapColor(MapColor.CYAN)));
+        public static final Block SKYBLOCK__POLISHED_CHERT_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__polished_chert_stairs",
+                new ModStairsBlock(BlockRegistries.SKYBLOCK__POLISHED_CHERT.getDefaultState(), AbstractBlock.Settings
+                        .copy(Blocks.POLISHED_DEEPSLATE)
+                        .mapColor(MapColor.CYAN)));
+        public static final Block SKYBLOCK__POLISHED_CHERT_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__polished_chert_slab",
+                new SlabBlock(AbstractBlock.Settings
+                        .copy(Blocks.POLISHED_DEEPSLATE)
+                        .mapColor(MapColor.CYAN)));
+        public static final Block SKYBLOCK__CHERT_PILLAR = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__chert_pillar",
+                new PillarBlock(AbstractBlock.Settings
+                        .copy(Blocks.POLISHED_DEEPSLATE)
+                        .mapColor(MapColor.CYAN)));
+        public static final Block SKYBLOCK__TANGLY_COBBLESTONE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__tangly_cobblestone",
+                new Block(AbstractBlock.Settings
+                        .copy(Blocks.MOSSY_COBBLESTONE)
+                        .mapColor(MapColor.STONE_GRAY)));
+        public static final Block SKYBLOCK__TANGLY_COBBLESTONE_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__tangly_cobblestone_stairs",
+                new ModStairsBlock(BlockRegistries.SKYBLOCK__TANGLY_COBBLESTONE.getDefaultState(), AbstractBlock.Settings
+                        .copy(Blocks.MOSSY_COBBLESTONE_STAIRS)
+                        .mapColor(MapColor.STONE_GRAY)));
+        public static final Block SKYBLOCK__TANGLY_COBBLESTONE_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__tangly_cobblestone_slab",
+                new SlabBlock(AbstractBlock.Settings
+                        .copy(Blocks.MOSSY_COBBLESTONE_SLAB)
+                        .mapColor(MapColor.STONE_GRAY)));
+        public static final Block SKYBLOCK__TANGLY_STONE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__tangly_stone_bricks",
+                new Block(AbstractBlock.Settings
+                        .copy(Blocks.MOSSY_STONE_BRICKS)
+                        .mapColor(MapColor.STONE_GRAY)));
+        public static final Block SKYBLOCK__TANGLY_STONE_BRICK_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__tangly_stone_brick_stairs",
+                new ModStairsBlock(BlockRegistries.SKYBLOCK__TANGLY_STONE_BRICKS.getDefaultState(), AbstractBlock.Settings
+                        .copy(Blocks.MOSSY_STONE_BRICK_STAIRS)
+                        .mapColor(MapColor.STONE_GRAY)));
+        public static final Block SKYBLOCK__TANGLY_STONE_BRICK_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__tangly_stone_brick_slab",
+                new SlabBlock(AbstractBlock.Settings
+                        .copy(Blocks.MOSSY_STONE_BRICK_SLAB)
+                        .mapColor(MapColor.STONE_GRAY)));
+        public static final Block SKYBLOCK__DRIED_TANGLY_COBBLESTONE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__dried_tangly_cobblestone",
+                new Block(AbstractBlock.Settings
+                        .copy(Blocks.MOSSY_COBBLESTONE)
+                        .mapColor(MapColor.STONE_GRAY)));
+        public static final Block SKYBLOCK__DRIED_TANGLY_COBBLESTONE_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__dried_tangly_cobblestone_stairs",
+                new ModStairsBlock(BlockRegistries.SKYBLOCK__DRIED_TANGLY_COBBLESTONE.getDefaultState(), AbstractBlock.Settings
+                        .copy(Blocks.MOSSY_COBBLESTONE_STAIRS)
+                        .mapColor(MapColor.STONE_GRAY)));
+        public static final Block SKYBLOCK__DRIED_TANGLY_COBBLESTONE_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__dried_tangly_cobblestone_slab",
+                new SlabBlock(AbstractBlock.Settings
+                        .copy(Blocks.MOSSY_COBBLESTONE_SLAB)
+                        .mapColor(MapColor.STONE_GRAY)));
+        public static final Block SKYBLOCK__DRIED_TANGLY_STONE_BRICKS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__dried_tangly_stone_bricks",
+                new Block(AbstractBlock.Settings
+                        .copy(Blocks.MOSSY_STONE_BRICKS)
+                        .mapColor(MapColor.STONE_GRAY)));
+        public static final Block SKYBLOCK__DRIED_TANGLY_STONE_BRICK_STAIRS = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__dried_tangly_stone_brick_stairs",
+                new ModStairsBlock(BlockRegistries.SKYBLOCK__TANGLY_STONE_BRICKS.getDefaultState(), AbstractBlock.Settings
+                        .copy(Blocks.MOSSY_STONE_BRICK_STAIRS)
+                        .mapColor(MapColor.STONE_GRAY)));
+        public static final Block SKYBLOCK__DRIED_TANGLY_STONE_BRICK_SLAB = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__dried_tangly_stone_brick_slab",
+                new SlabBlock(AbstractBlock.Settings
+                        .copy(Blocks.MOSSY_STONE_BRICK_SLAB)
+                        .mapColor(MapColor.STONE_GRAY)));
         //SPORE PLANTER BOXES
         public static final Block SKYBLOCK__SPORE_PLANTER_BOX = SkyBlock.BuiltinRegistries.registerBlock("skyblock__spore_planter_box",
                 new EmptySporePlanterBox(AbstractBlock.Settings
@@ -2384,14 +2526,6 @@ public class SkyBlockRegistries {
                         .sounds(BlockSoundGroup.WOOD)
                         .mapColor(MapColor.BROWN), Blocks.BROWN_MUSHROOM, 0.5, true));
         //SPORE PLANTER BOXES
-        public static final Block SKYBLOCK__BLOCK_OF_EXPERIENCE = SkyBlock.BuiltinRegistries.registerBlockAndItem("skyblock__block_of_experience",
-                new Block(AbstractBlock.Settings
-                        .create()
-                        .breakInstantly()
-                        .sounds(BlockSoundGroup.AMETHYST_BLOCK)
-                        .luminance(state -> 3)
-                        .emissiveLighting(SkyBlock.BuiltinRegistries::alwaysPredicate)
-                        .mapColor(MapColor.EMERALD_GREEN)));
         //---1.21.1+
         public static final Block SKYBLOCK__COMPRESSED_STEEL = SkyBlock.BuiltinRegistries.registerBlock("skyblock__compressed_steel",
                 new CompressedSteelBlock(AbstractBlock.Settings
@@ -2402,7 +2536,7 @@ public class SkyBlockRegistries {
                         .strength(Blocks.OBSIDIAN.getHardness(), Blocks.OBSIDIAN.getBlastResistance())
                         .mapColor(MapColor.IRON_GRAY)));
         //---1.21.1+
-        //---1.22.0+
+        //---1.21.4+
         public static final Block BP__PALE_LOG = SkyBlock.BuiltinRegistries.registerBlockAndItem("bp__pale_log",
                 new PillarBlock(AbstractBlock.Settings
                         .copy(Blocks.OAK_LOG)
@@ -2453,7 +2587,7 @@ public class SkyBlockRegistries {
                 new CarpetBlock(AbstractBlock.Settings
                         .copy(Blocks.MOSS_CARPET)
                         .mapColor(MapColor.LIGHT_GRAY)));
-        //---1.22.0+
+        //---1.21.4+
         //SKYBLOCK VANILLA+
         //SKYBLOCK TROPHIES
         public static final Block SKYBLOCK__PESTILENT_TROPHY = SkyBlock.BuiltinRegistries.registerBlock("skyblock__pestilent_trophy",
@@ -2518,6 +2652,11 @@ public class SkyBlockRegistries {
                 new PopFlowerBlock(AbstractBlock.Settings
                         .copy(Blocks.WARPED_ROOTS)
                         .mapColor(MapColor.CYAN)));
+        public static final Block MCD__ANCIENT_GOLD_BLOCK = SkyBlock.BuiltinRegistries.registerBlockAndItem("mcd__ancient_gold_block",
+                new Block(AbstractBlock.Settings
+                        .copy(Blocks.GOLD_BLOCK)
+                        .strength(Blocks.NETHERITE_BLOCK.getHardness(), Blocks.NETHERITE_BLOCK.getBlastResistance())
+                        .mapColor(MapColor.TERRACOTTA_ORANGE)));
         //MCD
         //CUSTOM WORLD BLOCKS
         public static final Block MCD__STRONGHOLD_DECOR = SkyBlock.BuiltinRegistries.registerBlockAndItem("mcd__stronghold_decor",
@@ -3168,12 +3307,12 @@ public class SkyBlockRegistries {
         });*/
         public static final RegistryEntry<ArmorMaterial> ENDERITE = SkyBlock.BuiltinRegistries.registerArmorMaterial("enderite",
                 Util.make(new EnumMap<ArmorItem.Type, Integer>(ArmorItem.Type.class), map -> {
-            map.put(ArmorItem.Type.BOOTS, 1);
-            map.put(ArmorItem.Type.LEGGINGS, 2);
-            map.put(ArmorItem.Type.CHESTPLATE, 3);
-            map.put(ArmorItem.Type.HELMET, 1);
-            map.put(ArmorItem.Type.BODY, 3);
-        }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.3f, 0.25f, () -> {
+            map.put(ArmorItem.Type.BOOTS, 5);
+            map.put(ArmorItem.Type.LEGGINGS, 8);
+            map.put(ArmorItem.Type.CHESTPLATE, 10);
+            map.put(ArmorItem.Type.HELMET, 5);
+            map.put(ArmorItem.Type.BODY, 12);
+        }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.5f, 0.25f, () -> {
             return Ingredient.ofItems(new ItemConvertible[]{ItemRegistries.SP5__ENDERITE_INGOT});
         });
         //ENDERITE("enderite", 45, Util.make(new EnumMap<ArmorItem.Type, Integer>(ArmorItem.Type.class), map -> {
@@ -3203,7 +3342,8 @@ public class SkyBlockRegistries {
             map.put(ArmorItem.Type.LEGGINGS, 6);
             map.put(ArmorItem.Type.CHESTPLATE, 8);
             map.put(ArmorItem.Type.HELMET, 3);
-        }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.3f, 0.25f, () -> {
+            map.put(ArmorItem.Type.BODY, 11);
+        }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.5f, 0.1f, () -> {
             return Ingredient.ofItems(new ItemConvertible[]{ItemRegistries.H__ANOMALITE_FRAGMENT});
         });
         //H__ANOMALITE("h__anomalite", 40, Util.make(new EnumMap<ArmorItem.Type, Integer>(ArmorItem.Type.class), map -> {
@@ -3219,7 +3359,9 @@ public class SkyBlockRegistries {
         ENDERITE(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 2236, 11.0f, -1f, 19, () -> Ingredient.ofItems(ItemRegistries.SP5__ENDERITE_INGOT)),
         BENIKARD(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 2236, 0f, -1f, 15, () -> Ingredient.ofItems(Items.WATER_BUCKET)),
         ABERYTHE(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 2100, 10.0f, -1f, 16, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
-        FIRWOOD(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 200, 2.0F, -1f, 15, () -> Ingredient.fromTag(TagRegistries.Items.SKYBLOCK__FIR_LOGS)),
+
+        FIRWOOD_MACE(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 200, 2.0F, -1f, 15, () -> Ingredient.fromTag(TagRegistries.Items.SKYBLOCK__FIR_LOGS)),
+        STEEL_MACE(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 1000, 9.0F, 4.0F, 15, () -> Ingredient.ofItems(Items.IRON_INGOT)),
         H__ANOMALITE(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 2031, 11.0f, -1f, 1, () -> Ingredient.ofItems(ItemRegistries.H__ANOMALITE_FRAGMENT)),
         H__ANOMALITE_EXOPLASMIC(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 2000, 11.0f, -1f, 1, () -> Ingredient.ofItems(ItemRegistries.H__ANOMALITE_FRAGMENT)),
         H__ANOMALITE_ENDOPLASMIC(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 1000, 15.0f, -1f, 1, () -> Ingredient.ofItems(ItemRegistries.H__ANOMALITE_FRAGMENT));

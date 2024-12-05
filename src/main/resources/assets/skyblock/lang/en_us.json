@@ -507,6 +507,7 @@
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip2": "timeless. Sand mysteriously and endlessly",
   "tooltip.skyblock.artifact_iron_hide_amulet.tooltip3": "slips through the cracks in the iron.",
   "tooltip.skyblock.mcd__artifact_iron_hide_amulet.personal": "Personal",
+  "tooltip.skyblock.artifact_iron_hide_amulet.tooltip4": "Provides a major boost to defense for a short time",
 
   "item.skyblock.mcd__twin_bow": "Twin Bow",
   "tooltip.skyblock.mcd__twin_bow.tooltip1": "The Twin Bow is the champion of the hero",
@@ -519,6 +520,7 @@
   "item.skyblock.mcd__artifact_death_cap_mushroom": "Death Cap Mushroom",
   "tooltip.skyblock.mcd__artifact_death_cap_mushroom.tooltip1": "Eaten by daring warriors before battle, the",
   "tooltip.skyblock.mcd__artifact_death_cap_mushroom.tooltip2": "Death Cap Mushroom drives fighters into a frenzy.",
+  "tooltip.skyblock.mcd__artifact_death_cap_mushroom.tooltip3": "Greatly increases attack damage and movement speed",
 
   "item.skyblock.mcd__rough_diamond_sword": "Rough Diamond Sword",
   "tooltip.skyblock.mcd__rough_diamond_sword.tooltip1": "The Rough Diamond Sword is the true mark",
@@ -540,5 +542,7 @@
   "enchantment.skyblock.primitiveness_curse": "Primitiveness Curse",
   "enchantment.skyblock.mcd__bonus_shot": "Bonus Shot",
   "tooltip.skyblock.mcd__bonus_shot.target_players": "Target players",
+  "tooltip.skyblock.mcd__built_in": "Built in",
+  "tooltip.skyblock.mcd__powerful_combo": "Powerful combo",
   "enchantment.skyblock.mcd__accelerate": "Accelerate"
 }

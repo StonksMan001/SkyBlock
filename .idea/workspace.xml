@@ -7,65 +7,84 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.2 - AutoCrossbowItem behaviour + Accelerate enchantment">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/GrindStoneScreenHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/GrindStoneExperienceNotDropping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/DeathCapMushroomItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_meele/RoughDiamondSword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_meele/SteelMace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/util/SimpleOneLineTooltipItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/mcd__ancient_gold_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__ancient_gold_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__ancient_pedestal_with_ancient_gold1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__ancient_pedestal_with_ancient_gold2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__ancient_pedestal_with_ancient_gold3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__ancient_gold_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__ancient_gold_ingot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__artifact_death_cap_mushroom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__rough_diamond_sword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__steel_mace.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/mcd__ancient_gold/pick_up/mcd__ancient_gold_pick_up1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/mcd__ancient_gold/pick_up/mcd__ancient_gold_pick_up2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/mcd__ancient_gold/pick_up/mcd__ancient_gold_pick_up3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/mcd__death_cap_mushroom/use/mcd__death_cap_mushroom_use1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/mcd__death_cap_mushroom/use/mcd__death_cap_mushroom_use2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds/mcd__death_cap_mushroom/use/mcd__death_cap_mushroom_use3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__ancient_gold_block.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__ancient_pedestal_top_experience_converting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__ancient_pedestal_with_ancient_gold1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__ancient_pedestal_with_ancient_gold2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__ancient_pedestal_with_ancient_gold3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/mcd__ancient_gold_ingot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/mcd__artifact_death_cap_mushroom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/mcd__rough_diamond_sword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/mcd__steel_mace.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/chest_armor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/enchantable/bow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/enchantable/crossbow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/enchantable/durability.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/foot_armor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/head_armor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/hoes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/leg_armor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/pickaxes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/shovels.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/swords.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/mcd__ancient_gold_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/mcd__ancient_gold_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/mcd__ancient_gold_ingot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/item/has_durability/armor/chest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/item/has_durability/armor/foot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/item/has_durability/armor/head.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/item/has_durability/armor/leg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/item/has_durability/axes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/item/has_durability/bows.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/item/has_durability/crossbows.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/item/has_durability/durability.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/item/has_durability/hoes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/item/has_durability/pickaxes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/item/has_durability/shovels.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/item/has_durability/swords.json" afterDir="false" />
+    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.2 - SkyBlockRegistries.java mostantól deprekálva van (sadge), nem volt túlságosan hosszú életű, helyét majd egy még átláthatóbb rendszer és a MultiModRegistryGroup.java fogja átvenni amelyben már az internális modok is külön namespacekbe lesznek csoportosítva">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/MultiModRegistryGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_meele/RoughDiamondPickaxe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/util/UberWeapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v2/Abyss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v2/Quark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v2/SkyBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__chert_brick_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__chert_brick_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__chert_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__chert_pillar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__chiseled_chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__cobbled_chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__cobbled_chert_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__cobbled_chert_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__dried_tangly_cobblestone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__dried_tangly_stone_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__polished_chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__polished_chert_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__polished_chert_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__tangly_cobblestone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__tangly_stone_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__chert_brick_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__chert_brick_slab_top.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__chert_brick_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__chert_brick_stairs_inner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__chert_brick_stairs_outer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__chert_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__chert_horizontal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__chert_pillar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__chert_pillar_horizontal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__chiseled_chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__cobbled_chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__cobbled_chert_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__cobbled_chert_slab_top.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__cobbled_chert_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__cobbled_chert_stairs_inner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__cobbled_chert_stairs_outer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__dried_tangly_cobblestone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__dried_tangly_stone_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__polished_chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__polished_chert_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__polished_chert_slab_top.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__polished_chert_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__polished_chert_stairs_inner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__polished_chert_stairs_outer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__tangly_cobblestone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__tangly_stone_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__chert_brick_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__chert_brick_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__chert_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__chert_pillar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__chiseled_chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__cobbled_chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__cobbled_chert_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__cobbled_chert_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__dried_tangly_cobblestone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__dried_tangly_stone_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__polished_chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__polished_chert_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__polished_chert_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__tangly_cobblestone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__tangly_stone_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__chert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__chert_bricks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__chert_pillar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__chert_pillar_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__chert_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__chiseled_chert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__cobbled_chert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__dried_tangly_cobblestone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__dried_tangly_stone_bricks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__polished_chert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__tangly_cobblestone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__tangly_stone_bricks.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
@@ -75,27 +94,15 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/datagen/SkyBlockDataGenerators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/datagen/SkyBlockDataGenerators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/CrossBowItemMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/CrossBowItemMixin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/SkyblockHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/SkyblockHelpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/block_entities/skyblock/AncientPedestalBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/block_entities/skyblock/AncientPedestalBlockEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/AncientPedestalBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/AncientPedestalBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/McdArtifactItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/McdArtifactItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/DeathCapMushroomItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/DeathCapMushroomItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/IronSkinItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/IronSkinItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/AutoCrossbowItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/AutoCrossbowItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/skyblock/TorchOfLunacyItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/skyblock/TorchOfLunacyItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/skyblock/Trophy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/skyblock/Trophy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_meele/RoughDiamondSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_meele/RoughDiamondSword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_meele/SteelMace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_meele/SteelMace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockRegistries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockRegistries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__ancient_pedestal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__ancient_pedestal.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/sounds.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/needs_diamond_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/needs_diamond_tool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/axes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/item/axes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +196,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;#4 on master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/SONY/MODS_2/SkyBlockMod_Main(1.21.1)/src/main/resources/assets/skyblock/textures/item&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SONY/MODS_2/SkyBlockMod_Main(1.21.1)/src/main/resources/asset, data factory&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -198,18 +205,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\textures\item" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\loot_table\blocks" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\sounds\mcd__ancient_gold\pick_up" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\asset, data factory" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\block" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\textures\block" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\item" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\blockstates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\item" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\block" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\blockstates" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\tags\item\has_durability\armor" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\minecraft\tags\item" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\asset, data factory" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\run\mods_temp" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\FINAL RELEASES" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="net.me.skyblock.registries" />
@@ -298,54 +305,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726925280281</updated>
-    </task>
-    <task id="LOCAL-00003" summary="v1.4.0 - ModItemGroups bugfix, a nem használt (&quot;unused&quot;) itemek mostmár nem lesznek az univerzális kereső tab-ban is megjelenítve">
-      <option name="closed" value="true" />
-      <created>1728077751574</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1728077751574</updated>
-    </task>
-    <task id="LOCAL-00004" summary="v1.4.0 - Pale Oak Woodset">
-      <option name="closed" value="true" />
-      <created>1728165012333</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1728165012333</updated>
-    </task>
-    <task id="LOCAL-00005" summary="v1.4.0 - Pale Oak .json fájlok">
-      <option name="closed" value="true" />
-      <created>1728228446254</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1728228446255</updated>
-    </task>
-    <task id="LOCAL-00006" summary="v1.4.0 - &quot;Nugget of Experience&quot; és &quot;Block of Experience&quot;">
-      <option name="closed" value="true" />
-      <created>1728233693271</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1728233693271</updated>
-    </task>
-    <task id="LOCAL-00007" summary="v1.4.0 - Ancient Pedestal titkos behaviour &gt;:)">
-      <option name="closed" value="true" />
-      <created>1728238272092</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1728238272092</updated>
-    </task>
-    <task id="LOCAL-00008" summary="v1.4.0 - small bugfix">
-      <option name="closed" value="true" />
-      <created>1728318122157</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1728318122157</updated>
     </task>
     <task id="LOCAL-00009" summary="v1.4.0 - SnowyShortGrassBlock bugfix">
       <option name="closed" value="true" />
@@ -691,7 +650,55 @@
       <option name="project" value="LOCAL" />
       <updated>1731688924516</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="v1.4.2 - RoughDiamondSword + beépített Sharpness enchant">
+      <option name="closed" value="true" />
+      <created>1732450139276</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1732450139276</updated>
+    </task>
+    <task id="LOCAL-00053" summary="v1.4.2 - &quot;mcd__ancient_gold_ingot&quot; + &quot;mcd__ancient_gold_block&quot;">
+      <option name="closed" value="true" />
+      <created>1732451312690</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1732451312690</updated>
+    </task>
+    <task id="LOCAL-00054" summary="v1.4.2 - bugfix: itemek nem enchantolhatóak survival módban">
+      <option name="closed" value="true" />
+      <created>1732451385763</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1732451385764</updated>
+    </task>
+    <task id="LOCAL-00055" summary="v1.4.2 - &quot;mcd__artifact_death_cap_mushroom&quot; item saját funkciókal">
+      <option name="closed" value="true" />
+      <created>1732451443575</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1732451443576</updated>
+    </task>
+    <task id="LOCAL-00056" summary="v1.4.2 - &quot;mcd__steel_mace&quot; item + egyedi funkciók">
+      <option name="closed" value="true" />
+      <created>1732451610358</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1732451610358</updated>
+    </task>
+    <task id="LOCAL-00057" summary="v1.4.2 - SkyBlockRegistries.java mostantól deprekálva van (sadge), nem volt túlságosan hosszú életű, helyét majd egy még átláthatóbb rendszer és a MultiModRegistryGroup.java fogja átvenni amelyben már az internális modok is külön namespacekbe lesznek csoportosítva">
+      <option name="closed" value="true" />
+      <created>1733343520435</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1733343520435</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -706,12 +713,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v1.4.2 - modverzió 1.4.2" />
-    <MESSAGE value="v1.4.2 - SkyBlockRegistries.ItemRegistries.SKYBLOCK__FIRWOOD_MACE attack speed-je (eddig 0.75f) mostantól megegyezik az Items.MACE (vanilla mace) attack speed-jével (0.6f)" />
-    <MESSAGE value="v1.4.2 - &quot;skyblock:skyblock__lightning_sword&quot; recipe és texture változtatás" />
-    <MESSAGE value="v1.4.2 - &quot;skyblock__firwood_mace&quot; sebzés nerf (10ről 9re)" />
-    <MESSAGE value="v1.4.2 - &quot;mcd__twin_bow&quot; új textúra" />
-    <MESSAGE value="v1.4.2 - Frissített EnchantmentAPI" />
     <MESSAGE value="v1.4.2 - Iron Skin több sound effect" />
     <MESSAGE value="v1.4.2 - McdItem-ek mostantól könnyebben megkülönböztethetőek a világoskék itembar színük miatt" />
     <MESSAGE value="v1.4.2 - TwinBowItem tooltip fordítások" />
@@ -731,6 +732,12 @@
     <MESSAGE value="v1.4.2 - McdRarity API" />
     <MESSAGE value="v1.4.2 - IronSkinItem McdRarity API használatával mostmár lehet McdRarity.RARE vagy McdRarity.COMMON (és az eredeti értékeken is buffoltam egy kicsit)" />
     <MESSAGE value="v1.4.2 - AutoCrossbowItem behaviour + Accelerate enchantment" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.4.2 - AutoCrossbowItem behaviour + Accelerate enchantment" />
+    <MESSAGE value="v1.4.2 - RoughDiamondSword + beépített Sharpness enchant" />
+    <MESSAGE value="v1.4.2 - &quot;mcd__ancient_gold_ingot&quot; + &quot;mcd__ancient_gold_block&quot;" />
+    <MESSAGE value="v1.4.2 - bugfix: itemek nem enchantolhatóak survival módban" />
+    <MESSAGE value="v1.4.2 - &quot;mcd__artifact_death_cap_mushroom&quot; item saját funkciókal" />
+    <MESSAGE value="v1.4.2 - &quot;mcd__steel_mace&quot; item + egyedi funkciók" />
+    <MESSAGE value="v1.4.2 - SkyBlockRegistries.java mostantól deprekálva van (sadge), nem volt túlságosan hosszú életű, helyét majd egy még átláthatóbb rendszer és a MultiModRegistryGroup.java fogja átvenni amelyben már az internális modok is külön namespacekbe lesznek csoportosítva" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.4.2 - SkyBlockRegistries.java mostantól deprekálva van (sadge), nem volt túlságosan hosszú életű, helyét majd egy még átláthatóbb rendszer és a MultiModRegistryGroup.java fogja átvenni amelyben már az internális modok is külön namespacekbe lesznek csoportosítva" />
   </component>
 </project>

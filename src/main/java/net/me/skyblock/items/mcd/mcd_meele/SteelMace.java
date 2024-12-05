@@ -69,6 +69,7 @@ public class SteelMace extends ToolAPI.SwordItem {
         tooltip.add(Text.translatable("tooltip.skyblock.mcd__steel_mace.tooltip1").setStyle(Style.EMPTY.withItalic(true).withFormatting(Formatting.GRAY)));
         tooltip.add(Text.translatable("tooltip.skyblock.mcd__steel_mace.tooltip2").setStyle(Style.EMPTY.withItalic(true).withFormatting(Formatting.GRAY)));
         SkyblockHelpers.appendMcdRarity(stack, tooltip);
+        tooltip.add(Text.translatable("tooltip.skyblock.mcd__powerful_combo").setStyle(Style.EMPTY.withFormatting(Formatting.GREEN).withItalic(true)));
         super.appendTooltip(stack, context, tooltip, type);
     }
     @Override

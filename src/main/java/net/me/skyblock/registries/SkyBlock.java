@@ -6,7 +6,10 @@ import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.me.skyblock.api.datafixer.DataFixer;
+import net.me.skyblock.api.skycore.InnerMod;
 import net.me.skyblock.entity.mobs.skyblock.OminousEvokerEntity;
+import net.me.skyblock.registries.v2.Abyss;
+import net.me.skyblock.registries.v2.Quark;
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
@@ -43,6 +46,10 @@ public class SkyBlock implements ModInitializer {
 	public static final ModCore MOD_CORE = ModCore.create("skyblock");
 	public static final String MOD_ID = "skyblock";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+
+	public static final InnerMod SKYBLOCK_INNERMOD = new net.me.skyblock.registries.v2.SkyBlock("skyblock");
+	public static final InnerMod ABYSS_INNERMOD = new Abyss("abyss");
+	public static final InnerMod QUARK_INNERMOD = new Quark("quark");
 	@Override
 	public void onInitialize() {
 		// Should never touch
@@ -51,6 +58,12 @@ public class SkyBlock implements ModInitializer {
 
 		GhostItemRegistries.registerGhostItems();
 		// Should never touch
+
+		// RegistryAPI v2
+		SKYBLOCK_INNERMOD.activate();
+		ABYSS_INNERMOD.activate();
+		QUARK_INNERMOD.activate();
+
 
 		DataFixer.register();
 

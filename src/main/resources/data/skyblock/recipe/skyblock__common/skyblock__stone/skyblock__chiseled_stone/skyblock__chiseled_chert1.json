@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "skyblock:skyblock__cobbled_chert_slab"
+    }
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "id": "skyblock:skyblock__chiseled_chert"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "skyblock:sp5__asteroid_residues"
+  },
+  "result": {
+    "count": 1,
+    "id": "skyblock:sp5__melted_residues"
+  }
+}

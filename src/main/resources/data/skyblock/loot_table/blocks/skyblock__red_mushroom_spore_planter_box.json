@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "skyblock:skyblock__red_mushroom_spore_planter_box"
+        }
+      ]
+    }
+  ]
+}

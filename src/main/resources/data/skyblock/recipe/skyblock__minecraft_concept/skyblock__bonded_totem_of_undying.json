@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "skyblock:skyblock__ominous_link"
+    }
+  ],
+  "result": {
+    "id": "skyblock:skyblock__bonded_totem_of_undying"
+  },
+  "show_notification": false
+}

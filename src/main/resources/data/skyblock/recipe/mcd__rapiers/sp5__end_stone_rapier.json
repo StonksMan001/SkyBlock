@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "id": "skyblock:sp5__end_stone_rapier"
+  }
+}

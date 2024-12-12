@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "skyblock:block/skyblock__pestilent_trophy"
+    },
+    "facing=north": {
+      "model": "skyblock:block/skyblock__pestilent_trophy",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "skyblock:block/skyblock__pestilent_trophy",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "skyblock:block/skyblock__pestilent_trophy",
+      "y": 180
+    }
+  }
+}

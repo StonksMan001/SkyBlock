@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:sugar_cane_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyblock:quark__sugar_cane_block"
+  }
+}

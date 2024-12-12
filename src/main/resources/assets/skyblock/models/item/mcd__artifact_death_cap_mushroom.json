@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "skyblock:item/mcd__artifact_death_cap_mushroom"
+  }
+}

@@ -18,10 +18,10 @@ java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to err
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
 Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.item.ItemGroup.getId()" because "itemGroup" is null
 	at net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents.modifyEntriesEvent(ItemGroupEvents.java:56)
-	at net.me.skyblock.blocks_and_items.ModItems.addToItemGroup(ModItems.java:148)
-	at net.me.skyblock.blocks_and_items.ModItems.addItemsToItemGroup(ModItems.java:130)
-	at net.me.skyblock.blocks_and_items.ModItems.registerModItems(ModItems.java:153)
-	at net.me.skyblock.SkyBlock.onInitialize(SkyBlock.java:20)
+	at net.me.skyblock.registries.SkyBlockRegistries.ItemRegistries.addToItemGroup(ModItems.java:148)
+	at net.me.skyblock.registries.SkyBlockRegistries.ItemRegistries.addItemsToItemGroup(ModItems.java:130)
+	at net.me.skyblock.registries.SkyBlockRegistries.ItemRegistries.registerModItems(ModItems.java:153)
+	at net.me.skyblock.registries.SkyBlock.onInitialize(SkyBlock.java:20)
 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
 	... 8 more
 

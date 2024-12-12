@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:music_disc_wither_storm_theme"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyblock:witherstorm__music_disc_witherstorm_theme"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.skyblock.wither_storm_theme"
+  },
+  "length_in_seconds": 187.0,
+  "sound_event": "skyblock:wither_storm_theme"
+}

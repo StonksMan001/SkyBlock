@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "skyblock:asteroid_residues",
+    "skyblock:enderite_ore",
+    "skyblock:enderite_block",
+
+    "skyblock:sp5__asteroid_residues",
+    "skyblock:sp5__enderite_ore",
+    "skyblock:sp5__enderite_block",
+    "skyblock:abyss__unstable_obsidian",
+    "skyblock:h__node",
+    "skyblock:mcd__ancient_gold_block"
+  ]
+}

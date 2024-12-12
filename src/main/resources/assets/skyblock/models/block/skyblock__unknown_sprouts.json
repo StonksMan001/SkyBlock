@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "skyblock:block/skyblock__unknown_sprouts"
+  }
+}

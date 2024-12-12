@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:bluishe_end_stone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyblock:sp5__bluishe_end_stone"
+  }
+}

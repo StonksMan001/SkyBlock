@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "skyblock:skyblock__frostslate_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "skyblock:skyblock__frostslate_brick_stairs"
+  }
+}

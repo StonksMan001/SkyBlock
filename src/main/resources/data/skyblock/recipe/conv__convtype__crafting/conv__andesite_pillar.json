@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:andesite_pillar"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyblock:quark__andesite_pillar"
+  }
+}

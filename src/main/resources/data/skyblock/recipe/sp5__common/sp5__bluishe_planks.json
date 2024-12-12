@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "skyblock:sp5__bluishe_stems"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "skyblock:sp5__bluishe_planks"
+  }
+}

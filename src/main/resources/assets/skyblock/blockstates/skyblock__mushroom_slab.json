@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/skyblock__mushroom_slab"
+    },
+    "type=double": {
+      "model": "skyblock:block/skyblock__mushroom_planks"
+    },
+    "type=top": {
+      "model": "skyblock:block/skyblock__mushroom_slab_top"
+    }
+  }
+}

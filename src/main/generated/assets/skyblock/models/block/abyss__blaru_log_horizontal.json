@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column_horizontal",
-  "textures": {
-    "end": "skyblock:block/abyss__blaru_log_top",
-    "side": "skyblock:block/abyss__blaru_log"
-  }
-}

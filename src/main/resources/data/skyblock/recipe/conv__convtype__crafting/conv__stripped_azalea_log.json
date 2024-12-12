@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:stripped_azalea_log"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyblock:flogical__stripped_azalea_log"
+  }
+}

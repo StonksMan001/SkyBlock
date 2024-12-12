@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "is_pulsing=true,pulse_type=1": { "model": "skyblock:block/skyblock__compressed_steel_pulsing_blue" },
+    "is_pulsing=true,pulse_type=2": { "model": "skyblock:block/skyblock__compressed_steel_pulsing_red" },
+    "is_pulsing=false": { "model": "skyblock:block/skyblock__compressed_steel" }
+  }
+}

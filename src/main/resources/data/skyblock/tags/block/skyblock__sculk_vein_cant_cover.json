@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#skyblock:skyblock__sculk_ground",
+    "#skyblock:skyblock__red_sculk_ground",
+    "#skyblock:bosc__dead_sculk_ground"
+  ]
+}

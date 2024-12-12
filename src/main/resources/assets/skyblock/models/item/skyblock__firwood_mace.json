@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:item/handheld_mace",
+  "textures": {
+    "layer0": "skyblock:item/skyblock__firwood_mace_green"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "green": 1
+      },
+      "model": "skyblock:item/skyblock__firwood_mace_green"
+    },{
+      "predicate": {
+        "orange": 1
+      },
+      "model": "skyblock:item/skyblock__firwood_mace_orange"
+    }
+  ]
+}

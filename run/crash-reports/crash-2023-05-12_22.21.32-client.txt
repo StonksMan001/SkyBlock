@@ -17,12 +17,12 @@ java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to err
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
 Caused by: java.lang.ExceptionInInitializerError
-	at net.me.skyblock.SkyBlock.onInitialize(SkyBlock.java:19)
+	at net.me.skyblock.registries.SkyBlock.onInitialize(SkyBlock.java:19)
 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
 	... 8 more
 Caused by: java.lang.IllegalArgumentException: Cannot get property BooleanProperty{name=lit, clazz=class java.lang.Boolean, values=[true, false]} as it does not exist in Block{minecraft:air}
 	at net.minecraft.state.State.get(State.java:98)
-	at net.me.skyblock.blocks_and_items.ModBlocks.lambda$static$0(ModBlocks.java:42)
+	at net.me.skyblock.registries.SkyBlockRegistries.BlockRegistries.lambda$static$0(ModBlocks.java:42)
 	at net.minecraft.block.AbstractBlock$AbstractBlockState.<init>(AbstractBlock.java:1129)
 	at net.minecraft.block.BlockState.<init>(BlockState.java:24)
 	at net.minecraft.state.StateManager.method_28484(StateManager.java:59)
@@ -31,7 +31,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot get property BooleanProper
 	at net.minecraft.state.StateManager.<init>(StateManager.java:57)
 	at net.minecraft.state.StateManager$Builder.build(StateManager.java:95)
 	at net.minecraft.block.Block.<init>(Block.java:282)
-	at net.me.skyblock.blocks_and_items.ModBlocks.<clinit>(ModBlocks.java:42)
+	at net.me.skyblock.registries.SkyBlockRegistries.BlockRegistries.<clinit>(ModBlocks.java:42)
 	... 10 more
 
 

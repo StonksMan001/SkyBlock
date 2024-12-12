@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "skyblock:flogical__azalea_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "skyblock:flogical__azalea_planks"
+  }
+}

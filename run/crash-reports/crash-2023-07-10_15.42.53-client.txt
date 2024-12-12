@@ -30,7 +30,7 @@ java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to e
 		at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
 		... 8 more
 Caused by: java.lang.ExceptionInInitializerError
-	at net.me.skyblock.SkyBlockClient.onInitializeClient(SkyBlockClient.java:20)
+	at net.me.skyblock.registries.SkyBlockClient.onInitializeClient(SkyBlockClient.java:20)
 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
 	... 8 more
 Caused by: java.lang.RuntimeException: Mixin transformation of net.minecraft.client.render.item.ItemRenderer failed

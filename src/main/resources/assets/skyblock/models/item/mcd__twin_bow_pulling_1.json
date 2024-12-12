@@ -2,33 +2,5 @@
     "parent": "item/bow",
     "textures": {
         "layer0": "skyblock:item/twin_bow_pulling_1"
-    },
-    "display": {
-        "thirdperson_righthand": {
-            "rotation": [-80, 260, -40],
-            "translation": [-1, -2, 2.5],
-            "scale": [2, 2, 1]
-        },
-        "thirdperson_lefthand": {
-            "rotation": [-80, -280, 40],
-            "translation": [-1, -2, 2.5],
-            "scale": [2, 2, 1]
-        },
-        "firstperson_righthand": {
-            "rotation": [0, -90, 25],
-            "translation": [1.13, 3.2, 1.13],
-            "scale": [2, 2, 1]
-        },
-        "firstperson_lefthand": {
-            "rotation": [0, 90, -25],
-            "translation": [1.13, 3.2, 1.13],
-            "scale": [2, 2, 1]
-        },
-        "gui": {
-            "scale": [1.75, 1.75, 1.75]
-        },
-        "fixed": {
-            "scale": [1.75, 1.75, 1.75]
-        }
     }
 }

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "skyblock:block/digpear__stripped_callery_log",
-    "side": "skyblock:block/digpear__stripped_callery_log"
-  }
-}

@@ -3,22 +3,170 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BookmarksViewState">
+    <option name="rewriteBookmarkType" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="v1.3.0 - Datagen frissítve">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__carved_dark_oak_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__carved_oak_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__carved_spruce_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate_brick_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate_brick_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/skyblock__frostslate_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__bluishe_bush.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__bluishe_fungus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_bush.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_flower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__end_fungus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_tables/blocks/sp5__ender_grass.json" afterDir="false" />
+    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.4.2 -">
+      <change afterPath="$PROJECT_DIR$/FINAL RELEASES/skyblock-1.4.2-1.21.1(client).jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FINAL RELEASES/skyblock-1.4.2-1.21.1(server).jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/brainrot/BrainrotCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/brainrot/BrainrotInfectionBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/brainrot/BrainrottenSandBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/brainrot/BrainrottenSoilBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/brainrot/GrimaceShakeBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/TanglyStoneBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/TanglyStoneSlabBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/TanglyStoneStairsBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v2/AbyssInnerMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v2/BackportInnerMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v2/CommonInnerMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v2/EnderiteAddonInnerMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v2/HalloweenInnerMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v2/MinecraftDungeonsInnerMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v2/QuarkInnerMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v2/SkyBlockInnerMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/brainrot__brainrot_core.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/brainrot__brainrotten_sand.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/brainrot__brainrotten_soil.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/brainrot__brainrotten_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/brainrot__grimace_shake.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__dried_tangly_cobblestone_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__dried_tangly_cobblestone_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__dried_tangly_stone_brick_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__dried_tangly_stone_brick_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__tangly_cobblestone_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__tangly_cobblestone_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__tangly_stone_brick_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__tangly_stone_brick_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/brainrot/brainrot_core.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/brainrot/brainrotten_sand.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/brainrot/brainrotten_soil.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/brainrot/brainrotten_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/brainrot/grimace_shake.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__dried_tangly_cobblestone_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__dried_tangly_cobblestone_slab_top.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__dried_tangly_cobblestone_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__dried_tangly_cobblestone_stairs_inner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__dried_tangly_cobblestone_stairs_outer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__dried_tangly_stone_brick_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__dried_tangly_stone_brick_slab_top.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__dried_tangly_stone_brick_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__dried_tangly_stone_brick_stairs_inner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__dried_tangly_stone_brick_stairs_outer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__tangly_cobblestone_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__tangly_cobblestone_slab_top.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__tangly_cobblestone_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__tangly_cobblestone_stairs_inner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__tangly_cobblestone_stairs_outer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__tangly_stone_brick_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__tangly_stone_brick_slab_top.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__tangly_stone_brick_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__tangly_stone_brick_stairs_inner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__tangly_stone_brick_stairs_outer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/brainrot__brainrot_core.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/brainrot__brainrotten_sand.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/brainrot__brainrotten_soil.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/brainrot__brainrotten_sprouts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/brainrot__grimace_shake.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__dried_tangly_cobblestone_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__dried_tangly_cobblestone_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__dried_tangly_stone_brick_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__dried_tangly_stone_brick_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__tangly_cobblestone_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__tangly_cobblestone_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__tangly_stone_brick_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/skyblock__tangly_stone_brick_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/brainrot/brainrot_core.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/brainrot/brainrotten_sand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/brainrot/brainrotten_soil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/brainrot/brainrotten_sprouts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/brainrot/grimace_shake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__chert_brick_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__chert_brick_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__chert_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__chert_pillar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__chiseled_chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__cobbled_chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__cobbled_chert_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__cobbled_chert_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__dried_tangly_cobblestone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__dried_tangly_cobblestone_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__dried_tangly_cobblestone_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__dried_tangly_stone_brick_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__dried_tangly_stone_brick_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__dried_tangly_stone_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__polished_chert.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__polished_chert_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__polished_chert_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__tangly_cobblestone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__tangly_cobblestone_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__tangly_cobblestone_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__tangly_stone_brick_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__tangly_stone_brick_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__tangly_stone_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/quark__common/quark__stone/quark__stairs_and_slabs/stone_brick/quark__andesite_brick_slab3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/quark__common/quark__stone/quark__stairs_and_slabs/stone_brick/quark__andesite_brick_stairs3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/quark__common/quark__stone/quark__stairs_and_slabs/stone_brick/quark__calcite_brick_slab3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/quark__common/quark__stone/quark__stairs_and_slabs/stone_brick/quark__calcite_brick_stairs3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/quark__common/quark__stone/quark__stairs_and_slabs/stone_brick/quark__diorite_brick_slab3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/quark__common/quark__stone/quark__stairs_and_slabs/stone_brick/quark__diorite_brick_stairs3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/quark__common/quark__stone/quark__stairs_and_slabs/stone_brick/quark__dripstone_brick_slab3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/quark__common/quark__stone/quark__stairs_and_slabs/stone_brick/quark__dripstone_brick_stairs3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/quark__common/quark__stone/quark__stairs_and_slabs/stone_brick/quark__granite_brick_slab3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/quark__common/quark__stone/quark__stairs_and_slabs/stone_brick/quark__granite_brick_stairs3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__dried_tangly_cobblestone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__dried_tangly_stone_bricks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__bricks/skyblock__chert_bricks1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__bricks/skyblock__chert_bricks2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__chiseled_stone/skyblock__chiseled_chert1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__chiseled_stone/skyblock__chiseled_chert2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__pillars/skyblock__chert_pillar1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__pillars/skyblock__chert_pillar2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__polished_stone/skyblock__polished_chert1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__polished_stone/skyblock__polished_chert2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/polished_stone/skyblock__polished_chert_slab1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/polished_stone/skyblock__polished_chert_slab2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/polished_stone/skyblock__polished_chert_stairs1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/polished_stone/skyblock__polished_chert_stairs2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__cobbled_chert_slab1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__cobbled_chert_slab2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__cobbled_chert_stairs1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__cobbled_chert_stairs2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__dried_tangly_cobblestone_slab1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__dried_tangly_cobblestone_slab2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__dried_tangly_cobblestone_stairs1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__dried_tangly_cobblestone_stairs2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__dried_tangly_stone_brick_slab1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__dried_tangly_stone_brick_slab2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__dried_tangly_stone_brick_stairs1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__dried_tangly_stone_brick_stairs2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__tangly_cobblestone_slab1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__tangly_cobblestone_slab2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__tangly_cobblestone_stairs1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__tangly_cobblestone_stairs2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__tangly_stone_brick_slab1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__tangly_stone_brick_slab2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__tangly_stone_brick_stairs1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone/skyblock__tangly_stone_brick_stairs2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone_brick/skyblock__chert_brick_slab1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone_brick/skyblock__chert_brick_slab2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone_brick/skyblock__chert_brick_slab3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone_brick/skyblock__chert_brick_stairs1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone_brick/skyblock__chert_brick_stairs2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__stone/skyblock__stairs_and_slabs/stone_brick/skyblock__chert_brick_stairs3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__tangly_cobblestone1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__tangly_cobblestone2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__tangly_stone_bricks1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/skyblock__common/skyblock__tangly_stone_bricks2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/tags/item/skyblock__chert_pillar_craftable_from.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SkyBlockMod_Main(1.21.1).main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/SkyBlockMod_Main(1.21.1).main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
@@ -29,10 +177,70 @@
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks_and_items/ModCreativeInventoryGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_iron_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_iron_tool.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/datagen/SkyBlockDataGenerators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/datagen/SkyBlockDataGenerators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/AbstractClientPlayerEntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/AbstractClientPlayerEntityMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ChorusPlantBlockMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ChorusPlantBlockMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/CrossBowItemMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/CrossBowItemMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ItemGroupsMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/ItemGroupsMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/LivingEntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/LivingEntityMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/PaneBlockMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/PaneBlockMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/SculkVeinGrowCheckerMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/SculkVeinGrowCheckerMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/StainedGlassBlockMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/StainedGlassBlockMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/TransparentBlockMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/mixin/TransparentBlockMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/MultiModRegistryGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/MultiModRegistryGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/SkyblockHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/api/skycore/SkyblockHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/block_entities/mcd/PopFlowerBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/block_entities/mcd/PopFlowerBlockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/block_entities/mcd/echoing_void/VoidBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/block_entities/mcd/echoing_void/VoidBlockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/block_entities/skyblock/AncientPedestalBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/block_entities/skyblock/AncientPedestalBlockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/abyss/AbyssVegetation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/abyss/AbyssVegetation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/abyss/BlueVigilantGrass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/abyss/BlueVigilantGrass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/abyss/YoungExoliusMaximus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/abyss/YoungExoliusMaximus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/end/BluisheLightStemBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/end/BluisheLightStemBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/end/EndFlower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/end/EndFlower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/end/EndVegetation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/end/EndVegetation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/mcd/PopFlowerBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/mcd/PopFlowerBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/AncientPedestalBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/AncientPedestalBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/BoggedWoodBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/BoggedWoodBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/EmptySporePlanterBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/EmptySporePlanterBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/SporePlanterBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/SporePlanterBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/SuspiciousCoarseDirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/SuspiciousCoarseDirt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/crops/BlueberryBush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/crops/BlueberryBush.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/crops/ChilliPepperBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/crops/ChilliPepperBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/crops/PuffballMushroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/crops/PuffballMushroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/crops/PuffballMushroomBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/crops/PuffballMushroomBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/vegetations/UnknownInfectionFamily.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/vegetations/unknown/UnknownDirt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/vegetations/unknown/UnknownDirtNylium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/blocks/skyblock/vegetations/unknown/UnknownVegetation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/client/VoidBlockEntityRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/client/VoidBlockEntityRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/client/gui/screen_handlers/AncientPedestalScreenHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/client/gui/screen_handlers/AncientPedestalScreenHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/entity/mobs/mcd/WispEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/entity/mobs/mcd/WispEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/DeathCapMushroomItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/DeathCapMushroomItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/IronSkinItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_artifact/IronSkinItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_meele/RoughDiamondSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_meele/RoughDiamondSword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_meele/SteelMace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_meele/SteelMace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/AutoCrossbowItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/AutoCrossbowItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/TwinBowItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/mcd/mcd_ranged/TwinBowItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/util/AnomaliteArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/items/util/AnomaliteArmorItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/ArchivedRegistries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v1/ArchivedRegistries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/GhostItemRegistries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v1/GhostItemRegistries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockDataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/SkyBlockRegistries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v1/SkyBlockRegistries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v2/Abyss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v2/Quark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/registries/v2/SkyBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock/server/UniversalAncientPedestalOffers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock/server/UniversalAncientPedestalOffers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/models/armor/aberythe_layer_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/models/armor/abyss__aberythe_layer_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/models/armor/aberythe_layer_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/models/armor/abyss__aberythe_layer_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/models/armor/enderite_layer_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/models/armor/sp5__enderite_layer_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/models/armor/enderite_layer_1_e.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/models/armor/sp5__enderite_layer_1_e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/models/armor/enderite_layer_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/models/armor/sp5__enderite_layer_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/models/armor/enderite_layer_2_e.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/models/armor/sp5__enderite_layer_2_e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,16 +263,22 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SkyBlockMod_Main" type="f1a62948:ProjectNode" />
+                <item name="SkyBlockMod_Main(1.21.1)" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SkyBlockMod_Main" type="f1a62948:ProjectNode" />
+                <item name="SkyBlockMod_Main(1.21.1)" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SkyBlockMod_Main" type="f1a62948:ProjectNode" />
+                <item name="SkyBlockMod_Main(1.21.1)" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SkyBlockMod_Main(1.21.1)" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="fabric" type="c8890929:TasksNode$1" />
               </path>
@@ -78,53 +292,155 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
+        <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2-sources.jar!/net/minecraft/block/Blocks.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2-sources.jar!/net/minecraft/client/gui/screen/ingame/BookEditScreen.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2-sources.jar!/net/minecraft/entity/player/PlayerEntity.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2-sources.jar!/net/minecraft/item/Items.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2-sources.jar!/net/minecraft/item/WritableBookItem.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2/minecraft-merged-project-root-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.3-v2-sources.jar!/net/minecraft/item/WrittenBookItem.java" root0="FORCE_HIGHLIGHTING" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2ZiNbwtYP2p4qIh3AelJi8Tgy7G" />
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;StonksMan001&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/StonksMan001/SkyBlock.git&quot;,
+    &quot;accountId&quot;: &quot;8fffe1ea-efd2-436d-9446-922da2a8a212&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2mNmCLGYE7WOLG2aSscCWXirIC7" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaVariableFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/SONY/MODS_2/SkyBlockMod_Main/src/main/resources/assets/skyblock/models/block&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.SkyBlockMod_Main(1.21.1) [build].executor": "Run",
+    "Gradle.SkyBlockMod_Main(1.21.1) [jar].executor": "Run",
+    "Gradle.SkyBlockMod_Main(1.21.1) [remapJar].executor": "Run",
+    "Gradle.SkyBlockMod_Main(1.21.1) [runClient].executor": "Run",
+    "Gradle.SkyBlockMod_Main(1.21.1) [runDatagen].executor": "Run",
+    "Gradle.SkyBlockMod_Main(1.21.1) [runServer].executor": "Run",
+    "JavaClassFindUsagesOptions.isDerivedClasses": "true",
+    "JavaClassFindUsagesOptions.isFieldsUsages": "true",
+    "JavaClassFindUsagesOptions.isMethodsUsages": "true",
+    "JavaVariableFindUsagesOptions.isSearchForAccessors": "true",
+    "JavaVariableFindUsagesOptions.isSearchForTextOccurrences": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "#4 on master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/SONY/MODS_2/SkyBlockMod_Main(1.21.1)/FINAL RELEASES",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "settings.sync"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\block" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\textures\block" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\asset, data factory" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\models\item" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\assets\skyblock\blockstates" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\FINAL RELEASES" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\asset, data factory" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe\skyblock__common\skyblock__stone\skyblock__stairs_and_slabs\stone" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe\skyblock__common" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main\src\main\resources\data\skyblock\recipes\abyss__common" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe\skyblock__common\skyblock__stone\skyblock__stairs_and_slabs\stone" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe\skyblock__common" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\block\brainrot" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\asset, data factory" />
+      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\loot_table\blocks" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="net.me.skyblock.registries" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.me.skyblock.blocks.brainrot" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SkyBlockMod_Main [runClient]">
-    <configuration name="SkyBlockMod_Main [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SkyBlockMod_Main(1.21.1) [build]">
+    <configuration name="SkyBlockMod_Main(1.21.1) [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SkyBlockMod_Main(1.21.1) [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SkyBlockMod_Main(1.21.1) [remapJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--debug" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="remapJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SkyBlockMod_Main(1.21.1) [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,9 +459,10 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SkyBlockMod_Main [runDatagen]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SkyBlockMod_Main(1.21.1) [runDatagen]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,152 +481,460 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SkyBlockMod_Main [runClient]" />
-        <item itemvalue="Gradle.SkyBlockMod_Main [runDatagen]" />
+        <item itemvalue="Gradle.SkyBlockMod_Main(1.21.1) [build]" />
+        <item itemvalue="Gradle.SkyBlockMod_Main(1.21.1) [runClient]" />
+        <item itemvalue="Gradle.SkyBlockMod_Main(1.21.1) [jar]" />
+        <item itemvalue="Gradle.SkyBlockMod_Main(1.21.1) [remapJar]" />
+        <item itemvalue="Gradle.SkyBlockMod_Main(1.21.1) [runDatagen]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="28f0fe96-0c6f-4374-bb78-ce7aa9cfb16c" name="Changes" comment="" />
-      <created>1702901014958</created>
+      <changelist id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="" />
+      <created>1726925280281</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1702901014958</updated>
+      <updated>1726925280281</updated>
     </task>
-    <task id="LOCAL-00001" summary="v1.3.0 - 2 Új MixinClass: BookEditScreenMixin, WrittenBookItemMixin">
-      <created>1702988303707</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1702988303707</updated>
-    </task>
-    <task id="LOCAL-00002" summary="v1.3.0 - &quot;written_book&quot; item title attribute mostmár 20 karakter max hosszal rendelkezik (előtte 15)">
-      <created>1702988452583</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1702988452583</updated>
-    </task>
-    <task id="LOCAL-00003" summary="v1.3.0 - 2 Új PredicateProviderRegistry">
-      <created>1703083860858</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1703083860858</updated>
-    </task>
-    <task id="LOCAL-00004" summary="v1.3.0 - Build for 1.20.4">
-      <created>1703167124319</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1703167124319</updated>
-    </task>
-    <task id="LOCAL-00005" summary="v1.3.0 - Common Item Tag Crying Obsidianoknak">
-      <created>1703332538377</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1703332538377</updated>
-    </task>
-    <task id="LOCAL-00006" summary="v1.3.0 - Obsidian-Blue Obsidian átváltó recept">
-      <created>1703333569465</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1703333569465</updated>
-    </task>
-    <task id="LOCAL-00007" summary="v1.3.0 - .json file fixek">
-      <created>1703502292041</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1703502292041</updated>
-    </task>
-    <task id="LOCAL-00008" summary="v1.3.0 - 15 Item az Enderite Addonból átportolva:&#10;End Wood, Bluishe Wood és Endstone toolset. &#10;End és Bluishe wood a normál Stone tool-okkal megegyezik&#10;Endstone toolok az Iron toolokkal egyeznek">
-      <created>1703509988710</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1703509988710</updated>
-    </task>
-    <task id="LOCAL-00009" summary="v1.3.0 - Hiányzó model ID prefixumok kijavítva">
-      <created>1703510237110</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1703510237110</updated>
-    </task>
-    <task id="LOCAL-00010" summary="v1.3.0 - Emmisive textúrák a Bluishe itemekne">
-      <created>1703511201099</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1703511201099</updated>
-    </task>
-    <task id="LOCAL-00011" summary="v1.3.0 - Bluishe toolset buff">
-      <created>1703511228605</created>
+    <task id="LOCAL-00011" summary="v1.4.1 - helytelen gamerule elnevezés fix">
+      <option name="closed" value="true" />
+      <created>1728822469571</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1703511228605</updated>
+      <updated>1728822469571</updated>
     </task>
-    <task id="LOCAL-00012" summary="v1.3.0 - recipe .json fileok az új itemeknek">
-      <created>1703589691858</created>
+    <task id="LOCAL-00012" summary="v1.4.1 - fishing rod nem működik bugfix">
+      <option name="closed" value="true" />
+      <created>1729425457606</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1703589691858</updated>
+      <updated>1729425457606</updated>
     </task>
-    <task id="LOCAL-00013" summary="v1.3.0 - lang .json fájlok frissítve">
-      <created>1703607684464</created>
+    <task id="LOCAL-00013" summary="v1.4.1 - WrittenBookItem enchantment glint bugfix">
+      <option name="closed" value="true" />
+      <created>1729427967286</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1703607684464</updated>
+      <updated>1729427967286</updated>
     </task>
-    <task id="LOCAL-00014" summary="v1.3.0 - Datagen frissítve">
-      <created>1703681192970</created>
+    <task id="LOCAL-00014" summary="v1.4.1 - .gitignore update">
+      <option name="closed" value="true" />
+      <created>1729427994127</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1703681192970</updated>
+      <updated>1729427994127</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="v1.4.1 - .gitignore update">
+      <option name="closed" value="true" />
+      <created>1729428022914</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729428022914</updated>
+    </task>
+    <task id="LOCAL-00016" summary="v1.4.1 - pár kicsi változtatás">
+      <option name="closed" value="true" />
+      <created>1729762189940</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1729762189940</updated>
+    </task>
+    <task id="LOCAL-00017" summary="v1.4.1 - Registry class-ok átrendezve, így talán átláthatóbb lesz">
+      <option name="closed" value="true" />
+      <created>1729765795624</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1729765795624</updated>
+    </task>
+    <task id="LOCAL-00018" summary="v1.4.1 - workspace fileok átrendezés">
+      <option name="closed" value="true" />
+      <created>1729765973473</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1729765973473</updated>
+    </task>
+    <task id="LOCAL-00019" summary="v1.4.1 - .gitignore update">
+      <option name="closed" value="true" />
+      <created>1729766726125</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1729766726125</updated>
+    </task>
+    <task id="LOCAL-00020" summary="v1.4.1 - IronSkinItem tooltip decription mostmár könnyebben megkülönböztethető az item nevétől, mert világosszürke színű nem pedig ugyanolyan fehér mint maga az item neve">
+      <option name="closed" value="true" />
+      <created>1729770703888</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1729770703888</updated>
+    </task>
+    <task id="LOCAL-00021" summary="v1.4.1 - Spore Planter Box blokkok és új gomba fajták">
+      <option name="closed" value="true" />
+      <created>1730194526537</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1730194526537</updated>
+    </task>
+    <task id="LOCAL-00022" summary="v1.4.1 - Torch of Lunacy trófea item">
+      <option name="closed" value="true" />
+      <created>1730315742918</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1730315742918</updated>
+    </task>
+    <task id="LOCAL-00023" summary="v1.4.1 - MapColor értékek a BlockRegistry-knek">
+      <option name="closed" value="true" />
+      <created>1730320801565</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1730320801565</updated>
+    </task>
+    <task id="LOCAL-00024" summary="v1.4.1 - .jar file">
+      <option name="closed" value="true" />
+      <created>1730321450820</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1730321450820</updated>
+    </task>
+    <task id="LOCAL-00025" summary="v1.4.1 - en_us.json lang fájl fixek">
+      <option name="closed" value="true" />
+      <created>1731327457097</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1731327457098</updated>
+    </task>
+    <task id="LOCAL-00026" summary="v1.4.1 - TrophyItemek mostantól csak PARENT_TAB-ban látszanak">
+      <option name="closed" value="true" />
+      <created>1731327618774</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1731327618774</updated>
+    </task>
+    <task id="LOCAL-00027" summary="v1.4.2 - modverzió 1.4.2">
+      <option name="closed" value="true" />
+      <created>1731406022987</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1731406022987</updated>
+    </task>
+    <task id="LOCAL-00028" summary="v1.4.2 - SkyBlockRegistries.ItemRegistries.SKYBLOCK__FIRWOOD_MACE attack speed-je (eddig 0.75f) mostantól megegyezik az Items.MACE (vanilla mace) attack speed-jével (0.6f)">
+      <option name="closed" value="true" />
+      <created>1731447484072</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1731447484072</updated>
+    </task>
+    <task id="LOCAL-00029" summary="v1.4.2 - &quot;skyblock:skyblock__lightning_sword&quot; recipe és texture változtatás">
+      <option name="closed" value="true" />
+      <created>1731489383678</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1731489383678</updated>
+    </task>
+    <task id="LOCAL-00030" summary="v1.4.2 - &quot;skyblock__firwood_mace&quot; sebzés nerf (10ről 9re)">
+      <option name="closed" value="true" />
+      <created>1731493558252</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1731493558252</updated>
+    </task>
+    <task id="LOCAL-00031" summary="v1.4.2 - &quot;mcd__twin_bow&quot; új textúra">
+      <option name="closed" value="true" />
+      <created>1731493601502</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1731493601502</updated>
+    </task>
+    <task id="LOCAL-00032" summary="v1.4.2 - Frissített EnchantmentAPI">
+      <option name="closed" value="true" />
+      <created>1731509371324</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1731509371324</updated>
+    </task>
+    <task id="LOCAL-00033" summary="v1.4.2 - Iron Skin több sound effect">
+      <option name="closed" value="true" />
+      <created>1731591711974</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1731591711974</updated>
+    </task>
+    <task id="LOCAL-00034" summary="v1.4.2 - McdItem-ek mostantól könnyebben megkülönböztethetőek a világoskék itembar színük miatt">
+      <option name="closed" value="true" />
+      <created>1731591800390</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1731591800390</updated>
+    </task>
+    <task id="LOCAL-00035" summary="v1.4.2 - TwinBowItem tooltip fordítások">
+      <option name="closed" value="true" />
+      <created>1731591833319</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1731591833319</updated>
+    </task>
+    <task id="LOCAL-00036" summary="v1.4.2 - TwinBowItem teljesen kidolgozott behaviour + beépített Bonus Shot enchantment">
+      <option name="closed" value="true" />
+      <created>1731591892620</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1731591892620</updated>
+    </task>
+    <task id="LOCAL-00037" summary="v1.4.2 - &quot;mcd__twin_bow&quot; és &quot;mcd__auto_crossbow&quot; mostmár Rarity.EPIC rarity kategóriába tartozik">
+      <option name="closed" value="true" />
+      <created>1731592055209</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1731592055209</updated>
+    </task>
+    <task id="LOCAL-00038" summary="v1.4.2 - &quot;mcd__twin_bow&quot; egyedi &quot;shoot&quot; sund effectek az MCD-ből">
+      <option name="closed" value="true" />
+      <created>1731592737064</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1731592737064</updated>
+    </task>
+    <task id="LOCAL-00039" summary="v1.4.2 - Mixin a TwinBow foveffect-jéhez">
+      <option name="closed" value="true" />
+      <created>1731596961943</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1731596961943</updated>
+    </task>
+    <task id="LOCAL-00040" summary="v1.4.2 - Még kifonomultabb TwinBowItem működés">
+      <option name="closed" value="true" />
+      <created>1731615840877</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1731615840877</updated>
+    </task>
+    <task id="LOCAL-00041" summary="v1.4.2 - bugfix: Bonus Shot enchantment megpróbál spectator playerekre lőni">
+      <option name="closed" value="true" />
+      <created>1731618318493</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1731618318493</updated>
+    </task>
+    <task id="LOCAL-00042" summary="v1.4.2 - IronSkinItem-nek mostmár van egy egyedi Toggle finkciója (akárcsak a TwinBowItem-nek) amivel lehet állítani hogy más játékosokra is kifejtse hatását">
+      <option name="closed" value="true" />
+      <created>1731618406743</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1731618406743</updated>
+    </task>
+    <task id="LOCAL-00043" summary="v1.4.2 - bugfix: ItemStack enkódolási problémák helytelen PersistentProjectileEntity cast miatt">
+      <option name="closed" value="true" />
+      <created>1731675365943</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1731675365943</updated>
+    </task>
+    <task id="LOCAL-00044" summary="v1.4.2 - namespace updatek">
+      <option name="closed" value="true" />
+      <created>1731675389564</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1731675389564</updated>
+    </task>
+    <task id="LOCAL-00045" summary="v1.4.2 - külön interface helper methodoknak">
+      <option name="closed" value="true" />
+      <created>1731675421327</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1731675421327</updated>
+    </task>
+    <task id="LOCAL-00046" summary="v1.4.2 - bugfix: AutoCrossbowItem hibás renderelés fps és tps-ben">
+      <option name="closed" value="true" />
+      <created>1731675466728</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1731675466728</updated>
+    </task>
+    <task id="LOCAL-00047" summary="v1.4.2 - mixin .json update">
+      <option name="closed" value="true" />
+      <created>1731675479828</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1731675479828</updated>
+    </task>
+    <task id="LOCAL-00048" summary="v1.4.2 - mégtöbb namespace változtatás">
+      <option name="closed" value="true" />
+      <created>1731675551395</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1731675551395</updated>
+    </task>
+    <task id="LOCAL-00049" summary="v1.4.2 - McdRarity API">
+      <option name="closed" value="true" />
+      <created>1731678868400</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1731678868400</updated>
+    </task>
+    <task id="LOCAL-00050" summary="v1.4.2 - IronSkinItem McdRarity API használatával mostmár lehet McdRarity.RARE vagy McdRarity.COMMON (és az eredeti értékeken is buffoltam egy kicsit)">
+      <option name="closed" value="true" />
+      <created>1731678959732</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1731678959733</updated>
+    </task>
+    <task id="LOCAL-00051" summary="v1.4.2 - AutoCrossbowItem behaviour + Accelerate enchantment">
+      <option name="closed" value="true" />
+      <created>1731688924516</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1731688924516</updated>
+    </task>
+    <task id="LOCAL-00052" summary="v1.4.2 - RoughDiamondSword + beépített Sharpness enchant">
+      <option name="closed" value="true" />
+      <created>1732450139276</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1732450139276</updated>
+    </task>
+    <task id="LOCAL-00053" summary="v1.4.2 - &quot;mcd__ancient_gold_ingot&quot; + &quot;mcd__ancient_gold_block&quot;">
+      <option name="closed" value="true" />
+      <created>1732451312690</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1732451312690</updated>
+    </task>
+    <task id="LOCAL-00054" summary="v1.4.2 - bugfix: itemek nem enchantolhatóak survival módban">
+      <option name="closed" value="true" />
+      <created>1732451385763</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1732451385764</updated>
+    </task>
+    <task id="LOCAL-00055" summary="v1.4.2 - &quot;mcd__artifact_death_cap_mushroom&quot; item saját funkciókal">
+      <option name="closed" value="true" />
+      <created>1732451443575</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1732451443576</updated>
+    </task>
+    <task id="LOCAL-00056" summary="v1.4.2 - &quot;mcd__steel_mace&quot; item + egyedi funkciók">
+      <option name="closed" value="true" />
+      <created>1732451610358</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1732451610358</updated>
+    </task>
+    <task id="LOCAL-00057" summary="v1.4.2 - SkyBlockRegistries.java mostantól deprekálva van (sadge), nem volt túlságosan hosszú életű, helyét majd egy még átláthatóbb rendszer és a MultiModRegistryGroup.java fogja átvenni amelyben már az internális modok is külön namespacekbe lesznek csoportosítva">
+      <option name="closed" value="true" />
+      <created>1733343520435</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1733343520435</updated>
+    </task>
+    <task id="LOCAL-00058" summary="v1.4.2 - .gitignore update">
+      <option name="closed" value="true" />
+      <created>1734000242529</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1734000242529</updated>
+    </task>
+    <task id="LOCAL-00059" summary="v1.4.2 - .gitignore update">
+      <option name="closed" value="true" />
+      <created>1734000412669</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1734000412669</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="v1.3.0 - 2 Új MixinClass: BookEditScreenMixin, WrittenBookItemMixin" />
-    <MESSAGE value="v1.3.0 - &quot;written_book&quot; item title attribute mostmár 20 karakter max hosszal rendelkezik (előtte 15)" />
-    <MESSAGE value="v1.3.0 - 2 Új PredicateProviderRegistry" />
-    <MESSAGE value="v1.3.0 - Build for 1.20.4" />
-    <MESSAGE value="v1.3.0 - Common Item Tag Crying Obsidianokank" />
-    <MESSAGE value="v1.3.0 - Common Item Tag Crying Obsidianoknak" />
-    <MESSAGE value="v1.3.0 - Obsidian-Blue Obsidian átváltó recept" />
-    <MESSAGE value="v1.3.0 - .json file fixek" />
-    <MESSAGE value="v1.3.0 - 15 Item az Enderite Addonból átportolva:&#10;End Wood, Bluishe Wood és Endstone toolset. &#10;End és Bluishe wood a normál Stone tool-okkal megegyezik&#10;Endstone toolok az Iron toolokkal egyeznek" />
-    <MESSAGE value="v1.3.0 - Hiányzó model ID prefixumok kijavítva" />
-    <MESSAGE value="v1.3.0 - Emmisive textúrák a Bluishe itemekne" />
-    <MESSAGE value="v1.3.0 - Bluishe toolset buff" />
-    <MESSAGE value="v1.3.0 - recipe .json fileok az új itemeknek" />
-    <MESSAGE value="v1.3.0 - lang .json fájlok frissítve" />
-    <MESSAGE value="v1.3.0 - Datagen frissítve" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.3.0 - Datagen frissítve" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/build.gradle</url>
-          <line>75</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1.4.2 - McdItem-ek mostantól könnyebben megkülönböztethetőek a világoskék itembar színük miatt" />
+    <MESSAGE value="v1.4.2 - TwinBowItem tooltip fordítások" />
+    <MESSAGE value="v1.4.2 - TwinBowItem teljesen kidolgozott behaviour + beépített Bonus Shot enchantment" />
+    <MESSAGE value="v1.4.2 - &quot;mcd__twin_bow&quot; és &quot;mcd__auto_crossbow&quot; mostmár Rarity.EPIC rarity kategóriába tartozik" />
+    <MESSAGE value="v1.4.2 - &quot;mcd__twin_bow&quot; egyedi &quot;shoot&quot; sund effectek az MCD-ből" />
+    <MESSAGE value="v1.4.2 - Mixin a TwinBow foveffect-jéhez" />
+    <MESSAGE value="v1.4.2 - Még kifonomultabb TwinBowItem működés" />
+    <MESSAGE value="v1.4.2 - bugfix: Bonus Shot enchantment megpróbál spectator playerekre lőni" />
+    <MESSAGE value="v1.4.2 - IronSkinItem-nek mostmár van egy egyedi Toggle finkciója (akárcsak a TwinBowItem-nek) amivel lehet állítani hogy más játékosokra is kifejtse hatását" />
+    <MESSAGE value="v1.4.2 - bugfix: ItemStack enkódolási problémák helytelen PersistentProjectileEntity cast miatt" />
+    <MESSAGE value="v1.4.2 - namespace updatek" />
+    <MESSAGE value="v1.4.2 - külön interface helper methodoknak" />
+    <MESSAGE value="v1.4.2 - bugfix: AutoCrossbowItem hibás renderelés fps és tps-ben" />
+    <MESSAGE value="v1.4.2 - mixin .json update" />
+    <MESSAGE value="v1.4.2 - mégtöbb namespace változtatás" />
+    <MESSAGE value="v1.4.2 - McdRarity API" />
+    <MESSAGE value="v1.4.2 - IronSkinItem McdRarity API használatával mostmár lehet McdRarity.RARE vagy McdRarity.COMMON (és az eredeti értékeken is buffoltam egy kicsit)" />
+    <MESSAGE value="v1.4.2 - AutoCrossbowItem behaviour + Accelerate enchantment" />
+    <MESSAGE value="v1.4.2 - RoughDiamondSword + beépített Sharpness enchant" />
+    <MESSAGE value="v1.4.2 - &quot;mcd__ancient_gold_ingot&quot; + &quot;mcd__ancient_gold_block&quot;" />
+    <MESSAGE value="v1.4.2 - bugfix: itemek nem enchantolhatóak survival módban" />
+    <MESSAGE value="v1.4.2 - &quot;mcd__artifact_death_cap_mushroom&quot; item saját funkciókal" />
+    <MESSAGE value="v1.4.2 - &quot;mcd__steel_mace&quot; item + egyedi funkciók" />
+    <MESSAGE value="v1.4.2 - SkyBlockRegistries.java mostantól deprekálva van (sadge), nem volt túlságosan hosszú életű, helyét majd egy még átláthatóbb rendszer és a MultiModRegistryGroup.java fogja átvenni amelyben már az internális modok is külön namespacekbe lesznek csoportosítva" />
+    <MESSAGE value="v1.4.2 - .gitignore update" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.4.2 - .gitignore update" />
   </component>
 </project>

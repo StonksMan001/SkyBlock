@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "type=default": {
+      "model": "skyblock:block/skyblock__ancient_pedestal"
+    },
+    "type=with_ancient_gold,occupied_slots=1": {
+      "model": "skyblock:block/skyblock__ancient_pedestal_with_ancient_gold1"
+    },
+    "type=with_ancient_gold,occupied_slots=2": {
+      "model": "skyblock:block/skyblock__ancient_pedestal_with_ancient_gold2"
+    },
+    "type=with_ancient_gold,occupied_slots=3": {
+      "model": "skyblock:block/skyblock__ancient_pedestal_with_ancient_gold3"
+    }
+  }
+}

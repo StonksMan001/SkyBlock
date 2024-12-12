@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyblock:block/skyblock__ancient_pedestal_top",
+    "side": "skyblock:block/skyblock__ancient_pedestal"
+  }
+}

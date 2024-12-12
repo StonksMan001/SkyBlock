@@ -1,8 +1,6 @@
 package net.me.skyblock.api.mixin;
 
-import net.me.skyblock.blocks_and_items.ModBlocks;
-import net.me.skyblock.blocks_and_items.ModItems;
-import net.me.skyblock.blocks_and_items.items.util.GhostItems;
+import net.me.skyblock.registries.v1.GhostItemRegistries;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
@@ -10,18 +8,13 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Mutable;
 import org.spongepowered.asm.mixin.Shadow;
-import org.spongepowered.asm.mixin.gen.Accessor;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.ModifyArg;
-import org.spongepowered.asm.mixin.injection.Slice;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.Objects;
-import java.util.function.Supplier;
+
 @Mixin(ItemGroups.class)
 public abstract class ItemGroupsMixin {
     @Shadow @Final public static RegistryKey<ItemGroup> BUILDING_BLOCKS;
@@ -41,11 +34,11 @@ public abstract class ItemGroupsMixin {
 
     @Inject(method = "registerAndGetDefault(Lnet/minecraft/registry/Registry;)Lnet/minecraft/item/ItemGroup;", at=@At("RETURN"))
     private static void setCustomIconSupplier(Registry<ItemGroup> registry, CallbackInfoReturnable<ItemGroup> cir) {
-        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(BUILDING_BLOCKS))).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V1));
-        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(COLORED_BLOCKS))).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V2));
-        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(NATURAL))).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V3));
-        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(FUNCTIONAL))).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V4));
-        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(REDSTONE))).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V5));
+        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(BUILDING_BLOCKS))).setIconSupplier(() -> new ItemStack(GhostItemRegistries.Z__LOGO_V1));
+        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(COLORED_BLOCKS))).setIconSupplier(() -> new ItemStack(GhostItemRegistries.Z__LOGO_V2));
+        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(NATURAL))).setIconSupplier(() -> new ItemStack(GhostItemRegistries.Z__LOGO_V3));
+        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(FUNCTIONAL))).setIconSupplier(() -> new ItemStack(GhostItemRegistries.Z__LOGO_V4));
+        ((ItemGroupIconSupplierAccessor) Objects.requireNonNull(registry.get(REDSTONE))).setIconSupplier(() -> new ItemStack(GhostItemRegistries.Z__LOGO_V5));
 
         /*((ItemGroupIconSupplierAccessor)registry.get(HOTBAR)).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V6));
         ((ItemGroupIconSupplierAccessor)registry.get(SEARCH)).setIconSupplier(() -> new ItemStack(GhostItems.Z__LOGO_V6));

@@ -1,7 +1,7 @@
 package net.me.skyblock.api.mixin;
 
 import net.me.skyblock.items.mcd.mcd_ranged.AutoCrossbowItem;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.CrossbowItem;
 import net.minecraft.item.ItemStack;

@@ -4,8 +4,6 @@ import net.me.skyblock.api.skycore.GrindStoneExperienceNotDropping;
 import net.me.skyblock.api.skycore.SkyblockHelpers;
 import net.me.skyblock.api.skycore.ToolAPI;
 import net.me.skyblock.items.mcd.McdItem;
-import net.me.skyblock.registries.SkyBlock;
-import net.me.skyblock.registries.SkyBlockRegistries;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;

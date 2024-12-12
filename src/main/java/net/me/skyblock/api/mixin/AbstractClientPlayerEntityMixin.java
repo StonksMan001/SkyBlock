@@ -2,7 +2,7 @@ package net.me.skyblock.api.mixin;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

@@ -1,7 +1,7 @@
 package net.me.skyblock.blocks.skyblock.crops;
 
 import net.me.skyblock.api.skycore.BaseShortPlantBlock;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.block.*;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;

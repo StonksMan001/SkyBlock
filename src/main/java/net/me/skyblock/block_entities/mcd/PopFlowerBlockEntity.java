@@ -1,7 +1,7 @@
 package net.me.skyblock.block_entities.mcd;
 
 import net.me.skyblock.blocks.mcd.PopFlowerBlock;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;

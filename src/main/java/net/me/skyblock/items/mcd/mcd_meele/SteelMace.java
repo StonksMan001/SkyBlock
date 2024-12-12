@@ -1,21 +1,16 @@
 package net.me.skyblock.items.mcd.mcd_meele;
 
-import com.ibm.icu.util.ICUUncheckedIOException;
 import net.me.skyblock.api.skycore.SkyblockHelpers;
 import net.me.skyblock.api.skycore.ToolAPI;
 import net.me.skyblock.component.McdRarity;
 import net.me.skyblock.items.mcd.McdItem;
-import net.me.skyblock.registries.SkyBlock;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.AttributeModifierSlot;
 import net.minecraft.component.type.AttributeModifiersComponent;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
-import net.minecraft.entity.damage.DamageSource;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.item.tooltip.TooltipType;
@@ -24,7 +19,6 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Style;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
-import net.minecraft.world.World;
 
 import java.util.List;
 

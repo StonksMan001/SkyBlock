@@ -51,7 +51,7 @@ narratorHotkey:true
 resourcePacks:["vanilla","fabric","file/better_nether_enhanced","high_contrast"]
 incompatibleResourcePacks:["file/better_nether_enhanced"]
 lastServer:
-lang:en_us
+lang:hu_hu
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0

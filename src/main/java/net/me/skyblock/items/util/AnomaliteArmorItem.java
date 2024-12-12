@@ -1,7 +1,7 @@
 package net.me.skyblock.items.util;
 
 import net.me.skyblock.items.util.custom_unenchantable.UnenchantableArmorItem;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import com.google.common.collect.ImmutableMap;

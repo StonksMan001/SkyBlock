@@ -8,8 +8,12 @@ import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.me.skyblock.api.datafixer.DataFixer;
 import net.me.skyblock.api.skycore.InnerMod;
 import net.me.skyblock.entity.mobs.skyblock.OminousEvokerEntity;
-import net.me.skyblock.registries.v2.Abyss;
-import net.me.skyblock.registries.v2.Quark;
+import net.me.skyblock.registries.v1.ArchivedRegistries;
+import net.me.skyblock.registries.v1.GhostItemRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
+import net.me.skyblock.registries.v2.AbyssInnerMod;
+import net.me.skyblock.registries.v2.QuarkInnerMod;
+import net.me.skyblock.registries.v2.SkyBlockInnerMod;
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
@@ -47,9 +51,6 @@ public class SkyBlock implements ModInitializer {
 	public static final String MOD_ID = "skyblock";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-	public static final InnerMod SKYBLOCK_INNERMOD = new net.me.skyblock.registries.v2.SkyBlock("skyblock");
-	public static final InnerMod ABYSS_INNERMOD = new Abyss("abyss");
-	public static final InnerMod QUARK_INNERMOD = new Quark("quark");
 	@Override
 	public void onInitialize() {
 		// Should never touch
@@ -57,16 +58,10 @@ public class SkyBlock implements ModInitializer {
 		ArchivedRegistries.ArchivedBlockRegistries.registerArchivedBlocks();
 
 		GhostItemRegistries.registerGhostItems();
+		DataFixer.register();
 		// Should never touch
 
-		// RegistryAPI v2
-		SKYBLOCK_INNERMOD.activate();
-		ABYSS_INNERMOD.activate();
-		QUARK_INNERMOD.activate();
-
-
-		DataFixer.register();
-
+		// RegistryAPI v1
 		SkyBlockRegistries.BiomeRegistries.register();
 		SkyBlockRegistries.BiomeEffectRegistries.register();
 		SkyBlockRegistries.ItemGroupRegistries.register();
@@ -79,6 +74,7 @@ public class SkyBlock implements ModInitializer {
 		SkyBlockRegistries.DimensionRegistries.register();
 		SkyBlockRegistries.ScreenHandlerRegistries.register();
 		SkyBlockRegistries.GameRuleRegistries.register();
+		// RegistryAPI v1
 
 		StrippableBlockRegistry.register(SkyBlockRegistries.BlockRegistries.SP5__END_STEM, SkyBlockRegistries.BlockRegistries.SP5__STRIPPED_END_STEM);
 		StrippableBlockRegistry.register(SkyBlockRegistries.BlockRegistries.SP5__END_HYPHAE, SkyBlockRegistries.BlockRegistries.SP5__STRIPPED_END_HYPHAE);

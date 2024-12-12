@@ -3,7 +3,7 @@ package net.me.skyblock.items.mcd.mcd_artifact;
 import net.me.skyblock.api.skycore.SkyblockHelpers;
 import net.me.skyblock.component.McdRarity;
 import net.me.skyblock.items.mcd.McdArtifactItem;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -22,10 +22,8 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.Box;
 import net.minecraft.world.World;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
-import java.util.Objects;
 
 public class IronSkinItem extends McdArtifactItem {
     public IronSkinItem(Settings settings) {

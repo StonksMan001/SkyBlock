@@ -1,18 +1,13 @@
 package net.me.skyblock.block_entities.skyblock;
 
 import net.me.skyblock.blocks.skyblock.AncientPedestalBlock;
-import net.me.skyblock.blocks.skyblock.EmptySporePlanterBox;
 import net.me.skyblock.items.create.NuggetOfExperienceItem;
-import net.me.skyblock.registries.SkyBlockRegistries;
-import net.minecraft.block.Block;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.state.StateManager;
-import net.minecraft.state.property.EnumProperty;
-import net.minecraft.util.StringIdentifiable;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;

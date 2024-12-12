@@ -3,6 +3,7 @@ package net.me.skyblock.registries;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.me.skyblock.api.datagen.*;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
 

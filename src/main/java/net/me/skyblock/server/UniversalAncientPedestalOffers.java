@@ -1,6 +1,6 @@
 package net.me.skyblock.server;
 
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import oshi.util.tuples.Pair;

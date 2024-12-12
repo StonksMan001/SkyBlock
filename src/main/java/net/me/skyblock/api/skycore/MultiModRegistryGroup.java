@@ -40,58 +40,36 @@ public abstract class MultiModRegistryGroup extends InnerMod {
     private Identifier getIdentifier(String id) {
         return Identifier.of(SkyBlock.MOD_ID, Objects.equals(this.innerId, "") ? id : this.innerId + "__" + id);
     }
-    public void activate() {
-        this.registerItemGroups();
-        this.registerItems();
-        this.registerDataComponents();
-        this.registerFoodComponents();
-        this.registerEnchantments();
-        this.registerBlocks();
-        this.registerBlockEntities();
-        this.registerBlockEntityRendererFactories();
-        this.registerGameRules();
-        this.registerDimensions();
-        this.registerConfiguredFeatures();
-        this.registerEntityTypes();
-        this.registerParticles();
-        this.registerSaplingGenerators();
-        this.registerSounds();
-        this.registerJukeBoxSongs();
-        this.registerItemTags();
-        this.registerBlockTags();
-        this.registerToolMaterials();
-        this.registerArmorMaterials();
-        this.registerArmorTrimMaterials();
-        this.registerModelPredicateProviders();
-        this.registerRenderLayers();
-        this.registerScreenHandlers();
-        this.registerBiomeEffects();
-    }
-    protected abstract void registerItemGroups();
-    protected abstract void registerItems();
-    protected abstract void registerDataComponents();
-    protected abstract void registerFoodComponents();
-    protected abstract void registerEnchantments();
-    protected abstract void registerBlocks();
-    protected abstract void registerBlockEntities();
-    protected abstract void registerBlockEntityRendererFactories();
-    protected abstract void registerGameRules();
-    protected abstract void registerDimensions();
-    protected abstract void registerConfiguredFeatures();
-    protected abstract void registerEntityTypes();
-    protected abstract void registerParticles();
-    protected abstract void registerSaplingGenerators();
-    protected abstract void registerSounds();
-    protected abstract void registerJukeBoxSongs();
-    protected abstract void registerItemTags();
-    protected abstract void registerBlockTags();
-    protected abstract void registerToolMaterials();
-    protected abstract void registerArmorMaterials();
-    protected abstract void registerArmorTrimMaterials();
-    protected abstract void registerModelPredicateProviders();
-    protected abstract void registerRenderLayers();
-    protected abstract void registerScreenHandlers();
-    protected abstract void registerBiomeEffects();
+    public void activate() {}
+
+    /*
+    protected void registerItemGroups() {}
+    protected void registerItems() {}
+    protected void registerDataComponents() {}
+    protected void registerFoodComponents() {}
+    protected void registerEnchantments() {}
+    protected void registerBlocks() {}
+    protected void registerBlockEntities() {}
+    protected void registerBlockEntityRendererFactories() {}
+    protected void registerGameRules() {}
+    protected void registerDimensions() {}
+    protected void registerConfiguredFeatures() {}
+    protected void registerEntityTypes() {}
+    protected void registerParticles() {}
+    protected void registerSaplingGenerators() {}
+    protected void registerSounds() {}
+    protected void registerJukeBoxSongs() {}
+    protected void registerItemTags() {}
+    protected void registerBlockTags() {}
+    protected void registerToolMaterials() {}
+    protected void registerArmorMaterials() {}
+    protected void registerArmorTrimMaterials() {}
+    protected void registerModelPredicateProviders() {}
+    protected void registerRenderLayers() {}
+    protected void registerScreenHandlers() {}
+    protected void registerBiomeEffects() {}
+    */
+
 
     protected RegistryKey<Enchantment> ofEnchantmentRegistry(String name) {
         return RegistryKey.of(RegistryKeys.ENCHANTMENT, getIdentifier(name));

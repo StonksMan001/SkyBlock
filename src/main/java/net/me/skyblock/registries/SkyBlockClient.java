@@ -5,6 +5,8 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.me.skyblock.entity.mobs.skyblock.rendering.OminousEvokerRenderer;
+import net.me.skyblock.registries.v1.ArchivedRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.world.biome.GrassColors;
@@ -31,6 +33,8 @@ public class SkyBlockClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(SkyBlockRegistries.BlockRegistries.SKYBLOCK__SWEET_BERRY_JAM_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(SkyBlockRegistries.BlockRegistries.SKYBLOCK__SCULK_SPROUTS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SkyBlockRegistries.BlockRegistries.BOSC__DEAD_SCULK_SPROUTS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(SkyBlockRegistries.BlockRegistries.BRAINROT__BRAINROTTEN_SPROUTS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(SkyBlockRegistries.BlockRegistries.BRAINROT__GRIMACE_SHAKE, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(SkyBlockRegistries.BlockRegistries.SKYBLOCK__RED_SCULK_SPROUTS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SkyBlockRegistries.BlockRegistries.SKYBLOCK__UNKNOWN_SPROUTS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SkyBlockRegistries.BlockRegistries.SKYBLOCK__UNKNOWN_VEGETATION, RenderLayer.getCutout());

@@ -1,6 +1,6 @@
 package net.me.skyblock.api.mixin;
 
-import net.me.skyblock.registries.GhostItemRegistries;
+import net.me.skyblock.registries.v1.GhostItemRegistries;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;

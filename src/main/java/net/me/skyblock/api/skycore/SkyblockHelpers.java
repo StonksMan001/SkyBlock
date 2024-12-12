@@ -2,7 +2,7 @@ package net.me.skyblock.api.skycore;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import net.me.skyblock.component.McdRarity;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.BowItem;
 import net.minecraft.item.CrossbowItem;

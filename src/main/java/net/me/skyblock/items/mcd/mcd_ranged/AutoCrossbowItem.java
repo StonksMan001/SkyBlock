@@ -2,10 +2,9 @@ package net.me.skyblock.items.mcd.mcd_ranged;
 
 import net.me.skyblock.api.mixin.CrossbowItemAccessors;
 import net.me.skyblock.items.mcd.McdItem;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.ChargedProjectilesComponent;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;

@@ -3,7 +3,7 @@ package net.me.skyblock.items.mcd.mcd_artifact;
 import net.me.skyblock.api.skycore.SkyblockHelpers;
 import net.me.skyblock.component.McdRarity;
 import net.me.skyblock.items.mcd.McdArtifactItem;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;

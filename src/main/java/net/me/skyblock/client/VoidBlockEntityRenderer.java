@@ -3,7 +3,7 @@ package net.me.skyblock.client;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.me.skyblock.block_entities.mcd.echoing_void.VoidBlockEntity;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.VertexConsumerProvider;

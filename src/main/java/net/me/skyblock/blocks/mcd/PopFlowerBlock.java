@@ -3,7 +3,7 @@ package net.me.skyblock.blocks.mcd;
 import com.mojang.serialization.MapCodec;
 import net.me.skyblock.api.skycore.BlockEntityAPI;
 import net.me.skyblock.block_entities.mcd.PopFlowerBlockEntity;
-import net.me.skyblock.registries.SkyBlockRegistries;
+import net.me.skyblock.registries.v1.SkyBlockRegistries;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityTicker;

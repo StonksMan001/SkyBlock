@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.me.skyblock.api.mixin",
+  "package": "net.me.skycore_supermod.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "ArrowEntityMixin",

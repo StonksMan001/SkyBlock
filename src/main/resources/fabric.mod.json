@@ -18,13 +18,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.me.skyblock.registries.SkyBlock"
+      "net.me.skycore_supermod.registries.SkyCore"
     ],
     "client": [
-      "net.me.skyblock.registries.SkyBlockClient"
+      "net.me.skycore_supermod.registries.SkyCoreClient"
     ],
     "fabric-datagen": [
-      "net.me.skyblock.registries.SkyBlockDataGenerator"
+      "net.me.skycore_supermod.registries.SkyCoreDataGenerator"
     ]
   },
   "mixins": [

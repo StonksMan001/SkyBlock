@@ -27,4 +27,7 @@ public class BOSC_Blocks {
             new BaseShortPlantBlock(AbstractBlock.Settings
                     .copy(Blocks.NETHER_SPROUTS)
                     .mapColor(MapColor.DEEPSLATE_GRAY), BOSC_BlockTags.BOSC__DEAD_SCULK_GROUND));
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Blocks for \"Bunch 'o Sculk\" innermod");
+    }
 }

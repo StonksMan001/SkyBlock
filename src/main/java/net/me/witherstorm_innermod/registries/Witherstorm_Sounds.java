@@ -6,4 +6,7 @@ import net.minecraft.sound.SoundEvent;
 
 public class Witherstorm_Sounds {
     public static RegistryEntry.Reference<SoundEvent> WITHERSTORM__WITHERSTORM_THEME = SkyCore.BuiltinRegistries.registerSoundEventReference("wither_storm_theme");
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Sounds for \"Witherstorm\" innermod");
+    }
 }

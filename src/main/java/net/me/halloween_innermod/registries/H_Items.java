@@ -37,4 +37,7 @@ public class H_Items {
             new AnomaliteArmorItem(H_ArmorMaterials.H__ANOMALITE, ArmorItem.Type.LEGGINGS, new Item.Settings(), 40));
     public static final Item H__ANOMALITE_BOOTS = SkyCore.BuiltinRegistries.registerItem("h__anomalite_boots",
             new AnomaliteArmorItem(H_ArmorMaterials.H__ANOMALITE, ArmorItem.Type.BOOTS, new Item.Settings(), 40));
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Items for \"Halloween\" innermod");
+    }
 }

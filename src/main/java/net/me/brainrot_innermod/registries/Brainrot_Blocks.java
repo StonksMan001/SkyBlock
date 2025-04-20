@@ -37,4 +37,7 @@ public class Brainrot_Blocks {
             new BrainrottenSandBlock(new ColorCode(14406560), AbstractBlock.Settings
                     .copy(Blocks.SAND)
                     .mapColor(MapColor.BLACK)));
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Blocks for \"Brainrot\" innermod");
+    }
 }

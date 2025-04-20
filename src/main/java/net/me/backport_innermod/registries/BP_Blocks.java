@@ -49,4 +49,7 @@ public class BP_Blocks {
             new CarpetBlock(AbstractBlock.Settings
                     .copy(Blocks.MOSS_CARPET)
                     .mapColor(MapColor.LIGHT_GRAY)));
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Blocks for \"Backport\" innermod");
+    }
 }

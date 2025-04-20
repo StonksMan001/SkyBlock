@@ -10,4 +10,7 @@ public class Witherstorm_Items {
             new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(Witherstorm_JukeBoxSongs.WITHERSTORM_THEME)));
     public static final Item WITHERSTORM__DISC_FRAGMENT_WITHERSTORM = SkyCore.BuiltinRegistries.registerItem("witherstorm__disc_fragment_witherstorm_theme",
             new DiscFragmentItem(new Item.Settings()));
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Items for \"Witherstorm\" innermod");
+    }
 }

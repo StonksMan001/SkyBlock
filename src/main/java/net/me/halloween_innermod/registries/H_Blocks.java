@@ -14,4 +14,7 @@ public class H_Blocks {
             new Block(AbstractBlock.Settings
                     .copy(Blocks.OBSIDIAN)
                     .mapColor(MapColor.BLACK)));
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Blocks for \"Halloween\" innermod");
+    }
 }

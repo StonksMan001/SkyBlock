@@ -22,4 +22,7 @@ public class H_ArmorMaterials {
             }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.5f, 0.1f, () -> {
                 return Ingredient.ofItems(new ItemConvertible[]{H_Items.H__ANOMALITE_FRAGMENT});
             });
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering ArmorMaterials for \"Halloween\" innermod");
+    }
 }

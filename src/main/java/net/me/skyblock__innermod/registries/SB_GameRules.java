@@ -12,6 +12,6 @@ public class SB_GameRules {
     public static final GameRules.Key<GameRules.BooleanRule> SKYBLOCK__DO_BLUEBERRIES_GROW = GameRuleRegistry.register("skyblock__doBlueberriesGrow", GameRules.Category.UPDATES, GameRuleFactory.createBooleanRule(true));
 
     public static void register() {
-        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering GameRules for " + SkyCore.MOD_ID);
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering GameRules for \"SkyBlock\" innermod");
     }
 }

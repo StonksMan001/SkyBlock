@@ -1,5 +1,6 @@
 package net.me.sp5_innermod.registries;
 
+import net.me.skycore_supermod.registries.SkyCore;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -35,4 +36,7 @@ public class SP5_FoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.HERO_OF_THE_VILLAGE, 5000, 0), 1.0f)
             .alwaysEdible()
             .build();
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering FoodComponents for \"Enderite Addon\" innermod");
+    }
 }

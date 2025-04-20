@@ -10,6 +10,6 @@ public class SB_Dimensions {
     public static final RegistryKey<DimensionType> SKYBLOCK__UNKNOWN_TYPE_KEY = SkyCore.BuiltinRegistries.ofDimensionTypeRegistry(SKYBLOCK__UNKNOWN_KEY.getValue());
 
     public static void register() {
-        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Dimensions for " + SkyCore.MOD_ID);
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Dimensions for \"SkyBlock\" innermod");
     }
 }

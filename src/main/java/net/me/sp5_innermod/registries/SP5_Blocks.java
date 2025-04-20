@@ -296,4 +296,7 @@ public class SP5_Blocks {
                     .copy(Blocks.WARPED_SLAB)
                     .strength(2.0f)
                     .mapColor(MapColor.TERRACOTTA_BLUE)));
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Blocks for \"Enderite Addon\" innermod");
+    }
 }

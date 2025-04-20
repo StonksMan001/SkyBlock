@@ -22,4 +22,7 @@ public class SP5_ArmorMaterials {
             }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.5f, 0.25f, () -> {
                 return Ingredient.ofItems(new ItemConvertible[]{SP5_Items.SP5__ENDERITE_INGOT});
             });
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering ArmorMaterials for \"Enderite Addon\" innermod");
+    }
 }

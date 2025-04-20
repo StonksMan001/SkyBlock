@@ -3,7 +3,6 @@ package net.me.skyblock__innermod.registries;
 import net.me.skyblock__innermod.items.*;
 import net.me.skycore_supermod.common_registries.SkyCore_ToolMaterials;
 import net.me.skycore_supermod.registries.SkyCore;
-import net.me.skycore_supermod.ToolAPI;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.*;
 import net.minecraft.util.Rarity;
@@ -101,15 +100,7 @@ public class SB_Items {
                             "tooltip.skyblock.skyblock__torch_of_lunacy.background_info.tooltip3",
                             "tooltip.skyblock.skyblock__torch_of_lunacy.background_info.tooltip4"
                     }));
-
-
-    public static final Item SKYBLOCK__LIGHTNING_SWORD = SkyCore.BuiltinRegistries.registerItem("skyblock__lightning_sword",
-            new ToolAPI.SwordItem(SkyCore_ToolMaterials.BENIKARD, 3, 3.5f - 4f, new Item.Settings()));
-    //MCD
-    // <BACKPORTED FEATURES>
-
-    //unimplemented
     public static void register() {
-        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Items for " + SkyCore.MOD_ID);
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Items for \"SkyBlock\" innermod");
     }
 }

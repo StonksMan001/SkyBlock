@@ -1,5 +1,6 @@
 package net.me.skyblock__innermod.registries;
 
+import net.me.skycore_supermod.registries.SkyCore;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -56,4 +57,7 @@ public class SB_FoodComponents {
             .usingConvertsTo(Items.BOWL)
             .alwaysEdible()
             .build();
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering FoodComponents for \"SkyBlock\" innermod");
+    }
 }

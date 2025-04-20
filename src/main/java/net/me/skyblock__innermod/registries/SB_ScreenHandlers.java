@@ -9,6 +9,6 @@ public class SB_ScreenHandlers {
     //new ExtendedScreenHandlerType<>(AncientPedestalScreenHandler::new)); //TODO: this
 
     public static void register() {
-        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Screen Handlers for " + SkyCore.MOD_ID);
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering ScreenHandlers for \"SkyBlock\" innermod");
     }
 }

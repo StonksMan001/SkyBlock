@@ -452,7 +452,7 @@ public class SB_Blocks {
                     .mapColor(MapColor.BROWN)));
 
     //HALLOWEEN 2023
-    //CHRISTMAS
+    //WINTER
     public static final Block SKYBLOCK__SNOWY_SHORT_GRASS = SkyCore.BuiltinRegistries.registerBlockAndItem("skyblock__snowy_short_grass",
             new SnowyShortGrassBlock(AbstractBlock.Settings
                     .copy(Blocks.SHORT_GRASS)
@@ -477,9 +477,8 @@ public class SB_Blocks {
             new SlabBlock(AbstractBlock.Settings
                     .copy(Blocks.OBSIDIAN)
                     .mapColor(MapColor.TERRACOTTA_CYAN)));
-    //CHRISTMAS
-
+    //WINTER
     public static void register() {
-        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Blocks for " + SkyCore.MOD_ID);
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Blocks for \"SkyBlock\" innermod");
     }
 }

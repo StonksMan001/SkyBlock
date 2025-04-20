@@ -112,4 +112,7 @@ public class SP5_Items {
             new Item(new Item.Settings().rarity(Rarity.EPIC))); //TODO
     public static final Item SP5__COOKED_END_BEEF = SkyCore.BuiltinRegistries.registerItem("sp5__cooked_end_beef",
             new Item(new Item.Settings().rarity(Rarity.EPIC))); //TODO
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Items for \"Enderite Addon\" innermod");
+    }
 }

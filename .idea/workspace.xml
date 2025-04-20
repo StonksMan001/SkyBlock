@@ -7,7 +7,7 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.5.0 - Spirit Torch feature">
+    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.5.0 - Ancient Lodestone feature">
       <change afterPath="$PROJECT_DIR$/src/main/java/net/me/beni_innermod/blocks/ManureBlock.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/net/me/beni_innermod/entities/GypsyVillagerEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/net/me/beni_innermod/entities/SmurfCatEntity.java" afterDir="false" />
@@ -24,27 +24,19 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/net/me/beni_innermod/registries/Beni_GameRules.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/net/me/beni_innermod/registries/Beni_Items.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/net/me/beni_innermod/registries/Beni_SensorTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/mcd_innermod/blocks/AncientLodestone.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/net/me/quark_innermod/blocks/CaveRootsBlock.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock__innermod/registries/SB_DataComponentTypes.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/mixin/ProjectileAttackGoalAccessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/models/block/template_redstone_torch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/models/block/template_redstone_torch_wall.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/benimod__manure_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/mcd__ancient_lodestone.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/benimod/manure_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/mcd__ancient_lodestone.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/benimod__cigarette.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/benimod__gypsy_cloth.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/benimod__gypsy_cloth_piece.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/benimod__gypsy_villager_spawn_egg.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/benimod__manure.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/benimod__manure_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/mcd__ancient_lodestone.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/z__logo7.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/benimod/manure_block.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__ancient_lodestone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/mcd__ancient_lodestone_top.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/entity/benimod__gypsy_villager.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/benimod/cigarette.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/benimod/gypsy_cloth.png" afterDir="false" />
@@ -52,8 +44,10 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/benimod/manure.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/item/z__logo7.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/models/armor/benimod__gypsy_cloth_layer_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/mcd__dried_moss_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/mcd__dried_moss_carpet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/recipe/mcd__common/mcd__dried_moss_carpet.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -62,18 +56,6 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/backport_innermod/registries/BP_Biomes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/backport_innermod/registries/BP_Biomes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/backport_innermod/registries/BP_Blocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/backport_innermod/registries/BP_Blocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/bosc_innermod/registries/BOSC_BlockTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/bosc_innermod/registries/BOSC_BlockTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/bosc_innermod/registries/BOSC_Blocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/bosc_innermod/registries/BOSC_Blocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/brainrot_innermod/registries/Brainrot_Blocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/brainrot_innermod/registries/Brainrot_Blocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/brainrot_innermod/registries/Brainrot_GameRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/brainrot_innermod/registries/Brainrot_GameRules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/create_innermod/registries/Create_Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/create_innermod/registries/Create_Items.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/halloween_innermod/registries/H_ArmorMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/halloween_innermod/registries/H_ArmorMaterials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/halloween_innermod/registries/H_Blocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/halloween_innermod/registries/H_Blocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/halloween_innermod/registries/H_Enchantments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/halloween_innermod/registries/H_Enchantments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/halloween_innermod/registries/H_Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/halloween_innermod/registries/H_Items.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/pearfection_innermod/registries/Pearfection_Blocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/pearfection_innermod/registries/Pearfection_Blocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/quark_innermod/registries/Quark_Blocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/quark_innermod/registries/Quark_Blocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock__innermod/registries/SB_ArmorMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock__innermod/registries/SB_ArmorMaterials.java" afterDir="false" />
@@ -103,10 +85,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/sp5_innermod/registries/SP5_FoodComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/sp5_innermod/registries/SP5_FoodComponents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/sp5_innermod/registries/SP5_Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/sp5_innermod/registries/SP5_Items.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/sp5_innermod/registries/SP5_SaplingGenerators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/sp5_innermod/registries/SP5_SaplingGenerators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/witherstorm_innermod/registries/Witherstorm_Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/witherstorm_innermod/registries/Witherstorm_Items.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/witherstorm_innermod/registries/Witherstorm_JukeBoxSongs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/witherstorm_innermod/registries/Witherstorm_JukeBoxSongs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/witherstorm_innermod/registries/Witherstorm_Sounds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/witherstorm_innermod/registries/Witherstorm_Sounds.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/dirt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/mineable/hoe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/mineable/hoe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -214,7 +195,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "#4 on master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/PENNDRIVE/MODS_2/SkyBlockMod_Main(1.21.1)/src/main/resources/assets/skyblock/textures/item",
+    "last_opened_file_path": "E:/PENNDRIVE/MODS_2/SkyBlockMod_Main(1.21.1)/src/main/resources/asset, data factory",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -223,18 +204,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\asset, data factory" />
+      <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe\mcd__common" />
       <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\textures\item" />
       <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\textures\block" />
-      <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\asset, data factory" />
       <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\blockstates" />
-      <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\loot_table\blocks" />
       <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock\recipe\mcd__common" />
       <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\block" />
       <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\java\net\me\skycore\datagen" />
       <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\item" />
-      <recent name="D:\SONY\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\block" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="net.me.beni_innermod.registries.Beni_Items" />
@@ -382,14 +363,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726925280281</updated>
-    </task>
-    <task id="LOCAL-00014" summary="v1.4.1 - .gitignore update">
-      <option name="closed" value="true" />
-      <created>1729427994127</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1729427994127</updated>
     </task>
     <task id="LOCAL-00015" summary="v1.4.1 - .gitignore update">
       <option name="closed" value="true" />
@@ -775,7 +748,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745145057872</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="v1.5.0 - Ancient Lodestone feature">
+      <option name="closed" value="true" />
+      <created>1745145424532</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1745145424532</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -793,7 +774,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v1.4.2 - &quot;mcd__twin_bow&quot; és &quot;mcd__auto_crossbow&quot; mostmár Rarity.EPIC rarity kategóriába tartozik" />
     <MESSAGE value="v1.4.2 - &quot;mcd__twin_bow&quot; egyedi &quot;shoot&quot; sund effectek az MCD-ből" />
     <MESSAGE value="v1.4.2 - Mixin a TwinBow foveffect-jéhez" />
     <MESSAGE value="v1.4.2 - Még kifonomultabb TwinBowItem működés" />
@@ -818,6 +798,7 @@
     <MESSAGE value="v1.4.2 - .jar file" />
     <MESSAGE value="v1.5.0 - RegistryAPI v2" />
     <MESSAGE value="v1.5.0 - Spirit Torch feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.5.0 - Spirit Torch feature" />
+    <MESSAGE value="v1.5.0 - Ancient Lodestone feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.5.0 - Ancient Lodestone feature" />
   </component>
 </project>

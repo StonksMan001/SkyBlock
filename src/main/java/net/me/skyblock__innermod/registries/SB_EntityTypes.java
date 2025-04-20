@@ -12,4 +12,7 @@ public class SB_EntityTypes {
     public static final EntityType<OminousEvokerEntity> SKYBLOCK__OMINOUS_EVOKER = SkyCore.BuiltinRegistries.registerEntityType("skyblock__ominous_evoker",
             EntityType.Builder.create(OminousEvokerEntity::new, SpawnGroup.CREATURE)
                     .dimensions(0.6F, 1.95F).build());
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering EntityTypes for \"SkyBlock\" innermod");
+    }
 }

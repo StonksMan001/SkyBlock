@@ -6,4 +6,7 @@ import net.minecraft.registry.tag.TagKey;
 
 public class SB_ItemTags {
     public static final TagKey<Item> SKYBLOCK__FIR_LOGS = SkyCore.BuiltinRegistries.createItemTag("skyblock__fir_logs");
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering ItemTags for \"SkyBlock\" innermod");
+    }
 }

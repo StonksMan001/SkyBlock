@@ -4,6 +4,6 @@ import net.me.skycore_supermod.registries.SkyCore;
 
 public class SB_BiomeEffects {
     public static void register() {
-        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering BiomeEffects for " + SkyCore.MOD_ID);
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering BiomeEffects for \"SkyBlock\" innermod");
     }
 }

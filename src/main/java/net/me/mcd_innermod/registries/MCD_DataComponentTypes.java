@@ -24,4 +24,7 @@ public class MCD_DataComponentTypes {
     public static final ComponentType<Integer> MCD__STEEL_MACE_ATTACK_CHAIN = SkyCore.BuiltinRegistries.registerComponentType("mcd__steel_mace_attack_chain", integerBuilder -> {
         return integerBuilder.codec(Codec.INT);
     });
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering DataComponentTypes for \"MCD\" innermod");
+    }
 }

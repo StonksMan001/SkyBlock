@@ -438,4 +438,7 @@ public class Abyss_Blocks {
             new SlabBlock(AbstractBlock.Settings
                     .copy(Blocks.WARPED_SLAB)
                     .strength(2.0f))); //TODO: MAPCOLOR
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Blocks for \"Abyss\" innermod");
+    }
 }

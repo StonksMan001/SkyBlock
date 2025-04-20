@@ -5,17 +5,34 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
-import net.me.abyss_innermod.registries.Abyss_Blocks;
+import net.me.abyss_innermod.registries.*;
 import net.me.azalea_wood_innermod.registries.AzaleaWood_Blocks;
+import net.me.backport_innermod.registries.BP_Biomes;
 import net.me.backport_innermod.registries.BP_Blocks;
+import net.me.beni_innermod.entities.GypsyVillagerEntity;
+import net.me.beni_innermod.registries.*;
+import net.me.bosc_innermod.registries.BOSC_BlockTags;
+import net.me.bosc_innermod.registries.BOSC_Blocks;
+import net.me.brainrot_innermod.registries.Brainrot_Blocks;
+import net.me.brainrot_innermod.registries.Brainrot_GameRules;
+import net.me.create_innermod.registries.Create_Items;
+import net.me.halloween_innermod.registries.H_ArmorMaterials;
+import net.me.halloween_innermod.registries.H_Blocks;
+import net.me.halloween_innermod.registries.H_Enchantments;
+import net.me.halloween_innermod.registries.H_Items;
+import net.me.mcd_innermod.registries.*;
 import net.me.pearfection_innermod.registries.Pearfection_Blocks;
+import net.me.quark_innermod.registries.Quark_Blocks;
 import net.me.skyblock__innermod.registries.*;
 import net.me.skycore_supermod.DataFixer;
 import net.me.skyblock__innermod.entities.OminousEvokerEntity;
+import net.me.skycore_supermod.common_registries.SkyCore_ConfiguredFeatures;
 import net.me.skycore_supermod.common_registries.SkyCore_ItemGroups;
 import net.me.skycore_supermod.common_registries.SkyCore_DataComponentTypes;
-import net.me.sp5_innermod.registries.SP5_Blocks;
-import net.me.sp5_innermod.registries.SP5_Items;
+import net.me.sp5_innermod.registries.*;
+import net.me.witherstorm_innermod.registries.Witherstorm_Items;
+import net.me.witherstorm_innermod.registries.Witherstorm_JukeBoxSongs;
+import net.me.witherstorm_innermod.registries.Witherstorm_Sounds;
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
@@ -24,6 +41,8 @@ import net.minecraft.component.ComponentType;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.ai.brain.sensor.Sensor;
+import net.minecraft.entity.ai.brain.sensor.SensorType;
 import net.minecraft.item.*;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.*;
@@ -33,6 +52,7 @@ import net.minecraft.screen.ScreenHandler;
 import net.minecraft.screen.ScreenHandlerType;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.text.Text;
+import net.minecraft.util.Arm;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
 import net.minecraft.world.World;
@@ -63,20 +83,80 @@ public class SkyCore implements ModInitializer {
 		DataFixer.register();
 		// Should never touch
 
-		// RegistryAPI v1
-		SB_Biomes.register();
-		SB_BiomeEffects.register();
-		SkyCore_ItemGroups.register();
+		// RegistryAPI v2
+		SkyCore_ConfiguredFeatures.register();
 		SkyCore_DataComponentTypes.register();
-		SB_Sounds.register();
-		SB_Items.register();
-		SB_Blocks.register();
+		SkyCore_ItemGroups.register();
+
+		Abyss_ArmorMaterials.register();
+		Abyss_Blocks.register();
+		Abyss_Dimensions.register();
+		Abyss_Items.register();
+		Abyss_Sounds.register();
+
+		AzaleaWood_Blocks.register();
+
+		BP_Biomes.register();
+		BP_Blocks.register();
+
+		BOSC_Blocks.register();
+		BOSC_BlockTags.register();
+
+		Brainrot_Blocks.register();
+		Brainrot_GameRules.register();
+
+		Create_Items.register();
+
+		H_ArmorMaterials.register();
+		H_Blocks.register();
+		H_Enchantments.register();
+		H_Items.register();
+
+		MCD_BlockEntities.register();
+		MCD_Blocks.register();
+		MCD_DataComponentTypes.register();
+		MCD_GameRules.register();
+		MCD_Items.register();
+		MCD_RenderLayers.register();
+		MCD_Sounds.register();
+
+		Pearfection_Blocks.register();
+
+		Quark_Blocks.register();
+
+		SB_BiomeEffects.register();
+		SB_Biomes.register();
 		SB_BlockEntities.register();
-		SB_Enchantments.register();
+		SB_Blocks.register();
+		SB_BlockTags.register();
+		SB_DataComponentTypes.register();
 		SB_Dimensions.register();
-		SB_ScreenHandlers.register();
+		SB_Enchantments.register();
+		SB_EntityTypes.register();
+		SB_FoodComponents.register();
 		SB_GameRules.register();
-		// RegistryAPI v1
+		SB_Items.register();
+		SB_ItemTags.register();
+		SB_ScreenHandlers.register();
+		SB_Sounds.register();
+
+		SP5_ArmorMaterials.register();
+		SP5_Blocks.register();
+		SP5_FoodComponents.register();
+		SP5_Items.register();
+		SP5_SaplingGenerators.register();
+
+		Witherstorm_Items.register();
+		Witherstorm_JukeBoxSongs.register();
+		Witherstorm_Sounds.register();
+
+		Beni_Items.register();
+		Beni_Blocks.register();
+		Beni_EntityTypes.register();
+		Beni_GameRules.register();
+		Beni_SensorTypes.register();
+		Beni_ArmorMaterials.register();
+		// RegistryAPI v2
 
 		StrippableBlockRegistry.register(SP5_Blocks.SP5__END_STEM, SP5_Blocks.SP5__STRIPPED_END_STEM);
 		StrippableBlockRegistry.register(SP5_Blocks.SP5__END_HYPHAE, SP5_Blocks.SP5__STRIPPED_END_HYPHAE);
@@ -111,6 +191,7 @@ public class SkyCore implements ModInitializer {
 
 		//FabricDefaultAttributeRegistry.register(ModEntities.MCD__WISP, WispEntity.setAttributes());  //TODO: this
 		FabricDefaultAttributeRegistry.register(SB_EntityTypes.SKYBLOCK__OMINOUS_EVOKER, OminousEvokerEntity.setAttributes());
+		FabricDefaultAttributeRegistry.register(Beni_EntityTypes.BENIMOD__GYPSY_VILLAGER, GypsyVillagerEntity.setAttributes());
 
 		FuelRegistry.INSTANCE.add(SP5_Items.SP5__MELTED_RESIDUES, 30000);
 	}
@@ -118,7 +199,6 @@ public class SkyCore implements ModInitializer {
 		return Identifier.of(SkyCore.MOD_ID, id);
 	}
 	public static class BuiltinRegistries {
-
 		public static RegistryKey<Enchantment> ofEnchantmentRegistry(String name) {
 			return RegistryKey.of(RegistryKeys.ENCHANTMENT, identifierOfSkyBlock(name));
 		}
@@ -136,6 +216,9 @@ public class SkyCore implements ModInitializer {
 		}
 		public static RegistryKey<Biome> ofBiomeRegistry(String name) {
 			return RegistryKey.of(RegistryKeys.BIOME, identifierOfSkyBlock(name));
+		}
+		public static <U extends Sensor<?>> SensorType<U> registerSensorType(String name, Supplier<U> factory) {
+			return Registry.register(Registries.SENSOR_TYPE, identifierOfSkyBlock(name), new SensorType<>(factory));
 		}
 		public static void registerJukeBlockSong(Registerable<JukeboxSong> registry, RegistryKey<JukeboxSong> key, RegistryEntry.Reference<SoundEvent> soundEvent, int lengthInSeconds, int comparatorOutput) {
 			registry.register(key, new JukeboxSong(soundEvent, Text.translatable(Util.createTranslationKey("jukebox_song", key.getValue())), (float)lengthInSeconds, comparatorOutput));
@@ -206,6 +289,14 @@ public class SkyCore implements ModInitializer {
 		public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String id, EnumMap<ArmorItem.Type, Integer> defense, int enchantability, RegistryEntry<SoundEvent> equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
 			List<ArmorMaterial.Layer> list = List.of(new ArmorMaterial.Layer(identifierOfSkyBlock(id)));
 			return registerArmorMaterial(id, defense, enchantability, equipSound, toughness, knockbackResistance, repairIngredient, list);
+		}
+		public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String id, RegistryEntry<ArmorMaterial> copyOf) {
+			List<ArmorMaterial.Layer> list = List.of(new ArmorMaterial.Layer(identifierOfSkyBlock(id)));
+			return registerArmorMaterial(id, (EnumMap<ArmorItem.Type, Integer>) copyOf.value().defense(), copyOf.value().enchantability(), copyOf.value().equipSound(), copyOf.value().toughness(), copyOf.value().knockbackResistance(), copyOf.value().repairIngredient(), list);
+		}
+		public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String id, RegistryEntry<ArmorMaterial> copyOf, Supplier<Ingredient> repairIngredient) {
+			List<ArmorMaterial.Layer> list = List.of(new ArmorMaterial.Layer(identifierOfSkyBlock(id)));
+			return registerArmorMaterial(id, (EnumMap<ArmorItem.Type, Integer>) copyOf.value().defense(), copyOf.value().enchantability(), copyOf.value().equipSound(), copyOf.value().toughness(), copyOf.value().knockbackResistance(), repairIngredient, list);
 		}
 		public static boolean alwaysPredicate(Object... arg) {
 			return true;

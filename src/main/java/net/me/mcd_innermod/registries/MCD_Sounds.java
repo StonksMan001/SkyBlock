@@ -22,4 +22,7 @@ public class MCD_Sounds {
     public static SoundEvent MCD__DEATH_CAP_MUSHROOM_USE = SkyCore.BuiltinRegistries.registerSoundEvent("mcd__death_cap_mushroom_use");
     public static SoundEvent MCD__TWIN_BOW_SHOOT = SkyCore.BuiltinRegistries.registerSoundEvent("mcd__twin_bow_shoot");
     public static SoundEvent MCD__ANCIENT_GOLD_PICK_UP = SkyCore.BuiltinRegistries.registerSoundEvent("mcd__ancient_gold_pick_up");
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Sounds for \"MCD\" innermod");
+    }
 }

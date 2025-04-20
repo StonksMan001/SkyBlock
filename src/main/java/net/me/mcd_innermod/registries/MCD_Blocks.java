@@ -1,16 +1,14 @@
 package net.me.mcd_innermod.registries;
 
-import net.me.mcd_innermod.blocks.MossyOakPlanks;
-import net.me.mcd_innermod.blocks.PopFlowerBlock;
+import net.me.mcd_innermod.blocks.*;
 import net.me.mcd_innermod.blocks.echoing_void.StrongholdDecorBlock;
 import net.me.mcd_innermod.blocks.echoing_void.VoidBlock;
 import net.me.skycore_supermod.registries.SkyCore;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
+import net.minecraft.particle.ParticleTypes;
 
 public class MCD_Blocks {
-    //BRAINROT
-    //SKYBLOCK MAIN-BLOCK
     public static final Block MCD__VOID_BLOCK = SkyCore.BuiltinRegistries.registerBlockAndItem("mcd__void_block",
             new VoidBlock(AbstractBlock.Settings
                     .copy(Blocks.SCULK)
@@ -23,9 +21,6 @@ public class MCD_Blocks {
                     .requiresTool()
                     .strength(1.5F, 6.0F)
                     .mapColor(MapColor.MAGENTA)));
-    //SKYBLOCK - CARVED PLANKS
-    //SKYBLOCK MAIN-BLOCK
-    //MCD
     public static final Block MCD__MOSSIER_COBBLESTONE = SkyCore.BuiltinRegistries.registerBlockAndItem("mcd__mossier_cobblestone",
             new Block(AbstractBlock.Settings
                     .copy(Blocks.COBBLESTONE)
@@ -77,10 +72,26 @@ public class MCD_Blocks {
                     .copy(Blocks.GOLD_BLOCK)
                     .strength(Blocks.NETHERITE_BLOCK.getHardness(), Blocks.NETHERITE_BLOCK.getBlastResistance())
                     .mapColor(MapColor.TERRACOTTA_ORANGE)));
-    //MCD
+    public static final Block MCD__ANCIENT_LODESTONE = SkyCore.BuiltinRegistries.registerBlockAndItem("mcd__ancient_lodestone",
+            new AncientLodestone(AbstractBlock.Settings
+                    .copy(Blocks.LODESTONE)
+                    .mapColor(MapColor.STONE_GRAY)));
+    public static final Block MCD__SPIRIT_TORCH = SkyCore.BuiltinRegistries.registerBlock("mcd__spirit_torch",
+            new SpiritTorchBlock(AbstractBlock.Settings
+                    .copy(Blocks.SOUL_TORCH)
+                    .luminance((state) -> 7)));
+    public static final Block MCD__SPIRIT_WALL_TORCH = SkyCore.BuiltinRegistries.registerBlock("mcd__spirit_wall_torch",
+            new WallSpiritTorchBlock(AbstractBlock.Settings
+                    .copy(Blocks.SOUL_WALL_TORCH)
+                    .dropsLike(MCD__SPIRIT_TORCH)
+                    .luminance((state) -> 7)));
     //CUSTOM WORLD BLOCKS
     public static final Block MCD__STRONGHOLD_DECOR = SkyCore.BuiltinRegistries.registerBlockAndItem("mcd__stronghold_decor",
             new StrongholdDecorBlock(AbstractBlock.Settings
                     .copy(Blocks.BEDROCK)
                     .mapColor(MapColor.STONE_GRAY)));
+    //CUSTOM WORLD BLOCKS
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Blocks for \"MCD\" innermod");
+    }
 }

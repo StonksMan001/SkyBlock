@@ -33,4 +33,7 @@ public class Abyss_Items {
             new ToolAPI.HoeItem(SkyCore_ToolMaterials.ENDERITE, 1, 5f - 4f, new Item.Settings()));
     public static final Item ABYSS__ABERYTHE_PICKAXE = SkyCore.BuiltinRegistries.registerItem("abyss__aberythe_pickaxe",
             new ToolAPI.PickaxeItem(SkyCore_ToolMaterials.ENDERITE, 1, 1.2f - 4f, new Item.Settings()));
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Items for \"Abyss\" innermod");
+    }
 }

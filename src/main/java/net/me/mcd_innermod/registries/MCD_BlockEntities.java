@@ -10,4 +10,7 @@ public class MCD_BlockEntities {
             BlockEntityType.Builder.create(PopFlowerBlockEntity::new, MCD_Blocks.MCD__POP_FLOWER).build());
     public static final BlockEntityType<VoidBlockEntity> MCD__VOID_BLOCK_ENTITY = SkyCore.BuiltinRegistries.registerBlockEntityType("mcd__void_block__blockentity",
             BlockEntityType.Builder.create(VoidBlockEntity::new, MCD_Blocks.MCD__VOID_BLOCK).build());
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering BlockEntities for \"MCD\" innermod");
+    }
 }

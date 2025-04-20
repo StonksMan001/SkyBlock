@@ -11,12 +11,16 @@ import net.me.mcd_innermod.items.mcd_ranged.TwinBowItem;
 import net.me.skycore_supermod.common_registries.SkyCore_ToolMaterials;
 import net.me.skycore_supermod.item_utils.SimpleOneLineTooltipItem;
 import net.me.skycore_supermod.registries.SkyCore;
+import net.minecraft.block.Blocks;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterials;
+import net.minecraft.item.VerticallyAttachableBlockItem;
 import net.minecraft.text.Style;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Rarity;
+import net.minecraft.util.math.Direction;
 
 public class MCD_Items {
     public static final Item MCD__SHORTBOW = SkyCore.BuiltinRegistries.registerItem("mcd__shortbow",
@@ -48,10 +52,16 @@ public class MCD_Items {
     public static final Item MCD__ANCIENT_GOLD_INGOT = SkyCore.BuiltinRegistries.registerItem("mcd__ancient_gold_ingot",
             new SimpleOneLineTooltipItem(new Item.Settings(),
                     Text.translatable("tooltip.skyblock.special_resource").setStyle(Style.EMPTY.withItalic(true).withFormatting(Formatting.GRAY))));
+    public static final Item MCD__SPIRIT_TORCH = SkyCore.BuiltinRegistries.registerItemThatHasBlock(
+            new VerticallyAttachableBlockItem(MCD_Blocks.MCD__SPIRIT_TORCH, MCD_Blocks.MCD__SPIRIT_WALL_TORCH, new Item.Settings(), Direction.DOWN));
+
     public static final Item MCD__VILLAGER_STATUE = SkyCore.BuiltinRegistries.registerItem("mcd__villager_statue",
             new Item(new Item.Settings().rarity(Rarity.EPIC))); //TODO
     public static final Item MCD__DIAMOND_KEY = SkyCore.BuiltinRegistries.registerItem("mcd__diamond_key",
             new Item(new Item.Settings().rarity(Rarity.EPIC).maxCount(1))); //TODO
     public static final Item MCD__GOLD_KEY = SkyCore.BuiltinRegistries.registerItem("mcd__gold_key",
             new Item(new Item.Settings().rarity(Rarity.EPIC).maxCount(1))); //TODO
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Items for \"MCD\" innermod");
+    }
 }

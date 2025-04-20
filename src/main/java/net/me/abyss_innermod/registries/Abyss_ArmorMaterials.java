@@ -21,4 +21,7 @@ public class Abyss_ArmorMaterials {
             }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.2f, 0.2f, () -> {
                 return Ingredient.ofItems(new ItemConvertible[]{Abyss_Items.ABYSS__ABERYTHE_GEM});
             });
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering ArmorMaterials for \"Abyss\" innermod");
+    }
 }

@@ -37,4 +37,7 @@ public class Abyss_Sounds {
     public static SoundEvent ABYSS__THE_ABYSS_JOURNEYS = SkyCore.BuiltinRegistries.registerSoundEvent("the_abyss_-_journeys");
     public static SoundEvent ABYSS__THE_ABYSS_LOST_IN_DESSERT = SkyCore.BuiltinRegistries.registerSoundEvent("the_abyss_-_lost_in_dessert");
     public static SoundEvent ABYSS__BROKEN_RADIO = SkyCore.BuiltinRegistries.registerSoundEvent("broken_radio");
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Sounds for \"Abyss\" innermod");
+    }
 }

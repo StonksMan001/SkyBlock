@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/enderite_ore" }
+    "": { "model": "skyblock:block/sp5/enderite_ore" }
   }
 }

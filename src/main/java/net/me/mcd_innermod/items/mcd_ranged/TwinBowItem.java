@@ -3,6 +3,7 @@ package net.me.mcd_innermod.items.mcd_ranged;
 import net.me.mcd_innermod.items.McdItem;
 import net.me.mcd_innermod.registries.MCD_DataComponentTypes;
 import net.me.mcd_innermod.registries.MCD_Sounds;
+import net.me.skycore_supermod.SkyblockHelpers;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
@@ -64,8 +65,7 @@ public class TwinBowItem extends BowItem {
                         ServerWorld serverWorld = ((ServerWorld) world).toServerWorld();
                         if (!list.isEmpty()) {
                             boolean bowHasInfinity = false;
-                            RegistryEntry<Enchantment> registryEntry = world.getRegistryManager().get(RegistryKeys.ENCHANTMENT).getEntry(Enchantments.INFINITY).orElseThrow();
-                            if (EnchantmentHelper.getLevel(registryEntry, stack) > 0) {
+                            if (EnchantmentHelper.getLevel(SkyblockHelpers.getEnchantmentRegistryEntry(world, Enchantments.INFINITY), stack) > 0) {
                                 bowHasInfinity = true;
                             }
                             boolean critical = f == 1.0F;

@@ -50,4 +50,7 @@ public class Pearfection_Blocks {
                     .copy(Blocks.OAK_SLAB)
                     .strength(2.0f)
                     .mapColor(MapColor.TERRACOTTA_YELLOW)));
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Blocks for \"Pearfection\" innermod");
+    }
 }

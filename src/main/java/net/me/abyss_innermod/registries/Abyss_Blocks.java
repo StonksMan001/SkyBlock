@@ -2,6 +2,7 @@ package net.me.abyss_innermod.registries;
 
 import net.me.abyss_innermod.blocks.AbyssVegetation;
 import net.me.abyss_innermod.blocks.BlueVigilantGrass;
+import net.me.abyss_innermod.blocks.PurpleShroomLightBlock;
 import net.me.skycore_supermod.ModStairsBlock;
 import net.me.skycore_supermod.registries.SkyCore;
 import net.minecraft.block.*;
@@ -174,7 +175,7 @@ public class Abyss_Blocks {
                     .strength(3.0f, 3.0f)
                     .requiresTool())); //TODO: MAPCOLOR
     public static final Block ABYSS__PURPLE_SHROOMLIGHT = SkyCore.BuiltinRegistries.registerBlockAndItem("abyss__purple_shroomlight",
-            new Block(AbstractBlock.Settings
+            new PurpleShroomLightBlock(AbstractBlock.Settings
                     .copy(Blocks.SHROOMLIGHT)
                     .strength(1.0f))); //TODO: MAPCOLOR
     public static final Block ABYSS__DARK_BLUE_SHROOMLIGHT = SkyCore.BuiltinRegistries.registerBlockAndItem("abyss__dark_blue_shroomlight",

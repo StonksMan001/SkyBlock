@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/abyss_garnite_ore" }
+    "": { "model": "skyblock:block/abyss/abyss_garnite_ore" }
   }
 }

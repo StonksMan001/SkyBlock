@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skyblock:block/abysculk_slab"
+      "model": "skyblock:block/abyss/abysculk_slab"
     },
     "type=double": {
-      "model": "skyblock:block/abysculk_planks"
+      "model": "skyblock:block/abyss/abysculk_planks"
     },
     "type=top": {
-      "model": "skyblock:block/abysculk_slab_top"
+      "model": "skyblock:block/abyss/abysculk_slab_top"
     }
   }
 }

@@ -22,7 +22,7 @@ public class SB_FoodComponents {
     public static final FoodComponent SKYBLOCK__BLUEBERRIES = new FoodComponent.Builder()
             .nutrition(5)
             .saturationModifier(0.5f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 2400, 4), 1.0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 1200, 4), 1.0f)
             .alwaysEdible()
             .build();
     public static final FoodComponent SKYBLOCK__CHILLI_PEPPER = new FoodComponent.Builder().nutrition(6).saturationModifier(1.0f)

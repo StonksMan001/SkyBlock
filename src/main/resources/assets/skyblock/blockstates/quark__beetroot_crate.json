@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/beetroot_crate" }
+    "": { "model": "skyblock:block/quark/beetroot_crate" }
   }
 }

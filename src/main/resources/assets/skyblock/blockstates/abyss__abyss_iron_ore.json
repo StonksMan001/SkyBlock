@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/abyss_iron_ore" }
+    "": { "model": "skyblock:block/abyss/abyss_iron_ore" }
   }
 }

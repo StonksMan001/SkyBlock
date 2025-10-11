@@ -1,0 +1,248 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/enchanted_book"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "enchantment": 0
+      },
+      "model": "minecraft:item/enchanted_book"
+    },
+    {
+      "predicate": {
+        "infinity": 1
+      },
+      "model": "item/enchanted_book_models/infinity"
+    },
+    {
+      "predicate": {
+        "punch": 1
+      },
+      "model": "item/enchanted_book_models/punch"
+    },
+    {
+      "predicate": {
+        "power": 1
+      },
+      "model": "item/enchanted_book_models/power"
+    },
+    {
+      "predicate": {
+        "piercing": 1
+      },
+      "model": "item/enchanted_book_models/piercing"
+    },
+    {
+      "predicate": {
+        "multishot": 1
+      },
+      "model": "item/enchanted_book_models/multishot"
+    },
+    {
+      "predicate": {
+        "quick_charge": 1
+      },
+      "model": "item/enchanted_book_models/quick_charge"
+    },
+    {
+      "predicate": {
+        "flame": 1
+      },
+      "model": "item/enchanted_book_models/flame"
+    },
+    {
+      "predicate": {
+        "fire_aspect": 1
+      },
+      "model": "item/enchanted_book_models/fire_aspect"
+    },
+    {
+      "predicate": {
+        "efficiency": 1
+      },
+      "model": "item/enchanted_book_models/efficiency"
+    },
+    {
+      "predicate": {
+        "fortune": 1
+      },
+      "model": "item/enchanted_book_models/fortune"
+    },
+    {
+      "predicate": {
+        "silk_touch": 1
+      },
+      "model": "item/enchanted_book_models/silk_touch"
+    },
+    {
+      "predicate": {
+        "unbreaking": 1
+      },
+      "model": "item/enchanted_book_models/unbreaking"
+    },
+    {
+      "predicate": {
+        "looting": 1
+      },
+      "model": "item/enchanted_book_models/looting"
+    },
+    {
+      "predicate": {
+        "impaling": 1
+      },
+      "model": "item/enchanted_book_models/impaling"
+    },
+    {
+      "predicate": {
+        "loyalty": 1
+      },
+      "model": "item/enchanted_book_models/loyalty"
+    },
+    {
+      "predicate": {
+        "channeling": 1
+      },
+      "model": "item/enchanted_book_models/channeling"
+    },
+    {
+      "predicate": {
+        "riptide": 1
+      },
+      "model": "item/enchanted_book_models/riptide"
+    },
+    {
+      "predicate": {
+        "respiration": 1
+      },
+      "model": "item/enchanted_book_models/respiration"
+    },
+    {
+      "predicate": {
+        "depth_strider": 1
+      },
+      "model": "item/enchanted_book_models/depth_strider"
+    },
+    {
+      "predicate": {
+        "aqua_affinity": 1
+      },
+      "model": "item/enchanted_book_models/aqua_affinity"
+    },
+    {
+      "predicate": {
+        "feather_falling": 1
+      },
+      "model": "item/enchanted_book_models/feather_falling"
+    },
+    {
+      "predicate": {
+        "thorns": 1
+      },
+      "model": "item/enchanted_book_models/thorns"
+    },
+    {
+      "predicate": {
+        "protection": 1
+      },
+      "model": "item/enchanted_book_models/protection"
+    },
+    {
+      "predicate": {
+        "blast_protection": 1
+      },
+      "model": "item/enchanted_book_models/blast_protection"
+    },
+    {
+      "predicate": {
+        "fire_protection": 1
+      },
+      "model": "item/enchanted_book_models/fire_protection"
+    },
+    {
+      "predicate": {
+        "projectile_protection": 1
+      },
+      "model": "item/enchanted_book_models/projectile_protection"
+    },
+    {
+      "predicate": {
+        "sweeping_edge": 1
+      },
+      "model": "item/enchanted_book_models/sweeping_edge"
+    },
+    {
+      "predicate": {
+        "knockback": 1
+      },
+      "model": "item/enchanted_book_models/knockback"
+    },
+    {
+      "predicate": {
+        "smite": 1
+      },
+      "model": "item/enchanted_book_models/smite"
+    },
+    {
+      "predicate": {
+        "bane_of_arthropods": 1
+      },
+      "model": "item/enchanted_book_models/bane_of_arthropods"
+    },
+    {
+      "predicate": {
+        "sharpness": 1
+      },
+      "model": "item/enchanted_book_models/sharpness"
+    },
+    {
+      "predicate": {
+        "luck_of_the_sea": 1
+      },
+      "model": "item/enchanted_book_models/luck_of_the_sea"
+    },
+    {
+      "predicate": {
+        "lure": 1
+      },
+      "model": "item/enchanted_book_models/lure"
+    },
+    {
+      "predicate": {
+        "soul_speed": 1
+      },
+      "model": "item/enchanted_book_models/soul_speed"
+    },
+    {
+      "predicate": {
+        "frost_walker": 1
+      },
+      "model": "item/enchanted_book_models/frost_walker"
+    },
+    {
+      "predicate": {
+        "mending": 1
+      },
+      "model": "item/enchanted_book_models/mending"
+    },
+    {
+      "predicate": {
+        "swift_sneak": 1
+      },
+      "model": "item/enchanted_book_models/swift_sneak"
+    },
+    {
+      "predicate": {
+        "vanishing_curse": 1
+      },
+      "model": "item/enchanted_book_models/vanishing_curse"
+    },
+    {
+      "predicate": {
+        "binding_curse": 1
+      },
+      "model": "item/enchanted_book_models/binding_curse"
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=east": {
-      "model": "skyblock:block/mcd__spirit_wall_torch"
+      "model": "skyblock:block/mcd/spirit_wall_torch"
     },
     "facing=north": {
-      "model": "skyblock:block/mcd__spirit_wall_torch",
+      "model": "skyblock:block/mcd/spirit_wall_torch",
       "y": 270
     },
     "facing=south": {
-      "model": "skyblock:block/mcd__spirit_wall_torch",
+      "model": "skyblock:block/mcd/spirit_wall_torch",
       "y": 90
     },
     "facing=west": {
-      "model": "skyblock:block/mcd__spirit_wall_torch",
+      "model": "skyblock:block/mcd/spirit_wall_torch",
       "y": 180
     }
   }

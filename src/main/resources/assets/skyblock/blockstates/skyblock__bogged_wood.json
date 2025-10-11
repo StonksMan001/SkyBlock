@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "skyblock:block/skyblock__bogged_wood",
+      "model": "skyblock:block/skyblock/bogged_wood",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "skyblock:block/skyblock__bogged_wood"
+      "model": "skyblock:block/skyblock/bogged_wood"
     },
     "axis=z": {
-      "model": "skyblock:block/skyblock__bogged_wood",
+      "model": "skyblock:block/skyblock/bogged_wood",
       "x": 90
     }
   }

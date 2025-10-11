@@ -9,8 +9,8 @@ import net.me.abyss_innermod.registries.*;
 import net.me.azalea_wood_innermod.registries.AzaleaWood_Blocks;
 import net.me.backport_innermod.registries.BP_Biomes;
 import net.me.backport_innermod.registries.BP_Blocks;
-import net.me.beni_innermod.entities.GypsyVillagerEntity;
-import net.me.beni_innermod.registries.*;
+import net.me.beni_innermod.registries.Beni_Items;
+import net.me.skycore_supermod.deprecated.benimod.entities.NativeVillagerEntity;
 import net.me.bosc_innermod.registries.BOSC_BlockTags;
 import net.me.bosc_innermod.registries.BOSC_Blocks;
 import net.me.brainrot_innermod.registries.Brainrot_Blocks;
@@ -22,6 +22,8 @@ import net.me.halloween_innermod.registries.H_Enchantments;
 import net.me.halloween_innermod.registries.H_Items;
 import net.me.mcd_innermod.registries.*;
 import net.me.pearfection_innermod.registries.Pearfection_Blocks;
+import net.me.quark_innermod.base.QuarkFabric;
+import net.me.quark_innermod.registries.Quark_BlockTags;
 import net.me.quark_innermod.registries.Quark_Blocks;
 import net.me.skyblock__innermod.registries.*;
 import net.me.skycore_supermod.DataFixer;
@@ -29,6 +31,7 @@ import net.me.skyblock__innermod.entities.OminousEvokerEntity;
 import net.me.skycore_supermod.common_registries.SkyCore_ConfiguredFeatures;
 import net.me.skycore_supermod.common_registries.SkyCore_ItemGroups;
 import net.me.skycore_supermod.common_registries.SkyCore_DataComponentTypes;
+import net.me.skycore_supermod.deprecated.benimod.BenimodRegistries;
 import net.me.sp5_innermod.registries.*;
 import net.me.witherstorm_innermod.registries.Witherstorm_Items;
 import net.me.witherstorm_innermod.registries.Witherstorm_JukeBoxSongs;
@@ -52,7 +55,6 @@ import net.minecraft.screen.ScreenHandler;
 import net.minecraft.screen.ScreenHandlerType;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.text.Text;
-import net.minecraft.util.Arm;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
 import net.minecraft.world.World;
@@ -79,7 +81,7 @@ public class SkyCore implements ModInitializer {
 		ArchivedRegistries.ArchivedItemRegistries.registerArchivedItems();
 		ArchivedRegistries.ArchivedBlockRegistries.registerArchivedBlocks();
 
-		GhostItemRegistries.registerGhostItems();
+		//GhostItemRegistries.registerGhostItems();
 		DataFixer.register();
 		// Should never touch
 
@@ -122,7 +124,10 @@ public class SkyCore implements ModInitializer {
 
 		Pearfection_Blocks.register();
 
+		//QuarkFabric quark = new QuarkFabric();
+		//quark.onInitialize();
 		Quark_Blocks.register();
+		//Quark_BlockTags.register();
 
 		SB_BiomeEffects.register();
 		SB_Biomes.register();
@@ -151,11 +156,6 @@ public class SkyCore implements ModInitializer {
 		Witherstorm_Sounds.register();
 
 		Beni_Items.register();
-		Beni_Blocks.register();
-		Beni_EntityTypes.register();
-		Beni_GameRules.register();
-		Beni_SensorTypes.register();
-		Beni_ArmorMaterials.register();
 		// RegistryAPI v2
 
 		StrippableBlockRegistry.register(SP5_Blocks.SP5__END_STEM, SP5_Blocks.SP5__STRIPPED_END_STEM);
@@ -172,6 +172,8 @@ public class SkyCore implements ModInitializer {
 		StrippableBlockRegistry.register(BP_Blocks.BP__PALE_WOOD, BP_Blocks.BP__STRIPPED_PALE_WOOD);
 		StrippableBlockRegistry.register(SB_Blocks.SKYBLOCK__WHITE_MUSHROOM_STEM, SB_Blocks.SKYBLOCK__STRIPPED_MUSHROOM_STEM);
 		StrippableBlockRegistry.register(SB_Blocks.SKYBLOCK__WHITE_MUSHROOM_HYPHAE, SB_Blocks.SKYBLOCK__STRIPPED_MUSHROOM_HYPHAE);
+		StrippableBlockRegistry.register(SB_Blocks.SKYBLOCK__BOGGED_LOG, SB_Blocks.SKYBLOCK__STRIPPED_BOGGED_LOG);
+		StrippableBlockRegistry.register(SB_Blocks.SKYBLOCK__BOGGED_WOOD, SB_Blocks.SKYBLOCK__STRIPPED_BOGGED_WOOD);
 		StrippableBlockRegistry.register(Pearfection_Blocks.DIGPEAR__CALLERY_LOG, Pearfection_Blocks.DIGPEAR__STRIPPED_CALLERY_LOG);
 		StrippableBlockRegistry.register(Pearfection_Blocks.DIGPEAR__CALLERY_WOOD, Pearfection_Blocks.DIGPEAR__STRIPPED_CALLERY_WOOD);
 		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__BLARU_LOG, Abyss_Blocks.ABYSS__STRIPPED_BLARU_LOG);
@@ -191,7 +193,6 @@ public class SkyCore implements ModInitializer {
 
 		//FabricDefaultAttributeRegistry.register(ModEntities.MCD__WISP, WispEntity.setAttributes());  //TODO: this
 		FabricDefaultAttributeRegistry.register(SB_EntityTypes.SKYBLOCK__OMINOUS_EVOKER, OminousEvokerEntity.setAttributes());
-		FabricDefaultAttributeRegistry.register(Beni_EntityTypes.BENIMOD__GYPSY_VILLAGER, GypsyVillagerEntity.setAttributes());
 
 		FuelRegistry.INSTANCE.add(SP5_Items.SP5__MELTED_RESIDUES, 30000);
 	}

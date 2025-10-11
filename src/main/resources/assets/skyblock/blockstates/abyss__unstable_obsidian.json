@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/unstable_obsidian" }
+    "": { "model": "skyblock:block/abyss/unstable_obsidian" }
   }
 }

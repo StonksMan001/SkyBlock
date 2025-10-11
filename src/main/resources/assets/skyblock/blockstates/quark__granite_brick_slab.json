@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skyblock:block/quark__granite_brick_slab"
+      "model": "skyblock:block/quark/granite_brick_slab"
     },
     "type=double": {
-      "model": "skyblock:block/quark__granite_bricks"
+      "model": "skyblock:block/quark/granite_bricks"
     },
     "type=top": {
-      "model": "skyblock:block/quark__granite_brick_slab_top"
+      "model": "skyblock:block/quark/granite_brick_slab_top"
     }
   }
 }

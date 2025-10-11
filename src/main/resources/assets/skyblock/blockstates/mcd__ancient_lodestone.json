@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skyblock:block/mcd__ancient_lodestone"
+      "model": "skyblock:block/mcd/ancient_lodestone"
     }
   }
 }

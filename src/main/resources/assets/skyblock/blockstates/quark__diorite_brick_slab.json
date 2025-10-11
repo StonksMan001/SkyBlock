@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skyblock:block/quark__diorite_brick_slab"
+      "model": "skyblock:block/quark/diorite_brick_slab"
     },
     "type=double": {
-      "model": "skyblock:block/quark__diorite_bricks"
+      "model": "skyblock:block/quark/diorite_bricks"
     },
     "type=top": {
-      "model": "skyblock:block/quark__diorite_brick_slab_top"
+      "model": "skyblock:block/quark/diorite_brick_slab_top"
     }
   }
 }

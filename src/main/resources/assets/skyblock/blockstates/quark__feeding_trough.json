@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"full=false": { "model": "skyblock:block/quark/trough_empty" },
+		"full=true": { "model": "skyblock:block/quark/trough_full" }
+	}
+}

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skyblock:block/quark__calcite_bricks"
+      "model": "skyblock:block/quark/calcite_bricks"
     }
   }
 }

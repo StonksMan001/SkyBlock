@@ -10,6 +10,6 @@ public class SkyCore_DataComponentTypes {
     });
 
     public static void register() {
-        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering DataComponentTypes for " + SkyCore.MOD_ID);
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering DataComponents for SkyCore supermod (common registries)");
     }
 }

@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "skyblock:block/skyblock__bogged_log_horizontal",
+      "model": "skyblock:block/skyblock/bogged_log_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "skyblock:block/skyblock__bogged_log"
+      "model": "skyblock:block/skyblock/bogged_log"
     },
     "axis=z": {
-      "model": "skyblock:block/skyblock__bogged_log_horizontal",
+      "model": "skyblock:block/skyblock/bogged_log_horizontal",
       "x": 90
     }
   }

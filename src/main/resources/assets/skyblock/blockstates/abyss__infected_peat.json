@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/infected_peat" }
+    "": { "model": "skyblock:block/abyss/infected_peat" }
   }
 }

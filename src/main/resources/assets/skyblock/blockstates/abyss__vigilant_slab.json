@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skyblock:block/vigilant_slab"
+      "model": "skyblock:block/abyss/vigilant_slab"
     },
     "type=double": {
-      "model": "skyblock:block/vigilant_planks"
+      "model": "skyblock:block/abyss/vigilant_planks"
     },
     "type=top": {
-      "model": "skyblock:block/vigilant_slab_top"
+      "model": "skyblock:block/abyss/vigilant_slab_top"
     }
   }
 }

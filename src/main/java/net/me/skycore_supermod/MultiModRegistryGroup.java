@@ -32,6 +32,7 @@ import java.util.Objects;
 import java.util.function.Supplier;
 import java.util.function.UnaryOperator;
 
+@Deprecated
 public abstract class MultiModRegistryGroup extends InnerMod {
     protected String innerId = "";
     public MultiModRegistryGroup(String innerId) {

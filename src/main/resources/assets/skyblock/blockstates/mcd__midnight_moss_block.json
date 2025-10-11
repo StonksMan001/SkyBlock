@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/mcd__midnight_moss_block" }
+    "": { "model": "skyblock:block/mcd/midnight_moss_block" }
   }
 }

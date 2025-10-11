@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/frozen_leaves" }
+    "": { "model": "skyblock:block/abyss/frozen_leaves" }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skyblock:block/quark__polished_dripstone"
+      "model": "skyblock:block/quark/polished_dripstone"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/abyss_spores" }
+    "": { "model": "skyblock:block/abyss/abyss_spores" }
   }
 }

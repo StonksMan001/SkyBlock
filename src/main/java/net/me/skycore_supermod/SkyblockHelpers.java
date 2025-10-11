@@ -10,8 +10,11 @@ import net.minecraft.item.CrossbowItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.text.Text;
+import net.minecraft.world.World;
 import org.betterx.wover.enchantment.api.EnchantmentUtils;
 
 import java.util.List;
@@ -48,5 +51,8 @@ public interface SkyblockHelpers {
     }
     static void addEnchantmentToStack(ItemStack itemStack, RegistryWrapper.WrapperLookup wrapper, RegistryKey<Enchantment> enchantment, int level) {
         EnchantmentUtils.enchantInWorld(itemStack, enchantment, level, wrapper);
+    }
+    static RegistryEntry<Enchantment> getEnchantmentRegistryEntry(World world, RegistryKey<Enchantment> enchantment) {
+        return world.getRegistryManager().get(RegistryKeys.ENCHANTMENT).getEntry(enchantment).orElseThrow();
     }
 }

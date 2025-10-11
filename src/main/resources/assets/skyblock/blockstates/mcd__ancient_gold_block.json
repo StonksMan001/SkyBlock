@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skyblock:block/mcd__ancient_gold_block"
+      "model": "skyblock:block/mcd/ancient_gold_block"
     }
   }
 }

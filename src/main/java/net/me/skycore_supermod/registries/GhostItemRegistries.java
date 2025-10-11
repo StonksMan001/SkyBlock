@@ -29,6 +29,8 @@ public class GhostItemRegistries {
             new Item(new Item.Settings()));
     public static final Item Z__LOGO6 = SkyCore.BuiltinRegistries.registerItem("z__logo6",
             new Item(new Item.Settings()));
+    public static final Item Z__LOGO7 = SkyCore.BuiltinRegistries.registerItem("z__logo7",
+            new Item(new Item.Settings()));
     public static final Item Z__TILE_BLANK = SkyCore.BuiltinRegistries.registerItem("z__tile_blank",
             new TileBlankItem(new Item.Settings()));
     public static final Item Z__TILE_SKYBLOCK_1 = SkyCore.BuiltinRegistries.registerItem("z__tile_skyblock_1",

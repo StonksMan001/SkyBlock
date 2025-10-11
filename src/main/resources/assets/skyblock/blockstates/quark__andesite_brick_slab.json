@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skyblock:block/quark__andesite_brick_slab"
+      "model": "skyblock:block/quark/andesite_brick_slab"
     },
     "type=double": {
-      "model": "skyblock:block/quark__andesite_bricks"
+      "model": "skyblock:block/quark/andesite_bricks"
     },
     "type=top": {
-      "model": "skyblock:block/quark__andesite_brick_slab_top"
+      "model": "skyblock:block/quark/andesite_brick_slab_top"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/gun_powder_sack" }
+    "": { "model": "skyblock:block/quark/gun_powder_sack" }
   }
 }

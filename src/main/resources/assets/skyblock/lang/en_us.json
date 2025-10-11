@@ -400,7 +400,11 @@
 
   "block.skyblock.skyblock__bogged_log": "Bogged Log",
   "block.skyblock.skyblock__bogged_wood": "Bogged Wood",
+  "block.skyblock.skyblock__stripped_bogged_log": "Stripped Bogged Log",
+  "block.skyblock.skyblock__stripped_bogged_wood": "Stripped Bogged Wood",
   "block.skyblock.skyblock__bogged_planks": "Bogged Planks",
+  "block.skyblock.skyblock__carved_bogged_planks": "Carved Bogged Planks",
+  "block.skyblock.skyblock__vertical_bogged_planks": "Vertical Bogged Planks",
   "block.skyblock.skyblock__bogged_stairs": "Bogged Stairs",
   "block.skyblock.skyblock__bogged_slab": "Bogged Slab",
   "block.skyblock.skyblock__fir_log": "Fir Log",

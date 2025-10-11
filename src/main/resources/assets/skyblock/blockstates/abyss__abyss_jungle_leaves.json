@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/abyss_jungle_leaves" }
+    "": { "model": "skyblock:block/abyss/abyss_jungle_leaves" }
   }
 }

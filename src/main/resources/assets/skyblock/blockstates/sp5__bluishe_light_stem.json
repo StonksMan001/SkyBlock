@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "skyblock:block/bluishe_light_stem_horizontal",
+      "model": "skyblock:block/sp5/bluishe_light_stem_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "skyblock:block/bluishe_light_stem"
+      "model": "skyblock:block/sp5/bluishe_light_stem"
     },
     "axis=z": {
-      "model": "skyblock:block/bluishe_light_stem_horizontal",
+      "model": "skyblock:block/sp5/bluishe_light_stem_horizontal",
       "x": 90
     }
   }

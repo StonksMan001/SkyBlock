@@ -2,31 +2,31 @@
   "variants": {
     "": [
       {
-        "model": "skyblock:block/og_purpur_block1"
+        "model": "skyblock:block/mcd/og_purpur_block1"
       },
       {
-        "model": "skyblock:block/og_purpur_block1"
+        "model": "skyblock:block/mcd/og_purpur_block1"
       },
       {
-        "model": "skyblock:block/og_purpur_block1"
+        "model": "skyblock:block/mcd/og_purpur_block1"
       },
       {
-        "model": "skyblock:block/og_purpur_block1"
+        "model": "skyblock:block/mcd/og_purpur_block1"
       },
       {
-        "model": "skyblock:block/og_purpur_block1"
+        "model": "skyblock:block/mcd/og_purpur_block1"
       },
       {
-        "model": "skyblock:block/og_purpur_block1"
+        "model": "skyblock:block/mcd/og_purpur_block1"
       },
       {
-        "model": "skyblock:block/og_purpur_block2"
+        "model": "skyblock:block/mcd/og_purpur_block2"
       },
       {
-        "model": "skyblock:block/og_purpur_block2"
+        "model": "skyblock:block/mcd/og_purpur_block2"
       },
       {
-        "model": "skyblock:block/og_purpur_block3"
+        "model": "skyblock:block/mcd/og_purpur_block3"
       }
       ]
   }

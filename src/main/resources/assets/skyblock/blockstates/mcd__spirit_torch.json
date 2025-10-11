@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skyblock:block/mcd__spirit_torch"
+      "model": "skyblock:block/mcd/spirit_torch"
     }
   }
 }

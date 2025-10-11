@@ -25,6 +25,6 @@ public class SkyCore_BlockEntityRendererFactories {
     }
 
     public static void registerModBlockEntityRendererFactories() {
-        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering BlockEntityRendererFactories for " + SkyCore.MOD_ID);
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering BlockEntityRendererFactories for SkyCore supermod (common registries)");
     }
 }

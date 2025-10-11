@@ -18,10 +18,20 @@
     "LivingEntityMixin",
     "PaneBlockMixin",
     "PlayerEntityRendererMixin",
+    "ProjectileAttackGoalAccessor",
     "SculkVeinGrowCheckerMixin",
     "StainedGlassBlockMixin",
     "TransparentBlockMixin",
-    "WrittenBookItemMixin"
+    "VillagerEntityMixin",
+    "WrittenBookItemMixin",
+    "quark.FallingBlockEntityAccessor",
+    "quark.PistonHandlerMixin",
+    "quark.TemptationsSensorAccessor",
+    "quark.TemptationsSensorMixin",
+    "quark.TemptGoalAccessor",
+    "quark.TemptGoalMixin",
+    "quark.zeta.PistonBlockMixin",
+    "quark.zeta.PistonHandlerAccessor"
   ],
   "client": [
     "AbstractClientPlayerEntityMixin",

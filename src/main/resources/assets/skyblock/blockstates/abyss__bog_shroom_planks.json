@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skyblock:block/bog_shroom_planks"
+      "model": "skyblock:block/abyss/bog_shroom_planks"
     }
   }
 }

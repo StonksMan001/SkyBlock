@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "skyblock:block/stick_block_horizontal",
+      "model": "skyblock:block/quark/stick_block_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "skyblock:block/stick_block"
+      "model": "skyblock:block/quark/stick_block"
     },
     "axis=z": {
-      "model": "skyblock:block/stick_block_horizontal",
+      "model": "skyblock:block/quark/stick_block_horizontal",
       "x": 90
     }
   }

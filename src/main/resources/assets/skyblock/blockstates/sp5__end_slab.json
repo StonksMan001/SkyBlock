@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skyblock:block/end_slab"
+      "model": "skyblock:block/sp5/end_slab"
     },
     "type=double": {
-      "model": "skyblock:block/end_planks"
+      "model": "skyblock:block/sp5/end_planks"
     },
     "type=top": {
-      "model": "skyblock:block/end_slab_top"
+      "model": "skyblock:block/sp5/end_slab_top"
     }
   }
 }

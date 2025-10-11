@@ -2,18 +2,18 @@
   "variants": {
     "": [
       {
-        "model": "skyblock:block/end_grass"
+        "model": "skyblock:block/sp5/end_grass"
       },
       {
-        "model": "skyblock:block/end_grass",
+        "model": "skyblock:block/sp5/end_grass",
         "y": 90
       },
       {
-        "model": "skyblock:block/end_grass",
+        "model": "skyblock:block/sp5/end_grass",
         "y": 180
       },
       {
-        "model": "skyblock:block/end_grass",
+        "model": "skyblock:block/sp5/end_grass",
         "y": 270
       }
     ]

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/dark_blue_shroomlight" }
+    "": { "model": "skyblock:block/abyss/dark_blue_shroomlight" }
   }
 }

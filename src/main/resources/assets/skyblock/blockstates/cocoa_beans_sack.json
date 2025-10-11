@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/cocoa_beans_sack" }
+    "": { "model": "skyblock:block/quark/cocoa_beans_sack" }
   }
 }

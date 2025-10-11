@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/bog_shroom_leaves" }
+    "": { "model": "skyblock:block/abyss/bog_shroom_leaves" }
   }
 }

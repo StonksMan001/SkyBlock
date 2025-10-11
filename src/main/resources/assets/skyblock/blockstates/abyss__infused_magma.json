@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skyblock:block/infused_magma"
+      "model": "skyblock:block/abyss/infused_magma"
     }
   }
 }

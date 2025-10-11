@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/tesla_flower" }
+    "": { "model": "skyblock:block/abyss/tesla_flower" }
   }
 }

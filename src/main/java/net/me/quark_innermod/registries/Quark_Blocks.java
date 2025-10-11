@@ -1,8 +1,10 @@
 package net.me.quark_innermod.registries;
 
+import net.me.quark_innermod.blocks.CaveRootsBlock;
 import net.me.skycore_supermod.ModStairsBlock;
 import net.me.skycore_supermod.registries.SkyCore;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.sound.BlockSoundGroup;
 
 public class Quark_Blocks {
@@ -313,12 +315,15 @@ public class Quark_Blocks {
                     .strength(Blocks.CALCITE.getHardness(), Blocks.CALCITE.getBlastResistance())
                     .mapColor(MapColor.TERRACOTTA_WHITE)));
     public static final Block QUARK__CAVE_ROOTS = SkyCore.BuiltinRegistries.registerBlockAndItem("quark__cave_roots",
-            new VineBlock(AbstractBlock.Settings
+            new CaveRootsBlock(AbstractBlock.Settings
                     .copy(Blocks.VINE)
+                    .replaceable()
+                    .sounds(BlockSoundGroup.MANGROVE_ROOTS)
                     .noCollision()
                     .ticksRandomly()
                     .strength(0.2f)
                     .sounds(BlockSoundGroup.VINE)
+                    .pistonBehavior(PistonBehavior.DESTROY)
                     .mapColor(MapColor.OAK_TAN)));
     //QUARK - VERTICAL PLANKS
     public static final Block QUARK__VERTICAL_OAK_PLANKS = SkyCore.BuiltinRegistries.registerBlockAndItem("quark__vertical_oak_planks",
@@ -365,4 +370,7 @@ public class Quark_Blocks {
             new Block(AbstractBlock.Settings
                     .copy(Blocks.WARPED_PLANKS)
                     .mapColor(MapColor.DARK_AQUA)));
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Blocks for \"Quark\" innermod");
+    }
 }

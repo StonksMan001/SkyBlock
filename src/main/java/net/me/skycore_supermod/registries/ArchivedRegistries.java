@@ -1,5 +1,6 @@
 package net.me.skycore_supermod.registries;
 
+import net.me.quark_innermod.blocks.CaveRootsBlock;
 import net.me.witherstorm_innermod.registries.Witherstorm_JukeBoxSongs;
 import net.me.skycore_supermod.common_registries.SkyCore_ToolMaterials;
 import net.me.skycore_supermod.ArmorAPI;
@@ -14,6 +15,7 @@ import net.me.sp5_innermod.registries.SP5_ArmorMaterials;
 import net.me.sp5_innermod.registries.SP5_FoodComponents;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.FoodComponents;
 import net.minecraft.item.*;
@@ -416,12 +418,15 @@ public class ArchivedRegistries {
                         .mapColor(MapColor.DIRT_BROWN)));
         @Deprecated
         public static final Block CAVE_ROOTS = registerBlock("cave_roots",
-                new VineBlock(AbstractBlock.Settings
+                new CaveRootsBlock(AbstractBlock.Settings
                         .copy(Blocks.VINE)
+                        .replaceable()
+                        .sounds(BlockSoundGroup.MANGROVE_ROOTS)
                         .noCollision()
                         .ticksRandomly()
                         .strength(0.2f)
                         .sounds(BlockSoundGroup.VINE)
+                        .pistonBehavior(PistonBehavior.DESTROY)
                         .mapColor(MapColor.OAK_TAN)));
         private static Block registerBlockWithoutItem(String name, Block block) {
             return Registry.register(Registries.BLOCK, Identifier.of(SkyCore.MOD_ID, name), block);

@@ -24,10 +24,7 @@ public class SkyCore_ConfiguredFeatures {
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(SkyCore.MOD_ID, name));
     }
-
-    private static <FC extends FeatureConfig, F extends Feature<FC>> void register(
-            Registerable<ConfiguredFeature<?, ?>> context,
-            RegistryKey<ConfiguredFeature<?, ?>> key, F feature, FC featureConfig) {
-        context.register(key, new ConfiguredFeature<>(feature, featureConfig));
+    public static void register() {
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering ConfiguredFeatures for SkyCore supermod (common registries)");
     }
 }

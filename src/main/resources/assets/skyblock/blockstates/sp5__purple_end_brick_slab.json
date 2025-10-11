@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skyblock:block/sp5__purple_end_brick_slab"
+      "model": "skyblock:block/sp5/purple_end_brick_slab"
     },
     "type=double": {
-      "model": "skyblock:block/sp5__purple_end_bricks"
+      "model": "skyblock:block/sp5/purple_end_bricks"
     },
     "type=top": {
-      "model": "skyblock:block/sp5__purple_end_brick_slab_top"
+      "model": "skyblock:block/sp5/purple_end_brick_slab_top"
     }
   }
 }

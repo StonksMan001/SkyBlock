@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skyblock:block/sp5__purple_end_bricks"
+      "model": "skyblock:block/sp5/purple_end_bricks"
     }
   }
 }

@@ -137,10 +137,12 @@ public class SB_Blocks {
     public static final Block SKYBLOCK__CARVED_MUSHROOM_PLANKS = SkyCore.BuiltinRegistries.registerBlockAndItem("skyblock__carved_mushroom_planks",
             new PillarBlock(AbstractBlock.Settings
                     .copy(Blocks.CRIMSON_PLANKS)
+                    .strength(2.0f)
                     .mapColor(MapColor.OAK_TAN)));
     public static final Block SKYBLOCK__VERTICAL_MUSHROOM_PLANKS = SkyCore.BuiltinRegistries.registerBlockAndItem("skyblock__vertical_mushroom_planks",
             new Block(AbstractBlock.Settings
                     .copy(Blocks.CRIMSON_PLANKS)
+                    .strength(2.0f)
                     .mapColor(MapColor.OAK_TAN)));
     public static final Block SKYBLOCK__MUSHROOM_STAIRS = SkyCore.BuiltinRegistries.registerBlockAndItem("skyblock__mushroom_stairs",
             new ModStairsBlock(SB_Blocks.SKYBLOCK__MUSHROOM_PLANKS.getDefaultState(), AbstractBlock.Settings
@@ -162,7 +164,27 @@ public class SB_Blocks {
                     .copy(Blocks.MANGROVE_WOOD)
                     .strength(2.0f)
                     .mapColor(MapColor.PALE_GREEN)));
+    public static final Block SKYBLOCK__STRIPPED_BOGGED_LOG = SkyCore.BuiltinRegistries.registerBlockAndItem("skyblock__stripped_bogged_log",
+            new BoggedWoodBlock(AbstractBlock.Settings
+                    .copy(Blocks.MANGROVE_LOG)
+                    .strength(2.0f)
+                    .mapColor(MapColor.PALE_GREEN)));
+    public static final Block SKYBLOCK__STRIPPED_BOGGED_WOOD = SkyCore.BuiltinRegistries.registerBlockAndItem("skyblock__stripped_bogged_wood",
+            new BoggedWoodBlock(AbstractBlock.Settings
+                    .copy(Blocks.MANGROVE_WOOD)
+                    .strength(2.0f)
+                    .mapColor(MapColor.PALE_GREEN)));
     public static final Block SKYBLOCK__BOGGED_PLANKS = SkyCore.BuiltinRegistries.registerBlockAndItem("skyblock__bogged_planks",
+            new Block(AbstractBlock.Settings
+                    .copy(Blocks.MANGROVE_PLANKS)
+                    .strength(2.0f)
+                    .mapColor(MapColor.PALE_GREEN)));
+    public static final Block SKYBLOCK__CARVED_BOGGED_PLANKS = SkyCore.BuiltinRegistries.registerBlockAndItem("skyblock__carved_bogged_planks",
+            new PillarBlock(AbstractBlock.Settings
+                    .copy(Blocks.MANGROVE_PLANKS)
+                    .strength(2.0f)
+                    .mapColor(MapColor.PALE_GREEN)));
+    public static final Block SKYBLOCK__VERTICAL_BOGGED_PLANKS = SkyCore.BuiltinRegistries.registerBlockAndItem("skyblock__vertical_bogged_planks",
             new Block(AbstractBlock.Settings
                     .copy(Blocks.MANGROVE_PLANKS)
                     .strength(2.0f)
@@ -420,7 +442,7 @@ public class SB_Blocks {
                     .mapColor(MapColor.GRAY)
                     .sounds(BlockSoundGroup.HEAVY_CORE)
                     .pistonBehavior(PistonBehavior.BLOCK)
-                    .strength(Blocks.OBSIDIAN.getHardness(), Blocks.OBSIDIAN.getBlastResistance())
+                    .strength(Blocks.OBSIDIAN.getHardness() * 2, Blocks.OBSIDIAN.getBlastResistance())
                     .mapColor(MapColor.IRON_GRAY)));
     public static final Block SKYBLOCK__CARVED_PALE_OAK_PLANKS = SkyCore.BuiltinRegistries.registerBlockAndItem("skyblock__carved_pale_oak_planks",
             new PillarBlock(AbstractBlock.Settings

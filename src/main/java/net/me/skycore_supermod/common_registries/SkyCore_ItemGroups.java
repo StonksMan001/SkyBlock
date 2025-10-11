@@ -5,6 +5,7 @@ import net.me.abyss_innermod.registries.Abyss_Blocks;
 import net.me.abyss_innermod.registries.Abyss_Items;
 import net.me.azalea_wood_innermod.registries.AzaleaWood_Blocks;
 import net.me.backport_innermod.registries.BP_Blocks;
+import net.me.beni_innermod.registries.Beni_Items;
 import net.me.bosc_innermod.registries.BOSC_Blocks;
 import net.me.create_innermod.registries.Create_Items;
 import net.me.halloween_innermod.registries.H_Blocks;
@@ -18,6 +19,7 @@ import net.me.quark_innermod.registries.Quark_Blocks;
 import net.me.skyblock__innermod.registries.SB_Blocks;
 import net.me.skyblock__innermod.registries.SB_Items;
 import net.me.skycore_supermod.SimpleByteValueComponent;
+import net.me.skycore_supermod.deprecated.benimod.BenimodRegistries;
 import net.me.skycore_supermod.item_utils.NullItem;
 import net.me.skycore_supermod.registries.SkyCore;
 import net.me.skycore_supermod.registries.ArchivedRegistries;
@@ -51,7 +53,7 @@ public class SkyCore_ItemGroups {
                 entries.add(SB_Blocks.SKYBLOCK__FROSTSLATE_BRICK_SLAB);
                 entries.add(SB_Blocks.SKYBLOCK__SNOWY_SHORT_GRASS);
                 SkyCore_ItemGroups.addSpaces(entries, 0, 3);
-                invisibleAdd(entries, SB_Items.SKYBLOCK__LIGHTNING_SWORD);
+                invisibleAdd(entries, Beni_Items.SKYBLOCK__LIGHTNING_SWORD);
                 entries.add(SB_Items.SKYBLOCK__BOTTLE_OF_ANT_JAM);
                 entries.add(SB_Blocks.SKYBLOCK__ANT_JAM_BLOCK);
                 entries.add(SB_Items.SKYBLOCK__ANT_BOTTLE);
@@ -68,13 +70,13 @@ public class SkyCore_ItemGroups {
                 entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(SB_Blocks.SKYBLOCK__BOGGED_LOG);
                 entries.add(SB_Blocks.SKYBLOCK__BOGGED_WOOD);
+                entries.add(SB_Blocks.SKYBLOCK__STRIPPED_BOGGED_LOG);
+                entries.add(SB_Blocks.SKYBLOCK__STRIPPED_BOGGED_WOOD);
+                entries.add(SB_Blocks.SKYBLOCK__VERTICAL_BOGGED_PLANKS);
+                entries.add(SB_Blocks.SKYBLOCK__CARVED_BOGGED_PLANKS);
                 entries.add(SB_Blocks.SKYBLOCK__BOGGED_PLANKS);
                 entries.add(SB_Blocks.SKYBLOCK__BOGGED_STAIRS);
                 entries.add(SB_Blocks.SKYBLOCK__BOGGED_SLAB);
-                entries.add(SB_Items.SKYBLOCK__DUCKWEED);
-                entries.add(SB_Blocks.SKYBLOCK__CLOVER);
-                entries.add(SB_Items.SKYBLOCK__SMALL_LILY_PADS);
-                entries.add(SB_Blocks.SKYBLOCK__ANCIENT_PEDESTAL);
                 entries.add(SB_Blocks.SKYBLOCK__WHITE_MUSHROOM_STEM);
                 entries.add(SB_Blocks.SKYBLOCK__WHITE_MUSHROOM_HYPHAE);
                 entries.add(SB_Blocks.SKYBLOCK__STRIPPED_MUSHROOM_STEM);
@@ -99,7 +101,9 @@ public class SkyCore_ItemGroups {
                 entries.add(SB_Blocks.SKYBLOCK__AUTUMN_BIRCH_LEAVES);
                 entries.add(SB_Blocks.SKYBLOCK__BLUEBERRY_BUSH);
                 entries.add(SB_Items.SKYBLOCK__CHILLI_PEPPER_SEEDS);
-                SkyCore_ItemGroups.addSpaces(entries, 7, 3);
+                entries.add(SB_Items.SKYBLOCK__DUCKWEED);
+                entries.add(SB_Blocks.SKYBLOCK__CLOVER);
+                entries.add(SB_Items.SKYBLOCK__SMALL_LILY_PADS);
                 entries.add(SB_Blocks.SKYBLOCK__PUFFBALL_MUSHROOM_BLOCK);
                 entries.add(SB_Items.SKYBLOCK__PUFFBALL_MUSHROOM_FLESH);
                 entries.add(SB_Items.SKYBLOCK__COOKED_PUFFBALL_MUSHROOM_FLESH);
@@ -117,7 +121,7 @@ public class SkyCore_ItemGroups {
                 entries.add(SB_Items.SKYBLOCK__BLUEBERRIES);
                 entries.add(SB_Blocks.SKYBLOCK__BLOCK_OF_EXPERIENCE);
                 entries.add(Create_Items.CREATE__NUGGET_OF_EXPERIENCE);
-                SkyCore_ItemGroups.addSpaces(entries, 10, 1);
+                entries.add(SB_Blocks.SKYBLOCK__ANCIENT_PEDESTAL);
                 entries.add(Items.OMINOUS_BOTTLE);
                 entries.add(SB_Items.SKYBLOCK__OMINOUS_LINK);
                 entries.add(Items.TOTEM_OF_UNDYING);
@@ -127,7 +131,7 @@ public class SkyCore_ItemGroups {
                 entries.add(SB_Items.SKYBLOCK__COMMON_TOKEN);
                 entries.add(SB_Items.SKYBLOCK__UNCOMMON_TOKEN);
                 entries.add(SB_Items.SKYBLOCK__RARE_TOKEN);
-                SkyCore_ItemGroups.addSpaces(entries, 11, 0);
+                SkyCore_ItemGroups.addSpaces(entries, 7, 0);
                 entries.add(SB_Blocks.SKYBLOCK__CHERT);
                 entries.add(SB_Blocks.SKYBLOCK__COBBLED_CHERT);
                 entries.add(SB_Blocks.SKYBLOCK__COBBLED_CHERT_STAIRS);
@@ -140,26 +144,26 @@ public class SkyCore_ItemGroups {
                 entries.add(SB_Blocks.SKYBLOCK__CHERT_BRICK_STAIRS);
                 entries.add(SB_Blocks.SKYBLOCK__CHERT_BRICK_SLAB);
                 entries.add(SB_Blocks.SKYBLOCK__CHERT_PILLAR);
-                SkyCore_ItemGroups.addSpaces(entries, 11, 6);
+                SkyCore_ItemGroups.addSpaces(entries, 7, 6);
                 entries.add(SB_Blocks.SKYBLOCK__TANGLY_COBBLESTONE);
                 entries.add(SB_Blocks.SKYBLOCK__TANGLY_COBBLESTONE_STAIRS);
                 entries.add(SB_Blocks.SKYBLOCK__TANGLY_COBBLESTONE_SLAB);
                 entries.add(SB_Blocks.SKYBLOCK__TANGLY_STONE_BRICKS);
                 entries.add(SB_Blocks.SKYBLOCK__TANGLY_STONE_BRICK_STAIRS);
                 entries.add(SB_Blocks.SKYBLOCK__TANGLY_STONE_BRICK_SLAB);
-                SkyCore_ItemGroups.addSpaces(entries, 17, 3);
+                SkyCore_ItemGroups.addSpaces(entries, 13, 3);
                 entries.add(SB_Blocks.SKYBLOCK__DRIED_TANGLY_COBBLESTONE);
                 entries.add(SB_Blocks.SKYBLOCK__DRIED_TANGLY_COBBLESTONE_STAIRS);
                 entries.add(SB_Blocks.SKYBLOCK__DRIED_TANGLY_COBBLESTONE_SLAB);
                 entries.add(SB_Blocks.SKYBLOCK__DRIED_TANGLY_STONE_BRICKS);
                 entries.add(SB_Blocks.SKYBLOCK__DRIED_TANGLY_STONE_BRICK_STAIRS);
                 entries.add(SB_Blocks.SKYBLOCK__DRIED_TANGLY_STONE_BRICK_SLAB);
-                SkyCore_ItemGroups.addSpaces(entries, 20, 3);
+                SkyCore_ItemGroups.addSpaces(entries, 16, 3);
                 entries.add(SB_Blocks.SKYBLOCK__CARVED_OAK_PLANKS);
                 entries.add(SB_Blocks.SKYBLOCK__CARVED_SPRUCE_PLANKS);
                 entries.add(SB_Blocks.SKYBLOCK__CARVED_DARK_OAK_PLANKS);
                 entries.add(Abyss_Blocks.ABYSS__CARVED_FROZEN_PLANKS);
-                SkyCore_ItemGroups.addSpaces(entries, 23, 5);
+                SkyCore_ItemGroups.addSpaces(entries, 19, 5);
                 entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p1_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
@@ -181,7 +185,7 @@ public class SkyCore_ItemGroups {
                 entries.add(BP_Blocks.BP__PALE_LEAVES);
                 entries.add(BP_Blocks.BP__PALE_MOSS_BLOCK);
                 entries.add(BP_Blocks.BP__PALE_MOSS_CARPET);
-                SkyCore_ItemGroups.addSpaces(entries, 28, 6);
+                SkyCore_ItemGroups.addSpaces(entries, 24, 6);
                 entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
@@ -193,7 +197,7 @@ public class SkyCore_ItemGroups {
                 entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK2p2_9, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(SB_Items.SKYBLOCK__PESTILENT_TROPHY, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(SB_Items.SKYBLOCK__TORCH_OF_LUNACY, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
-                SkyCore_ItemGroups.addSpaces(entries, 34, 7);
+                SkyCore_ItemGroups.addSpaces(entries, 30, 7);
                 entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItemRegistries.Z__TILE_SKYBLOCK3_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
@@ -217,7 +221,7 @@ public class SkyCore_ItemGroups {
                 entries.add(ArchivedRegistries.ArchivedItemRegistries.H__PLASMA_1);
                 entries.add(ArchivedRegistries.ArchivedItemRegistries.H__PLASMA_2);
                 entries.add(H_Blocks.H__NODE);
-                SkyCore_ItemGroups.addSpaces(entries, 41, 4);
+                SkyCore_ItemGroups.addSpaces(entries, 37, 4);
                 entries.add(GhostItemRegistries.Z__TILE_SP5_1, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItemRegistries.Z__TILE_SP5_2, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
                 entries.add(GhostItemRegistries.Z__TILE_SP5_3, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
@@ -334,7 +338,7 @@ public class SkyCore_ItemGroups {
                 entries.add(SP5_Items.SP5__BLUISHE_SHOVEL);
                 entries.add(SP5_Items.SP5__BLUISHE_HOE);
                 entries.add(SP5_Items.SP5__BLUISHE_PICKAXE);
-                SkyCore_ItemGroups.addSpaces(entries, 45, 0);
+                SkyCore_ItemGroups.addSpaces(entries, 41, 0);
                 SkyCore_ItemGroups.addTiles(entries, 1, 9);
                 entries.add(Blocks.SCULK);
                 entries.add(BOSC_Blocks.BOSC__SCULK_JAW);
@@ -345,13 +349,13 @@ public class SkyCore_ItemGroups {
                 entries.add(BOSC_Blocks.BOSC__DEAD_SCULK);
                 entries.add(BOSC_Blocks.BOSC__DEAD_SCULK_JAW);
                 entries.add(BOSC_Blocks.BOSC__DEAD_SCULK_SPROUTS);
-                SkyCore_ItemGroups.addSpaces(entries, 45, 0);
+                SkyCore_ItemGroups.addSpaces(entries, 41, 0);
                 SkyCore_ItemGroups.addTiles(entries, 10, 9);
                 entries.add(SB_Blocks.SKYBLOCK__UNKNOWN_DIRT_NYLIUM);
                 entries.add(SB_Blocks.SKYBLOCK__UNKNOWN_DIRT);
                 entries.add(SB_Blocks.SKYBLOCK__UNKNOWN_VEGETATION);
                 entries.add(SB_Blocks.SKYBLOCK__UNKNOWN_SPROUTS);
-                SkyCore_ItemGroups.addSpaces(entries, 45, 5);
+                SkyCore_ItemGroups.addSpaces(entries, 41, 5);
                 SkyCore_ItemGroups.addTiles(entries, 19, 9);
                 entries.add(AzaleaWood_Blocks.FLOGICAL__AZALEA_LOG);
                 entries.add(AzaleaWood_Blocks.FLOGICAL__AZALEA_WOOD);
@@ -360,7 +364,7 @@ public class SkyCore_ItemGroups {
                 entries.add(AzaleaWood_Blocks.FLOGICAL__AZALEA_PLANKS);
                 entries.add(AzaleaWood_Blocks.FLOGICAL__AZALEA_STAIRS);
                 entries.add(AzaleaWood_Blocks.FLOGICAL__AZALEA_SLAB);
-                SkyCore_ItemGroups.addSpaces(entries, 50, 2);
+                SkyCore_ItemGroups.addSpaces(entries, 46, 2);
                 SkyCore_ItemGroups.addTiles(entries, 28, 9);
                 entries.add(Pearfection_Blocks.DIGPEAR__CALLERY_LOG);
                 entries.add(Pearfection_Blocks.DIGPEAR__CALLERY_WOOD);
@@ -413,6 +417,8 @@ public class SkyCore_ItemGroups {
                 entries.add(MCD_Blocks.MCD__MOSSIER_SPRUCE_PLANKS);
                 entries.add(MCD_Items.MCD__ANCIENT_GOLD_INGOT);
                 entries.add(MCD_Blocks.MCD__ANCIENT_GOLD_BLOCK);
+                entries.add(MCD_Blocks.MCD__ANCIENT_LODESTONE);
+                entries.add(MCD_Items.MCD__SPIRIT_TORCH);
             }).build());
     public static ItemGroup UNUSED = SkyCore.BuiltinRegistries.registerItemGroup("unused",
             FabricItemGroup.builder().displayName(Text.literal("SkyBlock: Unused (Qbaesz13)")).icon(() -> new ItemStack(GhostItemRegistries.Z__LOGO5)).entries((displayContext, entries) -> {
@@ -731,11 +737,9 @@ public class SkyCore_ItemGroups {
                 entries.add(Quark_Blocks.QUARK__VERTICAL_WARPED_PLANKS);
                 entries.add(Abyss_Blocks.ABYSS__VERTICAL_FROZEN_PLANKS);
             }).build());
-
     public static void register() {
-        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Item Groups for " + SkyCore.MOD_ID);
+        SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering ItemGroups for SkyCore supermod (common registries)");
     }
-
     public static void invisibleAdd(ItemGroup.Entries entries, ItemConvertible itemConvertible) {
         entries.add(itemConvertible, ItemGroup.StackVisibility.PARENT_TAB_ONLY);
     }

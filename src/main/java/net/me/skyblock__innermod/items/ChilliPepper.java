@@ -11,7 +11,6 @@ public class ChilliPepper extends Item {
     public ChilliPepper(Settings settings) {
         super(settings);
     }
-
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
         Random random = new Random();

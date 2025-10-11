@@ -6,16 +6,19 @@ import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.me.abyss_innermod.registries.Abyss_Blocks;
 import net.me.backport_innermod.registries.BP_Blocks;
+import net.me.skycore_supermod.deprecated.benimod.entities.rendering.NativeVillagerRenderer;
 import net.me.bosc_innermod.registries.BOSC_Blocks;
 import net.me.brainrot_innermod.registries.Brainrot_Blocks;
 import net.me.mcd_innermod.registries.MCD_Blocks;
 import net.me.pearfection_innermod.registries.Pearfection_Blocks;
+import net.me.quark_innermod.base.QuarkFabricClient;
 import net.me.quark_innermod.registries.Quark_Blocks;
 import net.me.skyblock__innermod.entities.rendering.OminousEvokerRenderer;
 import net.me.skycore_supermod.common_registries.SkyCore_BlockEntityRendererFactories;
 import net.me.skyblock__innermod.registries.SB_Blocks;
 import net.me.skyblock__innermod.registries.SB_EntityTypes;
 import net.me.skycore_supermod.common_registries.SkyCore_ModelPredicateProviders;
+import net.me.skycore_supermod.deprecated.benimod.BenimodRegistries;
 import net.me.sp5_innermod.registries.SP5_Blocks;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.render.RenderLayer;
@@ -26,6 +29,9 @@ public class SkyCoreClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
+        //QuarkFabricClient quarkClient = new QuarkFabricClient();
+        //quarkClient.onInitializeClient();
+
         // Should never touch
         BlockRenderLayerMap.INSTANCE.putBlock(ArchivedRegistries.ArchivedBlockRegistries.ANT_JAM_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ArchivedRegistries.ArchivedBlockRegistries.SWEET_BERRY_JAM_BLOCK, RenderLayer.getTranslucent());
@@ -84,7 +90,6 @@ public class SkyCoreClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__BLUE_BORDER_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__RED_BORDER_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__GREEN_BORDER_BLOCK, RenderLayer.getTranslucent());
-
 
         //EntityRendererRegistry.register(ModEntities.MCD__WISP, WispRenderer::new); //TODO: this
         EntityRendererRegistry.register(SB_EntityTypes.SKYBLOCK__OMINOUS_EVOKER, OminousEvokerRenderer::new);

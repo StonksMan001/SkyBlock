@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/glow_berry_sack" }
+    "": { "model": "skyblock:block/quark/glow_berry_sack" }
   }
 }

@@ -81,7 +81,7 @@ public class SkyCore implements ModInitializer {
 		ArchivedRegistries.ArchivedItemRegistries.registerArchivedItems();
 		ArchivedRegistries.ArchivedBlockRegistries.registerArchivedBlocks();
 
-		//GhostItemRegistries.registerGhostItems();
+		GhostItemRegistries.registerGhostItems();
 		DataFixer.register();
 		// Should never touch
 
@@ -119,7 +119,6 @@ public class SkyCore implements ModInitializer {
 		MCD_DataComponentTypes.register();
 		MCD_GameRules.register();
 		MCD_Items.register();
-		MCD_RenderLayers.register();
 		MCD_Sounds.register();
 
 		Pearfection_Blocks.register();

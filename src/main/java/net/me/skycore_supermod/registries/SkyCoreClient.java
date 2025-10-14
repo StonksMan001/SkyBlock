@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.me.abyss_innermod.registries.Abyss_Blocks;
 import net.me.backport_innermod.registries.BP_Blocks;
+import net.me.mcd_innermod.registries.MCD_RenderLayers;
 import net.me.skycore_supermod.deprecated.benimod.entities.rendering.NativeVillagerRenderer;
 import net.me.bosc_innermod.registries.BOSC_Blocks;
 import net.me.brainrot_innermod.registries.Brainrot_Blocks;
@@ -32,6 +33,7 @@ public class SkyCoreClient implements ClientModInitializer {
         //QuarkFabricClient quarkClient = new QuarkFabricClient();
         //quarkClient.onInitializeClient();
 
+        MCD_RenderLayers.register();
         // Should never touch
         BlockRenderLayerMap.INSTANCE.putBlock(ArchivedRegistries.ArchivedBlockRegistries.ANT_JAM_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ArchivedRegistries.ArchivedBlockRegistries.SWEET_BERRY_JAM_BLOCK, RenderLayer.getTranslucent());
@@ -44,6 +46,7 @@ public class SkyCoreClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__SMALL_LILY_PADS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__CLOVER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__CHILLI_PEPPER_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__GOLDEN_CARROT_CROP, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__SNOWY_SHORT_GRASS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__ANT_JAM_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__SWEET_BERRY_JAM_BLOCK, RenderLayer.getTranslucent());

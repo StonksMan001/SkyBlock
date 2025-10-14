@@ -19,7 +19,7 @@
                   "block": "skyblock:skyblock__chilli_pepper_crop",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "age": "2",
+                    "age": "3",
                     "golden_crop": "true"
                   }
                 }
@@ -33,7 +33,7 @@
                   "block": "skyblock:skyblock__chilli_pepper_crop",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "age": "2",
+                    "age": "3",
                     "golden_crop": "false"
                   }
                 }
@@ -56,7 +56,7 @@
           "block": "skyblock:skyblock__chilli_pepper_crop",
           "condition": "minecraft:block_state_property",
           "properties": {
-            "age": "2"
+            "age": "3"
           }
         }
       ],

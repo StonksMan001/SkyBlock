@@ -9,6 +9,9 @@
     "golden_crop=false,age=2": {
       "model": "skyblock:block/skyblock__chilli_pepper_crop2"
     },
+    "golden_crop=false,age=3": {
+      "model": "skyblock:block/skyblock__chilli_pepper_crop3"
+    },
     "golden_crop=true": {
       "model": "skyblock:block/skyblock__chilli_pepper_crop_golden"
     }

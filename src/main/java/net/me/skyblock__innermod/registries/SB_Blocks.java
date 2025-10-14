@@ -19,8 +19,6 @@ public class SB_Blocks {
     // -MapColors
     // -SKYBLOCK__OBSIDIAN_PILLAR
     // -BN__BLUE_OBSIDIAN_PILLAR
-
-
     public static final Block SKYBLOCK__ANT_JAM_BLOCK = SkyCore.BuiltinRegistries.registerBlockAndItem("skyblock__ant_jam_block",
             new SlimeBlock(AbstractBlock.Settings
                     .copy(Blocks.HONEY_BLOCK)
@@ -34,8 +32,6 @@ public class SB_Blocks {
                     .copy(Blocks.COARSE_DIRT)
                     .strength(0.5f)
                     .mapColor(MapColor.DIRT_BROWN)));
-
-
     //BUNCH O' SCULK
     //SKYBLOCK - SCULK
     public static final Block SKYBLOCK__RED_SCULK = SkyCore.BuiltinRegistries.registerBlockAndItem("skyblock__red_sculk",
@@ -93,13 +89,14 @@ public class SB_Blocks {
                     .sounds(BlockSoundGroup.CAVE_VINES)
                     .mapColor(MapColor.DARK_GREEN)));
     // crops
-
     public static final Block SKYBLOCK__CHILLI_PEPPER_CROP = SkyCore.BuiltinRegistries.registerBlock("skyblock__chilli_pepper_crop",
             new ChilliPepperBlock(AbstractBlock.Settings
                     .copy(Blocks.CARROTS)
                     .sounds(BlockSoundGroup.CAVE_VINES)
                     .mapColor(MapColor.GREEN)));
-
+    public static final Block SKYBLOCK__GOLDEN_CARROT_CROP = SkyCore.BuiltinRegistries.registerBlock("skyblock__golden_carrot_crop",
+            new CarrotsBlock(AbstractBlock.Settings
+                    .copy(Blocks.CARROTS)));
     // crops
 
     public static final Block SKYBLOCK__DEEPSLATE_PLATINUM_ORE = SkyCore.BuiltinRegistries.registerBlockAndItem("skyblock__deepslate_platinum_ore",

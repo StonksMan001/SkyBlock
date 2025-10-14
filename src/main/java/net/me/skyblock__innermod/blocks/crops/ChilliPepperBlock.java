@@ -19,11 +19,12 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.WorldView;
 
 public class ChilliPepperBlock extends CropBlock {
-    public static final int MAX_AGE = 2;
-    public static final IntProperty AGE = Properties.AGE_2;
+    public static final int MAX_AGE = 3;
+    public static final IntProperty AGE = Properties.AGE_3;
     public static final BooleanProperty GOLDEN = BooleanProperty.of("golden_crop");
     private static final VoxelShape[] AGE_TO_SHAPE = new VoxelShape[]{
             Block.createCuboidShape(2.0, 0.0, 2.0, 14.0, 8.0, 14.0),
+            Block.createCuboidShape(2.0, 0.0, 2.0, 14.0, 10.0, 14.0),
             Block.createCuboidShape(2.0, 0.0, 2.0, 14.0, 10.0, 14.0),
             Block.createCuboidShape(2.0, 0.0, 2.0, 14.0, 12.0, 14.0)};
     public ChilliPepperBlock(Settings settings) {
@@ -58,7 +59,8 @@ public class ChilliPepperBlock extends CropBlock {
                 float f = getAvailableMoisture(this, world, pos);
                 if (random.nextInt((int)(25.0F / f) + 1) == 0) {
                     if (random.nextInt(2) == 0 && i == 0) world.setBlockState(pos, this.withAge(i + 1), 2);
-                    if (random.nextInt(4) == 0 && i == 1) {
+                    if (random.nextInt(4) == 0 && i == 1) world.setBlockState(pos, this.withAge(i + 1), 2);
+                    if (random.nextInt(6) == 0 && i == 2) {
                         if (random.nextInt(world.getGameRules().getInt(SB_GameRules.SKYBLOCK__GOLDEN_CROP_GROWTH_CHANCE)) == 0) {
                             world.setBlockState(pos, this.withAge(i + 1).with(GOLDEN, true), 2);
                         } else world.setBlockState(pos, this.withAge(i + 1), 2);

@@ -42,6 +42,9 @@ public class SkyCoreClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ArchivedRegistries.ArchivedBlockRegistries.CAVE_ROOTS, RenderLayer.getCutout());
         // Should never touch
 
+        BlockRenderLayerMap.INSTANCE.putBlock(BP_Blocks.BP__PALE_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BP_Blocks.BP__PALE_HANGING_MOSS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BP_Blocks.BP__PALE_HANGING_MOSS_PLANT, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__DUCKWEED, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__SMALL_LILY_PADS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__CLOVER, RenderLayer.getCutout());
@@ -78,7 +81,6 @@ public class SkyCoreClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__AUTUMN_BIRCH_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__BLUEBERRY_BUSH, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__PESTILENT_TROPHY, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(BP_Blocks.BP__PALE_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(Quark_Blocks.QUARK__CAVE_ROOTS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SP5_Blocks.SP5__END_GRASS_VEGETATION, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SP5_Blocks.SP5__END_MUSHROOM, RenderLayer.getCutout());

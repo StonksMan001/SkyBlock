@@ -1,5 +1,6 @@
 package net.me.halloween_innermod.registries;
 
+import net.me.halloween_innermod.items.AnomaliteSwordItem;
 import net.me.skycore_supermod.common_registries.SkyCore_ToolMaterials;
 import net.me.skycore_supermod.item_utils.AnomaliteArmorItem;
 import net.me.skycore_supermod.item_utils.SimpleOneLineTooltipItem;
@@ -26,7 +27,7 @@ public class H_Items {
     public static final Item H__ANOMALITE_AXE = SkyCore.BuiltinRegistries.registerItem("h__anomalite_axe",
             new UnenchantableAxeItem(SkyCore_ToolMaterials.H__ANOMALITE, 10, 1.0f - 4f, new Item.Settings()));
     public static final Item H__ANOMALITE_SWORD = SkyCore.BuiltinRegistries.registerItem("h__anomalite_sword",
-            new UnenchantableSwordItem(SkyCore_ToolMaterials.H__ANOMALITE, 8, 1.6f - 4f, new Item.Settings()));
+            new AnomaliteSwordItem(SkyCore_ToolMaterials.H__ANOMALITE, 8, 1.6f - 4f, new Item.Settings()));
     public static final Item H__ANOMALITE_PICKAXE = SkyCore.BuiltinRegistries.registerItem("h__anomalite_pickaxe",
             new UnenchantablePickaxeItem(SkyCore_ToolMaterials.H__ANOMALITE, 6, 1.2f - 4f, new Item.Settings()));
     public static final Item H__ANOMALITE_HELMET = SkyCore.BuiltinRegistries.registerItem("h__anomalite_helmet",

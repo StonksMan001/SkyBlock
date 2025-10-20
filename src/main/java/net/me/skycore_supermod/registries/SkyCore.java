@@ -6,33 +6,33 @@ import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.me.abyss_innermod.registries.*;
+import net.me.azalea_wood_innermod.registries.AzaleaWoodCommon;
 import net.me.azalea_wood_innermod.registries.AzaleaWood_Blocks;
-import net.me.backport_innermod.registries.BP_Biomes;
-import net.me.backport_innermod.registries.BP_Blocks;
+import net.me.backport_innermod.registries.*;
+import net.me.beni_innermod.registries.BeniCommon;
 import net.me.beni_innermod.registries.Beni_Items;
-import net.me.skycore_supermod.deprecated.benimod.entities.NativeVillagerEntity;
+import net.me.bosc_innermod.registries.BunchOSculkCommon;
+import net.me.brainrot_innermod.registries.BrainrotCommon;
+import net.me.create_innermod.registries.CreateCommon;
+import net.me.halloween_innermod.registries.*;
 import net.me.bosc_innermod.registries.BOSC_BlockTags;
 import net.me.bosc_innermod.registries.BOSC_Blocks;
 import net.me.brainrot_innermod.registries.Brainrot_Blocks;
 import net.me.brainrot_innermod.registries.Brainrot_GameRules;
 import net.me.create_innermod.registries.Create_Items;
-import net.me.halloween_innermod.registries.H_ArmorMaterials;
-import net.me.halloween_innermod.registries.H_Blocks;
-import net.me.halloween_innermod.registries.H_Enchantments;
-import net.me.halloween_innermod.registries.H_Items;
 import net.me.mcd_innermod.registries.*;
+import net.me.pearfection_innermod.registries.PearfectionCommon;
 import net.me.pearfection_innermod.registries.Pearfection_Blocks;
-import net.me.quark_innermod.base.QuarkFabric;
-import net.me.quark_innermod.registries.Quark_BlockTags;
+import net.me.quark_innermod.registries.QuarkCommon;
 import net.me.quark_innermod.registries.Quark_Blocks;
 import net.me.skyblock__innermod.registries.*;
 import net.me.skycore_supermod.DataFixer;
 import net.me.skyblock__innermod.entities.OminousEvokerEntity;
-import net.me.skycore_supermod.common_registries.SkyCore_ConfiguredFeatures;
+import net.me.skycore_supermod.InnerMod;
 import net.me.skycore_supermod.common_registries.SkyCore_ItemGroups;
 import net.me.skycore_supermod.common_registries.SkyCore_DataComponentTypes;
-import net.me.skycore_supermod.deprecated.benimod.BenimodRegistries;
 import net.me.sp5_innermod.registries.*;
+import net.me.witherstorm_innermod.registries.WitherstormCommon;
 import net.me.witherstorm_innermod.registries.Witherstorm_Items;
 import net.me.witherstorm_innermod.registries.Witherstorm_JukeBoxSongs;
 import net.me.witherstorm_innermod.registries.Witherstorm_Sounds;
@@ -60,6 +60,9 @@ import net.minecraft.util.Util;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.dimension.DimensionType;
+import net.minecraft.world.gen.feature.ConfiguredFeature;
+import net.minecraft.world.gen.feature.Feature;
+import net.minecraft.world.gen.feature.FeatureConfig;
 import net.minecraft.world.poi.PointOfInterestType;
 import org.betterx.wover.core.api.ModCore;
 import org.slf4j.Logger;
@@ -81,119 +84,43 @@ public class SkyCore implements ModInitializer {
 		ArchivedRegistries.ArchivedItemRegistries.registerArchivedItems();
 		ArchivedRegistries.ArchivedBlockRegistries.registerArchivedBlocks();
 
-		GhostItemRegistries.registerGhostItems();
+		//GhostItemRegistries.registerGhostItems();
 		DataFixer.register();
 		// Should never touch
 
 		// RegistryAPI v2
-		SkyCore_ConfiguredFeatures.register();
 		SkyCore_DataComponentTypes.register();
 		SkyCore_ItemGroups.register();
 
-		Abyss_ArmorMaterials.register();
-		Abyss_Blocks.register();
-		Abyss_Dimensions.register();
-		Abyss_Items.register();
-		Abyss_Sounds.register();
-
-		AzaleaWood_Blocks.register();
-
-		BP_Biomes.register();
-		BP_Blocks.register();
-
-		BOSC_Blocks.register();
-		BOSC_BlockTags.register();
-
-		Brainrot_Blocks.register();
-		Brainrot_GameRules.register();
-
-		Create_Items.register();
-
-		H_ArmorMaterials.register();
-		H_Blocks.register();
-		H_Enchantments.register();
-		H_Items.register();
-
-		MCD_BlockEntities.register();
-		MCD_Blocks.register();
-		MCD_DataComponentTypes.register();
-		MCD_GameRules.register();
-		MCD_Items.register();
-		MCD_Sounds.register();
-
-		Pearfection_Blocks.register();
-
-		//QuarkFabric quark = new QuarkFabric();
-		//quark.onInitialize();
-		Quark_Blocks.register();
-		//Quark_BlockTags.register();
-
-		SB_BiomeEffects.register();
-		SB_Biomes.register();
-		SB_BlockEntities.register();
-		SB_Blocks.register();
-		SB_BlockTags.register();
-		SB_DataComponentTypes.register();
-		SB_Dimensions.register();
-		SB_Enchantments.register();
-		SB_EntityTypes.register();
-		SB_FoodComponents.register();
-		SB_GameRules.register();
-		SB_Items.register();
-		SB_ItemTags.register();
-		SB_ScreenHandlers.register();
-		SB_Sounds.register();
-
-		SP5_ArmorMaterials.register();
-		SP5_Blocks.register();
-		SP5_FoodComponents.register();
-		SP5_Items.register();
-		SP5_SaplingGenerators.register();
-
-		Witherstorm_Items.register();
-		Witherstorm_JukeBoxSongs.register();
-		Witherstorm_Sounds.register();
-
-		Beni_Items.register();
+		InnerMod abyss = new AbyssCommon();
+		InnerMod azaleaWood = new AzaleaWoodCommon();
+		InnerMod backport = new BackPortCommon();
+		InnerMod beni = new BeniCommon();
+		InnerMod bunchOSculk = new BunchOSculkCommon();
+		InnerMod brainrot = new BrainrotCommon();
+		InnerMod create = new CreateCommon();
+		InnerMod halloween = new HalloweenCommon();
+		InnerMod mcd = new MCDCommon();
+		InnerMod pearfection = new PearfectionCommon();
+		InnerMod quark = new QuarkCommon();
+		InnerMod skyblock = new SkyBlockCommon();
+		InnerMod enderiteAddon = new EnderiteAddonCommon();
+		InnerMod witherstorm = new WitherstormCommon();
+		abyss.activate();
+		azaleaWood.activate();
+		backport.activate();
+		beni.activate();
+		bunchOSculk.activate();
+		brainrot.activate();
+		create.activate();
+		halloween.activate();
+		mcd.activate();
+		pearfection.activate();
+		quark.activate();
+		skyblock.activate();
+		enderiteAddon.activate();
+		witherstorm.activate();
 		// RegistryAPI v2
-
-		StrippableBlockRegistry.register(SP5_Blocks.SP5__END_STEM, SP5_Blocks.SP5__STRIPPED_END_STEM);
-		StrippableBlockRegistry.register(SP5_Blocks.SP5__END_HYPHAE, SP5_Blocks.SP5__STRIPPED_END_HYPHAE);
-		StrippableBlockRegistry.register(SP5_Blocks.SP5__BLUISHE_STEM, SP5_Blocks.SP5__STRIPPED_BLUISHE_STEM);
-		StrippableBlockRegistry.register(SP5_Blocks.SP5__BLUISHE_HYPHAE, SP5_Blocks.SP5__STRIPPED_BLUISHE_HYPHAE);
-		StrippableBlockRegistry.register(SP5_Blocks.SP5__BLUISHE_LIGHT_STEM, SP5_Blocks.SP5__STRIPPED_BLUISHE_STEM);
-		StrippableBlockRegistry.register(SP5_Blocks.SP5__BLUISHE_LIGHT_HYPHAE, SP5_Blocks.SP5__STRIPPED_BLUISHE_HYPHAE);
-		StrippableBlockRegistry.register(AzaleaWood_Blocks.FLOGICAL__AZALEA_LOG, AzaleaWood_Blocks.FLOGICAL__STRIPPED_AZALEA_LOG);
-		StrippableBlockRegistry.register(AzaleaWood_Blocks.FLOGICAL__AZALEA_WOOD, AzaleaWood_Blocks.FLOGICAL__STRIPPED_AZALEA_WOOD);
-		StrippableBlockRegistry.register(SB_Blocks.SKYBLOCK__FIR_LOG, SB_Blocks.SKYBLOCK__STRIPPED_FIR_LOG);
-		StrippableBlockRegistry.register(SB_Blocks.SKYBLOCK__FIR_WOOD, SB_Blocks.SKYBLOCK__STRIPPED_FIR_WOOD);
-		StrippableBlockRegistry.register(BP_Blocks.BP__PALE_LOG, BP_Blocks.BP__STRIPPED_PALE_LOG);
-		StrippableBlockRegistry.register(BP_Blocks.BP__PALE_WOOD, BP_Blocks.BP__STRIPPED_PALE_WOOD);
-		StrippableBlockRegistry.register(SB_Blocks.SKYBLOCK__WHITE_MUSHROOM_STEM, SB_Blocks.SKYBLOCK__STRIPPED_MUSHROOM_STEM);
-		StrippableBlockRegistry.register(SB_Blocks.SKYBLOCK__WHITE_MUSHROOM_HYPHAE, SB_Blocks.SKYBLOCK__STRIPPED_MUSHROOM_HYPHAE);
-		StrippableBlockRegistry.register(SB_Blocks.SKYBLOCK__BOGGED_LOG, SB_Blocks.SKYBLOCK__STRIPPED_BOGGED_LOG);
-		StrippableBlockRegistry.register(SB_Blocks.SKYBLOCK__BOGGED_WOOD, SB_Blocks.SKYBLOCK__STRIPPED_BOGGED_WOOD);
-		StrippableBlockRegistry.register(Pearfection_Blocks.DIGPEAR__CALLERY_LOG, Pearfection_Blocks.DIGPEAR__STRIPPED_CALLERY_LOG);
-		StrippableBlockRegistry.register(Pearfection_Blocks.DIGPEAR__CALLERY_WOOD, Pearfection_Blocks.DIGPEAR__STRIPPED_CALLERY_WOOD);
-		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__BLARU_LOG, Abyss_Blocks.ABYSS__STRIPPED_BLARU_LOG);
-		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__BLARU_WOOD, Abyss_Blocks.ABYSS__STRIPPED_BLARU_WOOD);
-		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__FROZEN_LOG, Abyss_Blocks.ABYSS__STRIPPED_FROZEN_LOG);
-		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__VIGILANT_LOG, Abyss_Blocks.ABYSS__STRIPPED_VIGILANT_LOG);
-		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__VIGILANT_WOOD, Abyss_Blocks.ABYSS__STRIPPED_VIGILANT_WOOD);
-		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__FROZEN_WOOD, Abyss_Blocks.ABYSS__STRIPPED_FROZEN_WOOD);
-		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__SLIMED_LOG, Abyss_Blocks.ABYSS__STRIPPED_SLIMED_LOG);
-		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__SLIMED_WOOD, Abyss_Blocks.ABYSS__STRIPPED_SLIMED_WOOD);
-		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__BOG_SHROOM_LOG, Abyss_Blocks.ABYSS__STRIPPED_BOG_SHROOM_LOG);
-		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__BOG_SHROOM_WOOD, Abyss_Blocks.ABYSS__STRIPPED_BOG_SHROOM_WOOD);
-		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__SAL_SHROOM_LOG, Abyss_Blocks.ABYSS__STRIPPED_SAL_SHROOM_LOG);
-		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__SAL_SHROOM_WOOD, Abyss_Blocks.ABYSS__STRIPPED_SAL_SHROOM_WOOD);
-		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__ABYSS_JUNGLE_LOG, Abyss_Blocks.ABYSS__STRIPPED_ABYSS_JUNGLE_LOG);
-		StrippableBlockRegistry.register(Abyss_Blocks.ABYSS__ABYSS_JUNGLE_WOOD, Abyss_Blocks.ABYSS__STRIPPED_ABYSS_JUNGLE_WOOD);
-
-		//FabricDefaultAttributeRegistry.register(ModEntities.MCD__WISP, WispEntity.setAttributes());  //TODO: this
-		FabricDefaultAttributeRegistry.register(SB_EntityTypes.SKYBLOCK__OMINOUS_EVOKER, OminousEvokerEntity.setAttributes());
-
-		FuelRegistry.INSTANCE.add(SP5_Items.SP5__MELTED_RESIDUES, 30000);
 	}
 	public static Identifier identifierOfSkyBlock(String id) {
 		return Identifier.of(SkyCore.MOD_ID, id);
@@ -216,6 +143,9 @@ public class SkyCore implements ModInitializer {
 		}
 		public static RegistryKey<Biome> ofBiomeRegistry(String name) {
 			return RegistryKey.of(RegistryKeys.BIOME, identifierOfSkyBlock(name));
+		}
+		public static RegistryKey<ConfiguredFeature<?, ?>> ofConfiguredFeatureRegistry(String name) {
+			return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, identifierOfSkyBlock(name));
 		}
 		public static <U extends Sensor<?>> SensorType<U> registerSensorType(String name, Supplier<U> factory) {
 			return Registry.register(Registries.SENSOR_TYPE, identifierOfSkyBlock(name), new SensorType<>(factory));
@@ -297,6 +227,9 @@ public class SkyCore implements ModInitializer {
 		public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String id, RegistryEntry<ArmorMaterial> copyOf, Supplier<Ingredient> repairIngredient) {
 			List<ArmorMaterial.Layer> list = List.of(new ArmorMaterial.Layer(identifierOfSkyBlock(id)));
 			return registerArmorMaterial(id, (EnumMap<ArmorItem.Type, Integer>) copyOf.value().defense(), copyOf.value().enchantability(), copyOf.value().equipSound(), copyOf.value().toughness(), copyOf.value().knockbackResistance(), repairIngredient, list);
+		}
+		public static <FC extends FeatureConfig, F extends Feature<FC>> void registerConfiguredFeature(Registerable<ConfiguredFeature<?, ?>> context, RegistryKey<ConfiguredFeature<?, ?>> key, F feature, FC configuration) {
+			context.register(key, new ConfiguredFeature<>(feature, configuration));
 		}
 		public static boolean alwaysPredicate(Object... arg) {
 			return true;

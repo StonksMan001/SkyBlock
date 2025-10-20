@@ -61,7 +61,7 @@ public class EmptySporePlanterBox extends Block {
                 if (state1.getBlock() instanceof PuffballMushroomBlock && state1.get(PuffballMushroomBlock.NATURAL) && !state1.get(PuffballMushroomBlock.DEAD)) {
                     world.setBlockState(pos, shroom_planter_box_pairs().get(state1.getBlock()).getDefaultState());
                     world.setBlockState(pos1, state1.with(PuffballMushroomBlock.DEAD, true));
-                } else if (!(state1.getBlock() instanceof  PuffballMushroomBlock)) {
+                } else if (!(state1.getBlock() instanceof PuffballMushroomBlock)) {
                     world.setBlockState(pos, shroom_planter_box_pairs().get(state1.getBlock()).getDefaultState());
                 }
             }

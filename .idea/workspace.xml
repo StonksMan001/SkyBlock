@@ -7,18 +7,38 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.5.0 - Chilli Pepper Bugfix">
-      <change afterPath="$PROJECT_DIR$/FINAL RELEASES/skyblock-1.5.0-1.21.1(server-hotfix).jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/mixin/CropBlockMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/mixin/GatherItemsVillagerTaskMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__golden_carrot_crop.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__chilli_pepper_crop3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/skyblock__golden_carrot_crop.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__golden_carrot_crop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__golden_carrot_crop.json" afterDir="false" />
+    <list default="true" id="fce01f04-c81b-43ce-a8d3-0d75e5d42abd" name="Changes" comment="v1.5.1 - Chilli Pepper Nerf :(">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/abyss_innermod/registries/AbyssCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/azalea_wood_innermod/registries/AzaleaWoodCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/backport_innermod/blocks/PaleHangingMossBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/backport_innermod/registries/BP_ConfiguredFeatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/backport_innermod/registries/BP_Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/backport_innermod/registries/BP_SaplingGenerators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/backport_innermod/registries/BackPortCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/beni_innermod/registries/BeniCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/bosc_innermod/registries/BunchOSculkCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/brainrot_innermod/registries/BrainrotCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/create_innermod/registries/CreateCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/halloween_innermod/items/AnomaliteSwordItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/halloween_innermod/registries/H_GameRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/halloween_innermod/registries/HalloweenCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/mcd_innermod/registries/MCDCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/pearfection_innermod/registries/PearfectionCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/quark_innermod/registries/QuarkCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock__innermod/registries/SkyBlockCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/datagen/RegistryDataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/sp5_innermod/registries/EnderiteAddonCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/me/witherstorm_innermod/registries/WitherstormCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/bp__pale_hanging_moss.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/bp__pale_hanging_moss_plant.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/backport/pale_hanging_moss.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/block/backport/pale_hanging_moss_plant.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/models/item/bp__pale_hanging_moss.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/backport/pale_hanging_moss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/backport/pale_hanging_moss_plant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/sword_efficient.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/bp__pale_hanging_moss.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FINAL RELEASES/skyblock-1.5.0-1.21.1(server).jar" beforeDir="false" afterPath="$PROJECT_DIR$/FINAL RELEASES/skyblock-1.5.0-1.21.1(server).jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
@@ -27,19 +47,20 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/server.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock__innermod/blocks/crops/ChilliPepperBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock__innermod/blocks/crops/ChilliPepperBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock__innermod/registries/SB_Blocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock__innermod/registries/SB_Blocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/mixin/VillagerEntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/mixin/VillagerEntityMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/backport_innermod/registries/BP_Blocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/backport_innermod/registries/BP_Blocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/halloween_innermod/registries/H_Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/halloween_innermod/registries/H_Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skyblock__innermod/blocks/EmptySporePlanterBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skyblock__innermod/blocks/EmptySporePlanterBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/InnerMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/InnerMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/common_registries/SkyCore_ConfiguredFeatures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/common_registries/SkyCore_ItemGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/common_registries/SkyCore_ItemGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/registries/SkyCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/registries/SkyCore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/registries/SkyCoreClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/registries/SkyCoreClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__chilli_pepper_crop.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/blockstates/skyblock__chilli_pepper_crop.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__chilli_pepper_crop2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/textures/block/skyblock__chilli_pepper_crop2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/dirt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__chilli_pepper_crop.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/skyblock/loot_table/blocks/skyblock__chilli_pepper_crop.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/skyblock.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/registries/SkyCoreDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/skycore_supermod/registries/SkyCoreDataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/me/sp5_innermod/registries/SP5_SaplingGenerators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/me/sp5_innermod/registries/SP5_SaplingGenerators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/skyblock/lang/hu_hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/mineable/axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/block/mineable/axe.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,38 +148,38 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build SkyBlockMod_Main(1.21.1).executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SkyBlockMod_Main(1.21.1) [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SkyBlockMod_Main(1.21.1) [jar].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SkyBlockMod_Main(1.21.1) [remapJar].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SkyBlockMod_Main(1.21.1) [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SkyBlockMod_Main(1.21.1) [runDatagen].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SkyBlockMod_Main(1.21.1) [runServer].executor&quot;: &quot;Run&quot;,
-    &quot;JavaClassFindUsagesOptions.isDerivedClasses&quot;: &quot;true&quot;,
-    &quot;JavaClassFindUsagesOptions.isFieldsUsages&quot;: &quot;true&quot;,
-    &quot;JavaClassFindUsagesOptions.isMethodsUsages&quot;: &quot;true&quot;,
-    &quot;JavaVariableFindUsagesOptions.isSearchForAccessors&quot;: &quot;true&quot;,
-    &quot;JavaVariableFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#4 on master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/PENNDRIVE/MODS_2/SkyBlockMod_Main(1.21.1)/src/main/resources/assets/skyblock/models/block&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build SkyBlockMod_Main(1.21.1).executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.SkyBlockMod_Main(1.21.1) [build].executor": "Run",
+    "Gradle.SkyBlockMod_Main(1.21.1) [jar].executor": "Run",
+    "Gradle.SkyBlockMod_Main(1.21.1) [remapJar].executor": "Run",
+    "Gradle.SkyBlockMod_Main(1.21.1) [runClient].executor": "Run",
+    "Gradle.SkyBlockMod_Main(1.21.1) [runDatagen].executor": "Run",
+    "Gradle.SkyBlockMod_Main(1.21.1) [runServer].executor": "Run",
+    "JavaClassFindUsagesOptions.isDerivedClasses": "true",
+    "JavaClassFindUsagesOptions.isFieldsUsages": "true",
+    "JavaClassFindUsagesOptions.isMethodsUsages": "true",
+    "JavaVariableFindUsagesOptions.isSearchForAccessors": "true",
+    "JavaVariableFindUsagesOptions.isSearchForTextOccurrences": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "#4 on master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/PENNDRIVE/MODS_2/SkyBlockMod_Main(1.21.1)/src/main/resources/data/minecraft/tags/block",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\block" />
-      <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\FINAL RELEASES" />
+      <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\minecraft\tags\block" />
+      <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\data\skyblock" />
       <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\item" />
-      <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\block\skyblock" />
+      <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\models\block\backport" />
       <recent name="E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\src\main\resources\assets\skyblock\blockstates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -230,28 +251,6 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SkyBlockMod_Main(1.21.1) [remapJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--debug" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="remapJar" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="SkyBlockMod_Main(1.21.1) [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -264,6 +263,28 @@
         <option name="taskNames">
           <list>
             <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SkyBlockMod_Main(1.21.1) [runDatagen]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runDatagen" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -299,10 +320,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.SkyBlockMod_Main(1.21.1) [runClient]" />
+        <item itemvalue="Gradle.SkyBlockMod_Main(1.21.1) [runDatagen]" />
         <item itemvalue="Gradle.SkyBlockMod_Main(1.21.1) [runServer]" />
         <item itemvalue="Gradle.SkyBlockMod_Main(1.21.1) [build]" />
         <item itemvalue="Gradle.SkyBlockMod_Main(1.21.1) [jar]" />
-        <item itemvalue="Gradle.SkyBlockMod_Main(1.21.1) [remapJar]" />
       </list>
     </recent_temporary>
   </component>
@@ -314,14 +335,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726925280281</updated>
-    </task>
-    <task id="LOCAL-00017" summary="v1.4.1 - Registry class-ok átrendezve, így talán átláthatóbb lesz">
-      <option name="closed" value="true" />
-      <created>1729765795624</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1729765795624</updated>
     </task>
     <task id="LOCAL-00018" summary="v1.4.1 - workspace fileok átrendezés">
       <option name="closed" value="true" />
@@ -707,7 +720,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760213659138</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="v1.5.1 - Chilli Pepper Nerf :(">
+      <option name="closed" value="true" />
+      <created>1760461086800</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1760461086800</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -725,7 +746,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v1.4.2 - Még kifonomultabb TwinBowItem működés" />
     <MESSAGE value="v1.4.2 - bugfix: Bonus Shot enchantment megpróbál spectator playerekre lőni" />
     <MESSAGE value="v1.4.2 - IronSkinItem-nek mostmár van egy egyedi Toggle finkciója (akárcsak a TwinBowItem-nek) amivel lehet állítani hogy más játékosokra is kifejtse hatását" />
     <MESSAGE value="v1.4.2 - bugfix: ItemStack enkódolási problémák helytelen PersistentProjectileEntity cast miatt" />
@@ -750,6 +770,7 @@
     <MESSAGE value="v1.5.0 - Ancient Lodestone feature" />
     <MESSAGE value="v1.5.0 - Dried Moss feature (mcd)" />
     <MESSAGE value="v1.5.0 - Chilli Pepper Bugfix" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.5.0 - Chilli Pepper Bugfix" />
+    <MESSAGE value="v1.5.1 - Chilli Pepper Nerf :(" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.5.1 - Chilli Pepper Nerf :(" />
   </component>
 </project>

@@ -1,8 +1,11 @@
 package net.me.backport_innermod.registries;
 
+import net.me.backport_innermod.blocks.PaleHangingMossBlock;
 import net.me.skycore_supermod.ModStairsBlock;
 import net.me.skycore_supermod.registries.SkyCore;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.sound.BlockSoundGroup;
 
 public class BP_Blocks {
     //---1.21.1+
@@ -49,6 +52,30 @@ public class BP_Blocks {
             new CarpetBlock(AbstractBlock.Settings
                     .copy(Blocks.MOSS_CARPET)
                     .mapColor(MapColor.LIGHT_GRAY)));
+    public static final Block BP__PALE_HANGING_MOSS = SkyCore.BuiltinRegistries.registerBlock("bp__pale_hanging_moss",
+            new PaleHangingMossBlock.Head(AbstractBlock.Settings
+                    .create()
+                    .mapColor(MapColor.LIGHT_GRAY)
+                    .ticksRandomly()
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.CAVE_VINES)
+                    .pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block BP__PALE_HANGING_MOSS_PLANT = SkyCore.BuiltinRegistries.registerBlock("bp__pale_hanging_moss_plant",
+            new PaleHangingMossBlock.Body(AbstractBlock.Settings
+                    .create()
+                    .mapColor(MapColor.LIGHT_GRAY)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.CAVE_VINES)
+                    .pistonBehavior(PistonBehavior.DESTROY)));
+    /*
+    public static final Block BP__PALE_OAK_SAPLING = SkyCore.BuiltinRegistries.registerBlock("bp__pale_oak_sapling",
+            new SaplingBlock(BP_SaplingGenerators.BP__PALE_OAK, AbstractBlock.Settings
+                    .copy(Blocks.DARK_OAK_SAPLING)
+                    .mapColor(MapColor.LIGHT_GRAY)));
+    */
+
     public static void register() {
         SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Blocks for \"Backport\" innermod");
     }

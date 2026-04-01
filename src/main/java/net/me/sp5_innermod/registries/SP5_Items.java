@@ -1,6 +1,5 @@
 package net.me.sp5_innermod.registries;
 
-import net.me.mcd_innermod.items.RapierItem;
 import net.me.skycore_supermod.common_registries.SkyCore_ToolMaterials;
 import net.me.skycore_supermod.ArmorAPI;
 import net.me.skycore_supermod.ToolAPI;
@@ -81,13 +80,13 @@ public class SP5_Items {
     public static final Item SP5__END_STONE_PICKAXE = SkyCore.BuiltinRegistries.registerItem("sp5__end_stone_pickaxe",
             new ToolAPI.PickaxeItem(ToolMaterials.IRON, 4 - 3, 1.2f - 4f, new Item.Settings()));
     public static final Item SP5__ENDERITE_RAPIER = SkyCore.BuiltinRegistries.registerItem("sp5__enderite_rapier",
-            new RapierItem(SkyCore_ToolMaterials.ENDERITE, 8, Float.MAX_VALUE, new Item.Settings()));
+            new ToolAPI.SwordItem(SkyCore_ToolMaterials.ENDERITE, 8, Float.MAX_VALUE, new Item.Settings()));
     public static final Item SP5__END_WOODEN_RAPIER = SkyCore.BuiltinRegistries.registerItem("sp5__end_wooden_rapier",
-            new RapierItem(ToolMaterials.STONE, 2, Float.MAX_VALUE, new Item.Settings()));
+            new ToolAPI.SwordItem(ToolMaterials.STONE, 2, Float.MAX_VALUE, new Item.Settings()));
     public static final Item SP5__END_STONE_RAPIER = SkyCore.BuiltinRegistries.registerItem("sp5__end_stone_rapier",
-            new RapierItem(ToolMaterials.IRON, 2, Float.MAX_VALUE, new Item.Settings()));
+            new ToolAPI.SwordItem(ToolMaterials.IRON, 2, Float.MAX_VALUE, new Item.Settings()));
     public static final Item SP5__BLUISHE_RAPIER = SkyCore.BuiltinRegistries.registerItem("sp5__bluishe_rapier",
-            new RapierItem(ToolMaterials.IRON, 2, Float.MAX_VALUE, new Item.Settings()));
+            new ToolAPI.SwordItem(ToolMaterials.IRON, 2, Float.MAX_VALUE, new Item.Settings()));
     public static final Item SP5__FORBIDDEN_POTION = SkyCore.BuiltinRegistries.registerItem("sp5__forbidden_potion",
             new Item(new Item.Settings().rarity(Rarity.EPIC).maxCount(1))); //TODO
     public static final Item SP5__GOD_POTION = SkyCore.BuiltinRegistries.registerItem("sp5__god_potion",

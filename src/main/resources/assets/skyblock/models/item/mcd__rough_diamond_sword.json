@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "skyblock:item/mcd__rough_diamond_sword"
-  }
-}

@@ -1,6 +1,0 @@
-{
-    "parent": "skyblock:item/mcd__auto_crossbow",
-    "textures": {
-        "layer0": "skyblock:item/auto_crossbow_pulling_0"
-    }
-}

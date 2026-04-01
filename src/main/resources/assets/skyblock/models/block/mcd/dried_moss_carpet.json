@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/carpet",
-  "textures": {
-    "wool": "skyblock:block/mcd__dried_moss_block"
-  }
-}

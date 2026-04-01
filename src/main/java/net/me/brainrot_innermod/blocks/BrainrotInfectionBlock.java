@@ -3,7 +3,6 @@ package net.me.brainrot_innermod.blocks;
 import net.me.backport_innermod.registries.BP_Blocks;
 import net.me.brainrot_innermod.registries.Brainrot_Blocks;
 import net.me.brainrot_innermod.registries.Brainrot_GameRules;
-import net.me.mcd_innermod.registries.MCD_Blocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -24,7 +23,6 @@ public interface BrainrotInfectionBlock {
         return Map.ofEntries(
                 Map.entry(Blocks.MOSS_CARPET, Blocks.AIR),
                 Map.entry(BP_Blocks.BP__PALE_MOSS_BLOCK, Blocks.AIR),
-                Map.entry(MCD_Blocks.MCD__MIDNIGHT_MOSS_BLOCK, Blocks.AIR),
                 Map.entry(Blocks.WATER, Brainrot_Blocks.BRAINROT__GRIMACE_SHAKE),
                 Map.entry(Blocks.GRAVEL, Brainrot_Blocks.BRAINROT__BRAINROTTEN_SAND),
                 Map.entry(Blocks.SUSPICIOUS_GRAVEL, Brainrot_Blocks.BRAINROT__BRAINROTTEN_SAND)

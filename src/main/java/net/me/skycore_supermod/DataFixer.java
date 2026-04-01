@@ -146,8 +146,6 @@ public class DataFixer {
                     Map.entry("skyblock:sal_shroom_stairs", "skyblock:abyss__sal_shroom_stairs"),
                     Map.entry("skyblock:sal_shroom_slab", "skyblock:abyss__sal_shroom_slab"),
 
-                    Map.entry("skyblock:void_block", "skyblock:mcd__void_block"),
-                    Map.entry("skyblock:og_purpur_block", "skyblock:mcd__og_purpur_block"),
                     Map.entry("skyblock:end_emerald_ore", "skyblock:sp5__end_emerald_ore"),
                     Map.entry("skyblock:end_emerald_block", "skyblock:sp5__end_emerald_block"),
                     Map.entry("skyblock:enderite_ore", "skyblock:sp5__enderite_ore"),
@@ -195,11 +193,6 @@ public class DataFixer {
                     Map.entry("skyblock:azalea_planks", "skyblock:flogical__azalea_planks"),
                     Map.entry("skyblock:azalea_stairs", "skyblock:flogical__azalea_stairs"),
                     Map.entry("skyblock:azalea_slab", "skyblock:flogical__azalea_slab"),
-
-                    Map.entry("skyblock:mossier_cobblestone", "skyblock:mcd__mossier_cobblestone"),
-                    Map.entry("skyblock:mossier_oak_planks", "skyblock:mcd__mossier_oak_planks"),
-                    Map.entry("skyblock:mossier_spruce_planks", "skyblock:mcd__mossier_spruce_planks"),
-                    Map.entry("skyblock:barren_grass_block", "skyblock:mcd__barren_grass_block"),
 
                     Map.entry("skyblock:callery_leaves", "skyblock:digpear__callery_leaves"),
                     Map.entry("skyblock:flowering_callery_leaves", "skyblock:digpear__flowering_callery_leaves"),
@@ -275,18 +268,7 @@ public class DataFixer {
                     Map.entry("skyblock:aberythe_hoe", "skyblock:abyss__aberythe_hoe"),
                     Map.entry("skyblock:aberythe_pickaxe", "skyblock:abyss__aberythe_pickaxe"),
 
-                    Map.entry("skyblock:lightning_sword", "skyblock:skyblock__lightning_sword"),
-
-                    Map.entry("skyblock:shortbow", "skyblock:mcd__shortbow"),
-                    Map.entry("skyblock:longbow", "skyblock:mcd__longbow"),
-                    Map.entry("skyblock:twin_bow", "skyblock:mcd__twin_bow"),
-                    Map.entry("skyblock:auto_crossbow", "skyblock:mcd__auto_crossbow"),
-                    Map.entry("skyblock:diamond_rapier", "skyblock:mcd__diamond_rapier"),
-                    Map.entry("skyblock:golden_rapier", "skyblock:mcd__golden_rapier"),
-                    Map.entry("skyblock:iron_rapier", "skyblock:mcd__iron_rapier"),
-                    Map.entry("skyblock:netherite_rapier", "skyblock:mcd__netherite_rapier"),
-                    Map.entry("skyblock:stone_rapier", "skyblock:mcd__stone_rapier"),
-                    Map.entry("skyblock:wooden_rapier", "skyblock:mcd__wooden_rapier")
+                    Map.entry("skyblock:lightning_sword", "skyblock:skyblock__lightning_sword")
             );
         }
     }

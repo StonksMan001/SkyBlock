@@ -1,6 +1,6 @@
 {
   "values": [
-    "#skyblock:has_durability/durability",
+    "#skyblock:has_durability/durable",
     "#skyblock:has_durability/crossbows",
     "#skyblock:has_durability/bows"
   ]

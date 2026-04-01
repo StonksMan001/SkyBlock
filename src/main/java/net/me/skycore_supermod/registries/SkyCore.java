@@ -1,41 +1,24 @@
 package net.me.skycore_supermod.registries;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper;
-import net.fabricmc.fabric.api.registry.FuelRegistry;
-import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
-import net.me.abyss_innermod.registries.*;
+import net.me.abyss_innermod.registries.AbyssCommon;
 import net.me.azalea_wood_innermod.registries.AzaleaWoodCommon;
-import net.me.azalea_wood_innermod.registries.AzaleaWood_Blocks;
-import net.me.backport_innermod.registries.*;
+import net.me.backport_innermod.registries.BackPortCommon;
 import net.me.beni_innermod.registries.BeniCommon;
-import net.me.beni_innermod.registries.Beni_Items;
 import net.me.bosc_innermod.registries.BunchOSculkCommon;
 import net.me.brainrot_innermod.registries.BrainrotCommon;
 import net.me.create_innermod.registries.CreateCommon;
-import net.me.halloween_innermod.registries.*;
-import net.me.bosc_innermod.registries.BOSC_BlockTags;
-import net.me.bosc_innermod.registries.BOSC_Blocks;
-import net.me.brainrot_innermod.registries.Brainrot_Blocks;
-import net.me.brainrot_innermod.registries.Brainrot_GameRules;
-import net.me.create_innermod.registries.Create_Items;
-import net.me.mcd_innermod.registries.*;
+import net.me.halloween_innermod.registries.HalloweenCommon;
 import net.me.pearfection_innermod.registries.PearfectionCommon;
-import net.me.pearfection_innermod.registries.Pearfection_Blocks;
 import net.me.quark_innermod.registries.QuarkCommon;
-import net.me.quark_innermod.registries.Quark_Blocks;
-import net.me.skyblock__innermod.registries.*;
+import net.me.skyblock__innermod.registries.SkyBlockCommon;
 import net.me.skycore_supermod.DataFixer;
-import net.me.skyblock__innermod.entities.OminousEvokerEntity;
 import net.me.skycore_supermod.InnerMod;
-import net.me.skycore_supermod.common_registries.SkyCore_ItemGroups;
 import net.me.skycore_supermod.common_registries.SkyCore_DataComponentTypes;
-import net.me.sp5_innermod.registries.*;
+import net.me.skycore_supermod.common_registries.SkyCore_ItemGroups;
+import net.me.sp5_innermod.registries.EnderiteAddonCommon;
 import net.me.witherstorm_innermod.registries.WitherstormCommon;
-import net.me.witherstorm_innermod.registries.Witherstorm_Items;
-import net.me.witherstorm_innermod.registries.Witherstorm_JukeBoxSongs;
-import net.me.witherstorm_innermod.registries.Witherstorm_Sounds;
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
@@ -84,7 +67,7 @@ public class SkyCore implements ModInitializer {
 		ArchivedRegistries.ArchivedItemRegistries.registerArchivedItems();
 		ArchivedRegistries.ArchivedBlockRegistries.registerArchivedBlocks();
 
-		//GhostItemRegistries.registerGhostItems();
+		GhostItemRegistries.registerGhostItems();
 		DataFixer.register();
 		// Should never touch
 
@@ -100,7 +83,6 @@ public class SkyCore implements ModInitializer {
 		InnerMod brainrot = new BrainrotCommon();
 		InnerMod create = new CreateCommon();
 		InnerMod halloween = new HalloweenCommon();
-		InnerMod mcd = new MCDCommon();
 		InnerMod pearfection = new PearfectionCommon();
 		InnerMod quark = new QuarkCommon();
 		InnerMod skyblock = new SkyBlockCommon();
@@ -114,7 +96,6 @@ public class SkyCore implements ModInitializer {
 		brainrot.activate();
 		create.activate();
 		halloween.activate();
-		mcd.activate();
 		pearfection.activate();
 		quark.activate();
 		skyblock.activate();

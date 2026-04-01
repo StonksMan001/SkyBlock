@@ -3,4 +3,11 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="21" />
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SkyBlockMod_Main(1.21.1)" options="-AoutRefMapFile=E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\build\classes\java\main\skyblock-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.main.tiny &quot;-AinMapFileNamedIntermediary=C:\Users\Abel Zalan Toth\.gradle\caches\fabric-loom\1.21.1\net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2\mappings.tiny&quot;" />
+      <module name="SkyBlockMod_Main(1.21.1).test" options="-AoutRefMapFile=E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\build\classes\java\test\test-skyblock-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.test.tiny &quot;-AinMapFileNamedIntermediary=C:\Users\Abel Zalan Toth\.gradle\caches\fabric-loom\1.21.1\net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2\mappings.tiny&quot;" />
+      <module name="net.me.skyblock.SkyBlockMod_Main(1.21.1).main" options="-AoutRefMapFile=E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\build\classes\java\main\skyblock-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=E:\PENNDRIVE\MODS_2\SkyBlockMod_Main(1.21.1)\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2.main.tiny &quot;-AinMapFileNamedIntermediary=C:\Users\Abel Zalan Toth\.gradle\caches\fabric-loom\1.21.1\net.fabricmc.yarn.1_21_1.1.21.1+build.3-v2\mappings.tiny&quot;" />
+    </option>
+  </component>
 </project>

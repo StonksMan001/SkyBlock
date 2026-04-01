@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "skyblock:block/mcd__ancient_lodestone_top",
-    "side": "skyblock:block/mcd__ancient_lodestone"
-  }
-}

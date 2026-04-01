@@ -5,7 +5,6 @@ import net.me.witherstorm_innermod.registries.Witherstorm_JukeBoxSongs;
 import net.me.skycore_supermod.common_registries.SkyCore_ToolMaterials;
 import net.me.skycore_supermod.ArmorAPI;
 import net.me.skycore_supermod.ToolAPI;
-import net.me.mcd_innermod.blocks.MossyOakPlanks;
 import net.me.skyblock__innermod.blocks.SuspiciousCoarseDirt;
 import net.me.skycore_supermod.ModStairsBlock;
 import net.me.skycore_supermod.item_utils.custom_unenchantable.UnenchantablePickaxeItem;
@@ -271,24 +270,6 @@ public class ArchivedRegistries {
                         .copy(Blocks.OAK_SLAB)
                         .strength(2.0f)
                         .mapColor(MapColor.TERRACOTTA_MAGENTA)));
-        @Deprecated
-        public static final Block MOSSIER_COBBLESTONE = registerBlock("mossier_cobblestone",
-                new Block(AbstractBlock.Settings
-                        .copy(Blocks.COBBLESTONE)
-                        .strength(2.0F, 6.0F)
-                        .mapColor(MapColor.CYAN)));
-        @Deprecated
-        public static final Block MOSSIER_OAK_PLANKS = registerBlock("mossier_oak_planks",
-                new MossyOakPlanks(AbstractBlock.Settings
-                        .copy(Blocks.OAK_PLANKS)
-                        .strength(2.0f, 3.0f)
-                        .mapColor(MapColor.OAK_TAN)));
-        @Deprecated
-        public static final Block MOSSIER_SPRUCE_PLANKS = registerBlock("mossier_spruce_planks",
-                new Block(AbstractBlock.Settings
-                        .copy(Blocks.SPRUCE_PLANKS)
-                        .strength(2.0f, 3.0f)
-                        .mapColor(MapColor.SPRUCE_BROWN)));
         @Deprecated
         public static final Block APPLE_CRATE = registerBlock("apple_crate",
                 new Block(AbstractBlock.Settings

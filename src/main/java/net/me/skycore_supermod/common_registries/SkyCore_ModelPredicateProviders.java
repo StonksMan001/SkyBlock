@@ -1,34 +1,24 @@
 package net.me.skycore_supermod.common_registries;
 
-import com.ibm.icu.text.Normalizer2;
-import net.me.mcd_innermod.registries.MCD_Items;
-import net.me.skyblock__innermod.registries.SB_DataComponentTypes;
-import net.me.skyblock__innermod.registries.SB_Items;
 import net.me.skycore_supermod.SkyblockHelpers;
-import net.me.skycore_supermod.registries.SkyCore;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.ChargedProjectilesComponent;
 import net.minecraft.component.type.ItemEnchantmentsComponent;
 import net.minecraft.component.type.WrittenBookContentComponent;
 import net.minecraft.enchantment.Enchantment;
-import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
-import net.minecraft.item.*;
+import net.minecraft.item.CrossbowItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Pair;
 
-import java.sql.Array;
 import java.util.Objects;
 
 public class SkyCore_ModelPredicateProviders {
     public static void registerModModels() {
-        registerBow(MCD_Items.MCD__SHORTBOW);
-        registerBow(MCD_Items.MCD__TWIN_BOW);
-        registerCrossbow(MCD_Items.MCD__AUTO_CROSSBOW);
         registerWrittenBookTextures(Items.WRITTEN_BOOK);
         registerEnchantedBookTextures(Items.ENCHANTED_BOOK);
     }

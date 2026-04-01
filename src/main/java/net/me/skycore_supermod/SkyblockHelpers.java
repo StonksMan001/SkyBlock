@@ -2,8 +2,6 @@ package net.me.skycore_supermod;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import net.me.halloween_innermod.registries.H_Enchantments;
-import net.me.mcd_innermod.components.McdRarity;
-import net.me.mcd_innermod.registries.MCD_DataComponentTypes;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.BowItem;
 import net.minecraft.item.CrossbowItem;
@@ -31,23 +29,6 @@ public interface SkyblockHelpers {
             return original.call(instance, item) || instance.getItem() instanceof CrossbowItem;
         }
         return original.call(instance, item);
-    }
-    static void appendMcdRarity(ItemStack stack, List<Text> tooltip) {
-        McdRarity mcdRarity = stack.get(MCD_DataComponentTypes.MCD__RARITY);
-        if (mcdRarity != null) {
-            switch (mcdRarity) {
-                case McdRarity.COMMON -> tooltip.add(Text.translatable("tooltip.skyblock.rarity.common"));
-                case McdRarity.RARE -> tooltip.add(Text.translatable("tooltip.skyblock.rarity.rare"));
-                case McdRarity.UNIQUE -> tooltip.add(Text.translatable("tooltip.skyblock.rarity.unique"));
-                default -> tooltip.add(Text.translatable("tooltip.skyblock.rarity.common")
-                        .append(Text.literal(" "))
-                        .append(Text.translatable("tooltip.skyblock.rarity_info_extended.custom")));
-            }
-        } else {
-            tooltip.add(Text.translatable("tooltip.skyblock.rarity.common")
-                    .append(Text.literal(" "))
-                    .append(Text.translatable("tooltip.skyblock.rarity_info_extended.custom")));
-        }
     }
     static void addEnchantmentToStack(ItemStack itemStack, RegistryWrapper.WrapperLookup wrapper, RegistryKey<Enchantment> enchantment, int level) {
         EnchantmentUtils.enchantInWorld(itemStack, enchantment, level, wrapper);

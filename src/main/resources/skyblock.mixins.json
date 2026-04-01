@@ -4,12 +4,9 @@
   "package": "net.me.skycore_supermod.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ArrowEntityMixin",
     "BookEditScreenMixin",
-    "ChorusPlantBlockMixin",
     "CropBlockMixin",
     "CrossbowItemAccessors",
-    "CrossBowItemMixin",
     "ExplosionMixin",
     "FarmlandBlockMixin",
     "GatherItemsVillagerTaskMixin",
@@ -36,9 +33,7 @@
     "quark.zeta.PistonHandlerAccessor"
   ],
   "client": [
-    "AbstractClientPlayerEntityMixin",
     "BookEditScreenMixin",
-    "ChorusPlantBlockMixin",
     "HeldItemRendererMixin",
     "HoneyBlockMixin",
     "ItemGroupIconSupplierAccessor",

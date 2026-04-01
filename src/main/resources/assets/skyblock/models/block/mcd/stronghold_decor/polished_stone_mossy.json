@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "skyblock:block/mcd__stronghold_decor/mcd__polished_stone_mossy"
-  }
-}

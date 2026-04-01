@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "mossier=true": { "model": "skyblock:block/mcd/mossier_oak_planks" },
-    "mossier=false": { "model": "skyblock:block/mcd/mossy_oak_planks" }
-  }
-}

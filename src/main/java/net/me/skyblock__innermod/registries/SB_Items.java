@@ -1,6 +1,7 @@
 package net.me.skyblock__innermod.registries;
 
 import net.me.skyblock__innermod.items.*;
+import net.me.skycore_supermod.ToolAPI;
 import net.me.skycore_supermod.common_registries.SkyCore_ToolMaterials;
 import net.me.skycore_supermod.registries.SkyCore;
 import net.minecraft.block.Blocks;
@@ -100,6 +101,25 @@ public class SB_Items {
                             "tooltip.skyblock.skyblock__torch_of_lunacy.background_info.tooltip3",
                             "tooltip.skyblock.skyblock__torch_of_lunacy.background_info.tooltip4"
                     }));
+    public static final Item MCD__DIAMOND_RAPIER = SkyCore.BuiltinRegistries.registerItem("mcd__diamond_rapier",
+            new ToolAPI.SwordItem(ToolMaterials.DIAMOND, 2, Float.MAX_VALUE, new Item.Settings()));
+    public static final Item MCD__GOLDEN_RAPIER = SkyCore.BuiltinRegistries.registerItem("mcd__golden_rapier",
+            new ToolAPI.SwordItem(ToolMaterials.GOLD, 2, Float.MAX_VALUE, new Item.Settings()));
+    public static final Item MCD__IRON_RAPIER = SkyCore.BuiltinRegistries.registerItem("mcd__iron_rapier",
+            new ToolAPI.SwordItem(ToolMaterials.IRON, 2, Float.MAX_VALUE, new Item.Settings()));
+    public static final Item MCD__NETHERITE_RAPIER = SkyCore.BuiltinRegistries.registerItem("mcd__netherite_rapier",
+            new ToolAPI.SwordItem(ToolMaterials.NETHERITE, 2, Float.MAX_VALUE, new Item.Settings()));
+    public static final Item MCD__STONE_RAPIER = SkyCore.BuiltinRegistries.registerItem("mcd__stone_rapier",
+            new ToolAPI.SwordItem(ToolMaterials.STONE, 2, Float.MAX_VALUE, new Item.Settings()));
+    public static final Item MCD__WOODEN_RAPIER = SkyCore.BuiltinRegistries.registerItem("mcd__wooden_rapier",
+            new ToolAPI.SwordItem(ToolMaterials.WOOD, 2, Float.MAX_VALUE, new Item.Settings()));
+    public static final Item MCD__VILLAGER_STATUE = SkyCore.BuiltinRegistries.registerItem("mcd__villager_statue",
+            new Item(new Item.Settings().rarity(Rarity.EPIC))); //TODO
+    public static final Item MCD__DIAMOND_KEY = SkyCore.BuiltinRegistries.registerItem("mcd__diamond_key",
+            new Item(new Item.Settings().rarity(Rarity.EPIC).maxCount(1))); //TODO
+    public static final Item MCD__GOLD_KEY = SkyCore.BuiltinRegistries.registerItem("mcd__gold_key",
+            new Item(new Item.Settings().rarity(Rarity.EPIC).maxCount(1))); //TODO
+
     public static void register() {
         SkyCore.LOGGER.info("[SkyBlock MultiMod] Registering Items for \"SkyBlock\" innermod");
     }

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld_mace",
-  "textures": {
-    "layer0": "skyblock:item/mcd__steel_mace"
-  }
-}

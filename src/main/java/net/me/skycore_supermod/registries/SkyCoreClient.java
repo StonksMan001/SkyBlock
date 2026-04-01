@@ -6,34 +6,25 @@ import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.me.abyss_innermod.registries.Abyss_Blocks;
 import net.me.backport_innermod.registries.BP_Blocks;
-import net.me.mcd_innermod.registries.MCD_RenderLayers;
-import net.me.skycore_supermod.deprecated.benimod.entities.rendering.NativeVillagerRenderer;
 import net.me.bosc_innermod.registries.BOSC_Blocks;
 import net.me.brainrot_innermod.registries.Brainrot_Blocks;
-import net.me.mcd_innermod.registries.MCD_Blocks;
 import net.me.pearfection_innermod.registries.Pearfection_Blocks;
-import net.me.quark_innermod.base.QuarkFabricClient;
 import net.me.quark_innermod.registries.Quark_Blocks;
 import net.me.skyblock__innermod.entities.rendering.OminousEvokerRenderer;
-import net.me.skycore_supermod.common_registries.SkyCore_BlockEntityRendererFactories;
 import net.me.skyblock__innermod.registries.SB_Blocks;
 import net.me.skyblock__innermod.registries.SB_EntityTypes;
 import net.me.skycore_supermod.common_registries.SkyCore_ModelPredicateProviders;
-import net.me.skycore_supermod.deprecated.benimod.BenimodRegistries;
 import net.me.sp5_innermod.registries.SP5_Blocks;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.world.biome.GrassColors;
 
 public class SkyCoreClient implements ClientModInitializer {
-
-
     @Override
     public void onInitializeClient() {
         //QuarkFabricClient quarkClient = new QuarkFabricClient();
         //quarkClient.onInitializeClient();
 
-        MCD_RenderLayers.register();
         // Should never touch
         BlockRenderLayerMap.INSTANCE.putBlock(ArchivedRegistries.ArchivedBlockRegistries.ANT_JAM_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ArchivedRegistries.ArchivedBlockRegistries.SWEET_BERRY_JAM_BLOCK, RenderLayer.getTranslucent());
@@ -89,9 +80,6 @@ public class SkyCoreClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(SP5_Blocks.SP5__END_BUSH, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SP5_Blocks.SP5__END_FLOWER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SP5_Blocks.SP5__WARPED_NAVI_PLANT, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(MCD_Blocks.MCD__VOID_BLOCK, RenderLayer.getEndGateway());
-        BlockRenderLayerMap.INSTANCE.putBlock(MCD_Blocks.MCD__POP_FLOWER, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(MCD_Blocks.MCD__MIDNIGHT_SPROUTS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__BLUE_BORDER_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__RED_BORDER_BLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(SB_Blocks.SKYBLOCK__GREEN_BORDER_BLOCK, RenderLayer.getTranslucent());
@@ -99,7 +87,6 @@ public class SkyCoreClient implements ClientModInitializer {
         //EntityRendererRegistry.register(ModEntities.MCD__WISP, WispRenderer::new); //TODO: this
         EntityRendererRegistry.register(SB_EntityTypes.SKYBLOCK__OMINOUS_EVOKER, OminousEvokerRenderer::new);
         SkyCore_ModelPredicateProviders.registerModModels();
-        SkyCore_BlockEntityRendererFactories.registerModBlockEntityRendererFactories();
 
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> world != null && pos != null ? BiomeColors.getGrassColor(world, pos)
                 : GrassColors.getDefaultColor(), SB_Blocks.SKYBLOCK__CLOVER);

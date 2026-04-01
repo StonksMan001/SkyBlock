@@ -1,8 +1,6 @@
 package net.me.skyblock__innermod.blocks;
 
 import com.mojang.serialization.MapCodec;
-import net.me.mcd_innermod.registries.MCD_Items;
-import net.me.mcd_innermod.registries.MCD_Sounds;
 import net.me.skyblock__innermod.registries.SB_BlockEntities;
 import net.me.skycore_supermod.BlockEntityAPI;
 import net.me.skyblock__innermod.block_entities.AncientPedestalBlockEntity;
@@ -13,16 +11,20 @@ import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvent;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.EnumProperty;
 import net.minecraft.state.property.IntProperty;
 import net.minecraft.util.Hand;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.ItemActionResult;
 import net.minecraft.util.StringIdentifiable;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.Objects;
 
 public class AncientPedestalBlock extends Block implements BlockEntityProvider {
     public static EnumProperty<AncientPedestalBlock.Type> TYPE = EnumProperty.of("type", AncientPedestalBlock.Type.class);
@@ -37,25 +39,25 @@ public class AncientPedestalBlock extends Block implements BlockEntityProvider {
     @Override
     protected ItemActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         ItemStack itemStack = player.getStackInHand(hand);
-        if (itemStack.isOf(MCD_Items.MCD__ANCIENT_GOLD_INGOT) && !world.isClient) {
+        if (Objects.equals(itemStack.getItem().toString(), "dungeons_reborn:ancient_gold_ingot") && !world.isClient) {
             if (state.get(TYPE) == Type.DEFAULT) {
                 world.setBlockState(pos, state
                         .with(TYPE, Type.WITH_ANCIENT_GOLD)
                         .with(OCCUPIED_SLOTS, 1)
                         .with(NUGGET_OF_EXPERIENCE_CONVERTIBLE, 64));
                 stack.decrementUnlessCreative(1, player);
-                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5, (double)pos.getZ() + 0.5, MCD_Sounds.MCD__ANCIENT_GOLD_PICK_UP, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5, (double)pos.getZ() + 0.5, SoundEvent.of(Identifier.of("dungeons_reborn:ancient_gold_pick_up")), SoundCategory.BLOCKS, 1.0F, 1.0F);
                 return ItemActionResult.SUCCESS;
             } else if (state.get(TYPE) == Type.WITH_ANCIENT_GOLD) {
                 if (state.get(OCCUPIED_SLOTS) != 3) {
                     world.setBlockState(pos, state.with(OCCUPIED_SLOTS, state.get(OCCUPIED_SLOTS) + 1));
                     stack.decrementUnlessCreative(1, player);
-                    world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5, (double)pos.getZ() + 0.5, MCD_Sounds.MCD__ANCIENT_GOLD_PICK_UP, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                    world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5, (double)pos.getZ() + 0.5, SoundEvent.of(Identifier.of("dungeons_reborn:ancient_gold_pick_up")), SoundCategory.BLOCKS, 1.0F, 1.0F);
                     return ItemActionResult.SUCCESS;
                 } else if (state.get(NUGGET_OF_EXPERIENCE_CONVERTIBLE) != 64) {
                     world.setBlockState(pos, state.with(NUGGET_OF_EXPERIENCE_CONVERTIBLE, 64));
                     stack.decrementUnlessCreative(1, player);
-                    world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5, (double)pos.getZ() + 0.5, MCD_Sounds.MCD__ANCIENT_GOLD_PICK_UP, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                    world.playSound(null, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5, (double)pos.getZ() + 0.5, SoundEvent.of(Identifier.of("dungeons_reborn:ancient_gold_pick_up")), SoundCategory.BLOCKS, 1.0F, 1.0F);
                     return ItemActionResult.SUCCESS;
                 }
             }

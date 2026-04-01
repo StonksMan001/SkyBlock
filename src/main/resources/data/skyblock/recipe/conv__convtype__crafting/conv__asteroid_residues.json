@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:asteroid_residues"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyblock:sp5__asteroid_residues"
+  }
+}

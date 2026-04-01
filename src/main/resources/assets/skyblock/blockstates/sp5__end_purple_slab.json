@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skyblock:block/sp5__end_purple_slab"
+      "model": "skyblock:block/sp5/end_purple_slab"
     },
     "type=double": {
-      "model": "skyblock:block/sp5__end_purple_block"
+      "model": "skyblock:block/sp5/end_purple_block"
     },
     "type=top": {
-      "model": "skyblock:block/sp5__end_purple_slab_top"
+      "model": "skyblock:block/sp5/end_purple_slab_top"
     }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "skyblock:sp5__enderite_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "skyblock:sp5__enderite_ingot"
+  }
+}

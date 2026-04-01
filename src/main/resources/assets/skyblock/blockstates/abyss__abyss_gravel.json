@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/abyss_gravel" }
+    "": { "model": "skyblock:block/abyss/abyss_gravel" }
   }
 }

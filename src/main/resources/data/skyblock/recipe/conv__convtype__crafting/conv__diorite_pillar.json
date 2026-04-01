@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:diorite_pillar"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyblock:quark__diorite_pillar"
+  }
+}

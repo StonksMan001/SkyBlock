@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/mossier_cobblestone" }
+    "": { "model": "skyblock:block/mcd/mossier_cobblestone" }
   }
 }

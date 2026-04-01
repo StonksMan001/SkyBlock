@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/abyss_aberythe_ore" }
+    "": { "model": "skyblock:block/abyss/abyss_aberythe_ore" }
   }
 }

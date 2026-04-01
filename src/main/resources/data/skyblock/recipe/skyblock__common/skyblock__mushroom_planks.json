@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "skyblock:skyblock__mushroom_stems"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "skyblock:skyblock__mushroom_planks"
+  }
+}

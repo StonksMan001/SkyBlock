@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/nether_wart_sack" }
+    "": { "model": "skyblock:block/quark/nether_wart_sack" }
   }
 }

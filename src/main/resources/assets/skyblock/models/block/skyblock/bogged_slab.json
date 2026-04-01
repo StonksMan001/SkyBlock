@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "skyblock:block/skyblock/bogged_planks",
+    "side": "skyblock:block/skyblock/bogged_planks",
+    "top": "skyblock:block/skyblock/bogged_planks"
+  }
+}

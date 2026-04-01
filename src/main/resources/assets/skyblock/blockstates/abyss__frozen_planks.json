@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skyblock:block/frozen_planks"
+      "model": "skyblock:block/abyss/frozen_planks"
     }
   }
 }

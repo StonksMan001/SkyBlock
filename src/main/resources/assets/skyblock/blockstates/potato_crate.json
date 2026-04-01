@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/potato_crate" }
+    "": { "model": "skyblock:block/quark/potato_crate" }
   }
 }

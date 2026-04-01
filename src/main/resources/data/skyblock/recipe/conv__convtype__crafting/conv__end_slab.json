@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skyblock:end_slab"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyblock:sp5__end_slab"
+  }
+}

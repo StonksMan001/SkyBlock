@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:end_stone"
-  },
-  "result": "skyblock:sp5__end_stone_pillar"
-}

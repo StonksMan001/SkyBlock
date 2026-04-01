@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skyblock:block/frozen_slab"
+      "model": "skyblock:block/abyss/frozen_slab"
     },
     "type=double": {
-      "model": "skyblock:block/frozen_planks"
+      "model": "skyblock:block/abyss/frozen_planks"
     },
     "type=top": {
-      "model": "skyblock:block/frozen_slab_top"
+      "model": "skyblock:block/abyss/frozen_slab_top"
     }
   }
 }

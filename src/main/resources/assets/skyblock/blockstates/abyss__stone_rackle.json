@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/stone_rackle" }
+    "": { "model": "skyblock:block/abyss/stone_rackle" }
   }
 }

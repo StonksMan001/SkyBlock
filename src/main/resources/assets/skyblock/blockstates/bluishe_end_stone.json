@@ -2,18 +2,18 @@
   "variants": {
     "": [
       {
-        "model": "skyblock:block/bluishe_end_stone"
+        "model": "skyblock:block/sp5/bluishe_end_stone"
       },
       {
-        "model": "skyblock:block/bluishe_end_stone",
+        "model": "skyblock:block/sp5/bluishe_end_stone",
         "y": 90
       },
       {
-        "model": "skyblock:block/bluishe_end_stone",
+        "model": "skyblock:block/sp5/bluishe_end_stone",
         "y": 180
       },
       {
-        "model": "skyblock:block/bluishe_end_stone",
+        "model": "skyblock:block/sp5/bluishe_end_stone",
         "y": 270
       }
     ]

@@ -2,7 +2,7 @@
   "multipart": [
     {
       "apply": {
-        "model": "skyblock:block/cave_roots"
+        "model": "skyblock:block/quark/cave_roots"
       },
       "when": {
         "north": "true"
@@ -10,9 +10,10 @@
     },
     {
       "apply": {
-        "model": "skyblock:block/cave_roots"
+        "model": "skyblock:block/quark/cave_roots"
       },
       "when": {
+        "down": "false",
         "east": "false",
         "north": "false",
         "south": "false",
@@ -22,7 +23,7 @@
     },
     {
       "apply": {
-        "model": "skyblock:block/cave_roots",
+        "model": "skyblock:block/quark/cave_roots",
         "uvlock": true,
         "y": 90
       },
@@ -32,11 +33,12 @@
     },
     {
       "apply": {
-        "model": "skyblock:block/cave_roots",
+        "model": "skyblock:block/quark/cave_roots",
         "uvlock": true,
         "y": 90
       },
       "when": {
+        "down": "false",
         "east": "false",
         "north": "false",
         "south": "false",
@@ -46,7 +48,7 @@
     },
     {
       "apply": {
-        "model": "skyblock:block/cave_roots",
+        "model": "skyblock:block/quark/cave_roots",
         "uvlock": true,
         "y": 180
       },
@@ -56,11 +58,12 @@
     },
     {
       "apply": {
-        "model": "skyblock:block/cave_roots",
+        "model": "skyblock:block/quark/cave_roots",
         "uvlock": true,
         "y": 180
       },
       "when": {
+        "down": "false",
         "east": "false",
         "north": "false",
         "south": "false",
@@ -70,7 +73,7 @@
     },
     {
       "apply": {
-        "model": "skyblock:block/cave_roots",
+        "model": "skyblock:block/quark/cave_roots",
         "uvlock": true,
         "y": 270
       },
@@ -80,11 +83,12 @@
     },
     {
       "apply": {
-        "model": "skyblock:block/cave_roots",
+        "model": "skyblock:block/quark/cave_roots",
         "uvlock": true,
         "y": 270
       },
       "when": {
+        "down": "false",
         "east": "false",
         "north": "false",
         "south": "false",
@@ -94,7 +98,7 @@
     },
     {
       "apply": {
-        "model": "skyblock:block/cave_roots",
+        "model": "skyblock:block/quark/cave_roots",
         "uvlock": true,
         "x": 270
       },
@@ -104,11 +108,37 @@
     },
     {
       "apply": {
-        "model": "skyblock:block/cave_roots",
+        "model": "skyblock:block/quark/cave_roots",
         "uvlock": true,
         "x": 270
       },
       "when": {
+        "down": "false",
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "up": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "skyblock:block/quark/cave_roots",
+        "uvlock": true,
+        "x": 90
+      },
+      "when": {
+        "down": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "skyblock:block/quark/cave_roots",
+        "uvlock": true,
+        "x": 90
+      },
+      "when": {
+        "down": "false",
         "east": "false",
         "north": "false",
         "south": "false",

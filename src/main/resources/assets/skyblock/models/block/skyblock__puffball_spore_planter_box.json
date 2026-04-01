@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "top": "skyblock:block/skyblock__puffball_spore_planter_box_top",
+        "bottom": "skyblock:block/skyblock__spore_planter_box_bottom",
+        "side": "skyblock:block/skyblock__puffball_spore_planter_box_side"
+    }
+}

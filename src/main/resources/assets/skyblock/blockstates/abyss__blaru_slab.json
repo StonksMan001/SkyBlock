@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skyblock:block/blaru_slab"
+      "model": "skyblock:block/abyss/blaru_slab"
     },
     "type=double": {
-      "model": "skyblock:block/blaru_planks"
+      "model": "skyblock:block/abyss/blaru_planks"
     },
     "type=top": {
-      "model": "skyblock:block/blaru_slab_top"
+      "model": "skyblock:block/abyss/blaru_slab_top"
     }
   }
 }

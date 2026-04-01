@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/asteroid_residues" }
+    "": { "model": "skyblock:block/sp5/asteroid_residues" }
   }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "skyblock:block/bosc__dead_sculk_sprouts"
+  }
+}

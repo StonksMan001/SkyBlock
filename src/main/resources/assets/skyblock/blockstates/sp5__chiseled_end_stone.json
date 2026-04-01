@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skyblock:block/sp5__chiseled_end_stone"
+      "model": "skyblock:block/sp5/chiseled_end_stone"
     }
   }
 }

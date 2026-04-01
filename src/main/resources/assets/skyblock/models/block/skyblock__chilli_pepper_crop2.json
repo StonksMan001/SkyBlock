@@ -1,0 +1,6 @@
+{
+	"parent": "skyblock:block/presets/tinted_cross_crop",
+	"textures": {
+		"cross": "skyblock:block/skyblock__chilli_pepper_crop2"
+	}
+}

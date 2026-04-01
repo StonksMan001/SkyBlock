@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "skyblock:bp__pale_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "skyblock:bp__pale_planks"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "skyblock:item/z__tile_skyblock2p1_3"
+  },
+  "display": {
+    "gui": {
+      "scale": [1.5, 1.5, 1.5]
+    },
+    "fixed": {
+      "scale": [1.5, 1.5, 1.5]
+    }
+  }
+}

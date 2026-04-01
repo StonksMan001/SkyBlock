@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "skyblock:block/azalea_slab"
+      "model": "skyblock:block/flogical/azalea_slab"
     },
     "type=double": {
-      "model": "skyblock:block/azalea_planks"
+      "model": "skyblock:block/flogical/azalea_planks"
     },
     "type=top": {
-      "model": "skyblock:block/azalea_slab_top"
+      "model": "skyblock:block/flogical/azalea_slab_top"
     }
   }
 }

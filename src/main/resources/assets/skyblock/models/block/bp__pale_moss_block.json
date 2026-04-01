@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "skyblock:block/bp__pale_moss_block"
+  }
+}

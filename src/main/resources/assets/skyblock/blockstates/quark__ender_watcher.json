@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"watched=false": { "model": "skyblock:block/quark/ender_watcher" },
+		"watched=true": { "model": "skyblock:block/quark/ender_watcher_on" }
+	}
+}

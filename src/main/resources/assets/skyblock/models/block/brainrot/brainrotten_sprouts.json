@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "skyblock:block/brainrot/brainrotten_sprouts"
+  }
+}

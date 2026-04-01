@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/abyss_slime_block" }
+    "": { "model": "skyblock:block/abyss/abyss_slime_block" }
   }
 }

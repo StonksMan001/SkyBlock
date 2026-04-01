@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "skyblock:skyblock__chert_pillar_craftable_from"
+  },
+  "result": {
+    "count": 1,
+    "id": "skyblock:skyblock__polished_chert_stairs"
+  }
+}

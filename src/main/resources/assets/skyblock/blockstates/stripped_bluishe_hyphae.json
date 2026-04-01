@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "skyblock:block/stripped_bluishe_hyphae",
+      "model": "skyblock:block/sp5/stripped_bluishe_hyphae",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "skyblock:block/stripped_bluishe_hyphae"
+      "model": "skyblock:block/sp5/stripped_bluishe_hyphae"
     },
     "axis=z": {
-      "model": "skyblock:block/stripped_bluishe_hyphae",
+      "model": "skyblock:block/sp5/stripped_bluishe_hyphae",
       "x": 90
     }
   }

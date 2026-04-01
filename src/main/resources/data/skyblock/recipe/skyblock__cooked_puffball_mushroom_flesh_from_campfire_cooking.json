@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "skyblock:skyblock__puffball_mushroom_flesh"
+  },
+  "result": {
+    "id": "skyblock:skyblock__cooked_puffball_mushroom_flesh"
+  }
+}

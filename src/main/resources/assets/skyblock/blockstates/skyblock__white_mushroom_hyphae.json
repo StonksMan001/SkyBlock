@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "skyblock:block/skyblock__white_mushroom_hyphae",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "skyblock:block/skyblock__white_mushroom_hyphae"
+    },
+    "axis=z": {
+      "model": "skyblock:block/skyblock__white_mushroom_hyphae",
+      "x": 90
+    }
+  }
+}

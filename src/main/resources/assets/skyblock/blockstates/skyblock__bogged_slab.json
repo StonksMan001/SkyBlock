@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyblock:block/skyblock/bogged_slab"
+    },
+    "type=double": {
+      "model": "skyblock:block/skyblock/bogged_planks"
+    },
+    "type=top": {
+      "model": "skyblock:block/skyblock/bogged_slab_top"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyblock:block/skyblock/carved_bogged_planks_top",
+    "side": "skyblock:block/skyblock/carved_bogged_planks"
+  }
+}

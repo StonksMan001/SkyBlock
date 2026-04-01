@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/abyss_diamond_ore" }
+    "": { "model": "skyblock:block/abyss/abyss_diamond_ore" }
   }
 }

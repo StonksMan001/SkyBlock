@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "skyblock:block/vigilant_planks"
+      "model": "skyblock:block/abyss/vigilant_planks"
     }
   }
 }

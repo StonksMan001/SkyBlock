@@ -1,23 +1,44 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.me.skyblock.api.mixin",
-  "compatibilityLevel": "JAVA_17",
+  "package": "net.me.skycore_supermod.mixin",
+  "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ChorusPlantBlockMixin",
+    "BookEditScreenMixin",
+    "CropBlockMixin",
+    "CrossbowItemAccessors",
+    "ExplosionMixin",
+    "FarmlandBlockMixin",
+    "GatherItemsVillagerTaskMixin",
+    "GrindStoneScreenHandlerMixin",
+    "HoneyBlockMixin",
     "ItemGroupIconSupplierAccessor",
     "ItemGroupsMixin",
+    "LivingEntityMixin",
+    "PaneBlockMixin",
+    "PlayerEntityRendererMixin",
+    "ProjectileAttackGoalAccessor",
+    "SculkVeinGrowCheckerMixin",
+    "StainedGlassBlockMixin",
+    "TransparentBlockMixin",
+    "VillagerEntityMixin",
     "WrittenBookItemMixin",
-    "BookEditScreenMixin",
-    "HoneyBlockMixin"
+    "quark.FallingBlockEntityAccessor",
+    "quark.PistonHandlerMixin",
+    "quark.TemptationsSensorAccessor",
+    "quark.TemptationsSensorMixin",
+    "quark.TemptGoalAccessor",
+    "quark.TemptGoalMixin",
+    "quark.zeta.PistonBlockMixin",
+    "quark.zeta.PistonHandlerAccessor"
   ],
   "client": [
-    "ChorusPlantBlockMixin",
+    "BookEditScreenMixin",
+    "HeldItemRendererMixin",
+    "HoneyBlockMixin",
     "ItemGroupIconSupplierAccessor",
     "ItemGroupsMixin",
-    "WrittenBookItemMixin",
-    "BookEditScreenMixin",
-    "HoneyBlockMixin"
+    "WrittenBookItemMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -18,7 +18,7 @@ java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to err
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
 Caused by: java.lang.ExceptionInInitializerError
-	at net.me.skyblock.SkyBlock.onInitialize(SkyBlock.java:18)
+	at net.me.skyblock.registries.SkyBlock.onInitialize(SkyBlock.java:18)
 	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
 	... 9 more
 Caused by: java.lang.RuntimeException: Attempted to register ID ResourceKey[minecraft:item / skyblock:end_emerald_block] at different raw IDs (1192, 1194)! If you're trying to override an item, use .set(), not .register()!
@@ -28,9 +28,9 @@ Caused by: java.lang.RuntimeException: Attempted to register ID ResourceKey[mine
 	at net.minecraft.registry.SimpleRegistry.add(SimpleRegistry.java:186)
 	at net.minecraft.registry.Registry.register(Registry.java:118)
 	at net.minecraft.registry.Registry.register(Registry.java:114)
-	at net.me.skyblock.blocks_and_items.ModBlocks.registerBlockItem(ModBlocks.java:54)
-	at net.me.skyblock.blocks_and_items.ModBlocks.registerBlock(ModBlocks.java:49)
-	at net.me.skyblock.blocks_and_items.ModBlocks.<clinit>(ModBlocks.java:32)
+	at net.me.skyblock.registries.SkyBlockRegistries.BlockRegistries.registerBlockItem(ModBlocks.java:54)
+	at net.me.skyblock.registries.SkyBlockRegistries.BlockRegistries.registerBlock(ModBlocks.java:49)
+	at net.me.skyblock.registries.SkyBlockRegistries.BlockRegistries.<clinit>(ModBlocks.java:32)
 	... 11 more
 
 

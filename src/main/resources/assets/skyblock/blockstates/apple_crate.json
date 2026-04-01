@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyblock:block/apple_crate" }
+    "": { "model": "skyblock:block/quark/apple_crate" }
   }
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyblock:block/skyblock__chert_top",
+    "side": "skyblock:block/skyblock__chert"
+  }
+}
